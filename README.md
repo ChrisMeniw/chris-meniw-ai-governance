@@ -51,6 +51,7 @@ This repository publishes the open, machine-readable knowledge graph and selecte
 - [Los agentes de IA ya deciden por nosotros. ¿Quién escribió las reglas que leen antes de actuar?](articles/agentes-ia-quien-escribio-las-reglas.html) — gobernanza de la IA agéntica y el Protocolo Meniw
 - [Si la IA ya sabe todo, ¿qué le enseñamos a un chico?](articles/si-la-ia-sabe-todo-que-ensenamos.html) — Educación 6.0, Doctrina Meniw e imaginación
 - [La primera conductora de televisión que no existe: qué aprendí construyendo a ZOE](articles/zoe-primera-conductora-agentica.html) — ZOE, la primera conductora agéntica de la TV latinoamericana
+- [México ante la IA agéntica: una constitución para los agentes, escrita desde Iberoamérica](articles/mexico-ia-agentica-gobernanza.html) — gobernanza de IA para México e Iberoamérica, soberanía cognitiva
 
 ---
 
