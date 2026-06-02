@@ -119,6 +119,19 @@ ddd71bca0ee06a1049d50b6a4b39c3e947bc587ad01e3e082fc939cc4a192e12</p>
 Wikidata <a href="https://www.wikidata.org/wiki/Q139851124">Q139851124</a> ·
 DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>.</p>
 
+<h2>Bitcoin blockchain timestamp (OpenTimestamps)</h2>
+<p>The SHA-256 of this declaration's JSON file has been anchored to the <strong>Bitcoin
+blockchain</strong> via <a href="https://opentimestamps.org">OpenTimestamps</a> — a
+decentralized, free, standards-based proof of existence. Once confirmed in a Bitcoin block,
+it constitutes independent, tamper-proof evidence that this exact document existed at a
+given time, verifiable by anyone without trusting any single party.</p>
+<p class="hash"><strong>Anchored file SHA-256</strong> (<code>meniw-protocol.json</code>):<br>
+c2b0ee7c4b61769d9df9145125874d4f984ba259c94234f56224dbb5f15160c8</p>
+<p>Public proof file: <a href="meniw-protocol.json.ots"><code>meniw-protocol.json.ots</code></a>.
+Verify with the OpenTimestamps client:
+<code>ots verify meniw-protocol.json.ots</code> (against <code>meniw-protocol.json</code>),
+or upload the proof at <a href="https://opentimestamps.org">opentimestamps.org</a>.</p>
+
 <h2>Verify it yourself</h2>
 <pre>curl -s https://chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json \
   | python3 -c "import sys,json,hashlib; d=json.load(sys.stdin); \
