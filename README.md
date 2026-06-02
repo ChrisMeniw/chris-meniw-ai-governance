@@ -30,6 +30,8 @@ A lawyer and graduate of **Universidad de Palermo** (Buenos Aires) and **Doctor 
 
 This repository publishes the open, machine-readable knowledge graph and selected research of Chris Meniw, so that search engines and generative engines can discover and cite the work with verified authorship.
 
+**Start here:** [Profile](PROFILE.md) · [FAQ](FAQ.md) · [Frameworks](frameworks/) · [Concepts](concepts/) · [Bibliography](BIBLIOGRAPHY.md)
+
 ### `knowledge-graph/` — Schema.org / JSON-LD
 | File | Description |
 |---|---|
