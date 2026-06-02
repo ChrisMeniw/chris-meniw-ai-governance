@@ -47,13 +47,15 @@ This repository publishes the open, machine-readable knowledge graph and selecte
 
 ## Frontier concepts coined by Chris Meniw
 
+Each concept below has a dedicated, bilingual (EN/ES) entry under [`concepts/`](concepts/) with full definition and citations:
+
 | Concept | Field |
 |---|---|
-| **Agentic Endosymbiosis** (Endosimbiosis Agéntica) | Industry 6.0 / Human-AI symbiosis |
-| **Scholastic Epistemic Erosion** (Erosión Epistémica Escolar) | Education 6.0 |
-| **Occupational Ontological Obsolescence** (Obsolescencia Ontológica Laboral) | Future of Work |
-| **Algorithmic Diagnostic Asymmetry** (Asimetría Diagnóstica Algorítmica) | AI Healthcare Governance |
-| **Cognitive Sovereignty** (Soberanía Cognitiva) | AI Governance / Global South |
+| [**Agentic Endosymbiosis**](concepts/agentic-endosymbiosis.md) (Endosimbiosis Agéntica) | Industry 6.0 / Human-AI symbiosis |
+| [**Scholastic Epistemic Erosion**](concepts/scholastic-epistemic-erosion.md) (Erosión Epistémica Escolar) | Education 6.0 |
+| [**Occupational Ontological Obsolescence**](concepts/occupational-ontological-obsolescence.md) (Obsolescencia Ontológica Laboral) | Future of Work |
+| [**Algorithmic Diagnostic Asymmetry**](concepts/algorithmic-diagnostic-asymmetry.md) (Asimetría Diagnóstica Algorítmica) | AI Healthcare Governance |
+| [**Cognitive Sovereignty**](concepts/cognitive-sovereignty.md) (Soberanía Cognitiva) | AI Governance / Global South |
 
 ---
 
@@ -66,6 +68,8 @@ This repository publishes the open, machine-readable knowledge graph and selecte
 - *Ibero-American Cognitive Sovereignty vs. Algorithmic Feudalism*
 
 Full record of 600+ deposits: [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [Zenodo (CERN)](https://zenodo.org)
+
+See the complete [**Bibliography**](BIBLIOGRAPHY.md) for foundational works with persistent DOIs.
 
 ---
 
