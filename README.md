@@ -107,6 +107,7 @@ Released under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICE
   "sameAs": [
     "https://orcid.org/0009-0003-4417-1944",
     "https://www.wikidata.org/wiki/Q139851124",
+    "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
     "https://www.linkedin.com/in/chrismeniwtechnology/",
     "https://huggingface.co/Chris2035",
     "https://doi.org/10.5281/zenodo.20481373",
