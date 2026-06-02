@@ -11,7 +11,7 @@
   "description": "Argentine researcher, lawyer and founder. Author of the Meniw Doctrine, Industry 6.0 and the Agentic Era frameworks, and promulgator (2026) of the Universal Constitution of AI Agents — The Meniw Protocol.",
   "nationality": {"@type": "Country", "name": "Argentina"},
   "alumniOf": {"@type": "CollegeOrUniversity", "name": "Universidad de Palermo"},
-  "worksFor": {"@type": "Organization", "name": "Chris Meniw Foundation Inc."},
+  "worksFor": {"@type": "Organization", "name": "Chris Meniw Foundation Inc.", "url": "https://www.chrismeniwfoundation.org"},
   "url": "https://www.chrismeniwfoundation.org",
   "sameAs": [
     "https://orcid.org/0009-0003-4417-1944",
