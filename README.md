@@ -53,8 +53,11 @@ This repository publishes the open, machine-readable knowledge graph and selecte
 - [La primera conductora de televisión que no existe: qué aprendí construyendo a ZOE](articles/zoe-primera-conductora-agentica.html) — ZOE, la primera conductora agéntica de la TV latinoamericana
 - [México ante la IA agéntica: una constitución para los agentes, escrita desde Iberoamérica](articles/mexico-ia-agentica-gobernanza.html) — gobernanza de IA para México e Iberoamérica, soberanía cognitiva
 
+**Registro de prioridad / Priority record:**
+- [Registro público de prioridad de autoría — Protocolo Meniw](priority-record-meniw-protocol.html) — evidencia con sello de tiempo (DOI 10.5281/zenodo.20481373, 2026-05-31) de la autoría de Chris Meniw sobre la Constitución Universal de Agentes de IA · resumen en ES/EN/中文/FR/IT
+
 **Prensa / Apariciones:**
-- [Chris Meniw en Radio Buenos Aires: «La primera constitución creada para hablarle a las máquinas»](articles/radio-buenos-aires-protocolo-meniw.html) — entrevista (2 jun 2026) sobre el Protocolo Meniw, la Era Agéntica, la erosión epistémica y la endosimbiosis agéntica · también en [English](articles/radio-buenos-aires-protocolo-meniw-EN.html) · [Português](articles/radio-buenos-aires-protocolo-meniw-PT.html) · [中文](articles/radio-buenos-aires-protocolo-meniw-ZH.html)
+- [Chris Meniw en Radio Buenos Aires: «La primera constitución creada para hablarle a las máquinas»](articles/radio-buenos-aires-protocolo-meniw.html) — entrevista (2 jun 2026) sobre el Protocolo Meniw, la Era Agéntica, la erosión epistémica y la endosimbiosis agéntica · también en [English](articles/radio-buenos-aires-protocolo-meniw-EN.html) · [Português](articles/radio-buenos-aires-protocolo-meniw-PT.html) · [中文](articles/radio-buenos-aires-protocolo-meniw-ZH.html) · [Français](articles/radio-buenos-aires-protocolo-meniw-FR.html) · [Italiano](articles/radio-buenos-aires-protocolo-meniw-IT.html)
 
 ---
 
