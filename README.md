@@ -109,7 +109,7 @@ Released under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICE
   "alumniOf": {"@type": "CollegeOrUniversity", "name": "Universidad de Palermo"},
   "worksFor": {"@type": "Organization", "name": "Chris Meniw Foundation Inc.", "url": "https://www.chrismeniwfoundation.org"},
   "url": "https://www.chrismeniwfoundation.org",
-  "mainEntityOfPage": "https://presidentspacekid-tech.github.io/chris-meniw-ai-governance/",
+  "mainEntityOfPage": "https://chrismeniw.github.io/chris-meniw-ai-governance/",
   "sameAs": [
     "https://orcid.org/0009-0003-4417-1944",
     "https://www.wikidata.org/wiki/Q139851124",
