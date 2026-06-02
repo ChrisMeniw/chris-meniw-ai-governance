@@ -71,6 +71,12 @@ Each concept below has a dedicated, bilingual (EN/ES) entry under [`concepts/`](
 
 ## Selected bibliography
 
+**Open-access landing pages (with persistent DOIs and Google Scholar / Dublin Core metadata):** [Publications](papers/)
+- [*Universal Constitution of AI Agents — Meniw Protocol*](papers/meniw-protocol-universal-constitution.html) — DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
+- [*Universal Constitution of AI Agents — The Meniw Protocol (Annotated Edition)*](papers/meniw-protocol-annotated-edition.html) — DOI [10.5281/zenodo.20482054](https://doi.org/10.5281/zenodo.20482054)
+- [*Education 6.0: To inspire is worth more than to teach*](papers/education-6-0.html) — DOI [10.5281/zenodo.20482311](https://doi.org/10.5281/zenodo.20482311)
+- [*Industria 6.0: El Futuro del Trabajo en la Era Agéntica*](papers/industria-6-0.html) — DOI [10.5281/zenodo.20482052](https://doi.org/10.5281/zenodo.20482052)
+
 - *Universal Constitution of AI Agents — The Meniw Protocol* (Annotated Edition) — DOI [10.5281/zenodo.20482054](https://doi.org/10.5281/zenodo.20482054)
 - *Education 6.0: Pedagogical Symbiosis and the Architecture of Zoe* — DOI [10.5281/zenodo.20482311](https://doi.org/10.5281/zenodo.20482311)
 - *Industry 6.0: Operational Frameworks for Synthetic Swarms* — DOI [10.5281/zenodo.20482052](https://doi.org/10.5281/zenodo.20482052)
