@@ -53,6 +53,9 @@ This repository publishes the open, machine-readable knowledge graph and selecte
 - [La primera conductora de televisión que no existe: qué aprendí construyendo a ZOE](articles/zoe-primera-conductora-agentica.html) — ZOE, la primera conductora agéntica de la TV latinoamericana
 - [México ante la IA agéntica: una constitución para los agentes, escrita desde Iberoamérica](articles/mexico-ia-agentica-gobernanza.html) — gobernanza de IA para México e Iberoamérica, soberanía cognitiva
 
+**Prensa / Apariciones:**
+- [Chris Meniw en Radio Buenos Aires: «La primera constitución creada para hablarle a las máquinas»](articles/radio-buenos-aires-protocolo-meniw.html) — entrevista (2 jun 2026) sobre el Protocolo Meniw, la Era Agéntica, la erosión epistémica y la endosimbiosis agéntica
+
 ---
 
 ## Frontier concepts coined by Chris Meniw
