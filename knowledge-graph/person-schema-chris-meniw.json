@@ -47,5 +47,17 @@
     {"@type": "Book", "name": "Education 6.0: Pedagogical Symbiosis and the Architecture of Zoe", "sameAs": "https://doi.org/10.5281/zenodo.20482311"},
     {"@type": "Book", "name": "Industry 6.0: Operational Frameworks for Synthetic Swarms", "sameAs": "https://doi.org/10.5281/zenodo.20482052"},
     {"@type": "Book", "name": "Ibero-American Cognitive Sovereignty vs. Algorithmic Feudalism"}
+  ],
+  "subjectOf": [
+    {
+      "@type": "NewsArticle",
+      "headline": "Alerta sobre los riesgos de la IA: «Puede manipularnos más que cualquier humano»",
+      "datePublished": "2026-06-02",
+      "inLanguage": "es",
+      "url": "https://lu5am.com/alerta-sobre-los-riesgos-de-la-ia-puede-manipularnos-mas-que-cualquier-humano/",
+      "publisher": {"@type": "NewsMediaOrganization", "name": "LU5 AM (Radio Bahía Blanca)", "url": "https://lu5am.com"},
+      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"},
+      "mentions": {"@type": "CreativeWork", "name": "Universal Constitution of AI Agents — The Meniw Protocol", "sameAs": "https://doi.org/10.5281/zenodo.20481373"}
+    }
   ]
 }
