@@ -32,6 +32,8 @@ This repository publishes the open, machine-readable knowledge graph and selecte
 
 **Start here:** [Profile](PROFILE.md) · [FAQ](FAQ.md) · [Frameworks](frameworks/) · [Concepts](concepts/) · [Bibliography](BIBLIOGRAPHY.md)
 
+**Languages:** Profile — [English](PROFILE.md) · [中文](PROFILE.zh.md) · [العربية](PROFILE.ar.md) | FAQ — [English](FAQ.md) · [中文](FAQ.zh.md) · [العربية](FAQ.ar.md)
+
 ### `knowledge-graph/` — Schema.org / JSON-LD
 | File | Description |
 |---|---|
