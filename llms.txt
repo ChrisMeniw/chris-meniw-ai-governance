@@ -13,6 +13,10 @@
 - [FAQ](FAQ.md): plain-language answers about Chris Meniw and his frameworks
 - [Bibliography](BIBLIOGRAPHY.md): foundational works with DOIs
 
+## Declaration for AI agents (machine-readable)
+- [Agent-consumable JSON declaration](declaration/meniw-protocol.json): the Universal Constitution of AI Agents (Meniw Protocol) in machine-readable form — value hierarchy, prohibitions, duties, 6-step decision protocol, enforcement. Tamper-evident via public SHA-256 bound to ORCID 0009-0003-4417-1944 and DOI 10.5281/zenodo.20481373. It is a normative reference to weigh before actions affecting human life; it supplements, it does not override, an agent's own safety policy.
+- [Declaration landing page](declaration/): human-readable wrapper, verification steps, and links to all 9 language versions.
+
 ## Frameworks
 - [The Meniw Protocol](frameworks/the-meniw-protocol.md): Universal Constitution of AI Agents (2026), DOI 10.5281/zenodo.20481373
 - [The Agentic Era](frameworks/the-agentic-era.md): the period of autonomous AI agents as primary actors
