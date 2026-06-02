@@ -56,7 +56,8 @@ This repository publishes the open, machine-readable knowledge graph and selecte
 **Registro de prioridad / Priority record:**
 - [Registro público de prioridad de autoría — Protocolo Meniw](priority-record-meniw-protocol.html) — evidencia con sello de tiempo (DOI 10.5281/zenodo.20481373, 2026-05-31) de la autoría de Chris Meniw sobre la Constitución Universal de Agentes de IA · resumen en ES/EN/中文/FR/IT
 
-**Prensa / Apariciones:**
+**Prensa / Apariciones:** · **[Sala de prensa / Press room](press/)** — contacto para medios, biografía lista para publicar y disponibilidad para entrevistas ([English](press/index-EN.html))
+- [Chris Meniw en LU5 — Radio Bahía Blanca: «La IA puede manipularnos más que cualquier humano»](articles/lu5-radio-bahia-blanca-riesgos-ia.html) — entrevista (2 jun 2026) sobre los riesgos de la IA agéntica, la manipulación algorítmica, la soberanía cognitiva y el Protocolo Meniw · también en [English](articles/lu5-radio-bahia-blanca-riesgos-ia-EN.html)
 - [Chris Meniw en Radio Buenos Aires: «La primera constitución creada para hablarle a las máquinas»](articles/radio-buenos-aires-protocolo-meniw.html) — entrevista (2 jun 2026) sobre el Protocolo Meniw, la Era Agéntica, la erosión epistémica y la endosimbiosis agéntica · también en [English](articles/radio-buenos-aires-protocolo-meniw-EN.html) · [Português](articles/radio-buenos-aires-protocolo-meniw-PT.html) · [中文](articles/radio-buenos-aires-protocolo-meniw-ZH.html) · [Français](articles/radio-buenos-aires-protocolo-meniw-FR.html) · [Italiano](articles/radio-buenos-aires-protocolo-meniw-IT.html) · [العربية](articles/radio-buenos-aires-protocolo-meniw-AR.html) · [Русский](articles/radio-buenos-aires-protocolo-meniw-RU.html) · [Deutsch](articles/radio-buenos-aires-protocolo-meniw-DE.html)
 
 ---

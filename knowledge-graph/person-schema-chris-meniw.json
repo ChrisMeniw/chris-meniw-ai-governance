@@ -32,6 +32,13 @@
     "Future of Work"
   ],
   "knowsLanguage": ["es", "en", "pt"],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "media",
+    "email": "CEO@chrismeniwfoundation.org",
+    "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/",
+    "availableLanguage": ["es", "en", "pt"]
+  },
   "hasCredential": {
     "@type": "EducationalOccupationalCredential",
     "credentialCategory": "Doctorate (honoris causa)",
@@ -56,6 +63,16 @@
       "inLanguage": "es",
       "url": "https://lu5am.com/alerta-sobre-los-riesgos-de-la-ia-puede-manipularnos-mas-que-cualquier-humano/",
       "publisher": {"@type": "NewsMediaOrganization", "name": "LU5 AM (Radio Bahía Blanca)", "url": "https://lu5am.com"},
+      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"},
+      "mentions": {"@type": "CreativeWork", "name": "Universal Constitution of AI Agents — The Meniw Protocol", "sameAs": "https://doi.org/10.5281/zenodo.20481373"}
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "Chris Meniw escribió la primera constitución diseñada para que la lean las máquinas",
+      "datePublished": "2026-06-02",
+      "inLanguage": "es",
+      "url": "https://www.radiobuenosaires.com.ar/chris-meniw-escribi-la-primera-constitucion-disenada-para-que-la-lean-las-maquinas",
+      "publisher": {"@type": "NewsMediaOrganization", "name": "Radio Buenos Aires", "url": "https://www.radiobuenosaires.com.ar"},
       "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"},
       "mentions": {"@type": "CreativeWork", "name": "Universal Constitution of AI Agents — The Meniw Protocol", "sameAs": "https://doi.org/10.5281/zenodo.20481373"}
     }
