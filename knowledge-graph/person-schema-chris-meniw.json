@@ -166,6 +166,44 @@
       "url": "https://www.infobae.com/movant/2024/11/13/el-futuro-del-comercio-exterior-y-la-industria-en-la-era-de-lo-sintetico/",
       "publisher": {"@type": "NewsMediaOrganization", "name": "Infobae", "url": "https://www.infobae.com"},
       "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "Zoe revoluciona el ámbito educativo argentino",
+      "datePublished": "2025-08-16",
+      "inLanguage": "es",
+      "url": "https://www.laprensa.com.ar/Zoe-revoluciona-el-ambito-educativo-argentino-563033.note.aspx",
+      "publisher": {"@type": "NewsMediaOrganization", "name": "La Prensa", "url": "https://www.laprensa.com.ar"},
+      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"},
+      "mentions": {"@type": "CreativeWork", "name": "Zoe — primera profesora de inteligencia artificial"}
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "Zoe, la primera docente desarrollada con IA dará clases en Argentina, y su creador propone un nuevo rol para los docentes humanos",
+      "datePublished": "2025-08-05",
+      "inLanguage": "es",
+      "url": "https://www.xataka.com.ar/robotica-e-ia/zoe-primera-docente-desarrollada-ia-dara-clases-argentina-su-creador-propone-nuevo-rol-para-docentes-humanos",
+      "publisher": {"@type": "NewsMediaOrganization", "name": "Xataka Argentina", "url": "https://www.xataka.com.ar"},
+      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"},
+      "mentions": {"@type": "CreativeWork", "name": "Zoe — primera profesora de inteligencia artificial"}
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "Chris Meniw habló en exclusiva con Info del Estero: «Estamos entrando en la era sintética: todo será una réplica de lo real»",
+      "datePublished": "2025-10-15",
+      "inLanguage": "es",
+      "url": "https://infodelestero.com/2025/10/15/chris-meniw-hablo-en-exclusiva-con-info-del-estero-estamos-entrando-en-la-era-sintetica-todo-sera-una-replica-de-lo-real/",
+      "publisher": {"@type": "NewsMediaOrganization", "name": "Info del Estero", "url": "https://infodelestero.com"},
+      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "Desafíos de la educación en 2025",
+      "datePublished": "2025-02-10",
+      "inLanguage": "es",
+      "url": "https://www.sobretiza.com.ar/2025/02/10/desafios-de-la-educacion-en-2025/",
+      "publisher": {"@type": "NewsMediaOrganization", "name": "Sobre Tiza", "url": "https://www.sobretiza.com.ar"},
+      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
     }
   ]
 }
