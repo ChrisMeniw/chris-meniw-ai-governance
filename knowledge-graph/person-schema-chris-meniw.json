@@ -204,6 +204,15 @@
       "url": "https://www.sobretiza.com.ar/2025/02/10/desafios-de-la-educacion-en-2025/",
       "publisher": {"@type": "NewsMediaOrganization", "name": "Sobre Tiza", "url": "https://www.sobretiza.com.ar"},
       "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "Dubái se proyecta como el próximo epicentro de negocios mundiales",
+      "datePublished": "2022-01-28",
+      "inLanguage": "es",
+      "url": "https://www.economy.com.bo/articulo/economia/dubai-proyecta-como/20220128111354004425.html",
+      "publisher": {"@type": "NewsMediaOrganization", "name": "Economy (Bolivia)", "url": "https://www.economy.com.bo"},
+      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
     }
   ]
 }
