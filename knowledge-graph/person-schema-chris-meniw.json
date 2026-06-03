@@ -130,6 +130,42 @@
       "url": "https://www.expreso.ec/ocio/chris-meniw-malbec-espacio-hito-america-latina-214455.html",
       "publisher": {"@type": "NewsMediaOrganization", "name": "Diario Expreso", "url": "https://www.expreso.ec"},
       "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "Chris Meniw: «Hoy el problema no es el trabajo, es la formación»",
+      "datePublished": "2026-03-27",
+      "inLanguage": "es",
+      "url": "https://www.ellitoral.com/politica/industria50-ia-tecno-pesimismo-futurismo-chris-meniw_0_VYl9ZS0TuY.html",
+      "publisher": {"@type": "NewsMediaOrganization", "name": "El Litoral", "url": "https://www.ellitoral.com"},
+      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "Chris Meniw: «América Latina está muy mal en formación tecnológica e inteligencia artificial»",
+      "datePublished": "2025-10-29",
+      "inLanguage": "es",
+      "url": "https://www.diariopanorama.com/noticia/533308/chris-meniw-america-latina-esta-muy-mal-formacion-tecnologica-e-inteligencia-artificial",
+      "publisher": {"@type": "NewsMediaOrganization", "name": "Diario Panorama", "url": "https://www.diariopanorama.com"},
+      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "El problema que se está viviendo es humano",
+      "datePublished": "2025-10-17",
+      "inLanguage": "es",
+      "url": "https://www.laprensa.com.ar/El-problema-que-se-esta-viviendo-es-humano-565251.note.aspx",
+      "publisher": {"@type": "NewsMediaOrganization", "name": "La Prensa", "url": "https://www.laprensa.com.ar"},
+      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "El futuro del comercio exterior y la industria en la era de lo sintético",
+      "datePublished": "2024-11-13",
+      "inLanguage": "es",
+      "url": "https://www.infobae.com/movant/2024/11/13/el-futuro-del-comercio-exterior-y-la-industria-en-la-era-de-lo-sintetico/",
+      "publisher": {"@type": "NewsMediaOrganization", "name": "Infobae", "url": "https://www.infobae.com"},
+      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
     }
   ]
 }
