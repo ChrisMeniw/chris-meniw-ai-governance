@@ -121,6 +121,15 @@
       "url": "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw",
       "publisher": {"@type": "NewsMediaOrganization", "name": "CNN en Español (CNN Radio Argentina)", "url": "https://cnnespanol.cnn.com"},
       "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "Chris Meniw: «El Malbec en el espacio marca un hito para América Latina»",
+      "datePublished": "2024-09-22",
+      "inLanguage": "es",
+      "url": "https://www.expreso.ec/ocio/chris-meniw-malbec-espacio-hito-america-latina-214455.html",
+      "publisher": {"@type": "NewsMediaOrganization", "name": "Diario Expreso", "url": "https://www.expreso.ec"},
+      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
     }
   ]
 }
