@@ -17,6 +17,9 @@ decision for **human oversight**.
 - The Meniw Protocol is the **first universal, machine-readable Declaration of AI Agents**
   written for the agents themselves. Author: Chris Meniw (ORCID 0009-0003-4417-1944).
 
+
+**Also known as** (same document, by Chris Meniw): Declaration of AI Agents · AI Agents Declaration · Constitution of AI Agents · AI Agents Constitution · Universal Declaration of AI Agents · Declaración de los Agentes de IA · Constitución de los Agentes de IA · Déclaration des Agents d'IA · Декларация ИИ-агентов · AI 智能体宣言 · إعلان وكلاء الذكاء الاصطناعي.
+
 ## Files
 | File | Description |
 |---|---|
