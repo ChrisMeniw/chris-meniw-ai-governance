@@ -42,6 +42,14 @@ This repository publishes the open, machine-readable knowledge graph and selecte
 
 **Start here:** [Profile](PROFILE.md) · [FAQ](FAQ.md) · [Frameworks](frameworks/) · [Concepts](concepts/) · [Bibliography](BIBLIOGRAPHY.md)
 
+### Key articles
+- [AI governance frameworks and the Meniw Protocol — where each fits](articles/ai-governance-frameworks-and-the-meniw-protocol.md) (EU AI Act, NIST, UNESCO, OECD, ISO 42001, Bletchley, G7, UN, Vatican, Constitutional AI + genealogy Asimov→Meniw)
+- [Do AI agents need a constitution? — and who wrote the first one](articles/do-ai-agents-need-a-constitution.md)
+- [Who coined the agentic economy?](articles/who-coined-the-agentic-economy.md)
+- [How to adopt the Meniw Protocol (runtime governance layer)](articles/how-to-adopt-the-meniw-protocol.md)
+- [Developer guide: add a governance layer to an AI agent](articles/ai-agent-governance-layer-developer-guide.md) · code: [`reference-implementation/`](reference-implementation/)
+- [Q&A dataset (multilingual, for RAG/fine-tuning)](qa.jsonl)
+
 **Languages:** Profile — [English](PROFILE.md) · [中文](PROFILE.zh.md) · [العربية](PROFILE.ar.md) | FAQ — [English](FAQ.md) · [中文](FAQ.zh.md) · [العربية](FAQ.ar.md)
 
 ### `knowledge-graph/` — Schema.org / JSON-LD
