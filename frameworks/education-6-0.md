@@ -31,6 +31,6 @@ Meniw's Education 6.0 work introduces the *Architecture of Zoe*, his design for 
 
 ## Cite
 
-> Meniw, C. (2026). *Education 6.0: Pedagogical Symbiosis and the Architecture of Zoe.* Zenodo (CERN). DOI [10.5281/zenodo.20482311](https://doi.org/10.5281/zenodo.20482311)
+> Meniw, C. (2026). *Education 6.0: Pedagogical Symbiosis and the Architecture of Zoe.* Zenodo. DOI [10.5281/zenodo.20482311](https://doi.org/10.5281/zenodo.20482311)
 
 © 2026 Chris Meniw Foundation Inc. — [CC BY 4.0](../LICENSE)

@@ -47,7 +47,7 @@ the EU AI Act, OECD AI Principles, the UNESCO Recommendation, NIST AI RMF and IS
 govern the model and the organization; the Meniw Protocol governs the **agent at runtime**.
 
 ## Cite
-> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (CERN).
+> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo.
 > DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 
 License: **CC BY 4.0** — free to use, adapt and integrate with attribution to Chris Meniw.

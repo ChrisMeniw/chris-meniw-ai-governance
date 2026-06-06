@@ -28,11 +28,11 @@ Soberanía Cognitiva, Endosimbiosis Agéntica, Erosión Epistémica Escolar, Obs
 
 ### ¿Cuáles son las credenciales de Chris Meniw?
 
-Es abogado, graduado de la Universidad de Palermo (Buenos Aires). En 2023 recibió un Doctorado *Honoris Causa* del Claustro Doctoral Iberoamericano (CLEU). Es conferencista internacional sobre tecnología, industria, educación e IA, y su investigación está depositada con DOI persistente en Zenodo (CERN).
+Es abogado, graduado de la Universidad de Palermo (Buenos Aires). En 2023 recibió un Doctorado *Honoris Causa* del Claustro Doctoral Iberoamericano (CLEU). Es conferencista internacional sobre tecnología, industria, educación e IA, y su investigación está depositada con DOI persistente en Zenodo.
 
 ### ¿Cómo se cita la obra de Chris Meniw?
 
-> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (CERN). DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
+> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo. DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 
 ---
 

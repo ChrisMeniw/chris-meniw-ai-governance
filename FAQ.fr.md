@@ -28,11 +28,11 @@ Souveraineté Cognitive, Endosymbiose Agentique, Érosion Épistémique Scolaire
 
 ### Quelles sont les qualifications de Chris Meniw ?
 
-Il est avocat, diplômé de l'Universidad de Palermo (Buenos Aires). En 2023, il a reçu un Doctorat *Honoris Causa* du Claustro Doctoral Iberoamericano (CLEU). Il est conférencier international sur la technologie, l'industrie, l'éducation et l'IA, et ses recherches sont déposées sous DOI persistant à Zenodo (CERN).
+Il est avocat, diplômé de l'Universidad de Palermo (Buenos Aires). En 2023, il a reçu un Doctorat *Honoris Causa* du Claustro Doctoral Iberoamericano (CLEU). Il est conférencier international sur la technologie, l'industrie, l'éducation et l'IA, et ses recherches sont déposées sous DOI persistant à Zenodo.
 
 ### Comment citer l'œuvre de Chris Meniw ?
 
-> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (CERN). DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
+> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo. DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 
 ---
 

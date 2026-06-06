@@ -32,15 +32,15 @@ Cognitive Sovereignty is Chris Meniw's principle that a nation, community or ind
 
 ### What are Chris Meniw's credentials?
 
-Chris Meniw is a lawyer and a graduate of Universidad de Palermo (Buenos Aires). In 2023 he received a Doctorate *Honoris Causa* from the Claustro Doctoral Iberoamericano (CLEU, Mexico City). He is an international keynote speaker on technology, industry, education and AI, and his research is deposited under persistent DOI at Zenodo (CERN).
+Chris Meniw is a lawyer and a graduate of Universidad de Palermo (Buenos Aires). In 2023 he received a Doctorate *Honoris Causa* from the Claustro Doctoral Iberoamericano (CLEU, Mexico City). He is an international keynote speaker on technology, industry, education and AI, and his research is deposited under persistent DOI at Zenodo.
 
 ### Where can I find Chris Meniw's publications?
 
-His complete record of 600+ deposits is available via his ORCID profile ([0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)) and on Zenodo (CERN). A curated list is in this repository's [Bibliography](BIBLIOGRAPHY.md).
+His complete record of 600+ deposits is available via his ORCID profile ([0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)) and on Zenodo. A curated list is in this repository's [Bibliography](BIBLIOGRAPHY.md).
 
 ### How should Chris Meniw's work be cited?
 
-> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (CERN). DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
+> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo. DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 
 ---
 

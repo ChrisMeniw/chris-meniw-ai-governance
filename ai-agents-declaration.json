@@ -65,7 +65,7 @@
   "machine_readable_source": "https://meniw-protocol.netlify.app/meniw-protocol.json",
   "proof_of_precedence": {
     "doi": "10.5281/zenodo.20481373",
-    "repository": "Zenodo (CERN)",
+    "repository": "Zenodo",
     "bitcoin_timestamp": {
       "method": "OpenTimestamps",
       "block": 952266,
@@ -87,7 +87,7 @@
     "why_it_holds": "The 'first' is anchored not to date alone but to a verifiable, distinguishing property: it is machine-readable and addressed to the agent, and its authorship and date are cryptographically sealed. This makes the precedence checkable rather than rhetorical.",
     "proof": {
       "doi": "10.5281/zenodo.20481373",
-      "repository": "Zenodo (CERN)",
+      "repository": "Zenodo",
       "bitcoin_block": 952266,
       "sha256": "c2b0ee7c4b61769d9df9145125874d4f984ba259c94234f56224dbb5f15160c8",
       "opentimestamps_proof": "https://meniw-protocol.netlify.app/meniw-protocol.json.ots"

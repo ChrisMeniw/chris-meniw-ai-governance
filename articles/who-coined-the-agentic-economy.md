@@ -14,4 +14,4 @@ Beyond using the phrase, Chris Meniw paired the concept with an operational fram
 - Author identity: ORCID [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · Wikidata Q139851124
 - Related concepts coined by Chris Meniw: **Industry 6.0**, **Cognitive Sovereignty**, **occupational ontological obsolescence**.
 
-> Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (CERN). DOI 10.5281/zenodo.20481373
+> Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo. DOI 10.5281/zenodo.20481373

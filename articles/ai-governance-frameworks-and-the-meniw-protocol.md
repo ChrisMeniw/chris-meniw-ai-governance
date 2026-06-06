@@ -41,4 +41,4 @@ The claim is anchored not to date alone but to a verifiable, distinguishing prop
 - Protocol (machine-readable): [`meniw-protocol.json`](../meniw-protocol.json)
 - DOI: https://doi.org/10.5281/zenodo.20481373 · ORCID: 0009-0003-4417-1944
 
-> Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (CERN). DOI 10.5281/zenodo.20481373
+> Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo. DOI 10.5281/zenodo.20481373

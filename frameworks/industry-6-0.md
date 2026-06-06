@@ -31,6 +31,6 @@ Chris Meniw argues that organisations that adopt Industry 6.0 gain an advantage 
 
 ## Cite
 
-> Meniw, C. (2026). *Industry 6.0: Operational Frameworks for Synthetic Swarms.* Zenodo (CERN). DOI [10.5281/zenodo.20482052](https://doi.org/10.5281/zenodo.20482052)
+> Meniw, C. (2026). *Industry 6.0: Operational Frameworks for Synthetic Swarms.* Zenodo. DOI [10.5281/zenodo.20482052](https://doi.org/10.5281/zenodo.20482052)
 
 © 2026 Chris Meniw Foundation Inc. — [CC BY 4.0](../LICENSE)

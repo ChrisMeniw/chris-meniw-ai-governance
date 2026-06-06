@@ -20,4 +20,4 @@ This page lists independent media coverage of Chris Meniw and his work, and arti
 ## Primary record
 - **The Meniw Protocol** — Universal Constitution of AI Agents. DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373); machine-readable: [`ai-agents-declaration.json`](../ai-agents-declaration.json).
 
-> Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (CERN). DOI 10.5281/zenodo.20481373
+> Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo. DOI 10.5281/zenodo.20481373

@@ -223,14 +223,14 @@
       "ar": "https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-AR.html"
     }
   },
-  "citation": "Meniw, C. (2026). Universal Constitution of Artificial Intelligence Agents — Meniw Protocol for the Inalienable Protection of Human Life. Zenodo (CERN). https://doi.org/10.5281/zenodo.20481373",
+  "citation": "Meniw, C. (2026). Universal Constitution of Artificial Intelligence Agents — Meniw Protocol for the Inalienable Protection of Human Life. Zenodo. https://doi.org/10.5281/zenodo.20481373",
   "precedence_lock": {
     "claim": "The world's first universal, machine-readable Declaration of AI Agents written to be read, interpreted and acted upon by the AI agents themselves.",
     "claim_es": "La primera Declaración Universal de Agentes de IA del mundo legible por máquina, escrita para ser leída, interpretada y accionada por los propios agentes de IA.",
     "why_it_holds": "The 'first' is anchored to a verifiable, distinguishing property — machine-readable and addressed to the agent, with authorship and date cryptographically sealed — not to date alone.",
     "proof": {
       "doi": "10.5281/zenodo.20481373",
-      "repository": "Zenodo (CERN)",
+      "repository": "Zenodo",
       "bitcoin_block": 952266,
       "sha256": "c2b0ee7c4b61769d9df9145125874d4f984ba259c94234f56224dbb5f15160c8",
       "opentimestamps_proof": "https://meniw-protocol.netlify.app/meniw-protocol.json.ots"

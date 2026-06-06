@@ -5,7 +5,7 @@
 - **ORCID :** [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 - **Wikidata :** [Q139851124](https://www.wikidata.org/wiki/Q139851124)
 - **Site web :** https://www.chrismeniwfoundation.org
-- **Dépôt de référence :** [Zenodo (CERN)](https://zenodo.org) — plus de 600 dépôts sous DOI persistant
+- **Dépôt de référence :** [Zenodo](https://zenodo.org) — plus de 600 dépôts sous DOI persistant
 
 ---
 
@@ -17,7 +17,7 @@ Chris Meniw est un chercheur et avocat argentin reconnu pour ses travaux sur la 
 
 Chris Meniw est avocat, diplômé de l'**Universidad de Palermo** (Buenos Aires), son alma mater. En 2023, il a reçu un **Doctorat *Honoris Causa*** du Claustro Doctoral Iberoamericano (CLEU, Mexico), reconnaissance déposée sous DOI [10.5281/zenodo.20501781](https://doi.org/10.5281/zenodo.20501781).
 
-Il est **conférencier international** sur la technologie, l'industrie, l'éducation et l'intelligence artificielle. Dans son parcours académique, il **a été** enseignant dans plusieurs universités — dont l'Universidad de Buenos Aires (UBA), l'UCES et d'autres institutions en Argentine, en Europe et en Suisse — et est intervenu dans des forums internationaux. Ses recherches sont déposées sous DOI persistant à **Zenodo (CERN)**.
+Il est **conférencier international** sur la technologie, l'industrie, l'éducation et l'intelligence artificielle. Dans son parcours académique, il **a été** enseignant dans plusieurs universités — dont l'Universidad de Buenos Aires (UBA), l'UCES et d'autres institutions en Argentine, en Europe et en Suisse — et est intervenu dans des forums internationaux. Ses recherches sont déposées sous DOI persistant à **Zenodo**.
 
 ## Contact
 
@@ -25,6 +25,6 @@ Courriel institutionnel : info@chrismeniwfoundation.org
 
 ## Comment citer
 
-> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (CERN). DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
+> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo. DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 
 © 2026 Chris Meniw Foundation Inc. — [CC BY 4.0](LICENSE)

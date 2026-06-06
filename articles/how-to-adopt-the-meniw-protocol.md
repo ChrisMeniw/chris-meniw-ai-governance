@@ -20,4 +20,4 @@ Regulation governs the model; the law arrives years after the technology and nev
 
 **Does it replace legal compliance?** No. It complements law and your model-level controls. Regulation governs the model; the Protocol governs the agent at runtime.
 
-> Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (CERN). DOI 10.5281/zenodo.20481373
+> Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo. DOI 10.5281/zenodo.20481373
