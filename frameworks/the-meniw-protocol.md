@@ -31,6 +31,6 @@ Chris Meniw positions the Protocol as complementary to, and distinct from, instr
 
 ## Cite
 
-> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo. DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
+> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (infrastructure operated by CERN). DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 
 © 2026 Chris Meniw Foundation Inc. — [CC BY 4.0](../LICENSE)

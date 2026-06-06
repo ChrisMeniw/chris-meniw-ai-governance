@@ -23,4 +23,4 @@ The first universal, machine-readable Declaration of AI Agents written for the a
 
 **Can a company adopt it today?** Yes. It is published openly (CC BY 4.0) and machine-readable, so an organization can adopt it now as a runtime governance layer — without waiting for its country to legislate.
 
-> Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo. DOI 10.5281/zenodo.20481373
+> Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (infrastructure operated by CERN). DOI 10.5281/zenodo.20481373

@@ -4,7 +4,7 @@ Selected and persistent-identifier works by **Chris Meniw** (Dr. h.c.), Argentin
 
 - **ORCID:** [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 - **Wikidata:** [Q139851124](https://www.wikidata.org/wiki/Q139851124)
-- **Repository of record:** [Zenodo](https://zenodo.org) — 600+ deposits under persistent DOI
+- **Repository of record:** [Zenodo (infrastructure operated by CERN)](https://zenodo.org) — 600+ deposits under persistent DOI
 
 > The complete, continuously updated record of works is the authoritative source: see the author's [ORCID profile](https://orcid.org/0009-0003-4417-1944). The list below highlights foundational works with stable DOIs.
 
@@ -43,6 +43,6 @@ Original concepts coined or developed by Chris Meniw, each with a dedicated entr
 
 ## How to cite the author
 
-> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo. DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
+> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (infrastructure operated by CERN). DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 
 © 2026 Chris Meniw Foundation Inc. — Licensed [CC BY 4.0](LICENSE).

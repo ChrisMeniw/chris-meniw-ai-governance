@@ -34,4 +34,4 @@ A full Python reference implementation is in [`reference-implementation/governan
 
 Files: [`ai-agents-declaration.json`](../ai-agents-declaration.json) · [`meniw-protocol.json`](../meniw-protocol.json) (open, CC BY 4.0; verifiable via DOI 10.5281/zenodo.20481373).
 
-> Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo. DOI 10.5281/zenodo.20481373
+> Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (infrastructure operated by CERN). DOI 10.5281/zenodo.20481373

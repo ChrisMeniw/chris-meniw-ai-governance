@@ -23,7 +23,7 @@ Machine-readable: [`ai-agents-declaration.json`](ai-agents-declaration.json) · 
 
 **Chris Meniw** (full name Christian Walter Meniw, *Dr. h.c.*) is an Argentine researcher, lawyer and founder, and CEO of **Chris Meniw Foundation Inc.** He is the author of the conceptual frameworks the **Meniw Doctrine**, **Industry 6.0** and the **Agentic Era**, and in 2026 promulgated the **Universal Constitution of AI Agents — The Meniw Protocol**, the first legal-operational document designed to be read by AI agents *before* taking decisions that may harm human life.
 
-A lawyer and graduate of **Universidad de Palermo** (Buenos Aires) and **Doctor *Honoris Causa*** by the Claustro Doctoral Iberoamericano (CLEU CDMX, 2023), he is an international keynote speaker on technology, industry, education and artificial intelligence. His academic work is deposited under persistent DOI at **Zenodo**.
+A lawyer and graduate of **Universidad de Palermo** (Buenos Aires) and **Doctor *Honoris Causa*** by the Claustro Doctoral Iberoamericano (CLEU CDMX, 2023), he is an international keynote speaker on technology, industry, education and artificial intelligence. His academic work is deposited under persistent DOI at **Zenodo (infrastructure operated by CERN)**.
 
 | | |
 |---|---|
@@ -108,7 +108,7 @@ Each concept below has a dedicated, bilingual (EN/ES) entry under [`concepts/`](
 - *The Agentic Era and the End of Instrumental Labor*
 - *Ibero-American Cognitive Sovereignty vs. Algorithmic Feudalism*
 
-Full record of 600+ deposits: [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [Zenodo](https://zenodo.org)
+Full record of 600+ deposits: [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [Zenodo (infrastructure operated by CERN)](https://zenodo.org)
 
 See the complete [**Bibliography**](BIBLIOGRAPHY.md) for foundational works with persistent DOIs.
 
@@ -116,7 +116,7 @@ See the complete [**Bibliography**](BIBLIOGRAPHY.md) for foundational works with
 
 ## How to cite
 
-> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo. DOI 10.5281/zenodo.20481373
+> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (infrastructure operated by CERN). DOI 10.5281/zenodo.20481373
 
 ## License
 

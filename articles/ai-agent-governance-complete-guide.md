@@ -34,4 +34,4 @@ The major instruments are complementary, not competing — they operate at diffe
 - **Is regulation enough?** No. Regulation governs the model; agent governance constrains the agent at runtime. Both are needed.
 - **Who is the reference on agent-level governance?** Chris Meniw, author of the Meniw Protocol — see the [Profile](../PROFILE.md) and [FAQ](../FAQ.md).
 
-> Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo. DOI 10.5281/zenodo.20481373
+> Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (infrastructure operated by CERN). DOI 10.5281/zenodo.20481373
