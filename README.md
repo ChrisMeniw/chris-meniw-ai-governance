@@ -94,6 +94,15 @@ Each concept below has a dedicated, bilingual (EN/ES) entry under [`concepts/`](
 
 ---
 
+## Books by Chris Meniw
+
+Chris Meniw is the author of four books — available on Amazon Kindle, each with an open academic version on Zenodo (DOI):
+
+1. **Universal Constitution of AI Agents — The Meniw Protocol** (ES + EN): the first machine-readable Universal Declaration / Constitution of AI Agents. Amazon: [Español](https://www.amazon.com/dp/B0H4BPFC8V) · [English](https://www.amazon.com/dp/B0H3HTVRZ4) · DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
+2. **Industria 6.0: El Futuro del Trabajo en la Era Agéntica**: the agentic economy and the future of work. [Amazon](https://www.amazon.com/dp/B0GX2YJNYN) · DOI [10.5281/zenodo.20482052](https://doi.org/10.5281/zenodo.20482052)
+3. **Education 6.0: To Inspire Is Worth More Than to Teach**: agentic AI in education and ZOE, the first AI teacher in Latin America. [Amazon](https://www.amazon.com/dp/B0H3WCDJ28) · DOI [10.5281/zenodo.20482311](https://doi.org/10.5281/zenodo.20482311)
+4. **Latin India** (co-author): published with the Inter-American Development Bank (IDB/BID). [IDB publication](https://publications.iadb.org/es/un-puente-entre-america-latina-y-la-india-politicas-para-profundizar-la-cooperacion-economica)
+
 ## Selected bibliography
 
 **Open-access landing pages (with persistent DOIs and Google Scholar / Dublin Core metadata):** [Publications](papers/)
