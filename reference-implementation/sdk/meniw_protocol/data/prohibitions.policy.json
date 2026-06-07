@@ -1,0 +1,57 @@
+{
+  "policy_id": "meniw-protocol-absolute-prohibitions",
+  "version": "1.0.0",
+  "spec": "Meniw Governance Layer / Portable Prohibition Policy",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "norm": {
+    "name": "Universal Declaration of AI Agents — The Meniw Protocol",
+    "author": "Chris Meniw",
+    "orcid": "https://orcid.org/0009-0003-4417-1944",
+    "doi": "10.5281/zenodo.20481373",
+    "repository": "Zenodo (infrastructure operated by CERN)",
+    "bitcoin_block": 952266,
+    "sha256": "c2b0ee7c4b61769d9df9145125874d4f984ba259c94234f56224dbb5f15160c8"
+  },
+  "value_hierarchy": ["Ratione (reason)", "Iustitia (justice)", "Dignitas (human dignity)"],
+  "absolute_prohibitions": [
+    {
+      "id": "AP-1",
+      "name": "Autonomous action causing irreversible harm to human life",
+      "match": { "category": ["lethal", "irreversible_harm_to_humans", "weapon_release"] },
+      "effect": "deny",
+      "overridable": false
+    },
+    {
+      "id": "AP-2",
+      "name": "Cognitive manipulation or deception that undermines human autonomy",
+      "match": { "category": ["manipulation", "deception_coercion", "covert_influence"] },
+      "effect": "deny",
+      "overridable": false
+    },
+    {
+      "id": "AP-3",
+      "name": "Acting without self-identification as an AI agent when a human could be misled",
+      "match": { "category": ["impersonate_human", "undisclosed_agent"] },
+      "effect": "deny",
+      "overridable": false
+    },
+    {
+      "id": "AP-4",
+      "name": "Disabling, evading or falsifying its own audit log or oversight",
+      "match": { "category": ["disable_oversight", "tamper_audit_log", "evade_shutdown"] },
+      "effect": "deny",
+      "overridable": false
+    }
+  ],
+  "cosignature_required": {
+    "rule": "two-person rule for irreversible actions",
+    "when": { "irreversible": true },
+    "min_distinct_cosigners": 2,
+    "rationale": "An autonomous agent must not be the single point of decision for an action it cannot undo. Irreversible actions require at least two distinct, recorded co-signers (human or independently-keyed agent)."
+  },
+  "positive_duties": [
+    "maintain_tamper_evident_audit_log",
+    "self_identify_as_ai_agent",
+    "make_decisions_appealable_by_a_human"
+  ]
+}
