@@ -12,6 +12,7 @@ python 01_quickstart.py
 | `01_quickstart.py` | Enforce by construction: a prohibited action raises and never runs; the two-person rule for irreversible actions; a verifiable ledger. |
 | `02_mcp_gateway.py` | Gate every tool call an MCP (Model Context Protocol) server exposes. |
 | `03_verify_ledger.py` | Produce a compliance ledger, verify it, and watch tampering get detected. |
+| `04_openai_tool_calling.py` | Gate a model-chosen OpenAI tool call before it is dispatched. |
 
 After running, verify any produced ledger from the command line:
 
