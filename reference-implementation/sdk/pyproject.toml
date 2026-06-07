@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meniw-protocol"
+version = "0.3.0"
+description = "Enforce the Meniw Protocol by construction inside an AI agent: a pre-action gate, a two-person rule for irreversible actions, and verifiable, tamper-evident compliance receipts."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "CC-BY-4.0" }
+authors = [{ name = "Chris Meniw" }]
+keywords = [
+  "ai-agents", "ai-safety", "agent-governance", "guardrails",
+  "policy-as-code", "compliance", "meniw-protocol", "runtime-enforcement",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Programming Language :: Python :: 3",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://doi.org/10.5281/zenodo.20481373"
+Repository = "https://github.com/ChrisMeniw/chris-meniw-ai-governance"
+Specification = "https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/SPEC.md"
+
+[project.scripts]
+meniw-verify = "meniw_protocol.verify:main"
+
+[tool.setuptools.packages.find]
+include = ["meniw_protocol*"]
+
+[tool.setuptools.package-data]
+meniw_protocol = ["data/*.json"]

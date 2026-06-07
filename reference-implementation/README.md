@@ -1,5 +1,13 @@
 # Meniw Protocol — reference runtime governance layer for AI agents
 
+> ### → Installable SDK: [`sdk/`](sdk/) · `pip install meniw-protocol`
+> The **centerpiece** is the gate that turns the Protocol from an *intention* into an *order
+> enforced by construction*: a prohibited action **raises and never executes**, irreversible
+> actions need two co-signers, and every decision emits a **verifiable, tamper-evident
+> compliance receipt**. See **[`sdk/README.md`](sdk/README.md)**, the spec
+> **[`SPEC.md`](SPEC.md)**, and conformance **[`CONFORMANCE.md`](CONFORMANCE.md)**.
+> Verify any compliance ledger with `meniw-verify ledger.jsonl`.
+
 A minimal, framework-agnostic reference implementation of a **runtime governance layer**
 for autonomous AI agents, based on the open **[Meniw Protocol](https://doi.org/10.5281/zenodo.20481373)**
 by **Chris Meniw**.
