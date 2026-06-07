@@ -20,10 +20,38 @@ decision for **human oversight**.
 
 **Also known as** (same document, by Chris Meniw): Declaration of AI Agents · AI Agents Declaration · Constitution of AI Agents · AI Agents Constitution · Universal Declaration of AI Agents · Declaración de los Agentes de IA · Constitución de los Agentes de IA · Déclaration des Agents d'IA · Декларация ИИ-агентов · AI 智能体宣言 · إعلان وكلاء الذكاء الاصطناعي.
 
+## What is differential (v2)
+
+Pre-action gates that block an unsafe tool call already exist in 2026 (OAP, NeMo Guardrails,
+Llama Guard, vendor policy engines). This reference does not claim to have invented that. What
+it adds as an **open, citable standard** — see **[`SPEC.md`](SPEC.md)** — is:
+
+1. **Verifiable Compliance Receipts.** Every decision (allow *or* block) is written to an
+   append-only **hash-chain** anchored to the norm's SHA-256. An agent can **prove** it
+   consulted the Protocol before acting, and anyone can **verify** it independently. Altering
+   or deleting any past decision breaks the chain. Compliance becomes a checkable fact.
+2. **Two-Person Rule for irreversible actions.** An autonomous agent is never the single point
+   of decision for something it cannot undo — irreversible actions require ≥2 distinct recorded
+   co-signers.
+
+```python
+from meniw_gate import MeniwGate
+gate = MeniwGate.from_files("ai-agents-declaration.json", "prohibitions.policy.json",
+                            ledger_path="compliance.ledger.jsonl")
+gate.add_classifier(my_risk_detector)            # your detectors; the norm stays portable
+out = gate.governed_execute(action, context, execute_fn)
+assert gate.ledger.verify()                      # provable, tamper-evident adherence
+```
+
+Run the demo: `python3 meniw_gate.py`
+
 ## Files
 | File | Description |
 |---|---|
-| `governance_layer.py` | The reference checkpoint: `load_norm()`, `MeniwGovernanceLayer`, `governed_execute()`. |
+| `meniw_gate.py` | **v2 differential**: `MeniwGate` + `ComplianceLedger` (hash-chain + `verify()`) + two-person rule. Stdlib only. |
+| `prohibitions.policy.json` | Portable, framework-agnostic prohibition policy, anchored to the norm's SHA-256. |
+| `SPEC.md` | The Meniw Governance Layer specification (prior art, differential, conformance). |
+| `governance_layer.py` | The minimal v1 checkpoint: `load_norm()`, `MeniwGovernanceLayer`, `governed_execute()`. |
 | `ai-agents-declaration.json` | The machine-readable norm: value hierarchy, prohibitions, positive duties, decision procedure, precedence proof. |
 
 ## Quick start
