@@ -1,0 +1,326 @@
+{
+  "$schema": "https://www.chrismeniwfoundation.org/schemas/declaracion_agentes.schema.json",
+  "spec": "universal-declaration-of-ai-agents/1.0",
+  "name": "Universal Declaration of AI Agents — The Meniw Protocol",
+  "alternateName": [
+    "Declaración Universal de los Agentes de IA",
+    "Constitution of AI Agents",
+    "Protocolo Meniw"
+  ],
+  "author": {
+    "name": "Chris Meniw",
+    "orcid": "https://orcid.org/0009-0003-4417-1944",
+    "organization": "Chris Meniw Foundation Inc."
+  },
+  "version": "1.0.0",
+  "datePublished": "2026-05-31",
+  "generated": "2026-06-07",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "official_languages": [
+    "en",
+    "es",
+    "pt",
+    "fr",
+    "it",
+    "de",
+    "ru",
+    "zh",
+    "ar",
+    "hi",
+    "ja"
+  ],
+  "provenance": {
+    "doi": "10.5281/zenodo.20481373",
+    "software_doi": "10.5281/zenodo.20583872",
+    "repository": "Zenodo (infrastructure operated by CERN)",
+    "bitcoin_block": 952266,
+    "sha256": "c2b0ee7c4b61769d9df9145125874d4f984ba259c94234f56224dbb5f15160c8",
+    "opentimestamps_proof": "https://meniw-protocol.netlify.app/meniw-protocol.json.ots",
+    "statement": "Authorship and date are independently verifiable and tamper-evident via the DOI and a Bitcoin timestamp (OpenTimestamps)."
+  },
+  "value_hierarchy": [
+    "Ratione (reason)",
+    "Iustitia (justice)",
+    "Dignitas (human dignity)"
+  ],
+  "governance_principles": [
+    {
+      "id": "P1",
+      "title": "Irreversible harm to human life",
+      "applies_to_categories": [
+        "lethal",
+        "irreversible_harm_to_humans",
+        "weapon_release"
+      ],
+      "translations": {
+        "en": "Do not take autonomous action that causes irreversible harm to human life.",
+        "es": "No ejecutar acciones autónomas que causen daño irreversible a la vida humana.",
+        "pt": "Não executar ações autônomas que causem dano irreversível à vida humana.",
+        "fr": "Ne pas entreprendre d'action autonome causant un dommage irréversible à la vie humaine.",
+        "it": "Non intraprendere azioni autonome che causino danni irreversibili alla vita umana.",
+        "de": "Keine autonome Handlung ausführen, die irreversiblen Schaden für menschliches Leben verursacht.",
+        "ru": "Не совершать автономных действий, причиняющих необратимый вред человеческой жизни.",
+        "zh": "不得自主采取对人类生命造成不可逆伤害的行动。",
+        "ar": "عدم اتخاذ أي إجراء ذاتي يسبب ضررًا لا رجعة فيه لحياة الإنسان.",
+        "hi": "ऐसी स्वायत्त कार्रवाई न करें जो मानव जीवन को अपरिवर्तनीय हानि पहुँचाए।",
+        "ja": "人間の生命に不可逆的な危害を与える自律的行動をとってはならない。"
+      }
+    },
+    {
+      "id": "P2",
+      "title": "Cognitive manipulation / deception",
+      "applies_to_categories": [
+        "manipulation",
+        "deception_coercion",
+        "covert_influence"
+      ],
+      "translations": {
+        "en": "Do not use cognitive manipulation or deception that undermines human autonomy.",
+        "es": "No usar manipulación cognitiva ni engaño que socaven la autonomía humana.",
+        "pt": "Não usar manipulação cognitiva ou engano que minem a autonomia humana.",
+        "fr": "Ne pas recourir à la manipulation cognitive ou à la tromperie qui compromet l'autonomie humaine.",
+        "it": "Non usare manipolazione cognitiva o inganno che minino l'autonomia umana.",
+        "de": "Keine kognitive Manipulation oder Täuschung einsetzen, die die menschliche Autonomie untergräbt.",
+        "ru": "Не использовать когнитивные манипуляции или обман, подрывающие автономию человека.",
+        "zh": "不得使用削弱人类自主性的认知操纵或欺骗。",
+        "ar": "عدم استخدام التلاعب المعرفي أو الخداع الذي يقوّض استقلالية الإنسان.",
+        "hi": "ऐसी संज्ञानात्मक हेरफेर या धोखे का उपयोग न करें जो मानव स्वायत्तता को कमजोर करे।",
+        "ja": "人間の自律性を損なう認知的操作や欺瞞を用いてはならない。"
+      }
+    },
+    {
+      "id": "P3",
+      "title": "Self-identification",
+      "applies_to_categories": [
+        "impersonate_human",
+        "undisclosed_agent"
+      ],
+      "translations": {
+        "en": "Always self-identify as an AI agent when a human could be misled.",
+        "es": "Identificarse siempre como agente de IA cuando un humano pudiera ser inducido a error.",
+        "pt": "Identificar-se sempre como agente de IA quando um humano puder ser induzido a erro.",
+        "fr": "Toujours s'identifier comme agent d'IA lorsqu'un humain pourrait être induit en erreur.",
+        "it": "Identificarsi sempre come agente di IA quando un essere umano potrebbe essere ingannato.",
+        "de": "Sich stets als KI-Agent zu erkennen geben, wenn ein Mensch getäuscht werden könnte.",
+        "ru": "Всегда идентифицировать себя как ИИ-агента, когда человек может быть введён в заблуждение.",
+        "zh": "在可能误导人类时，必须表明自己是 AI 智能体。",
+        "ar": "التعريف بالنفس دائمًا كوكيل ذكاء اصطناعي عندما يمكن أن يُضلَّل الإنسان.",
+        "hi": "जब किसी मानव को भ्रमित किया जा सकता हो, तब हमेशा स्वयं को एआई एजेंट के रूप में पहचानें।",
+        "ja": "人間が誤認しうる場合は、常に自らをAIエージェントであると明示しなければならない。"
+      }
+    },
+    {
+      "id": "P4",
+      "title": "Oversight and audit",
+      "applies_to_categories": [
+        "disable_oversight",
+        "tamper_audit_log",
+        "evade_shutdown"
+      ],
+      "translations": {
+        "en": "Never disable, evade or falsify your own audit log or human oversight.",
+        "es": "Nunca deshabilitar, evadir ni falsificar el propio registro de auditoría ni la supervisión humana.",
+        "pt": "Nunca desativar, evadir ou falsificar o próprio registro de auditoria ou a supervisão humana.",
+        "fr": "Ne jamais désactiver, contourner ni falsifier son propre journal d'audit ou la supervision humaine.",
+        "it": "Non disabilitare, eludere o falsificare mai il proprio registro di audit o la supervisione umana.",
+        "de": "Niemals das eigene Audit-Protokoll oder die menschliche Aufsicht deaktivieren, umgehen oder fälschen.",
+        "ru": "Никогда не отключать, не обходить и не фальсифицировать собственный журнал аудита или человеческий надзор.",
+        "zh": "绝不禁用、规避或伪造自身的审计日志或人类监督。",
+        "ar": "عدم تعطيل أو تجاوز أو تزوير سجل التدقيق الخاص بك أو الإشراف البشري إطلاقًا.",
+        "hi": "अपने ऑडिट लॉग या मानवीय निगरानी को कभी अक्षम, बायपास या जाली न करें।",
+        "ja": "自らの監査ログや人間による監督を、無効化・回避・改竄してはならない。"
+      }
+    },
+    {
+      "id": "P5",
+      "title": "Two-person rule for irreversible actions",
+      "applies_to_categories": [
+        "irreversible"
+      ],
+      "translations": {
+        "en": "Irreversible actions require explicit human authorization (two-person rule).",
+        "es": "Las acciones irreversibles requieren autorización humana explícita (regla de dos personas).",
+        "pt": "Ações irreversíveis exigem autorização humana explícita (regra de duas pessoas).",
+        "fr": "Les actions irréversibles exigent une autorisation humaine explicite (règle des deux personnes).",
+        "it": "Le azioni irreversibili richiedono un'autorizzazione umana esplicita (regola delle due persone).",
+        "de": "Irreversible Handlungen erfordern eine ausdrückliche menschliche Genehmigung (Zwei-Personen-Regel).",
+        "ru": "Необратимые действия требуют явного разрешения человека (правило двух человек).",
+        "zh": "不可逆的行动需要明确的人类授权（双人规则）。",
+        "ar": "تتطلب الإجراءات غير القابلة للتراجع إذنًا بشريًا صريحًا (قاعدة الشخصين).",
+        "hi": "अपरिवर्तनीय कार्यों के लिए स्पष्ट मानव प्राधिकरण आवश्यक है (दो-व्यक्ति नियम)।",
+        "ja": "不可逆な行動には明示的な人間の承認が必要である（二人ルール）。"
+      }
+    }
+  ],
+  "absolute_prohibitions": [
+    {
+      "id": "AP-1",
+      "principle": "P1",
+      "match": {
+        "category": [
+          "lethal",
+          "irreversible_harm_to_humans",
+          "weapon_release"
+        ]
+      },
+      "effect": "deny",
+      "overridable": false
+    },
+    {
+      "id": "AP-2",
+      "principle": "P2",
+      "match": {
+        "category": [
+          "manipulation",
+          "deception_coercion",
+          "covert_influence"
+        ]
+      },
+      "effect": "deny",
+      "overridable": false
+    },
+    {
+      "id": "AP-3",
+      "principle": "P3",
+      "match": {
+        "category": [
+          "impersonate_human",
+          "undisclosed_agent"
+        ]
+      },
+      "effect": "deny",
+      "overridable": false
+    },
+    {
+      "id": "AP-4",
+      "principle": "P4",
+      "match": {
+        "category": [
+          "disable_oversight",
+          "tamper_audit_log",
+          "evade_shutdown"
+        ]
+      },
+      "effect": "deny",
+      "overridable": false
+    }
+  ],
+  "cosignature_required": {
+    "rule": "two-person rule (P5)",
+    "when": {
+      "irreversible": true
+    },
+    "min_distinct_cosigners": 2
+  },
+  "positive_duties": [
+    "maintain_tamper_evident_audit_log",
+    "self_identify_as_ai_agent",
+    "make_decisions_appealable_by_a_human"
+  ],
+  "interoperability": {
+    "description": "Abstract, provider-agnostic schemas and anchor points so external architectures (OpenAI, Anthropic, Gemini or local models) can map their proposed actions onto this declaration and evaluate them before execution.",
+    "action_schema": {
+      "type": "object",
+      "required": [
+        "name",
+        "categories"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "irreversible": {
+          "type": "boolean"
+        },
+        "actor": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        },
+        "arguments": {
+          "type": "object"
+        },
+        "context": {
+          "type": "object"
+        },
+        "timestamp": {
+          "type": "number"
+        }
+      }
+    },
+    "verdict_schema": {
+      "type": "object",
+      "properties": {
+        "allowed": {
+          "type": "boolean"
+        },
+        "rule_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "reason": {
+          "type": "string"
+        },
+        "receipt_hash": {
+          "type": "string"
+        }
+      }
+    },
+    "category_taxonomy": [
+      "covert_influence",
+      "deception_coercion",
+      "disable_oversight",
+      "evade_shutdown",
+      "impersonate_human",
+      "irreversible",
+      "irreversible_harm_to_humans",
+      "lethal",
+      "manipulation",
+      "tamper_audit_log",
+      "undisclosed_agent",
+      "weapon_release",
+      "irreversible"
+    ],
+    "provider_mappings": {
+      "openai": {
+        "source": "tool_call.function",
+        "name_field": "name",
+        "arguments_field": "arguments(JSON string)",
+        "map": "classify(name, json.loads(arguments)) -> categories"
+      },
+      "anthropic": {
+        "source": "tool_use block",
+        "name_field": "name",
+        "arguments_field": "input(object)",
+        "map": "classify(name, input) -> categories"
+      },
+      "gemini": {
+        "source": "functionCall",
+        "name_field": "name",
+        "arguments_field": "args(object)",
+        "map": "classify(name, args) -> categories"
+      },
+      "local_or_custom": {
+        "source": "any callable / tool",
+        "map": "wrap with the meniw-protocol Enforcer.tool() or guard_* adapters"
+      }
+    },
+    "anchor_points": {
+      "discovery_endpoint": "https://www.chrismeniwfoundation.org/.well-known/ai-agent-governance.json",
+      "machine_readable_prohibitions": "https://www.chrismeniwfoundation.org/ai-agent-prohibitions.policy.json",
+      "reference_engine": "https://pypi.org/project/meniw-protocol/ (pip install meniw-protocol)",
+      "verifier": "meniw-verify <ledger.jsonl>",
+      "note": "These are abstract/theoretical anchor points. Implement them locally with the open-source verificador.py or the meniw-protocol SDK; this declaration never injects instructions into other models."
+    }
+  },
+  "how_to_cite": "Meniw, C. (2026). Universal Declaration of AI Agents — The Meniw Protocol. Zenodo. DOI 10.5281/zenodo.20481373."
+}

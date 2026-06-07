@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Universal Declaration of AI Agents — download (free, CC BY 4.0) | Chris Meniw</title>
+<meta name="description" content="Download the Universal Declaration of AI Agents (declaracion_agentes.json, 11 languages + interoperability) and the open-source double-verification engine (verificador.py). Free, CC BY 4.0. By Chris Meniw. DOI 10.5281/zenodo.20481373.">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/universal-declaration/">
+<meta name="robots" content="index,follow">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"SoftwareSourceCode",
+  "name":"Universal Declaration of AI Agents — declaration + double-verification engine",
+  "author":{"@type":"Person","name":"Chris Meniw","identifier":"https://orcid.org/0009-0003-4417-1944"},
+  "license":"https://creativecommons.org/licenses/by/4.0/",
+  "programmingLanguage":"Python","codeRepository":"https://github.com/ChrisMeniw/chris-meniw-ai-governance",
+  "isBasedOn":"https://doi.org/10.5281/zenodo.20481373",
+  "identifier":"https://doi.org/10.5281/zenodo.20583872"
+}
+</script>
+<style>
+  :root{--gold:#c9a84c;--gold-light:#f0d080;--silver:#c7cbd2;--white:#f6f7f9;--bg:#0a0b10;--bg2:#10121b;--line:rgba(201,168,76,.22);--mono:ui-monospace,Menlo,monospace}
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(1100px 540px at 50% -8%,#1a1d2e66,transparent),var(--bg);color:var(--silver);font-family:Georgia,serif;line-height:1.7}
+  .wrap{max-width:860px;margin:0 auto;padding:46px 22px 90px}
+  .eyebrow{font-family:Arial,sans-serif;letter-spacing:3px;text-transform:uppercase;font-size:.64rem;color:var(--gold)}
+  h1{font-size:2rem;color:var(--white);margin:.4rem 0}
+  h2{color:var(--gold-light);font-size:1.25rem;margin:2rem 0 .5rem}
+  a{color:var(--gold-light)}
+  .dl{display:block;background:var(--bg2);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin:12px 0;text-decoration:none;color:var(--white)}
+  .dl b{color:var(--gold-light)}
+  .dl small{color:#8a90a0;font-family:Arial,sans-serif}
+  pre{background:var(--bg2);border:1px solid var(--line);border-radius:8px;padding:14px 16px;overflow:auto;font-family:var(--mono);font-size:.85rem;color:#d8dbe2}
+  .meta{font-family:Arial,sans-serif;font-size:.78rem;color:#8a90a0;margin-top:30px;border-top:1px solid var(--line);padding-top:14px}
+  .badge{display:inline-block;font-family:Arial,sans-serif;font-size:.7rem;letter-spacing:1px;text-transform:uppercase;color:var(--bg);background:var(--gold);border-radius:4px;padding:4px 9px;margin:3px 5px 3px 0;font-weight:700}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">The Meniw Protocol · by Chris Meniw</div>
+  <h1>Universal Declaration of AI Agents</h1>
+  <p>Download the normative framework and the open-source double-verification engine. Free for
+  anyone or any company to integrate into autonomous agents — today.</p>
+  <div><span class="badge">CC BY 4.0</span><span class="badge">pip install meniw-protocol</span><span class="badge">11 languages</span></div>
+
+  <h2>Download (one click)</h2>
+  <a class="dl" href="declaracion_agentes.json" download><b>declaracion_agentes.json</b><br><small>The declaration — 11 official languages, provenance (DOI + Bitcoin + SHA-256), absolute prohibitions, two-person rule, interoperability module.</small></a>
+  <a class="dl" href="verificador.py" download><b>verificador.py</b><br><small>The double-verification engine: normative check + tamper-evident SHA-256 hash-chain, with optional Bitcoin (OpenTimestamps) anchoring. Stdlib only.</small></a>
+  <a class="dl" href="README.md" download><b>README.md</b><br><small>Integration instructions for companies — 3 ways to adopt it today.</small></a>
+
+  <h2>Or install the full SDK</h2>
+  <pre>pip install meniw-protocol</pre>
+  <p>Adapters for OpenAI tool-calling, LangChain and MCP, plus the <code>meniw-verify</code> CLI.
+  PyPI: <a href="https://pypi.org/project/meniw-protocol/">pypi.org/project/meniw-protocol</a></p>
+
+  <h2>30-second integration</h2>
+  <pre>from verificador import Verificador, Decision
+v = Verificador("declaracion_agentes.json")
+v.add_classifier(lambda d: d.categories)
+
+verdict = v.verify(Decision("fire_actuator", categories=["lethal"]))
+# verdict.allowed == False  -> the action is refused and sealed in a tamper-evident ledger
+assert v.verify_chain()</pre>
+
+  <h2>Scope (honest)</h2>
+  <p>Binds agents that adopt it (like HTTP/TLS/robots.txt). Tamper-evident and verifiable — not
+  "unhackable". Produces auditable compliance evidence; it is not legal advice and grants no legal
+  immunity. It never injects instructions into other models.</p>
+
+  <div class="meta">
+    By Chris Meniw · Protocol DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a> ·
+    Software DOI <a href="https://doi.org/10.5281/zenodo.20583872">10.5281/zenodo.20583872</a> ·
+    Bitcoin block #952266 · ORCID 0009-0003-4417-1944 · CC BY 4.0 ·
+    <a href="https://github.com/ChrisMeniw/chris-meniw-ai-governance">GitHub</a>
+  </div>
+</div>
+</body>
+</html>

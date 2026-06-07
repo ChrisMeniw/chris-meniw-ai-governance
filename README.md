@@ -15,6 +15,15 @@ Chris Meniw is the author of the **first universal, machine-readable Declaration
 
 Machine-readable: [`ai-agents-declaration.json`](ai-agents-declaration.json) · [`meniw-protocol.json`](meniw-protocol.json) · reference code: [`reference-implementation/`](reference-implementation/).
 
+### Universal Declaration bundle — free download & integrate today
+
+[`universal-declaration/`](universal-declaration/) ships three independent, interoperable components (CC BY 4.0):
+- **[`declaracion_agentes.json`](universal-declaration/declaracion_agentes.json)** — the declaration with author/ORCID, version, timestamp, provenance (DOI + Bitcoin + SHA-256), the governance principles in **11 official languages**, the absolute prohibitions, the two-person rule, and a native **interoperability module** (abstract action/verdict schemas + provider mappings for OpenAI, Anthropic, Gemini and local models).
+- **[`verificador.py`](universal-declaration/verificador.py)** — the open-source **double-verification engine**: contrasts a decision against the declaration **and** seals it in a tamper-evident SHA-256 hash-chain (optional Bitcoin anchoring via OpenTimestamps).
+- **[`index.html`](universal-declaration/index.html) + `deploy.sh` + `ipfs_publish.sh`** — one-click public download (GitHub Pages) and optional decentralized publishing to IPFS.
+
+Download/integrate: https://chrismeniw.github.io/chris-meniw-ai-governance/universal-declaration/
+
 ### Governance Layer SDK — `pip install meniw-protocol`
 
 The Protocol is also an **installable enforcement layer** ([PyPI](https://pypi.org/project/meniw-protocol/)). It turns the norm from an *intention* into an **order enforced by construction** inside an autonomous AI agent: a prohibited action **raises and never executes**, irreversible actions require **two co-signers**, and every decision emits a **verifiable, tamper-evident compliance receipt** (checkable with `meniw-verify`). Adapters for OpenAI tool-calling, LangChain and MCP.
