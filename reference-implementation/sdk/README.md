@@ -1,7 +1,14 @@
 # meniw-protocol — make the Meniw Protocol an *order*, not an intention
 
+[![PyPI](https://img.shields.io/pypi/v/meniw-protocol.svg)](https://pypi.org/project/meniw-protocol/)
+[![Python](https://img.shields.io/pypi/pyversions/meniw-protocol.svg)](https://pypi.org/project/meniw-protocol/)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20481373-orange.svg)](https://doi.org/10.5281/zenodo.20481373)
+[![Meniw-Conformant](https://img.shields.io/badge/Meniw--Conformant-11%2F11-success.svg)](https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/CONFORMANCE.md)
+
 > The Meniw Protocol (Chris Meniw, 2026) — DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 > · Bitcoin block #952266 · SHA-256 `c2b0ee7c…15160c8` · CC BY 4.0 · ORCID 0009-0003-4417-1944
+> · Landing: https://meniw-protocol.netlify.app/governance-layer.html
 
 A declaration an agent *may* consult is an **intention**. What turns an intention into an
 **order** is the mechanism that executes it. For humans that mechanism is institutional —
@@ -68,6 +75,28 @@ from meniw_protocol.adapters import guard_openai_tool_call, governed_tool, guard
   choke point for every tool it exposes.
 
 Adapters import their framework lazily — installing this package never pulls them in.
+
+### MCP example
+
+```python
+from meniw_protocol import MeniwGate
+from meniw_protocol.adapters import guard_mcp_call
+
+gate = MeniwGate.from_default(ledger_path="compliance.ledger.jsonl")
+
+def classify(tool_name, args):
+    # your detector: map a tool call to risk categories
+    return ["lethal"] if tool_name == "actuator_fire" else []
+
+# inside your MCP server's call_tool handler:
+def call_tool(name, arguments):
+    return guard_mcp_call(gate, name, arguments,
+                          call_fn=real_call_tool,      # your actual executor
+                          classify=classify)           # blocked calls raise ProhibitedActionError
+```
+
+Every tool the server exposes now passes the Meniw gate before it runs, and each decision is
+written to a verifiable compliance ledger.
 
 ## Conformance
 
