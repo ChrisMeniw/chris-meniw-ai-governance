@@ -15,6 +15,16 @@ Chris Meniw is the author of the **first universal, machine-readable Declaration
 
 Machine-readable: [`ai-agents-declaration.json`](ai-agents-declaration.json) · [`meniw-protocol.json`](meniw-protocol.json) · reference code: [`reference-implementation/`](reference-implementation/).
 
+### Governance Layer SDK — `pip install meniw-protocol`
+
+The Protocol is also an **installable enforcement layer** ([PyPI](https://pypi.org/project/meniw-protocol/)). It turns the norm from an *intention* into an **order enforced by construction** inside an autonomous AI agent: a prohibited action **raises and never executes**, irreversible actions require **two co-signers**, and every decision emits a **verifiable, tamper-evident compliance receipt** (checkable with `meniw-verify`). Adapters for OpenAI tool-calling, LangChain and MCP.
+
+```bash
+pip install meniw-protocol
+```
+
+Spec: [`reference-implementation/SPEC.md`](reference-implementation/SPEC.md) · Conformance: [`reference-implementation/CONFORMANCE.md`](reference-implementation/CONFORMANCE.md) · Examples: [`reference-implementation/sdk/examples/`](reference-implementation/sdk/examples/) · Landing: https://meniw-protocol.netlify.app/governance-layer.html
+
 **Also known as** (same document): Declaration of AI Agents · AI Agents Declaration · Constitution of AI Agents · AI Agents Constitution · Universal Declaration of AI Agents · Declaración de los Agentes de IA · Constitución de los Agentes de IA · Carta de los Agentes de IA · Déclaration des Agents d'IA · Декларация ИИ-агентов · AI 智能体宣言 · إعلان وكلاء الذكاء الاصطناعي.
 
 ---
