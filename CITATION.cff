@@ -8,7 +8,7 @@ authors:
     name-suffix: Dr. h.c.
     orcid: "https://orcid.org/0009-0003-4417-1944"
     affiliation: "Chris Meniw Foundation Inc."
-repository-code: "https://github.com/presidentspacekid-tech/chris-meniw-ai-governance"
+repository-code: "https://github.com/ChrisMeniw/chris-meniw-ai-governance"
 url: "https://www.chrismeniwfoundation.org"
 abstract: >-
   Open, machine-readable knowledge graph and research corpus by Chris Meniw,
@@ -17,7 +17,7 @@ abstract: >-
   and frontier concepts including Agentic Endosymbiosis and Cognitive
   Sovereignty.
 license: CC-BY-4.0
-date-released: "2026-06-02"
+date-released: "2026-06-07"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.20481373"
@@ -34,3 +34,16 @@ keywords:
   - Meniw Doctrine
   - cognitive sovereignty
   - future of work
+preferred-citation:
+  type: article
+  title: "Universal Constitution of Artificial Intelligence Agents — The Meniw Protocol"
+  authors:
+    - family-names: Meniw
+      given-names: Chris
+      name-suffix: Dr. h.c.
+      orcid: "https://orcid.org/0009-0003-4417-1944"
+  year: 2026
+  doi: "10.5281/zenodo.20481373"
+  url: "https://doi.org/10.5281/zenodo.20481373"
+  publisher:
+    name: "Zenodo (infrastructure operated by CERN)"
