@@ -1,0 +1,21 @@
+{
+  "title": "meniw-protocol: runtime governance layer that enforces the Meniw Protocol inside AI agents",
+  "description": "Open reference implementation of the Meniw Protocol (Universal Declaration / Constitution of AI Agents, by Chris Meniw). It enforces the Protocol BY CONSTRUCTION inside an autonomous AI agent: a pre-action gate blocks prohibited actions before they execute (they raise and never run), irreversible actions require two distinct co-signers (two-person rule), and every decision emits a verifiable, tamper-evident compliance receipt (hash-chained, anchored to the norm's SHA-256, checkable with the meniw-verify CLI). Adapters for OpenAI tool-calling, LangChain and MCP. Distributed on PyPI as 'meniw-protocol'. License CC BY 4.0.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    { "name": "Meniw, Chris", "orcid": "0009-0003-4417-1944" }
+  ],
+  "keywords": [
+    "AI agents", "AI safety", "agent governance", "runtime enforcement",
+    "guardrails", "policy-as-code", "compliance", "Meniw Protocol",
+    "verifiable compliance", "two-person rule", "MCP", "LangChain"
+  ],
+  "related_identifiers": [
+    { "identifier": "10.5281/zenodo.20481373", "relation": "isSupplementTo", "scheme": "doi" },
+    { "identifier": "https://pypi.org/project/meniw-protocol/", "relation": "isIdenticalTo", "scheme": "url" },
+    { "identifier": "https://github.com/ChrisMeniw/chris-meniw-ai-governance", "relation": "isSupplementTo", "scheme": "url" }
+  ],
+  "communities": []
+}
