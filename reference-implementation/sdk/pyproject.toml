@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meniw-protocol"
-version = "0.3.1"
+version = "0.3.2"
 description = "Enforce the Meniw Protocol by construction inside an AI agent: a pre-action gate, a two-person rule for irreversible actions, and verifiable, tamper-evident compliance receipts."
 readme = "README.md"
 requires-python = ">=3.9"

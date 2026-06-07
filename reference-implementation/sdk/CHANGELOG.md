@@ -3,6 +3,13 @@
 All notable changes to `meniw-protocol` are documented here. Format based on
 [Keep a Changelog](https://keepachangelog.com/); versioning follows [SemVer](https://semver.org/).
 
+## [0.3.2] — 2026-06-07
+### Changed
+- PyPI page now shows the Zenodo **software DOI** badge (10.5281/zenodo.20583872) and a dual
+  citation (Protocol norm + software).
+### Added
+- OpenAI tool-calling example (`examples/04_openai_tool_calling.py`); this CHANGELOG.
+
 ## [0.3.1] — 2026-06-07
 ### Added
 - Richer PyPI page: badges (PyPI version, Python versions, license, Protocol DOI, software
