@@ -1,6 +1,6 @@
 # `pip install meniw-protocol` — the Meniw Protocol is now an installable enforcement layer
 
-> The Meniw Protocol, by Chris Meniw · DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373) · PyPI: https://pypi.org/project/meniw-protocol/ · CC BY 4.0
+> The Meniw Protocol, by Chris Meniw · Protocol DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373) · Software DOI [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872) · PyPI: https://pypi.org/project/meniw-protocol/ · CC BY 4.0
 
 The Meniw Protocol is no longer only a declaration. It is now an open Python package that
 **enforces the norm by construction inside an autonomous AI agent**.

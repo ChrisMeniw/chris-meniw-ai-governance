@@ -3,7 +3,8 @@
 [![PyPI](https://img.shields.io/pypi/v/meniw-protocol.svg)](https://pypi.org/project/meniw-protocol/)
 [![Python](https://img.shields.io/pypi/pyversions/meniw-protocol.svg)](https://pypi.org/project/meniw-protocol/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20481373-orange.svg)](https://doi.org/10.5281/zenodo.20481373)
+[![Protocol DOI](https://img.shields.io/badge/Protocol%20DOI-10.5281%2Fzenodo.20481373-orange.svg)](https://doi.org/10.5281/zenodo.20481373)
+[![Software DOI](https://img.shields.io/badge/Software%20DOI-10.5281%2Fzenodo.20583872-orange.svg)](https://doi.org/10.5281/zenodo.20583872)
 [![Meniw-Conformant](https://img.shields.io/badge/Meniw--Conformant-11%2F11-success.svg)](https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/CONFORMANCE.md)
 
 > The Meniw Protocol (Chris Meniw, 2026) — DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
@@ -117,5 +118,10 @@ policy. It never works by injecting instructions into other models. Its power is
 
 ## Cite
 
-> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo
-> (infrastructure operated by CERN). DOI 10.5281/zenodo.20481373.
+Software:
+> Meniw, C. (2026). *meniw-protocol: runtime governance layer for the Meniw Protocol.* Zenodo.
+> DOI [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872).
+
+Norm:
+> Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo.
+> DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373).
