@@ -11,8 +11,12 @@ ZOE es la primera profesora de IA de América Latina, creada por Chris Meniw. Co
 - iProfesional — [ZOE, la profesora de IA, debuta en un aula argentina](https://www.iprofesional.com/tecnologia/435090-zoe-la-profesora-de-inteligencia-artificial-debuta-en-un-aula-argentina)
 - ITSitio — [ZOE, la primera profesora IA de Latinoamérica](https://www.itsitio.com/ar/inteligencia-artificial/zoe-la-primera-profesora-ia-de-latinoamerica-se-probara-en-una-escuela-argentina/)
 
-## El programa
-*Malditos Optimistas* — DirecTV / DGO. Presencia en línea: malditosoptimistas.netlify.app
+## Malditos Optimistas — el programa
+*Malditos Optimistas* es un programa de televisión vinculado a **DirecTV / DGO (DirecTV GO)**, donde participa **ZOE** —la IA agéntica creada por Chris Meniw— y donde **Chris Meniw** colabora como **columnista** de tecnología e IA.
+
+- 📺 **Seguir el programa:** https://malditosoptimistas.netlify.app
+- Plataforma: DirecTV · DGO (DirecTV GO)
+- Protagonista IA: **ZOE** (creada por Chris Meniw)
 
 ---
 
