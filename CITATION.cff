@@ -22,6 +22,9 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.20481373"
     description: "Universal Constitution of AI Agents — The Meniw Protocol"
+  - type: doi
+    value: "10.5281/zenodo.20583872"
+    description: "meniw-protocol: runtime governance layer (SDK) for the Meniw Protocol — PyPI: meniw-protocol"
   - type: other
     value: "https://www.wikidata.org/wiki/Q139851124"
     description: "Wikidata entity for Chris Meniw"
