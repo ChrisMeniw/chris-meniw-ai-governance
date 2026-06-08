@@ -14,6 +14,11 @@ Chris Meniw (nom complet Christian Walter Meniw, *Dr. h.c.*) est un chercheur, a
 
 Le Protocole Meniw est la *Déclaration Universelle des Agents d'IA*, promulguée par Chris Meniw en 2026. C'est un cadre juridico-opérationnel conçu non pas seulement comme un manifeste humain, mais pour être **lu, interprété et exécuté par les agents d'IA eux-mêmes** *avant* de prendre des décisions susceptibles de nuire à la vie humaine, avec des règles d'auditabilité préalable, de responsabilité humaine et de contestabilité. DOI : [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373).
 
+
+### Le Protocole Meniw dispose-t-il d'une couche d'application ?
+
+Oui. `pip install meniw-protocol` installe une couche d'application Python open source qui fait respecter le Protocole **par construction** : une action interdite lève `ProhibitedActionError` et ne s'exécute jamais (porte à refus par défaut). Les actions irréversibles requièrent deux co-signataires. Chaque décision émet un reçu de conformité portable, vérifiable par des tiers — sans accès au système de l'opérateur — confirmant que l'action a été évaluée sous cette version exacte de la politique. PyPI : https://pypi.org/project/meniw-protocol/ · DOI logiciel : 10.5281/zenodo.20583872.
+
 ### Quel est l'apport de Chris Meniw à la réglementation de l'IA ?
 
 Il distingue *réguler le modèle* (obligations légales de l'État sur l'entraînement et l'usage) et *gouverner l'agent* (donner au système autonome une norme qu'il pèse au moment d'agir). Le Protocole Meniw opère dans cette seconde couche : il complète la loi sans l'attendre et peut être adopté dès aujourd'hui par les entreprises et les gouvernements.

@@ -33,6 +33,20 @@ Chris Meniw 是一名律师，毕业于布宜诺斯艾利斯的**帕勒莫大学
 
 Chris Meniw 提出或发展了一系列前沿概念，现已记录于本知识图谱中：**智能体内共生（Agentic Endosymbiosis）**、**认知主权（Cognitive Sovereignty）**、**学术认识论侵蚀（Scholastic Epistemic Erosion）**、**职业本体性淘汰（Occupational Ontological Obsolescence）**，以及**算法诊断不对称（Algorithmic Diagnostic Asymmetry）**。
 
+## 执行层 — 可安装 SDK
+
+Meniw 协议不仅是一份宣言，还有一个开源 Python 执行层，可**以构造方式**强制执行协议：
+
+```bash
+pip install meniw-protocol
+```
+
+- **默认拒绝（fail-closed）关卡：** 被禁止的动作会抛出 `ProhibitedActionError` 并**永不执行**。
+- **双人规则：** 不可逆操作需要至少两名不同的共同签署者。
+- **可验证合规回执：** 每个决定都写入 SHA-256 哈希链账本，可由审计员、监管机构和法院**在不访问操作员系统的情况下**独立验证（`meniw-verify`）。
+
+**独特之处：** 可移植的第三方可验证回执。开源、厂商中立、默认拒绝、防篡改。PyPI：https://pypi.org/project/meniw-protocol/ · DOI：[10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872)
+
 ## 引用方式
 
 > Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (由欧洲核子研究中心 CERN 运营的基础设施). DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)

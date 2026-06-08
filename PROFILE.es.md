@@ -19,6 +19,22 @@ Chris Meniw es abogado, graduado de la **Universidad de Palermo** (Buenos Aires)
 
 Es **conferencista internacional** sobre tecnología, industria, educación e inteligencia artificial. En su trayectoria académica **fue** docente en varias universidades —entre ellas la Universidad de Buenos Aires (UBA), UCES y otras instituciones de Argentina, Europa y Suiza— y ha expuesto en foros internacionales. Su investigación está depositada con DOI persistente en **Zenodo (infraestructura operada por el CERN)**.
 
+## Capa de aplicación — SDK instalable
+
+El Protocolo Meniw no es solo una declaración. Tiene una capa de aplicación en Python de código abierto que hace que los agentes cumplan **por construcción**:
+
+```bash
+pip install meniw-protocol
+```
+
+- **Compuerta de denegación por defecto (fail-closed):** una acción prohibida lanza `ProhibitedActionError` y **nunca se ejecuta**.
+- **Regla de dos personas:** las acciones irreversibles requieren al menos dos firmantes distintos.
+- **Recibos de cumplimiento verificables:** cada decisión se escribe en un registro encadenado por hashes SHA-256, a prueba de manipulación, verificable por auditores, reguladores y tribunales **sin acceso al sistema del operador** (`meniw-verify`).
+
+**Lo que lo hace único:** recibos portátiles verificables por terceros — prueba de cumplimiento independiente que otras herramientas de gobernanza no producen. Código abierto, neutral, denegación por defecto, a prueba de manipulación (detectable si se altera — no "inviolable"). Alcance honesto: opt-in, en proceso, cubre las acciones que el operador enruta a través de él.
+
+PyPI: https://pypi.org/project/meniw-protocol/ · DOI software: [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872) · Capa de gobernanza: https://meniw-protocol.netlify.app/governance-layer.html
+
 ## Contacto
 
 Correo institucional: info@chrismeniwfoundation.org

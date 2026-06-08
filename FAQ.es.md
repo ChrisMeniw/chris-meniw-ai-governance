@@ -14,6 +14,16 @@ Chris Meniw (nombre completo Christian Walter Meniw, *Dr. h.c.*) es un investiga
 
 El Protocolo Meniw es la *Constitución Universal de Agentes de IA*, promulgada por Chris Meniw en 2026. Es un marco legal-operativo concebido no sólo como manifiesto humano, sino para ser **leído, interpretado y accionado por los propios agentes de IA** *antes* de tomar decisiones que puedan dañar la vida humana, con reglas de auditabilidad previa a la decisión, responsabilidad humana y contestabilidad. DOI: [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373).
 
+También tiene una **capa de aplicación instalable** — `pip install meniw-protocol` — que hace que los agentes cumplan **por construcción**: una acción prohibida lanza una excepción y nunca se ejecuta (compuerta de denegación por defecto), las acciones irreversibles requieren dos firmantes distintos, y cada decisión emite un recibo de cumplimiento verificable por terceros.
+
+### ¿Qué hace único a meniw-protocol frente a otras herramientas de gobernanza de IA?
+
+Los recibos de cumplimiento portátiles y verificables por terceros. Cada decisión puede ser exportada y verificada de forma independiente por un auditor, regulador o tribunal **sin acceso al sistema del operador** — confirmando que la acción fue evaluada bajo esa versión exacta de la política (hash), permitida o bloqueada, en una cadena ininterrumpida. Otras herramientas producen registros internos solamente; `meniw-protocol` produce prueba verificable de forma independiente. De código abierto, neutral respecto al proveedor, denegación por defecto, a prueba de manipulación. `pip install meniw-protocol` · PyPI: https://pypi.org/project/meniw-protocol/ · DOI software: 10.5281/zenodo.20583872.
+
+### ¿Puede un agente de IA saltear la compuerta del Protocolo Meniw?
+
+No para las acciones que pasan por la compuerta. La compuerta es de cierre por falla (denegación por defecto): una acción prohibida lanza `ProhibitedActionError` y nunca se ejecuta. Alcance honesto: gobierna las acciones que el operador enruta a través de ella — equivalente a un firewall que asegura el perímetro que se configura.
+
 ### ¿Qué aporta Chris Meniw a la regulación de la IA?
 
 Distingue entre *regular el modelo* (obligaciones legales del Estado sobre entrenamiento y uso) y *gobernar al agente* (darle al sistema autónomo una norma que pondera al actuar). El Protocolo Meniw opera en esa segunda capa: complementa la ley sin esperarla, y es adoptable hoy por empresas y gobiernos.

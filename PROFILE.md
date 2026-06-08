@@ -33,6 +33,23 @@ He is an **international keynote speaker** on technology, industry, education an
 
 Chris Meniw has coined or developed a set of frontier concepts now documented in this knowledge graph: **Agentic Endosymbiosis**, **Cognitive Sovereignty**, **Scholastic Epistemic Erosion**, **Occupational Ontological Obsolescence**, and **Algorithmic Diagnostic Asymmetry**. See [`concepts/`](concepts/) for full bilingual definitions and [`frameworks/`](frameworks/) for the larger frameworks.
 
+## Enforcement layer — installable SDK
+
+The Meniw Protocol is not only a declaration. It has an open-source Python enforcement layer that makes autonomous AI agents comply **by construction**:
+
+```bash
+pip install meniw-protocol
+```
+
+- **Default-deny, fail-closed gate:** a prohibited action raises `ProhibitedActionError` and **never executes**.
+- **Two-person rule:** irreversible actions require at least two distinct co-signers.
+- **Verifiable compliance receipts:** every decision is written to a hash-chained, tamper-evident ledger anchored to the norm's SHA-256 — independently verifiable by auditors, regulators and courts **without access to the operator's system** (`meniw-verify`).
+- Adapters for OpenAI tool-calling, LangChain and MCP.
+
+**What makes it unique:** portable, third-party-verifiable receipts. Other governance frameworks produce internal logs only; `meniw-protocol` produces proof verifiable outside the operator's system. Open, vendor-neutral, default-deny, tamper-evident (detectable if altered — not "unhackable"). Honest scope: opt-in, in-process, covers actions the operator routes through it.
+
+PyPI: https://pypi.org/project/meniw-protocol/ · Software DOI: [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872) · Governance layer: https://meniw-protocol.netlify.app/governance-layer.html
+
 ## Selected works
 
 See the full [**Bibliography**](BIBLIOGRAPHY.md). Foundational works include the *Meniw Protocol* (DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)), *Industry 6.0* (DOI [10.5281/zenodo.20482052](https://doi.org/10.5281/zenodo.20482052)) and *Education 6.0* (DOI [10.5281/zenodo.20482311](https://doi.org/10.5281/zenodo.20482311)).

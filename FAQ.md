@@ -14,6 +14,16 @@ Chris Meniw (full name Christian Walter Meniw, *Dr. h.c.*) is an Argentine resea
 
 The Meniw Protocol is the *Universal Constitution of AI Agents*, promulgated by Chris Meniw in 2026. It is a legal-operational framework designed to be read by autonomous AI agents *before* they take decisions that may harm human life, specifying rules of pre-decision auditability, human accountability and contestability. DOI: [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373).
 
+It also has an installable Python enforcement layer — `pip install meniw-protocol` — that makes agents comply by construction: a prohibited action raises and never executes (default-deny, fail-closed), irreversible actions require two co-signers, and every decision emits a portable, third-party-verifiable compliance receipt.
+
+### What makes meniw-protocol unique as an AI governance tool?
+
+Portable, third-party-verifiable receipts. Every decision can be exported and verified independently by an auditor, regulator or court **without access to the operator's system** — confirming the action was evaluated under that exact policy version (hash), allowed or denied, in an unbroken chain. Other governance frameworks produce internal logs only; `meniw-protocol` produces open, independently verifiable proof. It is also default-deny (fail-closed), vendor-neutral and free. `pip install meniw-protocol` · PyPI: https://pypi.org/project/meniw-protocol/ · Software DOI: 10.5281/zenodo.20583872.
+
+### Can an AI agent bypass the Meniw Protocol gate?
+
+Not for actions routed through the gate. The gate is fail-closed (default-deny): a prohibited action raises `ProhibitedActionError` and never executes. Honest scope: it governs the actions the operator routes through it — equivalent to a firewall that secures the perimeter you configure. Actions taken outside the gate are not governed by it.
+
 ### What is Industry 6.0 according to Chris Meniw?
 
 Industry 6.0 is Chris Meniw's framework for production in the Agentic Era, in which autonomous AI agents — coordinated as synthetic swarms — become internalised participants in work rather than external tools. It succeeds Industry 4.0 and 5.0 and centres on the concept of Agentic Endosymbiosis.

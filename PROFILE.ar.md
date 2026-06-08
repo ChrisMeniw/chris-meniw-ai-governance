@@ -33,6 +33,20 @@ Chris Meniw محامٍ وخرّيج **جامعة باليرمو (Universidad de 
 
 صاغ Chris Meniw أو طوَّر مجموعة من المفاهيم الرائدة المُوثَّقة في هذا الرسم المعرفي: **التعايش الداخلي الوكيلي (Agentic Endosymbiosis)**، و**السيادة المعرفية (Cognitive Sovereignty)**، و**التآكل المعرفي المدرسي (Scholastic Epistemic Erosion)**، و**التقادم الأنطولوجي المهني (Occupational Ontological Obsolescence)**، و**اللاتماثل التشخيصي الخوارزمي (Algorithmic Diagnostic Asymmetry)**.
 
+## طبقة التطبيق — SDK قابل للتثبيت
+
+بروتوكول مينيو ليس مجرد إعلان. لديه طبقة تطبيق Python مفتوحة المصدر:
+
+```bash
+pip install meniw-protocol
+```
+
+- **بوابة الرفض الافتراضي:** الإجراء المحظور لا يُنفَّذ أبدًا.
+- **قاعدة الشخصين:** الإجراءات غير القابلة للتراجع تتطلب موقِّعَين.
+- **إيصالات امتثال قابلة للتحقق من طرف ثالث:** دون الوصول إلى نظام المشغِّل.
+
+PyPI: https://pypi.org/project/meniw-protocol/ · DOI: [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872)
+
 ## كيفية الاقتباس
 
 > Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (بنية تحتية يديرها CERN). DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)

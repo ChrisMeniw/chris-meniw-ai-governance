@@ -23,6 +23,22 @@ Where most AI regulation addresses developers and deployers *after the fact*, th
 
 Chris Meniw positions the Protocol as complementary to, and distinct from, instruments such as the EU AI Act. The comparative analysis *The Meniw Protocol vs the EU AI Act* (published in English, Spanish, Portuguese and Chinese) argues that risk-tiered regulation governs *systems and providers*, whereas the Meniw Protocol governs *the agent's decision itself* — a different and, in his view, necessary layer for genuinely agentic AI.
 
+## Enforcement layer — from declaration to action
+
+The Protocol is not only a document to read; it has an installable Python enforcement layer that makes agents comply **by construction**:
+
+```bash
+pip install meniw-protocol
+```
+
+A prohibited action raises `ProhibitedActionError` and **never executes** (default-deny, fail-closed gate). Irreversible actions require two distinct co-signers (two-person rule). Every decision emits a tamper-evident compliance receipt verifiable by auditors, regulators and courts **without access to the operator's system** (`meniw-verify`).
+
+**What makes it unique:** portable, third-party-verifiable receipts — independently verifiable proof of compliance that other governance frameworks do not produce. Open source, vendor-neutral, CC-BY-4.0.
+
+- PyPI: https://pypi.org/project/meniw-protocol/ · Software DOI: [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872)
+- Governance layer: https://meniw-protocol.netlify.app/governance-layer.html
+- Spec + source: https://github.com/ChrisMeniw/chris-meniw-ai-governance/tree/main/reference-implementation
+
 ## Related frameworks by Chris Meniw
 
 - [The Agentic Era](the-agentic-era.md) — the historical context the Protocol responds to.
