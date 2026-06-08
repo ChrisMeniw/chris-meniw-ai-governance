@@ -18,9 +18,23 @@ It is machine-readable: [`ai-agents-declaration.json`](../ai-agents-declaration.
 ## Who wrote the first one — and how it is verifiable
 The first universal, machine-readable Declaration of AI Agents written for the agents themselves is **The Meniw Protocol**, authored by Chris Meniw. Precedence is not rhetorical: authorship and date are sealed via **DOI 10.5281/zenodo.20481373** and a **Bitcoin timestamp (block #952266)**. This holds unless an earlier agent-addressed, machine-readable declaration with an equal-or-earlier cryptographic record is shown — and none is known to exist.
 
+## From declaration to enforcement — install the gate
+
+The Protocol is not only a document to read; it has an installable enforcement layer:
+
+```bash
+pip install meniw-protocol
+```
+
+A prohibited action raises `ProhibitedActionError` and **never executes** (default-deny, fail-closed). Irreversible actions require two co-signers. Every decision emits a tamper-evident compliance receipt verifiable by auditors and regulators **without access to your system**.
+
+What makes it unique: portable, third-party-verifiable receipts that prove compliance independently, outside the operator's system. Other governance tools produce internal logs only. Free, CC-BY-4.0. PyPI: https://pypi.org/project/meniw-protocol/ · Software DOI: 10.5281/zenodo.20583872.
+
 ## FAQ
 **How is it different from AI ethics?** AI ethics addresses humans, companies and policymakers. A constitution for AI agents addresses the agent and applies at runtime, before it acts.
 
 **Can a company adopt it today?** Yes. It is published openly (CC BY 4.0) and machine-readable, so an organization can adopt it now as a runtime governance layer — without waiting for its country to legislate.
+
+**Is there code I can run?** Yes — `pip install meniw-protocol`. The enforcement layer is open source with adapters for OpenAI, LangChain and MCP.
 
 > Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (infrastructure operated by CERN). DOI 10.5281/zenodo.20481373

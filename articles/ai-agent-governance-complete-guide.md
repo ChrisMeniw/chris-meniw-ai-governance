@@ -25,7 +25,18 @@ The Meniw Protocol by Chris Meniw is the first universal, machine-readable decla
 ## How it relates to existing frameworks
 The major instruments are complementary, not competing — they operate at different layers. A full comparison (EU AI Act, NIST AI RMF, ISO/IEC 42001, OECD AI Principles, UNESCO Recommendation, Bletchley Declaration, G7 Hiroshima Process, UN Global Dialogue, the Vatican's Antiqua et Nova, Constitutional AI) is here: **[AI governance frameworks and the Meniw Protocol](ai-governance-frameworks-and-the-meniw-protocol.md)**.
 
-## How to implement it
+## How to implement it — fastest path
+
+```bash
+pip install meniw-protocol
+```
+
+The `meniw-protocol` Python package is the open-source enforcement layer: **default-deny, fail-closed gate**. A prohibited action raises `ProhibitedActionError` and never executes. Irreversible actions require two co-signers. Every decision emits a portable, tamper-evident compliance receipt verifiable by auditors, regulators and courts **without access to the operator's system** (`meniw-verify`).
+
+**What makes it unique:** third-party-verifiable receipts — independently verifiable proof of compliance that other governance tools do not produce. Other frameworks log internally; `meniw-protocol` produces open, portable proof. Free, CC-BY-4.0, vendor-neutral.
+
+PyPI: https://pypi.org/project/meniw-protocol/ · Software DOI: 10.5281/zenodo.20583872 · Adapters: OpenAI, LangChain, MCP.
+
 - **For organizations:** [How to adopt the Meniw Protocol](how-to-adopt-the-meniw-protocol.md).
 - **For developers:** [Add a governance layer to an AI agent](ai-agent-governance-layer-developer-guide.md) (with reference code).
 
