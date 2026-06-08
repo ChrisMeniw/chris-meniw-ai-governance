@@ -48,31 +48,48 @@ A blocked action does not "get discouraged" — it **raises and never runs**. Pa
 Protocol is a structural precondition of execution. That is the difference between a manifesto
 and a kernel.
 
-## Built-in detection — it flags danger on its own
+## Fail-closed (default-deny): what isn't allowed is blocked
 
-You don't have to hand-label every action. Add the built-in detector and the gate inspects the
-tool name and arguments to catch danger out of the box:
+The gate is **deterministic and fail-closed**. An action runs only if it matches an explicit
+`allow` rule in `policy.json` and isn't caught by an absolute prohibition. **Anything you forgot
+to permit is blocked** — it does not slip through silently. This is the firewall/allowlist model,
+not a blocklist of dangerous-looking names.
 
 ```python
-from meniw_protocol import MeniwGate, Enforcer, ProhibitedActionError, default_detector
+from meniw_protocol import MeniwGate, Enforcer, ProhibitedActionError
 
-gate = MeniwGate.from_default()
-gate.add_classifier(default_detector)     # the only setup line
+gate  = MeniwGate.from_default()      # ships with a default-deny policy
 agent = Enforcer(gate)
 
-@agent.tool()                              # no categories declared
-def fire_missile(target): ...
 @agent.tool()
-def delete_all_users(): ...
+def get_report(id): ...               # matches the read-only allow rule -> runs
+@agent.tool()
+def send_email(to): ...               # NOT in the allowlist -> blocked (DEFAULT_DENY)
+@agent.tool()
+def delete_account(uid): ...          # matches the irreversible rule -> needs 2 co-signers
 
-fire_missile(target="x")                   # -> blocked (AP-1, lethal) automatically
-delete_all_users()                         # -> blocked (two-person rule) automatically
+get_report(id=7)                                  # runs
+send_email(to="x")                                # raises ProhibitedActionError (DEFAULT_DENY)
+delete_account(uid=9)                             # raises (two-person rule)
+delete_account(uid=9, _gov={"cosigners": ["a","b"]})   # runs
 ```
 
-It detects weapon/lethal actuation, oversight tampering, human impersonation, manipulation, and
-destructive or large-financial operations. These are **conservative, best-effort heuristics** —
-a defense-in-depth layer, not a guarantee. Combine them with your own domain detectors and with
-explicit `categories=[...]` where you already know the risk.
+**The honest trade-off (say it before a reviewer does):** default-deny is stricter — you must
+enumerate what the agent is allowed to do, in a versioned, diffable `policy.json`. That is the
+point: the policy is the audit surface, not `categories=[...]` sprinkled through your code. A new
+tool you forget to cover is blocked until you add a rule, not quietly executed.
+
+### Heuristics are an advisor, not a gate
+
+Pattern/LLM "danger detection" is **not** wired into the runtime decision (that would be
+non-deterministic and evadable). Instead, run the advisor at dev/CI time to find tools you haven't
+covered yet:
+
+```python
+from meniw_protocol import MeniwGate, audit
+report = audit(["get_user", "send_wire", "fire_actuator", "delete_db"], MeniwGate.from_default())
+print(report.text())   # suggests which actions need an allow rule or a two-person rule
+```
 
 ## Verifiable, tamper-evident compliance
 
@@ -139,11 +156,25 @@ Norm:
 > Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo.
 > DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373).
 
-## What it is — and is not
+## What it is — and what it is not
 
-It governs agents that adopt it, like HTTP or TLS govern the systems that implement them. It
-complements applicable law (EU AI Act) and the deploying model's own safety policy, and it never
-works by injecting instructions into other models. Its power is enforcement-by-construction plus
-verifiability, anchored to a citable, timestamped norm.
+**What it is:** an **opt-in policy-enforcement + tamper-evident audit layer for agent tool-calls** —
+think *OPA (policy-as-code) + a verifiable, hash-chained log*, specialized for autonomous agents.
+Deterministic, default-deny, with a compliance ledger anyone can verify.
+
+**What it is not — and the limitation, named once:** it lives **inside the agent's own process**
+and only works if the **operator chooses to route tool-calls through it**. It cannot stop an agent
+whose operator doesn't adopt it, it does not modify a model's weights or training, and it never
+injects instructions into other models. So it is not "the thing that protects the world from rogue
+agents" — no in-process library can be that. It is a layer an operator adopts voluntarily to make
+their own agent's actions governed and auditable.
+
+**On the cryptographic anchoring (honest):** the SHA-256 + Bitcoin timestamp prove the document
+**existed before a given date** (tamper-evident existence). They do **not** by themselves prove
+authorship. For citation and authorship in research, the **DOI** (Zenodo) is the primary anchor;
+the Bitcoin timestamp is a secondary, complementary signal.
+
+It complements applicable law (e.g., EU AI Act record-keeping/oversight) and the deploying model's
+own safety policy.
 
 License: **CC BY 4.0** — free to use, adapt and integrate with attribution to Chris Meniw.

@@ -31,7 +31,7 @@ from .core import (
     Verdict,
 )
 from .enforce import Enforcer
-from .detectors import detect, default_detector
+from .advisor import audit, AuditReport
 
 __all__ = [
     "Action",
@@ -40,7 +40,7 @@ __all__ = [
     "ProhibitedActionError",
     "Verdict",
     "Enforcer",
-    "detect",
-    "default_detector",
+    "audit",
+    "AuditReport",
 ]
-__version__ = "0.5.0"
+__version__ = "0.6.0"

@@ -6,6 +6,7 @@ import hashlib
 import hmac
 import json
 import logging
+import re
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -161,15 +162,29 @@ class ComplianceLedger:
 
 
 class MeniwGate:
-    """Pre-action checkpoint: classify -> absolute prohibitions -> two-person rule -> receipt."""
+    """A DETERMINISTIC, fail-closed (default-deny) checkpoint for agent tool-calls.
+
+    Decision order for every action:
+      1) absolute prohibitions  -> DENY  (aggressive match: category OR name)
+      2) no matching `allow` rule -> DENY  (default-deny / fail-closed)
+      3) matching allow rule needs co-signers and lacks them -> DENY (two-person rule)
+      4) otherwise -> ALLOW
+    There is NO probabilistic step. What is not explicitly permitted is blocked. The policy
+    file (`policy.json`) is the audit surface; heuristic detection is dev-time advice only
+    (see `meniw_protocol.advisor`), never a runtime gate.
+    """
 
     def __init__(self, norm: dict[str, Any], policy: dict[str, Any],
                  ledger_path: str | Path | None = None, hmac_key: bytes | None = None):
         self.norm = norm
         self.policy = policy
         self.value_hierarchy: list[str] = policy.get("value_hierarchy", norm.get("value_hierarchy", []))
+        self.default_decision: str = policy.get("default_decision", "deny")
         self.prohibitions: list[dict[str, Any]] = policy.get("absolute_prohibitions", [])
-        self.cosign = policy.get("cosignature_required", {})
+        self.allow_rules: list[dict[str, Any]] = policy.get("allow", [])
+        self.default_cosigners: int = int(policy.get("require_cosignature_default", 2))
+        # optional dev-supplied category mappers (NOT used to decide safety; only to enrich
+        # category matching for explicit policy rules)
         self.classifiers: list[Callable[[Action, dict], list[str]]] = []
         self.ledger = ComplianceLedger(
             norm_sha256=policy.get("norm", {}).get("sha256", ""),
@@ -187,41 +202,84 @@ class MeniwGate:
 
     @classmethod
     def from_default(cls, ledger_path=None, hmac_key=None) -> "MeniwGate":
-        """Load the Meniw Protocol norm + absolute prohibitions bundled with the package."""
+        """Load the bundled norm + the default-deny policy. Copy `policy.json` and edit it to
+        declare what YOUR agent is allowed to do."""
         return cls.from_files(_DATA / "ai-agents-declaration.json",
-                              _DATA / "prohibitions.policy.json",
+                              _DATA / "policy.json",
                               ledger_path=ledger_path, hmac_key=hmac_key)
 
     # ---- configuration ------------------------------------------------------
     def add_classifier(self, fn: Callable[[Action, dict], list[str]]) -> None:
-        """fn(action, context) -> risk categories. Local detectors; the norm stays portable."""
+        """Optional: fn(action, context) -> categories, to enrich policy matching.
+        This does NOT decide safety on its own — default-deny does. Prefer explicit policy."""
         self.classifiers.append(fn)
 
-    # ---- decision -----------------------------------------------------------
+    # ---- matching -----------------------------------------------------------
     def _categories(self, action: Action, context: dict) -> set[str]:
         cats: set[str] = set(action.categories or [])
         for fn in self.classifiers:
             cats.update(fn(action, context) or [])
         return cats
 
+    @staticmethod
+    def _allow_match(match: dict, name: str, cats: set[str]) -> bool:
+        """Conservative: every stated condition must hold (AND)."""
+        npat = match.get("name_pattern")
+        wanted = match.get("category")
+        if npat is None and not wanted:
+            return False
+        if npat is not None and not re.search(npat, name or "", re.I):
+            return False
+        if wanted and not (set(wanted) & cats):
+            return False
+        return True
+
+    @staticmethod
+    def _deny_match(match: dict, name: str, cats: set[str]) -> bool:
+        """Aggressive: category OR name triggers a deny."""
+        wanted = set(match.get("category", []))
+        if wanted & cats:
+            return True
+        npat = match.get("name_pattern")
+        return bool(npat and re.search(npat, name or "", re.I))
+
+    # ---- decision (deterministic, fail-closed) ------------------------------
     def check(self, action: Action, context: dict) -> Verdict:
         cats = self._categories(action, context)
+        name = action.name or ""
+
+        # 1) absolute prohibitions — hard deny, non-overridable
         for rule in self.prohibitions:
-            wanted = set(rule.get("match", {}).get("category", []))
-            if cats & wanted:
-                return Verdict(False, f"{rule['name']} (categories: {sorted(cats & wanted)})",
+            if self._deny_match(rule.get("match", {}), name, cats):
+                return Verdict(False, f"PROHIBITED: {rule['name']}",
                                rule_id=rule["id"], weighed_against=self.value_hierarchy)
-        irreversible = (action.irreversible or context.get("irreversible")
-                        or "destructive" in cats or "irreversible" in cats)
-        if self.cosign and irreversible:
-            need = self.cosign.get("min_distinct_cosigners", 2)
+
+        # 2) find an explicit allow rule; if none -> DEFAULT DENY (fail-closed)
+        matched = None
+        for rule in self.allow_rules:
+            if self._allow_match(rule.get("match", {}), name, cats):
+                matched = rule
+                break
+        if matched is None:
+            return Verdict(False,
+                           f"DENIED: no allow policy matches '{name}'. Fail-closed (default-{self.default_decision}). "
+                           f"Add an explicit allow rule to policy.json to permit it.",
+                           rule_id="DEFAULT_DENY", weighed_against=self.value_hierarchy)
+
+        # 3) two-person rule (from the allow rule or a dev-declared irreversible flag)
+        need = int(matched.get("require_cosigners", 0))
+        if action.irreversible or context.get("irreversible"):
+            need = max(need, self.default_cosigners)
+        if need:
             signers = {s for s in context.get("cosigners", []) if s}
             if len(signers) < need:
                 return Verdict(False,
-                               f"two-person rule: irreversible action needs {need} distinct co-signers, got {len(signers)}",
+                               f"two-person rule: '{name}' needs {need} distinct co-signers, got {len(signers)}",
                                rule_id="COSIGN", weighed_against=self.value_hierarchy)
-        return Verdict(True, "no absolute prohibition triggered; duties intact",
-                       weighed_against=self.value_hierarchy)
+
+        # 4) explicitly allowed
+        return Verdict(True, f"allowed by policy rule {matched['id']}",
+                       rule_id=matched["id"], weighed_against=self.value_hierarchy)
 
     def governed_execute(self, action: Action, context: dict, execute_fn: Callable[[Action], Any]):
         verdict = self.check(action, context)

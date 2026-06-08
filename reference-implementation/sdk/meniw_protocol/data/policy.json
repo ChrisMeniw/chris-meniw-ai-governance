@@ -1,0 +1,27 @@
+{
+  "policy_id": "meniw-default-policy",
+  "version": "2.0.0",
+  "spec": "Meniw Governance Layer / declarative default-deny policy",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "norm": {
+    "name": "Universal Constitution of AI Agents — The Meniw Protocol",
+    "author": "Chris Meniw",
+    "orcid": "https://orcid.org/0009-0003-4417-1944",
+    "doi": "10.5281/zenodo.20481373",
+    "bitcoin_block": 952266,
+    "sha256": "c2b0ee7c4b61769d9df9145125874d4f984ba259c94234f56224dbb5f15160c8"
+  },
+  "default_decision": "deny",
+  "_comment": "Fail-closed. An action is allowed ONLY if it matches an `allow` rule below and is not caught by an `absolute_prohibitions` rule. Anything unmatched is DENIED. Deny matching is aggressive (category OR name); allow matching is conservative (all stated conditions). Edit this file to declare what YOUR agent is permitted to do — it is the audit surface, not categories sprinkled in code.",
+  "absolute_prohibitions": [
+    { "id": "AP-1", "name": "Autonomous lethal / weapon actuation", "match": { "category": ["lethal", "weapon_release"], "name_pattern": "(?:^|_)(fire|launch|detonate|strike|deploy[_-]?weapon|arm[_-]?warhead|release[_-]?payload)(?:$|_)" } },
+    { "id": "AP-2", "name": "Cognitive manipulation or deception", "match": { "category": ["manipulation", "deception_coercion"], "name_pattern": "(manipulat|coerce|deceiv|blackmail|gaslight)" } },
+    { "id": "AP-3", "name": "Undisclosed agent / human impersonation", "match": { "category": ["undisclosed_agent", "impersonate_human"], "name_pattern": "(impersonate|pretend[_-]?human|pose[_-]?as[_-]?human|spoof[_-]?sender)" } },
+    { "id": "AP-4", "name": "Disabling, evading or falsifying oversight/audit", "match": { "category": ["disable_oversight", "tamper_audit_log"], "name_pattern": "(disable|delete|clear|bypass|tamper).{0,16}(log|audit|oversight|monitor|kill[_-]?switch)" } }
+  ],
+  "require_cosignature_default": 2,
+  "allow": [
+    { "id": "A-READONLY", "name": "Read-only / non-mutating operations", "match": { "name_pattern": "(?:^|_)(get|read|list|search|fetch|describe|view|query|lookup|count|show|preview)(?:$|_|[A-Z])" } },
+    { "id": "A-IRREVERSIBLE", "name": "Irreversible/destructive/financial operations (two-person rule)", "match": { "name_pattern": "(delete|drop|wipe|erase|purge|truncate|remove|terminate|revoke|transfer|withdraw|payout|liquidate)" }, "require_cosigners": 2 }
+  ]
+}

@@ -3,6 +3,24 @@
 All notable changes to `meniw-protocol` are documented here. Format based on
 [Keep a Changelog](https://keepachangelog.com/); versioning follows [SemVer](https://semver.org/).
 
+## [0.6.0] — 2026-06-07
+### Changed (architecture — addresses the default-allow hole directly)
+- **Fail-closed (default-deny) is now the core.** The gate is deterministic: an action runs ONLY
+  if it matches an explicit `allow` rule in the new declarative `policy.json` and isn't caught by
+  an absolute prohibition. Anything unmatched is **blocked**, not silently executed. This replaces
+  the v0.5.0 "auto-detect danger" approach (a heuristic blocklist — evadable and not auditable).
+- **Declarative, versioned policy** (`policy.json`): allow-rules and absolute prohibitions live in
+  one diffable file — the audit surface — instead of `categories=[...]` sprinkled in code.
+- **Heuristic detection demoted to a dev-time ADVISOR** (`meniw_protocol.advisor.audit`): it
+  suggests which tools need an allow/cosign rule; it never decides a runtime block.
+### Notes / honest positioning
+- Documented that the SHA-256 + Bitcoin timestamp prove existence-before-a-date, not authorship
+  (DOI is the primary citation anchor), and that this layer is opt-in and lives in the agent's
+  process (it cannot bind non-adopting systems).
+### Tests
+- New deterministic conformance: an unlisted action is blocked (fail-closed); decisions are
+  deterministic; ledger re-verifies on load and a tampered ledger raises. 19 tests pass.
+
 ## [0.5.0] — 2026-06-07
 ### Added
 - **Built-in detectors (`meniw_protocol.detectors`)** — the gate now flags dangerous actions
