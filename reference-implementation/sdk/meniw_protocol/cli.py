@@ -24,11 +24,19 @@ def _verify(args) -> int:
 
 def _anchor(args) -> int:
     from . import anchor as _a
+    if args.upgrade:
+        res = _a.upgrade(args.out)
+        print(f"[meniw anchor --upgrade] {res}")
+        return 0
     led = ComplianceLedger.load(args.ledger)
-    rec = _a.checkpoint(led.head(), args.out, seq=len(led.receipts) - 1, stamp=args.stamp)
+    # explicit, off-the-hot-path: stamp the CURRENT head to OpenTimestamps (calendars now,
+    # Bitcoin attestation hours later via `meniw anchor --upgrade`).
+    rec = _a.checkpoint(led.head(), args.out, seq=len(led.receipts) - 1, stamp=True)
     print(f"[meniw anchor] head={rec['head'][:16]}… status={rec['status']}")
     if rec.get("howto"):
         print("  " + rec["howto"])
+    if rec.get("status", "").startswith("ots_submitted"):
+        print("  Bitcoin attestation pending — run `meniw anchor --upgrade` in a few hours.")
     return 0
 
 
@@ -53,9 +61,11 @@ def main(argv=None) -> int:
     v = sub.add_parser("verify", help="verify a compliance ledger")
     v.add_argument("ledger"); v.add_argument("--hmac-key-file"); v.set_defaults(fn=_verify)
 
-    a = sub.add_parser("anchor", help="checkpoint / Bitcoin-anchor the ledger head")
-    a.add_argument("ledger"); a.add_argument("--out", default="meniw_anchors")
-    a.add_argument("--stamp", action="store_true", help="also OpenTimestamps-stamp (needs `ots`)")
+    a = sub.add_parser("anchor", help="anchor the ledger head to Bitcoin (OpenTimestamps)")
+    a.add_argument("ledger", nargs="?", default=None, help="ledger file (not needed with --upgrade)")
+    a.add_argument("--out", default="meniw_anchors")
+    a.add_argument("--upgrade", action="store_true",
+                   help="pull the Bitcoin attestation into existing .ots proofs (run hours later)")
     a.set_defaults(fn=_anchor)
 
     au = sub.add_parser("audit", help="dev-time policy advice for tool names")

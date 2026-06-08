@@ -59,6 +59,24 @@ def checkpoint(head_hex: str, out_dir: str | Path, *, seq: int | None = None,
     return rec
 
 
+def upgrade(out_dir: str | Path) -> dict:
+    """Run `ots upgrade` on every .ots proof in `out_dir` to pull in the Bitcoin attestation once
+    the calendar aggregation has been confirmed in a block (this happens hours after stamping)."""
+    out = Path(out_dir)
+    proofs = sorted(out.glob("*.ots"))
+    if not _OTS:
+        return {"ok": None, "status": "ots_not_installed", "proofs": len(proofs)}
+    upgraded = 0
+    for p in proofs:
+        try:
+            r = subprocess.run([_OTS, "upgrade", str(p)], capture_output=True, text=True, timeout=120)
+            if r.returncode == 0:
+                upgraded += 1
+        except Exception:
+            pass
+    return {"ok": True, "status": "upgraded", "proofs": len(proofs), "upgraded": upgraded}
+
+
 def verify(head_file: str | Path) -> dict:
     """Verify the OpenTimestamps proof for a checkpoint head file (needs the `ots` CLI)."""
     head_file = Path(head_file)

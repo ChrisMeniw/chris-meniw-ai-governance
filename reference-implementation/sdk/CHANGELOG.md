@@ -3,6 +3,24 @@
 All notable changes to `meniw-protocol` are documented here. Format based on
 [Keep a Changelog](https://keepachangelog.com/); versioning follows [SemVer](https://semver.org/).
 
+## [0.8.0] — 2026-06-07
+### Fixed (anchoring semantics — removes an oversell)
+- **No anchoring in the action hot-path.** `governed_execute` only writes the internal hash-chain
+  (instant, no network). It can NEVER block or fail an allowed action over anchoring. The OTS
+  `--stamp` path was removed from the gate; the gate's optional `checkpoint_dir/checkpoint_every`
+  writes pure-local head snapshots only.
+- **Bitcoin anchoring is now periodic/on-demand and asynchronous**, via `meniw anchor` (stamp the
+  head) + `meniw anchor --upgrade` (pull the Bitcoin attestation hours later). Docs corrected:
+  "the ledger head is anchored to Bitcoin periodically", never "each action sealed in Bitcoin".
+### Added / hardened
+- **Policy-hash binding made explicit:** every receipt already records the SHA-256 of the policy in
+  effect at decision time (binding, no keys) — now documented and asserted.
+- **Stronger `meniw policy-lint`:** fails on duplicate rule IDs, catch-all/too-broad allow patterns
+  (tested empirically against probe names), allow rules that permit destructive ops without a
+  two-person rule, and allow∩prohibition overlaps — not just schema.
+- **Concurrency limit named:** the in-process lock + best-effort file lock prevent torn writes, but
+  the ledger assumes a single logical writer; multi-process needs one writer or separate ledgers.
+
 ## [0.7.0] — 2026-06-07
 ### Added (hardening)
 - **Automatic anchoring** — the gate can checkpoint the ledger HEAD every N receipts

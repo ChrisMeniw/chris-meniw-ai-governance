@@ -12,28 +12,20 @@ from meniw_protocol.lint import lint_policy
 from meniw_protocol.core import ComplianceLedger
 
 
-class TestAutoAnchor(unittest.TestCase):
-    def test_checkpoint_is_deterministic_and_honest(self):
+class TestLocalCheckpointOnly(unittest.TestCase):
+    def test_checkpoint_is_local_and_never_stamps_in_gate(self):
         d = tempfile.mkdtemp()
-        rec = anchor_mod.checkpoint("a" * 64, d, seq=0, stamp=False)
-        self.assertEqual(rec["head"], "a" * 64)
-        self.assertEqual(rec["status"], "checkpointed")
-        self.assertTrue(os.path.exists(rec["head_file"]))
-        self.assertTrue(os.path.exists(os.path.join(d, "anchors.log.jsonl")))
-
-    def test_gate_auto_anchors_every_n(self):
-        d = tempfile.mkdtemp()
-        gate = MeniwGate.from_default(anchor_dir=d, anchor_every=2)
+        gate = MeniwGate.from_default(checkpoint_dir=d, checkpoint_every=2)
         for name in ("get_a", "get_b", "get_c", "get_d"):
             gate.governed_execute(Action(name), {}, lambda a: 1)
         log = os.path.join(d, "anchors.log.jsonl")
-        self.assertTrue(os.path.exists(log))
-        lines = [l for l in open(log, encoding="utf-8").read().splitlines() if l.strip()]
-        self.assertEqual(len(lines), 2)   # anchored after receipts #1 and #3 (every 2)
+        lines = [json.loads(l) for l in open(log, encoding="utf-8").read().splitlines() if l.strip()]
+        self.assertEqual(len(lines), 2)                       # local snapshot every 2 receipts
+        # the gate NEVER stamps / touches the network: status is a pure local checkpoint
+        self.assertTrue(all(r["status"] == "checkpointed" for r in lines))
 
-    def test_anchoring_never_crashes_the_agent(self):
-        # invalid dir target should not raise out of governed_execute
-        gate = MeniwGate.from_default(anchor_dir="/this/does/not/exist/\x00", anchor_every=1)
+    def test_checkpointing_never_crashes_the_agent(self):
+        gate = MeniwGate.from_default(checkpoint_dir="/this/does/not/exist/\x00", checkpoint_every=1)
         out = gate.governed_execute(Action("get_x"), {}, lambda a: "ok")
         self.assertTrue(out["executed"])
 
@@ -54,6 +46,19 @@ class TestPolicyLint(unittest.TestCase):
                                 "absolute_prohibitions": [{"id": "AP-1", "match": {"category": ["lethal"]}}],
                                 "allow": [{"id": "A", "match": {"name_pattern": "delete_user"}}]})
         self.assertTrue(any(level == "WARN" and "require_cosigners" in msg for level, msg in findings))
+
+    def test_flags_duplicate_ids(self):
+        findings = lint_policy({"default_decision": "deny",
+                                "absolute_prohibitions": [{"id": "X", "match": {"category": ["lethal"]}}],
+                                "allow": [{"id": "X", "match": {"name_pattern": "^get_"}}]})
+        self.assertTrue(any(level == "ERROR" and "duplicate rule IDs" in msg for level, msg in findings))
+
+    def test_flags_dangerous_allow_without_cosign(self):
+        # an allow rule that empirically permits destructive ops without a two-person rule
+        findings = lint_policy({"default_decision": "deny",
+                                "absolute_prohibitions": [],
+                                "allow": [{"id": "A", "match": {"name_pattern": "(delete|transfer|wipe)"}}]})
+        self.assertTrue(any(level == "ERROR" and "DANGEROUS" in msg for level, msg in findings))
 
     def test_default_bundled_policy_is_clean(self):
         gate = MeniwGate.from_default()

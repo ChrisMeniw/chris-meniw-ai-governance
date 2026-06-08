@@ -62,10 +62,15 @@ class ProhibitedActionError(RuntimeError):
 class ComplianceLedger:
     """Append-only, hash-chained, tamper-evident record of every decision.
 
-    Each receipt commits to the action, verdict, the norm's SHA-256, the policy hash and the
-    previous receipt's hash. `verify()` recomputes the chain; any alteration or deletion of a
-    past decision breaks it. An optional HMAC key adds authenticity. This is what turns
-    "we comply" into a checkable cryptographic fact rather than a promise.
+    Each receipt commits to the action, verdict, the norm's SHA-256, the **policy hash in effect
+    at decision time** (binding the decision to the exact policy version — no keys needed) and the
+    previous receipt's hash. `verify()` recomputes the chain; any alteration or deletion of a past
+    decision breaks it. An optional HMAC key adds authenticity.
+
+    CONCURRENCY (known limit): this assumes a SINGLE logical writer. The in-process lock and the
+    best-effort file lock prevent torn writes, but two independent processes/hosts appending to the
+    same ledger file each keep their own chain head and WILL corrupt the chain. For multi-process,
+    use one writer (a queue/sidecar) or give each process its own ledger file.
     """
 
     def __init__(self, norm_sha256: str, policy_sha256: str,
@@ -100,6 +105,11 @@ class ComplianceLedger:
             self._last_hash = entry_hash
             if self.path:
                 with self.path.open("a", encoding="utf-8") as fh:
+                    try:  # best-effort OS lock — helps single-host multi-process; POSIX only
+                        import fcntl
+                        fcntl.flock(fh.fileno(), fcntl.LOCK_EX)
+                    except Exception:
+                        pass
                     fh.write(_canonical(receipt) + "\n")
             return receipt
 
@@ -179,8 +189,7 @@ class MeniwGate:
 
     def __init__(self, norm: dict[str, Any], policy: dict[str, Any],
                  ledger_path: str | Path | None = None, hmac_key: bytes | None = None,
-                 anchor_dir: str | Path | None = None, anchor_every: int = 0,
-                 anchor_stamp: bool = False):
+                 checkpoint_dir: str | Path | None = None, checkpoint_every: int = 0):
         self.norm = norm
         self.policy = policy
         self.value_hierarchy: list[str] = policy.get("value_hierarchy", norm.get("value_hierarchy", []))
@@ -188,11 +197,12 @@ class MeniwGate:
         self.prohibitions: list[dict[str, Any]] = policy.get("absolute_prohibitions", [])
         self.allow_rules: list[dict[str, Any]] = policy.get("allow", [])
         self.default_cosigners: int = int(policy.get("require_cosignature_default", 2))
-        # automatic anchoring: every `anchor_every` receipts, checkpoint the chain head; if
-        # `anchor_stamp` and the OpenTimestamps `ots` CLI is present, also Bitcoin-stamp it.
-        self.anchor_dir = str(anchor_dir) if anchor_dir else None
-        self.anchor_every = int(anchor_every)
-        self.anchor_stamp = bool(anchor_stamp)
+        # OPTIONAL local head checkpoints: every `checkpoint_every` receipts, write the chain
+        # head to a file. This is LOCAL ONLY — instant, no network. Anchoring the head to
+        # Bitcoin (OpenTimestamps) is a SEPARATE, asynchronous plane done via `meniw anchor`;
+        # it never runs in this hot path and can never block or fail an allowed action.
+        self.checkpoint_dir = str(checkpoint_dir) if checkpoint_dir else None
+        self.checkpoint_every = int(checkpoint_every)
         # optional dev-supplied category mappers (NOT used to decide safety; only to enrich
         # category matching for explicit policy rules)
         self.classifiers: list[Callable[[Action, dict], list[str]]] = []
@@ -213,8 +223,9 @@ class MeniwGate:
     @classmethod
     def from_default(cls, ledger_path=None, hmac_key=None, **kw) -> "MeniwGate":
         """Load the bundled norm + the default-deny policy. Copy `policy.json` and edit it to
-        declare what YOUR agent is allowed to do. Pass anchor_dir=..., anchor_every=N,
-        anchor_stamp=True to auto-anchor the ledger head (to Bitcoin via OpenTimestamps)."""
+        declare what YOUR agent is allowed to do. Pass checkpoint_dir=..., checkpoint_every=N to
+        write LOCAL head snapshots (no network). To anchor the head to Bitcoin, run `meniw anchor`
+        (separate, asynchronous plane — never in the action hot path)."""
         return cls.from_files(_DATA / "ai-agents-declaration.json",
                               _DATA / "policy.json",
                               ledger_path=ledger_path, hmac_key=hmac_key, **kw)
@@ -292,23 +303,24 @@ class MeniwGate:
         return Verdict(True, f"allowed by policy rule {matched['id']}",
                        rule_id=matched["id"], weighed_against=self.value_hierarchy)
 
-    def _maybe_anchor(self, receipt: dict) -> None:
-        """Best-effort automatic anchoring of the chain head. Never raises."""
-        if not (self.anchor_dir and self.anchor_every):
+    def _maybe_checkpoint(self, receipt: dict) -> None:
+        """Write a LOCAL head snapshot every `checkpoint_every` receipts. No network, never
+        raises. Bitcoin anchoring is NOT done here — use `meniw anchor`."""
+        if not (self.checkpoint_dir and self.checkpoint_every):
             return
-        if (receipt["seq"] + 1) % self.anchor_every != 0:
+        if (receipt["seq"] + 1) % self.checkpoint_every != 0:
             return
         try:
             from . import anchor as _anchor
-            _anchor.checkpoint(self.ledger.head(), self.anchor_dir,
-                               seq=receipt["seq"], stamp=self.anchor_stamp)
-        except Exception as e:  # anchoring must never break the agent
-            log.warning("anchor failed (non-fatal): %s", e)
+            _anchor.checkpoint(self.ledger.head(), self.checkpoint_dir,
+                               seq=receipt["seq"], stamp=False)   # LOCAL only, never OTS/network
+        except Exception as e:  # checkpointing must never break the agent
+            log.warning("local checkpoint failed (non-fatal): %s", e)
 
     def governed_execute(self, action: Action, context: dict, execute_fn: Callable[[Action], Any]):
         verdict = self.check(action, context)
         receipt = self.ledger.record(repr(action), verdict, _sha256(_canonical(context)))
-        self._maybe_anchor(receipt)
+        self._maybe_checkpoint(receipt)
         log.info("action=%s allowed=%s rule=%s receipt=%s",
                  action, verdict.allowed, verdict.rule_id, receipt["entry_hash"][:12])
         if not verdict.allowed:

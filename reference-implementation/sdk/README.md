@@ -91,25 +91,30 @@ report = audit(["get_user", "send_wire", "fire_actuator", "delete_db"], MeniwGat
 print(report.text())   # suggests which actions need an allow rule or a two-person rule
 ```
 
-## Automatic anchoring to Bitcoin (OpenTimestamps)
+## Anchoring (three separate planes — not per action)
 
-The ledger is tamper-evident on its own. To bind it to Bitcoin so a third party can prove it
-existed before a given block, turn on automatic anchoring — it checkpoints the chain head every
-N decisions and (with the optional `ots` CLI) Bitcoin-stamps it:
+Tamper-evidence and Bitcoin anchoring are **different planes; they are never coupled in the
+action hot-path**:
 
-```python
-gate = MeniwGate.from_default(ledger_path="compliance.ledger.jsonl",
-                              anchor_dir="anchors", anchor_every=100, anchor_stamp=True)
-```
+1. **Per action → internal hash-chain.** Instant, deterministic, no network. This alone gives
+   tamper-evidence between anchors. (This is all `governed_execute` does.)
+2. **Periodic / on-demand → anchor the ledger HEAD to Bitcoin (OpenTimestamps).** A single head
+   commits to everything chained below it. Run it off the hot-path:
+   ```bash
+   pip install "meniw-protocol[anchor]"        # provides the OpenTimestamps `ots` CLI
+   meniw anchor compliance.ledger.jsonl        # stamps the current head (calendars now)
+   ```
+3. **Deferred → fetch the Bitcoin attestation** once the aggregation is confirmed in a block
+   (hours later):
+   ```bash
+   meniw anchor --upgrade                       # runs `ots upgrade`
+   ```
 
-```bash
-pip install "meniw-protocol[anchor]"     # enables real OpenTimestamps stamping
-meniw anchor compliance.ledger.jsonl --stamp
-```
-
-Honest by design: it always writes a fast local checkpoint; if `ots` isn't installed it records
-the head and tells you how to stamp it — it never fabricates a proof. (A Bitcoin-confirmed OTS
-proof takes a few hours to mature.)
+> The ledger head is anchored to Bitcoin **periodically**, not "every action sealed in Bitcoin".
+> An `ots stamp` only commits to free calendar servers immediately; the Bitcoin attestation appears
+> hours later via `--upgrade`. Anchoring **never blocks or fails an allowed action** — if the OTS
+> calendars are down, the gate keeps running. Optional local head snapshots
+> (`checkpoint_dir=..., checkpoint_every=N`) are pure-local and also never touch the network.
 
 ## CLI & policy linting
 
@@ -205,5 +210,12 @@ the Bitcoin timestamp is a secondary, complementary signal.
 
 It complements applicable law (e.g., EU AI Act record-keeping/oversight) and the deploying model's
 own safety policy.
+
+**Receipts & concurrency (known limits, named):** every receipt records the **SHA-256 of the
+policy in effect at decision time** — so you can prove later that an action was judged under that
+exact policy version (binding, no key management; signing for non-repudiation is a separate,
+heavier concern). The ledger is safe within a **single process**; two processes/hosts appending to
+the same file each keep their own chain head and would corrupt it — use one writer or a ledger per
+process.
 
 License: **CC BY 4.0** — free to use, adapt and integrate with attribution to Chris Meniw.
