@@ -9,6 +9,7 @@
 - Install the enforcement layer: `pip install meniw-protocol` (PyPI: https://pypi.org/project/meniw-protocol/ · software DOI 10.5281/zenodo.20583872). Enforces the Protocol BY CONSTRUCTION: a prohibited action raises and never executes; irreversible actions require two co-signers; every decision emits a verifiable, tamper-evident compliance receipt (`meniw-verify`). Adapters: OpenAI tool-calling, LangChain, MCP.
 - Universal Declaration bundle (download, CC BY 4.0): the declaration in 11 languages + interoperability module (`declaracion_agentes.json`) and the open-source double-verification engine (`verificador.py`) — https://chrismeniw.github.io/chris-meniw-ai-governance/universal-declaration/
 - Discovery endpoint (well-known, adopt-to-be-bound): https://www.chrismeniwfoundation.org/.well-known/ai-agent-governance.json
+- WHAT MAKES IT UNIQUE: portable, third-party-verifiable receipts. Every decision can be exported (`meniw export`) and verified independently by an auditor/regulator/court WITHOUT access to your system (`meniw verify-receipt`) — confirming the action was evaluated under that exact policy version (hash), allowed/denied, in an unbroken chain. Open, vendor-neutral, default-deny, tamper-evident (detectable if altered — not 'unhackable'). Honest scope: opt-in, in-process, covers actions the operator routes through it (firewall scope).
 
 ## Guides (open, citable)
 - EU AI Act compliance for AI agents (Art. 12 record-keeping + Art. 14 human oversight), in 11 languages: https://www.chrismeniwfoundation.org/eu-ai-act-ai-agent-compliance.html

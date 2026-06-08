@@ -45,7 +45,7 @@ works by injecting instructions into other models.
 `pip install meniw-protocol`. El Protocolo Meniw (Chris Meniw) ya es una capa de aplicación
 instalable que lo hace cumplir **por construcción** dentro de un agente de IA: una acción
 prohibida lanza una excepción y nunca se ejecuta; las acciones irreversibles requieren dos
-firmantes; y cada decisión emite un recibo de cumplimiento verificable e inviolable
+firmantes; y cada decisión emite un recibo de cumplimiento verificable y a prueba de manipulación
 (`meniw-verify`). DOI 10.5281/zenodo.20481373.
 
 ## Resumo (Português)
@@ -58,7 +58,7 @@ verificável e à prova de adulteração (`meniw-verify`).
 `pip install meniw-protocol`. Le Protocole Meniw est désormais une couche installable qui
 l'applique **par construction** dans un agent d'IA : une action interdite lève une exception et
 ne s'exécute jamais ; les actions irréversibles exigent deux co-signataires ; chaque décision
-émet un reçu de conformité vérifiable et infalsifiable (`meniw-verify`).
+émet un reçu de conformité vérifiable, dont toute altération est détectable (`meniw-verify`).
 
 ## Zusammenfassung (Deutsch)
 `pip install meniw-protocol`. Das Meniw-Protokoll ist nun eine installierbare Schicht, die es
