@@ -3,6 +3,11 @@
 All notable changes to `meniw-protocol` are documented here. Format based on
 [Keep a Changelog](https://keepachangelog.com/); versioning follows [SemVer](https://semver.org/).
 
+## [0.3.3] — 2026-06-07
+### Changed
+- Complete package metadata: author/maintainer email, and project URLs for Documentation,
+  Changelog, Issues, the Declaration DOI and the software-archive DOI (shown on the PyPI page).
+
 ## [0.3.2] — 2026-06-07
 ### Changed
 - PyPI page now shows the Zenodo **software DOI** badge (10.5281/zenodo.20583872) and a dual

@@ -4,12 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meniw-protocol"
-version = "0.3.2"
+version = "0.3.3"
 description = "Enforce the Meniw Protocol by construction inside an AI agent: a pre-action gate, a two-person rule for irreversible actions, and verifiable, tamper-evident compliance receipts."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "CC-BY-4.0" }
-authors = [{ name = "Chris Meniw" }]
+authors = [{ name = "Chris Meniw", email = "info@chrismeniwfoundation.org" }]
+maintainers = [{ name = "Chris Meniw", email = "info@chrismeniwfoundation.org" }]
 keywords = [
   "ai-agents", "ai-safety", "agent-governance", "guardrails",
   "policy-as-code", "compliance", "meniw-protocol", "runtime-enforcement",
@@ -23,9 +24,14 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://doi.org/10.5281/zenodo.20481373"
+Homepage = "https://meniw-protocol.netlify.app/governance-layer.html"
+Documentation = "https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/sdk/README.md"
 Repository = "https://github.com/ChrisMeniw/chris-meniw-ai-governance"
 Specification = "https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/SPEC.md"
+Changelog = "https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/sdk/CHANGELOG.md"
+Issues = "https://github.com/ChrisMeniw/chris-meniw-ai-governance/issues"
+"Declaration (DOI)" = "https://doi.org/10.5281/zenodo.20481373"
+"Software archive (DOI)" = "https://doi.org/10.5281/zenodo.20583872"
 
 [project.scripts]
 meniw-verify = "meniw_protocol.verify:main"
