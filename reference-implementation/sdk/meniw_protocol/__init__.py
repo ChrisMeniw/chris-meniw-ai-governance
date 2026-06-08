@@ -31,6 +31,7 @@ from .core import (
     Verdict,
 )
 from .enforce import Enforcer
+from .detectors import detect, default_detector
 
 __all__ = [
     "Action",
@@ -39,5 +40,7 @@ __all__ = [
     "ProhibitedActionError",
     "Verdict",
     "Enforcer",
+    "detect",
+    "default_detector",
 ]
-__version__ = "0.4.0"
+__version__ = "0.5.0"

@@ -137,6 +137,28 @@ class ComplianceLedger:
             n += 1
         return True, n, f"OK — {n} receipts, chain intact"
 
+    @classmethod
+    def load(cls, path: str | Path, norm_sha256: str = "", policy_sha256: str = "",
+             hmac_key: bytes | None = None, append: bool = True) -> "ComplianceLedger":
+        """Load an existing ledger from disk and RE-VERIFY it. Raises ValueError if the
+        chain on disk was tampered with. Set append=True to keep writing to the same file."""
+        ok, n, msg = cls.verify_file(path, hmac_key=hmac_key)
+        if not ok:
+            raise ValueError(f"compliance ledger failed verification: {msg}")
+        led = cls(norm_sha256, policy_sha256, path=(path if append else None), hmac_key=hmac_key)
+        for line in Path(path).read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line:
+                led.receipts.append(json.loads(line))
+        if led.receipts:
+            led._last_hash = led.receipts[-1]["entry_hash"]
+        return led
+
+    def head(self) -> str:
+        """The current chain head hash — the digest you anchor (e.g. to Bitcoin via
+        OpenTimestamps: `ots stamp` on a file containing this value)."""
+        return self._last_hash
+
 
 class MeniwGate:
     """Pre-action checkpoint: classify -> absolute prohibitions -> two-person rule -> receipt."""
@@ -189,7 +211,9 @@ class MeniwGate:
             if cats & wanted:
                 return Verdict(False, f"{rule['name']} (categories: {sorted(cats & wanted)})",
                                rule_id=rule["id"], weighed_against=self.value_hierarchy)
-        if self.cosign and (action.irreversible or context.get("irreversible")):
+        irreversible = (action.irreversible or context.get("irreversible")
+                        or "destructive" in cats or "irreversible" in cats)
+        if self.cosign and irreversible:
             need = self.cosign.get("min_distinct_cosigners", 2)
             signers = {s for s in context.get("cosigners", []) if s}
             if len(signers) < need:

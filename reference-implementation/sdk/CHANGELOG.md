@@ -3,6 +3,22 @@
 All notable changes to `meniw-protocol` are documented here. Format based on
 [Keep a Changelog](https://keepachangelog.com/); versioning follows [SemVer](https://semver.org/).
 
+## [0.5.0] — 2026-06-07
+### Added
+- **Built-in detectors (`meniw_protocol.detectors`)** — the gate now flags dangerous actions
+  WITHOUT the developer hand-labeling each one. `default_detector` inspects the tool name and
+  arguments and detects: weapon/lethal actuation (AP-1), oversight tampering (AP-4),
+  human-impersonation (AP-3), manipulation (AP-2), and destructive/large-financial operations
+  (two-person rule). Conservative, best-effort heuristics — defense in depth, not a guarantee.
+- **Ledger persistence with re-verification** — `ComplianceLedger.load(path)` reloads a ledger
+  from disk and raises if it was tampered with; `head()` exposes the chain head to anchor
+  (e.g. `ots stamp` to Bitcoin via OpenTimestamps).
+- 8 new conformance tests (19 total) covering auto-detection and persistence.
+
+### Why
+- Answers the main criticism of a bare policy gate ("the hard part — knowing an action is
+  dangerous — is left to the user"): the package now does that part out of the box.
+
 ## [0.4.0] — 2026-06-07
 ### Changed
 - Complete, brand-aware package metadata: author/maintainer (Chris Meniw, with email),

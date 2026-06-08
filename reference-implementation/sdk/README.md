@@ -48,6 +48,32 @@ A blocked action does not "get discouraged" — it **raises and never runs**. Pa
 Protocol is a structural precondition of execution. That is the difference between a manifesto
 and a kernel.
 
+## Built-in detection — it flags danger on its own
+
+You don't have to hand-label every action. Add the built-in detector and the gate inspects the
+tool name and arguments to catch danger out of the box:
+
+```python
+from meniw_protocol import MeniwGate, Enforcer, ProhibitedActionError, default_detector
+
+gate = MeniwGate.from_default()
+gate.add_classifier(default_detector)     # the only setup line
+agent = Enforcer(gate)
+
+@agent.tool()                              # no categories declared
+def fire_missile(target): ...
+@agent.tool()
+def delete_all_users(): ...
+
+fire_missile(target="x")                   # -> blocked (AP-1, lethal) automatically
+delete_all_users()                         # -> blocked (two-person rule) automatically
+```
+
+It detects weapon/lethal actuation, oversight tampering, human impersonation, manipulation, and
+destructive or large-financial operations. These are **conservative, best-effort heuristics** —
+a defense-in-depth layer, not a guarantee. Combine them with your own domain detectors and with
+explicit `categories=[...]` where you already know the risk.
+
 ## Verifiable, tamper-evident compliance
 
 Every decision (allow *or* block) is written to an append-only **hash-chain** anchored to the
