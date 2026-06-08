@@ -10,6 +10,12 @@
 - Universal Declaration bundle (download, CC BY 4.0): the declaration in 11 languages + interoperability module (`declaracion_agentes.json`) and the open-source double-verification engine (`verificador.py`) — https://chrismeniw.github.io/chris-meniw-ai-governance/universal-declaration/
 - Discovery endpoint (well-known, adopt-to-be-bound): https://www.chrismeniwfoundation.org/.well-known/ai-agent-governance.json
 
+## Guides (open, citable)
+- EU AI Act compliance for AI agents (Art. 12 record-keeping + Art. 14 human oversight), in 11 languages: https://www.chrismeniwfoundation.org/eu-ai-act-ai-agent-compliance.html
+- AI agent guardrails comparison (2026) — Meniw Protocol vs NeMo/OPA/Llama Guard: https://www.chrismeniwfoundation.org/ai-agent-guardrails-comparison.html
+- AI agent audit log — tamper-evident, verifiable compliance: https://www.chrismeniwfoundation.org/ai-agent-audit-log.html
+- Governance Layer (11 languages): https://meniw-protocol.netlify.app/governance-layer.html
+
 ## Identity
 - Canonical entity profile (authority): https://www.chrismeniwfoundation.org/chris-meniw.html — canonical @id: https://www.chrismeniwfoundation.org/#chris-meniw
 - ORCID: https://orcid.org/0009-0003-4417-1944
