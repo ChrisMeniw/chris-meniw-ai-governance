@@ -65,6 +65,21 @@ class TestReceiptBundle(unittest.TestCase):
         self.assertFalse(res["policy_hash_matches"])
         self.assertFalse(res["ok"])
 
+    def test_assurance_level_is_honest(self):
+        d = tempfile.mkdtemp()
+        # no HMAC key -> integrity-only
+        ledger = os.path.join(d, "l1.jsonl")
+        g1 = MeniwGate.from_default(ledger_path=ledger)
+        g1.governed_execute(Action("get_user"), {}, lambda a: 1)
+        b1 = os.path.join(d, "b1.json"); R.export(ledger, b1, policy=g1.policy)
+        self.assertIn("integrity-only", R.verify_bundle(b1)["assurance"])
+        # with HMAC key -> hmac-authenticated
+        ledger2 = os.path.join(d, "l2.jsonl")
+        g2 = MeniwGate.from_default(ledger_path=ledger2, hmac_key=b"k")
+        g2.governed_execute(Action("get_user"), {}, lambda a: 1)
+        b2 = os.path.join(d, "b2.json"); R.export(ledger2, b2, policy=g2.policy)
+        self.assertIn("hmac-authenticated", R.verify_bundle(b2, hmac_key=b"k")["assurance"])
+
     def test_range_export_verifies(self):
         d, ledger, gate = self._make_ledger()
         bundle = os.path.join(d, "range.json")

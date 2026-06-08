@@ -63,6 +63,7 @@ def _verify_receipt(args) -> int:
     status = "VALID" if res["ok"] else "INVALID"
     print(f"[meniw verify-receipt] {status} — chain:{res['chain_msg']} "
           f"| single_policy:{res['single_policy']} | policy_match:{res['policy_hash_matches']}")
+    print(f"  assurance: {res['assurance']}")
     return 0 if res["ok"] else 1
 
 

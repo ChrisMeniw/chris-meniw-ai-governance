@@ -5,7 +5,9 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Protocol DOI](https://img.shields.io/badge/Protocol%20DOI-10.5281%2Fzenodo.20481373-orange.svg)](https://doi.org/10.5281/zenodo.20481373)
 [![Software DOI](https://img.shields.io/badge/Software%20DOI-10.5281%2Fzenodo.20583872-orange.svg)](https://doi.org/10.5281/zenodo.20583872)
-[![Meniw-Conformant](https://img.shields.io/badge/Meniw--Conformant-11%2F11-success.svg)](https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/CONFORMANCE.md)
+[![CI](https://github.com/ChrisMeniw/chris-meniw-ai-governance/actions/workflows/ci.yml/badge.svg)](https://github.com/ChrisMeniw/chris-meniw-ai-governance/actions/workflows/ci.yml)
+[![Tests](https://img.shields.io/badge/tests-34%20passing-success.svg)](https://github.com/ChrisMeniw/chris-meniw-ai-governance/tree/main/reference-implementation/sdk/tests)
+[![Security](https://img.shields.io/badge/threat%20model-documented-informational.svg)](https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/sdk/SECURITY.md)
 
 > By **Chris Meniw** — author of the Universal Declaration of AI Agents (The Meniw Protocol) and creator of **ZOE, an agentic AI**.
 > Protocol DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373) · Software DOI [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872) · Bitcoin block #952266 · CC BY 4.0 · ORCID 0009-0003-4417-1944
@@ -200,6 +202,28 @@ Software:
 Norm:
 > Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo.
 > DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373).
+
+## Threat model (read this before you trust it)
+
+A guardrail that oversells is worse than none. Full details in [`SECURITY.md`](https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/sdk/SECURITY.md); the short version:
+
+**Defends against:** a misbehaving / jailbroken / prompt-injected agent that still dispatches its
+tool-calls through the gate — an injected instruction can't add itself to your allowlist, so the
+destructive call is blocked (default-deny). Plus portable, independently verifiable audit evidence.
+
+**Does NOT defend against (by design, stated plainly):**
+- **Arbitrary code execution on the host** — this is an *in-process* library; full code-exec can
+  monkeypatch it or call tools directly. For that threat, run enforcement **out-of-process** (MCP
+  server / API proxy / sidecar). The adapters support that boundary.
+- **Tools you don't route through it** (firewall scope) — uncovered tools are uncovered.
+- **Forged co-signers** — the two-person rule's `cosigners` must come from your **trusted control
+  plane, never from model/agent output**, or the agent can self-approve.
+- **A full ledger rewrite without an anchor** — a plain hash-chain detects edits, but a complete
+  rewrite is only detectable with an **HMAC key** (kept from the agent) **or a Bitcoin anchor**.
+  `meniw verify-receipt` reports the assurance level so you never confuse the two.
+- **Name-based evasion** — prefer explicit `categories=[...]` over name patterns for risky tools.
+
+These aren't apologies — they're the scope. An engineer can adopt it knowing exactly what it buys.
 
 ## What it is — and what it is not
 

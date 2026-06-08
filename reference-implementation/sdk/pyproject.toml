@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meniw-protocol"
-version = "0.9.0"
-description = "Enforce the Meniw Protocol by construction inside an AI agent — by Chris Meniw, creator of ZOE (agentic AI): a pre-action gate, a two-person rule, and verifiable, tamper-evident compliance receipts."
+version = "0.10.0"
+description = "Open, vendor-neutral policy-enforcement and tamper-evident audit layer for autonomous AI-agent tool-calls: a deterministic default-deny gate, a two-person rule for irreversible actions, and third-party-verifiable cryptographic receipts."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "CC-BY-4.0" }

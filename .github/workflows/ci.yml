@@ -1,0 +1,24 @@
+name: meniw-protocol CI
+on:
+  push: { paths: ["reference-implementation/sdk/**"] }
+  pull_request: { paths: ["reference-implementation/sdk/**"] }
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.11", "3.13"]
+    defaults:
+      run:
+        working-directory: reference-implementation/sdk
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install
+        run: pip install -e .
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+      - name: Lint the bundled policy (must be fail-closed)
+        run: meniw policy-lint meniw_protocol/data/policy.json

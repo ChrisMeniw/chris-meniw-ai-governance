@@ -3,6 +3,22 @@
 All notable changes to `meniw-protocol` are documented here. Format based on
 [Keep a Changelog](https://keepachangelog.com/); versioning follows [SemVer](https://semver.org/).
 
+## [0.10.0] — 2026-06-07
+### Added (hardening for the skeptical engineer)
+- **Documented threat model** (`SECURITY.md` + README): exactly what it defends against (injected/
+  jailbroken agent that still routes tool-calls through the gate) and what it does NOT — arbitrary
+  code-exec on the host (run out-of-process), uncovered tools, forged co-signers, full ledger rewrite
+  without an anchor, name-based evasion. With a hardening checklist and a disclosure contact.
+- **Verifier states its assurance level**: `verify-receipt` now reports `hmac-authenticated` vs
+  `integrity-only` — a plain hash-chain detects edits, but a full rewrite needs an HMAC key or a
+  Bitcoin anchor to detect. No more confusing "tamper-evident" with "unhackable".
+- **GitHub Actions CI** (Python 3.9/3.11/3.13): runs the test suite and `meniw policy-lint` on the
+  bundled policy on every push.
+### Changed
+- Package summary made purely technical (vendor-neutral policy-enforcement + verifiable audit);
+  author/brand kept in metadata and project URLs, not in the one-line description.
+- 34 tests (added the assurance-level test).
+
 ## [0.9.0] — 2026-06-07
 ### Added (the differentiator)
 - **Third-party-verifiable receipt bundles.** `meniw export` writes a self-contained bundle

@@ -107,6 +107,16 @@ def verify_bundle(path: str | Path, hmac_key: bytes | None = None) -> dict[str, 
     else:
         result["policy_hash_matches"] = None
 
+    # Assurance level — be explicit about what a "VALID" actually guarantees.
+    # A hash-chain WITHOUT a secret key detects edits/removals, but someone who controls the file
+    # can recompute the WHOLE chain from scratch and it will still verify. Detecting a full rewrite
+    # requires authenticity (HMAC key) OR an external anchor (Bitcoin/OpenTimestamps on the head).
+    hmac_present = bool(receipts) and all("hmac" in r for r in receipts)
+    if hmac_key is not None and ok and hmac_present:
+        result["assurance"] = "hmac-authenticated (detects edits AND full re-signing)"
+    else:
+        result["assurance"] = "integrity-only (detects edits/removals; a full rewrite needs the HMAC key or a Bitcoin anchor to detect)"
+
     result["ok"] = bool(ok and result["single_policy"]
                         and (result["policy_hash_matches"] in (True, None)))
     return result
