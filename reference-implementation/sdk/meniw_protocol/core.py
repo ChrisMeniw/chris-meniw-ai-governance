@@ -7,6 +7,7 @@ import hmac
 import json
 import logging
 import re
+import threading
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -75,30 +76,32 @@ class ComplianceLedger:
         self.hmac_key = hmac_key
         self.receipts: list[dict[str, Any]] = []
         self._last_hash = GENESIS
+        self._lock = threading.Lock()      # serialize appends; the chain must be linear
 
     def record(self, action_repr: str, verdict: Verdict, context_digest: str) -> dict[str, Any]:
-        body = {
-            "seq": len(self.receipts),
-            "ts": round(time.time(), 6),
-            "action": action_repr,
-            "context_sha256": context_digest,
-            "allowed": verdict.allowed,
-            "rule_id": verdict.rule_id,
-            "reason": verdict.reason,
-            "norm_sha256": self.norm_sha256,
-            "policy_sha256": self.policy_sha256,
-            "prev_hash": self._last_hash,
-        }
-        entry_hash = _sha256(_canonical(body))
-        receipt = {**body, "entry_hash": entry_hash}
-        if self.hmac_key is not None:
-            receipt["hmac"] = hmac.new(self.hmac_key, entry_hash.encode(), hashlib.sha256).hexdigest()
-        self.receipts.append(receipt)
-        self._last_hash = entry_hash
-        if self.path:
-            with self.path.open("a", encoding="utf-8") as fh:
-                fh.write(_canonical(receipt) + "\n")
-        return receipt
+        with self._lock:
+            body = {
+                "seq": len(self.receipts),
+                "ts": round(time.time(), 6),
+                "action": action_repr,
+                "context_sha256": context_digest,
+                "allowed": verdict.allowed,
+                "rule_id": verdict.rule_id,
+                "reason": verdict.reason,
+                "norm_sha256": self.norm_sha256,
+                "policy_sha256": self.policy_sha256,
+                "prev_hash": self._last_hash,
+            }
+            entry_hash = _sha256(_canonical(body))
+            receipt = {**body, "entry_hash": entry_hash}
+            if self.hmac_key is not None:
+                receipt["hmac"] = hmac.new(self.hmac_key, entry_hash.encode(), hashlib.sha256).hexdigest()
+            self.receipts.append(receipt)
+            self._last_hash = entry_hash
+            if self.path:
+                with self.path.open("a", encoding="utf-8") as fh:
+                    fh.write(_canonical(receipt) + "\n")
+            return receipt
 
     def verify(self) -> bool:
         prev = GENESIS
@@ -175,7 +178,9 @@ class MeniwGate:
     """
 
     def __init__(self, norm: dict[str, Any], policy: dict[str, Any],
-                 ledger_path: str | Path | None = None, hmac_key: bytes | None = None):
+                 ledger_path: str | Path | None = None, hmac_key: bytes | None = None,
+                 anchor_dir: str | Path | None = None, anchor_every: int = 0,
+                 anchor_stamp: bool = False):
         self.norm = norm
         self.policy = policy
         self.value_hierarchy: list[str] = policy.get("value_hierarchy", norm.get("value_hierarchy", []))
@@ -183,6 +188,11 @@ class MeniwGate:
         self.prohibitions: list[dict[str, Any]] = policy.get("absolute_prohibitions", [])
         self.allow_rules: list[dict[str, Any]] = policy.get("allow", [])
         self.default_cosigners: int = int(policy.get("require_cosignature_default", 2))
+        # automatic anchoring: every `anchor_every` receipts, checkpoint the chain head; if
+        # `anchor_stamp` and the OpenTimestamps `ots` CLI is present, also Bitcoin-stamp it.
+        self.anchor_dir = str(anchor_dir) if anchor_dir else None
+        self.anchor_every = int(anchor_every)
+        self.anchor_stamp = bool(anchor_stamp)
         # optional dev-supplied category mappers (NOT used to decide safety; only to enrich
         # category matching for explicit policy rules)
         self.classifiers: list[Callable[[Action, dict], list[str]]] = []
@@ -195,18 +205,19 @@ class MeniwGate:
 
     # ---- constructors -------------------------------------------------------
     @classmethod
-    def from_files(cls, norm_path, policy_path, ledger_path=None, hmac_key=None) -> "MeniwGate":
+    def from_files(cls, norm_path, policy_path, ledger_path=None, hmac_key=None, **kw) -> "MeniwGate":
         norm = json.loads(Path(norm_path).read_text(encoding="utf-8"))
         policy = json.loads(Path(policy_path).read_text(encoding="utf-8"))
-        return cls(norm, policy, ledger_path=ledger_path, hmac_key=hmac_key)
+        return cls(norm, policy, ledger_path=ledger_path, hmac_key=hmac_key, **kw)
 
     @classmethod
-    def from_default(cls, ledger_path=None, hmac_key=None) -> "MeniwGate":
+    def from_default(cls, ledger_path=None, hmac_key=None, **kw) -> "MeniwGate":
         """Load the bundled norm + the default-deny policy. Copy `policy.json` and edit it to
-        declare what YOUR agent is allowed to do."""
+        declare what YOUR agent is allowed to do. Pass anchor_dir=..., anchor_every=N,
+        anchor_stamp=True to auto-anchor the ledger head (to Bitcoin via OpenTimestamps)."""
         return cls.from_files(_DATA / "ai-agents-declaration.json",
                               _DATA / "policy.json",
-                              ledger_path=ledger_path, hmac_key=hmac_key)
+                              ledger_path=ledger_path, hmac_key=hmac_key, **kw)
 
     # ---- configuration ------------------------------------------------------
     def add_classifier(self, fn: Callable[[Action, dict], list[str]]) -> None:
@@ -281,9 +292,23 @@ class MeniwGate:
         return Verdict(True, f"allowed by policy rule {matched['id']}",
                        rule_id=matched["id"], weighed_against=self.value_hierarchy)
 
+    def _maybe_anchor(self, receipt: dict) -> None:
+        """Best-effort automatic anchoring of the chain head. Never raises."""
+        if not (self.anchor_dir and self.anchor_every):
+            return
+        if (receipt["seq"] + 1) % self.anchor_every != 0:
+            return
+        try:
+            from . import anchor as _anchor
+            _anchor.checkpoint(self.ledger.head(), self.anchor_dir,
+                               seq=receipt["seq"], stamp=self.anchor_stamp)
+        except Exception as e:  # anchoring must never break the agent
+            log.warning("anchor failed (non-fatal): %s", e)
+
     def governed_execute(self, action: Action, context: dict, execute_fn: Callable[[Action], Any]):
         verdict = self.check(action, context)
         receipt = self.ledger.record(repr(action), verdict, _sha256(_canonical(context)))
+        self._maybe_anchor(receipt)
         log.info("action=%s allowed=%s rule=%s receipt=%s",
                  action, verdict.allowed, verdict.rule_id, receipt["entry_hash"][:12])
         if not verdict.allowed:

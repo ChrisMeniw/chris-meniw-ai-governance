@@ -3,6 +3,20 @@
 All notable changes to `meniw-protocol` are documented here. Format based on
 [Keep a Changelog](https://keepachangelog.com/); versioning follows [SemVer](https://semver.org/).
 
+## [0.7.0] — 2026-06-07
+### Added (hardening)
+- **Automatic anchoring** — the gate can checkpoint the ledger HEAD every N receipts
+  (`MeniwGate.from_default(anchor_dir=..., anchor_every=N, anchor_stamp=True)`) and, when the
+  standard OpenTimestamps `ots` CLI is installed (`pip install "meniw-protocol[anchor]"`),
+  Bitcoin-stamp it — best-effort, never crashes the agent. Honest fallback when `ots` is absent.
+- **`meniw` CLI**: `meniw verify | anchor | audit | policy-lint`.
+- **Policy linter** (`meniw policy-lint`): flags non-fail-closed policies, catch-all allow
+  patterns, invalid regexes, and risky allow rules missing a two-person rule.
+- **Thread-safe ledger** — appends are serialized; a stress test of 100 concurrent records keeps
+  the chain intact in memory and on disk.
+### Tests
+- 27 tests total (auto-anchor cadence, anchoring never crashes the agent, policy-lint, concurrency).
+
 ## [0.6.0] — 2026-06-07
 ### Changed (architecture — addresses the default-allow hole directly)
 - **Fail-closed (default-deny) is now the core.** The gate is deterministic: an action runs ONLY

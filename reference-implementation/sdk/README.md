@@ -91,6 +91,35 @@ report = audit(["get_user", "send_wire", "fire_actuator", "delete_db"], MeniwGat
 print(report.text())   # suggests which actions need an allow rule or a two-person rule
 ```
 
+## Automatic anchoring to Bitcoin (OpenTimestamps)
+
+The ledger is tamper-evident on its own. To bind it to Bitcoin so a third party can prove it
+existed before a given block, turn on automatic anchoring — it checkpoints the chain head every
+N decisions and (with the optional `ots` CLI) Bitcoin-stamps it:
+
+```python
+gate = MeniwGate.from_default(ledger_path="compliance.ledger.jsonl",
+                              anchor_dir="anchors", anchor_every=100, anchor_stamp=True)
+```
+
+```bash
+pip install "meniw-protocol[anchor]"     # enables real OpenTimestamps stamping
+meniw anchor compliance.ledger.jsonl --stamp
+```
+
+Honest by design: it always writes a fast local checkpoint; if `ots` isn't installed it records
+the head and tells you how to stamp it — it never fabricates a proof. (A Bitcoin-confirmed OTS
+proof takes a few hours to mature.)
+
+## CLI & policy linting
+
+```bash
+meniw verify  compliance.ledger.jsonl      # VALID / INVALID
+meniw policy-lint policy.json              # catch non-fail-closed or catch-all rules
+meniw audit  send_wire delete_db get_user  # dev-time advice on what to cover
+meniw anchor compliance.ledger.jsonl       # checkpoint / Bitcoin-anchor the head
+```
+
 ## Verifiable, tamper-evident compliance
 
 Every decision (allow *or* block) is written to an append-only **hash-chain** anchored to the

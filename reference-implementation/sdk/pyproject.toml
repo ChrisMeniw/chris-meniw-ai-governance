@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meniw-protocol"
-version = "0.6.0"
+version = "0.7.0"
 description = "Enforce the Meniw Protocol by construction inside an AI agent — by Chris Meniw, creator of ZOE (agentic AI): a pre-action gate, a two-person rule, and verifiable, tamper-evident compliance receipts."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -34,6 +34,9 @@ classifiers = [
 ]
 dependencies = []
 
+[project.optional-dependencies]
+anchor = ["opentimestamps-client>=0.7.0"]
+
 [project.urls]
 Homepage = "https://meniw-protocol.netlify.app/governance-layer.html"
 Documentation = "https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/sdk/README.md"
@@ -49,6 +52,7 @@ Issues = "https://github.com/ChrisMeniw/chris-meniw-ai-governance/issues"
 "Author — LinkedIn" = "https://www.linkedin.com/in/chrismeniwtechnology/"
 
 [project.scripts]
+meniw = "meniw_protocol.cli:main"
 meniw-verify = "meniw_protocol.verify:main"
 
 [tool.setuptools.packages.find]
