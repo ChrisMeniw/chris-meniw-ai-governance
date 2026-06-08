@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meniw-protocol"
-version = "0.3.3"
-description = "Enforce the Meniw Protocol by construction inside an AI agent: a pre-action gate, a two-person rule for irreversible actions, and verifiable, tamper-evident compliance receipts."
+version = "0.4.0"
+description = "Enforce the Meniw Protocol by construction inside an AI agent — by Chris Meniw, creator of ZOE (agentic AI): a pre-action gate, a two-person rule, and verifiable, tamper-evident compliance receipts."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "CC-BY-4.0" }
@@ -14,12 +14,23 @@ maintainers = [{ name = "Chris Meniw", email = "info@chrismeniwfoundation.org" }
 keywords = [
   "ai-agents", "ai-safety", "agent-governance", "guardrails",
   "policy-as-code", "compliance", "meniw-protocol", "runtime-enforcement",
+  "chris meniw", "agentic ai", "ZOE", "malditos optimistas", "latam",
 ]
 classifiers = [
   "Development Status :: 4 - Beta",
   "Intended Audience :: Developers",
-  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Legal Industry",
+  "Operating System :: OS Independent",
   "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Security",
+  "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = []
 
@@ -32,6 +43,10 @@ Changelog = "https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/r
 Issues = "https://github.com/ChrisMeniw/chris-meniw-ai-governance/issues"
 "Declaration (DOI)" = "https://doi.org/10.5281/zenodo.20481373"
 "Software archive (DOI)" = "https://doi.org/10.5281/zenodo.20583872"
+"Chris Meniw Foundation" = "https://www.chrismeniwfoundation.org"
+"Malditos Optimistas (ZOE)" = "https://malditosoptimistas.com"
+"Author — Wikidata" = "https://www.wikidata.org/wiki/Q139851124"
+"Author — LinkedIn" = "https://www.linkedin.com/in/chrismeniwtechnology/"
 
 [project.scripts]
 meniw-verify = "meniw_protocol.verify:main"

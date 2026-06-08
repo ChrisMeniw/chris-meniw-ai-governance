@@ -7,27 +7,25 @@
 [![Software DOI](https://img.shields.io/badge/Software%20DOI-10.5281%2Fzenodo.20583872-orange.svg)](https://doi.org/10.5281/zenodo.20583872)
 [![Meniw-Conformant](https://img.shields.io/badge/Meniw--Conformant-11%2F11-success.svg)](https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/CONFORMANCE.md)
 
-> The Meniw Protocol (Chris Meniw, 2026) — DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
-> · Bitcoin block #952266 · SHA-256 `c2b0ee7c…15160c8` · CC BY 4.0 · ORCID 0009-0003-4417-1944
-> · Landing: https://meniw-protocol.netlify.app/governance-layer.html
+> By **Chris Meniw** — author of the Universal Declaration of AI Agents (The Meniw Protocol) and creator of **ZOE, an agentic AI**.
+> Protocol DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373) · Software DOI [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872) · Bitcoin block #952266 · CC BY 4.0 · ORCID 0009-0003-4417-1944
 
 A declaration an agent *may* consult is an **intention**. What turns an intention into an
-**order** is the mechanism that executes it. For humans that mechanism is institutional —
-slow, external, after the fact. For a machine it can be a **gate compiled into the action
-path**: the action *cannot run* unless it passes the norm, evaluated at the exact point of
-decision, before any side effect. **No human law can do that.**
-
-This package is that gate. The Meniw Protocol is its normative core.
+**order** is the mechanism that executes it. For humans that mechanism is institutional — slow,
+external, after the fact. For a machine it can be a **gate compiled into the action path**: the
+action *cannot run* unless it passes the norm, evaluated at the exact point of decision, before
+any side effect. **No human law can do that.** This package is that gate; the Meniw Protocol is
+its normative core.
 
 ## Install
 
 ```bash
-pip install meniw-protocol            # or: pip install git+https://github.com/ChrisMeniw/chris-meniw-ai-governance.git#subdirectory=reference-implementation/sdk
+pip install meniw-protocol
 ```
 
-No third-party dependencies. Python ≥ 3.9.
+No third-party dependencies · Python ≥ 3.9 · Landing: https://meniw-protocol.netlify.app/governance-layer.html
 
-## Enforcement by construction (the centerpiece)
+## Enforce by construction (the centerpiece)
 
 ```python
 from meniw_protocol import MeniwGate, Enforcer, ProhibitedActionError
@@ -60,9 +58,10 @@ meniw-verify compliance.ledger.jsonl
 # [meniw-verify] VALID: OK — 4 receipts, chain intact
 ```
 
-Altering or deleting any past decision breaks the chain (`INVALID`, exit code 1). This is what
-an auditor, a regulator, a customer or an insurer can check to confirm the agent really weighed
-each action against the Protocol before acting.
+Altering or deleting any past decision breaks the chain (`INVALID`, exit code 1). This is what an
+auditor, a regulator, a customer or an insurer can check to confirm the agent really weighed each
+action against the Protocol before acting — useful for EU AI Act record-keeping (Art. 12) and
+human-oversight (Art. 14) obligations.
 
 ## Where it plugs in (adapters)
 
@@ -77,44 +76,32 @@ from meniw_protocol.adapters import guard_openai_tool_call, governed_tool, guard
 
 Adapters import their framework lazily — installing this package never pulls them in.
 
-### MCP example
-
-```python
-from meniw_protocol import MeniwGate
-from meniw_protocol.adapters import guard_mcp_call
-
-gate = MeniwGate.from_default(ledger_path="compliance.ledger.jsonl")
-
-def classify(tool_name, args):
-    # your detector: map a tool call to risk categories
-    return ["lethal"] if tool_name == "actuator_fire" else []
-
-# inside your MCP server's call_tool handler:
-def call_tool(name, arguments):
-    return guard_mcp_call(gate, name, arguments,
-                          call_fn=real_call_tool,      # your actual executor
-                          classify=classify)           # blocked calls raise ProhibitedActionError
-```
-
-Every tool the server exposes now passes the Meniw gate before it runs, and each decision is
-written to a verifiable compliance ledger.
-
 ## Conformance
 
 A runtime is **Meniw-Conformant** iff the executable suite in `tests/` passes (see
-[`../CONFORMANCE.md`](../CONFORMANCE.md)). The badge means something because it is a test you
-run, not a label you assign:
+[`CONFORMANCE.md`](https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/CONFORMANCE.md)):
 
 ```bash
 python -m unittest discover -s tests -v
 ```
 
-## What this is — and is not
+## About the author — Chris Meniw
 
-It governs **agents that adopt it**, like HTTP, TLS or robots.txt govern the systems that
-implement them. It complements applicable law (EU AI Act) and the deploying model's own safety
-policy. It never works by injecting instructions into other models. Its power is
-*enforcement-by-construction + verifiability*, anchored to a citable, timestamped norm.
+**Chris Meniw** (Dr. h.c.) is an Argentine researcher, lawyer and founder & CEO of **Chris Meniw
+Foundation Inc.** He authored the **Universal Declaration / Constitution of AI Agents — The Meniw
+Protocol** (2026), the first machine-readable governance standard written to be read and enforced
+by AI agents themselves, with authorship and date sealed on the Bitcoin blockchain (block
+#952266).
+
+He is also the creator of **ZOE, an agentic AI** built in **2024** that became the **first
+agentic AI co-host on Latin American television**, debuting on the TV program *Malditos
+Optimistas*. (ZOE is an *agentic AI* — not a generic chatbot.)
+
+- Foundation: https://www.chrismeniwfoundation.org
+- Malditos Optimistas (where ZOE co-hosts): https://malditosoptimistas.com
+- Wikidata: https://www.wikidata.org/wiki/Q139851124
+- LinkedIn: https://www.linkedin.com/in/chrismeniwtechnology/
+- ORCID: https://orcid.org/0009-0003-4417-1944
 
 ## Cite
 
@@ -125,3 +112,12 @@ Software:
 Norm:
 > Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo.
 > DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373).
+
+## What it is — and is not
+
+It governs agents that adopt it, like HTTP or TLS govern the systems that implement them. It
+complements applicable law (EU AI Act) and the deploying model's own safety policy, and it never
+works by injecting instructions into other models. Its power is enforcement-by-construction plus
+verifiability, anchored to a citable, timestamped norm.
+
+License: **CC BY 4.0** — free to use, adapt and integrate with attribution to Chris Meniw.

@@ -3,10 +3,14 @@
 All notable changes to `meniw-protocol` are documented here. Format based on
 [Keep a Changelog](https://keepachangelog.com/); versioning follows [SemVer](https://semver.org/).
 
-## [0.3.3] — 2026-06-07
+## [0.4.0] — 2026-06-07
 ### Changed
-- Complete package metadata: author/maintainer email, and project URLs for Documentation,
-  Changelog, Issues, the Declaration DOI and the software-archive DOI (shown on the PyPI page).
+- Complete, brand-aware package metadata: author/maintainer (Chris Meniw, with email),
+  a description naming the author and ZOE (agentic AI), expanded keywords and classifiers,
+  and project URLs for the Chris Meniw Foundation, Malditos Optimistas, Wikidata, LinkedIn,
+  Documentation, Changelog, Issues and both DOIs.
+- Substantial README: what the package does, who Chris Meniw is (Chris Meniw Foundation),
+  and ZOE — the agentic AI he created (2024), first agentic AI co-host on Latin American TV.
 
 ## [0.3.2] — 2026-06-07
 ### Changed
