@@ -46,6 +46,26 @@ def _audit(args) -> int:
     return 0
 
 
+def _export(args) -> int:
+    import json as _json
+    from . import receipt as _r
+    policy = _json.loads(open(args.policy, encoding="utf-8").read()) if args.policy else None
+    b = _r.export(args.ledger, args.out, policy=policy, start=args.start, end=args.end)
+    print(f"[meniw export] wrote {args.out}: {len(b['receipts'])} receipts"
+          + (" + policy" if policy else " (no policy embedded)"))
+    return 0
+
+
+def _verify_receipt(args) -> int:
+    from . import receipt as _r
+    key = open(args.hmac_key_file, "rb").read() if args.hmac_key_file else None
+    res = _r.verify_bundle(args.bundle, hmac_key=key)
+    status = "VALID" if res["ok"] else "INVALID"
+    print(f"[meniw verify-receipt] {status} — chain:{res['chain_msg']} "
+          f"| single_policy:{res['single_policy']} | policy_match:{res['policy_hash_matches']}")
+    return 0 if res["ok"] else 1
+
+
 def _policy_lint(args) -> int:
     from .lint import lint_file
     ok, findings = lint_file(args.policy)
@@ -73,6 +93,15 @@ def main(argv=None) -> int:
 
     pl = sub.add_parser("policy-lint", help="lint a policy.json for fail-closed safety")
     pl.add_argument("policy"); pl.set_defaults(fn=_policy_lint)
+
+    ex = sub.add_parser("export", help="export a self-contained, third-party-verifiable receipt bundle")
+    ex.add_argument("ledger"); ex.add_argument("--out", required=True)
+    ex.add_argument("--policy", help="policy.json to embed (lets an auditor map the policy hash)")
+    ex.add_argument("--start", type=int, default=0); ex.add_argument("--end", type=int, default=None)
+    ex.set_defaults(fn=_export)
+
+    vr = sub.add_parser("verify-receipt", help="independently verify a receipt bundle (no system access)")
+    vr.add_argument("bundle"); vr.add_argument("--hmac-key-file"); vr.set_defaults(fn=_verify_receipt)
 
     args = ap.parse_args(argv)
     return args.fn(args)

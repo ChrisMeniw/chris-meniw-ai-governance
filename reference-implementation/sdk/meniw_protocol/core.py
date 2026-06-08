@@ -86,6 +86,7 @@ class ComplianceLedger:
     def record(self, action_repr: str, verdict: Verdict, context_digest: str) -> dict[str, Any]:
         with self._lock:
             body = {
+                "schema": "meniw-receipt/1",
                 "seq": len(self.receipts),
                 "ts": round(time.time(), 6),
                 "action": action_repr,

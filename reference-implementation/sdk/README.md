@@ -116,29 +116,40 @@ action hot-path**:
 > calendars are down, the gate keeps running. Optional local head snapshots
 > (`checkpoint_dir=..., checkpoint_every=N`) are pure-local and also never touch the network.
 
+> **Scope, said plainly:** the gate covers the actions the operator **routes through it** — like a
+> firewall, which only sees the traffic that traverses it. A tool the operator never wires to the
+> gate is not covered. Covering all dangerous tools is the operator's responsibility.
+
 ## CLI & policy linting
 
 ```bash
 meniw verify  compliance.ledger.jsonl      # VALID / INVALID
-meniw policy-lint policy.json              # catch non-fail-closed or catch-all rules
+meniw policy-lint policy.json              # catch non-fail-closed / dangerous / catch-all rules
 meniw audit  send_wire delete_db get_user  # dev-time advice on what to cover
-meniw anchor compliance.ledger.jsonl       # checkpoint / Bitcoin-anchor the head
+meniw anchor compliance.ledger.jsonl       # anchor the head to Bitcoin (periodic, off-the-hot-path)
+meniw export compliance.ledger.jsonl --policy policy.json --out bundle.json   # portable evidence
+meniw verify-receipt bundle.json           # third party verifies WITHOUT your system
 ```
 
-## Verifiable, tamper-evident compliance
+## Third-party-verifiable receipts (the differentiator)
 
-Every decision (allow *or* block) is written to an append-only **hash-chain** anchored to the
-norm's SHA-256. Anyone can verify it — no need to trust the operator:
+Other agent permission layers stop an action; they don't hand you a **portable artifact a third
+party can verify on their own**. This does. Each decision is a receipt that commits to the action,
+the **SHA-256 of the policy in effect at decision time**, the gate's verdict, and the previous
+receipt's hash. `meniw export` bundles a range of receipts together with the `policy.json`, so an
+auditor, regulator or court can run the open verifier and confirm — **without access to your
+system** — that *this action was evaluated under this exact policy version and allowed/denied, in
+this position of an unbroken chain*:
 
 ```bash
-meniw-verify compliance.ledger.jsonl
-# [meniw-verify] VALID: OK — 4 receipts, chain intact
+meniw verify-receipt bundle.json
+# VALID — chain intact | single_policy:True | policy_match:True   (INVALID + exit 1 if tampered)
 ```
 
-Altering or deleting any past decision breaks the chain (`INVALID`, exit code 1). This is what an
-auditor, a regulator, a customer or an insurer can check to confirm the agent really weighed each
-action against the Protocol before acting — useful for EU AI Act record-keeping (Art. 12) and
-human-oversight (Art. 14) obligations.
+This is **tamper-evident, not "unhackable"**: someone with access to the file can alter or truncate
+it, but the alteration is then **detectable** by anyone who runs the open verifier. The guarantee is
+detectability, not impossibility. Useful for EU AI Act record-keeping (Art. 12) and human-oversight
+(Art. 14): it produces evidence an external party can check, rather than a claim to trust.
 
 ## Where it plugs in (adapters)
 

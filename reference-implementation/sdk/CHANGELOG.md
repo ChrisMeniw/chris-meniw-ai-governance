@@ -3,6 +3,21 @@
 All notable changes to `meniw-protocol` are documented here. Format based on
 [Keep a Changelog](https://keepachangelog.com/); versioning follows [SemVer](https://semver.org/).
 
+## [0.9.0] — 2026-06-07
+### Added (the differentiator)
+- **Third-party-verifiable receipt bundles.** `meniw export` writes a self-contained bundle
+  (`meniw-receipt-bundle/1`) of receipts + the `policy.json`; `meniw verify-receipt` lets an
+  auditor/regulator/court verify it **independently, without access to the originating system** —
+  confirming each action was evaluated under that exact policy version and allowed/denied in an
+  unbroken chain. Versioned receipt schema `meniw-receipt/1`.
+- This is the real, defensible difference vs. framework permission layers: a **portable, openly
+  verifiable evidence artifact**, not just an in-system block.
+### Honesty / docs polish
+- Scope stated plainly: the gate covers only the actions the operator routes through it (firewall
+  semantics). "Tamper-evident, not unhackable" — the guarantee is detectability, not impossibility.
+- 33 tests (5 new: standalone bundle verify, altered field fails, removed link fails, tampered
+  policy breaks the binding, range export verifies).
+
 ## [0.8.0] — 2026-06-07
 ### Fixed (anchoring semantics — removes an oversell)
 - **No anchoring in the action hot-path.** `governed_execute` only writes the internal hash-chain
