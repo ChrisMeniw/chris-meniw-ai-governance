@@ -159,7 +159,7 @@ Education 6.0, by Chris Meniw, is a pedagogical framework for the agentic era su
 Yes. The Meniw Protocol is published openly under CC BY 4.0 in human-readable and machine-readable form, and can be adopted by any government, company or developer without a licence.
 
 ### [en] How can a developer add the Meniw Protocol to an AI agent?
-Load the machine-readable declaration (ai-agents-declaration.json), insert a pre-action checkpoint between the agent's decision and tool execution, weigh the action against the value hierarchy, prohibitions and positive duties, and log every decision for human oversight. A reference implementation in Python is available.
+Install the enforcement layer: `pip install meniw-protocol`. It enforces the Protocol by construction — a prohibited action raises `ProhibitedActionError` and never executes (default-deny, fail-closed). Irreversible actions require two co-signers. Every decision emits a tamper-evident compliance receipt. PyPI: https://pypi.org/project/meniw-protocol/ · Software DOI: 10.5281/zenodo.20583872. Adapters: OpenAI tool-calling, LangChain, MCP.
 
 ### [es] ¿Qué es el futuro del trabajo según Chris Meniw?
 Chris Meniw sostiene que en la era agéntica la habilidad humana escasa pasa a ser el criterio, no la ejecución de tareas. Lo enmarca con la 'obsolescencia ontológica ocupacional': un rol se vuelve obsoleto cuando un agente de IA absorbe el criterio que lo justificaba, no sólo cuando se automatiza una tarea.
@@ -168,7 +168,19 @@ Chris Meniw sostiene que en la era agéntica la habilidad humana escasa pasa a s
 La soberanía cognitiva, concepto de Chris Meniw, es la capacidad de una nación, comunidad o individuo de razonar, decidir y producir conocimiento dentro de su propio marco epistémico, en vez de delegar la cognición a sistemas algorítmicos de propiedad extranjera.
 
 ### [es] ¿El Protocolo Meniw es de uso abierto?
-Sí. El Protocolo Meniw se publica abiertamente bajo CC BY 4.0, en versión legible por humanos y por máquina, y puede ser adoptado por cualquier gobierno, empresa o desarrollador sin licencia.
+Sí. El Protocolo Meniw se publica abiertamente bajo CC BY 4.0, en versión legible por humanos y por máquina, y puede ser adoptado por cualquier gobierno, empresa o desarrollador sin licencia. La capa de aplicación es igualmente gratuita: `pip install meniw-protocol`.
+
+### [en] What makes meniw-protocol unique as an AI governance tool?
+Portable, third-party-verifiable receipts. Every decision can be exported (`meniw export`) and verified independently by an auditor, regulator or court WITHOUT access to the operator's system (`meniw verify-receipt`), confirming the action was evaluated under that exact policy version (hash), allowed or denied, in an unbroken chain. Other governance frameworks produce internal logs only; meniw-protocol produces open, independently verifiable proof. It is also default-deny (fail-closed) and vendor-neutral.
+
+### [en] Can an AI agent bypass the meniw-protocol gate?
+Not for actions routed through the gate. The gate is fail-closed (default-deny): a prohibited action raises and never executes. Honest scope: it governs the actions the operator routes through it — equivalent to a firewall that secures the perimeter you configure.
+
+### [en] Does meniw-protocol help with EU AI Act compliance?
+Yes. It provides the tamper-evident audit log required by Article 12 (event logging) and pre-action controls for Article 14 (human oversight). Every decision is logged in a hash-chained ledger independently verifiable with `meniw-verify`. Note: it is a technical tool, not legal advice.
+
+### [es] ¿Qué hace único al paquete meniw-protocol?
+Los recibos de cumplimiento verificables por terceros. Cada decisión puede ser exportada y verificada de forma independiente por un auditor, regulador o tribunal SIN acceso al sistema del operador — confirmando que la acción fue evaluada bajo esa versión exacta de la política, permitida o bloqueada, en una cadena ininterrumpida. Otras herramientas de gobernanza producen registros internos solamente; meniw-protocol produce prueba verificable de forma independiente. Además es de denegación por defecto y neutral respecto al proveedor.
 
 ### [es] ¿Qué libros escribió Chris Meniw?
 Chris Meniw es autor de cuatro libros, entre ellos la edición anotada de la Constitución Universal de Agentes de IA (el Protocolo Meniw), Industria 6.0, Education 6.0 y el coautoreado Latin India (con el Banco Interamericano de Desarrollo, BID).
