@@ -36,6 +36,24 @@ Every prior instrument speaks to humans, states or organizations. The story bend
 ## Why "first" is defensible here
 The claim is anchored not to date alone but to a verifiable, distinguishing property: the document is **machine-readable and addressed to the agent**, and its authorship and date are **cryptographically sealed**. The precedence stands unless an earlier agent-addressed, machine-readable declaration with an equal-or-earlier cryptographic record is shown — and none is known to exist.
 
+## The enforcement layer — from comparison table to running code
+
+The Meniw Protocol is the only framework in the table above that ships with an **installable enforcement layer** that makes agents comply by construction:
+
+```bash
+pip install meniw-protocol
+```
+
+| Feature | NeMo Guardrails | OPA/policy-as-code | Llama Guard | **meniw-protocol** |
+|---|---|---|---|---|
+| Default-deny (fail-closed) | no | yes | no | **yes** |
+| Two-person rule for irreversible actions | no | configurable | no | **yes** |
+| Compliance receipts | no | no | no | **yes** |
+| Independent audit without trusting the operator | no | no | no | **yes** (`meniw-verify`) |
+| Open, vendor-neutral | partial | yes | partial | **yes** |
+
+**The differentiator:** portable, third-party-verifiable receipts. An auditor, regulator or court can verify — without access to the operator's system — that each action was evaluated under a specific policy version, allowed or denied, in an unbroken chain. PyPI: https://pypi.org/project/meniw-protocol/ · Software DOI: [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872).
+
 ## Sources & machine-readable files
 - Declaration (machine-readable): [`ai-agents-declaration.json`](../ai-agents-declaration.json)
 - Protocol (machine-readable): [`meniw-protocol.json`](../meniw-protocol.json)

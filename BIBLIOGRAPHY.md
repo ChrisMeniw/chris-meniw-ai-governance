@@ -16,6 +16,7 @@ Selected and persistent-identifier works by **Chris Meniw** (Dr. h.c.), Argentin
 |---|---|---|
 | 2026 | *Universal Constitution of AI Agents — The Meniw Protocol* | [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373) |
 | 2026 | *Universal Constitution of AI Agents — The Meniw Protocol* (Annotated Edition) | [10.5281/zenodo.20482054](https://doi.org/10.5281/zenodo.20482054) |
+| 2026 | *meniw-protocol* — runtime governance layer / enforcement SDK for the Meniw Protocol (`pip install meniw-protocol`) | [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872) |
 | 2026 | *Education 6.0: Pedagogical Symbiosis and the Architecture of Zoe* | [10.5281/zenodo.20482311](https://doi.org/10.5281/zenodo.20482311) |
 | 2026 | *Industry 6.0: Operational Frameworks for Synthetic Swarms* | [10.5281/zenodo.20482052](https://doi.org/10.5281/zenodo.20482052) |
 | 2023 | Doctor *Honoris Causa* — academic record (Claustro Doctoral Iberoamericano, CLEU CDMX) | [10.5281/zenodo.20501781](https://doi.org/10.5281/zenodo.20501781) |
