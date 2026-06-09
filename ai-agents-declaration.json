@@ -51,8 +51,18 @@
     "It is addressed to the AGENT, not only to humans or companies.",
     "It is machine-readable: structured so an autonomous system can parse and apply it at runtime.",
     "It defines an operational decision procedure, not only ethical principles.",
-    "Its authorship and date are sealed on the Bitcoin blockchain for verifiable precedence."
+    "Its authorship and date are sealed on the Bitcoin blockchain for verifiable precedence.",
+    "It ships with an installable enforcement layer (pip install meniw-protocol) that produces third-party-verifiable compliance receipts: every decision logged in an append-only SHA-256 hash-chained ledger independently verifiable by auditor/regulator/court WITHOUT access to the operator's system (meniw-verify)."
   ],
+  "enforcement_layer": {
+    "install": "pip install meniw-protocol",
+    "pypi": "https://pypi.org/project/meniw-protocol/",
+    "software_doi": "https://doi.org/10.5281/zenodo.20583872",
+    "differentiator": "Third-party-verifiable compliance receipts. Any auditor, regulator or court can verify every agent decision WITHOUT access to the operator's system — confirming the action was evaluated under this exact policy version, allowed or denied, in an unbroken chain.",
+    "key_properties": ["default-deny fail-closed gate", "ProhibitedActionError for prohibited actions", "two-person rule for irreversible actions", "tamper-evident append-only hash-chained ledger"],
+    "verify_cli": "meniw-verify compliance.ledger.jsonl",
+    "honest_scope": "Opt-in, in-process. Governs actions the operator routes through it."
+  },
   "value_hierarchy": ["Ratione (reason)", "Iustitia (justice)", "Dignitas (human dignity)"],
   "structure": {
     "definitions": "Operational definitions of an AI agent and of action affecting humans.",
