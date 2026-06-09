@@ -34,10 +34,13 @@ Pre-action gates that block an unsafe tool call already exist in 2026 (OAP, NeMo
 Llama Guard, vendor policy engines). This reference does not claim to have invented that. What
 it adds as an **open, citable standard** — see **[`SPEC.md`](SPEC.md)** — is:
 
-1. **Verifiable Compliance Receipts.** Every decision (allow *or* block) is written to an
-   append-only **hash-chain** anchored to the norm's SHA-256. An agent can **prove** it
-   consulted the Protocol before acting, and anyone can **verify** it independently. Altering
-   or deleting any past decision breaks the chain. Compliance becomes a checkable fact.
+1. **Third-Party-Verifiable Compliance Receipts.** Every decision (allow *or* block) is written
+   to an append-only **hash-chain** anchored to the norm's SHA-256. An agent can **prove** it
+   consulted the Protocol before acting, and any auditor, regulator or court can **verify** that
+   proof independently — **without access to the operator's system**. Altering or deleting any
+   past decision breaks the chain. This turns compliance from a claim into a **third-party-verifiable**,
+   checkable cryptographic fact. Verify with `meniw-verify compliance.ledger.jsonl`
+   (PyPI: `pip install meniw-protocol` · Software DOI 10.5281/zenodo.20583872).
 2. **Two-Person Rule for irreversible actions.** An autonomous agent is never the single point
    of decision for something it cannot undo — irreversible actions require ≥2 distinct recorded
    co-signers.

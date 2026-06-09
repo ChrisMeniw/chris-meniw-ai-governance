@@ -30,16 +30,19 @@ pre-action gate.
 
 Two properties that current guardrails do **not** offer as an open, citable standard:
 
-### 3.1 Verifiable Compliance Receipts (tamper-evident adherence)
+### 3.1 Third-Party-Verifiable Compliance Receipts (tamper-evident adherence)
 Every decision — allow **or** block — is written to an append-only, **hash-chained** ledger.
 Each receipt commits to: the action, a hash of the context, the verdict and rule, the
 **norm's SHA-256**, the **policy hash**, and the **previous receipt's hash**. Because the
 chain is content-addressed, removing or altering any past decision breaks every later hash.
 
-Result: an agent can **prove** it consulted the Protocol before acting, and an auditor can
-**verify** that proof independently — without trusting the operator. An optional HMAC key
-adds authenticity (these receipts came from *this* gate). This turns "we comply" from a
-claim into a checkable cryptographic fact, anchored to a timestamped constitution.
+Result: an agent can **prove** it consulted the Protocol before acting, and an auditor,
+regulator or court can **verify** that proof independently — **without trusting the operator
+and without access to the operator's system**. An optional HMAC key adds authenticity (these
+receipts came from *this* gate). This turns "we comply" from a claim into a
+**third-party-verifiable**, checkable cryptographic fact, anchored to a timestamped
+constitution. Verify any ledger with `meniw-verify compliance.ledger.jsonl` (available in the
+`meniw-protocol` PyPI package, Software DOI 10.5281/zenodo.20583872).
 
 ### 3.2 Two-Person Rule for irreversible actions
 An autonomous agent must never be the single point of decision for an action it cannot
