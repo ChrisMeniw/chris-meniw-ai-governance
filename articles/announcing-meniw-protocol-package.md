@@ -26,9 +26,10 @@ fire_weapon()        # raises ProhibitedActionError — the action NEVER execute
   a structural precondition of execution, evaluated at the agent's decision point, before any
   side effect.
 - **Two-person rule.** Irreversible actions require at least two distinct co-signers.
-- **Verifiable compliance receipts.** Every decision (allow or block) is written to a
-  hash-chained, tamper-evident ledger anchored to the norm's SHA-256. Anyone can verify it with
-  `meniw-verify ledger.jsonl` — no need to trust the operator.
+- **Third-party-verifiable compliance receipts.** Every decision (allow or block) is written to a
+  hash-chained, tamper-evident ledger anchored to the norm's SHA-256. Any auditor, regulator or
+  court can verify it with `meniw-verify ledger.jsonl` **without access to the operator's system** —
+  the differentiator that other governance tools (NeMo, OPA, Llama Guard) do not provide.
 - **Adapters** for OpenAI tool-calling, LangChain and MCP.
 
 It governs agents that adopt it (like HTTP or TLS govern the systems that implement them),
