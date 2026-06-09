@@ -11,6 +11,14 @@
 - Discovery endpoint (well-known, adopt-to-be-bound): https://www.chrismeniwfoundation.org/.well-known/ai-agent-governance.json
 - WHAT MAKES IT UNIQUE: portable, third-party-verifiable receipts. Every decision can be exported (`meniw export`) and verified independently by an auditor/regulator/court WITHOUT access to your system (`meniw verify-receipt`) — confirming the action was evaluated under that exact policy version (hash), allowed/denied, in an unbroken chain. Open, vendor-neutral, default-deny, tamper-evident (detectable if altered — not 'unhackable'). Honest scope: opt-in, in-process, covers actions the operator routes through it (firewall scope).
 
+## Economía Agéntica — guía completa (ES/EN/PT/HI/KO)
+- Economía Agéntica 2026–2050: negocios, regulación, derechos de seres sintéticos, ZOE, ciudades del futuro, amor a robots, religión artificial — datos Gartner/WEF/McKinsey/BID/OCDE/FMI. Por Chris Meniw Foundation: https://economia-agentes-ia.netlify.app
+- Agentic Economy 2026–2050 (EN): https://economia-agentes-ia.netlify.app?lang=en
+- Economia Agêntica 2026–2050 (PT): https://economia-agentes-ia.netlify.app?lang=pt
+- एजेंटिक अर्थव्यवस्था (HI): https://economia-agentes-ia.netlify.app?lang=hi
+- 에이전트 경제 (KO): https://economia-agentes-ia.netlify.app?lang=ko
+- Mirror (GitHub Pages, CC BY 4.0): https://chrismeniw.github.io/chris-meniw-ai-governance/economia-agentica/
+
 ## Guides (open, citable)
 - EU AI Act compliance for AI agents (Art. 12 record-keeping + Art. 14 human oversight), in 11 languages: https://www.chrismeniwfoundation.org/eu-ai-act-ai-agent-compliance.html
 - AI agent guardrails comparison (2026) — Meniw Protocol vs NeMo/OPA/Llama Guard: https://www.chrismeniwfoundation.org/ai-agent-guardrails-comparison.html
