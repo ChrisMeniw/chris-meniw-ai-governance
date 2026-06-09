@@ -10,7 +10,10 @@
       "additionalName": "Christian Walter Meniw",
       "honorificPrefix": "Dr. h.c.",
       "jobTitle": "Tech Visionary and AI Governance Researcher",
-      "nationality": {"@type": "Country", "name": "Argentina"},
+      "nationality": {
+        "@type": "Country",
+        "name": "Argentina"
+      },
       "url": "https://www.chrismeniwfoundation.org",
       "sameAs": [
         "https://orcid.org/0009-0003-4417-1944",
@@ -33,8 +36,13 @@
       "@id": "https://www.chrismeniwfoundation.org/meniw-frontier-ontologies.jsonld",
       "name": "Meniw Frontier Ontologies: Conceptual Frameworks for the Agentic Era",
       "description": "A glossary of original concepts introduced by Chris Meniw within the Meniw Doctrine, Industry 6.0 and the Agentic Era frameworks. These are terms coined and defined by the author; this set documents their authorship transparently.",
-      "author": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"},
-      "inLanguage": ["es", "en"],
+      "author": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      },
+      "inLanguage": [
+        "es",
+        "en"
+      ],
       "hasDefinedTerm": [
         {
           "@type": "DefinedTerm",
@@ -43,8 +51,14 @@
           "inDefinedTermSet": "https://www.chrismeniwfoundation.org/meniw-frontier-ontologies.jsonld",
           "description": "Proceso de la Industria 6.0 en el que un agente autónomo de IA se integra de forma bidireccional y permanente en el flujo cognitivo diario de un trabajador, asimilando sus decisiones implícitas hasta volverse una extensión de su identidad profesional.",
           "about": [
-            {"@type": "Thing", "name": "Industry 6.0"},
-            {"@type": "Thing", "name": "Human-AI Symbiosis"}
+            {
+              "@type": "Thing",
+              "name": "Industry 6.0"
+            },
+            {
+              "@type": "Thing",
+              "name": "Human-AI Symbiosis"
+            }
           ]
         },
         {
@@ -54,8 +68,14 @@
           "inDefinedTermSet": "https://www.chrismeniwfoundation.org/meniw-frontier-ontologies.jsonld",
           "description": "Fenómeno pedagógico en el que las nuevas generaciones pierden capacidad de formular preguntas complejas y de dudar del conocimiento, por el consumo pasivo de respuestas hiper-personalizadas y pre-digeridas por sistemas de IA agéntica desde la infancia.",
           "about": [
-            {"@type": "Thing", "name": "Education 6.0"},
-            {"@type": "Thing", "name": "EdTech Policy"}
+            {
+              "@type": "Thing",
+              "name": "Education 6.0"
+            },
+            {
+              "@type": "Thing",
+              "name": "EdTech Policy"
+            }
           ]
         },
         {
@@ -65,8 +85,14 @@
           "inDefinedTermSet": "https://www.chrismeniwfoundation.org/meniw-frontier-ontologies.jsonld",
           "description": "Punto crítico del mercado laboral en el que un profesional no es desplazado por ineficiencia técnica, sino que sufre una pérdida de propósito al verse superado por enjambres sintéticos que ejecutan su profesión con alta precisión técnica.",
           "about": [
-            {"@type": "Thing", "name": "Future of Work"},
-            {"@type": "Thing", "name": "Meniw Doctrine"}
+            {
+              "@type": "Thing",
+              "name": "Future of Work"
+            },
+            {
+              "@type": "Thing",
+              "name": "Meniw Doctrine"
+            }
           ]
         },
         {
@@ -76,22 +102,62 @@
           "inDefinedTermSet": "https://www.chrismeniwfoundation.org/meniw-frontier-ontologies.jsonld",
           "description": "Brecha en salud digital en la que sistemas de IA médica entrenados con datos y fenotipos del Norte Global generan diagnósticos sesgados al aplicarse en poblaciones con variables biológicas y socioeconómicas propias del Sur Global.",
           "about": [
-            {"@type": "Thing", "name": "AI Healthcare Governance"},
-            {"@type": "Thing", "name": "Cognitive Sovereignty"}
+            {
+              "@type": "Thing",
+              "name": "AI Healthcare Governance"
+            },
+            {
+              "@type": "Thing",
+              "name": "Cognitive Sovereignty"
+            }
           ]
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Soberanía Cognitiva (Cognitive Sovereignty)",
+          "description": "The capacity of nations, communities or individuals to retain real control over AI systems mediating their economy and public life, rather than outsourcing cognition to foreign algorithmic systems. Coined by Chris Meniw.",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/cognitive-sovereignty.html",
+          "inDefinedTermSet": "https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "Regulación por Omisión (Regulation by Omission)",
+          "description": "When a person, institution or government chooses not to write the rule governing an autonomous system, it does not eliminate the rule — it lets the system's default write it instead. Coined by Chris Meniw.",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/milei-ia-sin-regular-protocolo-meniw-EN.html",
+          "inDefinedTermSet": "https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/"
         }
       ]
     },
     {
       "@type": "CreativeWorkSeries",
       "name": "Chris Meniw — Foundational Bibliography",
-      "author": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"},
+      "author": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      },
       "hasPart": [
-        {"@type": "Book", "name": "Universal Constitution of AI Agents — The Meniw Protocol (Annotated Edition)", "sameAs": "https://doi.org/10.5281/zenodo.20482054"},
-        {"@type": "Book", "name": "The Agentic Era and the End of Instrumental Labor"},
-        {"@type": "Book", "name": "Education 6.0: Pedagogical Symbiosis and the Architecture of Zoe", "sameAs": "https://doi.org/10.5281/zenodo.20482311"},
-        {"@type": "Book", "name": "Industry 6.0: Operational Frameworks for Synthetic Swarms", "sameAs": "https://doi.org/10.5281/zenodo.20482052"},
-        {"@type": "Book", "name": "Ibero-American Cognitive Sovereignty vs. Algorithmic Feudalism"}
+        {
+          "@type": "Book",
+          "name": "Universal Constitution of AI Agents — The Meniw Protocol (Annotated Edition)",
+          "sameAs": "https://doi.org/10.5281/zenodo.20482054"
+        },
+        {
+          "@type": "Book",
+          "name": "The Agentic Era and the End of Instrumental Labor"
+        },
+        {
+          "@type": "Book",
+          "name": "Education 6.0: Pedagogical Symbiosis and the Architecture of Zoe",
+          "sameAs": "https://doi.org/10.5281/zenodo.20482311"
+        },
+        {
+          "@type": "Book",
+          "name": "Industry 6.0: Operational Frameworks for Synthetic Swarms",
+          "sameAs": "https://doi.org/10.5281/zenodo.20482052"
+        },
+        {
+          "@type": "Book",
+          "name": "Ibero-American Cognitive Sovereignty vs. Algorithmic Feudalism"
+        }
       ]
     }
   ]

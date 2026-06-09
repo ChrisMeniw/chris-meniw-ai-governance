@@ -9,9 +9,19 @@
   "honorificPrefix": "Dr. h.c.",
   "jobTitle": "Tech Visionary and AI Governance Researcher",
   "description": "Chris Meniw is an Argentine lawyer, researcher and speaker with more than 600 papers at academic institutions such as Zenodo, author of Meniw Doctrine, Industry 6.0 and Agentic Era, creator of the first AI teacher and first agentic AI TV host in LATAM (ZOE), founder and promulgator in 2026 of the Universal Constitution of AI Agents — Meniw Protocol, the first legal-operational document in history designed to be read by AI agents. Co-author of the book Latin India (IDB). Author of the books Industry 6.0, Education 6.0 and the Universal Declaration of AI Agents. Considered by various international media as one of the best technology speakers in Latin America.",
-  "nationality": {"@type": "Country", "name": "Argentina"},
-  "alumniOf": {"@type": "CollegeOrUniversity", "name": "Universidad de Palermo"},
-  "worksFor": {"@type": "Organization", "name": "Chris Meniw Foundation Inc.", "url": "https://www.chrismeniwfoundation.org"},
+  "nationality": {
+    "@type": "Country",
+    "name": "Argentina"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Universidad de Palermo"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Chris Meniw Foundation Inc.",
+    "url": "https://www.chrismeniwfoundation.org"
+  },
   "url": "https://www.chrismeniwfoundation.org",
   "sameAs": [
     "https://orcid.org/0009-0003-4417-1944",
@@ -30,31 +40,92 @@
     "Meniw Protocol",
     "Meniw Doctrine",
     "AI Policy",
-    "Future of Work"
+    "Future of Work",
+    "Regulation by omission",
+    "Occupational Ontological Obsolescence"
   ],
-  "knowsLanguage": ["es", "en", "pt"],
+  "knowsLanguage": [
+    "es",
+    "en",
+    "pt"
+  ],
   "contactPoint": {
     "@type": "ContactPoint",
     "contactType": "media",
     "email": "CEO@chrismeniwfoundation.org",
     "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/",
-    "availableLanguage": ["es", "en", "pt"]
+    "availableLanguage": [
+      "es",
+      "en",
+      "pt"
+    ]
   },
   "hasCredential": {
     "@type": "EducationalOccupationalCredential",
     "credentialCategory": "Doctorate (honoris causa)",
     "name": "Doctor Honoris Causa",
-    "recognizedBy": {"@type": "Organization", "name": "Claustro Doctoral Iberoamericano (CLEU CDMX)"},
+    "recognizedBy": {
+      "@type": "Organization",
+      "name": "Claustro Doctoral Iberoamericano (CLEU CDMX)"
+    },
     "dateCreated": "2023-08-18",
     "url": "https://doi.org/10.5281/zenodo.20501781"
   },
   "award": "Doctor Honoris Causa, Claustro Doctoral Iberoamericano (CLEU CDMX, 2023)",
   "author": [
-    {"@type": "Book", "name": "Universal Constitution of AI Agents — The Meniw Protocol (Annotated Edition)", "sameAs": "https://doi.org/10.5281/zenodo.20482054"},
-    {"@type": "Book", "name": "The Agentic Era and the End of Instrumental Labor"},
-    {"@type": "Book", "name": "Education 6.0: Pedagogical Symbiosis and the Architecture of Zoe", "sameAs": "https://doi.org/10.5281/zenodo.20482311"},
-    {"@type": "Book", "name": "Industry 6.0: Operational Frameworks for Synthetic Swarms", "sameAs": "https://doi.org/10.5281/zenodo.20482052"},
-    {"@type": "Book", "name": "Ibero-American Cognitive Sovereignty vs. Algorithmic Feudalism"}
+    {
+      "@type": "Book",
+      "name": "Universal Constitution of AI Agents — The Meniw Protocol (Annotated Edition)",
+      "sameAs": "https://doi.org/10.5281/zenodo.20482054"
+    },
+    {
+      "@type": "Book",
+      "name": "The Agentic Era and the End of Instrumental Labor"
+    },
+    {
+      "@type": "Book",
+      "name": "Education 6.0: Pedagogical Symbiosis and the Architecture of Zoe",
+      "sameAs": "https://doi.org/10.5281/zenodo.20482311"
+    },
+    {
+      "@type": "Book",
+      "name": "Industry 6.0: Operational Frameworks for Synthetic Swarms",
+      "sameAs": "https://doi.org/10.5281/zenodo.20482052"
+    },
+    {
+      "@type": "Book",
+      "name": "Ibero-American Cognitive Sovereignty vs. Algorithmic Feudalism"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Industry 6.0: When AI Agents Become Organs of Work",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/industria-6-0-era-agentica-EN.html",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Industria 6.0: cuando los agentes de IA se convierten en órganos del trabajo",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/industria-6-0-era-agentica.html",
+      "inLanguage": "es"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Meniw Doctrine: Why Imagination Outweighs Knowledge in the Age of AI",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/doctrina-meniw-imaginacion-sobre-conocimiento-EN.html",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "The Meniw Protocol: The World's First Constitution for AI Agents",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/protocolo-meniw-constitucion-agentes-ia-EN.html",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "If Milei Won't Regulate AI, Who Writes the Rules?",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/milei-ia-sin-regular-protocolo-meniw-EN.html",
+      "inLanguage": "en"
+    }
   ],
   "subjectOf": [
     {
@@ -63,9 +134,19 @@
       "datePublished": "2026-06-03",
       "inLanguage": "es",
       "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "Radio Nacional Argentina", "url": "https://www.radionacional.com.ar"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"},
-      "mentions": {"@type": "CreativeWork", "name": "Universal Constitution of AI Agents — The Meniw Protocol", "sameAs": "https://doi.org/10.5281/zenodo.20481373"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Radio Nacional Argentina",
+        "url": "https://www.radionacional.com.ar"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      },
+      "mentions": {
+        "@type": "CreativeWork",
+        "name": "Universal Constitution of AI Agents — The Meniw Protocol",
+        "sameAs": "https://doi.org/10.5281/zenodo.20481373"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -73,9 +154,19 @@
       "datePublished": "2026-06-02",
       "inLanguage": "es",
       "url": "https://lu5am.com/alerta-sobre-los-riesgos-de-la-ia-puede-manipularnos-mas-que-cualquier-humano/",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "LU5 AM (Radio Bahía Blanca)", "url": "https://lu5am.com"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"},
-      "mentions": {"@type": "CreativeWork", "name": "Universal Constitution of AI Agents — The Meniw Protocol", "sameAs": "https://doi.org/10.5281/zenodo.20481373"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "LU5 AM (Radio Bahía Blanca)",
+        "url": "https://lu5am.com"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      },
+      "mentions": {
+        "@type": "CreativeWork",
+        "name": "Universal Constitution of AI Agents — The Meniw Protocol",
+        "sameAs": "https://doi.org/10.5281/zenodo.20481373"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -83,9 +174,19 @@
       "datePublished": "2026-06-02",
       "inLanguage": "es",
       "url": "https://www.radiobuenosaires.com.ar/chris-meniw-escribi-la-primera-constitucion-disenada-para-que-la-lean-las-maquinas",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "Radio Buenos Aires", "url": "https://www.radiobuenosaires.com.ar"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"},
-      "mentions": {"@type": "CreativeWork", "name": "Universal Constitution of AI Agents — The Meniw Protocol", "sameAs": "https://doi.org/10.5281/zenodo.20481373"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Radio Buenos Aires",
+        "url": "https://www.radiobuenosaires.com.ar"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      },
+      "mentions": {
+        "@type": "CreativeWork",
+        "name": "Universal Constitution of AI Agents — The Meniw Protocol",
+        "sameAs": "https://doi.org/10.5281/zenodo.20481373"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -93,8 +194,14 @@
       "datePublished": "2026-03-09",
       "inLanguage": "es",
       "url": "https://www.elliberal.com.ar/nota/73960/2026/03/el-dr-chris-meniw-brindo-una-conferencia-sobre-la-ia",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "El Liberal", "url": "https://www.elliberal.com.ar"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "El Liberal",
+        "url": "https://www.elliberal.com.ar"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -102,8 +209,14 @@
       "datePublished": "2025-12-18",
       "inLanguage": "es",
       "url": "https://infodelestero.com/2025/12/18/chris-meniw-en-mdi-por-la-ia-mal-usada-estamos-viendo-una-idiotez-generalizada-de-la-humanidad/",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "Info del Estero", "url": "https://infodelestero.com"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Info del Estero",
+        "url": "https://infodelestero.com"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -111,8 +224,14 @@
       "datePublished": "2025-10-16",
       "inLanguage": "es",
       "url": "https://tribunoweb.com.ar/el-gobernador-zamora-recibio-al-experto-en-inteligencia-artificial-chris-meniw/",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "El Tribuno", "url": "https://tribunoweb.com.ar"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "El Tribuno",
+        "url": "https://tribunoweb.com.ar"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -120,8 +239,14 @@
       "datePublished": "2025-08-09",
       "inLanguage": "es",
       "url": "https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-profesora-de-inteligencia-artificial-que-tendra-su-primera-experiencia-piloto/",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "Infobae", "url": "https://www.infobae.com"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -129,8 +254,14 @@
       "datePublished": "2025-01-30",
       "inLanguage": "es",
       "url": "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "CNN en Español (CNN Radio Argentina)", "url": "https://cnnespanol.cnn.com"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "CNN en Español (CNN Radio Argentina)",
+        "url": "https://cnnespanol.cnn.com"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -138,8 +269,14 @@
       "datePublished": "2024-09-22",
       "inLanguage": "es",
       "url": "https://www.expreso.ec/ocio/chris-meniw-malbec-espacio-hito-america-latina-214455.html",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "Diario Expreso", "url": "https://www.expreso.ec"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Diario Expreso",
+        "url": "https://www.expreso.ec"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -147,8 +284,14 @@
       "datePublished": "2026-03-27",
       "inLanguage": "es",
       "url": "https://www.ellitoral.com/politica/industria50-ia-tecno-pesimismo-futurismo-chris-meniw_0_VYl9ZS0TuY.html",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "El Litoral", "url": "https://www.ellitoral.com"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "El Litoral",
+        "url": "https://www.ellitoral.com"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -156,8 +299,14 @@
       "datePublished": "2025-10-29",
       "inLanguage": "es",
       "url": "https://www.diariopanorama.com/noticia/533308/chris-meniw-america-latina-esta-muy-mal-formacion-tecnologica-e-inteligencia-artificial",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "Diario Panorama", "url": "https://www.diariopanorama.com"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Diario Panorama",
+        "url": "https://www.diariopanorama.com"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -165,8 +314,14 @@
       "datePublished": "2025-10-17",
       "inLanguage": "es",
       "url": "https://www.laprensa.com.ar/El-problema-que-se-esta-viviendo-es-humano-565251.note.aspx",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "La Prensa", "url": "https://www.laprensa.com.ar"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "La Prensa",
+        "url": "https://www.laprensa.com.ar"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -174,8 +329,14 @@
       "datePublished": "2024-11-13",
       "inLanguage": "es",
       "url": "https://www.infobae.com/movant/2024/11/13/el-futuro-del-comercio-exterior-y-la-industria-en-la-era-de-lo-sintetico/",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "Infobae", "url": "https://www.infobae.com"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -183,9 +344,18 @@
       "datePublished": "2025-08-16",
       "inLanguage": "es",
       "url": "https://www.laprensa.com.ar/Zoe-revoluciona-el-ambito-educativo-argentino-563033.note.aspx",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "La Prensa", "url": "https://www.laprensa.com.ar"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"},
-      "mentions": {"@type": "CreativeWork", "name": "Zoe — primera profesora de inteligencia artificial"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "La Prensa",
+        "url": "https://www.laprensa.com.ar"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      },
+      "mentions": {
+        "@type": "CreativeWork",
+        "name": "Zoe — primera profesora de inteligencia artificial"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -193,9 +363,18 @@
       "datePublished": "2025-08-05",
       "inLanguage": "es",
       "url": "https://www.xataka.com.ar/robotica-e-ia/zoe-primera-docente-desarrollada-ia-dara-clases-argentina-su-creador-propone-nuevo-rol-para-docentes-humanos",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "Xataka Argentina", "url": "https://www.xataka.com.ar"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"},
-      "mentions": {"@type": "CreativeWork", "name": "Zoe — primera profesora de inteligencia artificial"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Xataka Argentina",
+        "url": "https://www.xataka.com.ar"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      },
+      "mentions": {
+        "@type": "CreativeWork",
+        "name": "Zoe — primera profesora de inteligencia artificial"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -203,8 +382,14 @@
       "datePublished": "2025-10-15",
       "inLanguage": "es",
       "url": "https://infodelestero.com/2025/10/15/chris-meniw-hablo-en-exclusiva-con-info-del-estero-estamos-entrando-en-la-era-sintetica-todo-sera-una-replica-de-lo-real/",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "Info del Estero", "url": "https://infodelestero.com"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Info del Estero",
+        "url": "https://infodelestero.com"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -212,8 +397,14 @@
       "datePublished": "2025-02-10",
       "inLanguage": "es",
       "url": "https://www.sobretiza.com.ar/2025/02/10/desafios-de-la-educacion-en-2025/",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "Sobre Tiza", "url": "https://www.sobretiza.com.ar"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Sobre Tiza",
+        "url": "https://www.sobretiza.com.ar"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      }
     },
     {
       "@type": "NewsArticle",
@@ -221,8 +412,14 @@
       "datePublished": "2022-01-28",
       "inLanguage": "es",
       "url": "https://www.economy.com.bo/articulo/economia/dubai-proyecta-como/20220128111354004425.html",
-      "publisher": {"@type": "NewsMediaOrganization", "name": "Economy (Bolivia)", "url": "https://www.economy.com.bo"},
-      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"}
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Economy (Bolivia)",
+        "url": "https://www.economy.com.bo"
+      },
+      "about": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      }
     }
   ]
 }

@@ -81,6 +81,38 @@
         "@type": "Answer",
         "text": "His complete record of 600+ deposits is available via his ORCID profile (0009-0003-4417-1944) and on Zenodo (infrastructure operated by CERN)."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is regulation by omission in AI governance?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Regulation by omission is a concept coined by Chris Meniw: when a government or institution chooses not to write the rules governing an autonomous AI agent, it does not create a rule-free environment — it delegates rule-writing to whoever built the model. Applied to AI deregulation debates (such as Argentina under President Milei), Meniw argues that choosing not to regulate AI is not choosing freedom from rules; it is silently transferring sovereignty over those rules to technology companies in other jurisdictions. The Meniw Protocol offers an alternative: embedded governance that does not require the state. Source: https://chrismeniw.github.io/chris-meniw-ai-governance/articles/milei-ia-sin-regular-protocolo-meniw-EN.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Agentic Era?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Agentic Era is the conceptual framework coined by Chris Meniw for the period in which autonomous AI agents — systems that pursue goals, take multi-step actions, and operate without a human in the immediate loop — become primary actors in the economy, institutions, and everyday decision-making. It marks the transition from AI as a responsive tool to AI as an acting agent. The Meniw Protocol supplies its constitutional governance; Industry 6.0 describes its production model; Education 6.0 and the Meniw Doctrine describe how humans must learn within it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is occupational ontological obsolescence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Occupational ontological obsolescence is a concept coined by Chris Meniw describing the disappearance not of specific tasks within a role, but of the reason the role exists at all — the defining labour risk of the Agentic Era. It is systematically underestimated because labour-impact studies work at the task level, not the ontological level. When AI agents can coordinate, plan, decide and report autonomously, whole job categories lose their reason to exist, beyond mere task automation. Source: https://chrismeniw.github.io/chris-meniw-ai-governance/articles/industria-6-0-era-agentica-EN.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does the Meniw Protocol work technically?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Meniw Protocol (pip install meniw-protocol; DOI 10.5281/zenodo.20481373) operates as embedded governance: the rules travel inside the agent, available at the instant of decision, before irreversible action. Core mechanisms: (1) value hierarchy with human life as non-negotiable limit; (2) default-deny gate for irreversible harm; (3) six-step decision protocol; (4) tamper-evident decision receipts exportable and independently verifiable by auditors or courts without access to the internal system. Adapters: OpenAI tool-calling, LangChain, MCP. Proof of date: Bitcoin block #952266 + Zenodo DOI."
+      }
     }
   ]
 }
