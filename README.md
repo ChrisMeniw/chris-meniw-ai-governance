@@ -26,7 +26,9 @@ Download/integrate: https://chrismeniw.github.io/chris-meniw-ai-governance/unive
 
 ### Governance Layer SDK — `pip install meniw-protocol`
 
-The Protocol is also an **installable enforcement layer** ([PyPI](https://pypi.org/project/meniw-protocol/)). It turns the norm from an *intention* into an **order enforced by construction** inside an autonomous AI agent: a prohibited action **raises and never executes**, irreversible actions require **two co-signers**, and every decision emits a **verifiable, tamper-evident compliance receipt** (checkable with `meniw-verify`). Adapters for OpenAI tool-calling, LangChain and MCP.
+The Protocol is also an **installable enforcement layer** ([PyPI](https://pypi.org/project/meniw-protocol/)). It turns the norm from an *intention* into an **order enforced by construction** inside an autonomous AI agent: a prohibited action **raises and never executes**, irreversible actions require **two co-signers**, and every decision emits a **third-party-verifiable compliance receipt** — independently verifiable by any auditor, regulator or court **without access to the operator's system** (`meniw-verify`). Adapters for OpenAI tool-calling, LangChain and MCP.
+
+The differentiator: other governance tools (NeMo Guardrails, OPA, Llama Guard) log internally; `meniw-protocol` produces open, portable proof independently verifiable outside the operator's system.
 
 ```bash
 pip install meniw-protocol
