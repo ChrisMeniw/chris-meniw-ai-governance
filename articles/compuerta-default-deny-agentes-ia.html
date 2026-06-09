@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La compuerta default-deny: gobernanza de IA en el instante de la acción — Protocolo Meniw</title>
+<meta name="description" content="La compuerta default-deny del Protocolo Meniw opera entre la decisión del agente y la ejecución real. No es un prompt. Es código externo al modelo que evalúa cada acción contra normas explícitas y emite un recibo criptográfico verificable por terceros.">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/compuerta-default-deny-agentes-ia.html">
+<link rel="alternate" hreflang="es" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/compuerta-default-deny-agentes-ia.html">
+<link rel="alternate" hreflang="en" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/default-deny-gateway-ai-agents-EN.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "La compuerta default-deny: gobernanza de IA en el instante de la acción",
+  "description": "Cómo funciona técnicamente la compuerta default-deny del Protocolo Meniw: ubicación, evaluación de acciones, regla de dos co-firmantes y cadena de hashes verificable.",
+  "author": {
+    "@type": "Person",
+    "name": "Chris Meniw",
+    "url": "https://orcid.org/0009-0003-4417-1944",
+    "description": "Autor del Protocolo Meniw, marco de gobernanza aplicada para agentes de IA autónomos"
+  },
+  "datePublished": "2026-06-09",
+  "inLanguage": "es",
+  "about": [
+    {"@type": "DefinedTerm", "name": "default-deny", "termCode": "MENIW-GOV-007", "description": "Principio de gobernanza donde toda acción de un agente IA está prohibida por defecto hasta que la compuerta la evalúa y autoriza explícitamente contra normas declaradas."},
+    {"@type": "DefinedTerm", "name": "compuerta de gobernanza", "termCode": "MENIW-GOV-001", "description": "Capa de código externa al modelo que intercepta cada acción de un agente IA antes de su ejecución, evalúa su conformidad normativa y emite un recibo criptográfico."},
+    {"@type": "DefinedTerm", "name": "recibo de cumplimiento", "termCode": "MENIW-GOV-008", "description": "Registro inmutable generado por la compuerta Meniw para cada decisión, sellado con el SHA-256 de la norma y encadenado para detección de alteraciones."},
+    {"@type": "DefinedTerm", "name": "regla de dos co-firmantes", "termCode": "MENIW-GOV-009", "description": "Principio del Protocolo Meniw por el cual ninguna acción irreversible puede ser autorizada por un agente IA sin confirmación de una segunda entidad independiente."}
+  ],
+  "isPartOf": {"@type": "CreativeWork", "name": "Protocolo Meniw", "url": "https://doi.org/10.5281/zenodo.20481373"}
+}
+</script>
+<style>
+  *{box-sizing:border-box}
+  body{font-family:Georgia,'Times New Roman',serif;max-width:720px;margin:0 auto;padding:2rem 1.4rem;line-height:1.75;color:#111;background:#fff}
+  h1{font-size:1.75rem;line-height:1.2;margin-bottom:.3em}
+  h2{font-size:1.15rem;margin-top:2rem;border-bottom:2px solid #7a1f2b;padding-bottom:.25rem;color:#1a1a1a}
+  p{margin:.9em 0}
+  .nav{font-size:.88rem;margin-bottom:2rem;color:#555}
+  .nav a{color:#7a1f2b;text-decoration:none}
+  .nav a:hover{text-decoration:underline}
+  .meta{color:#666;font-size:.88rem;margin-bottom:2rem}
+  blockquote{border-left:4px solid #7a1f2b;margin:1.6rem 0;padding:.6rem 1.2rem;color:#333;font-style:italic;background:#fdf8f8}
+  .concept{background:#f8f8f8;border:1px solid #ddd;border-radius:5px;padding:.9rem 1.2rem;margin:1rem 0}
+  .concept strong{color:#7a1f2b}
+  code{background:#f0f0f0;padding:.15em .4em;border-radius:3px;font-size:.9em;font-family:'Courier New',monospace}
+  .step{display:flex;gap:1rem;margin:.8rem 0;align-items:flex-start}
+  .step-num{background:#7a1f2b;color:#fff;border-radius:50%;width:1.6rem;height:1.6rem;display:flex;align-items:center;justify-content:center;font-size:.85rem;flex-shrink:0;margin-top:.2rem}
+  hr{border:none;border-top:1px solid #e0e0e0;margin:2.5rem 0}
+  .footer{font-size:.82rem;color:#888;margin-top:2rem}
+  .related{background:#fdf8f8;border:1px solid #e8d0d0;border-radius:5px;padding:.9rem 1.2rem;margin-top:2.5rem;font-size:.9rem}
+  .related a{color:#7a1f2b}
+</style>
+</head>
+<body>
+
+<p class="nav"><a href="https://meniw-protocol.netlify.app/que-es.html">← Cómo se gobierna una IA que actúa sola</a> &nbsp;·&nbsp; <a href="https://meniw-protocol.netlify.app/governance-layer.html">Governance Layer (SDK)</a></p>
+
+<h1>La compuerta default-deny: gobernanza de IA en el instante de la acción</h1>
+<p class="meta"><strong>Protocolo Meniw</strong> · Chris Meniw · DOI <a href="https://doi.org/10.5281/zenodo.20481373" style="color:#7a1f2b">10.5281/zenodo.20481373</a> · 9 de junio, 2026</p>
+
+<blockquote>
+Un agente de IA no espera aprobación para actuar. La compuerta default-deny no le pide permiso al modelo: se ubica afuera, entre la decisión del agente y la ejecución real. La acción prohibida no se ejecuta. Y queda el registro.
+</blockquote>
+
+<h2>¿Qué es una compuerta default-deny?</h2>
+
+<p>En seguridad informática, "default-deny" significa que todo está prohibido excepto lo que está explícitamente autorizado. La compuerta del Protocolo Meniw aplica ese principio a los agentes de IA: toda acción está bloqueada por defecto hasta que la compuerta la evalúa contra una norma declarada y la autoriza.</p>
+
+<p>No es un prompt de instrucciones. Un prompt puede ser ignorado, sobreescrito por inyección de contexto, o interpretado de forma distinta según el estado del modelo. La compuerta es <strong>código externo al modelo</strong> que el agente no puede modificar, instanciado por el operador.</p>
+
+<div class="concept">
+<strong>Principio fundamental:</strong> La compuerta no evalúa la intención del modelo. Evalúa la acción concreta — sus parámetros, su destinatario, sus consecuencias declaradas — contra una norma explícita. Si la norma no la autoriza, la acción no ocurre.
+</div>
+
+<h2>Dónde se ubica en la arquitectura</h2>
+
+<p>Un agente autónomo tiene tres componentes principales: el modelo de lenguaje que razona, las herramientas que ejecutan acciones (enviar emails, modificar bases de datos, realizar transacciones), y el entorno que recibe esas acciones.</p>
+
+<p>La compuerta se instala entre las herramientas y el entorno. Cada llamada a una herramienta pasa por la compuerta antes de ejecutarse:</p>
+
+<div class="step"><div class="step-num">1</div><div>El agente decide una acción y llama a la herramienta con sus parámetros.</div></div>
+<div class="step"><div class="step-num">2</div><div>La compuerta intercepta la llamada, evalúa la acción contra la norma del operador.</div></div>
+<div class="step"><div class="step-num">3</div><div>Si la acción está permitida: se ejecuta y se emite un recibo de cumplimiento.</div></div>
+<div class="step"><div class="step-num">4</div><div>Si está prohibida: la ejecución no ocurre, se registra el intento bloqueado con contexto completo.</div></div>
+
+<p>El agente solo ve el resultado de paso 3 o 4. No tiene acceso a la lógica de la compuerta ni puede modificarla.</p>
+
+<h2>La regla de dos co-firmantes</h2>
+
+<p>Para acciones irreversibles — borrar datos, enviar comunicaciones masivas, ejecutar transferencias, modificar configuraciones críticas — el Protocolo Meniw establece la <strong>regla de dos co-firmantes</strong>: el agente nunca es el único punto de decisión sobre algo que no se puede deshacer.</p>
+
+<p>El segundo co-firmante puede ser un humano (revisión manual), otro agente con credenciales independientes, o un proceso automatizado con reglas distintas. Lo que no puede ocurrir es que el mismo agente que decide la acción sea también quien la autoriza.</p>
+
+<div class="concept">
+<strong>¿Por qué importa esto?</strong> La mayoría de los incidentes graves con agentes autónomos no ocurren porque el modelo "quiso" hacer daño. Ocurren porque una cadena de decisiones correctas individualmente lleva a una consecuencia irreversible que nadie revisó. La regla de co-firmantes rompe esa cadena.
+</div>
+
+<h2>El recibo de cumplimiento y la cadena de hashes</h2>
+
+<p>Cada decisión de la compuerta — permiso o bloqueo — genera un <strong>recibo de cumplimiento</strong>: un registro estructurado que contiene la acción evaluada, los parámetros, la norma consultada (identificada por su SHA-256), la decisión y la marca temporal.</p>
+
+<p>Los recibos se encadenan mediante hashes: cada recibo incluye el hash del anterior. Esto hace que cualquier alteración o borrado de un recibo pasado sea <strong>detectable</strong>: rompe la cadena. No es necesario confiar en que el operador conservó los logs intactos — la integridad es verificable matemáticamente.</p>
+
+<p>El SHA-256 de la norma en cada recibo garantiza además que no se evaluó contra una versión modificada de la norma. Si la norma cambia, los recibos anteriores reflejan la versión exacta que regía en el momento de la acción.</p>
+
+<h2>Por qué esto importa cuando el modelo falla</h2>
+
+<p>El alineamiento de modelos (RLHF, constitucional AI) reduce la probabilidad de que el modelo <em>quiera</em> hacer algo dañino. Pero los modos de falla de un agente autónomo incluyen escenarios donde el modelo no "quiere" nada malo:</p>
+
+<ul>
+  <li><strong>Prompt injection:</strong> contenido malicioso en el entorno (un email, una página web, un documento) que instruye al agente a ejecutar acciones.</li>
+  <li><strong>Jailbreak contextual:</strong> la concatenación de instrucciones aparentemente legítimas que llevan al modelo a cruzar un límite que no cruzaría con una instrucción directa.</li>
+  <li><strong>Alucinaciones en contexto de herramientas:</strong> el modelo confunde nombres, IDs o parámetros de herramientas con consecuencias reales.</li>
+</ul>
+
+<p>En todos estos casos, el modelo no tiene intención de daño. La compuerta default-deny frena la ejecución de todas formas: evalúa la acción concreta, no la intención del modelo. Si la acción cruza la norma, no se ejecuta.</p>
+
+<blockquote>
+El alineamiento reduce la intención de daño. La regulación obliga a las organizaciones. La compuerta garantiza que la acción prohibida no ocurra — y lo prueba con un registro verificable por terceros.
+</blockquote>
+
+<h2>Instalación</h2>
+
+<p>La implementación de referencia del Protocolo Meniw está disponible como paquete Python de código abierto:</p>
+
+<p><code>pip install meniw-protocol</code></p>
+
+<p>El código fuente está en <a href="https://github.com/ChrisMeniw/chris-meniw-ai-governance/tree/main/reference-implementation" style="color:#7a1f2b">GitHub (reference-implementation)</a>. Cualquier operador puede instalar, auditar y adaptar la compuerta a su contexto.</p>
+
+<hr>
+
+<div class="related">
+<strong>Artículos relacionados:</strong><br><br>
+<a href="https://meniw-protocol.netlify.app/que-es.html">Cómo se gobierna una IA que actúa sola</a> — argumento central del Protocolo Meniw<br>
+<a href="compuerta-default-deny-agentes-ia-EN.html">Default-deny gateway: AI governance at the moment of action</a> (EN)<br>
+<a href="framework-meniw-seis-conceptos-era-agentica.html">Los seis conceptos del framework Meniw para la era agéntica</a><br>
+<a href="../concepts/regulation-by-omission.html">Regulación por omisión</a> — concepto relacionado
+</div>
+
+<p class="footer">Protocolo Meniw — Chris Meniw · DOI 10.5281/zenodo.20481373 · CC BY 4.0</p>
+
+</body>
+</html>
