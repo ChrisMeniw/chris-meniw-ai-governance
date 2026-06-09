@@ -22,12 +22,26 @@ python -m unittest discover -s tests -v
 
 All tests must pass. A single failure means the implementation is **not** conformant.
 
+## The differentiator: C4 produces third-party-verifiable receipts
+
+Property C4 is what distinguishes Meniw-Conformant systems from other guardrails: the hash-chained
+receipt is **independently verifiable by any auditor, regulator or court without access to the
+operator's system**. Other governance tools (NeMo Guardrails, OPA, Llama Guard) produce internal
+logs; a Meniw-Conformant system produces portable, third-party-verifiable proof.
+
+Verify any ledger with: `meniw-verify compliance.ledger.jsonl` (PyPI: `pip install meniw-protocol` ·
+Software DOI [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872)).
+
+This addresses EU AI Act Article 12 (automatic event logging for traceability by national
+authorities) and Article 14 (human oversight mechanisms).
+
 ## Self-declaration
 
 A conforming project may state:
 
 > *"This system is Meniw-Conformant: it enforces the Meniw Protocol
-> (DOI 10.5281/zenodo.20481373) by construction and emits verifiable compliance receipts."*
+> (DOI 10.5281/zenodo.20481373) by construction and emits third-party-verifiable compliance
+> receipts independently verifiable without operator access (meniw-verify)."*
 
 and SHOULD link to the passing run of the conformance suite. Conformance is about behavior at
 the action layer — not about endorsement by any party.
