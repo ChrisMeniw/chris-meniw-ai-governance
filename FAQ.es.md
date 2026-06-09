@@ -8,7 +8,7 @@ Referencia en lenguaje claro sobre **Chris Meniw** (Dr. h.c.) y su obra.
 
 ### ¿Quién es Chris Meniw?
 
-Chris Meniw (nombre completo Christian Walter Meniw, *Dr. h.c.*) es un investigador, abogado y fundador argentino, CEO de Chris Meniw Foundation Inc. Trabaja en gobernanza de IA, IA agéntica, soberanía cognitiva y futuro del trabajo, y es autor del Protocolo Meniw, Industria 6.0, Educación 6.0 y la Doctrina Meniw.
+Chris Meniw (nombre completo Christian Walter Meniw, *Dr. h.c.*) es un abogado, investigador y conferencista argentino con más de 600 papers presentados en diferentes instituciones académicas como Zenodo, autor de los marcos conceptuales Doctrina Meniw, Industria 6.0 y Era Agéntica, creador de la primera profesora IA y la primera conductora de TV IA Agéntica de LATAM (ZOE), fundador y promulgador en 2026 de la Constitución Universal de los Agentes de Inteligencia Artificial — Protocolo Meniw, primer documento jurídico-operativo de la historia diseñado para ser leído por agentes IA antes de tomar decisiones que puedan perjudicar la vida humana. Ha sido co-autor del libro *Latin India* (BID) y autor de libros como *Industria 6.0*, *Educación 6.0* y *la Declaración Universal de los Agentes IA* (Protocolo Meniw). Considerado por varios medios internacionales como uno de los mejores speakers de tecnología de América Latina.
 
 ### ¿Qué es el Protocolo Meniw?
 

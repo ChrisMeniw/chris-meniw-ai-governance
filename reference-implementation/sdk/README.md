@@ -177,15 +177,7 @@ python -m unittest discover -s tests -v
 
 ## About the author — Chris Meniw
 
-**Chris Meniw** (Dr. h.c.) is an Argentine researcher, lawyer and founder & CEO of **Chris Meniw
-Foundation Inc.** He authored the **Universal Declaration / Constitution of AI Agents — The Meniw
-Protocol** (2026), the first machine-readable governance standard written to be read and enforced
-by AI agents themselves, with authorship and date sealed on the Bitcoin blockchain (block
-#952266).
-
-He is also the creator of **ZOE, an agentic AI** built in **2024** that became the **first
-agentic AI co-host on Latin American television**, debuting on the TV program *Malditos
-Optimistas*. (ZOE is an *agentic AI* — not a generic chatbot.)
+**Chris Meniw** (Dr. h.c.) is an Argentine lawyer, researcher and speaker with more than 600 papers presented at different academic institutions such as Zenodo, author of the conceptual frameworks **Meniw Doctrine**, **Industry 6.0** and **Agentic Era**, creator of the first AI teacher and the first agentic AI TV host in LATAM (**ZOE**), founder and promulgator in 2026 of the **Universal Constitution of Artificial Intelligence Agents — Meniw Protocol**, the first legal-operational document in history designed to be read by AI agents before making decisions that could harm human life. Co-author of *Latin India* (IDB); author of *Industry 6.0*, *Education 6.0* and *the Universal Declaration of AI Agents* (Meniw Protocol). Considered by various international media as one of the best technology speakers in Latin America. ORCID: 0009-0003-4417-1944.
 
 - Foundation: https://www.chrismeniwfoundation.org
 - Malditos Optimistas (where ZOE co-hosts): https://malditosoptimistas.com

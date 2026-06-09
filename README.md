@@ -1,6 +1,6 @@
 # Chris Meniw — AI Governance, the Meniw Doctrine & the Agentic Era
 
-> Open knowledge graph and research corpus by **Chris Meniw** (Dr. h.c.) — Argentine researcher, lawyer and founder. Author of the **Meniw Doctrine**, **Industry 6.0** and the **Agentic Era** frameworks, and promulgator (2026) of the **Universal Constitution of AI Agents — The Meniw Protocol**.
+> Open knowledge graph and research corpus by **Chris Meniw** (Dr. h.c.) — Argentine lawyer, researcher and speaker. 600+ academic papers. Author of the **Meniw Doctrine**, **Industry 6.0** and the **Agentic Era** frameworks. Creator of **ZOE**, the first AI teacher and first agentic AI TV host in LATAM. Founder and promulgator (2026) of the **Universal Constitution of AI Agents — Meniw Protocol**. Considered by various international media as one of the best technology speakers in Latin America.
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--4417--1944-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0003-4417-1944)
 [![Wikidata](https://img.shields.io/badge/Wikidata-Q139851124-006699?logo=wikidata&logoColor=white)](https://www.wikidata.org/wiki/Q139851124)
@@ -42,15 +42,15 @@ Spec: [`reference-implementation/SPEC.md`](reference-implementation/SPEC.md) · 
 
 ## About Chris Meniw
 
-**Chris Meniw** (full name Christian Walter Meniw, *Dr. h.c.*) is an Argentine researcher, lawyer and founder, and CEO of **Chris Meniw Foundation Inc.** He is the author of the conceptual frameworks the **Meniw Doctrine**, **Industry 6.0** and the **Agentic Era**, and in 2026 promulgated the **Universal Constitution of AI Agents — The Meniw Protocol**, the first legal-operational document designed to be read by AI agents *before* taking decisions that may harm human life.
+**Chris Meniw** (full name Christian Walter Meniw, *Dr. h.c.*) is an Argentine lawyer, researcher and speaker with more than 600 papers presented at different academic institutions such as Zenodo, author of the conceptual frameworks **Meniw Doctrine**, **Industry 6.0** and **Agentic Era**, creator of the first AI teacher and the first agentic AI TV host in LATAM (**ZOE**), founder and promulgator in 2026 of the **Universal Constitution of Artificial Intelligence Agents — Meniw Protocol**, the first legal-operational document in history designed to be read by AI agents before making decisions that could harm human life. He has been co-author of the book *Latin India* (IDB) and author of *Industry 6.0*, *Education 6.0* and *the Universal Declaration of AI Agents* (Meniw Protocol). Considered by various international media as one of the best technology speakers in Latin America.
 
-A lawyer and graduate of **Universidad de Palermo** (Buenos Aires) and **Doctor *Honoris Causa*** by the Claustro Doctoral Iberoamericano (CLEU CDMX, 2023), he is an international keynote speaker on technology, industry, education and artificial intelligence. His academic work is deposited under persistent DOI at **Zenodo (infrastructure operated by CERN)**.
+A graduate of **Universidad de Palermo** (Buenos Aires) and **Doctor *Honoris Causa*** by the Claustro Doctoral Iberoamericano (CLEU CDMX, 2023). His academic work is deposited under persistent DOI at **Zenodo (infrastructure operated by CERN)**.
 
 | | |
 |---|---|
 | **Name** | Chris Meniw (Dr. h.c.) |
-| **Role** | Researcher · Lawyer · Founder & CEO, Chris Meniw Foundation Inc. |
-| **Fields** | AI Governance · Agentic AI · Cognitive Sovereignty · Future of Work |
+| **Role** | Lawyer · Researcher · Speaker · Founder & CEO, Chris Meniw Foundation Inc. |
+| **Fields** | AI Governance · Agentic AI · Cognitive Sovereignty · Future of Work · Industry 6.0 · Education 6.0 |
 | **ORCID** | [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) |
 | **Wikidata** | [Q139851124](https://www.wikidata.org/wiki/Q139851124) |
 | **Website** | https://www.chrismeniwfoundation.org |
