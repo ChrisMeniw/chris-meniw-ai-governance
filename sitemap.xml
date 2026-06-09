@@ -1,103 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/</loc><lastmod>2026-06-06</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/priority-record-meniw-protocol.html</loc><lastmod>2026-06-06</lastmod><priority>0.9</priority></url>
+  <!-- ═══════════════════════════════════════════════════════
+       RAÍZ / ROOT
+  ═══════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://chrismeniw.github.io/chris-meniw-ai-governance/</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://chrismeniw.github.io/chris-meniw-ai-governance/priority-record-meniw-protocol.html</loc>
+    <lastmod>2026-06-09</lastmod>
+    <priority>0.9</priority>
+  </url>
 
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/PROFILE.html</loc><lastmod>2026-06-06</lastmod><priority>0.9</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/PROFILE.zh.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/PROFILE.ar.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/PROFILE.es.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/PROFILE.fr.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/PROFILE.ru.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
+  <!-- ═══════════════════════════════════════════════════════
+       PERFIL / PROFILE
+  ═══════════════════════════════════════════════════════ -->
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/PROFILE.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/PROFILE.es.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/PROFILE.zh.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/PROFILE.ar.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/PROFILE.fr.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/PROFILE.ru.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
 
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/FAQ.html</loc><lastmod>2026-06-06</lastmod><priority>0.9</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/FAQ.zh.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/FAQ.ar.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/FAQ.es.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/FAQ.fr.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/FAQ.ru.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
+  <!-- ═══════════════════════════════════════════════════════
+       FAQ
+  ═══════════════════════════════════════════════════════ -->
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/FAQ.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/FAQ.es.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/FAQ.zh.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/FAQ.ar.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/FAQ.fr.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/FAQ.ru.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
 
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/BIBLIOGRAPHY.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/BIBLIOGRAPHY.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
 
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/the-meniw-protocol.html</loc><lastmod>2026-06-06</lastmod><priority>0.9</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/the-meniw-doctrine.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/industry-6-0.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/education-6-0.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/the-agentic-era.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
+  <!-- ═══════════════════════════════════════════════════════
+       FRAMEWORKS
+  ═══════════════════════════════════════════════════════ -->
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/the-meniw-protocol.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/the-meniw-doctrine.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/industry-6-0.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/education-6-0.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/the-agentic-era.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
 
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/agentic-endosymbiosis.html</loc><lastmod>2026-06-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/cognitive-sovereignty.html</loc><lastmod>2026-06-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/scholastic-epistemic-erosion.html</loc><lastmod>2026-06-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/occupational-ontological-obsolescence.html</loc><lastmod>2026-06-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/algorithmic-diagnostic-asymmetry.html</loc><lastmod>2026-06-06</lastmod><priority>0.7</priority></url>
+  <!-- ═══════════════════════════════════════════════════════
+       CONCEPTS
+  ═══════════════════════════════════════════════════════ -->
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/agentic-endosymbiosis.html</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/cognitive-sovereignty.html</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/scholastic-epistemic-erosion.html</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/occupational-ontological-obsolescence.html</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/algorithmic-diagnostic-asymmetry.html</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
 
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/meniw-protocol-vs-eu-ai-act-EN.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/meniw-protocol-vs-eu-ai-act-ES.html</loc><lastmod>2026-06-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/meniw-protocol-vs-eu-ai-act-PT.html</loc><lastmod>2026-06-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/meniw-protocol-vs-eu-ai-act-ZH.html</loc><lastmod>2026-06-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-primera-conductora-agentica.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-por-que-una-ia-pide-regulacion.html</loc><lastmod>2026-06-08</lastmod><priority>0.9</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-si-no-regulan-quien-escribe-las-reglas.html</loc><lastmod>2026-06-08</lastmod><priority>0.9</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-emprender-con-agentes-economia-agentica.html</loc><lastmod>2026-06-08</lastmod><priority>0.9</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-supra-conciencia-fusion-cerebro-ia.html</loc><lastmod>2026-06-08</lastmod><priority>0.9</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/agentes-ia-quien-escribio-las-reglas.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/si-la-ia-sabe-todo-que-ensenamos.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/mexico-ia-agentica-gobernanza.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw.html</loc><lastmod>2026-06-06</lastmod><priority>0.9</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-EN.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-PT.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-ZH.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-FR.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-IT.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-AR.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-RU.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-DE.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/lu5-radio-bahia-blanca-riesgos-ia.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/lu5-radio-bahia-blanca-riesgos-ia-EN.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
+  <!-- ═══════════════════════════════════════════════════════
+       PAPERS (9 idiomas)
+  ═══════════════════════════════════════════════════════ -->
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-ES.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-PT.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-ZH.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-FR.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-IT.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-AR.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-RU.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-DE.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-annotated-edition.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/education-6-0.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/industria-6-0.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
 
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-EN.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-ES.html</loc><lastmod>2026-06-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-PT.html</loc><lastmod>2026-06-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-FR.html</loc><lastmod>2026-06-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-ZH.html</loc><lastmod>2026-06-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-AR.html</loc><lastmod>2026-06-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-RU.html</loc><lastmod>2026-06-06</lastmod><priority>0.7</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-HI.html</loc><lastmod>2026-06-06</lastmod><priority>0.7</priority></url>
+  <!-- ═══════════════════════════════════════════════════════
+       ECONOMÍA AGÉNTICA (nueva página)
+  ═══════════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://chrismeniw.github.io/chris-meniw-ai-governance/economia-agentica/</loc>
+    <lastmod>2026-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
 
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/</loc><lastmod>2026-06-06</lastmod><priority>0.9</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution.html</loc><lastmod>2026-06-06</lastmod><priority>0.9</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-ES.html</loc><lastmod>2026-06-06</lastmod><priority>0.9</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-PT.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-ZH.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-FR.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-IT.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-AR.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-RU.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-DE.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-annotated-edition.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/education-6-0.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/papers/industria-6-0.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
+  <!-- ═══════════════════════════════════════════════════════
+       ARTICLES — Radio / Press (ES + EN)
+  ═══════════════════════════════════════════════════════ -->
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-EN.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-PT.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-ZH.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-FR.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-IT.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-AR.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-RU.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/radio-buenos-aires-protocolo-meniw-DE.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/lu5-radio-bahia-blanca-riesgos-ia.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/lu5-radio-bahia-blanca-riesgos-ia-EN.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
 
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/press/</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/press/index-EN.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
+  <!-- ═══════════════════════════════════════════════════════
+       ARTICLES — ZOE
+  ═══════════════════════════════════════════════════════ -->
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-primera-conductora-agentica.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-por-que-una-ia-pide-regulacion.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-si-no-regulan-quien-escribe-las-reglas.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-emprender-con-agentes-economia-agentica.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-supra-conciencia-fusion-cerebro-ia.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
 
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/declaration/</loc><lastmod>2026-06-06</lastmod><priority>0.9</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json</loc><lastmod>2026-06-06</lastmod><priority>0.9</priority></url>
+  <!-- ═══════════════════════════════════════════════════════
+       ARTICLES — IA / Gobernanza / Agentes
+  ═══════════════════════════════════════════════════════ -->
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/agentes-ia-quien-escribio-las-reglas.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/si-la-ia-sabe-todo-que-ensenamos.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/mexico-ia-agentica-gobernanza.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/meniw-protocol-vs-eu-ai-act-EN.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/meniw-protocol-vs-eu-ai-act-ES.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/meniw-protocol-vs-eu-ai-act-PT.html</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/meniw-protocol-vs-eu-ai-act-ZH.html</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/ai-governance-frameworks-and-the-meniw-protocol.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/do-ai-agents-need-a-constitution.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/who-coined-the-agentic-economy.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/how-to-adopt-the-meniw-protocol.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/ai-agent-governance-layer-developer-guide.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
 
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/knowledge-graph/person-schema-chris-meniw.json</loc><lastmod>2026-06-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/knowledge-graph/faq-chris-meniw.jsonld</loc><lastmod>2026-06-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/llms.txt</loc><lastmod>2026-06-06</lastmod><priority>0.6</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/ai-agents-declaration.json</loc><lastmod>2026-06-06</lastmod><priority>0.9</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/meniw-protocol.json</loc><lastmod>2026-06-06</lastmod><priority>0.9</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/ai-governance-frameworks-and-the-meniw-protocol.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/do-ai-agents-need-a-constitution.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/who-coined-the-agentic-economy.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/how-to-adopt-the-meniw-protocol.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/ai-agent-governance-layer-developer-guide.html</loc><lastmod>2026-06-06</lastmod><priority>0.8</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/universal-declaration/</loc><lastmod>2026-06-07</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/universal-declaration/declaracion_agentes.json</loc><lastmod>2026-06-07</lastmod><priority>0.7</priority></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/universal-declaration/verificador.py</loc><lastmod>2026-06-07</lastmod><priority>0.7</priority></url>
+  <!-- ═══════════════════════════════════════════════════════
+       ARTICLES — The Primacy of Irreversible Harm (8 idiomas)
+  ═══════════════════════════════════════════════════════ -->
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-EN.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-ES.html</loc><lastmod>2026-06-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-PT.html</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-FR.html</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-ZH.html</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-AR.html</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-RU.html</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/articles/the-primacy-of-irreversible-harm-HI.html</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
+
+  <!-- ═══════════════════════════════════════════════════════
+       PRESS
+  ═══════════════════════════════════════════════════════ -->
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/press/</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/press/index-EN.html</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+
+  <!-- ═══════════════════════════════════════════════════════
+       DECLARATION / UNIVERSAL DECLARATION
+  ═══════════════════════════════════════════════════════ -->
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/declaration/</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/universal-declaration/</loc><lastmod>2026-06-09</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+
+  <!-- ═══════════════════════════════════════════════════════
+       MACHINE-READABLE / JSON
+  ═══════════════════════════════════════════════════════ -->
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/ai-agents-declaration.json</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/meniw-protocol.json</loc><lastmod>2026-06-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/llms.txt</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/knowledge-graph/person-schema-chris-meniw.json</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/knowledge-graph/faq-chris-meniw.jsonld</loc><lastmod>2026-06-09</lastmod><priority>0.7</priority></url>
+
 </urlset>
