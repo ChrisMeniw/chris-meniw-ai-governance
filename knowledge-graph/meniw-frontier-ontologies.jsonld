@@ -122,8 +122,9 @@
         {
           "@type": "DefinedTerm",
           "name": "Regulación por Omisión (Regulation by Omission)",
-          "description": "When a person, institution or government chooses not to write the rule governing an autonomous system, it does not eliminate the rule — it lets the system's default write it instead. Coined by Chris Meniw.",
-          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/milei-ia-sin-regular-protocolo-meniw-EN.html",
+          "termCode": "MENIW-GOV-006",
+          "description": "When a person, institution or government chooses not to write the rule governing an autonomous AI system, the regulatory vacuum is not left empty — it is filled by the system's training defaults, the developer's usage policies, or the built-in values of the enforcement layer. Choosing not to regulate AI is choosing who writes the rules. Coined by Chris Meniw.",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/regulation-by-omission.html",
           "inDefinedTermSet": "https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/"
         }
       ]
