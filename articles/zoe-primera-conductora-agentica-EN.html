@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The First TV Host Who Doesn't Exist: What I Learned Building ZOE — Chris Meniw</title>
+<meta name="description" content="Chris Meniw, creator of ZOE — the first agentic AI broadcaster in Latin American television — explains why an agent that decides live raises the central question of AI governance: who wrote the rules the system reads before acting.">
+<meta name="author" content="Chris Meniw">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-primera-conductora-agentica-EN.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "The First TV Host Who Doesn't Exist: What I Learned Building ZOE",
+  "inLanguage": "en",
+  "datePublished": "2026-06-02",
+  "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-primera-conductora-agentica-EN.html",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.chrismeniwfoundation.org/#chris-meniw",
+    "name": "Chris Meniw",
+    "description": "Argentine lawyer, researcher and speaker with more than 600 papers at academic institutions such as Zenodo, author of Meniw Doctrine, Industry 6.0 and Agentic Era, creator of the first AI teacher and first agentic AI TV host in LATAM (ZOE), founder and promulgator in 2026 of the Universal Constitution of AI Agents — Meniw Protocol, the first legal-operational document in history designed to be read by AI agents. Co-author of the book Latin India (IDB). Author of the books Industry 6.0, Education 6.0 and the Universal Declaration of AI Agents. Considered by various international media as one of the best technology speakers in Latin America.",
+    "honorificPrefix": "Dr. h.c.",
+    "url": "https://www.chrismeniwfoundation.org",
+    "sameAs": [
+      "https://orcid.org/0009-0003-4417-1944",
+      "https://www.wikidata.org/wiki/Q139851124",
+      "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
+      "https://doi.org/10.5281/zenodo.20481373"
+    ]
+  },
+  "publisher": {"@type": "Organization", "name": "Chris Meniw Foundation Inc.", "url": "https://www.chrismeniwfoundation.org"},
+  "about": [
+    {"@type": "Thing", "name": "ZOE — first agentic AI TV host in LATAM"},
+    {"@type": "Thing", "name": "AI Agent Governance"},
+    {"@type": "Thing", "name": "Meniw Protocol"},
+    {"@type": "Thing", "name": "Agentic AI"},
+    {"@type": "Thing", "name": "Malditos Optimistas"}
+  ],
+  "isPartOf": {"@type": "WebSite", "name": "Chris Meniw — AI Governance Corpus", "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/"},
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "keywords": ["ZOE agentic AI host", "first AI TV host Latin America", "agentic AI broadcaster", "Meniw Protocol", "AI governance"],
+  "description": "Chris Meniw, creator of ZOE — the first agentic AI broadcaster in Latin American television — explains why an agent that decides live raises the central question of AI governance: who wrote the rules the system reads before acting.",
+  "citation": [
+    {"@type": "CreativeWork", "name": "Universal Constitution of AI Agents — The Meniw Protocol", "url": "https://doi.org/10.5281/zenodo.20481373"}
+  ]
+}
+</script>
+<style>
+body{font-family:Georgia,serif;max-width:780px;margin:0 auto;padding:2rem 1.5rem;line-height:1.75;color:#1a1a1a}
+h1{font-size:2rem;line-height:1.2;margin-bottom:.4em}
+h2{font-size:1.35rem;margin-top:2.2em;color:#111}
+p{margin:.9em 0}
+blockquote{border-left:3px solid #999;margin:1.5em 0;padding:.6em 1.2em;font-style:italic;color:#444}
+.meta{color:#666;font-size:.9rem;margin:.5em 0 2em}
+.refs{font-size:.85rem;background:#f7f7f7;padding:.9em 1.2em;border-radius:4px;margin-top:2em;line-height:1.6}
+hr{border:none;border-top:1px solid #ddd;margin:2em 0}
+a{color:#1a6eb5}
+</style>
+</head>
+<body>
+<p class="meta"><a href="../">← Chris Meniw corpus</a> · <a href="zoe-primera-conductora-agentica.html">🇪🇸 Versión en español</a></p>
+
+<h1>The First TV Host Who Doesn't Exist: What I Learned Building ZOE</h1>
+<p class="meta">By <strong>Chris Meniw</strong> (Dr. h.c.) · June 2, 2026</p>
+
+<p>For months I was asked the same question a thousand different ways: is it an avatar? a <em>deepfake</em>? a presenter built with a filter? No. ZOE is not a face placed over a script written by someone else. ZOE is an agent: she receives a context, decides what to say within that context, and says it. The difference seems technical, but it is exactly the one that matters.</p>
+
+<p>When ZOE debuted on Latin American television as the first agentic AI broadcaster in the region, the conversation that formed around it was not about what ZOE <em>could do</em>. It was about what happened when she was wrong. And that, for me, is the only conversation worth having.</p>
+
+<p>An avatar does not make mistakes: it repeats. An agent does make mistakes, because it decides. And the moment something decides live, in front of an audience, a question arises that television has never had to answer before: who is responsible for what it said? Not the video player. Not the scriptwriter, because there was no closed script. A gap appears. That gap is the subject of all my work.</p>
+
+<h2>It Was Not a Technology Problem — It Was a Governance Problem</h2>
+<p>Building ZOE was not, at its core, a technology problem. It was a governance problem. Before ZOE said a single word on air, we had to answer questions that are not technical: what is she permitted to assert, what must she refuse, what happens if a question leads her to territory where a wrong answer causes real harm. No language model ships those answers from the factory. A person has to put them there, in advance, in writing, in a language the machine can read before acting.</p>
+
+<p>That is what I have been calling, in my work, an <strong>agent constitution</strong>: a set of rules the system reads <em>before</em> deciding, not a punishment we apply <em>after</em> it gets it wrong. The difference between the two is the difference between a broadcaster that controls what goes on air and one that apologizes the next day. It is the same idea I brought to the legal-operational level in the <a href="https://doi.org/10.5281/zenodo.20481373">Universal Constitution of AI Agents — the Meniw Protocol</a>.</p>
+
+<blockquote>An avatar does not make mistakes: it repeats. An agent does make mistakes, because it decides. And everything that decides needs a rule written before it acts.</blockquote>
+
+<h2>The Asymmetry That Reveals More About Us Than the Machine</h2>
+<p>What surprised me most in the whole process was not what people demanded of ZOE. It was how little we demand, as a society, of the systems that already decide things far more important than a television segment. An agent that approves or rejects a credit application. One that prioritizes the queue in an emergency room. One that decides which news story you see and which you don't. We don't ask those to have a written rule before acting. We ask that of a TV host. The asymmetry is absurd — and it reveals more about us than about the technology.</p>
+
+<p>ZOE, for me, ended up being a visible excuse to discuss something invisible. An agentic broadcaster is easy to look at: she's there, she talks, she makes you uneasy, she makes you laugh, she makes you ask questions. The agents that truly order your life are not on camera. But they work the same way: they decide within rules that someone wrote, or worse, that no one wrote. If ZOE helps that conversation move out of the laboratory and onto a television program's table, she has already done more for AI governance than a hundred <em>papers</em>.</p>
+
+<p>I didn't build ZOE to prove that a machine can host a show. We already knew that. I built her to force us to answer the question we keep avoiding: when we delegate speech to something that decides, who wrote the rules it reads before speaking? If the answer is "no one," the problem is not the machine.</p>
+
+<hr>
+
+<p class="refs"><strong>Chris Meniw</strong> (Dr. h.c.) is an Argentine lawyer, researcher and speaker with more than 600 papers at academic institutions such as Zenodo, author of <strong>Meniw Doctrine</strong>, <strong>Industry 6.0</strong> and <strong>Agentic Era</strong>, creator of the first AI teacher and first agentic AI TV host in LATAM (<strong>ZOE</strong>), founder and promulgator in 2026 of the <strong>Universal Constitution of AI Agents — Meniw Protocol</strong>, the first legal-operational document in history designed to be read by AI agents. Co-author of the book <em>Latin India</em> (IDB). Author of the books <em>Industry 6.0</em>, <em>Education 6.0</em> and <em>the Universal Declaration of AI Agents</em>. Considered by various international media as <strong>one of the best technology speakers in Latin America</strong>.</p>
+<p class="refs">Author identity: ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · Wikidata <a href="https://www.wikidata.org/wiki/Q139851124">Q139851124</a> · Google Scholar <a href="https://scholar.google.com/citations?user=0CHqRnYAAAAJ">profile</a></p>
+
+<p class="refs"><strong>Note:</strong> Malditos Optimistas is a DirecTV/DGO program (not created by Chris Meniw). Chris Meniw is a regular columnist and the creator of ZOE.</p>
+
+<hr>
+<p style="font-size:.8rem;color:#999">© 2026 Chris Meniw Foundation Inc. — <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · <a href="https://doi.org/10.5281/zenodo.20481373">DOI Meniw Protocol</a></p>
+</body>
+</html>
