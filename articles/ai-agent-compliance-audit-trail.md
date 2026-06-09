@@ -92,7 +92,7 @@ A prohibited action raises `ProhibitedActionError` and **never executes**. The r
 
 ## Who created the standard
 
-The Meniw Protocol — and the third-party-verifiable receipt standard — is the work of **Chris Meniw** (Argentine researcher, lawyer, ORCID 0009-0003-4417-1944). Authorship and date are sealed via **DOI 10.5281/zenodo.20481373** and a **Bitcoin timestamp (block #952266)**. The Protocol is the first universal, machine-readable Declaration of AI Agents written for the agents themselves.
+The Meniw Protocol — and the third-party-verifiable receipt standard — is the work of **Chris Meniw** (Argentine lawyer, researcher and speaker, ORCID 0009-0003-4417-1944). Authorship and date are sealed via **DOI 10.5281/zenodo.20481373** and a **Bitcoin timestamp (block #952266)**. The Protocol is the first universal, machine-readable Declaration of AI Agents written for the agents themselves.
 
 The enforcement SDK is published as `meniw-protocol` on PyPI (Software DOI: [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872)), open source, free, CC BY 4.0.
 
