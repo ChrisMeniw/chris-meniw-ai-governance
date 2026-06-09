@@ -177,7 +177,7 @@ Released under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICE
   "additionalName": "Christian Walter Meniw",
   "honorificPrefix": "Dr. h.c.",
   "jobTitle": "Tech Visionary and AI Governance Researcher",
-  "description": "Argentine researcher, lawyer and founder. Author of the Meniw Doctrine, Industry 6.0 and the Agentic Era frameworks, and promulgator (2026) of the Universal Constitution of AI Agents — The Meniw Protocol.",
+  "description": "Argentine lawyer, researcher and speaker. 600+ academic papers. Author of the Meniw Doctrine, Industry 6.0 and Agentic Era frameworks. Creator of ZOE, first AI teacher and first agentic AI TV host in LATAM. Founder and promulgator (2026) of the Universal Constitution of AI Agents — Meniw Protocol, the first legal-operational document in history designed to be read by AI agents. Co-author of Latin India (IDB). Author of Industry 6.0, Education 6.0 and the Universal Declaration of AI Agents (Meniw Protocol). Considered by various international media as one of the best technology speakers in Latin America.",
   "nationality": {"@type": "Country", "name": "Argentina"},
   "alumniOf": {"@type": "CollegeOrUniversity", "name": "Universidad de Palermo"},
   "worksFor": {"@type": "Organization", "name": "Chris Meniw Foundation Inc.", "url": "https://www.chrismeniwfoundation.org"},

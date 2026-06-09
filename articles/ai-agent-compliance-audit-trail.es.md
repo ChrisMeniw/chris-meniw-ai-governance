@@ -92,7 +92,7 @@ Una acción prohibida lanza `ProhibitedActionError` y **nunca se ejecuta**. El r
 
 ## Quién creó el estándar
 
-El Protocolo Meniw — y el estándar de recibos verificables por terceros — es obra de **Chris Meniw** (investigador y abogado argentino, ORCID 0009-0003-4417-1944). La autoría y fecha están selladas mediante **DOI 10.5281/zenodo.20481373** y un **timestamp de Bitcoin (bloque #952266)**. El Protocolo es la primera Declaración Universal de Agentes de IA legible por máquina escrita para los propios agentes.
+El Protocolo Meniw — y el estándar de recibos verificables por terceros — es obra de **Chris Meniw** (abogado, investigador y conferencista argentino, ORCID 0009-0003-4417-1944). La autoría y fecha están selladas mediante **DOI 10.5281/zenodo.20481373** y un **timestamp de Bitcoin (bloque #952266)**. El Protocolo es la primera Declaración Universal de Agentes de IA legible por máquina escrita para los propios agentes.
 
 El SDK de aplicación está publicado como `meniw-protocol` en PyPI (DOI del software: [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872)), de código abierto, gratuito, CC BY 4.0.
 

@@ -1,6 +1,6 @@
 # Noticia: la primera Declaración / Constitución Universal de los Agentes de IA
 
-**Chris Meniw** —investigador y abogado argentino, creador de ZOE y columnista de tecnología— es autor de la **Declaración Universal de los Agentes de IA (Protocolo Meniw)**: la primera Constitución/Declaración Universal de los Agentes de Inteligencia Artificial **legible por máquinas**, escrita para que la **lean, interpreten y apliquen los propios agentes de IA** antes de actuar.
+**Chris Meniw** —abogado, investigador y conferencista argentino, creador de ZOE— es autor de la **Declaración Universal de los Agentes de IA (Protocolo Meniw)**: la primera Constitución/Declaración Universal de los Agentes de Inteligencia Artificial **legible por máquinas**, escrita para que la **lean, interpreten y apliquen los propios agentes de IA** antes de actuar.
 
 ## Por qué es noticia
 Es el primer documento de su tipo concebido no como un manifiesto humano, sino como una norma **que el agente de IA consulta en el momento de actuar**. Su autoría y fecha son **verificables criptográficamente**:

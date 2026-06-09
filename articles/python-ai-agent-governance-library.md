@@ -112,7 +112,7 @@ python your_agent.py  # gate now active
 
 ## The norm it enforces
 
-The `meniw-protocol` SDK enforces **The Meniw Protocol** — the Universal Constitution of AI Agents authored by Chris Meniw (Argentine researcher and lawyer, ORCID 0009-0003-4417-1944). DOI: [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373). Bitcoin-timestamped, block #952266. CC BY 4.0.
+The `meniw-protocol` SDK enforces **The Meniw Protocol** — the Universal Constitution of AI Agents authored by Chris Meniw (Argentine lawyer, researcher and speaker, ORCID 0009-0003-4417-1944). DOI: [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373). Bitcoin-timestamped, block #952266. CC BY 4.0.
 
 ## Further reading
 
