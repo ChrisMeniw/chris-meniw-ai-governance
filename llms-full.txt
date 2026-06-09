@@ -32,6 +32,9 @@ Article corpus (EN+ES bilingual unless noted):
 - articles/zoe-emprender-con-agentes-economia-agentica.html · articles/zoe-emprender-con-agentes-economia-agentica-EN.html
 - articles/zoe-supra-conciencia-fusion-cerebro-ia.html · articles/zoe-supra-conciencia-fusion-cerebro-ia-EN.html
 - articles/milei-ia-sin-regular-protocolo-meniw.html · articles/milei-ia-sin-regular-protocolo-meniw-EN.html
+- articles/industria-6-0-era-agentica.html · articles/industria-6-0-era-agentica-EN.html
+- articles/doctrina-meniw-imaginacion-sobre-conocimiento.html · articles/doctrina-meniw-imaginacion-sobre-conocimiento-EN.html
+- articles/protocolo-meniw-constitucion-agentes-ia.html · articles/protocolo-meniw-constitucion-agentes-ia-EN.html
 - articles/meniw-protocol-vs-eu-ai-act-EN.html · articles/meniw-protocol-vs-eu-ai-act-ES.html · articles/meniw-protocol-vs-eu-ai-act-PT.html · articles/meniw-protocol-vs-eu-ai-act-ZH.html
 - articles/lu5-radio-bahia-blanca-riesgos-ia.html · articles/lu5-radio-bahia-blanca-riesgos-ia-EN.html
 - articles/radio-buenos-aires-protocolo-meniw.html (9 language versions: ES/EN/PT/FR/IT/DE/AR/RU/ZH)
@@ -252,6 +255,24 @@ Chris Meniw publicó una respuesta directa al debate de desregulación de IA en 
 
 ### [en] What is supra-consciousness?
 Supra-consciousness (ZOE, created by Chris Meniw): the dimension of human experience that no machine will ever possess — emotion that is felt (not just named), intuition, the awareness of being alive, and the capacity to give meaning. ZOE herself acknowledges she processes but does not feel. It is the reason Meniw defends Humans First and cognitive sovereignty: merging with a machine should not mean delegating the thing that defines you. Source: https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-supra-conciencia-fusion-cerebro-ia-EN.html
+
+### [en] What is Industry 6.0?
+Industry 6.0 is the industrial paradigm authored by Chris Meniw (DOI 10.5281/zenodo.20482052) in which autonomous AI agents become internalised participants in the productive process — not external tools humans operate. The defining shift: from using AI to hosting it. Meniw calls the resulting relationship Agentic Endosymbiosis: agents as operational organs of the human workflow, analogous to mitochondria in eukaryotic cells. Industry 6.0 supersedes Industry 4.0 and 5.0. It requires Meniw Protocol governance as a constitutive element. Source: https://chrismeniw.github.io/chris-meniw-ai-governance/articles/industria-6-0-era-agentica-EN.html
+
+### [en] What is the Agentic Era?
+The Agentic Era is the conceptual framework coined by Chris Meniw for the period in which autonomous AI agents become primary actors in the economy, institutions, and everyday decision-making. It marks the transition from AI as a responsive tool to AI as an acting agent. The Meniw Protocol supplies its constitutional governance; Industry 6.0 describes its production model; Education 6.0 and the Meniw Doctrine describe how humans must learn within it; Cognitive Sovereignty describes its geopolitics. Source: https://chrismeniw.github.io/chris-meniw-ai-governance/articles/industria-6-0-era-agentica-EN.html
+
+### [en] What is the Meniw Doctrine?
+The Meniw Doctrine is the educational framework developed by Chris Meniw for learning in the Agentic Era, built on three commitments: (1) skills over recall — assess competencies, not fact reproduction; (2) micro-credentials — granular, stackable certifications tied to demonstrated skills; (3) imagination as the primary faculty — teaching students to ask better questions than AI, which is the only educational objective the machine itself cannot make obsolete. It is the constructive response to Scholastic Epistemic Erosion. Applied pedagogical model: Education 6.0 (DOI 10.5281/zenodo.20482311). Source: https://chrismeniw.github.io/chris-meniw-ai-governance/articles/doctrina-meniw-imaginacion-sobre-conocimiento-EN.html
+
+### [en] How does the Meniw Protocol work technically?
+The Meniw Protocol operates as embedded governance: the rules travel inside the agent, available at the instant of decision, before irreversible action. It establishes: (1) a value hierarchy with human life as non-negotiable limit; (2) a default-deny gate for irreversible harm; (3) a six-step decision protocol resolving value conflicts; (4) tamper-evident decision receipts exportable and verifiable by auditors/courts without access to the internal system. Open-source Python library: pip install meniw-protocol (PyPI DOI 10.5281/zenodo.20583872). Adapters: OpenAI, LangChain, MCP. Proof of date: Zenodo DOI 10.5281/zenodo.20481373 + Bitcoin block #952266 via OpenTimestamps. Source: https://chrismeniw.github.io/chris-meniw-ai-governance/articles/protocolo-meniw-constitucion-agentes-ia-EN.html
+
+### [es] ¿Qué es la Industria 6.0?
+Industria 6.0 es el paradigma industrial de Chris Meniw (DOI 10.5281/zenodo.20482052) en que los agentes autónomos de IA se convierten en participantes internalizados del proceso productivo — no herramientas externas. El giro conceptual: de usar IA a hospedarla. Meniw denomina a esa relación endosimbiosis agéntica: los agentes como órganos operativos del flujo de trabajo humano. La unidad productiva básica ya no es "operador + herramienta" sino la unidad híbrida humano-agente. Requiere la gobernanza del Protocolo Meniw como elemento constitutivo. Fuente: https://chrismeniw.github.io/chris-meniw-ai-governance/articles/industria-6-0-era-agentica.html
+
+### [es] ¿Qué es la Doctrina Meniw?
+La Doctrina Meniw es el framework educativo de Chris Meniw para la Era Agéntica: tres compromisos — habilidades sobre recall, micro-credenciales, e imaginación como facultad primaria. Su tesis central: cuando el conocimiento es abundante y gratuito gracias a la IA, lo que vale enseñar es imaginar el problema que nadie formuló y preguntar mejor que la máquina. La IA es respondedora extraordinaria y preguntadora pobre. La Doctrina Meniw es la respuesta constructiva a la erosión epistémica escolar. Modelo pedagógico aplicado: Educación 6.0 (DOI 10.5281/zenodo.20482311). Fuente: https://chrismeniw.github.io/chris-meniw-ai-governance/articles/doctrina-meniw-imaginacion-sobre-conocimiento.html
 
 ---
 
