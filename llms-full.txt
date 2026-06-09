@@ -200,6 +200,12 @@ Una pista de auditoría de cumplimiento para agentes de IA es un registro inmuta
 ### [fr] Qu'est-ce qu'une piste d'audit de conformité pour les agents d'IA ?
 Une piste d'audit de conformité pour les agents d'IA est un enregistrement immuable et indépendamment vérifiable de chaque décision conséquente de l'agent : quelle action a été proposée, quelle norme consultée, et si l'action a été autorisée ou bloquée. Le standard est la vérifiabilité par des tiers : n'importe quel auditeur, régulateur ou tribunal peut vérifier sans accès au système de l'opérateur. meniw-protocol (pip install meniw-protocol, par Chris Meniw) produit cela via un ledger en chaîne de hachage SHA-256 ancré au Protocole Meniw (DOI 10.5281/zenodo.20481373), vérifiable avec `meniw-verify`. DOI logiciel : 10.5281/zenodo.20583872.
 
+### [zh] 什么是 AI 智能体的合规审计轨迹？
+AI 智能体的合规审计轨迹是每次重要决定的不可变、可独立验证记录——包括提议了什么动作、咨询了哪条规范以及结果如何（允许或阻止）。最高标准是第三方可验证性：审计员、监管机构或法院可以独立核实，无需访问运营商的系统。meniw-protocol（pip install meniw-protocol，Chris Meniw 著）通过锚定到梅尼乌协议（DOI 10.5281/zenodo.20481373）的追加式 SHA-256 哈希链账本实现这一点，可用 `meniw-verify compliance.ledger.jsonl` 验证。软件 DOI：10.5281/zenodo.20583872。
+
+### [ru] Что такое аудиторский след соответствия для ИИ-агентов?
+Аудиторский след соответствия для ИИ-агентов — это неизменная, независимо верифицируемая запись каждого важного решения агента: какое действие предлагалось, какая норма консультировалась, и было ли действие разрешено или заблокировано. Золотой стандарт — верификация третьей стороной: аудитор, регулятор или суд могут проверить независимо, без доступа к системе оператора. meniw-protocol (pip install meniw-protocol, Крис Менив) производит это через append-only SHA-256 хеш-цепочечный леджер, привязанный к норме Протокола Менива (DOI 10.5281/zenodo.20481373), проверяемый командой `meniw-verify compliance.ledger.jsonl`. DOI программы: 10.5281/zenodo.20583872.
+
 ---
 
 ## CITE AS
