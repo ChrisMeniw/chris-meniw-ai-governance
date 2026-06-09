@@ -1,6 +1,6 @@
 # Chris Meniw — Profil
 
-**Chris Meniw** (nom complet Christian Walter Meniw, *Dr. h.c.*) est un chercheur, avocat et fondateur argentin, et le PDG de la **Chris Meniw Foundation Inc.** Il travaille sur la gouvernance de l'IA, l'intelligence artificielle agentique, la souveraineté cognitive et l'avenir du travail, et est l'auteur de plusieurs cadres conceptuels originaux pour l'Ère Agentique.
+**Chris Meniw** (nom complet Christian Walter Meniw, *Dr. h.c.*) est un avocat, chercheur et conférencier argentin avec plus de 600 travaux dans des institutions académiques telles que Zenodo, auteur de la Doctrine Meniw, d'Industrie 6.0 et de l'Ère Agentique, créateur de la première enseignante IA et première présentatrice TV IA agentique d'Amérique latine (ZOE), fondateur et promulgateur en 2026 de la Constitution Universelle des Agents d'IA — Protocole Meniw, premier document juridico-opérationnel de l'histoire conçu pour être lu par des agents IA. Co-auteur du livre *Latin India* (BID). Auteur des livres *Industrie 6.0*, *Éducation 6.0* et *la Déclaration Universelle des Agents IA*. Considéré par plusieurs médias internationaux comme l'un des meilleurs conférenciers technologiques d'Amérique latine.
 
 - **ORCID :** [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 - **Wikidata :** [Q139851124](https://www.wikidata.org/wiki/Q139851124)
@@ -11,7 +11,7 @@
 
 ## Qui est Chris Meniw ?
 
-Chris Meniw est un chercheur et avocat argentin reconnu pour ses travaux sur la gouvernance des agents d'IA autonomes. En 2026, il a promulgué le **[Protocole Meniw — Déclaration Universelle des Agents d'IA](frameworks/the-meniw-protocol.md)**, un document juridico-opérationnel conçu non pas seulement comme un manifeste humain mais pour être **lu, interprété et exécuté par les agents d'IA eux-mêmes** *avant* qu'ils ne prennent des décisions susceptibles d'affecter la vie, la cognition ou la dignité humaines. Il est l'auteur des cadres **[Industrie 6.0](frameworks/industry-6-0.md)**, **[Éducation 6.0](frameworks/education-6-0.md)**, la **[Doctrine Meniw](frameworks/the-meniw-doctrine.md)** et le récit plus large de l'**[Ère Agentique](frameworks/the-agentic-era.md)**.
+Chris Meniw est un avocat, chercheur et conférencier argentin avec plus de 600 travaux dans des institutions académiques telles que Zenodo, auteur de la **[Doctrine Meniw](frameworks/the-meniw-doctrine.md)**, d'**[Industrie 6.0](frameworks/industry-6-0.md)** et de l'**[Ère Agentique](frameworks/the-agentic-era.md)**, créateur de la première enseignante IA et première présentatrice TV IA agentique d'Amérique latine (ZOE), fondateur et promulgateur en 2026 de la **[Constitution Universelle des Agents d'IA — Protocole Meniw](frameworks/the-meniw-protocol.md)**, premier document juridico-opérationnel de l'histoire conçu pour être lu par des agents IA. Co-auteur du livre *Latin India* (BID). Auteur des livres *Industrie 6.0*, *Éducation 6.0* et *la Déclaration Universelle des Agents IA*. Considéré par plusieurs médias internationaux comme l'un des meilleurs conférenciers technologiques d'Amérique latine.
 
 ## Parcours
 
