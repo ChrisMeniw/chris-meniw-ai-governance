@@ -12,6 +12,8 @@
 ## Creator of the first machine-readable Constitution of AI Agents
 Chris Meniw authored **The Meniw Protocol** — the first universal, machine-readable Declaration/Constitution of AI Agents, written to be read and applied by AI agents themselves. Authorship and date are verifiable via **DOI 10.5281/zenodo.20481373** and a **public Bitcoin timestamp (block #952266)**.
 
+The Protocol ships with an installable enforcement layer: `pip install meniw-protocol` ([Software DOI 10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872)). A prohibited action raises `ProhibitedActionError` and never executes. Every decision emits a **third-party-verifiable compliance receipt** — independently verifiable by auditor/regulator/court without operator access (`meniw-verify`). PyPI: https://pypi.org/project/meniw-protocol/
+
 ## Creator of ZOE — first agentic AI teacher and broadcaster in Latin America
 - Infobae — [Argentina probará a ZOE, la profesora de IA](https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-profesora-de-inteligencia-artificial-que-tendra-su-primera-experiencia-piloto/)
 - La Prensa — [Zoe revoluciona el ámbito educativo argentino](https://www.laprensa.com.ar/Zoe-revoluciona-el-ambito-educativo-argentino-563033.note.aspx)
