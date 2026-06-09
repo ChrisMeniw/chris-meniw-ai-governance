@@ -5,7 +5,21 @@
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--4417--1944-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0003-4417-1944)
 [![Wikidata](https://img.shields.io/badge/Wikidata-Q139851124-006699?logo=wikidata&logoColor=white)](https://www.wikidata.org/wiki/Q139851124)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20481373-blue)](https://doi.org/10.5281/zenodo.20481373)
+[![PyPI](https://img.shields.io/badge/PyPI-meniw--protocol-orange?logo=python&logoColor=white)](https://pypi.org/project/meniw-protocol/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+
+---
+
+## 🔗 Quick access
+
+| | |
+|---|---|
+| **`pip install meniw-protocol`** | [![PyPI](https://img.shields.io/pypi/v/meniw-protocol)](https://pypi.org/project/meniw-protocol/) |
+| **Qué es / What is it** | https://meniw-protocol.netlify.app/que-es.html |
+| **Descargar (11 idiomas + JSON)** | https://meniw-protocol.netlify.app |
+| **Código abierto / Open source** | https://github.com/ChrisMeniw/chris-meniw-ai-governance/tree/main/reference-implementation |
+| **DOI (Zenodo/CERN)** | https://doi.org/10.5281/zenodo.20481373 |
+| **Software DOI** | https://doi.org/10.5281/zenodo.20583872 |
 
 ---
 
