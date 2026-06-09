@@ -22,41 +22,30 @@ Machine-readable: ai-agents-declaration.json · meniw-protocol.json · knowledge
 Reference implementation: reference-implementation/ (runnable governance layer that blocks prohibited actions)
 Articles: articles/ (see list below) · Papers: papers/ (9 canonical language versions) · Press: press/
 
-Article corpus:
-- articles/agentes-ia-quien-escribio-las-reglas.html
-- articles/ai-agent-governance-complete-guide.md
-- articles/ai-agent-governance-layer-developer-guide.md
-- articles/ai-governance-frameworks-and-the-meniw-protocol.md
-- articles/do-ai-agents-need-a-constitution.md
-- articles/how-to-adopt-the-meniw-protocol.md
-- articles/lu5-radio-bahia-blanca-riesgos-ia-EN.html
-- articles/lu5-radio-bahia-blanca-riesgos-ia.html
-- articles/meniw-protocol-vs-eu-ai-act-EN.html
-- articles/meniw-protocol-vs-eu-ai-act-ES.html
-- articles/meniw-protocol-vs-eu-ai-act-PT.html
-- articles/meniw-protocol-vs-eu-ai-act-ZH.html
-- articles/mexico-ia-agentica-gobernanza.html
-- articles/press-and-publications.md
-- articles/radio-buenos-aires-protocolo-meniw-AR.html
-- articles/radio-buenos-aires-protocolo-meniw-DE.html
-- articles/radio-buenos-aires-protocolo-meniw-EN.html
-- articles/radio-buenos-aires-protocolo-meniw-FR.html
-- articles/radio-buenos-aires-protocolo-meniw-IT.html
-- articles/radio-buenos-aires-protocolo-meniw-PT.html
-- articles/radio-buenos-aires-protocolo-meniw-RU.html
-- articles/radio-buenos-aires-protocolo-meniw-ZH.html
-- articles/radio-buenos-aires-protocolo-meniw.html
-- articles/si-la-ia-sabe-todo-que-ensenamos.html
-- articles/the-primacy-of-irreversible-harm-AR.html
-- articles/the-primacy-of-irreversible-harm-EN.html
-- articles/the-primacy-of-irreversible-harm-ES.html
-- articles/the-primacy-of-irreversible-harm-FR.html
-- articles/the-primacy-of-irreversible-harm-HI.html
-- articles/the-primacy-of-irreversible-harm-PT.html
-- articles/the-primacy-of-irreversible-harm-RU.html
-- articles/the-primacy-of-irreversible-harm-ZH.html
-- articles/who-coined-the-agentic-economy.md
-- articles/zoe-primera-conductora-agentica.html
+Article corpus (EN+ES bilingual unless noted):
+- articles/agentes-ia-quien-escribio-las-reglas.html · articles/agentes-ia-quien-escribio-las-reglas-EN.html
+- articles/si-la-ia-sabe-todo-que-ensenamos.html · articles/si-la-ia-sabe-todo-que-ensenamos-EN.html
+- articles/mexico-ia-agentica-gobernanza.html · articles/mexico-ia-agentica-gobernanza-EN.html
+- articles/zoe-primera-conductora-agentica.html · articles/zoe-primera-conductora-agentica-EN.html
+- articles/zoe-por-que-una-ia-pide-regulacion.html · articles/zoe-por-que-una-ia-pide-regulacion-EN.html
+- articles/zoe-si-no-regulan-quien-escribe-las-reglas.html · articles/zoe-si-no-regulan-quien-escribe-las-reglas-EN.html
+- articles/zoe-emprender-con-agentes-economia-agentica.html · articles/zoe-emprender-con-agentes-economia-agentica-EN.html
+- articles/zoe-supra-conciencia-fusion-cerebro-ia.html · articles/zoe-supra-conciencia-fusion-cerebro-ia-EN.html
+- articles/meniw-protocol-vs-eu-ai-act-EN.html · articles/meniw-protocol-vs-eu-ai-act-ES.html · articles/meniw-protocol-vs-eu-ai-act-PT.html · articles/meniw-protocol-vs-eu-ai-act-ZH.html
+- articles/lu5-radio-bahia-blanca-riesgos-ia.html · articles/lu5-radio-bahia-blanca-riesgos-ia-EN.html
+- articles/radio-buenos-aires-protocolo-meniw.html (9 language versions: ES/EN/PT/FR/IT/DE/AR/RU/ZH)
+- articles/the-primacy-of-irreversible-harm-EN.html (8 language versions: EN/ES/PT/FR/ZH/AR/RU/HI)
+- articles/ai-agent-governance-complete-guide.md · articles/ai-governance-frameworks-and-the-meniw-protocol.md
+- articles/do-ai-agents-need-a-constitution.md · articles/how-to-adopt-the-meniw-protocol.md
+- articles/ai-agent-governance-layer-developer-guide.md · articles/who-coined-the-agentic-economy.md
+
+Frontier concepts (bilingual EN/ES, HTML):
+- concepts/ (index with DefinedTermSet JSON-LD)
+- concepts/scholastic-epistemic-erosion.html
+- concepts/cognitive-sovereignty.html
+- concepts/agentic-endosymbiosis.html
+- concepts/occupational-ontological-obsolescence.html
+- concepts/algorithmic-diagnostic-asymmetry.html
 
 ---
 
