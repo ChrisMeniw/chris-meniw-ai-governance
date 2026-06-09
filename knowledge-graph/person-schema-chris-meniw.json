@@ -59,6 +59,16 @@
   "subjectOf": [
     {
       "@type": "NewsArticle",
+      "headline": "Presentaron la primera «Constitución Universal de Agentes de Inteligencia Artificial»",
+      "datePublished": "2026-06-03",
+      "inLanguage": "es",
+      "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+      "publisher": {"@type": "NewsMediaOrganization", "name": "Radio Nacional Argentina", "url": "https://www.radionacional.com.ar"},
+      "about": {"@id": "https://www.chrismeniwfoundation.org/#chris-meniw"},
+      "mentions": {"@type": "CreativeWork", "name": "Universal Constitution of AI Agents — The Meniw Protocol", "sameAs": "https://doi.org/10.5281/zenodo.20481373"}
+    },
+    {
+      "@type": "NewsArticle",
       "headline": "Alerta sobre los riesgos de la IA: «Puede manipularnos más que cualquier humano»",
       "datePublished": "2026-06-02",
       "inLanguage": "es",
