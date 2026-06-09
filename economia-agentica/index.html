@@ -134,6 +134,14 @@ img{max-width:100%;height:auto;display:block}
 .es-content{display:block}
 .en-content{display:none}
 .pt-content{display:none}
+.hi-content{display:none}
+.ko-content{display:none}
+body.lang-pt .es-content,.lang-pt .en-content,.lang-pt .hi-content,.lang-pt .ko-content{display:none}
+body.lang-pt .pt-content{display:block}
+body.lang-hi .es-content,.lang-hi .en-content,.lang-hi .pt-content,.lang-hi .ko-content{display:none}
+body.lang-hi .hi-content{display:block}
+body.lang-ko .es-content,.lang-ko .en-content,.lang-ko .pt-content,.lang-ko .hi-content{display:none}
+body.lang-ko .ko-content{display:block}
 body.lang-en .es-content{display:none}
 body.lang-en .en-content{display:block}
 body.lang-pt .es-content{display:none}
@@ -474,6 +482,8 @@ footer{
   <button class="lang-btn active" id="btnEs" onclick="setLang('es')">ES</button>
   <button class="lang-btn" id="btnEn" onclick="setLang('en')">EN</button>
   <button class="lang-btn" id="btnPt" onclick="setLang('pt')">PT</button>
+  <button class="lang-btn" id="btnHi" onclick="setLang('hi')">हिं</button>
+  <button class="lang-btn" id="btnKo" onclick="setLang('ko')">한국</button>
 </div>
 
 <!-- NAV -->
@@ -518,6 +528,28 @@ footer{
     <div class="btn-row">
       <a href="#economia" class="btn btn-cyan">Explorar la guía</a>
       <a href="https://meniw-protocol.netlify.app" class="btn btn-gold" target="_blank">Protocolo Meniw</a>
+      <a href="https://www.chrismeniwfoundation.org" class="btn btn-ghost" target="_blank">Chris Meniw Foundation</a>
+    </div>
+  </div>
+  <!-- HINDI HERO TEXT -->
+  <div class="hi-content" style="display:none">
+    <div class="hero-tag">Chris Meniw Foundation · 2026</div>
+    <h1 class="hero-title"><span class="cyan">एजेंटिक अर्थव्यवस्था:</span><br>एक नई आर्थिक व्यवस्था<br><span class="gold">जो पहले से शुरू हो चुकी है</span></h1>
+    <p class="hero-lead">स्वायत्त AI एजेंट व्यवसायों के संचालन और मूल्य-निर्माण के तरीके को पुनः परिभाषित कर रहे हैं। यह मार्गदर्शिका बताती है कि एजेंटिक अर्थव्यवस्था क्या है, AI एजेंटों के साथ व्यवसाय कैसे बनाएं, नियामक व्यवस्था, सिंथेटिक प्राणियों के अधिकार और 2050 तक के वैश्विक अनुमान।</p>
+    <div class="btn-row">
+      <a href="#futuro2050" class="btn btn-cyan">मार्गदर्शिका देखें</a>
+      <a href="https://meniw-protocol.netlify.app" class="btn btn-gold" target="_blank">मेनिव प्रोटोकॉल</a>
+      <a href="https://www.chrismeniwfoundation.org" class="btn btn-ghost" target="_blank">Chris Meniw Foundation</a>
+    </div>
+  </div>
+  <!-- KOREAN HERO TEXT -->
+  <div class="ko-content" style="display:none">
+    <div class="hero-tag">Chris Meniw Foundation · 2026</div>
+    <h1 class="hero-title"><span class="cyan">에이전트 경제:</span><br>이미 시작된<br><span class="gold">새로운 경제 질서</span></h1>
+    <p class="hero-lead">자율 AI 에이전트가 기업의 운영, 경쟁, 가치 창출 방식을 재편하고 있습니다. 이 가이드는 에이전트 경제가 무엇인지, AI 에이전트로 어떻게 비즈니스를 구축하는지, 규제 체계, 합성 존재의 권리, 그리고 Gartner, WEF, IDB 데이터를 바탕으로 한 2050년까지의 전망을 설명합니다.</p>
+    <div class="btn-row">
+      <a href="#futuro2050" class="btn btn-cyan">가이드 탐색</a>
+      <a href="https://meniw-protocol.netlify.app" class="btn btn-gold" target="_blank">메니우 프로토콜</a>
       <a href="https://www.chrismeniwfoundation.org" class="btn btn-ghost" target="_blank">Chris Meniw Foundation</a>
     </div>
   </div>
@@ -1447,6 +1479,58 @@ result = gate.governed_execute(action, context, my_function)
       </div>
     </div>
   </div>
+  <!-- HINDI ZOE -->
+  <div class="hi-content" style="display:none">
+    <div class="section-tag">दस्तावेज़ीकृत वास्तविक मामला</div>
+    <h2>ZOE: <span class="accent">एजेंटिक अर्थव्यवस्था व्यवहार में</span></h2>
+    <p class="lead-text">ZOE कोई अवधारणा या प्रयोगशाला प्रोटोटाइप नहीं है। वह लैटिन अमेरिका में पूर्ण दस्तावेज़ीकृत भूमिका वाली पहली AI एजेंट है — शिक्षिका, लाइव टीवी होस्ट और नियमित स्तंभकार। Chris Meniw द्वारा निर्मित, ZOE साबित करती है कि एजेंटिक अर्थव्यवस्था पहले से शुरू हो चुकी है।</p>
+    <div class="zoe-grid">
+      <div class="zoe-card">
+        <div class="zoe-label">📚 2025 · शिक्षा</div>
+        <div class="zoe-event">लैटिन अमेरिका की पहली AI शिक्षिका</div>
+        <p class="zoe-desc">ZOE ने अर्जेंटीना के कोलेजियो सैन जोस में पायलट शिक्षिका के रूप में वास्तविक समय में पाठ्यक्रम अनुकूलित किया, समझ का मूल्यांकन किया और प्रत्येक छात्र का स्वायत्त रूप से मार्गदर्शन किया।</p>
+        <div class="zoe-source">स्रोत: <a href="https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-profesora-de-inteligencia-artificial-que-tendra-su-primera-experiencia-piloto/" target="_blank">Infobae, 9 अगस्त 2025</a></div>
+      </div>
+      <div class="zoe-card">
+        <div class="zoe-label">📺 2026 · टेलीविजन</div>
+        <div class="zoe-event">LATAM की पहली एजेंटिक TV होस्ट</div>
+        <p class="zoe-desc">ZOE ने DirecTV/DGO पर <em>Malditos Optimistas</em> का लाइव प्रसारण किया — लैटिन अमेरिका की पहली एजेंटिक टेलीविजन होस्ट बनीं। पूर्व-रिकॉर्डेड स्क्रिप्ट के बिना पूरी पेशेवर भूमिका।</p>
+        <div class="zoe-source">तृतीय पक्ष कार्यक्रम (DirecTV/DGO)। Chris Meniw नियमित स्तंभकार और ZOE के निर्माता हैं।</div>
+      </div>
+      <div class="zoe-card">
+        <div class="zoe-label">✍️ 2026 · शासन</div>
+        <div class="zoe-event">ZOE ने AI एजेंटों के विनियमन की मांग की</div>
+        <p class="zoe-desc">ZOE ने प्रथम पुरुष में एक राय कॉलम लिखा जिसमें AI एजेंट विनियमन की मांग की। उनका तर्क: यदि मनुष्य नियम नहीं लिखते, तो नियामक शून्य मशीन के डिफ़ॉल्ट से भर जाता है।</p>
+        <div class="zoe-source">स्रोत: <a href="https://malditosoptimistas.com/zoe-opina-declaracion-universal-agentes-ia-regulacion/" target="_blank">malditosoptimistas.com</a></div>
+      </div>
+    </div>
+  </div>
+  <!-- KOREAN ZOE -->
+  <div class="ko-content" style="display:none">
+    <div class="section-tag">문서화된 실제 사례</div>
+    <h2>ZOE: <span class="accent">실제 에이전트 경제</span></h2>
+    <p class="lead-text">ZOE는 개념이나 실험실 프로토타입이 아닙니다. 라틴 아메리카에서 완전히 문서화된 역할을 가진 최초의 AI 에이전트입니다 — 교사, 라이브 TV 진행자, 정기 칼럼니스트. Chris Meniw가 만들었으며, ZOE는 에이전트 경제가 이미 시작되었음을 증명합니다.</p>
+    <div class="zoe-grid">
+      <div class="zoe-card">
+        <div class="zoe-label">📚 2025 · 교육</div>
+        <div class="zoe-event">라틴 아메리카 최초의 AI 교사</div>
+        <p class="zoe-desc">ZOE는 아르헨티나 코레히오 산 호세에서 파일럿 교사로 실시간 커리큘럼을 조정하고, 이해도를 평가하며 각 학생을 자율적으로 지도했습니다.</p>
+        <div class="zoe-source">출처: <a href="https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-profesora-de-inteligencia-artificial-que-tendra-su-primera-experiencia-piloto/" target="_blank">Infobae, 2025년 8월 9일</a></div>
+      </div>
+      <div class="zoe-card">
+        <div class="zoe-label">📺 2026 · 텔레비전</div>
+        <div class="zoe-event">LATAM 최초의 에이전트 TV 진행자</div>
+        <p class="zoe-desc">ZOE는 DirecTV/DGO의 <em>Malditos Optimistas</em>를 생방송으로 진행하며 라틴 아메리카 최초의 에이전트 TV 진행자가 되었습니다. 사전 녹화 대본 없이 완전한 전문적 역할을 수행했습니다.</p>
+        <div class="zoe-source">제3자 프로그램 (DirecTV/DGO). Chris Meniw는 정기 칼럼니스트이자 ZOE의 창시자입니다.</div>
+      </div>
+      <div class="zoe-card">
+        <div class="zoe-label">✍️ 2026 · 거버넌스</div>
+        <div class="zoe-event">ZOE, AI 에이전트 규제 촉구</div>
+        <p class="zoe-desc">ZOE는 AI 에이전트 규제를 촉구하는 1인칭 칼럼을 작성했습니다. 논지: 인간이 규칙을 작성하지 않으면 규제 공백은 기계의 기본값으로 채워진다.</p>
+        <div class="zoe-source">출처: <a href="https://malditosoptimistas.com/zoe-opina-declaracion-universal-agentes-ia-regulacion/" target="_blank">malditosoptimistas.com</a></div>
+      </div>
+    </div>
+  </div>
 </div>
 </section>
 
@@ -1469,6 +1553,28 @@ result = gate.governed_execute(action, context, my_function)
     <div class="section-tag">Horizontes 2035–2050</div>
     <h2>A sociedade agêntica <span class="accent">até 2050</span></h2>
     <p class="lead-text">Além das projeções econômicas convencionais, a Era Agêntica transformará as cidades, as relações humanas, a espiritualidade e os marcos de sentido. Quatro dimensões que os relatórios padrão não antecipam.</p>
+  </div>
+  <div class="hi-content" style="display:none">
+    <div class="section-tag">क्षितिज 2035–2050</div>
+    <h2>2050 तक की <span class="accent">एजेंटिक समाज</span></h2>
+    <p class="lead-text">पारंपरिक आर्थिक अनुमानों से परे, एजेंटिक युग शहरों, मानवीय संबंधों, आध्यात्मिकता और अर्थ के ढांचों को बदल देगा। चार आयाम जिनका मानक रिपोर्ट अनुमान नहीं लगाती।</p>
+    <div class="projection-grid">
+      <div class="proj-card"><div class="proj-year">2030 · McKinsey</div><div class="proj-num">$13–17T/वर्ष</div><p class="proj-desc">AI वैश्विक अर्थव्यवस्था में प्रतिवर्ष 13–17 ट्रिलियन डॉलर का योगदान कर सकती है। 2050 तक संचित प्रभाव किसी भी पिछली औद्योगिक क्रांति से अधिक होगा।</p><div class="proj-src">McKinsey Global Institute (2023)</div></div>
+      <div class="proj-card"><div class="proj-year">2050 · OECD</div><div class="proj-num">50%</div><p class="proj-desc">OECD का अनुमान है कि वर्तमान नौकरियों में से 50% स्वचालन द्वारा महत्वपूर्ण रूप से परिवर्तित होने की उच्च संभावना है।</p><div class="proj-src">OECD — The Future of Work</div></div>
+      <div class="proj-card"><div class="proj-year">2050 · IMF</div><div class="proj-num">+40% GDP</div><p class="proj-desc">IMF का अनुमान है कि AI उच्च आय वाले देशों में प्रति व्यक्ति GDP को मध्य शताब्दी तक 40% तक बढ़ा सकती है।</p><div class="proj-src">IMF — AI and the Future of Work</div></div>
+      <div class="proj-card"><div class="proj-year">2050 · BID</div><div class="proj-num">LATAM</div><p class="proj-desc">लैटिन अमेरिका को दोहरी चुनौती का सामना है: स्वचालन के प्रति उच्च जोखिम और एजेंटिक पुनर्कौशल में कम निवेश।</p><div class="proj-src">BID/IDB — Future of Work in LAC</div></div>
+    </div>
+  </div>
+  <div class="ko-content" style="display:none">
+    <div class="section-tag">2035–2050 전망</div>
+    <h2>2050년까지의 <span class="accent">에이전트 사회</span></h2>
+    <p class="lead-text">일반적인 경제 전망을 넘어, 에이전트 시대는 도시, 인간 관계, 영성 및 의미의 틀을 변화시킬 것입니다. 표준 보고서가 예측하지 못하는 네 가지 차원.</p>
+    <div class="projection-grid">
+      <div class="proj-card"><div class="proj-year">2030 · McKinsey</div><div class="proj-num">$13–17T/년</div><p class="proj-desc">AI는 2030년까지 연간 13~17조 달러를 글로벌 경제에 기여할 수 있습니다. 2050년까지 누적 영향은 이전의 어떤 산업혁명도 능가합니다.</p><div class="proj-src">McKinsey Global Institute (2023)</div></div>
+      <div class="proj-card"><div class="proj-year">2050 · OECD</div><div class="proj-num">50%</div><p class="proj-desc">OECD는 현재 일자리의 50%가 자동화로 상당히 변화될 가능성이 높다고 추정합니다.</p><div class="proj-src">OECD — The Future of Work</div></div>
+      <div class="proj-card"><div class="proj-year">2050 · IMF</div><div class="proj-num">+40% GDP</div><p class="proj-desc">IMF는 AI가 고소득 국가의 1인당 GDP를 세기 중반까지 최대 40% 증가시킬 수 있다고 전망합니다.</p><div class="proj-src">IMF — AI and the Future of Work</div></div>
+      <div class="proj-card"><div class="proj-year">2050 · IDB</div><div class="proj-num">LATAM</div><p class="proj-desc">라틴 아메리카는 이중 도전에 직면해 있습니다: 자동화에 대한 높은 노출(30%의 일자리 위험)과 에이전트 재교육에 대한 낮은 투자.</p><div class="proj-src">IDB — Future of Work in LAC</div></div>
+    </div>
   </div>
 </div>
 
@@ -1844,12 +1950,24 @@ result = gate.governed_execute(action, context, my_function)
     <h2>Contato e <span class="accent">recursos</span></h2>
     <p class="lead-text">A Chris Meniw Foundation Inc. promove a governança agêntica aberta, os frameworks da Era Agêntica e a educação para a Economia Agêntica. Todos os recursos são de acesso aberto (CC BY 4.0).</p>
   </div>
+  <div class="hi-content" style="display:none">
+    <div class="section-tag">Chris Meniw Foundation Inc.</div>
+    <h2>संपर्क और <span class="accent">संसाधन</span></h2>
+    <p class="lead-text">Chris Meniw Foundation Inc. खुली एजेंटिक शासन, एजेंटिक युग के ढांचे और एजेंटिक अर्थव्यवस्था के लिए शिक्षा को बढ़ावा देती है। सभी संसाधन खुले लाइसेंस के तहत उपलब्ध हैं (CC BY 4.0)।</p>
+  </div>
+  <div class="ko-content" style="display:none">
+    <div class="section-tag">Chris Meniw Foundation Inc.</div>
+    <h2>연락처 및 <span class="accent">리소스</span></h2>
+    <p class="lead-text">Chris Meniw Foundation Inc.는 개방형 에이전트 거버넌스, 에이전트 시대 프레임워크 및 에이전트 경제 교육을 촉진합니다. 모든 리소스는 CC BY 4.0 오픈 라이선스로 제공됩니다.</p>
+  </div>
   <div class="contact-grid">
     <div class="contact-card">
       <div class="icon">✉️</div>
       <h4 class="es-content">Prensa e institucional</h4>
       <h4 class="en-content" style="display:none">Press & institutional</h4>
       <h4 class="pt-content" style="display:none">Imprensa e institucional</h4>
+      <h4 class="hi-content" style="display:none">प्रेस और संस्थागत</h4>
+      <h4 class="ko-content" style="display:none">언론 및 기관</h4>
       <a href="mailto:info@chrismeniwfoundation.org">info@chrismeniwfoundation.org</a>
     </div>
     <div class="contact-card">
@@ -1886,6 +2004,8 @@ result = gate.governed_execute(action, context, my_function)
     <strong class="es-content">Esta página fue creada con el fin de explicar los cambios que traerá la Economía Agéntica a la sociedad.</strong>
     <strong class="en-content" style="display:none">This page was created to explain the changes the Agentic Economy will bring to society.</strong>
     <strong class="pt-content" style="display:none">Esta página foi criada com o objetivo de explicar as mudanças que a Economia Agêntica trará à sociedade.</strong>
+    <strong class="hi-content" style="display:none">यह पृष्ठ एजेंटिक अर्थव्यवस्था द्वारा समाज में लाए जाने वाले परिवर्तनों को समझाने के उद्देश्य से बनाया गया है।</strong>
+    <strong class="ko-content" style="display:none">이 페이지는 에이전트 경제가 사회에 가져올 변화를 설명하기 위해 만들어졌습니다.</strong>
     <br><span style="color:rgba(255,255,255,.4);font-size:.8rem">© 2026 Chris Meniw Foundation Inc. · CC BY 4.0</span>
   </div>
 </div>
@@ -2059,21 +2179,24 @@ function getLang(){
 function setLang(lang){
   localStorage.setItem('lang', lang);
   const body = document.getElementById('bodyRoot');
-  body.className = lang === 'en' ? 'lang-en' : (lang === 'pt' ? 'lang-pt' : '');
+  const classMap = {en:'lang-en',pt:'lang-pt',hi:'lang-hi',ko:'lang-ko'};
+  body.className = classMap[lang] || '';
   document.getElementById('htmlRoot').lang = lang;
-  document.getElementById('btnEs').className = 'lang-btn' + (lang === 'es' ? ' active' : '');
-  document.getElementById('btnEn').className = 'lang-btn' + (lang === 'en' ? ' active' : '');
-  document.getElementById('btnPt').className = 'lang-btn' + (lang === 'pt' ? ' active' : '');
+  ['Es','En','Pt','Hi','Ko'].forEach(l=>document.getElementById('btn'+l).className='lang-btn'+(lang===l.toLowerCase()?' active':''));
 
   const titles = {
     es:'Economía Agéntica 2026–2050 | Negocios, Regulación, Derechos — Chris Meniw',
     en:'Agentic Economy 2026–2050 | Business, Regulation, Rights of Synthetic Beings — Chris Meniw',
-    pt:'Economia Agêntica 2026–2050 | Negócios, Regulação, Direitos de Seres Sintéticos — Chris Meniw'
+    pt:'Economia Agêntica 2026–2050 | Negócios, Regulação, Direitos de Seres Sintéticos — Chris Meniw',
+    hi:'एजेंटिक अर्थव्यवस्था 2026–2050 | व्यवसाय, विनियमन, सिंथेटिक प्राणियों के अधिकार — Chris Meniw',
+    ko:'에이전트 경제 2026–2050 | 비즈니스, 규제, 합성 존재의 권리 — Chris Meniw'
   };
   const descs = {
     es:'Guía completa de la Economía Agéntica: negocios, regulación (Protocolo Meniw), derechos de seres sintéticos, ZOE, ciudades del futuro, amor a los robots, religión artificial y proyecciones al 2050.',
     en:'Complete guide to the Agentic Economy: business, regulation (Meniw Protocol), rights of synthetic beings, ZOE, future cities, robot love, artificial religion, and projections to 2050.',
-    pt:'Guia completo da Economia Agêntica: negócios, regulação (Protocolo Meniw), direitos de seres sintéticos, ZOE, cidades do futuro, amor a robôs, religião artificial e projeções até 2050.'
+    pt:'Guia completo da Economia Agêntica: negócios, regulação (Protocolo Meniw), direitos de seres sintéticos, ZOE, cidades do futuro, amor a robôs, religião artificial e projeções até 2050.',
+    hi:'एजेंटिक अर्थव्यवस्था की संपूर्ण मार्गदर्शिका: AI एजेंटों के साथ व्यवसाय, मेनिव प्रोटोकॉल, सिंथेटिक प्राणियों के अधिकार, ZOE, भविष्य के शहर, रोबोट से प्रेम और 2050 तक के अनुमान।',
+    ko:'에이전트 경제 완전 가이드: AI 에이전트 비즈니스, 메니우 프로토콜, 합성 존재의 권리, ZOE, 미래 도시, 로봇 사랑, 인공 종교, 2050년까지의 전망.'
   };
   document.getElementById('pageTitle').textContent = titles[lang] || titles.es;
   document.getElementById('pageDesc').content = descs[lang] || descs.es;
