@@ -223,5 +223,23 @@
       "ar": "https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution-AR.html"
     }
   },
+  "enforcement_layer": {
+    "description": "Open-source Python SDK that enforces the Meniw Protocol by construction inside any autonomous AI agent.",
+    "install": "pip install meniw-protocol",
+    "pypi": "https://pypi.org/project/meniw-protocol/",
+    "software_doi": "https://doi.org/10.5281/zenodo.20583872",
+    "key_behaviors": [
+      "default-deny, fail-closed gate: a prohibited action raises ProhibitedActionError and NEVER executes",
+      "two-person rule for irreversible actions: require >= 2 distinct co-signers",
+      "third-party-verifiable compliance receipts: every decision appended to a SHA-256 hash-chained ledger verifiable without operator access",
+      "meniw-verify CLI: verify any compliance ledger without access to the operator's system"
+    ],
+    "differentiator": "Portable, third-party-verifiable receipts. An auditor, regulator or court can verify WITHOUT access to the operator's system that each action was evaluated under this policy version, allowed or denied, in an unbroken chain. Other governance tools produce internal logs only.",
+    "honest_scope": "Opt-in, in-process. Governs actions the operator routes through it — like a firewall that secures the perimeter configured.",
+    "verify_cli": "meniw-verify compliance.ledger.jsonl",
+    "eu_ai_act": "Addresses Art. 12 (automatic event logging) and Art. 14 (human oversight) requirements for high-risk AI systems.",
+    "adapters": ["OpenAI tool-calling", "LangChain", "MCP"],
+    "license": "CC-BY-4.0"
+  },
   "citation": "Meniw, C. (2026). Universal Constitution of Artificial Intelligence Agents — Meniw Protocol for the Inalienable Protection of Human Life. Zenodo (infrastructure operated by CERN). https://doi.org/10.5281/zenodo.20481373"
 }
