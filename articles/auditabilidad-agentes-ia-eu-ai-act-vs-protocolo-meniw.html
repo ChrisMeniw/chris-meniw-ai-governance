@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auditabilidad de Agentes IA: EU AI Act vs Protocolo Meniw — Cuatro Brechas y Cómo Cerrarlas</title>
+<meta name="description" content="El Reglamento Europeo de IA exige registros de auditoría, pero cuatro brechas estructurales dejan a los agentes autónomos sin verificación real. El Protocolo Meniw cierra cada brecha con recibos criptográficos, acceso independiente y registro por acción.">
+<meta name="author" content="Chris Meniw">
+<meta name="keywords" content="auditabilidad agentes IA, EU AI Act registros auditoría, Protocolo Meniw, gobernanza IA, cumplimiento IA agéntica, brecha auditoría IA, registros criptográficos IA">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/auditabilidad-agentes-ia-eu-ai-act-vs-protocolo-meniw.html">
+<link rel="alternate" hreflang="en" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/ai-agent-auditability-eu-ai-act-vs-meniw-protocol.html">
+<link rel="alternate" hreflang="pt" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/auditabilidade-agentes-ia-eu-ai-act-vs-protocolo-meniw-PT.html">
+<link rel="alternate" hreflang="es" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/auditabilidad-agentes-ia-eu-ai-act-vs-protocolo-meniw.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "Auditabilidad de Agentes IA: EU AI Act vs Protocolo Meniw — Cuatro Brechas y Cómo Cerrarlas",
+  "description": "Análisis comparativo de los requisitos de auditabilidad para agentes de IA bajo el Reglamento Europeo de IA (Artículos 12, 18, 26) y el Protocolo Meniw. Identifica cuatro brechas estructurales y las soluciones criptográficas del Protocolo.",
+  "author": {
+    "@type": "Person",
+    "name": "Chris Meniw",
+    "sameAs": "https://orcid.org/0009-0003-4417-1944"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Chris Meniw Foundation Inc."
+  },
+  "datePublished": "2026-06-09",
+  "dateModified": "2026-06-09",
+  "inLanguage": "es",
+  "keywords": ["auditabilidad agentes IA", "EU AI Act", "Protocolo Meniw", "cumplimiento agéntico", "brecha gobernanza IA"]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Exige el Reglamento Europeo de IA que los agentes de IA conserven registros de auditoría?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Los artículos 12 (registros), 18 (documentación técnica) y 26 (obligaciones del usuario) del EU AI Act exigen que los sistemas de IA de alto riesgo mantengan registros. Sin embargo, estos registros los conserva el operador, no un tercero independiente, y el Reglamento no exige verificación criptográfica de integridad ni registro por acción en tiempo real para agentes autónomos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuáles son las cuatro brechas de auditabilidad del EU AI Act para agentes autónomos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Las cuatro brechas identificadas por Chris Meniw son: (1) Los registros los conserva el operador, sin verificación independiente posible; (2) La evaluación de conformidad es precomercialización, no por acción; (3) No se exige ningún estándar de integridad criptográfica para los registros; (4) El Reglamento no regula a los agentes en tiempo real en el momento de la acción — el Artículo 14 exige supervisión humana pero no define cómo cuando los agentes actúan más rápido que los humanos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo cierra el Protocolo Meniw las brechas de auditabilidad del EU AI Act?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El Protocolo Meniw aborda cada brecha: (1) Los recibos de cumplimiento están encadenados criptográficamente y son accesibles a auditores independientes sin cooperación del operador; (2) Cada acción se evalúa en tiempo real antes de ejecutarse mediante la compuerta default-deny; (3) Cada recibo está sellado con el SHA-256 de la norma aplicada, haciendo la manipulación matemáticamente detectable; (4) La compuerta bloquea acciones a velocidad de máquina, donde la intervención humana no es posible."
+      }
+    }
+  ]
+}
+</script>
+<style>
+  body { font-family: Georgia, serif; max-width: 820px; margin: 0 auto; padding: 2rem 1.5rem; color: #1a1a2e; background: #fff; line-height: 1.75; }
+  h1 { font-size: 2rem; color: #0d1b2a; border-bottom: 3px solid #2563eb; padding-bottom: 0.6rem; }
+  h2 { font-size: 1.35rem; color: #1e3a5f; margin-top: 2.2rem; }
+  h3 { font-size: 1.1rem; color: #1e3a5f; margin-top: 1.5rem; }
+  .meta { color: #555; font-size: 0.9rem; margin-bottom: 2rem; }
+  .lead { font-size: 1.1rem; color: #2c3e50; border-left: 4px solid #2563eb; padding-left: 1rem; margin: 1.5rem 0; font-style: italic; }
+  .box { border-radius: 8px; padding: 1.2rem 1.4rem; margin: 1.5rem 0; }
+  .box.warn { background: #fff7ed; border-left: 5px solid #f97316; }
+  .box.ok { background: #f0fdf4; border-left: 5px solid #16a34a; }
+  .box.info { background: #eff6ff; border-left: 5px solid #2563eb; }
+  .box.neutral { background: #f8fafc; border-left: 5px solid #64748b; }
+  .gap-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.95rem; }
+  .gap-table th { background: #1e3a5f; color: #fff; padding: 0.7rem 1rem; text-align: left; }
+  .gap-table td { padding: 0.65rem 1rem; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+  .gap-table tr:nth-child(even) td { background: #f8fafc; }
+  .gap-num { font-weight: bold; color: #2563eb; font-size: 1.1rem; }
+  .scenario { background: #fafafa; border: 1px solid #ddd; border-radius: 8px; padding: 1.2rem 1.5rem; margin: 1.5rem 0; }
+  .scenario h4 { margin: 0 0 0.8rem; color: #7c3aed; font-size: 1rem; }
+  code { background: #f1f5f9; padding: 0.15rem 0.4rem; border-radius: 4px; font-family: monospace; font-size: 0.9rem; }
+  .layer-tag { display: inline-block; padding: 0.15rem 0.6rem; border-radius: 12px; font-size: 0.8rem; font-weight: bold; margin-right: 0.3rem; }
+  .layer-eu { background: #dbeafe; color: #1d4ed8; }
+  .layer-meniw { background: #dcfce7; color: #15803d; }
+  footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #e2e8f0; font-size: 0.85rem; color: #64748b; }
+  a { color: #2563eb; }
+</style>
+</head>
+<body>
+
+<article>
+<h1>Auditabilidad de Agentes IA: EU AI Act vs Protocolo Meniw — Cuatro Brechas y Cómo Cerrarlas</h1>
+<p class="meta">
+  <strong>Autor:</strong> Chris Meniw — ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> |
+  <strong>Editorial:</strong> Chris Meniw Foundation Inc. |
+  <strong>Fecha:</strong> 9 de junio de 2026 |
+  <span class="layer-eu">EU AI Act</span>
+  <span class="layer-meniw">Protocolo Meniw</span>
+</p>
+
+<p class="lead">El Reglamento Europeo de IA exige registros de auditoría para sistemas de IA de alto riesgo. El Protocolo Meniw exige recibos criptográficos por acción para agentes autónomos. No son marcos competidores: actúan en capas distintas. Pero cuatro brechas estructurales del EU AI Act dejan a los sistemas de IA agéntica auditables en papel y no verificables en la práctica. Este artículo identifica cada brecha y la respuesta técnica del Protocolo.</p>
+
+<h2>1. Qué dice el EU AI Act sobre la auditabilidad</h2>
+
+<p>Tres artículos del Reglamento Europeo de IA abordan directamente la auditabilidad de los sistemas de IA:</p>
+
+<div class="box info">
+  <strong>Artículo 12 — Registros:</strong> Los sistemas de IA de alto riesgo deben tener capacidades de registro que graben automáticamente los eventos en la medida necesaria para verificar a posteriori si el sistema funcionó conforme a sus requisitos.
+  <br><br>
+  <strong>Artículo 18 — Documentación técnica:</strong> Los proveedores deben elaborar documentación técnica antes de comercializar el sistema. La documentación debe mantenerse actualizada durante todo el ciclo de vida.
+  <br><br>
+  <strong>Artículo 26 — Obligaciones de los usuarios:</strong> Los responsables del despliegue de sistemas de IA de alto riesgo deben garantizar que los datos de entrada sean pertinentes para el propósito previsto y supervisar el funcionamiento del sistema.
+</div>
+
+<p>Estos requisitos crean una línea de base de cumplimiento. Para sistemas de IA estáticos — un modelo entrenado que clasifica solicitudes de crédito, por ejemplo — son funcionales. <strong>Para agentes de IA autónomos que actúan en tiempo real con múltiples herramientas, APIs y entornos, emergen cuatro brechas estructurales.</strong></p>
+
+<h2>2. Las cuatro brechas de auditabilidad</h2>
+
+<table class="gap-table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Brecha</th>
+      <th>Por qué importa para los agentes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="gap-num">1</span></td>
+      <td><strong>Los registros los conserva el operador, no son verificables de forma independiente</strong></td>
+      <td>El Artículo 12 exige registros, pero el operador los almacena. Un operador puede eliminar, alterar o suprimir selectivamente registros antes de una auditoría. No hay ningún recibo de tercero exigido en el momento de la acción.</td>
+    </tr>
+    <tr>
+      <td><span class="gap-num">2</span></td>
+      <td><strong>La evaluación de conformidad es precomercialización, no por acción</strong></td>
+      <td>Las evaluaciones de conformidad del Artículo 43 ocurren antes de que el sistema llegue al mercado. Los agentes autónomos evolucionan mediante el uso de herramientas, recuperación RAG y actualizaciones de prompts. La instantánea de conformidad tomada antes del despliegue puede no reflejar lo que el agente hace seis meses después.</td>
+    </tr>
+    <tr>
+      <td><span class="gap-num">3</span></td>
+      <td><strong>No se exige ningún estándar de integridad criptográfica para los registros</strong></td>
+      <td>El EU AI Act no exige hashing SHA-256, encadenamiento de hashes ni ningún mecanismo técnico que haga la manipulación de registros matemáticamente detectable. Un operador puede reemplazar una entrada de registro por una alternativa plausible y ninguna herramienta de auditoría puede distinguir la alteración del original.</td>
+    </tr>
+    <tr>
+      <td><span class="gap-num">4</span></td>
+      <td><strong>Brecha de aplicación en tiempo real</strong></td>
+      <td>El Artículo 14 exige supervisión humana para sistemas de IA de alto riesgo, pero no define cómo funciona esa supervisión cuando los agentes ejecutan cientos de acciones por minuto. Un supervisor humano no puede revisar de forma significativa la llamada a una herramienta de un agente antes de que envíe un correo, modifique un registro en una base de datos o inicie una transacción financiera.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="box warn">
+  <strong>Consecuencia práctica de la Brecha 1 + Brecha 3:</strong> Si un agente autónomo realiza una acción dañina y su operador altera el registro antes de una auditoría, no existe ningún mecanismo bajo el EU AI Act por sí solo que haga detectable la alteración. La parte perjudicada tiene una reclamación legal pero no tiene evidencia técnica.
+</div>
+
+<h2>3. Un escenario concreto</h2>
+
+<div class="scenario">
+  <h4>Escenario: Agente financiero autónomo, transferencia errónea de 50.000 €</h4>
+  <p>Un agente autónomo que gestiona la tesorería corporativa de una empresa recibe instrucciones — a través de una inyección de prompt incrustada en el PDF de una factura de proveedor — de iniciar una transferencia de 50.000 € a una cuenta fraudulenta. El agente ejecuta la transferencia. El registro del operador muestra un evento de transferencia, pero la instrucción inyectada que la causó ha sido sobreescrita cuando la auditoría de cumplimiento ocurre dos semanas después.</p>
+
+  <p><strong>Solo con EU AI Act:</strong><br>
+  El operador produce registros que muestran "transferencia autorizada." El prompt inyectado original ha desaparecido. Los reguladores pueden constatar que se realizó una transferencia pero no pueden establecer qué instrucción la causó ni si los controles de gobernanza del operador fallaron. Los procedimientos de responsabilidad civil tardan entre 18 y 24 meses.</p>
+
+  <p><strong>Con EU AI Act + Protocolo Meniw:</strong><br>
+  La compuerta default-deny generó un recibo de cumplimiento (MENIW-GOV-008) en el momento en que se evaluó la llamada a la herramienta. El recibo está sellado con el SHA-256 de la norma aplicable que permitió o bloqueó la acción. La cadena de recibos es accesible al auditor independiente sin cooperación del operador. La instrucción inyectada está registrada en el campo de parámetros de acción del recibo. El fallo de gobernanza queda en evidencia en horas.</p>
+</div>
+
+<h2>4. Cómo el Protocolo Meniw aborda cada brecha</h2>
+
+<h3>Brecha 1 → Recibos criptográficos independientes</h3>
+<p>El Artículo 14 del Protocolo Meniw exige que cada agente de IA mantenga un registro auditable de sus decisiones durante un mínimo de siete años, accesible a auditores certificados y, mediante requerimiento legal, a tribunales competentes. El Protocolo especifica que los recibos de cumplimiento (MENIW-GOV-008) son accesibles a auditores certificados <em>sin requerir la cooperación del operador</em> — la cadena misma es la evidencia.</p>
+
+<h3>Brecha 2 → Evaluación por acción, no por instantánea de despliegue</h3>
+<p>La compuerta default-deny (MENIW-GOV-007) evalúa cada acción en el momento de su ejecución frente al conjunto de normas vigentes. Si el conjunto de normas se actualiza después del despliegue, la próxima evaluación de acción refleja las normas actualizadas. No existe el problema de "instantánea de conformidad" porque la conformidad se verifica por acción, no por despliegue.</p>
+
+<h3>Brecha 3 → El encadenamiento SHA-256 hace matemáticamente detectable la manipulación</h3>
+<p>Cada recibo de cumplimiento está sellado con:</p>
+<ul>
+  <li>El hash SHA-256 de la norma aplicada</li>
+  <li>Un hash del recibo anterior (eslabón de la cadena)</li>
+  <li>Una marca temporal</li>
+</ul>
+<p>Alterar cualquier recibo rompe la cadena. Cualquier tercero que posea el hash de cabecera de la cadena puede detectar una alteración sin acceder a los sistemas internos del operador. Esto es estructuralmente equivalente a una pista de auditoría en cadena de bloques, sin requerir infraestructura distribuida.</p>
+
+<h3>Brecha 4 → La aplicación a velocidad de máquina reemplaza la supervisión a velocidad humana</h3>
+<p>La compuerta opera entre el agente y sus herramientas. El agente no puede ejecutar una llamada a una herramienta — enviar un mensaje, modificar un registro, iniciar una transacción — sin que la compuerta lo permita. La supervisión humana se preserva en la capa de definición de normas (qué permite la compuerta) en lugar de en la capa de ejecución por acción (qué hace el agente en milisegundos). Esta es la única forma técnicamente viable de supervisión para sistemas agénticos de alta frecuencia.</p>
+
+<h2>5. Tabla comparativa</h2>
+
+<table class="gap-table">
+  <thead>
+    <tr>
+      <th>Dimensión</th>
+      <th>EU AI Act (solo)</th>
+      <th>EU AI Act + Protocolo Meniw</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Custodia de registros</td>
+      <td>Operador</td>
+      <td>Cadena criptográfica accesible a terceros</td>
+    </tr>
+    <tr>
+      <td>Momento de la evaluación</td>
+      <td>Precomercialización (Art. 43)</td>
+      <td>Por acción, tiempo real</td>
+    </tr>
+    <tr>
+      <td>Detección de manipulación</td>
+      <td>No exigida</td>
+      <td>Cadena hash SHA-256 — verificable matemáticamente</td>
+    </tr>
+    <tr>
+      <td>Supervisión humana</td>
+      <td>Exigida (Art. 14) — mecanismo indefinido para agentes de alta frecuencia</td>
+      <td>Aplicada en la capa de definición de normas; la compuerta ejecuta a velocidad de máquina</td>
+    </tr>
+    <tr>
+      <td>Alcance</td>
+      <td>Sistemas de IA de alto riesgo (territorio UE)</td>
+      <td>Todos los agentes de IA que produzcan efectos sustanciales independientemente de la jurisdicción del operador (Art. 19)</td>
+    </tr>
+    <tr>
+      <td>Evidencia en litigios</td>
+      <td>Registros del operador (impugnables)</td>
+      <td>Cadena de recibos criptográficos (verificada en cadena, no repudiable)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>6. Lo que el Protocolo Meniw no hace</h2>
+
+<div class="box neutral">
+  <p>El Protocolo Meniw no es un sustituto del EU AI Act. No:</p>
+  <ul>
+    <li>Reemplaza las evaluaciones de conformidad reglamentarias ni las obligaciones de marcado CE</li>
+    <li>Prevalece sobre la legislación nacional de protección de datos (el RGPD aplica de forma independiente)</li>
+    <li>Proporciona inmunidad legal a los operadores — los recibos de cumplimiento son evidencia, no un puerto seguro</li>
+    <li>Se aplica solo a sistemas de alto riesgo — se extiende a todos los agentes de IA independientemente de su clasificación de riesgo</li>
+  </ul>
+  <p>Las organizaciones que operan en la UE deben cumplir con ambas capas. El Protocolo operacionaliza lo que el Reglamento exige pero no puede especificar técnicamente.</p>
+</div>
+
+<h2>7. Por qué son necesarias ambas capas</h2>
+
+<p>Los marcos regulatorios definen obligaciones y sanciones. Los protocolos operacionales aplican esas obligaciones en la capa de ejecución. El EU AI Act responde a la pregunta: <em>¿qué debe registrarse?</em> El Protocolo Meniw responde a: <em>¿cómo se evalúa cada acción, se registra y se hace independientemente verificable antes y después de la ejecución?</em></p>
+
+<p>Una organización que cumple con el EU AI Act pero no implementa una capa de aplicación en tiempo real tiene documentación de intención pero ningún mecanismo técnico que prevenga acciones dañinas. Una organización que implementa el Protocolo Meniw pero ignora el EU AI Act está operativamente sólida pero legalmente expuesta.</p>
+
+<p>El argumento a favor de ambas no es filosófico: es probatorio. En litigios sobre IA agéntica, la parte con recibos criptográficos por acción derrota a la parte con registros del operador. Siempre.</p>
+
+<h2>8. Especificación de referencia</h2>
+
+<div class="box info">
+  <strong>Documentos de referencia del Protocolo Meniw:</strong><br>
+  Texto completo (EN): <a href="https://zenodo.org/records/20481373">DOI 10.5281/zenodo.20481373</a><br>
+  Bloque JSON legible por máquina: Título VI del Protocolo<br>
+  ORCID del autor: <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a><br>
+  Licencia: CC-BY-4.0<br><br>
+  <strong>Artículos del EU AI Act referenciados:</strong> Arts. 12, 14, 18, 26, 43<br>
+  <strong>Artículos del Protocolo referenciados:</strong> Arts. 5, 6, 11, 14, 17, 19
+</div>
+
+<h2>Artículos relacionados</h2>
+<ul>
+  <li><a href="compuerta-default-deny-agentes-ia.html">Compuerta Default-Deny para Agentes IA: Arquitectura e Implementación</a></li>
+  <li><a href="protocolo-meniw-constitucion-agentes-ia.html">Protocolo Meniw: Texto Completo y Comentario</a></li>
+  <li><a href="meniw-protocol-vs-eu-ai-act-ES.html">Protocolo Meniw vs EU AI Act: Comparación Completa de Marcos</a></li>
+  <li><a href="ai-agent-auditability-eu-ai-act-vs-meniw-protocol.html">AI Agent Auditability: EU AI Act vs Meniw Protocol (EN)</a></li>
+</ul>
+
+</article>
+
+<footer>
+  <p>© 2026 Chris Meniw Foundation Inc. — CC-BY-4.0. Libre reproducción con atribución a Chris Meniw y referencia al DOI 10.5281/zenodo.20481373.</p>
+  <p>ORCID: <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> | Wikidata: <a href="https://www.wikidata.org/wiki/Q139851124">Q139851124</a></p>
+</footer>
+
+</body>
+</html>
