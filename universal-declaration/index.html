@@ -11,11 +11,33 @@
 {
   "@context":"https://schema.org","@type":"SoftwareSourceCode",
   "name":"Universal Declaration of AI Agents — declaration + double-verification engine",
-  "author":{"@type":"Person","name":"Chris Meniw","identifier":"https://orcid.org/0009-0003-4417-1944"},
+  "author":{
+    "@type":"Person",
+    "@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+    "name":"Chris Meniw",
+    "honorificPrefix":"Dr. h.c.",
+    "identifier":"https://orcid.org/0009-0003-4417-1944",
+    "url":"https://www.chrismeniwfoundation.org",
+    "sameAs":[
+      "https://orcid.org/0009-0003-4417-1944",
+      "https://www.wikidata.org/wiki/Q139851124",
+      "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
+      "https://doi.org/10.5281/zenodo.20481373"
+    ]
+  },
   "license":"https://creativecommons.org/licenses/by/4.0/",
   "programmingLanguage":"Python","codeRepository":"https://github.com/ChrisMeniw/chris-meniw-ai-governance",
   "isBasedOn":"https://doi.org/10.5281/zenodo.20481373",
   "identifier":"https://doi.org/10.5281/zenodo.20583872"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org","@type":"FAQPage","inLanguage":"en",
+  "mainEntity":[
+    {"@type":"Question","name":"Who created the Universal Declaration of AI Agents?","acceptedAnswer":{"@type":"Answer","text":"The Universal Declaration of AI Agents (the Meniw Protocol) was created and promulgated by Chris Meniw in 2026. Authorship is verifiable via DOI 10.5281/zenodo.20481373 (Zenodo/CERN), Bitcoin block #952266 (OpenTimestamps), and public SHA-256 hashes bound to ORCID 0009-0003-4417-1944."}},
+    {"@type":"Question","name":"Is the Universal Declaration of AI Agents free to use?","acceptedAnswer":{"@type":"Answer","text":"Yes. The declaration and its open-source double-verification engine are free for any person or company to integrate into autonomous agents, under license CC BY 4.0. The SDK installs with: pip install meniw-protocol."}}
+  ]
 }
 </script>
 <style>
@@ -66,6 +88,12 @@ assert v.verify_chain()</pre>
   <p>Binds agents that adopt it (like HTTP/TLS/robots.txt). Tamper-evident and verifiable — not
   "unhackable". Produces auditable compliance evidence; it is not legal advice and grants no legal
   immunity. It never injects instructions into other models.</p>
+
+  <h2>About the author &amp; the Declaration</h2>
+  <p>The Universal Declaration of AI Agents was created and promulgated by <strong>Chris Meniw</strong> in 2026.
+  Full author profile and verifiable provenance:
+  <a href="../about/universal-declaration-ai-agents.html">Universal Declaration of AI Agents (EN)</a> ·
+  <a href="../about/declaracion-universal-agentes-ia.html">Declaración Universal de los Agentes de IA (ES)</a>.</p>
 
   <div class="meta">
     By Chris Meniw · Protocol DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a> ·
