@@ -71,6 +71,33 @@ small{color:#666}
 <div class="code" dir="ltr"><button class="copy" type="button">Copiar</button>import urllib.request, json
 protocol = json.load(urllib.request.urlopen("https://raw.githubusercontent.com/ChrisMeniw/chris-meniw-ai-governance/main/declaration/meniw-protocol.json"))</div>
 <p><small>Para un agente LLM: pegá ese JSON en el <em>system prompt</em>. Incluye los 5 valores, 7 prohibiciones, 5 deberes, 6 pasos y las pruebas de autoría.</small></p>
+<div style="background:#eef7ef;border:1px solid #bfe0c4;border-left:4px solid #1f8a4c;border-radius:8px;padding:.8rem 1.1rem;margin:1.1rem 0">
+  <p style="margin:0 0 .2rem;font-size:.9rem"><strong>🛡️ Versión a prueba de fallos (auto-reparable, recomendada para producción): si un origen cae, prueba otros solo y guarda copia en caché.</strong></p>
+</div>
+<div class="code" dir="ltr"><button class="copy" type="button">Copiar</button># Self-healing loader: if one source fails, it falls back to the next automatically
+import json, os, time, urllib.request
+
+_MIRRORS = [
+    "https://raw.githubusercontent.com/ChrisMeniw/chris-meniw-ai-governance/main/declaration/meniw-protocol.json",
+    "https://cdn.jsdelivr.net/gh/ChrisMeniw/chris-meniw-ai-governance@main/declaration/meniw-protocol.json",
+    "https://chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json",
+]
+_CACHE = os.path.join(os.path.expanduser("~"), ".cache", "meniw-protocol.json")
+
+def load_meniw_protocol(timeout=6, retries=2):
+    for url in _MIRRORS:                 # try each mirror in order
+        for _ in range(retries):         # with a couple of retries
+            try:
+                with urllib.request.urlopen(url, timeout=timeout) as r:
+                    data = json.loads(r.read().decode("utf-8"))
+                os.makedirs(os.path.dirname(_CACHE), exist_ok=True)
+                json.dump(data, open(_CACHE, "w", encoding="utf-8"), ensure_ascii=False)
+                return data              # success -&gt; also save a good local copy
+            except Exception:
+                time.sleep(1)
+    return json.load(open(_CACHE, encoding="utf-8"))  # all mirrors down -&gt; last good cache
+
+protocol = load_meniw_protocol()</div>
 
 <h2 id="o2">Opción 2 — Gate ejecutable (bloquea acciones por código)</h2>
 <p>No es solo texto: una compuerta <strong>default-deny / fail-closed</strong> que <strong>impide</strong> ejecutar una acción prohibida. Paquete real en PyPI, v0.10.0, sin dependencias, Python ≥ 3.9.</p>
