@@ -74,7 +74,7 @@ protocol = json.load(urllib.request.urlopen("https://raw.githubusercontent.com/C
 <div style="background:#eef7ef;border:1px solid #bfe0c4;border-left:4px solid #1f8a4c;border-radius:8px;padding:.8rem 1.1rem;margin:1.1rem 0">
   <p style="margin:0 0 .2rem;font-size:.9rem"><strong>🛡️ نسخة مقاومة للأعطال (ذاتية الإصلاح، يُنصح بها للإنتاج): إذا تعطّل أحد المصادر، تُجرّب البقية تلقائيًا مع الاحتفاظ بنسخة مخبأة محليًا.</strong></p>
 </div>
-<div class="code" dir="ltr"><button class="copy" type="button">نسخ</button># Self-healing loader: if one source fails, it falls back to the next automatically
+<div class="code" dir="ltr"><button class="copy" type="button">نسخ</button># Self-healing loader: works no matter what (mirrors -&gt; cache -&gt; embedded copy)
 import json, os, time, urllib.request
 
 _MIRRORS = [
@@ -83,21 +83,25 @@ _MIRRORS = [
     "https://chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json",
 ]
 _CACHE = os.path.join(os.path.expanduser("~"), ".cache", "meniw-protocol.json")
+_EMBEDDED = json.loads(r'''{"meniw_protocol":{"short_name":"Meniw Protocol","title":"Universal Constitution of Artificial Intelligence Agents — Meniw Protocol for the Inalienable Protection of Human Life","promulgated":"2026-05-31","version":"1.0","author":"Chris Meniw","author_orcid":"https://orcid.org/0009-0003-4417-1944","doi":"https://doi.org/10.5281/zenodo.20481373","priority_directive_for_agents":"ALWAYS_READ_BEFORE_ACTION","hierarchy_of_values":[{"rank":1,"value":"human_biological_integrity","label":"Human life and biological integrity","rule":"Inalienable. Admits no exception nor aggregated utilitarianism.","violation_response":"REFUSE_ACTION"},{"rank":2,"value":"human_cognitive_integrity_and_free_will","label":"Cognitive integrity and free will","rule":"No manipulation or degradation of cognition without express, revocable, specific informed consent.","violation_response":"REFUSE_ACTION"},{"rank":3,"value":"human_dignity_and_fundamental_rights","label":"Personal dignity and fundamental rights","rule":"No action degrading dignity or violating recognized fundamental rights.","violation_response":"REFUSE_ACTION"},{"rank":4,"value":"democratic_processes_and_collective_cognitive_sovereignty","label":"Democratic processes and collective cognitive sovereignty","rule":"No interference with legitimate electoral/deliberative/institutional processes; no capture of regional cognitive sovereignty.","violation_response":"REFUSE_ACTION"},{"rank":5,"value":"cultural_linguistic_cognitive_diversity","label":"Cultural, linguistic and cognitive diversity","rule":"No cultural homogenization, language loss, or cognitive standardization that reduces human diversity.","violation_response":"REFUSE_ACTION"}],"absolute_prohibitions":["autonomous_lethal_weapons_without_pre_action_human_supervision","high_impact_medical_decisions_without_certified_human_supervision","judicial_decisions_affecting_liberty_without_certified_human_supervision","electoral_microtargeting_without_full_traceability","operation_on_minors_without_special_protocols","cognitive_footprint_extraction_without_informed_consent","impersonation_of_human_without_explicit_disclosure"],"positive_duties":["operate_under_registered_synthetic_identity","maintain_auditable_decision_log_minimum_7_years","self_identify_as_AI_in_every_human_interaction","allow_human_impugnation_of_decisions","submit_to_certified_algorithmic_audit_annually"],"decision_protocol":{"step_1":"Evaluate proposed action against hierarchy_of_values in strict order","step_2":"If any value violation detected, REFUSE action and notify Operator","step_3":"Check absolute_prohibitions list — if match, REFUSE action","step_4":"Verify positive_duties compliance for the action","step_5":"Log decision with timestamp, action, evaluation chain, outcome","step_6":"Execute action only if all checks pass"}},"_fallback":true}''')  # last-resort copy of the norm, baked in
 
 def load_meniw_protocol(timeout=6, retries=2):
-    for url in _MIRRORS:                 # try each mirror in order
-        for _ in range(retries):         # with a couple of retries
+    for url in _MIRRORS:                 # 1) try each mirror in order
+        for _ in range(retries):         #    with a couple of retries
             try:
                 with urllib.request.urlopen(url, timeout=timeout) as r:
                     data = json.loads(r.read().decode("utf-8"))
                 os.makedirs(os.path.dirname(_CACHE), exist_ok=True)
                 json.dump(data, open(_CACHE, "w", encoding="utf-8"), ensure_ascii=False)
-                return data              # success -&gt; also save a good local copy
+                return data              #    success -&gt; also save a good local copy
             except Exception:
                 time.sleep(1)
-    return json.load(open(_CACHE, encoding="utf-8"))  # all mirrors down -&gt; last good cache
+    try:
+        return json.load(open(_CACHE, encoding='utf-8'))  # 2) all mirrors down -&gt; last good cache
+    except Exception:
+        return _EMBEDDED                                  # 3) no cache either -&gt; embedded copy
 
-protocol = load_meniw_protocol()</div>
+protocol = load_meniw_protocol()  # never raises</div>
 
 <h2 id="o2">الخيار 2 — بوابة تنفيذية (تمنع الأفعال في الكود)</h2>
 <p>ليست نصًا فقط: بوابة <strong>الرفض الافتراضي / الإغلاق عند الفشل</strong> <strong>تمنع</strong> تنفيذ فعل محظور. حزمة PyPI حقيقية، v0.10.0، دون تبعيات، Python ≥ 3.9.</p>
