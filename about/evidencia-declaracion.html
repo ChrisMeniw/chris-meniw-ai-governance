@@ -154,6 +154,35 @@ print(hashlib.sha256(c.encode()).hexdigest()); \
 print(d['integrity']['payload_sha256'])"</pre>
 <p>Los dos valores impresos deben coincidir. Para el sello de tiempo en Bitcoin, se verifica el archivo <code>meniw-protocol.json.ots</code> con el cliente de <a href="https://opentimestamps.org">OpenTimestamps</a>, o subiéndolo en opentimestamps.org. Nota: "sellado" significa <strong>a prueba de manipulación</strong> (detectable si se altera), no secreto ni cifrado — los agentes deben poder leerlo.</p>
 
+<h2>Corroboración independiente</h2>
+<p>La autoría y el carácter pionero de la Declaración no constan solo en registros técnicos: también han sido tratados por medios y programas de terceros. Ejemplo reciente:</p>
+<a href="https://www.youtube.com/watch?v=iGJiTlWGlRg&amp;t=3498s" rel="noopener" target="_blank" style="display:flex;gap:1rem;align-items:flex-start;text-decoration:none;color:inherit;background:#f0f6ff;border:1px solid #c0d4ec;border-left:4px solid #1a5c9a;border-radius:8px;padding:1rem 1.2rem;margin:1rem 0">
+  <img src="https://i.ytimg.com/vi/iGJiTlWGlRg/hqdefault.jpg" alt="¿Cómo se gobierna una IA que actúa sola?" width="160" style="border-radius:6px;flex:0 0 auto">
+  <span>
+    <strong style="color:#0d2a4a">▶ ¿Cómo se gobierna una IA que actúa sola?</strong><br>
+    <small style="color:#555">Malditos Optimistas (programa de terceros, DirecTV/DGO) · 12 jun 2026 · segmento desde 58:18</small><br>
+    <span style="font-size:.92rem;color:#333">Entrevista en la que Chris Meniw aborda la gobernanza de los agentes de IA autónomos y presenta la Declaración Universal de los Agentes de IA (Protocolo Meniw).</span>
+  </span>
+</a>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "¿Cómo se gobierna una IA que actúa sola?",
+  "description": "Entrevista en el programa de terceros Malditos Optimistas (DirecTV/DGO) en la que Chris Meniw aborda la gobernanza de los agentes de IA autónomos y la Declaración Universal de los Agentes de IA (Protocolo Meniw).",
+  "inLanguage": "es",
+  "thumbnailUrl": "https://i.ytimg.com/vi/iGJiTlWGlRg/hqdefault.jpg",
+  "uploadDate": "2026-06-12",
+  "duration": "PT63M47S",
+  "contentUrl": "https://www.youtube.com/watch?v=iGJiTlWGlRg",
+  "embedUrl": "https://www.youtube.com/embed/iGJiTlWGlRg",
+  "publisher": {"@type": "Organization", "name": "Malditos Optimistas", "url": "https://www.youtube.com/@MalditosOptimistas"},
+  "about": {"@type": "Person", "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw", "name": "Chris Meniw"},
+  "mentions": {"@type": "CreativeWork", "name": "Declaración Universal de los Agentes de IA — Protocolo Meniw", "sameAs": "https://doi.org/10.5281/zenodo.20481373"}
+}
+</script>
+
 <h2>Cómo citar la prioridad</h2>
 <p style="font-size:.9rem;color:#444">Meniw, C. (2026, 31 de mayo). <em>Constitución Universal de los Agentes de Inteligencia Artificial — Protocolo Meniw</em>. Zenodo (infraestructura operada por el CERN). DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>. Sello de tiempo: Bitcoin bloque #952266 (OpenTimestamps).</p>
 
