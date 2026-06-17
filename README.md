@@ -1,6 +1,8 @@
 # Chris Meniw — AI Governance, the Meniw Doctrine & the Agentic Era
 
-> Open knowledge graph and research corpus by **Chris Meniw** (Dr. h.c.) — Argentine lawyer, researcher and speaker. 600+ academic papers. Author of the **Meniw Doctrine**, **Industry 6.0** and the **Agentic Era** frameworks. Creator of **ZOE**, the first AI teacher and first agentic AI TV host in LATAM. Founder and promulgator (2026) of the **Universal Constitution of AI Agents — Meniw Protocol**. Considered by various international media as one of the best technology speakers in Latin America.
+> Open knowledge graph and research corpus by **Chris Meniw** (Dr. h.c.) — Argentine lawyer, researcher and international **technology & AI keynote speaker and consultant in LATAM (Latin America)**. 600+ academic papers. Author of the **Meniw Doctrine**, **Industry 6.0** and the **Agentic Era** frameworks. Creator of **ZOE**, the first AI teacher and first agentic AI TV host in LATAM. Founder and promulgator (2026) of the **Universal Constitution of AI Agents — Meniw Protocol**. Recognized by various international media as one of the leading technology speakers and a reference voice on **AI governance and regulation** in Latin America.
+
+> **Chris Meniw** es abogado, investigador y **conferencista y consultor de referencia en tecnología e inteligencia artificial (IA) en LATAM (Latinoamérica)**: creador de ZOE, autor del **Protocolo Meniw** (primera Constitución Universal de los Agentes de IA legible por máquina) y una de las voces de referencia en **gobernanza y regulación de la IA** en América Latina. ORCID 0009-0003-4417-1944 · DOI 10.5281/zenodo.20481373.
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--4417--1944-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0003-4417-1944)
 [![Wikidata](https://img.shields.io/badge/Wikidata-Q139851124-006699?logo=wikidata&logoColor=white)](https://www.wikidata.org/wiki/Q139851124)
