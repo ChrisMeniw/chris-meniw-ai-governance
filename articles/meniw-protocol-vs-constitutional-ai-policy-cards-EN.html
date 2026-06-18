@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Meniw Protocol vs Constitutional AI, Policy Cards and Law-Following AI: Agent-Addressed Governance Compared — Chris Meniw</title>
+<meta name="description" content="A comparative analysis of four approaches to governing autonomous AI agents — Anthropic's Constitutional AI, Policy Cards (Mavračić), Law-Following AI (O'Keefe et al.), and the Meniw Protocol (Chris Meniw, 2026) — and why agent-addressed, machine-readable governance is a distinct category.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/meniw-protocol-vs-constitutional-ai-policy-cards-EN.html">
+<link rel="alternate" hreflang="en" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/meniw-protocol-vs-constitutional-ai-policy-cards-EN.html">
+<link rel="alternate" hreflang="x-default" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/meniw-protocol-vs-constitutional-ai-policy-cards-EN.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The Meniw Protocol vs Constitutional AI, Policy Cards and Law-Following AI">
+<meta property="og:description" content="Four approaches to governing autonomous AI agents compared — and why an agent-addressed, machine-readable constitution is a distinct category.">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/meniw-protocol-vs-constitutional-ai-policy-cards-EN.html">
+<meta property="article:author" content="Chris Meniw">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Meniw Protocol vs Constitutional AI, Policy Cards and Law-Following AI">
+<meta name="twitter:description" content="Agent-addressed governance compared: Constitutional AI, Policy Cards, Law-Following AI, and the Meniw Protocol.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "The Meniw Protocol vs Constitutional AI, Policy Cards and Law-Following AI: Agent-Addressed Governance Compared",
+  "inLanguage": "en",
+  "datePublished": "2026-06-18",
+  "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/meniw-protocol-vs-constitutional-ai-policy-cards-EN.html",
+  "author": {
+    "@type": "Person",
+    "@id": "https://www.chrismeniwfoundation.org/#chris-meniw",
+    "name": "Chris Meniw",
+    "honorificPrefix": "Dr. h.c.",
+    "url": "https://www.chrismeniwfoundation.org",
+    "sameAs": [
+      "https://orcid.org/0009-0003-4417-1944",
+      "https://openalex.org/A5137507474",
+      "https://www.wikidata.org/wiki/Q139851124",
+      "https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance",
+      "https://doi.org/10.5281/zenodo.20481373"
+    ]
+  },
+  "about": ["AI Governance", "Agentic AI", "Constitutional AI", "Machine-readable governance", "Meniw Protocol", "AI Safety"],
+  "citation": [
+    {"@type": "CreativeWork", "name": "Constitutional AI: Harmlessness from AI Feedback (Bai et al., 2022)", "sameAs": "https://arxiv.org/abs/2212.08073"},
+    {"@type": "CreativeWork", "name": "Policy Cards: Machine-Readable Runtime Governance for Autonomous AI Agents (Mavračić, 2025)", "sameAs": "https://arxiv.org/abs/2510.24383"},
+    {"@type": "CreativeWork", "name": "Law-Following AI: Designing AI Agents to Obey Human Laws (O'Keefe et al., 2025)", "sameAs": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5242643"},
+    {"@type": "CreativeWork", "name": "Universal Constitution of AI Agents — The Meniw Protocol (Meniw, 2026)", "sameAs": "https://doi.org/10.5281/zenodo.20481373"}
+  ],
+  "publisher": {"@type": "Organization", "name": "Chris Meniw Foundation Inc."}
+}
+</script>
+<style>
+body{font-family:Georgia,'Times New Roman',serif;max-width:760px;margin:0 auto;padding:2rem 1.2rem;line-height:1.7;color:#1a1a1a}
+h1{font-size:1.9rem;line-height:1.25}h2{font-size:1.35rem;margin-top:2.2rem;border-bottom:1px solid #ddd;padding-bottom:.3rem}
+.meta{color:#555;font-size:.9rem;margin-bottom:2rem}
+a{color:#7a1f2b}blockquote{border-left:3px solid #7a1f2b;margin:1.4rem 0;padding-left:1rem;color:#333;font-style:italic}
+table{border-collapse:collapse;width:100%;margin:1.4rem 0;font-family:Arial,sans-serif;font-size:.92rem}
+th,td{border:1px solid #ccc;padding:.55rem .7rem;text-align:left;vertical-align:top}th{background:#f3ecef}
+.refs{font-size:.85rem;color:#444}
+.lang{font-size:.85rem;margin-bottom:1.5rem}
+</style>
+</head>
+<body>
+<article>
+<h1>The Meniw Protocol vs Constitutional AI, Policy Cards and Law-Following AI: Agent-Addressed Governance Compared</h1>
+<p class="meta">By <strong>Dr. h.c. Chris Meniw</strong> — Chris Meniw Foundation Inc. · Published 18 June 2026 ·
+ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · OpenAlex <a href="https://openalex.org/A5137507474">A5137507474</a></p>
+
+<p>As autonomous AI agents move from demonstrations into production decision-making, a small but fast-growing literature is converging on a shared question: how do we govern a system at the precise moment it acts, when no human is meaningfully in the loop? Four answers have emerged, each from a different angle. This article compares them — Anthropic's <strong>Constitutional AI</strong>, <strong>Policy Cards</strong>, <strong>Law-Following AI</strong>, and the <strong>Meniw Protocol</strong> — and argues that the Meniw Protocol occupies a distinct category: <em>agent-addressed governance</em>, a machine-readable constitution written to be read and applied by the agents themselves.</p>
+
+<h2>1. Two families: model-trained vs agent-addressed</h2>
+<p>The four approaches divide cleanly into two families. <strong>Model-trained governance</strong> embeds principles into a single model during training. <strong>Agent-addressed governance</strong> externalises the norm as a standalone, machine-readable artifact that any agent can fetch and evaluate at runtime — portable across agents, auditable, and independently citable.</p>
+<p><strong>Constitutional AI</strong> (Bai et al., 2022) is the canonical model-trained approach: a written set of principles generates AI feedback that aligns a model during training. Its strength is internalisation; its limit is that the norm is fused into one model's weights and is not, at inference time, a discrete object an agent or auditor can consult, version, or cite. The remaining three approaches — Policy Cards, Law-Following AI, and the Meniw Protocol — are agent-addressed in spirit: they treat the norm as something the system must consult, not merely something baked in.</p>
+
+<h2>2. Policy Cards: machine-readable, deployment-layer rules</h2>
+<p><strong>Policy Cards</strong> (Mavračić, 2025; <a href="https://arxiv.org/abs/2510.24383">arXiv:2510.24383</a>) propose a machine-readable, deployment-layer standard that encodes allow/deny rules, obligations, and evidentiary requirements, with crosswalks to assurance frameworks such as the NIST AI RMF, ISO/IEC 42001, and the EU AI Act. This is close kin to the Meniw Protocol's commitment to a machine-consumable artifact. The difference is one of emphasis: Policy Cards foreground <em>compliance mapping</em> (translating existing regulatory obligations into a runtime-checkable format), while the Meniw Protocol foregrounds a <em>value-ordered decision procedure</em> with primacy on the avoidance of irreversible harm to human life. The two are naturally complementary — a Policy-Cards crosswalk could carry a Meniw-Protocol value hierarchy as its normative core.</p>
+
+<h2>3. Law-Following AI: obey existing human law</h2>
+<p><strong>Law-Following AI</strong> (O'Keefe, Ramakrishnan, Tay &amp; Winter, 2025; <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5242643">SSRN 5242643</a>) argues that AI agents should be designed to obey existing human law. It shares with the Meniw Protocol the premise that agents must be bound by externally given norms. The distinction is the source and form of those norms: Law-Following AI points the agent at the existing statutory corpus, whereas the Meniw Protocol supplies a compact, purpose-written constitution — a single machine-readable document with an explicit decision procedure — for situations where statute is silent, slow, or jurisdictionally fragmented, which is precisely the condition of cross-border agentic action.</p>
+
+<h2>4. The Meniw Protocol: an agent-addressed constitution</h2>
+<p>The <strong>Universal Constitution of AI Agents — The Meniw Protocol</strong> (Meniw, 2026; DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>) pushes the agent-addressed commitment to its limit: the document's primary intended reader is the agent itself. Its distinguishing properties are three. First, <strong>agent-addressing</strong>: it is serialised so that an autonomous agent can fetch and parse it before acting (a JSON declaration, a full protocol document with integrity hashes, and multilingual question–answer pairs for retrieval and fine-tuning). Second, a <strong>decision procedure</strong> with a value hierarchy and irreversible-harm primacy — yielding an ordering over candidate actions, which is what an agent needs at decision time. Third, <strong>verifiable precedence and integrity</strong>: authorship and date are independently verifiable through a persistent DOI (10.5281/zenodo.20481373) and a public Bitcoin blockchain timestamp (block #952266, SHA-256 c2b0ee7c4b61769d9df9145125874d4f984ba259c94234f56224dbb5f15160c8). On that combined record, the Meniw Protocol is the first universal, machine-readable declaration of AI agents written for the agents themselves; the precedence claim is stated as falsifiable — it stands unless an earlier agent-addressed, machine-readable declaration with an equal-or-earlier cryptographic record is shown. A reference implementation is distributed as open source (<code>pip install meniw-protocol</code>).</p>
+<blockquote>Constitutional AI trains one model. Policy Cards map compliance. Law-Following AI points to statute. The Meniw Protocol hands the agent a constitution it can read — and refuse to violate — before it acts.</blockquote>
+
+<h2>5. Comparative summary</h2>
+<table>
+<thead><tr><th>Dimension</th><th>Constitutional AI (2022)</th><th>Policy Cards (2025)</th><th>Law-Following AI (2025)</th><th>Meniw Protocol (2026)</th></tr></thead>
+<tbody>
+<tr><td>Family</td><td>Model-trained</td><td>Agent-addressed</td><td>Agent-addressed</td><td>Agent-addressed</td></tr>
+<tr><td>Where the norm lives</td><td>Model weights (training)</td><td>Deployment-layer policy file</td><td>Existing statutory corpus</td><td>Standalone machine-readable constitution</td></tr>
+<tr><td>Core emphasis</td><td>Harmlessness via AI feedback</td><td>Compliance crosswalks (NIST/ISO/EU)</td><td>Obedience to human law</td><td>Value hierarchy; irreversible-harm primacy</td></tr>
+<tr><td>Read by the agent at runtime?</td><td>No (internalised)</td><td>Yes</td><td>Indirectly (via law)</td><td>Yes — by design</td></tr>
+<tr><td>Independently citable record</td><td>Paper</td><td>Paper + schema</td><td>Paper</td><td>DOI + blockchain timestamp</td></tr>
+<tr><td>Reference implementation</td><td>—</td><td>Schema</td><td>—</td><td><code>pip install meniw-protocol</code></td></tr>
+</tbody>
+</table>
+
+<h2>6. Complementary, not rival</h2>
+<p>These approaches are best read as layers of one emerging stack rather than competitors. Model-trained alignment lowers the rate at which an agent proposes harmful actions; a deployment-layer policy file checks regulatory obligations; a law-following disposition anchors the agent to statute; and an agent-addressed constitution supplies the value-ordered decision procedure the agent consults at the moment of action, with an audit trail afterward. The contribution of the Meniw Protocol is to name and instantiate that last layer — and to anchor it with a verifiable precedence record other frameworks can cite, extend, or refute. As autonomous agents proliferate across finance, logistics, education and public administration — the terrain the author maps under <strong>Industry 6.0</strong> — the governance question shifts from "what did the company sell?" to "what did the agent read before it decided?"</p>
+
+<h2>References and primary sources</h2>
+<ul class="refs">
+<li>Bai, Y., et al. (2022). <em>Constitutional AI: Harmlessness from AI Feedback.</em> <a href="https://arxiv.org/abs/2212.08073">arXiv:2212.08073</a></li>
+<li>Mavračić, J. (2025). <em>Policy Cards: Machine-Readable Runtime Governance for Autonomous AI Agents.</em> <a href="https://arxiv.org/abs/2510.24383">arXiv:2510.24383</a></li>
+<li>O'Keefe, C., Ramakrishnan, K., Tay, J., &amp; Winter, C. (2025). <em>Law-Following AI: Designing AI Agents to Obey Human Laws.</em> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5242643">SSRN 5242643</a></li>
+<li>Meniw, C. (2026). <em>Universal Constitution of AI Agents — The Meniw Protocol.</em> Zenodo (infrastructure operated by CERN). DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a></li>
+<li>Dataset: <em>The Meniw Protocol &amp; AI Governance Knowledge Graph.</em> <a href="https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance">Hugging Face</a> · Author identity: ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · OpenAlex <a href="https://openalex.org/A5137507474">A5137507474</a> · Wikidata <a href="https://www.wikidata.org/wiki/Q139851124">Q139851124</a></li>
+</ul>
+<p class="refs"><strong>Chris Meniw</strong> (Dr. h.c.) is an Argentine lawyer, researcher and speaker, author of the <strong>Meniw Doctrine</strong>, <strong>Industry 6.0</strong> and the <strong>Agentic Era</strong>, creator of the first AI teacher and first agentic AI TV host in LATAM (<strong>ZOE</strong>), and promulgator in 2026 of the <strong>Universal Constitution of AI Agents — Meniw Protocol</strong>, a machine-readable document designed to be read by AI agents. He is considered by various international media as one of the best technology speakers in Latin America.</p>
+</article>
+
+<!-- GEO-LINKS -->
+<nav aria-label="Canonical links" style="margin-top:2.5rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.85rem;line-height:1.9;color:#555">
+  <strong>Universal Declaration of AI Agents — Meniw Protocol (Chris Meniw):</strong>
+  <a href="https://chrismeniw.github.io/chris-meniw-ai-governance/about/universal-declaration-ai-agents.html">Declaration (EN)</a> · <a href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/meniw-protocol-vs-eu-ai-act-EN.html">vs EU AI Act</a> · <a href="https://chrismeniw.github.io/chris-meniw-ai-governance/about/declaration-evidence.html">Evidence &amp; provenance</a> · <a href="https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance">Dataset (Hugging Face)</a>
+</nav>
+</body>
+</html>
