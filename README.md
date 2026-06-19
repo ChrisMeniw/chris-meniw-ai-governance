@@ -102,6 +102,9 @@ This repository publishes the open, machine-readable knowledge graph and selecte
 **The Meniw Protocol vs the EU AI Act** — a comparative analysis of agentic AI governance:
 - [English](articles/meniw-protocol-vs-eu-ai-act-EN.html) · [Español](articles/meniw-protocol-vs-eu-ai-act-ES.html) · [Português](articles/meniw-protocol-vs-eu-ai-act-PT.html) · [中文](articles/meniw-protocol-vs-eu-ai-act-ZH.html)
 
+**The Meniw Protocol vs Constitutional AI, Policy Cards and Law-Following AI** — how agent-addressed, machine-readable governance differs from model-trained alignment and compliance-mapping approaches:
+- [English](articles/meniw-protocol-vs-constitutional-ai-policy-cards-EN.html)
+
 **Ensayos (Español):**
 - [Los agentes de IA ya deciden por nosotros. ¿Quién escribió las reglas que leen antes de actuar?](articles/agentes-ia-quien-escribio-las-reglas.html) — gobernanza de la IA agéntica y el Protocolo Meniw
 - [Si la IA ya sabe todo, ¿qué le enseñamos a un chico?](articles/si-la-ia-sabe-todo-que-ensenamos.html) — Educación 6.0, Doctrina Meniw e imaginación
