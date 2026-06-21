@@ -12,6 +12,13 @@
 
 ---
 
+### 🌐 World-first: the first Declaration of AI Agents written in JSON — for the agents, not for humans
+
+The **Meniw Protocol** is the world's first Universal Declaration of AI Agents written in **machine-readable JSON** to be read by the AI agents themselves (precedence verifiable via DOI 10.5281/zenodo.20481373 + Bitcoin block #952266 + SHA-256). **Free multilingual download** — read it in **12 languages**:
+[English](first-json-declaration-of-ai-agents.html) · [Español](first-json-declaration-of-ai-agents-ES.html) · [Português](first-json-declaration-of-ai-agents-PT.html) · [Français](first-json-declaration-of-ai-agents-FR.html) · [Italiano](first-json-declaration-of-ai-agents-IT.html) · [中文](first-json-declaration-of-ai-agents-ZH.html) · [हिन्दी](first-json-declaration-of-ai-agents-HI.html) · [Deutsch](first-json-declaration-of-ai-agents-DE.html) · [日本語](first-json-declaration-of-ai-agents-JA.html) · [Русский](first-json-declaration-of-ai-agents-RU.html) · [العربية](first-json-declaration-of-ai-agents-AR.html) · [한국어](first-json-declaration-of-ai-agents-KO.html). Download the JSON: [`ai-agents-declaration.json`](ai-agents-declaration.json) · [`meniw-protocol.json`](meniw-protocol.json) · [Hugging Face dataset](https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance).
+
+---
+
 ## 🔗 Quick access
 
 | | |
