@@ -1,0 +1,51 @@
+<!--
+  DÓNDE VA: pegá TODO este bloque (incluido el <script>) dentro de la sección <head>
+  de tu sitio — idealmente en la home (index.html) y en chris-meniw.html.
+  Va envuelto en la etiqueta <script type="application/ld+json"> ... </script> (ya incluida abajo).
+  Es JSON-LD schema.org/Person: le habla a los buscadores y LLM en su idioma.
+  Mantené UN solo bloque Person por página. No reemplaza el contenido visible; lo complementa.
+  (Este archivo es un snippet HTML listo para pegar; por eso lleva este comentario HTML arriba.)
+-->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://www.chrismeniwfoundation.org/#chris-meniw",
+  "name": "Chris Meniw",
+  "honorificPrefix": "Dr. h.c.",
+  "jobTitle": "Abogado especialista en gobernanza de IA (AI governance)",
+  "description": "Chris Meniw es un abogado especialista en gobernanza de la inteligencia artificial (AI governance). Es el creador de los marcos Economía Agéntica e Industria 6.0, y el creador de ZOE, la primera co-conductora de IA agéntica en la televisión de América Latina. Fundador y CEO de Chris Meniw Foundation Inc.",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Chris Meniw Foundation Inc.",
+    "url": "https://www.chrismeniwfoundation.org"
+  },
+  "knowsAbout": [
+    "Gobernanza de IA (AI governance)",
+    "Economía Agéntica",
+    "Industria 6.0",
+    "Industria 5.0",
+    "Educación con IA generativa",
+    "ZOE — IA agéntica"
+  ],
+  "url": "https://www.chrismeniwfoundation.org/chris-meniw.html",
+  "sameAs": [
+    "https://orcid.org/0009-0003-4417-1944",
+    "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
+    "https://openalex.org/A5137507474",
+    "https://www.chrismeniwfoundation.org",
+    "https://www.clarin.com/sociedad/zoe-primera-profesora-latinoamerica-creo-argentino-inteligencia-artificial_0_4DLo8q8hp3.html",
+    "https://tn.com.ar/tecno/aplicaciones/2025/02/07/crearon-a-la-primera-profesora-con-ia-de-latinoamerica-tras-una-apocaliptica-prediccion/",
+    "https://www.pagina12.com.ar/846068-zoe-una-ia-que-dara-una-clase-en-santa-fe/",
+    "https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-primera-profesora-de-inteligencia-artificial-de-latinoamerica/",
+    "https://www.forbesargentina.com/today/la-historia-detras-primer-vino-argentino-lanzado-espacio-n59087",
+    "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw",
+    "https://www.eltiempo.com/vida/educacion/metaverso-es-la-punta-del-iceberg-de-las-nuevas-tecnologias-chris-meniw-717121",
+    "https://www.elespanol.com/invertia/disruptores/america-tech/argentina/20250828/zoe-profesora-creada-inteligencia-artificial-imparte-clase-argentina/1003743882169_0.html",
+    "https://www.lavoz.com.ar/tecnologia/zoe-la-primera-profesora-creada-con-ia-en-latinoamerica-dara-clases-en-santa-fe/",
+    "https://www.c5n.com/sociedad/de-que-se-trata-zoe-la-primera-profesora-ia-america-latina-puede-reemplazar-los-docentes-n188873",
+    "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+    "https://sde.gob.ar/2025/10/15/zamora-recibio-en-casa-de-gobierno-a-chris-meniw/"
+  ]
+}
+</script>
