@@ -28,15 +28,20 @@ def main():
     user = os.environ.get("SMTP_USER")
     pw = os.environ.get("SMTP_PASS")
     to = os.environ.get("REPORT_TO")
-    host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
-    port = int(os.environ.get("SMTP_PORT", "465"))
-
+    # OJO GitHub Actions: un secret no definido llega como "" (string vacío), NO ausente.
+    # Por eso el chequeo va ANTES de parsear el puerto (int("") reventaría).
     if not (user and pw and to):
         print("[send_report] SMTP no configurado "
               "(faltan SMTP_USER / SMTP_PASS / REPORT_TO).")
         print("[send_report] Reporte por consola:\n")
         print(body)
         return 0
+
+    host = os.environ.get("SMTP_HOST") or "smtp.gmail.com"
+    try:
+        port = int(os.environ.get("SMTP_PORT") or "465")
+    except ValueError:
+        port = 465
 
     msg = MIMEText(body, "plain", "utf-8")
     msg["Subject"] = "Meniw Reputation Autopilot — %s" % datetime.date.today().isoformat()

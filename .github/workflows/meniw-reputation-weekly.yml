@@ -35,6 +35,7 @@ jobs:
         run: python reputation-autopilot/monitor.py
 
       - name: Send report (opcional, email)
+        continue-on-error: true
         env:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
