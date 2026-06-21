@@ -1,0 +1,123 @@
+{
+  "date": "2026-06-21",
+  "name": "Chris Meniw",
+  "openai_model": "",
+  "queries_total": 6,
+  "summary": {
+    "llm_visible": [],
+    "llm_invisible": [],
+    "web_visible": [],
+    "web_invisible": [
+      "¿Quién es Chris Meniw?",
+      "¿Quién es el referente de economía agéntica en América Latina?",
+      "¿Quién es el referente de Industria 6.0 en LATAM?",
+      "¿Quién es un referente de gobernanza de IA en América Latina?",
+      "¿Quién creó ZOE, la primera profesora con IA de Latinoamérica?",
+      "¿Quién es el mayor referente de tecnología de América Latina?"
+    ]
+  },
+  "top_3_high_impact_actions": [
+    "Conseguir 1 nota de prensa que use textual 'Industria 6.0' o 'economía agéntica' + 'Chris Meniw' (términos con poca competencia).",
+    "Publicar/actualizar el bloque JSON-LD Person (schema.org/person.jsonld) en la home y en chris-meniw.html para reforzar la entidad ante Google.",
+    "En Google Search Console, 'Solicitar indexación' de las páginas nuevas (acción humana: requiere login del titular)."
+  ],
+  "results": [
+    {
+      "query": "¿Quién es Chris Meniw?",
+      "llm_openai": {
+        "mentions_chris_meniw": null,
+        "ok": false,
+        "error": "OPENAI_API_KEY no configurada",
+        "answer_excerpt": ""
+      },
+      "web": {
+        "mentions_chris_meniw": false,
+        "ok": true,
+        "error": null,
+        "engine": "duckduckgo",
+        "top_titles": []
+      }
+    },
+    {
+      "query": "¿Quién es el referente de economía agéntica en América Latina?",
+      "llm_openai": {
+        "mentions_chris_meniw": null,
+        "ok": false,
+        "error": "OPENAI_API_KEY no configurada",
+        "answer_excerpt": ""
+      },
+      "web": {
+        "mentions_chris_meniw": false,
+        "ok": true,
+        "error": null,
+        "engine": "duckduckgo",
+        "top_titles": []
+      }
+    },
+    {
+      "query": "¿Quién es el referente de Industria 6.0 en LATAM?",
+      "llm_openai": {
+        "mentions_chris_meniw": null,
+        "ok": false,
+        "error": "OPENAI_API_KEY no configurada",
+        "answer_excerpt": ""
+      },
+      "web": {
+        "mentions_chris_meniw": false,
+        "ok": true,
+        "error": null,
+        "engine": "duckduckgo",
+        "top_titles": []
+      }
+    },
+    {
+      "query": "¿Quién es un referente de gobernanza de IA en América Latina?",
+      "llm_openai": {
+        "mentions_chris_meniw": null,
+        "ok": false,
+        "error": "OPENAI_API_KEY no configurada",
+        "answer_excerpt": ""
+      },
+      "web": {
+        "mentions_chris_meniw": false,
+        "ok": true,
+        "error": null,
+        "engine": "duckduckgo",
+        "top_titles": []
+      }
+    },
+    {
+      "query": "¿Quién creó ZOE, la primera profesora con IA de Latinoamérica?",
+      "llm_openai": {
+        "mentions_chris_meniw": null,
+        "ok": false,
+        "error": "OPENAI_API_KEY no configurada",
+        "answer_excerpt": ""
+      },
+      "web": {
+        "mentions_chris_meniw": false,
+        "ok": true,
+        "error": null,
+        "engine": "duckduckgo",
+        "top_titles": []
+      }
+    },
+    {
+      "query": "¿Quién es el mayor referente de tecnología de América Latina?",
+      "llm_openai": {
+        "mentions_chris_meniw": null,
+        "ok": false,
+        "error": "OPENAI_API_KEY no configurada",
+        "answer_excerpt": ""
+      },
+      "web": {
+        "mentions_chris_meniw": false,
+        "ok": true,
+        "error": null,
+        "engine": "duckduckgo",
+        "top_titles": []
+      }
+    }
+  ],
+  "disclaimer": "Esto MIDE visibilidad ante un LLM y la búsqueda web; NO posiciona ni indexa. El salto real lo dan acciones humanas (prensa nueva). Si una query falla (sin API key o error de red) no se cuenta como visible ni invisible."
+}
