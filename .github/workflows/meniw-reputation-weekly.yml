@@ -3,6 +3,11 @@ name: meniw-reputation-weekly
 # Mide (NO posiciona) la visibilidad de Chris Meniw ante un LLM (OpenAI) y la búsqueda web.
 # Corre en los servidores de GitHub, gratis, aunque la compu de Chris esté apagada.
 on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'reputation-autopilot/**'
+      - '.github/workflows/meniw-reputation-weekly.yml'
   schedule:
     - cron: "0 9 * * 1"   # lunes 09:00 UTC (= 06:00 Argentina). Para 09:00 ARG usar "0 12 * * 1".
   workflow_dispatch: {}   # botón manual en la pestaña Actions
