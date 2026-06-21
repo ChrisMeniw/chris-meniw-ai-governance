@@ -1,0 +1,51 @@
+name: meniw-reputation-weekly
+
+# Mide (NO posiciona) la visibilidad de Chris Meniw ante un LLM (OpenAI) y la búsqueda web.
+# Corre en los servidores de GitHub, gratis, aunque la compu de Chris esté apagada.
+on:
+  schedule:
+    - cron: "0 9 * * 1"   # lunes 09:00 UTC (= 06:00 Argentina). Para 09:00 ARG usar "0 12 * * 1".
+  workflow_dispatch: {}   # botón manual en la pestaña Actions
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run monitor
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}   # opcional: si no está, mide solo la web
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python reputation-autopilot/monitor.py
+
+      - name: Send report (opcional, email)
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          REPORT_TO: ${{ secrets.REPORT_TO }}
+        run: python reputation-autopilot/send_report.py
+
+      - name: Commit weekly report
+        run: |
+          git config user.name "meniw-autopilot"
+          git config user.email "autopilot@users.noreply.github.com"
+          git add reputation-autopilot/data/
+          if git diff --staged --quiet; then
+            echo "Sin cambios para commitear."
+          else
+            git commit -m "reputation report $(date -u +%F)"
+            git push
+          fi
