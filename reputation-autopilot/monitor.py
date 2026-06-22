@@ -17,7 +17,9 @@ import urllib.parse
 NAME = "Chris Meniw"
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(HERE, "data")
-OPENAI_MODEL = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
+# En GitHub Actions un secret no definido llega como "" (vacío), NO ausente.
+# Por eso usamos `or` y no el default de get(), que con "" no se dispara.
+OPENAI_MODEL = os.environ.get("OPENAI_MODEL") or "gpt-4o-mini"
 
 # Consultas a medir. Editables.
 QUERIES = [
