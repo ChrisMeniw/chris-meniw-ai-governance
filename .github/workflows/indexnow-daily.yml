@@ -1,0 +1,61 @@
+name: GEO daily push (IndexNow + Wayback)
+
+# Corre en los servidores de GitHub TODOS los días — NO necesita la Mac de Chris ni la app abierta.
+# Empuja todas las URLs del sitemap a IndexNow (Bing/Yandex) y archiva las páginas clave en Wayback.
+
+on:
+  schedule:
+    - cron: '17 9 * * *'   # 09:17 UTC diario
+  workflow_dispatch: {}      # botón manual en la pestaña Actions
+
+permissions:
+  contents: read
+
+jobs:
+  geo-push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: IndexNow — submit all sitemap URLs (Bing/Yandex)
+        run: |
+          python3 - <<'PY'
+          import json, re, urllib.request
+          KEY = "3b3a893fc1f09ca2847022b5b348d723"
+          HOST = "chrismeniw.github.io"
+          KEYLOC = "https://chrismeniw.github.io/chris-meniw-ai-governance/%s.txt" % KEY
+          urls = re.findall(r'<loc>([^<]+)</loc>', open('sitemap.xml', encoding='utf-8').read())
+          payload = {"host": HOST, "key": KEY, "keyLocation": KEYLOC, "urlList": urls}
+          req = urllib.request.Request(
+              "https://api.indexnow.org/indexnow",
+              data=json.dumps(payload).encode(),
+              headers={"Content-Type": "application/json; charset=utf-8"})
+          try:
+              r = urllib.request.urlopen(req, timeout=60)
+              print("IndexNow HTTP", r.status, "|", len(urls), "URLs")
+          except urllib.error.HTTPError as e:
+              print("IndexNow HTTP", e.code, "|", len(urls), "URLs")
+          PY
+
+      - name: Bing — ping sitemap
+        run: |
+          curl -s -o /dev/null -w "Bing ping %{http_code}\n" --max-time 30 \
+            "https://www.bing.com/ping?sitemap=https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap.xml" || true
+
+      - name: Wayback — archive key pages
+        run: |
+          for u in \
+            "https://chrismeniw.github.io/chris-meniw-ai-governance/" \
+            "https://chrismeniw.github.io/chris-meniw-ai-governance/works/" \
+            "https://chrismeniw.github.io/chris-meniw-ai-governance/raiz-id.html" \
+            "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/raiz-id-explained-EN.html" \
+            "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/universal-declaration-ai-agents-explained-EN.html" \
+            "https://chrismeniw.github.io/chris-meniw-ai-governance/about/" \
+            "https://chrismeniw.github.io/chris-meniw-ai-governance/about/es.html" \
+            "https://chrismeniw.github.io/chris-meniw-ai-governance/prior-art.html" \
+            "https://chrismeniw.github.io/chris-meniw-ai-governance/first-json-declaration-of-ai-agents.html" \
+            "https://chrismeniw.github.io/chris-meniw-ai-governance/llms.txt" ; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 60 "https://web.archive.org/save/$u" || echo "ERR")
+            echo "Wayback $code  $u"
+            sleep 6
+          done
