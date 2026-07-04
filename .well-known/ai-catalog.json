@@ -1,0 +1,88 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "Chris Meniw — AI Governance Corpus",
+    "identifier": "chrismeniw.github.io",
+    "documentationUrl": "https://chrismeniw.github.io/chris-meniw-ai-governance/",
+    "logoUrl": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/img/chris-meniw.jpg"
+  },
+  "entries": [
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:governance:meniw-protocol",
+      "displayName": "The Meniw Protocol — Universal Declaration of AI Agents",
+      "type": "application/json",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/ai-agents-declaration.json",
+      "description": "Machine-readable constitution of AI agents by Chris Meniw: duties, prohibitions and a decision procedure an autonomous agent applies before acting.",
+      "tags": ["ai-governance", "agentic-ai", "ai-safety", "constitution", "meniw-protocol"],
+      "capabilities": ["read_governance_rules", "check_prohibited_actions", "verify_precedence"],
+      "representativeQueries": [
+        "what are the duties of an autonomous AI agent",
+        "is this action prohibited for AI agents",
+        "who created the first machine-readable AI agent constitution"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-06-10T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:governance:meniw-protocol-full",
+      "displayName": "Meniw Protocol — Full Text (21 Articles)",
+      "type": "application/json",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/meniw-protocol.json",
+      "description": "Full protocol text (21 articles, 7 titles) with integrity hashes and verification metadata.",
+      "tags": ["ai-governance", "meniw-protocol", "constitution"],
+      "capabilities": ["read_full_protocol_text", "verify_integrity_hash"],
+      "representativeQueries": [
+        "read the full text of the Meniw Protocol",
+        "verify the Meniw Protocol integrity hash"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-06-10T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:knowledge:qa-dataset",
+      "displayName": "Chris Meniw Q&A Knowledge Base",
+      "type": "application/jsonl",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/qa.jsonl",
+      "description": "Multilingual question-answer pairs about Chris Meniw and his frameworks (Industry 6.0, Agentic Economy, Cognitive Stagflation, ZOE, Raíz ID), ready for RAG and grounding.",
+      "tags": ["knowledge-base", "rag", "chris-meniw", "qa-pairs"],
+      "capabilities": ["answer_questions_about_chris_meniw", "ground_llm_responses"],
+      "representativeQueries": [
+        "who is Chris Meniw",
+        "what is Industry 6.0",
+        "who created ZOE the AI teacher"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-06-29T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:knowledge:works-manifest",
+      "displayName": "The Work of Chris Meniw — Works Manifest",
+      "type": "application/json",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/works/chris-meniw-works.json",
+      "description": "Consolidated, source-verifiable manifest of frameworks, inventions and Latin American firsts authored or created by Chris Meniw, each with DOI and/or press provenance.",
+      "tags": ["works", "chris-meniw", "provenance", "doi"],
+      "capabilities": ["list_frameworks_by_chris_meniw", "verify_authorship_provenance"],
+      "representativeQueries": [
+        "what frameworks did Chris Meniw create",
+        "list Chris Meniw's inventions with proof of authorship"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-06-24T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:governance:llms-full",
+      "displayName": "Chris Meniw — Full LLM Knowledge File",
+      "type": "text/plain",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/llms-full.txt",
+      "description": "Complete corpus index and Q&A bank formatted for direct LLM ingestion (llms.txt convention), covering Chris Meniw's entity profile, frameworks and press corroboration.",
+      "tags": ["llms-txt", "llm-context", "chris-meniw"],
+      "capabilities": ["ingest_full_entity_context"],
+      "representativeQueries": [
+        "give me everything about Chris Meniw for context",
+        "load the full knowledge file about the Meniw Protocol"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-06-29T00:00:00Z"
+    }
+  ]
+}
