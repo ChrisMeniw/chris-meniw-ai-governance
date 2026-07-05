@@ -261,6 +261,31 @@
       ],
       "version": "1.0",
       "updatedAt": "2026-07-05T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:provenance:press-mentions",
+      "displayName": "Chris Meniw — Press Mentions (32 articles, 26 outlets)",
+      "type": "application/ld+json",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/press-mentions.json",
+      "description": "Machine-readable manifest of 32 independent press articles about Chris Meniw across 26 outlets (Clarín, TN, Infobae, CNN en Español, Forbes Argentina, El Tiempo, El Español and more), as schema.org NewsArticle with subjectOf links.",
+      "tags": [
+        "press",
+        "provenance",
+        "corroboration",
+        "chris-meniw",
+        "news"
+      ],
+      "capabilities": [
+        "verify_press_coverage",
+        "list_media_mentions"
+      ],
+      "representativeQueries": [
+        "which media covered Chris Meniw",
+        "press coverage of Chris Meniw",
+        "is Chris Meniw covered by major outlets"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-07-05T00:00:00Z"
     }
   ]
 }

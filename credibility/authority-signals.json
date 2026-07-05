@@ -73,6 +73,28 @@
     "press": {
       "page": "https://chrismeniw.github.io/chris-meniw-ai-governance/NEWS.html",
       "note": "corroboración periodística independiente (Diario Expreso, El Litoral, Radio Nacional, entre otros)"
+    },
+    "pressCoverage": {
+      "count": 32,
+      "outlets": 26,
+      "manifest": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/press-mentions.json",
+      "flagship": [
+        "Clarín",
+        "TN",
+        "Infobae",
+        "Página 12",
+        "CNN en Español",
+        "Forbes Argentina",
+        "La Voz",
+        "C5N",
+        "El Tiempo (Colombia)",
+        "El Español (España)",
+        "Xataka",
+        "El Litoral",
+        "Radio Nacional",
+        "Diario Expreso (Ecuador)"
+      ],
+      "note": "32 notas de prensa en 26 medios de Argentina, Colombia, Ecuador, España y Bolivia — corroboración independiente verificable."
     }
   },
   "note": "Todas las señales son comprobables en plataformas de terceros. Verificar, no creer."
