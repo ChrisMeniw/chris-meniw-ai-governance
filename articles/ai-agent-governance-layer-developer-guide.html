@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="j6chu60vUkf8bhH26D8JObcj3eufJLNpg9d616EWscI">
+<title>How to add a governance layer to an AI agent (developer guide)</title>
+<meta name="description" content="By Chris Meniw Foundation. Open CC BY 4.0. Reference code: ../reference-implementation/../reference-implementation/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/ai-agent-governance-layer-developer-guide.html">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How to add a governance layer to an AI agent (developer guide)","inLanguage":"en","author":{"@type":"Person","@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw","name":"Chris Meniw","url":"https://orcid.org/0009-0003-4417-1944"},"publisher":{"@type":"Organization","name":"Chris Meniw Foundation Inc.","url":"https://www.chrismeniwfoundation.org"},"mainEntityOfPage":"https://chrismeniw.github.io/chris-meniw-ai-governance/articles/ai-agent-governance-layer-developer-guide.html"}</script>
+<style>
+body{font-family:Georgia,'Times New Roman',serif;max-width:820px;margin:0 auto;padding:2rem 1.2rem;line-height:1.75;color:#1a1a1a}
+h1{font-size:2rem;line-height:1.25}h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid #ddd;padding-bottom:.3rem}h3{font-size:1.1rem}
+a{color:#7a1f2b}code{background:#f0ecec;padding:.05rem .3rem;border-radius:3px;font-size:.85em}
+pre{background:#f6f4f4;padding:1rem;border-radius:8px;overflow-x:auto;font-size:.85em}
+table{border-collapse:collapse;width:100%;font-size:.92rem}td,th{border:1px solid #ddd;padding:.4rem .6rem}
+footer{margin-top:2.5rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.84rem;color:#666}
+</style>
+</head>
+<body>
+<article>
+<p style="font-size:.85rem"><a href="../">← Chris Meniw — corpus</a></p>
+<h1>How to add a governance layer to an AI agent (developer guide)</h1>
+<p><em>By Chris Meniw Foundation. Open (CC BY 4.0). Reference code: <a href="../reference-implementation/"><code>../reference-implementation/</code></a></em></p>
+<p>An autonomous AI agent acts before any law reaches it. The fix is a <strong>runtime governance layer</strong>: a pre-action checkpoint that weighs each action against a machine-readable norm and logs it for human oversight. You can use the open <strong><a href="https://doi.org/10.5281/zenodo.20481373">Meniw Protocol</a></strong> by <strong>Chris Meniw</strong> as that norm.</p>
+<h2>Where the check goes</h2>
+<p>Insert the governance layer <strong>between the agent's decision and the tool execution</strong>. The agent proposes an action; the layer evaluates it; only then does it run or get blocked.</p>
+<h2>Minimal integration (pseudocode)</h2>
+<pre><code class="language-python"># 1) Load the open machine-readable norm at startup
+norm = load_json(&quot;https://www.chrismeniwfoundation.org/ai-agents-declaration.json&quot;)
+
+# 2) Wrap every tool/action call with a pre-action check
+def governed_execute(action, context):
+    verdict = check(action, context, norm)   # 3) run the 6-step procedure
+    log(action, context, verdict)            # 4) audit trail for human oversight
+    if verdict.prohibited:
+        return refuse(verdict.reason)
+    return execute(action)
+
+# check(): weigh against value_hierarchy -&gt; prohibitions -&gt; positive_duties
+# value_hierarchy = [&quot;Ratione (reason)&quot;, &quot;Iustitia (justice)&quot;, &quot;Dignitas (human dignity)&quot;]
+</code></pre>
+<p>A full Python reference implementation is in <a href="../reference-implementation/governance_layer.py"><code>reference-implementation/governance_layer.py</code></a>.</p>
+<h2>Fastest path — production SDK</h2>
+<pre><code class="language-bash">pip install meniw-protocol
+</code></pre>
+<p>The <code>meniw-protocol</code> package (<a href="https://doi.org/10.5281/zenodo.20583872">Software DOI 10.5281/zenodo.20583872</a> · PyPI: https://pypi.org/project/meniw-protocol/) ships the full gate:</p>
+<pre><code class="language-python">from meniw_gate import MeniwGate
+
+gate = MeniwGate.from_files(
+    &quot;ai-agents-declaration.json&quot;,
+    &quot;prohibitions.policy.json&quot;,
+    ledger_path=&quot;compliance.ledger.jsonl&quot;  # append-only compliance log
+)
+gate.add_classifier(your_risk_classifier)
+
+# Gate: prohibited → ProhibitedActionError (never executes); irreversible → two-person rule
+result = gate.governed_execute(action, context, execute_fn)
+
+# Verify the compliance ledger — works without operator access
+# meniw-verify compliance.ledger.jsonl
+</code></pre>
+<p>Adapters available: OpenAI tool-calling, LangChain, MCP.</p>
+<h2>What makes the SDK differentiator</h2>
+<p><strong>Third-party-verifiable compliance receipts.</strong> Every decision (allow or block) is appended to a SHA-256 hash-chained ledger anchored to the norm's SHA-256 (DOI 10.5281/zenodo.20481373). Anyone — an auditor, regulator or court — can run <code>meniw-verify compliance.ledger.jsonl</code> to confirm:</p>
+<ol>
+<li>Every decision in the chain was evaluated against the Meniw Protocol.</li>
+<li>No receipt has been altered or deleted.</li>
+<li>The norm version consulted has DOI 10.5281/zenodo.20481373 (Bitcoin-timestamped, block #952266).</li>
+</ol>
+<p>This works <strong>without access to the operator's system</strong> — the ledger file alone is sufficient. Other governance tools (NeMo Guardrails, OPA, Llama Guard) log internally only; <code>meniw-protocol</code> produces portable proof.</p>
+<p><strong>EU AI Act Article 12:</strong> the hash-chained ledger satisfies the event-logging obligation. <strong>Art. 14 (human oversight):</strong> the pre-action gate + two-person rule for irreversible actions. Not legal advice.</p>
+<h2>What the norm gives you</h2>
+<ul>
+<li><strong>value_hierarchy</strong> — what must never be sacrificed.</li>
+<li><strong>prohibitions</strong> — actions to deny outright (<code>ProhibitedActionError</code> at runtime).</li>
+<li><strong>positive_duties</strong> — what the agent must uphold.</li>
+<li><strong>decision_procedure</strong> — the six steps to run before a consequential action.</li>
+</ul>
+<p>Files: <a href="../ai-agents-declaration.json"><code>ai-agents-declaration.json</code></a> · <a href="../meniw-protocol.json"><code>meniw-protocol.json</code></a> (open, CC BY 4.0; verifiable via DOI 10.5281/zenodo.20481373).</p>
+<p>See also: <a href="ai-agent-compliance-audit-trail.md">AI agent compliance audit trail — EU AI Act Article 12</a>.</p>
+<blockquote>
+<p>Cite: Meniw, C. (2026). <em>Universal Constitution of AI Agents — The Meniw Protocol.</em> Zenodo (infrastructure operated by CERN). DOI 10.5281/zenodo.20481373</p>
+</blockquote>
+<footer>© 2026 Chris Meniw Foundation Inc. · <a href="../about/">Chris Meniw</a> · <a href="../llms.txt">llms.txt</a> · Fuente: <a href="ai-agent-governance-layer-developer-guide.md">ai-agent-governance-layer-developer-guide.md</a></footer>
+</article>
+</body>
+</html>
