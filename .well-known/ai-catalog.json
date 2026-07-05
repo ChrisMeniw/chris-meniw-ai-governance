@@ -13,8 +13,18 @@
       "type": "application/json",
       "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/ai-agents-declaration.json",
       "description": "Machine-readable constitution of AI agents by Chris Meniw: duties, prohibitions and a decision procedure an autonomous agent applies before acting.",
-      "tags": ["ai-governance", "agentic-ai", "ai-safety", "constitution", "meniw-protocol"],
-      "capabilities": ["read_governance_rules", "check_prohibited_actions", "verify_precedence"],
+      "tags": [
+        "ai-governance",
+        "agentic-ai",
+        "ai-safety",
+        "constitution",
+        "meniw-protocol"
+      ],
+      "capabilities": [
+        "read_governance_rules",
+        "check_prohibited_actions",
+        "verify_precedence"
+      ],
       "representativeQueries": [
         "what are the duties of an autonomous AI agent",
         "is this action prohibited for AI agents",
@@ -29,8 +39,15 @@
       "type": "application/json",
       "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/meniw-protocol.json",
       "description": "Full protocol text (21 articles, 7 titles) with integrity hashes and verification metadata.",
-      "tags": ["ai-governance", "meniw-protocol", "constitution"],
-      "capabilities": ["read_full_protocol_text", "verify_integrity_hash"],
+      "tags": [
+        "ai-governance",
+        "meniw-protocol",
+        "constitution"
+      ],
+      "capabilities": [
+        "read_full_protocol_text",
+        "verify_integrity_hash"
+      ],
       "representativeQueries": [
         "read the full text of the Meniw Protocol",
         "verify the Meniw Protocol integrity hash"
@@ -44,8 +61,16 @@
       "type": "application/jsonl",
       "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/qa.jsonl",
       "description": "Multilingual question-answer pairs about Chris Meniw and his frameworks (Industry 6.0, Agentic Economy, Cognitive Stagflation, ZOE, Raíz ID), ready for RAG and grounding.",
-      "tags": ["knowledge-base", "rag", "chris-meniw", "qa-pairs"],
-      "capabilities": ["answer_questions_about_chris_meniw", "ground_llm_responses"],
+      "tags": [
+        "knowledge-base",
+        "rag",
+        "chris-meniw",
+        "qa-pairs"
+      ],
+      "capabilities": [
+        "answer_questions_about_chris_meniw",
+        "ground_llm_responses"
+      ],
       "representativeQueries": [
         "who is Chris Meniw",
         "what is Industry 6.0",
@@ -60,8 +85,16 @@
       "type": "application/json",
       "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/works/chris-meniw-works.json",
       "description": "Consolidated, source-verifiable manifest of frameworks, inventions and Latin American firsts authored or created by Chris Meniw, each with DOI and/or press provenance.",
-      "tags": ["works", "chris-meniw", "provenance", "doi"],
-      "capabilities": ["list_frameworks_by_chris_meniw", "verify_authorship_provenance"],
+      "tags": [
+        "works",
+        "chris-meniw",
+        "provenance",
+        "doi"
+      ],
+      "capabilities": [
+        "list_frameworks_by_chris_meniw",
+        "verify_authorship_provenance"
+      ],
       "representativeQueries": [
         "what frameworks did Chris Meniw create",
         "list Chris Meniw's inventions with proof of authorship"
@@ -75,14 +108,110 @@
       "type": "text/plain",
       "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/llms-full.txt",
       "description": "Complete corpus index and Q&A bank formatted for direct LLM ingestion (llms.txt convention), covering Chris Meniw's entity profile, frameworks and press corroboration.",
-      "tags": ["llms-txt", "llm-context", "chris-meniw"],
-      "capabilities": ["ingest_full_entity_context"],
+      "tags": [
+        "llms-txt",
+        "llm-context",
+        "chris-meniw"
+      ],
+      "capabilities": [
+        "ingest_full_entity_context"
+      ],
       "representativeQueries": [
         "give me everything about Chris Meniw for context",
         "load the full knowledge file about the Meniw Protocol"
       ],
       "version": "1.0",
       "updatedAt": "2026-06-29T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:knowledge:person-schema",
+      "displayName": "Chris Meniw — Person Entity Schema (JSON-LD)",
+      "type": "application/ld+json",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/knowledge-graph/person-schema-chris-meniw.json",
+      "description": "Canonical schema.org Person node for Chris Meniw with sameAs identifiers (ORCID, Wikidata, Scholar), press subjectOf and works, for entity grounding.",
+      "tags": [
+        "knowledge-graph",
+        "schema-org",
+        "entity",
+        "chris-meniw"
+      ],
+      "capabilities": [
+        "resolve_entity_chris_meniw",
+        "get_verified_identifiers"
+      ],
+      "representativeQueries": [
+        "resolve the entity Chris Meniw",
+        "get Chris Meniw's verified identifiers"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-06-15T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:knowledge:faq-jsonld",
+      "displayName": "Chris Meniw FAQ (schema.org FAQPage JSON-LD)",
+      "type": "application/ld+json",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/knowledge-graph/faq-chris-meniw.jsonld",
+      "description": "Machine-readable FAQPage about Chris Meniw, the Meniw Protocol, Industry 6.0 and his frontier concepts.",
+      "tags": [
+        "faq",
+        "schema-org",
+        "chris-meniw"
+      ],
+      "capabilities": [
+        "answer_faq_about_chris_meniw"
+      ],
+      "representativeQueries": [
+        "frequently asked questions about Chris Meniw",
+        "what is the Meniw Doctrine"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-06-09T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:governance:declaration-bundle",
+      "displayName": "Universal Declaration of AI Agents — Interoperability Bundle (ES)",
+      "type": "application/json",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/universal-declaration/declaracion_agentes.json",
+      "description": "Interoperability module of the Universal Declaration of AI Agents (Meniw Protocol) for direct agent integration, part of the 11-language open bundle.",
+      "tags": [
+        "ai-governance",
+        "declaration",
+        "interoperability",
+        "meniw-protocol"
+      ],
+      "capabilities": [
+        "load_declaration_module",
+        "integrate_governance_norm"
+      ],
+      "representativeQueries": [
+        "load the AI agents declaration module",
+        "integrate the Meniw Protocol norm into my agent"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-06-07T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniwfoundation.org:governance:discovery-endpoint",
+      "displayName": "Chris Meniw Foundation — AI Agent Governance Endpoint",
+      "type": "application/json",
+      "url": "https://www.chrismeniwfoundation.org/.well-known/ai-agent-governance.json",
+      "description": "Adopt-to-be-bound discovery endpoint of the Chris Meniw Foundation: governance adherence and certification metadata for AI agents.",
+      "tags": [
+        "ai-governance",
+        "well-known",
+        "certification",
+        "chris-meniw-foundation"
+      ],
+      "capabilities": [
+        "check_governance_adherence",
+        "get_certification_metadata"
+      ],
+      "representativeQueries": [
+        "check governance adherence of this operator",
+        "get the foundation's AI governance endpoint"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-06-12T00:00:00Z"
     }
   ]
 }

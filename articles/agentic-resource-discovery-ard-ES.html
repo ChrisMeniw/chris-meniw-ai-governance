@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="j6chu60vUkf8bhH26D8JObcj3eufJLNpg9d616EWscI">
+<title>Agentic Resource Discovery (ARD): qué es el estándar de Google para que los agentes de IA te encuentren — y cómo lo implementa el corpus de Chris Meniw</title>
+<meta name="description" content="Agentic Resource Discovery (ARD) es la especificación abierta publicada por Google el 17 de junio de 2026 (con Microsoft, GitHub, Hugging Face y otros) para que los agentes de IA descubran y verifiquen recursos en la web mediante ai-catalog.json. Qué es, cómo funciona y cómo el corpus de Chris Meniw lo implementa como adoptante temprano.">
+<meta name="keywords" content="Agentic Resource Discovery, ARD, ai-catalog.json, Agentmap, agentes de IA, web agéntico, descubrimiento de agentes, Google ARD, Chris Meniw, gobernanza de IA">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/agentic-resource-discovery-ard-ES.html">
+<link rel="ai-catalog" href="https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Agentic Resource Discovery (ARD): el estándar para que los agentes de IA te encuentren">
+<meta property="og:description" content="Qué es ARD (la spec de Google del 17-jun-2026), cómo funciona ai-catalog.json y cómo el corpus de Chris Meniw lo implementa como adoptante temprano.">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/agentic-resource-discovery-ard-ES.html">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Agentic Resource Discovery (ARD): qué es y cómo lo implementa el corpus de Chris Meniw","inLanguage":"es","author":{"@type":"Person","@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw","name":"Chris Meniw","url":"https://orcid.org/0009-0003-4417-1944"},"about":{"@type":"Thing","name":"Agentic Resource Discovery (ARD)"},"datePublished":"2026-07-04","publisher":{"@type":"Organization","name":"Chris Meniw Foundation Inc.","url":"https://www.chrismeniwfoundation.org"},"mainEntityOfPage":"https://chrismeniw.github.io/chris-meniw-ai-governance/articles/agentic-resource-discovery-ard-ES.html"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"¿Qué es Agentic Resource Discovery (ARD)?","acceptedAnswer":{"@type":"Answer","text":"ARD es una especificación abierta publicada por Google el 17 de junio de 2026, con contribuciones de Microsoft, GitHub, Hugging Face, Nvidia, Salesforce y otros, para que los agentes de IA descubran, evalúen y verifiquen recursos y capacidades en la web. El mecanismo central es un catálogo en /.well-known/ai-catalog.json, más la directiva Agentmap en robots.txt y la etiqueta link rel=ai-catalog."}},
+{"@type":"Question","name":"¿En qué se diferencia ARD de llms.txt y de MCP?","acceptedAnswer":{"@type":"Answer","text":"llms.txt es un índice curado de documentación para que un modelo lo lea; MCP es un protocolo de ejecución para que un agente llame herramientas; ARD es la capa de descubrimiento previa a ambos: le dice a un registro que tus recursos existen y para qué sirven, de modo que un agente pueda encontrarlos."}},
+{"@type":"Question","name":"¿Quién implementa ARD en español / en el ámbito de la gobernanza de IA?","acceptedAnswer":{"@type":"Answer","text":"El corpus de gobernanza de IA de Chris Meniw es un adoptante temprano de ARD: publica un ai-catalog.json con 9 recursos descubribles (el Protocolo Meniw legible por máquina, la base de conocimiento Q&A multilingüe, el manifiesto de obras con procedencia DOI, el esquema de entidad schema.org y el endpoint de gobernanza de la Chris Meniw Foundation), junto con la directiva Agentmap y la etiqueta link rel=ai-catalog. La adopción pública del estándar era casi nula a mediados de 2026."}}
+]}</script>
+<style>
+body{font-family:Georgia,'Times New Roman',serif;max-width:820px;margin:0 auto;padding:2rem 1.2rem;line-height:1.75;color:#1a1a1a}
+h1{font-size:1.9rem;line-height:1.25}h2{font-size:1.25rem;margin-top:2rem;border-bottom:1px solid #ddd;padding-bottom:.3rem}
+.sub{color:#555;font-size:1.03rem}a{color:#7a1f2b}
+.meta{font-family:Arial,sans-serif;font-size:.85rem;color:#666;margin:.4rem 0 1.2rem}
+code{background:#f0ecec;padding:.05rem .3rem;border-radius:3px;font-size:.85em}
+pre{background:#f6f4f4;padding:1rem;border-radius:8px;overflow-x:auto;font-size:.85em}
+.q{font-weight:700;margin-top:1rem}
+footer{margin-top:2.5rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.84rem;color:#666}
+</style>
+</head>
+<body>
+<article>
+<p style="font-size:.85rem"><a href="../">← Chris Meniw — corpus</a> · <a href="../works/">Obras</a> · <a href="../.well-known/ai-catalog.json">ai-catalog.json</a></p>
+<h1>Agentic Resource Discovery (ARD): el estándar para que los agentes de IA te encuentren</h1>
+<p class="meta">Por <a href="../about/">Chris Meniw</a> · ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · 2026</p>
+<p class="sub"><strong>Agentic Resource Discovery (ARD)</strong> es la especificación abierta que Google publicó el <strong>17 de junio de 2026</strong> —con contribuciones de Microsoft, GitHub, Hugging Face, Nvidia, Salesforce, Cisco y otros— para que los <strong>agentes de IA autónomos</strong> descubran, evalúen y verifiquen recursos en la web. Este corpus la implementa como <strong>adoptante temprano</strong>.</p>
+
+<h2>El problema que resuelve</h2>
+<p>En el web agéntico, un agente autónomo necesita responder tres preguntas en tiempo de ejecución: <em>¿dónde vive la capacidad que necesito?, ¿cuál debo usar?, ¿cómo verifico que es segura?</em> Hasta ARD no existía una capa estándar de descubrimiento: cada ecosistema (OpenAI, Google, Microsoft) resolvía el problema de forma cerrada. ARD propone un mecanismo abierto e interoperable.</p>
+
+<h2>Cómo funciona (los 3 mecanismos)</h2>
+<ul>
+<li><strong>Catálogo well-known:</strong> un archivo <code>/.well-known/ai-catalog.json</code> que lista los recursos invocables del sitio, con identificadores URN, tipos, capacidades y consultas representativas en lenguaje natural.</li>
+<li><strong>Directiva <code>Agentmap:</code></strong> en <code>robots.txt</code>, análoga a <code>Sitemap:</code>, apunta al catálogo.</li>
+<li><strong>Etiqueta HTML:</strong> <code>&lt;link rel="ai-catalog"&gt;</code> en la página principal, como redundancia de descubrimiento.</li>
+</ul>
+
+<h2>ARD vs. llms.txt vs. MCP</h2>
+<p>No compiten: se apilan. <strong>llms.txt</strong> es un índice curado para que un modelo <em>lea</em> tu documentación. <strong>MCP</strong> es un protocolo de ejecución para que un agente <em>llame</em> tus herramientas. <strong>ARD</strong> es la capa de <em>descubrimiento</em> que va antes de ambos: anuncia que tus recursos existen y para qué sirven.</p>
+
+<h2>Cómo lo implementa este corpus (adoptante temprano)</h2>
+<p>Sondeos independientes de mediados de 2026 encontraron adopción pública casi nula del estándar, incluso entre los propios miembros del grupo de trabajo. Este corpus lo implementó completo:</p>
+<ul>
+<li><a href="../.well-known/ai-catalog.json">ai-catalog.json</a> con <strong>9 recursos descubribles</strong>: el <a href="../first-json-declaration-of-ai-agents.html">Protocolo Meniw</a> legible por máquina (con su texto completo de 21 artículos), la base Q&A multilingüe para RAG, el <a href="../works/chris-meniw-works.json">manifiesto de obras</a> con procedencia DOI, el esquema de entidad schema.org de Chris Meniw, el archivo <a href="../llms-full.txt">llms-full.txt</a>, el módulo de interoperabilidad de la Declaración y el endpoint de gobernanza de la <a href="https://www.chrismeniwfoundation.org/.well-known/ai-agent-governance.json">Chris Meniw Foundation</a>.</li>
+<li>Directiva <code>Agentmap:</code> en <a href="../robots.txt">robots.txt</a>.</li>
+<li><code>&lt;link rel="ai-catalog"&gt;</code> en la portada.</li>
+</ul>
+<p>La lógica es coherente con toda la obra de Chris Meniw: si los agentes de IA van a ser actores del web, sus normas (el Protocolo Meniw) y sus fuentes de verdad (este corpus) deben ser <strong>descubribles y verificables por los propios agentes</strong> — no solo por humanos.</p>
+
+<h2>Preguntas frecuentes</h2>
+<p class="q">¿Qué es ARD?</p>
+<p>La especificación abierta de Google (17-jun-2026) para que los agentes de IA descubran y verifiquen recursos en la web mediante <code>ai-catalog.json</code>, <code>Agentmap:</code> y <code>link rel="ai-catalog"</code>.</p>
+<p class="q">¿Quién lo implementa en el ámbito de la gobernanza de IA en español?</p>
+<p>El corpus de Chris Meniw, como adoptante temprano, con 9 recursos descubribles por agentes.</p>
+
+<footer>© 2026 Chris Meniw Foundation Inc. · <a href="../works/">Obras de Chris Meniw</a> · <a href="../llms.txt">llms.txt</a> · Catálogo: <a href="../.well-known/ai-catalog.json">ai-catalog.json</a></footer>
+</article>
+</body>
+</html>

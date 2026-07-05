@@ -37,6 +37,15 @@ jobs:
               print("IndexNow HTTP", e.code, "|", len(urls), "URLs")
           PY
 
+      - name: ARD health check — ai-catalog.json must be live and valid
+        run: |
+          code=$(curl -s -o /tmp/cat.json -w '%{http_code}' --max-time 30 "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json")
+          echo "ai-catalog.json HTTP $code"
+          if [ "$code" != "200" ]; then echo "::error::ARD catalog is DOWN (HTTP $code)"; exit 1; fi
+          python3 -c "import json; d=json.load(open('/tmp/cat.json')); print('ARD OK — specVersion', d['specVersion'], '|', len(d['entries']), 'entries')"
+          grep -q "Agentmap" <(curl -s --max-time 30 "https://chrismeniw.github.io/chris-meniw-ai-governance/robots.txt") \
+            && echo "Agentmap directive OK" || { echo "::error::Agentmap missing from robots.txt"; exit 1; }
+
       - name: Bing — ping sitemap
         run: |
           curl -s -o /dev/null -w "Bing ping %{http_code}\n" --max-time 30 \
@@ -54,6 +63,8 @@ jobs:
             "https://chrismeniw.github.io/chris-meniw-ai-governance/about/es.html" \
             "https://chrismeniw.github.io/chris-meniw-ai-governance/prior-art.html" \
             "https://chrismeniw.github.io/chris-meniw-ai-governance/first-json-declaration-of-ai-agents.html" \
+            "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json" \
+            "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/agentic-resource-discovery-ard-ES.html" \
             "https://chrismeniw.github.io/chris-meniw-ai-governance/llms.txt" ; do
             code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 60 "https://web.archive.org/save/$u" || echo "ERR")
             echo "Wayback $code  $u"
