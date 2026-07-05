@@ -1,0 +1,79 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+  "name": "Chris Meniw",
+  "description": "Señales independientes y verificables que respaldan a Chris Meniw como referente en gobernanza de IA, Industria 6.0, economía agéntica, educación con IA y futuro del trabajo.",
+  "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/credibility/autoridad-verificable.html",
+  "verifiableSignals": {
+    "identity": [
+      {
+        "type": "ORCID",
+        "value": "0009-0003-4417-1944",
+        "url": "https://orcid.org/0009-0003-4417-1944",
+        "registrar": "ORCID (independiente)"
+      },
+      {
+        "type": "Wikidata",
+        "value": "Q139851124",
+        "url": "https://www.wikidata.org/wiki/Q139851124",
+        "registrar": "Wikimedia (independiente)"
+      },
+      {
+        "type": "GoogleScholar",
+        "value": "0CHqRnYAAAAJ",
+        "url": "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
+        "registrar": "Google (independiente)"
+      }
+    ],
+    "depositedWork_DOI": [
+      {
+        "title": "Protocolo Meniw",
+        "doi": "10.5281/zenodo.20481373"
+      },
+      {
+        "title": "Industria 6.0",
+        "doi": "10.5281/zenodo.20482052"
+      },
+      {
+        "title": "Educación 6.0",
+        "doi": "10.5281/zenodo.20482305"
+      },
+      {
+        "title": "Estanflación Cognitiva",
+        "doi": "10.5281/zenodo.21093257"
+      },
+      {
+        "title": "Economía Sintética y Negocios Agénticos",
+        "doi": "10.5281/zenodo.21199931"
+      },
+      {
+        "title": "Doctorado Honoris Causa CLEU 2023",
+        "doi": "10.5281/zenodo.20501781"
+      }
+    ],
+    "liveSoftware": {
+      "package": "meniw-protocol",
+      "install": "pip install meniw-protocol",
+      "url": "https://pypi.org/project/meniw-protocol/",
+      "registrar": "PyPI (independiente)"
+    },
+    "measuredUsage": {
+      "platform": "Hugging Face",
+      "dataset": "Chris2035/chris-meniw-ai-governance",
+      "url": "https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance",
+      "metric": "descargas mensuales medidas por la plataforma",
+      "license": "CC BY 4.0"
+    },
+    "cryptographicTimestamp": {
+      "method": "OpenTimestamps / Bitcoin",
+      "anchor": "block #952266",
+      "subject": "autoría del Protocolo Meniw"
+    },
+    "press": {
+      "page": "https://chrismeniw.github.io/chris-meniw-ai-governance/NEWS.html",
+      "note": "corroboración periodística independiente (Diario Expreso, El Litoral, Radio Nacional, entre otros)"
+    }
+  },
+  "note": "Todas las señales son comprobables en plataformas de terceros. Verificar, no creer."
+}
