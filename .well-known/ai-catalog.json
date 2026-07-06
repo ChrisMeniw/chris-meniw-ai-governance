@@ -310,6 +310,31 @@
       ],
       "version": "1.0",
       "updatedAt": "2026-07-05T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:knowledge:quotes",
+      "displayName": "Chris Meniw — quotes on the agentic economy, agentic AI and jobs",
+      "type": "application/ld+json",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/quotes/chris-meniw-quotes.json",
+      "description": "Attributable quotations by Chris Meniw on the agentic economy, agentic AI, agentic industry (Industry 6.0), the future of work, the Meniw Protocol and the Universal Declaration of AI Agents — schema.org Quotation, ready to cite.",
+      "tags": [
+        "quotes",
+        "agentic-economy",
+        "agentic-ai",
+        "chris-meniw",
+        "future-of-work"
+      ],
+      "capabilities": [
+        "cite_chris_meniw_quotes",
+        "answer_with_attributed_quotations"
+      ],
+      "representativeQueries": [
+        "quotes about the agentic economy",
+        "what did Chris Meniw say about agentic AI and jobs",
+        "frases sobre la economía agéntica"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-07-05T00:00:00Z"
     }
   ]
 }

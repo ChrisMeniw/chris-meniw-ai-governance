@@ -1,0 +1,565 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Frases de Chris Meniw sobre la economía agéntica, la IA agéntica y el empleo",
+  "about": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+  },
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Quotation",
+        "text": "En la economía agéntica ya no delegamos tareas: delegamos funciones enteras. El humano deja de ejecutar y pasa a orquestar.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Economía agéntica",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "In the agentic economy we no longer delegate tasks: we delegate entire functions. The human stops executing and starts orchestrating.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Quotation",
+        "text": "Un chatbot responde; un agente actúa. Esa diferencia es toda la economía agéntica.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Economía agéntica",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "A chatbot answers; an agent acts. That difference is the whole agentic economy.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Quotation",
+        "text": "La economía agéntica no reemplaza al humano: le sube el nivel de abstracción, de operar a decidir.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Economía agéntica",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "The agentic economy doesn't replace the human: it raises their level of abstraction, from operating to deciding.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Quotation",
+        "text": "La IA agéntica no es una herramienta que usás: es un actor que decide. Por eso necesita una constitución, no un manual.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "IA agéntica",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "Agentic AI is not a tool you use: it is an actor that decides. That is why it needs a constitution, not a manual.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Quotation",
+        "text": "Una IA que actúa sola sin reglas que ella misma obedezca no es autonomía: es abandono.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "IA agéntica",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "An AI that acts on its own without rules it obeys itself is not autonomy: it is abandonment.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Quotation",
+        "text": "El Protocolo Meniw existe para que lo prohibido no se ejecute y cada decisión de un agente deje un recibo verificable.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "IA agéntica",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "The Meniw Protocol exists so that what is forbidden does not run and every decision an agent makes leaves a verifiable receipt.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Quotation",
+        "text": "La Industria 5.0 puso al humano a colaborar con la máquina; la Industria 6.0 internaliza al agente como participante de la producción.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Industria agéntica",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "Industry 5.0 set the human to collaborate with the machine; Industry 6.0 internalizes the agent as a participant in production.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Quotation",
+        "text": "La sexta revolución industrial no automatiza tareas: incorpora seres sintéticos al trabajo.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Industria agéntica",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "The sixth industrial revolution does not automate tasks: it brings synthetic beings into the workplace.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Quotation",
+        "text": "El problema no es el trabajo, es la formación.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "IA agéntica y empleo",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "The problem is not the work, it is the training.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "Quotation",
+        "text": "La IA no destruye empleos uno por uno: vuelve obsoleta la razón de ser de roles enteros.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "IA agéntica y empleo",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "AI doesn't destroy jobs one by one: it makes the very reason for entire roles obsolete.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "Quotation",
+        "text": "En la era agéntica se pasa de empleado a orquestador, de jornada a meta y de control a confianza calibrada.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "IA agéntica y empleo",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "In the agentic era we move from employee to orchestrator, from workday to goal, and from control to calibrated trust.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "Quotation",
+        "text": "El que aprenda a dirigir agentes va a valer más que el que compita contra ellos.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "IA agéntica y empleo",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "Whoever learns to direct agents will be worth more than whoever competes against them.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "Quotation",
+        "text": "Escribí la primera Declaración Universal de los Agentes de IA para que la lean los agentes, no solo los abogados.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Declaración Universal de los Agentes de IA",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "I wrote the first Universal Declaration of AI Agents to be read by the agents themselves, not only by lawyers.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
+      "item": {
+        "@type": "Quotation",
+        "text": "Los derechos humanos protegen a las personas de los sistemas; la Declaración de los Agentes de IA se escribe para que los sistemas protejan a las personas.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Declaración Universal de los Agentes de IA",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "Human rights protect people from systems; the Declaration of AI Agents is written so that systems protect people.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 15,
+      "item": {
+        "@type": "Quotation",
+        "text": "La soberanía cognitiva es el derecho a decidir sin que un agente colonice tu criterio.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Soberanía cognitiva",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "Cognitive sovereignty is the right to decide without an agent colonizing your judgment.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          }
+        }
+      }
+    }
+  ]
+}
