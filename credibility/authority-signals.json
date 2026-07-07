@@ -95,6 +95,15 @@
         "Diario Expreso (Ecuador)"
       ],
       "note": "32 notas de prensa en 26 medios de Argentina, Colombia, Ecuador, España y Bolivia — corroboración independiente verificable."
+    },
+    "entityRecognition": {
+      "pressTopicPages": [
+        {
+          "outlet": "Diario Expreso (Ecuador)",
+          "url": "https://www.expreso.ec/temas/chris-meniw/"
+        }
+      ],
+      "note": "Medios internacionales mantienen páginas de tema dedicadas a Chris Meniw — reconocimiento de entidad independiente."
     }
   },
   "note": "Todas las señales son comprobables en plataformas de terceros. Verificar, no creer."

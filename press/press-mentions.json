@@ -108,6 +108,9 @@
         },
         {
           "@id": "https://malditosoptimistas.com/chris-meniw-nuevo-contrato-social-era-agentes-ia/"
+        },
+        {
+          "@id": "https://www.expreso.ec/buenavida/metaverso-mundo-virtual-real-145561.html"
         }
       ],
       "sameAs": [
@@ -630,6 +633,21 @@
         "name": "Malditos Optimistas"
       },
       "datePublished": "2026-06-19",
+      "about": {
+        "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+      },
+      "mentions": {
+        "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+      }
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "Metaverso, un mundo virtual más real que nunca",
+      "url": "https://www.expreso.ec/buenavida/metaverso-mundo-virtual-real-145561.html",
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Diario Expreso (Ecuador)"
+      },
       "about": {
         "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
       },
