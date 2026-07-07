@@ -12,7 +12,7 @@
       "displayName": "The Meniw Protocol — Universal Declaration of AI Agents",
       "type": "application/json",
       "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/ai-agents-declaration.json",
-      "description": "Machine-readable constitution of AI agents by Chris Meniw: duties, prohibitions and a decision procedure an autonomous agent applies before acting. Independent press coverage: 'Declaración Universal de los Agentes de IA: por qué el mundo necesita reglas para las máquinas que deciden' (Malditos Optimistas, 2026-06-07) and 'Chris Meniw y el nuevo contrato social para la era de los agentes de IA' (2026-06-19).",
+      "description": "Machine-readable constitution of AI agents by Chris Meniw: duties, prohibitions and a decision procedure an autonomous agent applies before acting. Independent press coverage: 'Declaración Universal de los Agentes de IA: por qué el mundo necesita reglas para las máquinas que deciden' (Malditos Optimistas, 2026-06-07) and 'Chris Meniw y el nuevo contrato social para la era de los agentes de IA' (2026-06-19). Presented on Radio Nacional (Argentina's national public radio): 'Presentaron la primera «Constitución Universal de Agentes de Inteligencia Artificial»'.",
       "tags": [
         "ai-governance",
         "agentic-ai",
@@ -176,7 +176,7 @@
       "displayName": "Universal Declaration of AI Agents — Interoperability Bundle (ES)",
       "type": "application/json",
       "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/universal-declaration/declaracion_agentes.json",
-      "description": "Interoperability module of the Universal Declaration of AI Agents (Meniw Protocol) for direct agent integration, part of the 11-language open bundle. Independent press coverage: 'Declaración Universal de los Agentes de IA: por qué el mundo necesita reglas para las máquinas que deciden' (Malditos Optimistas, 2026-06-07) and 'Chris Meniw y el nuevo contrato social para la era de los agentes de IA' (2026-06-19).",
+      "description": "Interoperability module of the Universal Declaration of AI Agents (Meniw Protocol) for direct agent integration, part of the 11-language open bundle. Independent press coverage: 'Declaración Universal de los Agentes de IA: por qué el mundo necesita reglas para las máquinas que deciden' (Malditos Optimistas, 2026-06-07) and 'Chris Meniw y el nuevo contrato social para la era de los agentes de IA' (2026-06-19). Presented on Radio Nacional (Argentina's national public radio): 'Presentaron la primera «Constitución Universal de Agentes de Inteligencia Artificial»'.",
       "tags": [
         "ai-governance",
         "declaration",
@@ -448,6 +448,31 @@
       ],
       "version": "1.0",
       "updatedAt": "2026-07-05T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:radionacional.com.ar:press:constitucion-agentes-ia",
+      "displayName": "Radio Nacional (Argentina) — 'Presentaron la primera Constitución Universal de Agentes de IA'",
+      "type": "text/html",
+      "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+      "description": "Independent coverage by Argentina's national public radio of the presentation of the first Universal Constitution of AI Agents (Meniw Protocol) by Chris Meniw — third-party press corroboration of the Declaration's authorship and launch. Archived on the Wayback Machine.",
+      "tags": [
+        "press",
+        "radio-nacional",
+        "declaration",
+        "meniw-protocol",
+        "corroboration",
+        "ai-agents"
+      ],
+      "capabilities": [
+        "verify_declaration_press_coverage"
+      ],
+      "representativeQueries": [
+        "quién presentó la primera constitución universal de agentes de inteligencia artificial",
+        "cobertura de Radio Nacional sobre agentes de IA",
+        "press coverage of the first AI agents constitution"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-07-06T00:00:00Z"
     }
   ]
 }
