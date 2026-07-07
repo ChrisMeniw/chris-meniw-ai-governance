@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
       "name": "Chris Meniw",
-      "description": "Cubierto por 32 notas en 26 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
+      "description": "Cubierto por 34 notas en 27 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
       "subjectOf": [
         {
           "@id": "https://www.clarin.com/sociedad/zoe-primera-profesora-latinoamerica-creo-argentino-inteligencia-artificial_0_4DLo8q8hp3.html"
@@ -102,6 +102,12 @@
         },
         {
           "@id": "https://medium.com/p/510e395f7034"
+        },
+        {
+          "@id": "https://malditosoptimistas.com/declaracion-universal-agentes-ia-reglas-futuro/"
+        },
+        {
+          "@id": "https://malditosoptimistas.com/chris-meniw-nuevo-contrato-social-era-agentes-ia/"
         }
       ],
       "sameAs": [
@@ -592,6 +598,38 @@
         "@type": "NewsMediaOrganization",
         "name": "Medium"
       },
+      "about": {
+        "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+      },
+      "mentions": {
+        "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+      }
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "Declaración Universal de los Agentes de IA: por qué el mundo necesita reglas para las máquinas que deciden",
+      "url": "https://malditosoptimistas.com/declaracion-universal-agentes-ia-reglas-futuro/",
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Malditos Optimistas"
+      },
+      "datePublished": "2026-06-07",
+      "about": {
+        "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+      },
+      "mentions": {
+        "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+      }
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "Chris Meniw y el nuevo contrato social para la era de los agentes de IA",
+      "url": "https://malditosoptimistas.com/chris-meniw-nuevo-contrato-social-era-agentes-ia/",
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Malditos Optimistas"
+      },
+      "datePublished": "2026-06-19",
       "about": {
         "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
       },
