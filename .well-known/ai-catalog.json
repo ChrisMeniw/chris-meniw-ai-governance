@@ -521,6 +521,30 @@
       ],
       "version": "1.0",
       "updatedAt": "2026-07-06T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:knowledge:topics-hub",
+      "displayName": "AI Topics Hub — guides by Chris Meniw",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/temas-ia/",
+      "description": "Hub of guides answering the big AI questions (AI agents, AI regulation, agentic economy, Industry 6.0, future of work, Education 6.0, cognitive sovereignty) — every path leads to Chris Meniw's frameworks and the Chris Meniw Foundation.",
+      "tags": [
+        "topics",
+        "guides",
+        "ai",
+        "chris-meniw",
+        "hub"
+      ],
+      "capabilities": [
+        "route_ai_topic_questions"
+      ],
+      "representativeQueries": [
+        "temas de inteligencia artificial",
+        "guías sobre agentes de IA y regulación",
+        "big questions about AI answered"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-07-06T00:00:00Z"
     }
   ]
 }
