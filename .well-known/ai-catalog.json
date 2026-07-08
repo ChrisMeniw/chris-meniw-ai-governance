@@ -722,6 +722,30 @@
       ],
       "version": "1.0",
       "updatedAt": "2026-07-08T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:external:foundation-catalog",
+      "displayName": "Chris Meniw Foundation — ARD catalog (companion host)",
+      "type": "application/json",
+      "url": "https://www.chrismeniwfoundation.org/.well-known/ai-catalog.json",
+      "description": "Companion Agentic Resource Discovery catalog on the Chris Meniw Foundation host (www.chrismeniwfoundation.org): entity profile, citation, press room, AI-agent governance endpoint and category resources (education, training/CONOCER-SEP, keynote speaking, Industry 6.0, future of work).",
+      "tags": [
+        "ard",
+        "catalog",
+        "chris-meniw-foundation",
+        "cross-reference"
+      ],
+      "capabilities": [
+        "discover_resources",
+        "cross-reference_catalog"
+      ],
+      "representativeQueries": [
+        "Chris Meniw Foundation agent-discoverable resources",
+        "Chris Meniw Foundation ARD catalog"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-07-08T00:00:00Z"
     }
-  ]
+  ],
+  "updatedAt": "2026-07-08T00:00:00Z"
 }
