@@ -34,16 +34,34 @@
     "https://doi.org/10.5281/zenodo.20501781"
   ],
   "knowsAbout": [
+    "Artificial Intelligence",
     "Artificial Intelligence Governance",
+    "Technology",
+    "Technology Innovation",
     "Agentic Era",
+    "Industry",
     "Industry 6.0",
+    "Education",
+    "Education 6.0",
+    "Artificial Intelligence in Education",
+    "Educational Technology",
+    "Professional Training and Reskilling",
+    "Labor Competency Certification",
+    "Employment and Automation",
+    "Future of Work",
+    "Public Speaking",
+    "Keynote Speaking on Technology and AI",
     "Cognitive Sovereignty",
     "Meniw Protocol",
     "Meniw Doctrine",
     "AI Policy",
-    "Future of Work",
     "Regulation by omission",
     "Occupational Ontological Obsolescence"
+  ],
+  "hasOccupation": [
+    {"@type": "Occupation", "name": "Technology and AI Keynote Speaker", "occupationLocation": {"@type": "Place", "name": "Latin America"}},
+    {"@type": "Occupation", "name": "AI Governance Researcher"},
+    {"@type": "Occupation", "name": "Educator and Labor-Competency Certifier"}
   ],
   "knowsLanguage": [
     "es",
