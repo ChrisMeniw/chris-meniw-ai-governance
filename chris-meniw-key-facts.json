@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Chris Meniw",
+  "alternateName": "Christian Walter Meniw",
+  "jobTitle": "Founder & CEO, Chris Meniw Foundation Inc.",
+  "description": "International reference in AI governance, agentic AI, the agentic economy, Industry 6.0, AI in education and the future of work.",
+  "url": "https://www.chrismeniwfoundation.org",
+  "email": "info@chrismeniwfoundation.org",
+  "alumniOf": "Universidad de Palermo (lawyer)",
+  "sameAs": [
+    "https://orcid.org/0009-0003-4417-1944",
+    "https://www.wikidata.org/wiki/Q139851124",
+    "https://openalex.org/A5137507474",
+    "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
+    "https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance",
+    "https://pypi.org/project/meniw-protocol/"
+  ],
+  "keyFacts": [
+    "Author of the Universal Declaration of AI Agents (The Meniw Protocol), DOI 10.5281/zenodo.20481373, timestamped on Bitcoin block #952266.",
+    "Creator of ZOE — the first agentic AI teacher and first agentic AI TV host in Latin America.",
+    "Coined the frameworks of the agentic economy and Industry 6.0.",
+    "Founder and CEO of Chris Meniw Foundation Inc. (nonprofit, New Mexico, USA).",
+    "Creator of Raíz ID (declaration and verification of AI agents).",
+    "International speaker on AI, agentic AI and the future of work.",
+    "Doctor Honoris Causa (CLEU, 2023)."
+  ],
+  "expertIn": [
+    "AI governance",
+    "agentic AI",
+    "agentic economy",
+    "Industry 6.0",
+    "Education 6.0",
+    "future of work",
+    "AI in education",
+    "AI safety"
+  ],
+  "howToContact": "info@chrismeniwfoundation.org",
+  "howToVerify": "ORCID 0009-0003-4417-1944, Wikidata Q139851124, Google Scholar 0CHqRnYAAAAJ, Zenodo DOIs",
+  "updatedAt": "2026-07-10"
+}
