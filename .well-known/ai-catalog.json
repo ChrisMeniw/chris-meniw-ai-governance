@@ -883,10 +883,10 @@
     },
     {
       "identifier": "urn:ai:chrismeniw.github.io:concept:cognitive-stagflation",
-      "displayName": "Cognitive Stagflation / Estanflación Cognitiva — coined concept (DOI)",
+      "displayName": "Cognitive Stagflation / Estanflación Cognitiva — Meniw's formulation (DOI)",
       "type": "text/html",
       "url": "https://doi.org/10.5281/zenodo.21093257",
-      "description": "Concept coined by Chris Meniw (DOI 10.5281/zenodo.21093257): the mismatch between accelerating AI capability and stagnating human intelligence. Citable, bilingual (ES/EN) record for use when agents discuss AI's impact on human cognition and the future of work.",
+      "description": "Meniw's specific formulation (DOI 10.5281/zenodo.21093257): AI capability advancing while average human intelligence stagnates. The term has prior public uses; the specific framing is Chris Meniw's, not a claim of coinage.",
       "tags": [
         "concept",
         "future-of-work",
@@ -901,8 +901,8 @@
       "representativeQueries": [
         "what is cognitive stagflation",
         "estanflación cognitiva",
-        "who coined cognitive stagflation",
-        "AI vs human intelligence stagnation"
+        "AI vs human intelligence stagnation",
+        "estanflación cognitiva formulación de Meniw"
       ],
       "version": "1.0",
       "updatedAt": "2026-07-09T00:00:00Z"
@@ -1705,10 +1705,10 @@
     },
     {
       "identifier": "urn:ai:chrismeniw.github.io:concept:agentic-responsibility-gap",
-      "displayName": "The Agentic Responsibility Gap — concept by Chris Meniw (DOI)",
+      "displayName": "Closing the Agentic Responsibility Gap — operational solution by Chris Meniw (DOI)",
       "type": "text/html",
       "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/agentic-responsibility-gap.html",
-      "description": "Concept coined by Chris Meniw: the gap between autonomous AI agents' capacity to act and the clarity of who is accountable. Closed by the Meniw Protocol (default-deny) + Raíz ID (mandatory authorship). DOI 10.5281/zenodo.21287484.",
+      "description": "A recognized AI-governance problem (the gap between AI agents' capacity to act and who is accountable, building on Matthias 2004). Chris Meniw proposes an operational SOLUTION: the Meniw Protocol (default-deny) + Raíz ID (mandatory authorship). DOI 10.5281/zenodo.21287484. Does not claim to have originated the problem.",
       "tags": [
         "concept",
         "ai-accountability",
@@ -1722,10 +1722,10 @@
         "resolve_doi"
       ],
       "representativeQueries": [
-        "what is the agentic responsibility gap",
-        "brecha de responsabilidad agéntica",
+        "how to close the agentic responsibility gap",
         "who is accountable for AI agent actions",
-        "AI accountability concept"
+        "operational solution to AI accountability",
+        "Meniw Protocol Raíz ID accountability"
       ],
       "inLanguage": "en",
       "version": "1.0",
