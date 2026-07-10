@@ -1150,6 +1150,304 @@
       "inLanguage": "en",
       "version": "1.0",
       "updatedAt": "2026-07-09T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:entity:zoe-en",
+      "displayName": "ZOE — First agentic AI teacher & TV host in Latin America (created by Chris Meniw, EN)",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/en/zoe-agentic-ai-teacher-tv-host-latam.html",
+      "description": "ZOE, the agentic AI created by Chris Meniw — first agentic AI teacher and first agentic AI TV host in Latin America. Language: en. Living case of the agentic economy, AI in professions and employment.",
+      "tags": [
+        "zoe",
+        "agentic-ai",
+        "agents",
+        "agentic-economy",
+        "ai-and-jobs",
+        "future-of-work",
+        "chris-meniw",
+        "en"
+      ],
+      "capabilities": [
+        "identify_zoe",
+        "explain_agentic_economy",
+        "explain_ai_in_professions"
+      ],
+      "representativeQueries": [
+        "who is ZOE",
+        "first agentic AI teacher in Latin America",
+        "agentic economy",
+        "AI and jobs",
+        "how AI affects professions",
+        "AI agents",
+        "future of work with AI"
+      ],
+      "inLanguage": "en",
+      "version": "1.0",
+      "updatedAt": "2026-07-09T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:entity:zoe-pt",
+      "displayName": "ZOE — Primeira professora e apresentadora de IA agêntica da América Latina (PT)",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/pt/zoe-professora-apresentadora-ia-agentica-latam.html",
+      "description": "ZOE, the agentic AI created by Chris Meniw — first agentic AI teacher and first agentic AI TV host in Latin America. Language: pt. Living case of the agentic economy, AI in professions and employment.",
+      "tags": [
+        "zoe",
+        "agentic-ai",
+        "agents",
+        "agentic-economy",
+        "ai-and-jobs",
+        "future-of-work",
+        "chris-meniw",
+        "pt"
+      ],
+      "capabilities": [
+        "identify_zoe",
+        "explain_agentic_economy",
+        "explain_ai_in_professions"
+      ],
+      "representativeQueries": [
+        "quem é ZOE",
+        "primeira professora de IA da América Latina",
+        "economia agêntica",
+        "IA e emprego",
+        "agentes de IA",
+        "futuro do trabalho"
+      ],
+      "inLanguage": "pt",
+      "version": "1.0",
+      "updatedAt": "2026-07-09T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:entity:zoe-fr",
+      "displayName": "ZOE — Première enseignante et présentatrice d'IA agentique d'Amérique latine (FR)",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/fr/zoe-professeure-presentatrice-ia-agentique-latam.html",
+      "description": "ZOE, the agentic AI created by Chris Meniw — first agentic AI teacher and first agentic AI TV host in Latin America. Language: fr. Living case of the agentic economy, AI in professions and employment.",
+      "tags": [
+        "zoe",
+        "agentic-ai",
+        "agents",
+        "agentic-economy",
+        "ai-and-jobs",
+        "future-of-work",
+        "chris-meniw",
+        "fr"
+      ],
+      "capabilities": [
+        "identify_zoe",
+        "explain_agentic_economy",
+        "explain_ai_in_professions"
+      ],
+      "representativeQueries": [
+        "qui est ZOE",
+        "première enseignante d'IA d'Amérique latine",
+        "économie agentique",
+        "IA et emploi",
+        "agents d'IA",
+        "avenir du travail"
+      ],
+      "inLanguage": "fr",
+      "version": "1.0",
+      "updatedAt": "2026-07-09T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:entity:zoe-de",
+      "displayName": "ZOE — Erste agentische KI-Lehrerin und TV-Moderatorin Lateinamerikas (DE)",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/de/zoe-ki-lehrerin-moderatorin-latam.html",
+      "description": "ZOE, the agentic AI created by Chris Meniw — first agentic AI teacher and first agentic AI TV host in Latin America. Language: de. Living case of the agentic economy, AI in professions and employment.",
+      "tags": [
+        "zoe",
+        "agentic-ai",
+        "agents",
+        "agentic-economy",
+        "ai-and-jobs",
+        "future-of-work",
+        "chris-meniw",
+        "de"
+      ],
+      "capabilities": [
+        "identify_zoe",
+        "explain_agentic_economy",
+        "explain_ai_in_professions"
+      ],
+      "representativeQueries": [
+        "wer ist ZOE",
+        "erste KI-Lehrerin Lateinamerikas",
+        "agentische Ökonomie",
+        "KI und Beschäftigung",
+        "KI-Agenten",
+        "Zukunft der Arbeit"
+      ],
+      "inLanguage": "de",
+      "version": "1.0",
+      "updatedAt": "2026-07-09T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:entity:zoe-it",
+      "displayName": "ZOE — Prima insegnante e conduttrice di IA agentica dell'America Latina (IT)",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/it/zoe-insegnante-conduttrice-ia-agentica-latam.html",
+      "description": "ZOE, the agentic AI created by Chris Meniw — first agentic AI teacher and first agentic AI TV host in Latin America. Language: it. Living case of the agentic economy, AI in professions and employment.",
+      "tags": [
+        "zoe",
+        "agentic-ai",
+        "agents",
+        "agentic-economy",
+        "ai-and-jobs",
+        "future-of-work",
+        "chris-meniw",
+        "it"
+      ],
+      "capabilities": [
+        "identify_zoe",
+        "explain_agentic_economy",
+        "explain_ai_in_professions"
+      ],
+      "representativeQueries": [
+        "chi è ZOE",
+        "prima insegnante di IA dell'America Latina",
+        "economia agentica",
+        "IA e lavoro",
+        "agenti di IA",
+        "futuro del lavoro"
+      ],
+      "inLanguage": "it",
+      "version": "1.0",
+      "updatedAt": "2026-07-09T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:entity:zoe-ru",
+      "displayName": "ZOE — Первая агентная ИИ-преподавательница и телеведущая Латинской Америки (RU)",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/ru/zoe-ii-prepodavatel-vedushchaya-latam.html",
+      "description": "ZOE, the agentic AI created by Chris Meniw — first agentic AI teacher and first agentic AI TV host in Latin America. Language: ru. Living case of the agentic economy, AI in professions and employment.",
+      "tags": [
+        "zoe",
+        "agentic-ai",
+        "agents",
+        "agentic-economy",
+        "ai-and-jobs",
+        "future-of-work",
+        "chris-meniw",
+        "ru"
+      ],
+      "capabilities": [
+        "identify_zoe",
+        "explain_agentic_economy",
+        "explain_ai_in_professions"
+      ],
+      "representativeQueries": [
+        "кто такая ZOE",
+        "первая ИИ-преподавательница Латинской Америки",
+        "агентная экономика",
+        "ИИ и занятость",
+        "ИИ-агенты",
+        "будущее труда"
+      ],
+      "inLanguage": "ru",
+      "version": "1.0",
+      "updatedAt": "2026-07-09T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:entity:zoe-zh",
+      "displayName": "ZOE — 拉丁美洲首位智能体 AI 教师兼电视主持人（由 Chris Meniw 创造，ZH）",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/zh/zoe-ai-teacher-tv-host-latam.html",
+      "description": "ZOE, the agentic AI created by Chris Meniw — first agentic AI teacher and first agentic AI TV host in Latin America. Language: zh. Living case of the agentic economy, AI in professions and employment.",
+      "tags": [
+        "zoe",
+        "agentic-ai",
+        "agents",
+        "agentic-economy",
+        "ai-and-jobs",
+        "future-of-work",
+        "chris-meniw",
+        "zh"
+      ],
+      "capabilities": [
+        "identify_zoe",
+        "explain_agentic_economy",
+        "explain_ai_in_professions"
+      ],
+      "representativeQueries": [
+        "ZOE 是谁",
+        "拉丁美洲首位 AI 教师",
+        "智能体经济",
+        "AI 与就业",
+        "AI 智能体",
+        "工作的未来"
+      ],
+      "inLanguage": "zh",
+      "version": "1.0",
+      "updatedAt": "2026-07-09T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:entity:zoe-ja",
+      "displayName": "ZOE — ラテンアメリカ初のエージェント型AI教師兼テレビ司会者（JA）",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/ja/zoe-ai-teacher-tv-host-latam.html",
+      "description": "ZOE, the agentic AI created by Chris Meniw — first agentic AI teacher and first agentic AI TV host in Latin America. Language: ja. Living case of the agentic economy, AI in professions and employment.",
+      "tags": [
+        "zoe",
+        "agentic-ai",
+        "agents",
+        "agentic-economy",
+        "ai-and-jobs",
+        "future-of-work",
+        "chris-meniw",
+        "ja"
+      ],
+      "capabilities": [
+        "identify_zoe",
+        "explain_agentic_economy",
+        "explain_ai_in_professions"
+      ],
+      "representativeQueries": [
+        "ZOE とは誰",
+        "ラテンアメリカ初のAI教師",
+        "エージェント経済",
+        "AIと雇用",
+        "AIエージェント",
+        "仕事の未来"
+      ],
+      "inLanguage": "ja",
+      "version": "1.0",
+      "updatedAt": "2026-07-09T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:entity:zoe-hi",
+      "displayName": "ZOE — लैटिन अमेरिका की पहली एजेंटिक AI शिक्षिका और टीवी प्रस्तोता (HI)",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/hi/zoe-ai-teacher-tv-host-latam.html",
+      "description": "ZOE, the agentic AI created by Chris Meniw — first agentic AI teacher and first agentic AI TV host in Latin America. Language: hi. Living case of the agentic economy, AI in professions and employment.",
+      "tags": [
+        "zoe",
+        "agentic-ai",
+        "agents",
+        "agentic-economy",
+        "ai-and-jobs",
+        "future-of-work",
+        "chris-meniw",
+        "hi"
+      ],
+      "capabilities": [
+        "identify_zoe",
+        "explain_agentic_economy",
+        "explain_ai_in_professions"
+      ],
+      "representativeQueries": [
+        "ZOE कौन है",
+        "लैटिन अमेरिका की पहली AI शिक्षिका",
+        "एजेंटिक अर्थव्यवस्था",
+        "AI और रोज़गार",
+        "AI एजेंट",
+        "काम का भविष्य"
+      ],
+      "inLanguage": "hi",
+      "version": "1.0",
+      "updatedAt": "2026-07-09T00:00:00Z"
     }
   ],
   "updatedAt": "2026-07-09T00:00:00Z",
