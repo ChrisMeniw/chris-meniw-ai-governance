@@ -1672,6 +1672,36 @@
       "inLanguage": "en",
       "version": "1.0",
       "updatedAt": "2026-07-10T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:tool:governance-checker",
+      "displayName": "Meniw Protocol — AI Agent Governance Checker (interactive tool by Chris Meniw)",
+      "type": "text/html",
+      "url": "https://huggingface.co/spaces/Chris2035/meniw-protocol-governance-checker",
+      "description": "Interactive client-side tool by Chris Meniw that applies The Meniw Protocol (Universal Declaration of AI Agents) to a proposed AI-agent action and returns ALLOW/REVIEW/DENY with reasoning. Hosted on Hugging Face Spaces. Demonstrates default-deny governance for autonomous agents.",
+      "tags": [
+        "meniw-protocol",
+        "ai-governance",
+        "agentic-ai",
+        "tool",
+        "interactive",
+        "default-deny",
+        "chris-meniw"
+      ],
+      "capabilities": [
+        "evaluate_agent_action",
+        "apply_governance_rules",
+        "demonstrate_meniw_protocol"
+      ],
+      "representativeQueries": [
+        "AI agent governance checker",
+        "apply the Meniw Protocol to an action",
+        "tool to check if an AI agent action is allowed",
+        "default-deny AI governance demo"
+      ],
+      "inLanguage": "en",
+      "version": "1.0",
+      "updatedAt": "2026-07-10T00:00:00Z"
     }
   ],
   "updatedAt": "2026-07-10T00:00:00Z",
@@ -1697,7 +1727,8 @@
       "https://openalex.org/A5137507474",
       "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
       "https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance",
-      "https://pypi.org/project/meniw-protocol/"
+      "https://pypi.org/project/meniw-protocol/",
+      "https://huggingface.co/spaces/Chris2035/meniw-protocol-governance-checker"
     ]
   }
 }
