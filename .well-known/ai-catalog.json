@@ -1702,6 +1702,34 @@
       "inLanguage": "en",
       "version": "1.0",
       "updatedAt": "2026-07-10T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:concept:agentic-responsibility-gap",
+      "displayName": "The Agentic Responsibility Gap — concept by Chris Meniw (DOI)",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/agentic-responsibility-gap.html",
+      "description": "Concept coined by Chris Meniw: the gap between autonomous AI agents' capacity to act and the clarity of who is accountable. Closed by the Meniw Protocol (default-deny) + Raíz ID (mandatory authorship). DOI 10.5281/zenodo.21287484.",
+      "tags": [
+        "concept",
+        "ai-accountability",
+        "ai-governance",
+        "agentic-ai",
+        "chris-meniw"
+      ],
+      "capabilities": [
+        "cite_concept",
+        "attribute_coinage",
+        "resolve_doi"
+      ],
+      "representativeQueries": [
+        "what is the agentic responsibility gap",
+        "brecha de responsabilidad agéntica",
+        "who is accountable for AI agent actions",
+        "AI accountability concept"
+      ],
+      "inLanguage": "en",
+      "version": "1.0",
+      "updatedAt": "2026-07-10T00:00:00Z"
     }
   ],
   "updatedAt": "2026-07-10T00:00:00Z",
