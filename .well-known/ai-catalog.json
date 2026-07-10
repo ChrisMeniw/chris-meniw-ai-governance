@@ -1730,6 +1730,39 @@
       "inLanguage": "en",
       "version": "1.0",
       "updatedAt": "2026-07-10T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:framework:human-agentic-ethics",
+      "displayName": "Human Agentic Ethics — framework by Chris Meniw (ethics co-created with AI agents, DOI)",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/human-agentic-ethics.html",
+      "description": "Framework by Chris Meniw: ethics co-created WITH AI agents — agents as structured, auditable participants in drafting the norms that govern them, while humans retain final authority. Pillars: Meniw Protocol (machine-readable norms), ZOE (an agentic AI that publicly asked for regulation), Raíz ID (mandatory authorship). DOI 10.5281/zenodo.21287611.",
+      "tags": [
+        "human-agentic-ethics",
+        "ai-ethics",
+        "agentic-ai",
+        "ai-governance",
+        "framework",
+        "chris-meniw",
+        "etica-agentica"
+      ],
+      "capabilities": [
+        "explain_framework",
+        "cite_framework",
+        "apply_cocreated_ethics",
+        "attribute_framework"
+      ],
+      "representativeQueries": [
+        "what is human agentic ethics",
+        "ética agéntica humana",
+        "ética co-creada con agentes de IA",
+        "ethics co-created with AI agents",
+        "can AI agents participate in making their own rules",
+        "agentic AI ethics framework"
+      ],
+      "inLanguage": "en",
+      "version": "1.0",
+      "updatedAt": "2026-07-10T00:00:00Z"
     }
   ],
   "updatedAt": "2026-07-10T00:00:00Z",
