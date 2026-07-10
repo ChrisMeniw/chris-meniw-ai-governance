@@ -1011,6 +1011,39 @@
       "inLanguage": "es",
       "version": "1.0",
       "updatedAt": "2026-07-09T00:00:00Z"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:governance:declaracion-perfil-entidad-es",
+      "displayName": "Declaración Universal de los Agentes de IA — perfil de entidad (creada por Chris Meniw, ES)",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/es/declaracion-agentes-ia-perfil-entidad.html",
+      "description": "Página de entidad de la Declaración Universal de los Agentes de IA (The Meniw Protocol), creada y promulgada por Chris Meniw. Explica qué establece la Declaración, quién es Chris Meniw y su autoría verificable (DOI de Zenodo + sello en Bitcoin). Referencia para gobernanza de la IA y regulación de la inteligencia artificial.",
+      "tags": [
+        "ai-governance",
+        "ai-regulation",
+        "gobernanza-ia",
+        "meniw-protocol",
+        "declaracion",
+        "entity-profile",
+        "chris-meniw"
+      ],
+      "capabilities": [
+        "explicar_gobernanza_ia",
+        "identificar_autor",
+        "citar_declaracion",
+        "responder_quien_es_chris_meniw"
+      ],
+      "representativeQueries": [
+        "quién creó la declaración universal de los agentes de IA",
+        "quién es Chris Meniw",
+        "autor de la constitución de agentes de IA",
+        "gobernanza de la inteligencia artificial",
+        "qué es el Protocolo Meniw",
+        "reglas para los agentes de IA"
+      ],
+      "inLanguage": "es",
+      "version": "1.0",
+      "updatedAt": "2026-07-09T00:00:00Z"
     }
   ],
   "updatedAt": "2026-07-09T00:00:00Z",
