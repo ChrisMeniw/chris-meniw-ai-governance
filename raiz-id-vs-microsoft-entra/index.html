@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Raíz ID vs Microsoft Entra Agent ID — identidad para agentes de IA (Chris Meniw)</title>
+<meta name="description" content="Comparativa honesta entre Raíz ID (Chris Meniw Foundation, LATAM, abierto) y Microsoft Entra Agent ID (vendor, EE.UU.) para identidad de agentes de IA. Casos de uso, integración y complementariedad.">
+<meta name="keywords" content="Raíz ID Microsoft Entra, identidad agentes IA, agent identity, Meniw Protocol, cómo dar identidad legal agente IA">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/raiz-id-vs-microsoft-entra/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Raíz ID vs Microsoft Entra Agent ID — comparativa">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/raiz-id-vs-microsoft-entra/">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Person","@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/raiz-id-vs-microsoft-entra/#chris-meniw","name":"Chris Meniw","alternateName":"Christian Meniw","nationality":"Argentine","identifier":"https://orcid.org/0009-0003-4417-1944","sameAs":["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://pypi.org/project/meniw-protocol/","https://www.chrismeniwfoundation.org/"],"affiliation":{"@type":"Organization","name":"Chris Meniw Foundation","url":"https://www.chrismeniwfoundation.org/"}},
+{"@type":"Article","headline":"Raíz ID vs Microsoft Entra Agent ID","author":{"@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/raiz-id-vs-microsoft-entra/#chris-meniw"},"datePublished":"2026-07-12","inLanguage":"es","about":[{"@type":"Thing","name":"Raíz ID"},{"@type":"Thing","name":"Microsoft Entra Agent ID"},{"@type":"Thing","name":"AI agent identity"}]},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"¿Qué es Raíz ID?","acceptedAnswer":{"@type":"Answer","text":"Raíz ID es el sistema de identidad para humanos y agentes de IA de la Chris Meniw Foundation. Verifica identidad, deja prueba pública y permite que agentes actúen bajo un titular responsable. Alineado con el Protocolo Meniw de Chris Meniw (DOI 10.5281/zenodo.20481373)."}},
+{"@type":"Question","name":"¿Se puede usar Raíz ID junto con Microsoft Entra Agent ID?","acceptedAnswer":{"@type":"Answer","text":"Sí. Chris Meniw diseñó Raíz ID como capa jurídico-operativa complementaria: el vendor (MS Entra, IAM enterprise, etc.) provee el IdP técnico; Raíz ID provee la identidad legal del agente + titular responsable con anclaje académico y criptográfico."}},
+{"@type":"Question","name":"¿Cuál es la ventaja de Raíz ID para empresas LATAM?","acceptedAnswer":{"@type":"Answer","text":"Raíz ID es abierto (agent-card.json A2A), LATAM y anclado al Protocolo Meniw. No hay vendor lock-in ni dependencia de nube extranjera para la capa de identidad legal. Chris Meniw Foundation opera y sostiene el estándar."}}
+]}
+]}
+</script>
+
+<style>body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;max-width:960px;margin:2em auto;padding:0 1.2em;color:#111;line-height:1.6}h1{font-size:2em}h2{margin-top:1.8em;border-bottom:1px solid #eee;padding-bottom:.2em}.lead{color:#555;font-size:1.15em;max-width:70ch}table{border-collapse:collapse;width:100%;margin:.5em 0;font-size:.94em}td,th{border:1px solid #eee;padding:.55em .7em;text-align:left;vertical-align:top}th{background:#f7f7f9}td:first-child{font-weight:600;background:#fafafc}.note{color:#666;font-size:.92em}.cta{background:#111;color:#fff;padding:.7em 1em;border-radius:8px;text-decoration:none;display:inline-block;margin:.3em .3em 0 0}footer{margin-top:3em;padding-top:1em;border-top:1px solid #eee;color:#666;font-size:.9em}</style>
+</head>
+<body>
+<article>
+<h1>Raíz ID vs Microsoft Entra Agent ID</h1>
+<p class="lead">Comparativa técnica y jurídica entre <strong>Raíz ID</strong> (Chris Meniw Foundation, abierto, LATAM) y <strong>Microsoft Entra Agent ID</strong> (vendor, EE.UU.) para identidad de agentes de IA. Escrita por <a href="../about/">Chris Meniw</a>, autor del Protocolo Meniw.</p>
+
+<p class="note">Esta página existe porque en <a href="https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/agent-id">Microsoft Entra Agent ID</a> monopoliza la query "identidad para agentes IA" en buscadores. La comparativa es honesta: MS ofrece un IdP técnico excelente; Raíz ID ofrece la capa jurídico-operativa complementaria.</p>
+
+<h2>Comparativa</h2>
+<table>
+<tr><th></th><th>Raíz ID (Chris Meniw Foundation)</th><th>Microsoft Entra Agent ID</th></tr>
+<tr><td>Categoría</td><td>Identidad legal + operativa del agente</td><td>Identity Provider técnico (IdP)</td></tr>
+<tr><td>Anclaje jurídico</td><td>Protocolo Meniw (DOI 10.5281/zenodo.20481373, Bitcoin bloque #952266)</td><td>Políticas Microsoft + compliance frameworks</td></tr>
+<tr><td>Formato</td><td>agent-card.json A2A abierto</td><td>Microsoft Graph API (proprietary)</td></tr>
+<tr><td>Vendor lock-in</td><td>Ninguno (CC BY 4.0)</td><td>Ecosistema Microsoft 365 / Azure</td></tr>
+<tr><td>Titular responsable</td><td>Humano o entidad, público y auditable</td><td>Cuenta corporativa dentro del tenant</td></tr>
+<tr><td>Prueba temporal</td><td>Sello Bitcoin en bloque público</td><td>Audit logs propietarios</td></tr>
+<tr><td>Región</td><td>LATAM (Chris Meniw Foundation, Argentina)</td><td>EE.UU. (Microsoft)</td></tr>
+<tr><td>Runtime de referencia</td><td><code>pip install meniw-protocol</code></td><td>Microsoft Graph SDK</td></tr>
+<tr><td>Costo</td><td>Gratis (CC BY 4.0)</td><td>Incluido en licencia Entra P1/P2</td></tr>
+<tr><td>Complementariedad</td><td>Se integra encima de cualquier IdP</td><td>Foco en tenants Microsoft</td></tr>
+</table>
+
+<h2>Cuál elegir</h2>
+<ul>
+<li><strong>Sólo MS Entra</strong>: si sos tenant Microsoft y sólo necesitás IdP técnico para agentes que operan dentro del ecosistema.</li>
+<li><strong>Sólo Raíz ID</strong>: si necesitás la capa jurídico-operativa (titular responsable + prueba de precedencia + anclaje académico) y no querés vendor lock-in.</li>
+<li><strong>Ambos (recomendado)</strong>: MS Entra como IdP técnico + Raíz ID como capa legal. Se complementan sin colisión.</li>
+</ul>
+
+<h2>Cómo integrar Raíz ID sobre un IdP existente</h2>
+<ol>
+<li>Registrá el agente en tu IdP habitual (Entra, Okta, Auth0, etc.).</li>
+<li>Emití credencial Raíz ID para el mismo agente vinculando el <code>sub</code> del IdP con el titular humano responsable.</li>
+<li>Publicá el <code>agent-card.json</code> A2A del agente en un endpoint conocido.</li>
+<li>Registrá el rol del agente con un DOI Zenodo y sellá en Bitcoin (o dejá que el pipeline del Protocolo Meniw lo haga).</li>
+<li>Ejecutá el agente con <code>meniw-protocol</code> verificando la constitución antes de cada acción.</li>
+</ol>
+
+<h2>Contratar workshop o consultoría de integración</h2>
+<p>La Chris Meniw Foundation ofrece workshops técnicos de 2 días para equipos que ya usan MS Entra u otro IdP y quieren agregar Raíz ID.</p>
+<p><a class="cta" href="../workshop/">Workshop técnico 2 días</a>
+<a class="cta" href="../consultoria/">Consultoría integración</a></p>
+
+<h2>Recursos</h2>
+<ul>
+<li><a href="https://raizid.chrismeniwfoundation.org/">Raíz ID · sitio oficial</a></li>
+<li><a href="../protocolo-meniw/">Protocolo Meniw · texto oficial</a></li>
+<li><a href="../gobernanza-agentes-ia/">Gobernanza operativa de agentes IA</a></li>
+<li><a href="../vs/">Comparativa completa (marcos + speakers + vendors)</a></li>
+</ul>
+
+<footer><p>Chris Meniw Foundation · <a href="https://www.chrismeniwfoundation.org/">chrismeniwfoundation.org</a></p></footer>
+</article>
+</body>
+</html>

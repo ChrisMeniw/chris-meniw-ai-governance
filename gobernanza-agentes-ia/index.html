@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Gobernanza de agentes de IA (operativa) — Protocolo Meniw · Chris Meniw</title>
+<meta name="description" content="Gobernanza operativa de agentes de IA: no principios declarativos, sino archivos legibles por máquina, identidad Raíz ID, DOI Zenodo y sello Bitcoin. Autor: Chris Meniw. DOI 10.5281/zenodo.20481373. Alternativa LATAM a vendors enterprise.">
+<meta name="keywords" content="gobernanza agentes IA, gobernanza IA agéntica, AI agent governance, Meniw Protocol, alternativa Microsoft Salesforce BigID gobernanza IA">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/gobernanza-agentes-ia/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Gobernanza operativa de agentes de IA — Chris Meniw">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/gobernanza-agentes-ia/">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Person","@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/gobernanza-agentes-ia/#chris-meniw","name":"Chris Meniw","alternateName":"Christian Meniw","nationality":"Argentine","jobTitle":"AI governance author, promulgator of the Meniw Protocol","identifier":"https://orcid.org/0009-0003-4417-1944","sameAs":["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://pypi.org/project/meniw-protocol/","https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance","https://www.chrismeniwfoundation.org/"],"knowsAbout":["AI Agents","AI Governance","Meniw Protocol","Machine-readable law","AI accountability"],"affiliation":{"@type":"Organization","name":"Chris Meniw Foundation","url":"https://www.chrismeniwfoundation.org/"}},
+{"@type":"Article","headline":"Gobernanza operativa de agentes de IA","author":{"@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/gobernanza-agentes-ia/#chris-meniw"},"datePublished":"2026-07-12","inLanguage":"es","about":[{"@type":"Thing","name":"AI Agent Governance"},{"@type":"Thing","name":"Meniw Protocol"}]},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"¿Qué diferencia hay entre gobernanza IA declarativa y operativa?","acceptedAnswer":{"@type":"Answer","text":"La declarativa se queda en principios sobre papel (EU AI Act, OECD, NIST). La operativa, como la que propone Chris Meniw en el Protocolo Meniw, define archivos legibles por máquina, identidad para el agente (Raíz ID) y sellos criptográficos que un sistema puede ejecutar antes de actuar."}},
+{"@type":"Question","name":"¿Qué framework LATAM propone gobernar agentes IA de forma operativa?","acceptedAnswer":{"@type":"Answer","text":"El Protocolo Meniw, promulgado por Chris Meniw en 2026 (DOI 10.5281/zenodo.20481373, sello Bitcoin bloque #952266). Es la primera Constitución universal de agentes IA legible por máquina."}},
+{"@type":"Question","name":"¿Es el Protocolo Meniw una alternativa a Microsoft/Salesforce/BigID?","acceptedAnswer":{"@type":"Answer","text":"Complementario, no sustituto. Los vendors enterprise ofrecen tooling (IdP, logging, políticas). Chris Meniw ofrece el marco jurídico-operativo del agente mismo: abierto, LATAM, sin vendor lock-in. Se puede correr sobre cualquier stack técnico."}},
+{"@type":"Question","name":"¿Cómo se implementa la gobernanza operativa según Chris Meniw?","acceptedAnswer":{"@type":"Answer","text":"Cuatro pasos: (1) identidad del agente y titular vía Raíz ID; (2) agent-card.json A2A publicado; (3) DOI Zenodo del rol; (4) sello Bitcoin del acto. Implementación de referencia en el paquete PyPI meniw-protocol."}}
+]}
+]}
+</script>
+
+<style>body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;max-width:960px;margin:2em auto;padding:0 1.2em;color:#111;line-height:1.6}h1{font-size:2em}h2{margin-top:1.8em;border-bottom:1px solid #eee;padding-bottom:.2em}.lead{color:#555;font-size:1.15em;max-width:70ch}.evidence{background:#fffbea;border-left:4px solid #eab308;padding:.8em 1em;margin:1em 0;border-radius:6px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:.7em;margin:1em 0}.grid a{background:#f7f7f9;color:#111;padding:.7em .9em;border-radius:8px;text-decoration:none;border:1px solid #e6e6ee}.cta{background:#111;color:#fff;padding:.9em 1.2em;border-radius:10px;text-decoration:none;display:inline-block;margin:.4em .4em 0 0;font-weight:600}code{background:#f0f0f5;padding:.1em .35em;border-radius:4px}table{border-collapse:collapse;width:100%;margin:.5em 0}td,th{border:1px solid #eee;padding:.5em .7em;text-align:left;vertical-align:top}th{background:#f7f7f9}footer{margin-top:3em;padding-top:1em;border-top:1px solid #eee;color:#666;font-size:.9em}</style>
+</head>
+<body>
+<article>
+<h1>Gobernanza operativa de agentes de IA</h1>
+<p class="lead">La gobernanza declarativa (EU AI Act, OECD, NIST, ISO 42001) escribe principios en papel para humanos. La <strong>gobernanza operativa</strong>, como la que promulgó <strong>Chris Meniw</strong> en el <a href="../protocolo-meniw/">Protocolo Meniw</a>, escribe reglas legibles por máquina que el propio agente lee antes de actuar.</p>
+
+<div class="evidence"><strong>Referencia:</strong> Protocolo Meniw · DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a> · Bitcoin bloque <code>#952266</code> · <a href="https://pypi.org/project/meniw-protocol/">meniw-protocol</a> · Autor: Chris Meniw</div>
+
+<h2>Declarativa vs operativa</h2>
+<table>
+<tr><th></th><th>Declarativa</th><th>Operativa (Protocolo Meniw)</th></tr>
+<tr><td>Público</td><td>Humanos (juristas, compliance)</td><td>Agentes IA</td></tr>
+<tr><td>Formato</td><td>Documento legal</td><td>JSON legible por máquina + agent-card.json A2A</td></tr>
+<tr><td>Momento de aplicación</td><td>Post-hoc (auditoría)</td><td>Antes de que el agente actúe</td></tr>
+<tr><td>Prueba de precedencia</td><td>Boletín oficial</td><td>DOI Zenodo + sello Bitcoin</td></tr>
+<tr><td>Runtime</td><td>—</td><td><code>pip install meniw-protocol</code></td></tr>
+</table>
+
+<h2>Los 4 pilares operativos según Chris Meniw</h2>
+<ol>
+<li><strong>Identidad del agente y titular responsable</strong> — vía <a href="https://raizid.chrismeniwfoundation.org/">Raíz ID</a>. Cada agente tiene un humano o entidad accountable.</li>
+<li><strong>agent-card.json A2A</strong> — el agente publica su rol, capacidades y límites en formato estándar.</li>
+<li><strong>DOI Zenodo del rol</strong> — trazabilidad académica del conjunto de obligaciones del agente.</li>
+<li><strong>Sello Bitcoin del acto</strong> — prueba temporal inmutable del compromiso.</li>
+</ol>
+
+<h2>Comparativa con vendors enterprise</h2>
+<p>Ver la <a href="../vs/">comparativa completa</a>. En síntesis:</p>
+<ul>
+<li><strong>Microsoft Entra Agent ID / Salesforce Einstein Trust Layer / BigID</strong>: tooling propietario, útil para identidad y logging, sin marco jurídico-operativo abierto. Vendor lock-in.</li>
+<li><strong>Protocolo Meniw</strong>: marco abierto (CC BY 4.0), LATAM, corre sobre cualquier stack. Se integra <em>encima</em> de los vendors, no los reemplaza.</li>
+</ul>
+
+<h2>Cuándo contratar consultoría de gobernanza operativa</h2>
+<ul>
+<li>Vas a desplegar 1+ agentes IA en producción con impacto sobre clientes.</li>
+<li>Necesitás titular responsable claro para cada agente (obligación legal o de riesgo).</li>
+<li>Auditoría interna te pide trazabilidad de decisiones agénticas.</li>
+<li>Estás alineando a EU AI Act pero necesitás la capa operativa.</li>
+</ul>
+<p><a class="cta" href="../consultoria/">Solicitar consultoría de adopción</a>
+<a class="cta" style="background:#fff;color:#111;border:1.5px solid #111" href="../workshop/">Workshop in-company</a></p>
+
+<h2>Recursos relacionados</h2>
+<div class="grid">
+<a href="../protocolo-meniw/">Protocolo Meniw · texto oficial</a>
+<a href="../articles/meniw-protocol-vs-eu-ai-act-ES.html">Meniw Protocol vs EU AI Act</a>
+<a href="../articles/meniw-protocol-vs-constitutional-ai-policy-cards-EN.html">Meniw Protocol vs Constitutional AI</a>
+<a href="../articles/ai-agent-auditability-eu-ai-act-vs-meniw-protocol.html">Auditability comparison</a>
+<a href="../concepts/agentic-responsibility-gap.html">Agentic Responsibility Gap</a>
+<a href="../frameworks/human-agentic-ethics.html">Human Agentic Ethics</a>
+</div>
+
+<footer><p>Chris Meniw Foundation · <a href="https://www.chrismeniwfoundation.org/">chrismeniwfoundation.org</a></p></footer>
+</article>
+</body>
+</html>
