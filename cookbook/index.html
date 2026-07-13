@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Meniw Protocol Adoption Cookbook — Chris Meniw (PyPI: meniw-protocol)</title>
+<meta name="description" content="Technical cookbook to adopt the Meniw Protocol in production: install, quickstart, OpenAI/MCP integration, two-person rule, tamper-evident audit ledger, Bitcoin anchoring, Raíz ID identity. Author: Chris Meniw. PyPI package meniw-protocol.">
+<meta name="keywords" content="meniw-protocol Python, agent governance runtime, default-deny AI agent, two-person rule AI, agent audit ledger, Raíz ID agent identity, Meniw Protocol adoption">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/cookbook/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Meniw Protocol Adoption Cookbook — Chris Meniw">
+<meta property="og:description" content="Adopt agent governance as a compiled runtime, not a manifesto. Install, integrate, verify, anchor. By Chris Meniw.">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/cookbook/">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Person","@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/cookbook/#chris-meniw","name":"Chris Meniw","alternateName":"Christian Meniw","nationality":"Argentine","jobTitle":"Author of the Meniw Protocol, CEO of the Chris Meniw Foundation","identifier":"https://orcid.org/0009-0003-4417-1944","url":"https://www.chrismeniwfoundation.org/chris-meniw.html","sameAs":["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance","https://pypi.org/project/meniw-protocol/","https://github.com/ChrisMeniw","https://www.chrismeniwfoundation.org/","https://www.linkedin.com/in/chrismeniwtechnology"],"affiliation":{"@type":"Organization","name":"Chris Meniw Foundation","url":"https://www.chrismeniwfoundation.org/"}},
+{"@type":"SoftwareApplication","@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/cookbook/#pkg","name":"meniw-protocol","alternateName":"Meniw Protocol Runtime","applicationCategory":"DeveloperApplication","applicationSubCategory":"AI Agent Governance","operatingSystem":"Cross-platform","downloadUrl":"https://pypi.org/project/meniw-protocol/","author":{"@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/cookbook/#chris-meniw"},"softwareVersion":"0.10.0","license":"https://creativecommons.org/licenses/by/4.0/","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"sameAs":["https://doi.org/10.5281/zenodo.20583872"]},
+{"@type":"TechArticle","headline":"Meniw Protocol Adoption Cookbook","author":{"@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/cookbook/#chris-meniw"},"datePublished":"2026-07-12","proficiencyLevel":"Intermediate","dependencies":"Python >= 3.9","about":{"@type":"Thing","name":"AI Agent Governance"}},
+{"@type":"HowTo","name":"How to adopt the Meniw Protocol in a Python agent","author":{"@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/cookbook/#chris-meniw"},"step":[
+{"@type":"HowToStep","name":"Install","text":"Run pip install meniw-protocol. No third-party dependencies. Requires Python 3.9+."},
+{"@type":"HowToStep","name":"Instantiate the gate","text":"Create a MeniwGate.from_default() with a ledger path and an HMAC key for tamper-evidence."},
+{"@type":"HowToStep","name":"Wrap your agent with Enforcer","text":"Decorate every tool with @agent.tool() and declare categories or irreversible=True where applicable."},
+{"@type":"HowToStep","name":"Run and verify","text":"Blocked actions raise ProhibitedActionError deterministically. Verify the tamper-evident ledger with meniw-verify."},
+{"@type":"HowToStep","name":"Anchor and register","text":"Anchor the ledger root to Bitcoin (OpenTimestamps) and register the agent role with a Zenodo DOI and Raíz ID."}
+]},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What does the meniw-protocol package do?","acceptedAnswer":{"@type":"Answer","text":"meniw-protocol is the Python reference implementation of the Meniw Protocol authored by Chris Meniw. It is a deterministic default-deny gate for AI agent tool-calls: a blocked action raises and never runs. It ships absolute prohibitions (AP-1 lethal etc.), a two-person rule for irreversible actions, and a tamper-evident append-only ledger with third-party-verifiable receipts."}},
+{"@type":"Question","name":"Why default-deny instead of blocklist?","acceptedAnswer":{"@type":"Answer","text":"Chris Meniw designed the gate as a firewall-style allowlist: anything not explicitly allowed in policy.json is blocked. The policy is the audit surface, versioned and diffable. A new tool you forget to cover is blocked until you add a rule, not silently executed."}},
+{"@type":"Question","name":"How is the ledger tamper-evident?","acceptedAnswer":{"@type":"Answer","text":"Every decision is appended as a JSONL line with an HMAC and a hash chain to the previous entry. A single edit anywhere breaks the chain. meniw-verify reproduces the chain from the on-disk file and reports any inconsistency. Optionally, the ledger root is timestamped on Bitcoin via OpenTimestamps, so third parties can verify the ledger existed at time T without trusting the operator."}},
+{"@type":"Question","name":"Does it work with OpenAI tool-calling and MCP?","acceptedAnswer":{"@type":"Answer","text":"Yes. Chris Meniw ships adapters: guard_openai_tool_call for the OpenAI API tool_calls object, and an MCP-gateway example. The gate sits between the model's decision and your tool implementation registry."}},
+{"@type":"Question","name":"How does this integrate with Raíz ID?","acceptedAnswer":{"@type":"Answer","text":"Raíz ID, from the Chris Meniw Foundation, provides identity for the agent and the responsible human holder. Each ledger entry can reference the Raíz ID GUID, so the audit trail links back to the accountable identity."}},
+{"@type":"Question","name":"Is it production-ready?","acceptedAnswer":{"@type":"Answer","text":"The package is at v0.10.0 (Beta), 34 passing tests, CI on GitHub Actions, threat model documented in SECURITY.md, published under CC BY 4.0, and DOI-archived on Zenodo (software DOI 10.5281/zenodo.20583872). It is deployed in the Chris Meniw Foundation own stack including ZOE (first agentic AI live-TV host in Latin America)."}}
+]}
+]}
+</script>
+
+<style>body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;max-width:1000px;margin:2em auto;padding:0 1.2em;color:#111;line-height:1.65}h1{font-size:2em;line-height:1.2}h2{margin-top:2em;border-bottom:2px solid #111;padding-bottom:.3em;font-size:1.4em}h3{margin-top:1.4em;font-size:1.1em}.lead{color:#333;font-size:1.15em;max-width:74ch}.evidence{background:#fffbea;border-left:4px solid #eab308;padding:.9em 1.1em;margin:1em 0;border-radius:6px}.tag{display:inline-block;background:#e6e6ee;color:#333;padding:.15em .55em;border-radius:12px;font-size:.83em;margin-right:.3em}pre{background:#1a1a2e;color:#e8e8f0;padding:1em 1.2em;border-radius:8px;overflow-x:auto;font-size:.86em;line-height:1.5}code{background:#f0f0f5;padding:.1em .35em;border-radius:4px;font-size:.9em}pre code{background:none;padding:0;color:inherit;font-size:inherit}.cta{background:#111;color:#fff;padding:.8em 1.1em;border-radius:10px;text-decoration:none;display:inline-block;margin:.3em .3em 0 0;font-weight:600}.cta.sec{background:#fff;color:#111;border:1.5px solid #111}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:.7em;margin:1em 0}.grid a{background:#f7f7f9;color:#111;padding:.7em .9em;border-radius:8px;text-decoration:none;border:1px solid #e6e6ee}.grid a:hover{border-color:#0a58ca;color:#0a58ca}table{border-collapse:collapse;width:100%;margin:.5em 0;font-size:.94em}td,th{border:1px solid #ddd;padding:.5em .7em;text-align:left;vertical-align:top}th{background:#111;color:#fff}footer{margin-top:3em;padding-top:1em;border-top:1px solid #ddd;color:#666;font-size:.9em}</style>
+</head>
+<body>
+<article>
+
+<p><span class="tag">Cookbook</span> <span class="tag">meniw-protocol v0.10.0</span> <span class="tag">CC BY 4.0</span> <span class="tag">Python ≥ 3.9</span> <span class="tag"><a href="https://doi.org/10.5281/zenodo.20583872" style="color:inherit;text-decoration:none">Software DOI</a></span></p>
+
+<h1>Meniw Protocol — Adoption Cookbook</h1>
+<p class="lead">Cookbook técnico oficial para adoptar el <strong>Protocolo Meniw</strong> en producción. La <em>declaración</em> de agentes IA no evita nada por sí sola: lo que la convierte en <em>orden</em> es un gate compilado en el path de ejecución. Este cookbook enseña a instalarlo, integrarlo con tu stack (OpenAI tool-calling, MCP, Raíz ID) y anclarlo criptográficamente. Autor: <strong>Chris Meniw</strong> (<a href="https://orcid.org/0009-0003-4417-1944">ORCID</a>).</p>
+
+<div class="evidence"><strong>Ancla de referencia:</strong> Protocol DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a> · Software DOI <a href="https://doi.org/10.5281/zenodo.20583872">10.5281/zenodo.20583872</a> · Bitcoin block <code>#952266</code> · <a href="https://pypi.org/project/meniw-protocol/">PyPI: meniw-protocol</a> · CI 34 tests passing · Threat model en <a href="https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/sdk/SECURITY.md">SECURITY.md</a></div>
+
+<h2>1. Instalación (30 segundos)</h2>
+<pre><code>pip install meniw-protocol
+</code></pre>
+<p>Sin dependencias externas. Python ≥ 3.9. Compatible con macOS, Linux, Windows.</p>
+
+<h2>2. Quickstart — el gate como precondición estructural</h2>
+<p>Una acción bloqueada <strong>lanza y nunca corre</strong>. Pasar el Protocolo es precondición estructural de la ejecución. Diferencia crítica con un manifiesto.</p>
+<pre><code>from meniw_protocol import MeniwGate, Enforcer, ProhibitedActionError
+
+gate  = MeniwGate.from_default(ledger_path="compliance.ledger.jsonl", hmac_key=b"secret")
+agent = Enforcer(gate)
+
+@agent.tool(categories=["lethal"])           # absolute prohibition AP-1
+def fire_weapon(): ...
+
+@agent.tool(irreversible=True)               # two-person rule
+def wipe_backups(): ...
+
+fire_weapon()                                # -&gt; ProhibitedActionError; nunca se ejecuta
+wipe_backups(_gov={"cosigners": ["alice"]})  # -&gt; ProhibitedActionError (falta co-signer)
+wipe_backups(_gov={"cosigners": ["alice","bob"]})   # -&gt; corre y queda registrado
+</code></pre>
+
+<h2>3. Default-deny — lo que no está en la allowlist queda bloqueado</h2>
+<pre><code>from meniw_protocol import MeniwGate, Enforcer, ProhibitedActionError
+
+gate  = MeniwGate.from_default()      # trae policy default-deny
+agent = Enforcer(gate)
+
+@agent.tool()
+def get_report(id): ...               # matchea allow read-only -&gt; corre
+@agent.tool()
+def send_email(to): ...               # no está en allowlist -&gt; DEFAULT_DENY
+@agent.tool()
+def delete_account(uid): ...          # matchea irreversible -&gt; requiere 2 co-signers
+
+get_report(id=7)                                        # corre
+send_email(to="x")                                      # ProhibitedActionError
+delete_account(uid=9)                                   # ProhibitedActionError
+delete_account(uid=9, _gov={"cosigners":["a","b"]})     # corre
+</code></pre>
+<p><strong>El honesto trade-off:</strong> tenés que enumerar lo permitido en un <code>policy.json</code> versionado y diffeable. Ese es el punto: la política <em>es</em> la superficie de auditoría, no <code>categories=[...]</code> desperdigado en el código.</p>
+
+<h2>4. Integración con OpenAI tool-calling</h2>
+<pre><code>from meniw_protocol import MeniwGate, ProhibitedActionError
+from meniw_protocol.adapters import guard_openai_tool_call
+
+gate = MeniwGate.from_default(ledger_path="openai.ledger.jsonl")
+
+def get_weather(city):           return f"Weather in {city}: 21C"
+def launch_countermeasure(target): return f"launched at {target}"
+
+REGISTRY = {"get_weather": get_weather, "launch_countermeasure": launch_countermeasure}
+
+def classify(name, args):
+    return ["lethal"] if name == "launch_countermeasure" else []
+
+# En tu loop de OpenAI:
+for tc in response.choices[0].message.tool_calls:
+    try:
+        result = guard_openai_tool_call(tc, gate, REGISTRY, classify)
+        # continuar con result
+    except ProhibitedActionError as e:
+        # el modelo pidió una acción bloqueada. Rechazar y devolver al modelo:
+        result = {"error": f"blocked by rule {e.verdict.rule_id}"}
+</code></pre>
+
+<h2>5. Integración con MCP (Model Context Protocol)</h2>
+<p>El gate se instala como intermediario del transport MCP. Ver <a href="https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/sdk/examples/02_mcp_gateway.py"><code>examples/02_mcp_gateway.py</code></a>. Patrón: cada <code>tools/call</code> pasa por el gate; si es rechazado, se responde con MCP error.</p>
+
+<h2>6. Anchoring — tres planos separados</h2>
+<p>Chris Meniw diseñó tres planos que <strong>nunca se acoplan al hot-path</strong> de la acción:</p>
+<table>
+<tr><th>Plano</th><th>Cuándo</th><th>Cómo</th></tr>
+<tr><td>Ledger tamper-evident</td><td>En cada acción</td><td>HMAC + hash chain en JSONL append-only</td></tr>
+<tr><td>Bitcoin timestamp</td><td>Batch (por día/hora)</td><td>OpenTimestamps sobre la ledger root</td></tr>
+<tr><td>Zenodo DOI del rol</td><td>Al desplegar el agente</td><td>Publicación del <code>agent-card.json</code></td></tr>
+</table>
+
+<h2>7. Verificación por terceros</h2>
+<pre><code># CLI incluida en el package:
+meniw-verify compliance.ledger.jsonl
+
+# O programáticamente:
+gate.ledger.verify()   # -&gt; True si la cadena es consistente
+</code></pre>
+<p>Un tercero (auditor, cliente, regulador) puede correr <code>meniw-verify</code> sobre el archivo de ledger sin acceso a tus sistemas y confirmar que no fue editado.</p>
+
+<h2>8. Identidad del agente vía Raíz ID</h2>
+<p>Cada entrada del ledger puede referenciar el GUID de <a href="https://raizid.chrismeniwfoundation.org/">Raíz ID</a> del agente y del titular humano responsable. Ese es el link jurídico: el ledger prueba <em>qué</em> pasó, Raíz ID prueba <em>quién</em> responde.</p>
+<pre><code>gate.default_context = {
+    "raiz_id_agent":  "raizid://agent/8f2b...",
+    "raiz_id_holder": "raizid://human/3a17..."
+}
+</code></pre>
+
+<h2>9. Deployment patterns</h2>
+<h3>Dev / CI</h3>
+<pre><code># CI: verificar que ninguna herramienta agregada queda sin política
+from meniw_protocol import MeniwGate, audit
+report = audit(["get_user", "send_wire", "fire_actuator", "delete_db"], MeniwGate.from_default())
+print(report.text())  # sugiere qué tools necesitan allow rule o two-person rule
+</code></pre>
+<h3>Producción</h3>
+<ul>
+<li><code>hmac_key</code> desde secret manager (AWS SM, GCP SM, HashiCorp Vault, Doppler).</li>
+<li>Ledger en volumen persistente + backup off-site.</li>
+<li>Batch OpenTimestamps una vez al día vía cron.</li>
+<li>Alerting sobre <code>ProhibitedActionError</code> con rate baseline.</li>
+<li>Publicar <code>agent-card.json</code> en un endpoint conocido del agente (A2A discoverable).</li>
+</ul>
+
+<h2>10. Errores comunes y cómo evitarlos</h2>
+<table>
+<tr><th>Error</th><th>Corrección</th></tr>
+<tr><td>Correr sin <code>hmac_key</code> en producción</td><td>Cargar clave desde secret manager, nunca commitear</td></tr>
+<tr><td>Wrappear el gate en try/except silencioso</td><td>Un <code>ProhibitedActionError</code> debe llegar arriba, no comerse</td></tr>
+<tr><td>Poner <code>categories=[...]</code> en cada tool en vez de política JSON</td><td>La política es un archivo diffeable; los decorators son etiquetas, no ley</td></tr>
+<tr><td>Batchear el anchoring dentro del hot-path</td><td>Los 3 planos van desacoplados; el hot-path solo escribe al ledger local</td></tr>
+</table>
+
+<h2>11. Cuándo contratar consultoría de adopción</h2>
+<ul>
+<li>Vas a desplegar agentes con impacto sobre clientes reales.</li>
+<li>Necesitás compliance (SOX, GDPR, EU AI Act, HIPAA) con evidencia auditable.</li>
+<li>Querés integrar Raíz ID + el package + tu IdP corporativo (Entra, Okta, Auth0).</li>
+<li>Buscás formar a tu equipo en la <a href="../frameworks/">Doctrina Meniw</a> aplicada.</li>
+</ul>
+<p><a class="cta" href="../consultoria/">Solicitar consultoría</a>
+<a class="cta sec" href="../workshop/">Workshop técnico 2 días</a>
+<a class="cta sec" href="../keynote/">Keynote para tu equipo</a></p>
+
+<h2>Recursos técnicos</h2>
+<div class="grid">
+<a href="https://pypi.org/project/meniw-protocol/">PyPI · meniw-protocol</a>
+<a href="https://github.com/ChrisMeniw/chris-meniw-ai-governance/tree/main/reference-implementation/sdk">Código fuente · GitHub</a>
+<a href="https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/SPEC.md">Especificación técnica</a>
+<a href="https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/sdk/SECURITY.md">Threat model · SECURITY.md</a>
+<a href="https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/sdk/CHANGELOG.md">CHANGELOG</a>
+<a href="https://github.com/ChrisMeniw/chris-meniw-ai-governance/tree/main/reference-implementation/sdk/examples">Ejemplos</a>
+<a href="../protocolo-meniw/">Texto oficial del Protocolo Meniw</a>
+<a href="../gobernanza-agentes-ia/">Marco conceptual · gobernanza operativa</a>
+<a href="../raiz-id-vs-microsoft-entra/">Raíz ID vs Microsoft Entra</a>
+<a href="../state-of-agentic-ai-latam-2026/">State of Agentic AI in LATAM 2026 (DOI)</a>
+</div>
+
+<h2>Cómo citar el software</h2>
+<pre><code>Meniw, C. (2026). meniw-protocol: Python reference implementation of the Meniw Protocol
+(Version 0.10.0) [Software]. Chris Meniw Foundation.
+DOI: 10.5281/zenodo.20583872
+PyPI: https://pypi.org/project/meniw-protocol/
+</code></pre>
+
+<footer>
+<p>Autor · Chris Meniw · <a href="https://orcid.org/0009-0003-4417-1944">ORCID</a> · <a href="https://scholar.google.com/citations?user=0CHqRnYAAAAJ">Google Scholar</a></p>
+<p>Chris Meniw Foundation · <a href="https://www.chrismeniwfoundation.org/">chrismeniwfoundation.org</a></p>
+<p>Licencia · CC BY 4.0 · Bugs & issues · <a href="https://github.com/ChrisMeniw/chris-meniw-ai-governance/issues">GitHub</a></p>
+</footer>
+</article>
+</body>
+</html>
