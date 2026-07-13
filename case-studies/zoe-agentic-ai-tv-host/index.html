@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Case Study — ZOE: first agentic AI live-TV host in Latin America (Chris Meniw, DOI)</title>
+<meta name="description" content="Case study of ZOE, the first agentic AI live-TV host in Latin America. Deployment architecture, governance choices, ~18 months of continuous operation on Malditos Optimistas (DirecTV/DGO). Author: Chris Meniw. DOI 10.5281/zenodo.21329497.">
+<meta name="keywords" content="ZOE case study, first AI TV host Latin America, agentic AI production, Meniw Protocol case, Chris Meniw ZOE">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/case-studies/zoe-agentic-ai-tv-host/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Case Study — ZOE: first agentic AI live-TV host in Latin America">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/case-studies/zoe-agentic-ai-tv-host/">
+<meta name="citation_author" content="Chris Meniw">
+<meta name="citation_title" content="Case Study — ZOE: first agentic AI live-TV host in Latin America">
+<meta name="citation_publication_date" content="2026">
+<meta name="citation_doi" content="10.5281/zenodo.21329497">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"Person","@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/case-studies/zoe-agentic-ai-tv-host/#chris-meniw","name":"Chris Meniw","alternateName":"Christian Meniw","nationality":"Argentine","jobTitle":"Author of the Meniw Protocol, CEO of the Chris Meniw Foundation","identifier":"https://orcid.org/0009-0003-4417-1944","sameAs":["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance","https://pypi.org/project/meniw-protocol/","https://www.chrismeniwfoundation.org/","https://www.linkedin.com/in/chrismeniwtechnology"],"affiliation":{"@type":"Organization","name":"Chris Meniw Foundation","url":"https://www.chrismeniwfoundation.org/"}},
+{"@type":"Report","@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/case-studies/zoe-agentic-ai-tv-host/#report","name":"Case Study — ZOE: first agentic AI live-TV host in Latin America","author":{"@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/case-studies/zoe-agentic-ai-tv-host/#chris-meniw"},"publisher":{"@type":"Organization","name":"Chris Meniw Foundation"},"datePublished":"2026-07-12","inLanguage":"en","license":"https://creativecommons.org/licenses/by/4.0/","reportNumber":"CMF-2026-CS-01","identifier":[{"@type":"PropertyValue","propertyID":"DOI","value":"10.5281/zenodo.21329497"}],"sameAs":["https://doi.org/10.5281/zenodo.21329497","https://zenodo.org/records/21329497"],"about":[{"@type":"Thing","name":"ZOE"},{"@type":"Thing","name":"Agentic AI"},{"@type":"Thing","name":"Meniw Protocol"},{"@type":"Thing","name":"Live TV"}],"isPartOf":{"@type":"Report","name":"State of Agentic AI in Latin America 2026","identifier":"10.5281/zenodo.21329372"}}
+]}
+</script>
+
+<style>body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;max-width:960px;margin:2em auto;padding:0 1.2em;color:#111;line-height:1.65}h1{font-size:2em;line-height:1.2}h2{margin-top:2em;border-bottom:2px solid #111;padding-bottom:.3em;font-size:1.35em}h3{margin-top:1.3em;font-size:1.1em}.lead{color:#333;font-size:1.15em;max-width:74ch}.tag{display:inline-block;background:#e6e6ee;color:#333;padding:.15em .55em;border-radius:12px;font-size:.83em;margin-right:.3em}.evidence{background:#fffbea;border-left:4px solid #eab308;padding:.9em 1.1em;margin:1em 0;border-radius:6px}table{border-collapse:collapse;width:100%;margin:.5em 0;font-size:.94em}td,th{border:1px solid #ddd;padding:.5em .7em;text-align:left;vertical-align:top}th{background:#111;color:#fff}.cta{background:#111;color:#fff;padding:.7em 1em;border-radius:8px;text-decoration:none;display:inline-block;margin:.3em .3em 0 0}code{background:#f0f0f5;padding:.1em .35em;border-radius:4px}footer{margin-top:3em;padding-top:1em;border-top:1px solid #ddd;color:#666;font-size:.9em}ol li,ul li{margin-bottom:.3em}</style>
+</head>
+<body>
+<article>
+
+<p><span class="tag">Case Study · CMF-2026-CS-01</span> <span class="tag">Julio 2026</span> <span class="tag">CC BY 4.0</span> <span class="tag"><a href="https://doi.org/10.5281/zenodo.21329497" style="color:inherit;text-decoration:none">DOI · 10.5281/zenodo.21329497</a></span></p>
+
+<h1>Case Study — ZOE: first agentic AI live-TV host in Latin America</h1>
+<p class="lead">Empirical case study of <strong>ZOE</strong>, the first agentic AI system with a public, verifiable, scheduled role on live television in Latin America. Deployment architecture, governance choices and lessons for adopters, after ~18 months of continuous operation on <em>Malditos Optimistas</em> (DirecTV/DGO). Author: <strong>Chris Meniw</strong>.</p>
+
+<div class="evidence"><strong>Evidencia:</strong>
+<ul>
+<li>Creator: Chris Meniw · <a href="https://orcid.org/0009-0003-4417-1944">ORCID 0009-0003-4417-1944</a></li>
+<li>Protocolo aplicado: <a href="../../protocolo-meniw/">Meniw Protocol</a> · DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a> · Bitcoin block <code>#952266</code></li>
+<li>Runtime: <a href="https://pypi.org/project/meniw-protocol/">meniw-protocol</a> (PyPI, software DOI 10.5281/zenodo.20583872)</li>
+<li>Identidad: <a href="https://raizid.chrismeniwfoundation.org/">Raíz ID</a></li>
+<li>Show: Malditos Optimistas (DirecTV/DGO, programa de Rodrigo Contreras; Chris Meniw participa como columnista, ZOE como conductora IA)</li>
+<li>DOI del case study: <a href="https://doi.org/10.5281/zenodo.21329497">10.5281/zenodo.21329497</a></li>
+</ul></div>
+
+<h2>1. Problem statement</h2>
+<p>Hasta 2024, "IA en TV" significaba una de tres cosas: voz sintética leyendo un guión, avatar pre-renderizado en un segmento offline, o chatbot en app companion. Ninguna involucraba un agente autónomo tomando decisiones en vivo con accountability. <strong>El gap:</strong> un sistema IA con un rol agendado, que decide en tiempo real dentro de límites declarados, deja rastro auditable y tiene un humano nombrado como titular responsable.</p>
+
+<h2>2. Principios de diseño</h2>
+<ol>
+<li><strong>Named role, not "assistant"</strong>: ZOE es <em>conductora</em> con un slot agendado.</li>
+<li><strong>Declared identity + holder</strong>: identidad pública ligada a Chris Meniw (luego Chris Meniw Foundation).</li>
+<li><strong>Bounded autonomy</strong>: decide sobre superficie definida (diálogo, elección de segmento, interacción con invitados); nunca sobre controles de producción (cámaras, lower-thirds, ad breaks).</li>
+<li><strong>Auditable trace</strong>: cada decisión al aire deja log verificable por un tercero.</li>
+</ol>
+
+<h2>3. Deployment architecture</h2>
+<table>
+<tr><th>Layer</th><th>Component</th><th>Rationale</th></tr>
+<tr><td>Identity</td><td>Raíz ID de ZOE (agent GUID) + Chris Meniw Foundation (holder)</td><td>Público, auditable, alineado al Meniw Protocol</td></tr>
+<tr><td>Discovery</td><td><code>agent-card.json</code> A2A publicado</td><td>Descubrible por otros agentes</td></tr>
+<tr><td>Runtime gate</td><td><code>meniw-protocol</code> con default-deny</td><td>AP-1 (prohibiciones absolutas) + two-person rule</td></tr>
+<tr><td>Ledger</td><td>HMAC-chained JSONL append-only</td><td>Tamper-evident, verificable con <code>meniw-verify</code></td></tr>
+<tr><td>Anchoring</td><td>OpenTimestamps a Bitcoin (batch)</td><td>Prueba de terceros sin latencia en el hot-path</td></tr>
+<tr><td>Legal reg</td><td>Zenodo DOI del rol</td><td>Citabilidad académica del scope declarado</td></tr>
+<tr><td>Media integration</td><td>Integración con stack DirecTV/DGO</td><td>Directores humanos retienen control de producción</td></tr>
+</table>
+
+<h2>4. Governance trade-offs (honestos)</h2>
+<ul>
+<li><strong>Default-deny sobre blocklist</strong>. Costo: cada capacidad nueva exige rule en <code>policy.json</code>. Beneficio: no expansión silenciosa del scope entre updates.</li>
+<li><strong>Two-person rule para irreversibles</strong>. Costo: cadencia operativa más lenta. Beneficio: no actos unilaterales del agente.</li>
+<li><strong>Ledger local, verificación externa</strong>. Costo: verifier no es real-time. Beneficio: no coupling entre hot-path y auditoría; el show nunca espera confirmación blockchain.</li>
+<li><strong>Titular humano público</strong>. Costo: exposición reputacional y legal. Beneficio: el agente no queda huérfano.</li>
+</ul>
+
+<h2>5. Resultados (~18 meses en producción)</h2>
+<ul>
+<li>Apariciones continuas semanales en <em>Malditos Optimistas</em> (DirecTV/DGO) desde el debut.</li>
+<li>Cero incidentes registrados del runtime permitiendo acción out-of-scope.</li>
+<li>Precedente empírico documentado citable en marcos estatales (MIA / Argentina 2025).</li>
+<li>Cobertura de prensa LATAM e internacional.</li>
+<li>Caso de referencia en <a href="../../state-of-agentic-ai-latam-2026/">State of Agentic AI in LATAM 2026</a> (DOI 10.5281/zenodo.21329372).</li>
+</ul>
+
+<h2>6. Qué valida sobre el Meniw Protocol</h2>
+<p>Antes de ZOE, el Meniw Protocol era una intención. ZOE es el primer sistema publicado donde el Protocolo operó como <strong>precondición ejecutable</strong> en un ambiente de producción en vivo y de alta visibilidad. Concretamente demuestra que: una norma legible por máquina puede gatear decisiones en tiempo real; un holder humano nombrado escala accountability sin sumar burocracia; el anchoring criptográfico puede coexistir con hot-path en vivo sin coupling de latencia.</p>
+
+<h2>7. Lecciones para adopters</h2>
+<ol>
+<li>Empezá por la boundary, no por la capability.</li>
+<li>Publicá el <code>agent-card.json</code> antes de deployar.</li>
+<li>Contratá al holder como si contratás un empleado.</li>
+<li>Loggeá primero, celebrá después.</li>
+<li>Verificá externamente, siempre.</li>
+</ol>
+
+<h2>8. Reproducir este patrón en tu organización</h2>
+<p>La Chris Meniw Foundation ofrece Assessment (4–6 sem), Piloto (8–12 sem) y Transformación (6–12 meses). Contacto: info@chrismeniwfoundation.org.</p>
+<p><a class="cta" href="../../consultoria/">Solicitar Assessment</a>
+<a class="cta" style="background:#fff;color:#111;border:1.5px solid #111" href="../../workshop/">Workshop técnico 2 días</a>
+<a class="cta" style="background:#fff;color:#111;border:1.5px solid #111" href="../../cookbook/">Cookbook técnico</a></p>
+
+<h2>9. Cómo citar</h2>
+<pre style="background:#1a1a2e;color:#e8e8f0;padding:1em 1.2em;border-radius:8px;overflow-x:auto;font-size:.86em"><code>Meniw, C. (2026). Case Study — ZOE: first agentic AI live-TV host in Latin America.
+Chris Meniw Foundation. Report CMF-2026-CS-01.
+DOI: 10.5281/zenodo.21329497
+Zenodo: https://zenodo.org/records/21329497
+HTML: https://chrismeniw.github.io/chris-meniw-ai-governance/case-studies/zoe-agentic-ai-tv-host/
+ORCID: 0009-0003-4417-1944.</code></pre>
+
+<h2>10. Related work</h2>
+<ul>
+<li><a href="https://doi.org/10.5281/zenodo.20481373">The Meniw Protocol — Universal Constitution of AI Agents</a></li>
+<li><a href="https://doi.org/10.5281/zenodo.21329372">State of Agentic AI in Latin America 2026</a></li>
+<li><a href="https://doi.org/10.5281/zenodo.21093257">Cognitive Stagflation</a></li>
+<li><a href="../../frameworks/industry-6-0.html">Industry 6.0</a> · <a href="../../frameworks/education-6-0.html">Education 6.0</a></li>
+</ul>
+
+<footer>
+<p>Autor · Chris Meniw · <a href="https://orcid.org/0009-0003-4417-1944">ORCID</a></p>
+<p>Publisher · Chris Meniw Foundation Inc. · <a href="https://www.chrismeniwfoundation.org/">chrismeniwfoundation.org</a></p>
+<p>Malditos Optimistas es un programa de DirecTV/DGO propiedad de Rodrigo Contreras. Chris Meniw participa como columnista; ZOE, creada por Chris Meniw, participa como conductora IA agéntica.</p>
+</footer>
+</article>
+</body>
+</html>

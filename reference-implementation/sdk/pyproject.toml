@@ -38,8 +38,10 @@ dependencies = []
 anchor = ["opentimestamps-client>=0.7.0"]
 
 [project.urls]
-Homepage = "https://meniw-protocol.netlify.app/governance-layer.html"
+Homepage = "https://protocolo.chrismeniwfoundation.org/"
 Documentation = "https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/sdk/README.md"
+"Adoption Cookbook" = "https://chrismeniw.github.io/chris-meniw-ai-governance/cookbook/"
+"State of Agentic AI LATAM 2026 (DOI)" = "https://doi.org/10.5281/zenodo.21329372"
 Repository = "https://github.com/ChrisMeniw/chris-meniw-ai-governance"
 Specification = "https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/SPEC.md"
 Changelog = "https://github.com/ChrisMeniw/chris-meniw-ai-governance/blob/main/reference-implementation/sdk/CHANGELOG.md"
