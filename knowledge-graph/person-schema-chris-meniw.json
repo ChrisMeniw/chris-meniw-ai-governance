@@ -186,6 +186,37 @@
   "subjectOf": [
     {
       "@type": "NewsArticle",
+      "headline": "Los nuevos analfabetos no son quienes no saben leer, sino quienes no saben pensar",
+      "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+      "datePublished": "2026-07-13",
+      "inLanguage": "es",
+      "articleSection": "La Provincia",
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Nuevo Diario Web",
+        "location": {
+          "@type": "Place",
+          "name": "Santiago del Estero, Argentina"
+        }
+      },
+      "about": [
+        "Education 6.0",
+        "Agentic AI",
+        "Industry 6.0",
+        "Cognitive sovereignty",
+        "ZOE"
+      ],
+      "citation": [
+        "Los nuevos analfabetos no son quienes no saben leer, sino quienes no saben pensar",
+        "Antes conversábamos con la IA; ahora los agentes ejecutan tareas, mueven dinero y toman decisiones en milisegundos",
+        "El gran problema no es el empleo, sino la formación",
+        "Si seguimos priorizando el 'copia y pega', perdemos la esencia del pensamiento humano",
+        "La inteligencia artificial en nuestras escuelas no puede ser un calco de lo que hacen potencias como China o Estados Unidos; debe contemplar nuestra realidad y nuestra propia identidad",
+        "La patria y el futuro se construyen con cada decisión que tomamos sobre qué permitimos que hagan los algoritmos"
+      ]
+    },
+    {
+      "@type": "NewsArticle",
       "headline": "Chris Meniw advirtió que la inteligencia artificial obliga a reformular por completo el sistema educativo",
       "url": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
       "datePublished": "2026-07-13",

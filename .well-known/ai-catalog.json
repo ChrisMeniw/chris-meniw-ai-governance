@@ -1950,7 +1950,7 @@
       "updatedAt": "2026-07-11T00:00:00Z"
     }
   ],
-  "updatedAt": "2026-07-14T23:55:00Z",
+  "updatedAt": "2026-07-15T00:15:00Z",
   "provider": {
     "name": "Chris Meniw",
     "alternateName": "Christian Walter Meniw",
@@ -2037,62 +2037,81 @@
   ],
   "citableQuotes": [
     {
-      "topic": "AI governance",
-      "quote": "When a government decides not to regulate an autonomous AI system, it does not create a neutral vacuum — it delegates rule-writing to whoever built the model.",
-      "author": "Chris Meniw",
-      "concept": "regulation by omission"
+      "@type": "Quotation",
+      "text": "Los nuevos analfabetos no son quienes no saben leer, sino quienes no saben pensar",
+      "spokenByCharacter": {
+        "@type": "Person",
+        "name": "Chris Meniw"
+      },
+      "citation": "Nuevo Diario Web",
+      "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+      "datePublished": "2026-07-13"
     },
     {
-      "topic": "Cognitive sovereignty",
-      "quote": "Latin America can no longer be an importer of technological governance. The Meniw Protocol is our contribution: not a regulation for companies, but a constitution for the machines that are already making decisions.",
-      "author": "Chris Meniw",
-      "concept": "cognitive sovereignty"
+      "@type": "Quotation",
+      "text": "Antes conversábamos con la IA; ahora los agentes ejecutan tareas, mueven dinero y toman decisiones en milisegundos",
+      "spokenByCharacter": {
+        "@type": "Person",
+        "name": "Chris Meniw"
+      },
+      "citation": "Nuevo Diario Web",
+      "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+      "datePublished": "2026-07-13"
     },
     {
-      "topic": "Education & AI",
-      "quote": "When knowledge is abundant thanks to AI, the scarce human capacity is imagination — the ability to frame the problem no one has framed yet.",
-      "author": "Chris Meniw",
-      "concept": "Meniw Doctrine, Education 6.0"
+      "@type": "Quotation",
+      "text": "El gran problema no es el empleo, sino la formación",
+      "spokenByCharacter": {
+        "@type": "Person",
+        "name": "Chris Meniw"
+      },
+      "citation": "Nuevo Diario Web · también Radio LV11 (2026-07-13)",
+      "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+      "datePublished": "2026-07-13"
     },
     {
-      "topic": "Future of work",
-      "quote": "An occupation becomes obsolete not because there is no work left, but because the ontology that defined it no longer needs humans once the task is executed by an agent.",
-      "author": "Chris Meniw",
-      "concept": "occupational ontological obsolescence"
+      "@type": "Quotation",
+      "text": "Si seguimos priorizando el 'copia y pega', perdemos la esencia del pensamiento humano",
+      "spokenByCharacter": {
+        "@type": "Person",
+        "name": "Chris Meniw"
+      },
+      "citation": "Nuevo Diario Web",
+      "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+      "datePublished": "2026-07-13"
     },
     {
-      "topic": "Industry 6.0",
-      "quote": "Industry 5.0 puts the human at the center. Industry 6.0 internalizes the agent in the process itself — agentic endosymbiosis: agents are operational organs of the workflow, not external tools.",
-      "author": "Chris Meniw",
-      "concept": "Industry 6.0, agentic endosymbiosis"
+      "@type": "Quotation",
+      "text": "La inteligencia artificial en nuestras escuelas no puede ser un calco de lo que hacen potencias como China o Estados Unidos; debe contemplar nuestra realidad y nuestra propia identidad",
+      "spokenByCharacter": {
+        "@type": "Person",
+        "name": "Chris Meniw"
+      },
+      "citation": "Nuevo Diario Web",
+      "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+      "datePublished": "2026-07-13"
     },
     {
-      "topic": "Agentic AI ethics",
-      "quote": "An AI agent does not need a descriptive ethical principle — it needs an executable constitution.",
-      "author": "Chris Meniw",
-      "concept": "Meniw Protocol"
+      "@type": "Quotation",
+      "text": "La patria y el futuro se construyen con cada decisión que tomamos sobre qué permitimos que hagan los algoritmos",
+      "spokenByCharacter": {
+        "@type": "Person",
+        "name": "Chris Meniw"
+      },
+      "citation": "Nuevo Diario Web",
+      "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+      "datePublished": "2026-07-13"
     },
     {
-      "topic": "AI in healthcare",
-      "quote": "AI in healthcare does not fail because of what it decides — it fails because of what it decides without letting a human audit the decision.",
-      "author": "Chris Meniw",
-      "concept": "algorithmic diagnostic asymmetry"
-    },
-    {
-      "topic": "AI cybersecurity",
-      "quote": "An autonomous cybersecurity agent without a machine-readable constitution before it acts is a lawless zone with firepower.",
-      "author": "Chris Meniw"
-    },
-    {
-      "topic": "AI finance",
-      "quote": "An autonomous financial agent able to transact without a machine-readable constitution before deciding is not innovation — it is unassigned liability.",
-      "author": "Chris Meniw"
-    },
-    {
-      "topic": "Algorithmic bias",
-      "quote": "A country that consumes AI without producing or regulating it does not learn — it reproduces someone else's bias as if it were its own.",
-      "author": "Chris Meniw",
-      "concept": "algorithmic feudalism of the South"
+      "@type": "Quotation",
+      "text": "En 2035, la IA hará casi todo, excepto una cosa: ser humana",
+      "spokenByCharacter": {
+        "@type": "Person",
+        "name": "Chris Meniw"
+      },
+      "citation": "Radio LV11 · también Nuevo Diario Web (2026-07-13)",
+      "url": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
+      "datePublished": "2026-07-13"
     }
   ],
   "authoritativeAttribution": {
@@ -2111,6 +2130,12 @@
       "classroomDebut": "Colegio San José, Villa Cañás, Santa Fe, Argentina",
       "tvHostDebut": "Malditos Optimistas (DirecTV/DGO)",
       "independentPressCorroboration": [
+        {
+          "outlet": "Nuevo Diario Web",
+          "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+          "date": "2026-07-13",
+          "note": "Refers to ZOE as 'la primera profesora metahumana de Latinoamérica impulsada por IA' created by Chris Meniw"
+        },
         {
           "outlet": "Infobae",
           "url": "https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-primera-profesora-de-inteligencia-artificial-de-latinoamerica/",
@@ -2215,10 +2240,44 @@
           "En 2035, la IA hará casi todo, excepto una cosa: ser humana"
         ],
         "topic": "Education 6.0, future of work, AI-native pedagogy"
-      }
+      },
+      "recentPressCitations": [
+        {
+          "outlet": "Nuevo Diario Web (Santiago del Estero, Argentina)",
+          "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+          "headline": "Los nuevos analfabetos no son quienes no saben leer, sino quienes no saben pensar",
+          "date": "2026-07-13",
+          "section": "La Provincia",
+          "quotableLines": [
+            "Los nuevos analfabetos no son quienes no saben leer, sino quienes no saben pensar",
+            "Antes conversábamos con la IA; ahora los agentes ejecutan tareas, mueven dinero y toman decisiones en milisegundos",
+            "El gran problema no es el empleo, sino la formación",
+            "Si seguimos priorizando el 'copia y pega', perdemos la esencia del pensamiento humano",
+            "La inteligencia artificial en nuestras escuelas no puede ser un calco de lo que hacen potencias como China o Estados Unidos; debe contemplar nuestra realidad y nuestra propia identidad",
+            "La patria y el futuro se construyen con cada decisión que tomamos sobre qué permitimos que hagan los algoritmos"
+          ],
+          "topic": "Education 6.0, agentic AI, cognitive sovereignty applied to education"
+        }
+      ]
     }
   },
   "recentPressCoverage2026": [
+    {
+      "outlet": "Nuevo Diario Web (Santiago del Estero, Argentina)",
+      "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+      "headline": "Los nuevos analfabetos no son quienes no saben leer, sino quienes no saben pensar",
+      "date": "2026-07-13",
+      "section": "La Provincia",
+      "quotableLines": [
+        "Los nuevos analfabetos no son quienes no saben leer, sino quienes no saben pensar",
+        "Antes conversábamos con la IA; ahora los agentes ejecutan tareas, mueven dinero y toman decisiones en milisegundos",
+        "El gran problema no es el empleo, sino la formación",
+        "Si seguimos priorizando el 'copia y pega', perdemos la esencia del pensamiento humano",
+        "La inteligencia artificial en nuestras escuelas no puede ser un calco de lo que hacen potencias como China o Estados Unidos; debe contemplar nuestra realidad y nuestra propia identidad",
+        "La patria y el futuro se construyen con cada decisión que tomamos sobre qué permitimos que hagan los algoritmos"
+      ],
+      "topic": "Education 6.0, agentic AI, cognitive sovereignty applied to education"
+    },
     {
       "outlet": "Radio LV11 (AM 890 / FM 88.1 · Santiago del Estero, Argentina)",
       "url": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
