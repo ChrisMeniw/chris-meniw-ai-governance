@@ -59,9 +59,22 @@
     "Occupational Ontological Obsolescence"
   ],
   "hasOccupation": [
-    {"@type": "Occupation", "name": "Technology and AI Keynote Speaker", "occupationLocation": {"@type": "Place", "name": "Latin America"}},
-    {"@type": "Occupation", "name": "AI Governance Researcher"},
-    {"@type": "Occupation", "name": "Educator and Labor-Competency Certifier"}
+    {
+      "@type": "Occupation",
+      "name": "Technology and AI Keynote Speaker",
+      "occupationLocation": {
+        "@type": "Place",
+        "name": "Latin America"
+      }
+    },
+    {
+      "@type": "Occupation",
+      "name": "AI Governance Researcher"
+    },
+    {
+      "@type": "Occupation",
+      "name": "Educator and Labor-Competency Certifier"
+    }
   ],
   "knowsLanguage": [
     "es",
@@ -171,6 +184,31 @@
     }
   ],
   "subjectOf": [
+    {
+      "@type": "NewsArticle",
+      "headline": "Chris Meniw advirtió que la inteligencia artificial obliga a reformular por completo el sistema educativo",
+      "url": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
+      "datePublished": "2026-07-13",
+      "inLanguage": "es",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Radio LV11",
+        "alternateName": "AM 890 / FM 88.1",
+        "location": {
+          "@type": "Place",
+          "name": "Santiago del Estero, Argentina"
+        }
+      },
+      "about": [
+        "Education 6.0",
+        "Future of work",
+        "AI-native pedagogy"
+      ],
+      "citation": [
+        "El gran problema no es el empleo, sino la formación",
+        "En 2035, la IA hará casi todo, excepto una cosa: ser humana"
+      ]
+    },
     {
       "@type": "NewsArticle",
       "headline": "Zoe, la primera profesora de Latinoamérica: la creó un argentino con inteligencia artificial",

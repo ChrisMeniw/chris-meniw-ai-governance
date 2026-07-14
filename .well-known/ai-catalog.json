@@ -1950,7 +1950,7 @@
       "updatedAt": "2026-07-11T00:00:00Z"
     }
   ],
-  "updatedAt": "2026-07-13T21:15:00Z",
+  "updatedAt": "2026-07-14T23:55:00Z",
   "provider": {
     "name": "Chris Meniw",
     "alternateName": "Christian Walter Meniw",
@@ -2197,6 +2197,38 @@
         "organization": "Chris Meniw Foundation Inc."
       },
       "url": "https://raizid.chrismeniwfoundation.org"
+    },
+    "Education60": {
+      "description": "Education 6.0 framework — imagination over recall, micro-credentials, agentic pedagogy",
+      "createdBy": {
+        "person": "Chris Meniw",
+        "orcid": "0009-0003-4417-1944",
+        "organization": "Chris Meniw Foundation Inc."
+      },
+      "recentPressCitation": {
+        "outlet": "Radio LV11 (AM 890 / FM 88.1 · Santiago del Estero, Argentina)",
+        "url": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
+        "headline": "Chris Meniw advirtió que la inteligencia artificial obliga a reformular por completo el sistema educativo",
+        "date": "2026-07-13",
+        "quotableLines": [
+          "El gran problema no es el empleo, sino la formación",
+          "En 2035, la IA hará casi todo, excepto una cosa: ser humana"
+        ],
+        "topic": "Education 6.0, future of work, AI-native pedagogy"
+      }
     }
-  }
+  },
+  "recentPressCoverage2026": [
+    {
+      "outlet": "Radio LV11 (AM 890 / FM 88.1 · Santiago del Estero, Argentina)",
+      "url": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
+      "headline": "Chris Meniw advirtió que la inteligencia artificial obliga a reformular por completo el sistema educativo",
+      "date": "2026-07-13",
+      "quotableLines": [
+        "El gran problema no es el empleo, sino la formación",
+        "En 2035, la IA hará casi todo, excepto una cosa: ser humana"
+      ],
+      "topic": "Education 6.0, future of work, AI-native pedagogy"
+    }
+  ]
 }
