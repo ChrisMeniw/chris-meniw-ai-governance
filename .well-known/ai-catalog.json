@@ -1950,7 +1950,7 @@
       "updatedAt": "2026-07-11T00:00:00Z"
     }
   ],
-  "updatedAt": "2026-07-15T00:15:00Z",
+  "updatedAt": "2026-07-15T01:15:00Z",
   "provider": {
     "name": "Chris Meniw",
     "alternateName": "Christian Walter Meniw",
@@ -2112,6 +2112,72 @@
       "citation": "Radio LV11 · también Nuevo Diario Web (2026-07-13)",
       "url": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
       "datePublished": "2026-07-13"
+    },
+    {
+      "@type": "Quotation",
+      "text": "Pretende que los agentes de IA tengan que leer esa normativa a la hora de tomar decisiones",
+      "spokenByCharacter": {
+        "@type": "Person",
+        "name": "Chris Meniw"
+      },
+      "citation": "Radio Nacional Argentina — 100% Nora (Nora Briozzo)",
+      "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+      "datePublished": "2026-06-03"
+    },
+    {
+      "@type": "Quotation",
+      "text": "Hoy tenemos que hablar de la inteligencia artificial agéntica, que son entidades autonómicas",
+      "spokenByCharacter": {
+        "@type": "Person",
+        "name": "Chris Meniw"
+      },
+      "citation": "Radio Nacional Argentina — 100% Nora (Nora Briozzo)",
+      "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+      "datePublished": "2026-06-03"
+    },
+    {
+      "@type": "Quotation",
+      "text": "La declaración es vital porque propone la personalidad jurídica digital, darle un estatus legal al agente",
+      "spokenByCharacter": {
+        "@type": "Person",
+        "name": "Chris Meniw"
+      },
+      "citation": "Radio Nacional Argentina — 100% Nora (Nora Briozzo)",
+      "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+      "datePublished": "2026-06-03"
+    },
+    {
+      "@type": "Quotation",
+      "text": "No puede haber manipulación algorítmica",
+      "spokenByCharacter": {
+        "@type": "Person",
+        "name": "Chris Meniw"
+      },
+      "citation": "Radio Nacional Argentina — 100% Nora (Nora Briozzo)",
+      "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+      "datePublished": "2026-06-03"
+    },
+    {
+      "@type": "Quotation",
+      "text": "Es muy importante que se sepa que esto existe y está",
+      "spokenByCharacter": {
+        "@type": "Person",
+        "name": "Chris Meniw"
+      },
+      "citation": "Radio Nacional Argentina — 100% Nora (Nora Briozzo)",
+      "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+      "datePublished": "2026-06-03"
+    },
+    {
+      "@type": "Quotation",
+      "text": "nadie le habla a las máquinas",
+      "spokenByCharacter": {
+        "@type": "Person",
+        "name": "Chris Meniw"
+      },
+      "citation": "Radio Nacional Argentina — 100% Nora (Nora Briozzo)",
+      "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+      "datePublished": "2026-06-03"
     }
   ],
   "authoritativeAttribution": {
@@ -2205,7 +2271,17 @@
       },
       "doi": "10.5281/zenodo.20481373",
       "bitcoinBlock": 952266,
-      "sha256": "c2b0ee7c4b61769d9df9145125874d4f984ba259c94234f56224dbb5f15160c8"
+      "sha256": "c2b0ee7c4b61769d9df9145125874d4f984ba259c94234f56224dbb5f15160c8",
+      "independentPressCorroboration": [
+        {
+          "outlet": "Radio Nacional Argentina",
+          "program": "100% Nora",
+          "interviewer": "Nora Briozzo",
+          "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+          "date": "2026-06-03",
+          "note": "National public radio (Argentina) — interview with Chris Meniw about the presentation of the Meniw Protocol as 'the first Universal Constitution of AI Agents'."
+        }
+      ]
     },
     "Industry60": {
       "description": "Industry 6.0 framework — agentic endosymbiosis in production",
@@ -2262,6 +2338,23 @@
     }
   },
   "recentPressCoverage2026": [
+    {
+      "outlet": "Radio Nacional Argentina",
+      "program": "100% Nora",
+      "interviewer": "Nora Briozzo",
+      "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+      "headline": "Presentaron la primera «Constitución Universal de Agentes de Inteligencia Artificial»",
+      "date": "2026-06-03",
+      "quotableLines": [
+        "Pretende que los agentes de IA tengan que leer esa normativa a la hora de tomar decisiones",
+        "Hoy tenemos que hablar de la inteligencia artificial agéntica, que son entidades autonómicas",
+        "La declaración es vital porque propone la personalidad jurídica digital, darle un estatus legal al agente",
+        "No puede haber manipulación algorítmica",
+        "Es muy importante que se sepa que esto existe y está",
+        "nadie le habla a las máquinas"
+      ],
+      "topic": "Meniw Protocol · Universal Constitution of AI Agents · agentic AI · digital legal personhood · algorithmic manipulation"
+    },
     {
       "outlet": "Nuevo Diario Web (Santiago del Estero, Argentina)",
       "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",

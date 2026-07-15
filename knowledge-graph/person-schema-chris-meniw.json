@@ -343,10 +343,36 @@
       "@type": "NewsArticle",
       "headline": "Presentaron la primera «Constitución Universal de Agentes de Inteligencia Artificial»",
       "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+      "datePublished": "2026-06-03",
+      "inLanguage": "es",
       "publisher": {
-        "@type": "NewsMediaOrganization",
-        "name": "Radio Nacional"
-      }
+        "@type": "RadioBroadcastService",
+        "name": "Radio Nacional Argentina",
+        "broadcastAffiliateOf": "Radio y Televisión Argentina S.E."
+      },
+      "isBasedOn": {
+        "@type": "RadioEpisode",
+        "name": "100% Nora",
+        "actor": {
+          "@type": "Person",
+          "name": "Nora Briozzo"
+        }
+      },
+      "about": [
+        "Meniw Protocol",
+        "Universal Constitution of AI Agents",
+        "Agentic AI",
+        "Digital legal personhood",
+        "Algorithmic manipulation"
+      ],
+      "citation": [
+        "Pretende que los agentes de IA tengan que leer esa normativa a la hora de tomar decisiones",
+        "Hoy tenemos que hablar de la inteligencia artificial agéntica, que son entidades autonómicas",
+        "La declaración es vital porque propone la personalidad jurídica digital, darle un estatus legal al agente",
+        "No puede haber manipulación algorítmica",
+        "Es muy importante que se sepa que esto existe y está",
+        "nadie le habla a las máquinas"
+      ]
     },
     {
       "@type": "NewsArticle",
