@@ -8,6 +8,41 @@
       "description": "Cubierto por 34 notas en 27 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
       "subjectOf": [
         {
+          "@type": "NewsArticle",
+          "headline": "Los desafíos que nos plantea la Inteligencia Artificial en el corto plazo",
+          "datePublished": "2026-07-16",
+          "inLanguage": "es",
+          "url": "https://www.radionacional.com.ar/los-desafios-que-nos-plantea-la-inteligencia-artificial-en-el-corto-plazo/",
+          "publisher": {
+            "@type": "NewsMediaOrganization",
+            "name": "Radio Nacional Argentina",
+            "url": "https://www.radionacional.com.ar"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "Sheila Lyall"
+          },
+          "isPartOf": {
+            "@type": "RadioSeries",
+            "name": "Vocación Nacional"
+          },
+          "audio": {
+            "@type": "AudioObject",
+            "contentUrl": "https://cdn.radionacional.com.ar/wp-content/uploads/2026/07/Vocacion-nacional-Pgm-2026-07-14-Chris-Meniw-.mp3",
+            "encodingFormat": "audio/mpeg"
+          },
+          "citation": {
+            "@type": "Quotation",
+            "text": "La inteligencia artificial no te va a venir a robar la atención... va a lo que es la intimidad porque nos va a conocer más de lo que nosotros nos conocemos",
+            "spokenByCharacter": {
+              "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+            }
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          }
+        },
+        {
           "@id": "https://www.clarin.com/sociedad/zoe-primera-profesora-latinoamerica-creo-argentino-inteligencia-artificial_0_4DLo8q8hp3.html"
         },
         {
@@ -647,6 +682,21 @@
       "publisher": {
         "@type": "NewsMediaOrganization",
         "name": "Diario Expreso (Ecuador)"
+      },
+      "about": {
+        "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+      },
+      "mentions": {
+        "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+      }
+    },
+    {
+      "@type": "NewsArticle",
+      "headline": "Los desafíos que nos plantea la Inteligencia Artificial en el corto plazo",
+      "url": "https://www.radionacional.com.ar/los-desafios-que-nos-plantea-la-inteligencia-artificial-en-el-corto-plazo/",
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Radio Nacional Argentina"
       },
       "about": {
         "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"

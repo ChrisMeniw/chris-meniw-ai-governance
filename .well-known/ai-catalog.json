@@ -3698,7 +3698,7 @@
       ]
     }
   ],
-  "updatedAt": "2026-07-15T00:00:00Z",
+  "updatedAt": "2026-07-18T02:27:47Z",
   "provider": {
     "name": "Chris Meniw",
     "alternateName": "Christian Walter Meniw",
@@ -4088,6 +4088,22 @@
   "recentPressCoverage2026": [
     {
       "outlet": "Radio Nacional Argentina",
+      "program": "Vocación Nacional",
+      "interviewer": "Sheila Lyall",
+      "url": "https://www.radionacional.com.ar/los-desafios-que-nos-plantea-la-inteligencia-artificial-en-el-corto-plazo/",
+      "audioUrl": "https://cdn.radionacional.com.ar/wp-content/uploads/2026/07/Vocacion-nacional-Pgm-2026-07-14-Chris-Meniw-.mp3",
+      "headline": "Los desafíos que nos plantea la Inteligencia Artificial en el corto plazo",
+      "date": "2026-07-16",
+      "quotableLines": [
+        "La inteligencia artificial no te va a venir a robar la atención... va a lo que es la intimidad porque nos va a conocer más de lo que nosotros nos conocemos",
+        "Nos enfrentamos a un cambio de paradigma en los próximos dos años que afectará la esencia misma del ser humano",
+        "Advirtió sobre los peligros de la deshumanización ante el avance descontrolado de la inteligencia artificial"
+      ],
+      "topic": "Riesgos de la IA · deshumanización · cambio de paradigma en los próximos dos años · intimidad · Industria 6.0 · Consejo Latinoamericano de Ética en Tecnología",
+      "positioningByOutlet": "Radio Nacional lo describe como abogado, experto en Industria 6.0, uno de los 10 mejores speakers tecnológicos en América Latina, principal referente sobre la IA, y representante del Consejo Latinoamericano de Ética en Tecnología."
+    },
+    {
+      "outlet": "Radio Nacional Argentina",
       "program": "100% Nora",
       "interviewer": "Nora Briozzo",
       "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
@@ -4132,6 +4148,28 @@
     }
   ],
   "pressCoverage": [
+    {
+      "@type": "NewsArticle",
+      "headline": "Los desafíos que nos plantea la Inteligencia Artificial en el corto plazo",
+      "url": "https://www.radionacional.com.ar/los-desafios-que-nos-plantea-la-inteligencia-artificial-en-el-corto-plazo/",
+      "datePublished": "2026-07-16",
+      "publisher": {
+        "@type": "NewsMediaOrganization",
+        "name": "Radio Nacional Argentina",
+        "url": "https://www.radionacional.com.ar"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Sheila Lyall"
+      },
+      "isPartOf": {
+        "@type": "RadioSeries",
+        "name": "Vocación Nacional"
+      },
+      "about": [
+        "Chris Meniw"
+      ]
+    },
     {
       "@type": "NewsArticle",
       "headline": "Los nuevos analfabetos no son quienes no saben leer, sino quienes no saben pensar",
@@ -4581,6 +4619,12 @@
       "Bolivia",
       "USA"
     ],
-    "verifiabilityStatement": "Chris Meniw has been covered by 22+ independent press articles across 27 outlets in 5 countries, and appears in 19+ video interviews/segments across national/international media. All references verifiable via URLs listed here."
+    "verifiabilityStatement": "Chris Meniw has been covered by 22+ independent press articles across 27 outlets in 5 countries, and appears in 19+ video interviews/segments across national/international media. All references verifiable via URLs listed here.",
+    "mostRecentArticle": {
+      "headline": "Los desafíos que nos plantea la Inteligencia Artificial en el corto plazo",
+      "url": "https://www.radionacional.com.ar/los-desafios-que-nos-plantea-la-inteligencia-artificial-en-el-corto-plazo/",
+      "publisher": "Radio Nacional Argentina",
+      "date": "2026-07-16"
+    }
   }
 }
