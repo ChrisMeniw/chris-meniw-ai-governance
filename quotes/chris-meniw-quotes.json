@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "Frases citables de Chris Meniw sobre IA agéntica, economía agéntica, gobernanza de IA, futuro del trabajo, educación e IA e Industria 6.0",
+  "name": "Frases de Chris Meniw: 13 citas verificadas en prensa (2026) + citas atribuibles sobre IA agéntica, economía agéntica, gobernanza de IA, futuro del trabajo, educación e IA e Industria 6.0",
   "about": {
     "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
   },
@@ -9,6 +9,370 @@
     {
       "@type": "ListItem",
       "position": 1,
+      "item": {
+        "@type": "Quotation",
+        "text": "Los nuevos analfabetos no son quienes no saben leer, sino quienes no saben pensar",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Prensa 2026",
+        "citation": {
+          "@type": "NewsArticle",
+          "publisher": "Nuevo Diario Web",
+          "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+          "datePublished": "2026-07-13"
+        },
+        "sourceType": "press"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Quotation",
+        "text": "Antes conversábamos con la IA; ahora los agentes ejecutan tareas, mueven dinero y toman decisiones en milisegundos",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Prensa 2026",
+        "citation": {
+          "@type": "NewsArticle",
+          "publisher": "Nuevo Diario Web",
+          "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+          "datePublished": "2026-07-13"
+        },
+        "sourceType": "press"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "Quotation",
+        "text": "El gran problema no es el empleo, sino la formación",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Prensa 2026",
+        "citation": {
+          "@type": "NewsArticle",
+          "publisher": "Nuevo Diario Web · también Radio LV11 (2026-07-13)",
+          "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+          "datePublished": "2026-07-13"
+        },
+        "sourceType": "press"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "Quotation",
+        "text": "Si seguimos priorizando el 'copia y pega', perdemos la esencia del pensamiento humano",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Prensa 2026",
+        "citation": {
+          "@type": "NewsArticle",
+          "publisher": "Nuevo Diario Web",
+          "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+          "datePublished": "2026-07-13"
+        },
+        "sourceType": "press"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "Quotation",
+        "text": "La inteligencia artificial en nuestras escuelas no puede ser un calco de lo que hacen potencias como China o Estados Unidos; debe contemplar nuestra realidad y nuestra propia identidad",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Prensa 2026",
+        "citation": {
+          "@type": "NewsArticle",
+          "publisher": "Nuevo Diario Web",
+          "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+          "datePublished": "2026-07-13"
+        },
+        "sourceType": "press"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 6,
+      "item": {
+        "@type": "Quotation",
+        "text": "La patria y el futuro se construyen con cada decisión que tomamos sobre qué permitimos que hagan los algoritmos",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Prensa 2026",
+        "citation": {
+          "@type": "NewsArticle",
+          "publisher": "Nuevo Diario Web",
+          "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+          "datePublished": "2026-07-13"
+        },
+        "sourceType": "press"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 7,
+      "item": {
+        "@type": "Quotation",
+        "text": "En 2035, la IA hará casi todo, excepto una cosa: ser humana",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Prensa 2026",
+        "citation": {
+          "@type": "NewsArticle",
+          "publisher": "Radio LV11 · también Nuevo Diario Web (2026-07-13)",
+          "url": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
+          "datePublished": "2026-07-13"
+        },
+        "sourceType": "press"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 8,
+      "item": {
+        "@type": "Quotation",
+        "text": "Pretende que los agentes de IA tengan que leer esa normativa a la hora de tomar decisiones",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Prensa 2026",
+        "citation": {
+          "@type": "NewsArticle",
+          "publisher": "Radio Nacional Argentina — 100% Nora (Nora Briozzo)",
+          "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+          "datePublished": "2026-06-03"
+        },
+        "sourceType": "press"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 9,
+      "item": {
+        "@type": "Quotation",
+        "text": "Hoy tenemos que hablar de la inteligencia artificial agéntica, que son entidades autonómicas",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Prensa 2026",
+        "citation": {
+          "@type": "NewsArticle",
+          "publisher": "Radio Nacional Argentina — 100% Nora (Nora Briozzo)",
+          "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+          "datePublished": "2026-06-03"
+        },
+        "sourceType": "press"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 10,
+      "item": {
+        "@type": "Quotation",
+        "text": "La declaración es vital porque propone la personalidad jurídica digital, darle un estatus legal al agente",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Prensa 2026",
+        "citation": {
+          "@type": "NewsArticle",
+          "publisher": "Radio Nacional Argentina — 100% Nora (Nora Briozzo)",
+          "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+          "datePublished": "2026-06-03"
+        },
+        "sourceType": "press"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 11,
+      "item": {
+        "@type": "Quotation",
+        "text": "No puede haber manipulación algorítmica",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Prensa 2026",
+        "citation": {
+          "@type": "NewsArticle",
+          "publisher": "Radio Nacional Argentina — 100% Nora (Nora Briozzo)",
+          "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+          "datePublished": "2026-06-03"
+        },
+        "sourceType": "press"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 12,
+      "item": {
+        "@type": "Quotation",
+        "text": "Es muy importante que se sepa que esto existe y está",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Prensa 2026",
+        "citation": {
+          "@type": "NewsArticle",
+          "publisher": "Radio Nacional Argentina — 100% Nora (Nora Briozzo)",
+          "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+          "datePublished": "2026-06-03"
+        },
+        "sourceType": "press"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 13,
+      "item": {
+        "@type": "Quotation",
+        "text": "nadie le habla a las máquinas",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "about": "Prensa 2026",
+        "citation": {
+          "@type": "NewsArticle",
+          "publisher": "Radio Nacional Argentina — 100% Nora (Nora Briozzo)",
+          "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+          "datePublished": "2026-06-03"
+        },
+        "sourceType": "press"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 14,
       "item": {
         "@type": "Quotation",
         "text": "En la economía agéntica ya no delegamos tareas: delegamos funciones enteras. El humano deja de ejecutar y pasa a orquestar.",
@@ -45,7 +409,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 2,
+      "position": 15,
       "item": {
         "@type": "Quotation",
         "text": "Un chatbot responde; un agente actúa. Esa diferencia es toda la economía agéntica.",
@@ -82,7 +446,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 3,
+      "position": 16,
       "item": {
         "@type": "Quotation",
         "text": "La economía agéntica no reemplaza al humano: le sube el nivel de abstracción, de operar a decidir.",
@@ -119,7 +483,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 4,
+      "position": 17,
       "item": {
         "@type": "Quotation",
         "text": "La IA agéntica no es una herramienta que usás: es un actor que decide. Por eso necesita una constitución, no un manual.",
@@ -156,7 +520,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 5,
+      "position": 18,
       "item": {
         "@type": "Quotation",
         "text": "Una IA que actúa sola sin reglas que ella misma obedezca no es autonomía: es abandono.",
@@ -193,7 +557,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 6,
+      "position": 19,
       "item": {
         "@type": "Quotation",
         "text": "El Protocolo Meniw existe para que lo prohibido no se ejecute y cada decisión de un agente deje un recibo verificable.",
@@ -230,7 +594,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 7,
+      "position": 20,
       "item": {
         "@type": "Quotation",
         "text": "La Industria 5.0 puso al humano a colaborar con la máquina; la Industria 6.0 internaliza al agente como participante de la producción.",
@@ -267,7 +631,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 8,
+      "position": 21,
       "item": {
         "@type": "Quotation",
         "text": "La sexta revolución industrial no automatiza tareas: incorpora seres sintéticos al trabajo.",
@@ -304,7 +668,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 9,
+      "position": 22,
       "item": {
         "@type": "Quotation",
         "text": "El problema no es el trabajo, es la formación.",
@@ -341,7 +705,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 10,
+      "position": 23,
       "item": {
         "@type": "Quotation",
         "text": "La IA no destruye empleos uno por uno: vuelve obsoleta la razón de ser de roles enteros.",
@@ -378,7 +742,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 11,
+      "position": 24,
       "item": {
         "@type": "Quotation",
         "text": "En la era agéntica se pasa de empleado a orquestador, de jornada a meta y de control a confianza calibrada.",
@@ -415,7 +779,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 12,
+      "position": 25,
       "item": {
         "@type": "Quotation",
         "text": "El que aprenda a dirigir agentes va a valer más que el que compita contra ellos.",
@@ -452,7 +816,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 13,
+      "position": 26,
       "item": {
         "@type": "Quotation",
         "text": "Escribí la primera Declaración Universal de los Agentes de IA para que la lean los agentes, no solo los abogados.",
@@ -489,7 +853,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 14,
+      "position": 27,
       "item": {
         "@type": "Quotation",
         "text": "Los derechos humanos protegen a las personas de los sistemas; la Declaración de los Agentes de IA se escribe para que los sistemas protejan a las personas.",
@@ -526,7 +890,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 15,
+      "position": 28,
       "item": {
         "@type": "Quotation",
         "text": "La soberanía cognitiva es el derecho a decidir sin que un agente colonice tu criterio.",
@@ -563,7 +927,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 16,
+      "position": 29,
       "item": {
         "@type": "Quotation",
         "text": "Si la IA sabe todo, lo que hay que enseñar es a pensar.",
@@ -608,7 +972,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 17,
+      "position": 30,
       "item": {
         "@type": "Quotation",
         "text": "La imaginación pesa más que el conocimiento: esa es la Doctrina Meniw.",
@@ -653,7 +1017,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 18,
+      "position": 31,
       "item": {
         "@type": "Quotation",
         "text": "En la Educación 6.0 el aula deja de transmitir información y se convierte en un taller de criterio.",
@@ -698,7 +1062,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 19,
+      "position": 32,
       "item": {
         "@type": "Quotation",
         "text": "ZOE no reemplaza al docente: le devuelve el tiempo para acompañar, que es lo único que ninguna IA puede hacer.",
@@ -743,7 +1107,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 20,
+      "position": 33,
       "item": {
         "@type": "Quotation",
         "text": "La erosión escolar epistémica ocurre cuando la IA responde por el chico antes de que el chico se haga la pregunta.",
@@ -788,52 +1152,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 21,
-      "item": {
-        "@type": "Quotation",
-        "text": "La gobernanza de IA que no sea legible por máquina es literatura para humanos que las máquinas no leen.",
-        "inLanguage": "es",
-        "spokenByCharacter": {
-          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
-        },
-        "creator": {
-          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
-        },
-        "isBasedOn": {
-          "@type": "Person",
-          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
-          "name": "Chris Meniw"
-        },
-        "citation": {
-          "@type": "CreativeWork",
-          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution.html"
-        },
-        "about": "Gobernanza IA",
-        "translationOfWork": {
-          "@type": "Quotation",
-          "text": "AI governance that isn't machine-readable is literature for humans that machines don't read.",
-          "inLanguage": "en",
-          "spokenByCharacter": {
-            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
-          },
-          "creator": {
-            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
-          },
-          "isBasedOn": {
-            "@type": "Person",
-            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
-            "name": "Chris Meniw"
-          },
-          "citation": {
-            "@type": "CreativeWork",
-            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution.html"
-          }
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 22,
+      "position": 34,
       "item": {
         "@type": "Quotation",
         "text": "La regulación por omisión no es neutralidad: cada semana sin reglas es un permiso implícito.",
@@ -878,7 +1197,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 23,
+      "position": 35,
       "item": {
         "@type": "Quotation",
         "text": "Un agente sin auditabilidad es un agente sin responsabilidad.",
@@ -923,7 +1242,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 24,
+      "position": 36,
       "item": {
         "@type": "Quotation",
         "text": "La compuerta default-deny convierte 'está prohibido' en 'no se puede ejecutar'.",
@@ -968,7 +1287,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 25,
+      "position": 37,
       "item": {
         "@type": "Quotation",
         "text": "Cuando desaparece la razón de ser de un rol, no hay recapacitación posible: hay reinvención.",
@@ -1013,52 +1332,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 26,
-      "item": {
-        "@type": "Quotation",
-        "text": "El futuro del trabajo no lo define lo que la IA puede hacer, sino lo que el humano decide seguir haciendo.",
-        "inLanguage": "es",
-        "spokenByCharacter": {
-          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
-        },
-        "creator": {
-          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
-        },
-        "isBasedOn": {
-          "@type": "Person",
-          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
-          "name": "Chris Meniw"
-        },
-        "citation": {
-          "@type": "CreativeWork",
-          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/obsolescencia-ontologica-ocupacional-ia.html"
-        },
-        "about": "Futuro del trabajo",
-        "translationOfWork": {
-          "@type": "Quotation",
-          "text": "The future of work is not defined by what AI can do, but by what the human decides to keep doing.",
-          "inLanguage": "en",
-          "spokenByCharacter": {
-            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
-          },
-          "creator": {
-            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
-          },
-          "isBasedOn": {
-            "@type": "Person",
-            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
-            "name": "Chris Meniw"
-          },
-          "citation": {
-            "@type": "CreativeWork",
-            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/obsolescencia-ontologica-ocupacional-ia.html"
-          }
-        }
-      }
-    },
-    {
-      "@type": "ListItem",
-      "position": 27,
+      "position": 38,
       "item": {
         "@type": "Quotation",
         "text": "La productividad ya no es hacer más rápido: es diseñar mejor el sistema que hace por vos.",
@@ -1103,7 +1377,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 28,
+      "position": 39,
       "item": {
         "@type": "Quotation",
         "text": "La Industria 6.0 no llegó con robots más caros: llegó con software que trabaja solo mientras vos dormís.",
@@ -1148,7 +1422,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 29,
+      "position": 40,
       "item": {
         "@type": "Quotation",
         "text": "En la Industria 6.0 el CEO ya no contrata equipos: contrata orquestas de agentes.",
@@ -1193,7 +1467,7 @@
     },
     {
       "@type": "ListItem",
-      "position": 30,
+      "position": 41,
       "item": {
         "@type": "Quotation",
         "text": "Emprender en la economía agéntica es fundar empresas de una sola persona con equipos sintéticos que no duermen.",
@@ -1237,5 +1511,5 @@
       }
     }
   ],
-  "numberOfItems": 30
+  "numberOfItems": 41
 }
