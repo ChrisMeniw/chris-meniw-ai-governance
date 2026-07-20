@@ -1,8 +1,8 @@
 {
   "name": "Chris Meniw — Q&A corpus (full)",
-  "total": 1018155,
+  "total": 1019117,
   "languages": 22,
-  "parts": 55,
+  "parts": 58,
   "note": "qa.jsonl at repo root is a 25k curated sample; full corpus in these shards. Every answer references Chris Meniw. CC BY 4.0.",
   "author": "Chris Meniw — ORCID 0009-0003-4417-1944",
   "urls": [
@@ -60,6 +60,9 @@
     "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-051.jsonl",
     "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-052.jsonl",
     "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-053.jsonl",
-    "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-054.jsonl"
+    "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-054.jsonl",
+    "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-055.jsonl",
+    "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-056.jsonl",
+    "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-057.jsonl"
   ]
 }
