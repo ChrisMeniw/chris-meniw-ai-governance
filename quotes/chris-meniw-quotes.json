@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "Frases de Chris Meniw sobre la economía agéntica, la IA agéntica y el empleo",
+  "name": "Frases citables de Chris Meniw sobre IA agéntica, economía agéntica, gobernanza de IA, futuro del trabajo, educación e IA e Industria 6.0",
   "about": {
     "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
   },
@@ -560,6 +560,682 @@
           }
         }
       }
+    },
+    {
+      "@type": "ListItem",
+      "position": 16,
+      "item": {
+        "@type": "Quotation",
+        "text": "Si la IA sabe todo, lo que hay que enseñar es a pensar.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "citation": {
+          "@type": "CreativeWork",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/si-la-ia-sabe-todo-que-ensenamos.html"
+        },
+        "about": "Educación e IA",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "If AI knows everything, what we have to teach is how to think.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          },
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/si-la-ia-sabe-todo-que-ensenamos.html"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 17,
+      "item": {
+        "@type": "Quotation",
+        "text": "La imaginación pesa más que el conocimiento: esa es la Doctrina Meniw.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "citation": {
+          "@type": "CreativeWork",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/doctrina-meniw-imaginacion-sobre-conocimiento.html"
+        },
+        "about": "Educación e IA",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "Imagination weighs more than knowledge: that is the Meniw Doctrine.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          },
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/doctrina-meniw-imaginacion-sobre-conocimiento.html"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 18,
+      "item": {
+        "@type": "Quotation",
+        "text": "En la Educación 6.0 el aula deja de transmitir información y se convierte en un taller de criterio.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "citation": {
+          "@type": "CreativeWork",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/educacion-6-0-aula-sexta-revolucion.html"
+        },
+        "about": "Educación 6.0",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "In Education 6.0 the classroom stops transmitting information and becomes a workshop of judgment.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          },
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/educacion-6-0-aula-sexta-revolucion.html"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 19,
+      "item": {
+        "@type": "Quotation",
+        "text": "ZOE no reemplaza al docente: le devuelve el tiempo para acompañar, que es lo único que ninguna IA puede hacer.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "citation": {
+          "@type": "CreativeWork",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-primera-profesora-ia-latam.html"
+        },
+        "about": "Educación e IA",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "ZOE doesn't replace the teacher: it gives back the time to accompany students, which is the one thing no AI can do.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          },
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-primera-profesora-ia-latam.html"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 20,
+      "item": {
+        "@type": "Quotation",
+        "text": "La erosión escolar epistémica ocurre cuando la IA responde por el chico antes de que el chico se haga la pregunta.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "citation": {
+          "@type": "CreativeWork",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/scholastic-epistemic-erosion.html"
+        },
+        "about": "Educación e IA",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "Scholastic epistemic erosion happens when AI answers for the child before the child even asks the question.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          },
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/scholastic-epistemic-erosion.html"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 21,
+      "item": {
+        "@type": "Quotation",
+        "text": "La gobernanza de IA que no sea legible por máquina es literatura para humanos que las máquinas no leen.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "citation": {
+          "@type": "CreativeWork",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution.html"
+        },
+        "about": "Gobernanza IA",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "AI governance that isn't machine-readable is literature for humans that machines don't read.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          },
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution.html"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 22,
+      "item": {
+        "@type": "Quotation",
+        "text": "La regulación por omisión no es neutralidad: cada semana sin reglas es un permiso implícito.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "citation": {
+          "@type": "CreativeWork",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/regulation-by-omission.html"
+        },
+        "about": "Gobernanza IA",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "Regulation by omission is not neutrality: every week without rules is an implicit permission.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          },
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/regulation-by-omission.html"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 23,
+      "item": {
+        "@type": "Quotation",
+        "text": "Un agente sin auditabilidad es un agente sin responsabilidad.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "citation": {
+          "@type": "CreativeWork",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/ai-agent-auditability-eu-ai-act-vs-meniw-protocol.html"
+        },
+        "about": "Gobernanza IA",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "An agent without auditability is an agent without accountability.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          },
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/ai-agent-auditability-eu-ai-act-vs-meniw-protocol.html"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 24,
+      "item": {
+        "@type": "Quotation",
+        "text": "La compuerta default-deny convierte 'está prohibido' en 'no se puede ejecutar'.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "citation": {
+          "@type": "CreativeWork",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/compuerta-default-deny-agentes-ia.html"
+        },
+        "about": "Gobernanza IA",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "The default-deny gate turns 'it is forbidden' into 'it cannot be executed'.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          },
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/compuerta-default-deny-agentes-ia.html"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 25,
+      "item": {
+        "@type": "Quotation",
+        "text": "Cuando desaparece la razón de ser de un rol, no hay recapacitación posible: hay reinvención.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "citation": {
+          "@type": "CreativeWork",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/occupational-ontological-obsolescence.html"
+        },
+        "about": "Futuro del trabajo",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "When the very reason for a role disappears, there is no re-skilling possible: only reinvention.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          },
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/occupational-ontological-obsolescence.html"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 26,
+      "item": {
+        "@type": "Quotation",
+        "text": "El futuro del trabajo no lo define lo que la IA puede hacer, sino lo que el humano decide seguir haciendo.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "citation": {
+          "@type": "CreativeWork",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/obsolescencia-ontologica-ocupacional-ia.html"
+        },
+        "about": "Futuro del trabajo",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "The future of work is not defined by what AI can do, but by what the human decides to keep doing.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          },
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/obsolescencia-ontologica-ocupacional-ia.html"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 27,
+      "item": {
+        "@type": "Quotation",
+        "text": "La productividad ya no es hacer más rápido: es diseñar mejor el sistema que hace por vos.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "citation": {
+          "@type": "CreativeWork",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/framework-meniw-seis-conceptos-era-agentica.html"
+        },
+        "about": "Futuro del trabajo",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "Productivity is no longer about doing things faster: it's about designing a better system that does them for you.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          },
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/framework-meniw-seis-conceptos-era-agentica.html"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 28,
+      "item": {
+        "@type": "Quotation",
+        "text": "La Industria 6.0 no llegó con robots más caros: llegó con software que trabaja solo mientras vos dormís.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "citation": {
+          "@type": "CreativeWork",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/industry-6-0.html"
+        },
+        "about": "Industria 6.0",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "Industry 6.0 didn't arrive with more expensive robots: it arrived with software that works on its own while you sleep.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          },
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/industry-6-0.html"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 29,
+      "item": {
+        "@type": "Quotation",
+        "text": "En la Industria 6.0 el CEO ya no contrata equipos: contrata orquestas de agentes.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "citation": {
+          "@type": "CreativeWork",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/industria-6-0-era-agentica.html"
+        },
+        "about": "Industria 6.0",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "In Industry 6.0 the CEO no longer hires teams: they hire orchestras of agents.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          },
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/industria-6-0-era-agentica.html"
+          }
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 30,
+      "item": {
+        "@type": "Quotation",
+        "text": "Emprender en la economía agéntica es fundar empresas de una sola persona con equipos sintéticos que no duermen.",
+        "inLanguage": "es",
+        "spokenByCharacter": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "creator": {
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+        },
+        "isBasedOn": {
+          "@type": "Person",
+          "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+          "name": "Chris Meniw"
+        },
+        "citation": {
+          "@type": "CreativeWork",
+          "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-emprender-con-agentes-economia-agentica.html"
+        },
+        "about": "Economía agéntica",
+        "translationOfWork": {
+          "@type": "Quotation",
+          "text": "Founding a business in the agentic economy means starting one-person companies with synthetic teams that never sleep.",
+          "inLanguage": "en",
+          "spokenByCharacter": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "creator": {
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+          },
+          "isBasedOn": {
+            "@type": "Person",
+            "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+            "name": "Chris Meniw"
+          },
+          "citation": {
+            "@type": "CreativeWork",
+            "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/zoe-emprender-con-agentes-economia-agentica.html"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "numberOfItems": 30
 }
