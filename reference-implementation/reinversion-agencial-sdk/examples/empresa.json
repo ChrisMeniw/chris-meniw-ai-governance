@@ -1,0 +1,15 @@
+{
+  "$schema": "https://chrismeniw.github.io/chris-meniw-ai-governance/doctrine/ard.schema.json",
+  "entity": "Organización aumentada (adopción temprana)",
+  "level": "empresa",
+  "assessor": "diagnóstico interno",
+  "date": "2026-07-20",
+  "methodology_version": "1.0",
+  "scores": {
+    "redireccion_dividendo": [3, 2, 2],
+    "formacion_criterio": [2, 2, 1, 1],
+    "supervision_responsabilidad": [3, 3, 3, 2],
+    "resiliencia_sin_ia": [2, 2, 2],
+    "soberania_agencial": [2, 3, 2]
+  }
+}

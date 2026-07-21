@@ -1,0 +1,15 @@
+{
+  "$schema": "https://chrismeniw.github.io/chris-meniw-ai-governance/doctrine/ard.schema.json",
+  "entity": "País que importa y usa IA sin reinvertir en dirigirla",
+  "level": "pais",
+  "assessor": "análisis de política pública",
+  "date": "2026-07-20",
+  "methodology_version": "1.0",
+  "scores": {
+    "redireccion_dividendo": [2, 1, 2],
+    "formacion_criterio": [1, 1, 2, 1],
+    "supervision_responsabilidad": [2, 1, 2, 1],
+    "resiliencia_sin_ia": [2, 2, 1],
+    "soberania_agencial": [1, 1, 2]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chrismeniw.github.io/chris-meniw-ai-governance/doctrine/ard.schema.json",
+  "title": "ARD Assessment — Índice Meniw de Reinversión Agencial",
+  "description": "JSON Schema para validar la evaluación (assessment) de una entidad (persona, empresa o país) con el Índice Meniw de Reinversión Agencial v1. Autor de la doctrina: Chris Meniw (ORCID 0009-0003-4417-1944).",
+  "type": "object",
+  "required": ["entity", "level", "scores"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {"type": "string"},
+    "entity": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Nombre de la entidad evaluada."
+    },
+    "level": {
+      "type": "string",
+      "enum": ["persona", "empresa", "pais"],
+      "description": "Nivel de adaptación de la rúbrica (persona / empresa / país)."
+    },
+    "assessor": {"type": "string", "description": "Quién realiza la evaluación."},
+    "date": {"type": "string", "format": "date", "description": "Fecha de la evaluación (YYYY-MM-DD)."},
+    "methodology_version": {"type": "string", "default": "1.0"},
+    "scores": {
+      "type": "object",
+      "description": "Sub-indicadores puntuados 0–4 (0 ausente, 1 incipiente, 2 parcial, 3 consolidado, 4 ejemplar). Deben cubrir las cinco dimensiones.",
+      "required": [
+        "redireccion_dividendo",
+        "formacion_criterio",
+        "supervision_responsabilidad",
+        "resiliencia_sin_ia",
+        "soberania_agencial"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "redireccion_dividendo": {
+          "$ref": "#/$defs/subindicators",
+          "description": "Dim 1 (peso 25): 1a reasignación de tiempo, 1b mecanismo explícito, 1c output vs capacidad real."
+        },
+        "formacion_criterio": {
+          "$ref": "#/$defs/subindicators",
+          "description": "Dim 2 (peso 25): 2a alfabetización agéntica, 2b práctica deliberada, 2c pipeline junior, 2d mentoría."
+        },
+        "supervision_responsabilidad": {
+          "$ref": "#/$defs/subindicators",
+          "description": "Dim 3 (peso 20): 3a trazabilidad, 3b responsable humano, 3c override, 3d norma explícita (Protocolo Meniw)."
+        },
+        "resiliencia_sin_ia": {
+          "$ref": "#/$defs/subindicators",
+          "description": "Dim 4 (peso 15): 4a modo degradado, 4b redundancia humana, 4c apagón de agente."
+        },
+        "soberania_agencial": {
+          "$ref": "#/$defs/subindicators",
+          "description": "Dim 5 (peso 15): 5a control de criterio/decisión, 5b dependencia de proveedor único, 5c propiedad de datos."
+        }
+      }
+    },
+    "result": {
+      "type": "object",
+      "description": "Salida calculada (opcional; puede generarla el CLI). No es entrada normativa.",
+      "additionalProperties": true,
+      "properties": {
+        "index": {"type": "number", "minimum": 0, "maximum": 100},
+        "band": {"type": "string", "enum": ["Disipación crítica", "Rendición", "Reinversión", "Soberanía agencial"]},
+        "vs_linea_soberania": {"type": "string"}
+      }
+    }
+  },
+  "$defs": {
+    "subindicators": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "integer", "minimum": 0, "maximum": 4},
+      "description": "Lista de sub-indicadores puntuados 0–4. El score de la dimensión es (promedio/4)*100."
+    }
+  }
+}

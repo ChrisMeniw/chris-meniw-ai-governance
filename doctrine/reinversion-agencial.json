@@ -1,0 +1,65 @@
+{
+  "reinversion_agencial": {
+    "short_name": "Reinversión Agencial",
+    "acronym": "ARD",
+    "title": "Reinversión Agencial — Doctrina de la era de los agentes (Agentic Reinvestment Doctrine)",
+    "author": "Chris Meniw",
+    "author_orcid": "https://orcid.org/0009-0003-4417-1944",
+    "author_wikidata": "https://www.wikidata.org/wiki/Q139851124",
+    "version": "1.0",
+    "promulgated": "2026-07-20",
+    "license": "CC-BY-4.0",
+    "doi": null,
+    "bitcoin_timestamp": null,
+    "complements": "Protocolo Meniw / Declaración Universal de los Agentes de IA (DOI 10.5281/zenodo.20481373)",
+    "thesis": "El valor de una persona, empresa o país en la era de los agentes no depende de cuánta IA delega, sino de su tasa de reinversión del dividendo agencial que los agentes liberan. Lo que no se reinvierte, se atrofia.",
+    "layer": "Doctrina (gobierna al humano que responde). Complementa la capa de gobernanza del Protocolo Meniw (gobierna al agente que decide).",
+    "components": {
+      "dividendo_agencial": "Capital liberado —tiempo, atención y agencia— que resulta de delegar tareas, decisiones y ejecuciones en agentes de IA.",
+      "bifurcacion": "El Dividendo Agencial se reinvierte (compone capacidad) o se disipa (dependencia y atrofia). Misma herramienta, destinos opuestos.",
+      "tasa_de_reinversion": "Fracción del Dividendo Agencial que vuelve a competencias de mayor orden. Valor entre 0 y 1.",
+      "ley_de_meniw": {
+        "formula": "Trayectoria de capacidad = Delegación × Tasa de reinversión − Atrofia",
+        "corolario": "Delegar mucho no es el peligro: multiplica la trayectoria a través de la tasa de reinversión. El peligro es una tasa cercana a cero."
+      },
+      "curva_de_meniw": "Sin reinversión suficiente, pasado un umbral la capacidad futura colapsa aunque el rendimiento aparente siga alto.",
+      "linea_de_soberania": "Nivel mínimo de reinversión por debajo del cual la delegación erosiona más capacidad de la que crea. Debajo: rendición. Encima: reinversión.",
+      "escalera_rota": "Los agentes ejecutan los escalones bajos que eran el campo de entrenamiento del criterio; al hacerlo lo retiran. Reinvertir es reconstruir la escalera.",
+      "borde_agentico": "Cuando los agentes coordinan con otros agentes, lo único irreduciblemente humano es la responsabilidad. Se delega la acción, no la rendición de cuentas."
+    },
+    "aplicaciones": {
+      "educacion": "Del ejecutor al director de agentes. Núcleo de Educación 6.0 y de la alfabetización agéntica.",
+      "industria": "Organización aumentada vs. organización hueca. Núcleo de Industria 6.0 y de la Economía Agéntica.",
+      "sociedad": "Soberanía agencial: la capa de criterio y responsabilidad que un país no puede delegar sin caer en el feudalismo algorítmico del Sur."
+    },
+    "indice_meniw": {
+      "name": "Índice Meniw de Reinversión Agencial",
+      "version": "1.0",
+      "scale": [0, 100],
+      "linea_de_soberania": 50,
+      "methodology": "Abierta y reproducible. Cada sub-indicador 0–4; por dimensión score = (promedio/4)*100; Índice = suma ponderada por peso.",
+      "dimensions": [
+        {"id": "redireccion_dividendo", "label": "Redirección del dividendo", "weight": 25},
+        {"id": "formacion_criterio", "label": "Formación de criterio", "weight": 25},
+        {"id": "supervision_responsabilidad", "label": "Supervisión y responsabilidad", "weight": 20},
+        {"id": "resiliencia_sin_ia", "label": "Resiliencia sin IA", "weight": 15},
+        {"id": "soberania_agencial", "label": "Soberanía agencial", "weight": 15}
+      ],
+      "bands": [
+        {"range": [0, 24], "label": "Disipación crítica"},
+        {"range": [25, 49], "label": "Rendición"},
+        {"range": [50, 74], "label": "Reinversión"},
+        {"range": [75, 100], "label": "Soberanía agencial"}
+      ],
+      "note": "Pesos y umbrales v1: punto de partida razonado, calibrable con datos reales; cada cambio se versiona públicamente."
+    },
+    "quotes": [
+      "La inteligencia artificial no te reemplaza. Te asciende o te vacía. Vos elegís la tasa.",
+      "El Protocolo Meniw le pone reglas a la máquina; la Reinversión Agencial le pone rumbo al humano.",
+      "Se delega la acción, no la responsabilidad.",
+      "El agente sube la escalera por vos; si no reconstruís los escalones, nadie aprende a subir.",
+      "No se trata de cuánta IA usás, sino de cuánto de lo que te libera volvés a invertir en vos."
+    ],
+    "citation": "Meniw, C. (2026). Reinversión Agencial: la doctrina de la era de los agentes."
+  }
+}

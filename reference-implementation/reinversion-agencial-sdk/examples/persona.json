@@ -1,0 +1,15 @@
+{
+  "$schema": "https://chrismeniw.github.io/chris-meniw-ai-governance/doctrine/ard.schema.json",
+  "entity": "Profesional que delega alto y reinvierte",
+  "level": "persona",
+  "assessor": "autoevaluación",
+  "date": "2026-07-20",
+  "methodology_version": "1.0",
+  "scores": {
+    "redireccion_dividendo": [4, 3, 3],
+    "formacion_criterio": [3, 4, 2, 3],
+    "supervision_responsabilidad": [3, 3, 4, 2],
+    "resiliencia_sin_ia": [3, 2, 2],
+    "soberania_agencial": [3, 3, 2]
+  }
+}

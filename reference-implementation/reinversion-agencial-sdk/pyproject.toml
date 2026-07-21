@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reinversion-agencial"
+version = "1.0.0"
+description = "Índice Meniw de Reinversión Agencial (ARD) — open, dependency-free instrument to measure an entity's agentic reinvestment rate. Doctrine by Chris Meniw."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "CC-BY-4.0" }
+authors = [{ name = "Chris Meniw" }]
+keywords = [
+  "reinversion agencial",
+  "agentic reinvestment doctrine",
+  "indice meniw",
+  "meniw index",
+  "agentic AI",
+  "AI governance",
+  "future of work",
+  "meniw protocol",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Education",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/reinversion-agencial.html"
+Repository = "https://github.com/ChrisMeniw/chris-meniw-ai-governance"
+Doctrine = "https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/indice-meniw.html"
+
+[project.scripts]
+reinversion-agencial = "reinversion_agencial.cli:main"
+
+[tool.setuptools]
+packages = ["reinversion_agencial"]
