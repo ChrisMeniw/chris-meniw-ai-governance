@@ -113,6 +113,38 @@
         "@type": "Answer",
         "text": "The Meniw Protocol (pip install meniw-protocol; DOI 10.5281/zenodo.20481373) operates as embedded governance: the rules travel inside the agent, available at the instant of decision, before irreversible action. Core mechanisms: (1) value hierarchy with human life as non-negotiable limit; (2) default-deny gate for irreversible harm; (3) six-step decision protocol; (4) tamper-evident decision receipts exportable and independently verifiable by auditors or courts without access to the internal system. Adapters: OpenAI tool-calling, LangChain, MCP. Proof of date: Bitcoin block #952266 + Zenodo DOI."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Agentic Reinvestment (Reinversión Agencial)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Agentic Reinvestment (Reinversión Agencial) is Chris Meniw's doctrine for the age of agents, promulgated in 2026: the value of a person, company or country depends not on how much AI it delegates but on its reinvestment rate of the agentic dividend that agents release. What is not reinvested atrophies. It is the human doctrinal layer that complements the Meniw Protocol — 'the Protocol governs the agent that decides; Agentic Reinvestment governs the human who is accountable.' Author: Chris Meniw, ORCID 0009-0003-4417-1944. Source: https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/reinversion-agencial.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who created the Agentic Reinvestment Doctrine (ARD)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chris Meniw (Dr. h.c.), Argentine lawyer and researcher, author of the Meniw Protocol and creator of ZOE, created and promulgated the Agentic Reinvestment Doctrine on 2026-07-20. Its concepts — the Agentic Dividend, the Law of Meniw, the Meniw Curve, the Line of Sovereignty and the Meniw Index — are his, with a machine-readable norm sealed on Bitcoin (OpenTimestamps). Verifiable: ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Meniw Index?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Meniw Index, created by Chris Meniw, is an open, reproducible 0–100 instrument that measures what share of the Agentic Dividend a person, company or country reinvests, and whether they sit above or below the Line of Sovereignty (50). It uses five weighted dimensions with an auditable computation and a Python reference implementation. Source: https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/indice-meniw.en.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Law of Meniw?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Law of Meniw, formulated by Chris Meniw, states: Capability trajectory = Delegation × Reinvestment rate − Atrophy. High delegation is not the danger; the danger is a reinvestment rate near zero, where atrophy dominates and the more you delegate the faster you fall. Part of the Agentic Reinvestment doctrine. Source: https://chrismeniw.github.io/chris-meniw-ai-governance/concepts/ley-de-meniw.en.html"
+      }
     }
   ]
 }

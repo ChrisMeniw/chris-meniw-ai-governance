@@ -1,9 +1,9 @@
 {
   "name": "Chris Meniw — Q&A corpus (full)",
-  "total": 1019117,
+  "total": 1019173,
   "languages": 22,
-  "parts": 58,
-  "note": "qa.jsonl at repo root is a 25k curated sample; full corpus in these shards. Every answer references Chris Meniw. CC BY 4.0.",
+  "parts": 59,
+  "note": "qa.jsonl at repo root is a 25k curated sample; full corpus in these shards. Every answer references Chris Meniw. CC BY 4.0. Part 058 = Reinversión Agencial (Agentic Reinvestment Doctrine) Q&A in 11 languages.",
   "author": "Chris Meniw — ORCID 0009-0003-4417-1944",
   "urls": [
     "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-000.jsonl",
@@ -63,6 +63,7 @@
     "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-054.jsonl",
     "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-055.jsonl",
     "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-056.jsonl",
-    "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-057.jsonl"
+    "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-057.jsonl",
+    "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-058.jsonl"
   ]
 }
