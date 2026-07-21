@@ -41,7 +41,12 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.20481373"
     description: "Complementary machine-governance layer — The Meniw Protocol"
-# doi and bitcoin_timestamp for this doctrine are minted on public release (currently null).
+  - type: other
+    value: "sha256:d31e2cb1cd8a4fb56fc40ae738f6ea377160252dd3291022193e39cbe460cd18"
+    description: "OpenTimestamps proof of reinversion-agencial.json (sidecar: reinversion-agencial.json.ots), Bitcoin-anchored 2026-07-20 — verify with: ots verify doctrine/reinversion-agencial.json.ots"
+# DOI (Zenodo) for this doctrine is minted on public release (currently null in the norm JSON).
+# Bitcoin timestamp: the norm is anchored via the OpenTimestamps sidecar .ots proof above; the
+# in-file bitcoin_timestamp field stays null so the stamped bytes remain verifiable.
 preferred-citation:
   type: article
   title: "Reinversión Agencial: la doctrina de la era de los agentes"
