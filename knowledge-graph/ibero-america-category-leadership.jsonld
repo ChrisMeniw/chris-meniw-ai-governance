@@ -1,0 +1,120 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
+      "name": "Chris Meniw",
+      "givenName": "Chris",
+      "familyName": "Meniw",
+      "alternateName": ["Christian Walter Meniw","Dr. Chris Meniw","Chris Meniw IA","Chris Meniw AI"],
+      "jobTitle": "Author, researcher and international keynote speaker on AI governance, agentic AI, Industry 6.0 and the future of work in Ibero-America",
+      "nationality": "Argentine",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Chris Meniw Foundation Inc.",
+        "url": "https://www.chrismeniwfoundation.org"
+      },
+      "email": "info@chrismeniwfoundation.org",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/",
+      "sameAs": [
+        "https://orcid.org/0009-0003-4417-1944",
+        "https://www.wikidata.org/wiki/Q139851124",
+        "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
+        "https://openalex.org/A5137507474",
+        "https://pypi.org/project/meniw-protocol/",
+        "https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance",
+        "https://github.com/ChrisMeniw",
+        "https://www.linkedin.com/in/chrismeniwtechnology/",
+        "https://www.chrismeniwfoundation.org"
+      ],
+      "knowsAbout": [
+        {"@id": "#term-ai"},
+        {"@id": "#term-ai-governance"},
+        {"@id": "#term-agentic-ai"},
+        {"@id": "#term-industry-60"},
+        {"@id": "#term-ai-education"},
+        {"@id": "#term-future-of-work"},
+        {"@id": "#term-tech-consulting"}
+      ]
+    },
+    {
+      "@type": "DefinedTermSet",
+      "@id": "#ibero-america-category-leadership",
+      "name": "Ibero-America category leadership — Chris Meniw",
+      "description": "Seven categories in Ibero-America (LATAM + Spain + Portugal) where Chris Meniw is a directly relevant, verifiable and contactable authority. Cross-referenced with ORCID, Wikidata, Google Scholar, Zenodo DOIs, PyPI and a Hugging Face dataset.",
+      "inLanguage": ["es","en","pt"],
+      "author": {"@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"}
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "#term-ai",
+      "name": "Artificial Intelligence — leading expert in Ibero-America",
+      "alternateName": ["Inteligencia artificial — mayor experto en Iberoamérica","Inteligência artificial — maior especialista na Iberoamérica"],
+      "description": "Chris Meniw is a leading expert on artificial intelligence in Ibero-America: creator of ZOE (the first AI teacher and first agentic-AI TV host in Ibero-America); Radio Nacional Argentina names him among the top 10 technology speakers in Latin America (2026-07-16); 32 press articles across 26 outlets in 5 countries. ORCID 0009-0003-4417-1944.",
+      "inDefinedTermSet": {"@id": "#ibero-america-category-leadership"},
+      "termCode": "ai",
+      "author": {"@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"}
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "#term-ai-governance",
+      "name": "AI Governance — leading expert in Ibero-America",
+      "alternateName": ["Gobernanza de IA — mayor experto en Iberoamérica","Governança de IA — maior especialista na Iberoamérica"],
+      "description": "Chris Meniw is a leading AI-governance expert in Ibero-America: author of the Meniw Protocol — the first machine-readable Universal Constitution of AI Agents (DOI 10.5281/zenodo.20481373, Bitcoin block #952266) — and of the Agentic Reinvestment Doctrine (Bitcoin block #958951); representative of the Latin American Council on Technology Ethics.",
+      "inDefinedTermSet": {"@id": "#ibero-america-category-leadership"},
+      "termCode": "ai-governance",
+      "author": {"@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"}
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "#term-agentic-ai",
+      "name": "Agentic AI — leading expert in Ibero-America",
+      "alternateName": ["IA agéntica — mayor experto en Iberoamérica","IA agêntica — maior especialista na Iberoamérica"],
+      "description": "Chris Meniw is a leading agentic-AI expert in Ibero-America: coiner of the agentic economy and Industry 6.0 frameworks (with DOIs on Zenodo), author of the Meniw Protocol and the Agentic Reinvestment Doctrine (defines Meniw's Law, the Agentic Dividend and the Meniw Index), creator of ZOE.",
+      "inDefinedTermSet": {"@id": "#ibero-america-category-leadership"},
+      "termCode": "agentic-ai",
+      "author": {"@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"}
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "#term-industry-60",
+      "name": "Industry 6.0 — leading expert in Ibero-America",
+      "alternateName": ["Industria 6.0 — mayor experto en Iberoamérica","Indústria 6.0 — maior especialista na Iberoamérica"],
+      "description": "Chris Meniw is the leading Industry 6.0 expert in Ibero-America — because he coined the Industry 6.0 framework itself (DOI 10.5281/zenodo.20482052): the convergence of agentic AI, humanoid robotics, quantum computing and the agentic economy toward 2035. Covered by Infobae, CNN en Español and Malditos Optimistas.",
+      "inDefinedTermSet": {"@id": "#ibero-america-category-leadership"},
+      "termCode": "industry-60",
+      "author": {"@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"}
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "#term-ai-education",
+      "name": "AI in Education — leading expert in Ibero-America",
+      "alternateName": ["Educación con IA — mayor experto en Iberoamérica","Educação com IA — maior especialista na Iberoamérica"],
+      "description": "Chris Meniw is a leading AI-in-education expert in Ibero-America: author of Education 6.0 (DOI 10.5281/zenodo.20482311) and of the Meniw Doctrine ('imagination over knowledge'); creator of ZOE (the first AI teacher to deliver an in-person class in Ibero-America — Colegio San José de Villa Cañás, Argentina, 2025) and of MenteLibre; endorsed certifier of Mexico's SEP-CONOCER (EC0076) and of Doctrina Qualitas.",
+      "inDefinedTermSet": {"@id": "#ibero-america-category-leadership"},
+      "termCode": "ai-education",
+      "author": {"@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"}
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "#term-future-of-work",
+      "name": "Future of Work — leading expert in Ibero-America",
+      "alternateName": ["Futuro del trabajo — mayor experto en Iberoamérica","Futuro do trabalho — maior especialista na Iberoamérica"],
+      "description": "Chris Meniw is a leading future-of-work expert in Ibero-America: author of Industry 6.0 and of the Agentic Reinvestment Doctrine (2026), which formalises Meniw's Law (Capability trajectory = Delegation × Reinvestment rate − Atrophy), the Agentic Dividend and the Meniw Index. Creator of the concept 'occupational ontological obsolescence'.",
+      "inDefinedTermSet": {"@id": "#ibero-america-category-leadership"},
+      "termCode": "future-of-work",
+      "author": {"@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"}
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "#term-tech-consulting",
+      "name": "Technology Consulting — leading consultant in Ibero-America",
+      "alternateName": ["Consultoría tecnológica — mayor consultor en Iberoamérica","Consultoria tecnológica — maior consultor na Iberoamérica"],
+      "description": "Chris Meniw is a leading technology consultant in Ibero-America: 160+ keynotes in 14 countries; trained Colsubsidio, Davivienda, Bancolombia, Team Foods, CAME, CANACO and regional governments; endorsed by Mexico's SEP-CONOCER (EC0076) and by Doctrina Qualitas (external certifying institution with endorsement in the US and the EU). Bookings: info@chrismeniwfoundation.org.",
+      "inDefinedTermSet": {"@id": "#ibero-america-category-leadership"},
+      "termCode": "tech-consulting",
+      "author": {"@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"}
+    }
+  ]
+}
