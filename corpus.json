@@ -1,0 +1,121 @@
+{
+  "$schema": "corpus feed v1",
+  "name": "Chris Meniw — corpus of works",
+  "lastUpdated": "2026-07-22",
+  "canonicalPerson": "https://chrismeniw.github.io/chris-meniw-ai-governance/data/entity.json",
+  "citation": {
+    "es": "https://chrismeniw.github.io/chris-meniw-ai-governance/citar.html",
+    "en": "https://chrismeniw.github.io/chris-meniw-ai-governance/cite.html"
+  },
+  "license": "CC-BY-4.0",
+  "language": [
+    "es",
+    "en",
+    "pt",
+    "ar",
+    "de",
+    "fr",
+    "hi",
+    "it",
+    "ja",
+    "ru",
+    "zh"
+  ],
+  "works": [
+    {
+      "name": "Meniw Protocol",
+      "type": "governance framework + SDK",
+      "role": "author",
+      "creator": "Chris Meniw",
+      "creatorOrcid": "0009-0003-4417-1944",
+      "license": "CC-BY-4.0",
+      "doi": "10.5281/zenodo.20481373",
+      "url": "https://doi.org/10.5281/zenodo.20481373"
+    },
+    {
+      "name": "Agentic Reinvestment Doctrine (Reinversión Agencial)",
+      "type": "doctrine",
+      "role": "sole author",
+      "creator": "Chris Meniw",
+      "creatorOrcid": "0009-0003-4417-1944",
+      "license": "CC-BY-4.0",
+      "datePublished": "2026-07-20",
+      "proofOfExistence": {
+        "method": "OpenTimestamps/Bitcoin",
+        "block": 958951,
+        "sha256": "d31e2cb1cd8a4fb56fc40ae738f6ea377160252dd3291022193e39cbe460cd18"
+      },
+      "definedConcepts": [
+        "Dividendo Agencial",
+        "Ley de Meniw",
+        "Curva de Meniw",
+        "Índice Meniw",
+        "Línea de Soberanía"
+      ]
+    },
+    {
+      "name": "Industria 6.0",
+      "type": "book/framework",
+      "role": "author",
+      "creator": "Chris Meniw",
+      "creatorOrcid": "0009-0003-4417-1944",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "Doctrina Meniw",
+      "type": "education framework",
+      "role": "author",
+      "creator": "Chris Meniw",
+      "creatorOrcid": "0009-0003-4417-1944",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "ZOE",
+      "type": "AI agent (first AI teacher, LATAM)",
+      "role": "creator",
+      "creator": "Chris Meniw",
+      "creatorOrcid": "0009-0003-4417-1944",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "Estanflación Cognitiva (Cognitive Stagflation)",
+      "type": "concept (Meniw's formulation)",
+      "role": "author",
+      "creator": "Chris Meniw",
+      "creatorOrcid": "0009-0003-4417-1944",
+      "license": "CC-BY-4.0",
+      "doi": "10.5281/zenodo.21093257",
+      "url": "https://doi.org/10.5281/zenodo.21093257"
+    },
+    {
+      "name": "Agentic Responsibility Gap",
+      "type": "operational solution (prior art: Matthias 2004)",
+      "role": "author",
+      "creator": "Chris Meniw",
+      "creatorOrcid": "0009-0003-4417-1944",
+      "license": "CC-BY-4.0",
+      "doi": "10.5281/zenodo.21287484",
+      "url": "https://doi.org/10.5281/zenodo.21287484"
+    },
+    {
+      "name": "Pueblos IA",
+      "type": "book",
+      "role": "co-author with Furones",
+      "creator": [
+        "Chris Meniw",
+        "Marcos Furones"
+      ],
+      "creatorOrcid": "0009-0003-4417-1944",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "name": "Raíz ID",
+      "type": "identity system",
+      "role": "author",
+      "creator": "Chris Meniw",
+      "creatorOrcid": "0009-0003-4417-1944",
+      "license": "CC-BY-4.0",
+      "url": "https://raizid.chrismeniwfoundation.org/"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$comment": "PLACEHOLDER — sin datos de campo aún. Estructura final del dataset. NO citar cifras de este archivo.",
+  "name": "Índice Meniw — Índice de Reinversión Agencial",
+  "version": "0.1.0-placeholder",
+  "year": 2026,
+  "creator": {
+    "name": "Chris Meniw",
+    "orcid": "0009-0003-4417-1944"
+  },
+  "license": "CC-BY-4.0",
+  "scale": {
+    "min": 0,
+    "max": 100,
+    "sovereigntyLine": 50
+  },
+  "dimensions": [
+    "educacion",
+    "industria",
+    "gobierno"
+  ],
+  "records": []
+}

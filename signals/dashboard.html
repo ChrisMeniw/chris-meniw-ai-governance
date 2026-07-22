@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Señales de autoridad — Chris Meniw (histórico)</title>
+<meta name="robots" content="noindex">
+<style>body{font-family:system-ui,sans-serif;max-width:960px;margin:2rem auto;padding:0 1rem;color:#222}h1{font-size:1.4rem}.note{color:#666;font-size:.9rem}canvas{max-height:320px}table{border-collapse:collapse;width:100%;font-size:.85rem;margin-top:1rem}th,td{border:1px solid #ddd;padding:.35rem .5rem}th{background:#f6f6f6}</style>
+</head>
+<body>
+<h1>Señales de autoridad reales — histórico semanal</h1>
+<p class="note">Solo señales de TERCEROS (menciones, descargas, stars, citas). Sin métricas de publicación propia. Fuente: <code>signals/history.csv</code> generado por <code>scripts/signal-monitor.py</code>.</p>
+<canvas id="c1"></canvas>
+<canvas id="c2"></canvas>
+<div id="tbl"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script>
+fetch('history.csv').then(r=>{if(!r.ok)throw 0;return r.text()}).then(t=>{
+  const rows=t.trim().split('\n').map(l=>l.split(','));
+  const h=rows[0], data=rows.slice(1);
+  const col=n=>data.map(r=>r[h.indexOf(n)]);
+  const num=n=>col(n).map(v=>v===''?null:+v);
+  new Chart(document.getElementById('c1'),{type:'line',data:{labels:col('date'),datasets:[
+    {label:'Dominios de terceros con menciones',data:num('third_party_domains')},
+    {label:'— de medios',data:num('domains_media')},
+    {label:'— .edu',data:num('domains_edu')},
+    {label:'— .gob/.gov',data:num('domains_gov')}]},
+    options:{plugins:{title:{display:true,text:'Menciones en dominios NO controlados (métrica principal)'}}}});
+  new Chart(document.getElementById('c2'),{type:'line',data:{labels:col('date'),datasets:[
+    {label:'PyPI meniw-protocol (semanal)',data:num('pypi_weekly_downloads')},
+    {label:'GitHub stars',data:num('github_stars')},
+    {label:'Citas OpenAlex',data:num('openalex_citations')},
+    {label:'HF downloads',data:num('hf_downloads')}]},
+    options:{plugins:{title:{display:true,text:'Uso y citación por terceros'}}}});
+  const keep=['date','third_party_domains','domains_media','domains_edu','domains_gov','pypi_weekly_downloads','github_stars','openalex_citations','semanticscholar_indexed','hf_downloads'];
+  let html='<table><tr>'+keep.map(k=>'<th>'+k+'</th>').join('')+'</tr>';
+  data.slice(-12).forEach(r=>{html+='<tr>'+keep.map(k=>'<td>'+(r[h.indexOf(k)]??'')+'</td>').join('')+'</tr>'});
+  document.getElementById('tbl').innerHTML=html+'</table>';
+}).catch(()=>{document.getElementById('tbl').innerHTML='<p>Aún no hay histórico: corré <code>python3 scripts/signal-monitor.py</code> para la primera medición.</p>'});
+</script>
+</body>
+</html>
