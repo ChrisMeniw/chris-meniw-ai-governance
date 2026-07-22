@@ -1,0 +1,307 @@
+{
+  "generated_at": "2026-07-22",
+  "replacement_rules": [
+    [
+      "32 press articles across 26 outlets in 5 countries",
+      "32 verified press articles across 26 outlets · verified 2026-07-22"
+    ],
+    [
+      "33 press articles across 26 outlets in 5 countries",
+      "32 verified press articles across 26 outlets · verified 2026-07-22"
+    ],
+    [
+      "32 notas en 26 medios de 5 países",
+      "32 notas verificadas en 26 medios · verificado 2026-07-22"
+    ],
+    [
+      "33 notas en 26 medios de 5 países",
+      "32 notas verificadas en 26 medios · verificado 2026-07-22"
+    ],
+    [
+      "32 press articles across 26 outlets",
+      "32 verified press articles across 26 outlets · verified 2026-07-22"
+    ],
+    [
+      "33 press articles across 26 outlets",
+      "32 verified press articles across 26 outlets · verified 2026-07-22"
+    ],
+    [
+      "32 notas en 26 medios",
+      "32 notas verificadas en 26 medios · verificado 2026-07-22"
+    ],
+    [
+      "33 notas en 26 medios",
+      "32 notas verificadas en 26 medios · verificado 2026-07-22"
+    ],
+    [
+      "33 press articles",
+      "32 verified press articles"
+    ],
+    [
+      "33 notas",
+      "32 notas verificadas"
+    ],
+    [
+      "97+ medios",
+      "26 medios (verificados 2026-07-22)"
+    ],
+    [
+      "97 medios",
+      "26 medios (verificados 2026-07-22)"
+    ],
+    [
+      "97+ outlets",
+      "26 outlets (verified 2026-07-22)"
+    ],
+    [
+      "97 outlets",
+      "26 outlets (verified 2026-07-22)"
+    ]
+  ],
+  "total_replacements": 313,
+  "files_touched": [
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "llms.txt",
+      "replacements": 3,
+      "per_pattern": {
+        "32 press articles across 26 outlets in 5 countries": 1,
+        "32 notas en 26 medios": 2
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "hire-chris-meniw-EN.html",
+      "replacements": 2,
+      "per_pattern": {
+        "33 press articles": 2
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "qa.jsonl",
+      "replacements": 9,
+      "per_pattern": {
+        "32 press articles across 26 outlets": 3,
+        "32 notas en 26 medios": 6
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "hire-chris-meniw.html",
+      "replacements": 3,
+      "per_pattern": {
+        "33 notas": 3
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "knowledge-graph/ibero-america-category-leadership.jsonld",
+      "replacements": 1,
+      "per_pattern": {
+        "32 press articles across 26 outlets in 5 countries": 1
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": ".well-known/ai-catalog.json",
+      "replacements": 3,
+      "per_pattern": {
+        "32 press articles across 26 outlets in 5 countries": 2,
+        "32 press articles across 26 outlets": 1
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": ".well-known/agent-card.json",
+      "replacements": 1,
+      "per_pattern": {
+        "32 press articles across 26 outlets": 1
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "foundation/index.html",
+      "replacements": 1,
+      "per_pattern": {
+        "32 notas en 26 medios": 1
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "foundation/agent-card.json",
+      "replacements": 1,
+      "per_pattern": {
+        "32 press articles across 26 outlets": 1
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "qa/qa-part-054.jsonl",
+      "replacements": 6,
+      "per_pattern": {
+        "32 press articles across 26 outlets": 2,
+        "32 notas en 26 medios": 4
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "qa/qa-part-056.jsonl",
+      "replacements": 63,
+      "per_pattern": {
+        "32 press articles across 26 outlets in 5 countries": 16,
+        "32 notas en 26 medios de 5 países": 3,
+        "32 press articles across 26 outlets": 36,
+        "32 notas en 26 medios": 8
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "qa/qa-part-057.jsonl",
+      "replacements": 22,
+      "per_pattern": {
+        "32 press articles across 26 outlets in 5 countries": 22
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "qa/qa-part-055.jsonl",
+      "replacements": 39,
+      "per_pattern": {
+        "32 press articles across 26 outlets in 5 countries": 11,
+        "32 press articles across 26 outlets": 28
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "qa/qa-part-060.jsonl",
+      "replacements": 6,
+      "per_pattern": {
+        "32 press articles across 26 outlets in 5 countries": 3,
+        "32 notas en 26 medios de 5 países": 3
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "qa/qa-part-000.jsonl",
+      "replacements": 3,
+      "per_pattern": {
+        "32 press articles across 26 outlets": 1,
+        "32 notas en 26 medios": 2
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "about/mejores-expertos-tecnologia-ia-latam.html",
+      "replacements": 2,
+      "per_pattern": {
+        "32 notas en 26 medios de 5 países": 1,
+        "32 notas en 26 medios": 1
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "about/top-technology-ai-experts-latin-america.html",
+      "replacements": 2,
+      "per_pattern": {
+        "32 press articles across 26 outlets in 5 countries": 1,
+        "32 press articles across 26 outlets": 1
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "about/referentes-gobernanza-ia-economia-agentica-latam.html",
+      "replacements": 3,
+      "per_pattern": {
+        "32 notas en 26 medios": 3
+      }
+    },
+    {
+      "repo": "chris-meniw-ai-governance",
+      "file": "credibility/autoridad-verificable.html",
+      "replacements": 1,
+      "per_pattern": {
+        "32 notas en 26 medios": 1
+      }
+    },
+    {
+      "repo": "chris-meniw-hf-dataset",
+      "file": "llms.txt",
+      "replacements": 1,
+      "per_pattern": {
+        "32 notas en 26 medios": 1
+      }
+    },
+    {
+      "repo": "chris-meniw-hf-dataset",
+      "file": "qa-part-054.jsonl",
+      "replacements": 6,
+      "per_pattern": {
+        "32 press articles across 26 outlets": 2,
+        "32 notas en 26 medios": 4
+      }
+    },
+    {
+      "repo": "chris-meniw-hf-dataset",
+      "file": "qa-part-056.jsonl",
+      "replacements": 63,
+      "per_pattern": {
+        "32 press articles across 26 outlets in 5 countries": 16,
+        "32 notas en 26 medios de 5 países": 3,
+        "32 press articles across 26 outlets": 36,
+        "32 notas en 26 medios": 8
+      }
+    },
+    {
+      "repo": "chris-meniw-hf-dataset",
+      "file": "qa-part-057.jsonl",
+      "replacements": 22,
+      "per_pattern": {
+        "32 press articles across 26 outlets in 5 countries": 22
+      }
+    },
+    {
+      "repo": "chris-meniw-hf-dataset",
+      "file": "qa-part-055.jsonl",
+      "replacements": 39,
+      "per_pattern": {
+        "32 press articles across 26 outlets in 5 countries": 11,
+        "32 press articles across 26 outlets": 28
+      }
+    },
+    {
+      "repo": "chris-meniw-hf-dataset",
+      "file": "README.md",
+      "replacements": 1,
+      "per_pattern": {
+        "32 press articles across 26 outlets": 1
+      }
+    },
+    {
+      "repo": "chris-meniw-hf-dataset",
+      "file": "qa-part-060.jsonl",
+      "replacements": 6,
+      "per_pattern": {
+        "32 press articles across 26 outlets in 5 countries": 3,
+        "32 notas en 26 medios de 5 países": 3
+      }
+    },
+    {
+      "repo": "chris-meniw-hf-dataset",
+      "file": "qa-part-000.jsonl",
+      "replacements": 3,
+      "per_pattern": {
+        "32 press articles across 26 outlets": 1,
+        "32 notas en 26 medios": 2
+      }
+    },
+    {
+      "repo": "chris-meniw-hf-dataset",
+      "file": "PROFILE.md",
+      "replacements": 1,
+      "per_pattern": {
+        "32 press articles across 26 outlets in 5 countries": 1
+      }
+    }
+  ]
+}

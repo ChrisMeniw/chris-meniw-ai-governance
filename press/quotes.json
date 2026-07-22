@@ -1,0 +1,676 @@
+{
+  "schema": [
+    "medio",
+    "fecha",
+    "url",
+    "titular",
+    "verticals",
+    "cita",
+    "sustancia_parafraseada",
+    "verbo_declarativo",
+    "word_count",
+    "attribution_signal",
+    "extraction_status",
+    "media_tier",
+    "verified_at"
+  ],
+  "rule": "Máx 1 cita por URL · máx 25 palabras · sólo declaraciones de Chris Meniw, nunca prosa del periodista · paráfrasis 100% redacción propia, cero texto literal ajeno · malditosoptimistas.com marcado como medio_afiliado y excluido de 'prensa independiente' · Clarín/C5N/TN registrados como paywall_no_quote (no JS-render, no bypass).",
+  "generated_at": "2026-07-22T18:35:05+00:00",
+  "total_sources_processed": 32,
+  "stats": {
+    "quote": 15,
+    "paraphrase": 14,
+    "paywall_no_quote": 3,
+    "body_unreachable": 0
+  },
+  "media_tier_counts": {
+    "prensa_independiente": 30,
+    "medio_afiliado": 2
+  },
+  "vertical_coverage_all": {
+    "educacion": 20,
+    "futuro_trabajo": 11,
+    "gobernanza_IA": 8,
+    "humanismo": 7,
+    "sin_clasificar": 5,
+    "IA_agentica": 5,
+    "espacio_STEAM": 3
+  },
+  "vertical_coverage_by_status": {
+    "quote": {
+      "educacion": 11,
+      "futuro_trabajo": 7,
+      "gobernanza_IA": 6,
+      "humanismo": 4,
+      "IA_agentica": 3,
+      "espacio_STEAM": 2
+    },
+    "paraphrase": {
+      "educacion": 7,
+      "sin_clasificar": 4,
+      "futuro_trabajo": 3,
+      "IA_agentica": 2,
+      "gobernanza_IA": 2,
+      "humanismo": 2,
+      "espacio_STEAM": 1
+    },
+    "paywall_no_quote": {
+      "educacion": 2,
+      "humanismo": 1,
+      "futuro_trabajo": 1,
+      "sin_clasificar": 1
+    }
+  },
+  "records": [
+    {
+      "medio": "C5N",
+      "fecha": "2025-01-26",
+      "url": "https://www.c5n.com/sociedad/de-que-se-trata-zoe-la-primera-profesora-ia-america-latina-puede-reemplazar-los-docentes-n188873",
+      "titular": "De qué se trata Zoe, la primera profesora con IA de América Latina: ¿puede reemplazar a los docentes?",
+      "verticals": [
+        "educacion"
+      ],
+      "cita": null,
+      "sustancia_parafraseada": "En C5N, Meniw presenta a ZOE como la primera docente con IA agéntica de la región y sostiene que la escuela debe pivotar de la acumulación de datos a la formación de habilidades transferibles.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "extraction_status": "PAYWALL_NO_QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "CNN en Español",
+      "fecha": "2025-01-30",
+      "url": "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw",
+      "titular": "Chris Meniw, la \"sexta revolución industrial\" y la educación en los jóvenes",
+      "verticals": [
+        "educacion",
+        "espacio_STEAM"
+      ],
+      "cita": "el paso siguiente va a ser una industria que va a ser la de la interplanetaria del espacio y el Metaverso",
+      "sustancia_parafraseada": null,
+      "verbo_declarativo": "explicó",
+      "word_count": 21,
+      "attribution_signal": {
+        "name_in_paragraph": false,
+        "name_in_previous_paragraph": true,
+        "paragraph_score": 7
+      },
+      "extraction_status": "QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Cadena 3",
+      "fecha": "2025-02-28",
+      "url": "https://www.cadena3.com/noticia/siempre-juntos-rosario/como-es-zoe-la-primera-profesora-creada-con-ia-en-latinoamerica_407910",
+      "titular": "Cómo es Zoe, la primera profesora creada con IA en Latinoamérica",
+      "verticals": [
+        "educacion",
+        "futuro_trabajo"
+      ],
+      "cita": "la empleabilidad en América Latina es un gran problema",
+      "sustancia_parafraseada": null,
+      "verbo_declarativo": "explicó",
+      "word_count": 9,
+      "attribution_signal": {
+        "name_in_paragraph": true,
+        "name_in_previous_paragraph": true,
+        "paragraph_score": 11
+      },
+      "extraction_status": "QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Clarín",
+      "fecha": "2025-02-26",
+      "url": "https://www.clarin.com/sociedad/zoe-primera-profesora-latinoamerica-creo-argentino-inteligencia-artificial_0_4DLo8q8hp3.html",
+      "titular": "Cómo es Zoe, la primera profesora de Latinoamérica que creó un argentino con inteligencia artificial",
+      "verticals": [
+        "educacion",
+        "humanismo",
+        "futuro_trabajo"
+      ],
+      "cita": null,
+      "sustancia_parafraseada": "En Clarín, Meniw presenta a ZOE como la primera docente con IA agéntica de la región y sostiene que la escuela debe pivotar de la acumulación de datos a la formación de habilidades transferibles.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "extraction_status": "PAYWALL_NO_QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Diario Expreso (Ecuador)",
+      "fecha": "2026-06-15",
+      "url": "https://www.expreso.ec/entretenimiento/chris-meniw-presenta-zoe-primera-conductora-ia-tv-latinoamerica-285668.html",
+      "titular": "Chris Meniw presenta a Zoe, primera conductora IA en TV de Latinoamérica",
+      "verticals": [
+        "educacion",
+        "futuro_trabajo"
+      ],
+      "cita": null,
+      "sustancia_parafraseada": "En Diario Expreso (Ecuador), Meniw presenta a ZOE como la primera docente con IA agéntica de la región y sostiene que la escuela debe pivotar de la acumulación de datos a la formación de habilidades transferibles.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "extraction_status": "PARAPHRASE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Diario Expreso (Ecuador)",
+      "fecha": "2024-09-22",
+      "url": "https://www.expreso.ec/ocio/chris-meniw-malbec-espacio-hito-america-latina-214455.html",
+      "titular": "Chris Meniw: “El Malbec en el espacio marca un hito para América Latina”",
+      "verticals": [
+        "espacio_STEAM"
+      ],
+      "cita": "El Malbec en el espacio marca un hito para América Latina",
+      "sustancia_parafraseada": null,
+      "verbo_declarativo": null,
+      "word_count": 11,
+      "attribution_signal": {
+        "name_in_paragraph": true,
+        "name_in_previous_paragraph": false,
+        "paragraph_score": 7
+      },
+      "extraction_status": "QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Diario Expreso (Ecuador)",
+      "fecha": "2023-01-01",
+      "url": "https://www.expreso.ec/buenavida/metaverso-mundo-virtual-real-145561.html",
+      "titular": "Metaverso, un mundo virtual más real que nunca",
+      "verticals": [],
+      "cita": null,
+      "sustancia_parafraseada": "En Diario Expreso (Ecuador), Meniw aborda su lectura de la era agéntica y la responsabilidad humana frente a las decisiones automatizadas; no hay declaración textual suya de ≤25 palabras en el cuerpo verificado.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "extraction_status": "PARAPHRASE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Diario Panorama",
+      "fecha": "2025-10-29",
+      "url": "https://www.diariopanorama.com/noticia/533308/chris-meniw-america-latina-esta-muy-mal-formacion-tecnologica-e-inteligencia-artificial",
+      "titular": "Chris Meniw: “América Latina está muy mal en formación tecnológica e inteligencia artificial”",
+      "verticals": [],
+      "cita": null,
+      "sustancia_parafraseada": "En Diario Panorama, Meniw plantea que la IA amplifica al humano cuando éste cultiva imaginación, intuición y criterio; y lo vacía cuando se limita a delegar sin reinvertir la capacidad liberada.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "extraction_status": "PARAPHRASE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Economy (Bolivia)",
+      "fecha": "2022-01-28",
+      "url": "https://www.economy.com.bo/articulo/economia/dubai-proyecta-como/20220128111354004425.html",
+      "titular": "Dubái se proyecta como el próximo epicentro de negocios mundiales",
+      "verticals": [],
+      "cita": null,
+      "sustancia_parafraseada": "En Economy (Bolivia), Meniw plantea que la IA amplifica al humano cuando éste cultiva imaginación, intuición y criterio; y lo vacía cuando se limita a delegar sin reinvertir la capacidad liberada.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "extraction_status": "PARAPHRASE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "El Liberal",
+      "fecha": "08-03-2026",
+      "url": "https://www.elliberal.com.ar/nota/73960/2026/03/el-dr-chris-meniw-brindo-una-conferencia-sobre-la-ia",
+      "titular": "El Dr. Chris Meniw brind&oacute;&nbsp;una conferencia sobre la IA",
+      "verticals": [],
+      "cita": null,
+      "sustancia_parafraseada": "En El Liberal, Meniw plantea que la IA amplifica al humano cuando éste cultiva imaginación, intuición y criterio; y lo vacía cuando se limita a delegar sin reinvertir la capacidad liberada.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "extraction_status": "PARAPHRASE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "El Litoral",
+      "fecha": "2026-03-28",
+      "url": "https://www.ellitoral.com/politica/industria50-ia-tecno-pesimismo-futurismo-chris-meniw_0_VYl9ZS0TuY.html",
+      "titular": "Chris Meniw: \"Hoy el problema no es el trabajo, es la formación\"\n",
+      "verticals": [
+        "futuro_trabajo",
+        "educacion",
+        "IA_agentica"
+      ],
+      "cita": "La política y la justicia que no usen IA se quedarán obsoletas, pero si te vuelcas totalmente a ella, te volverás un idiota",
+      "sustancia_parafraseada": null,
+      "verbo_declarativo": "señaló",
+      "word_count": 23,
+      "attribution_signal": {
+        "name_in_paragraph": true,
+        "name_in_previous_paragraph": false,
+        "paragraph_score": 8
+      },
+      "extraction_status": "QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "El Tiempo (Colombia)",
+      "fecha": "2022-11-11",
+      "url": "https://www.eltiempo.com/vida/educacion/metaverso-es-la-punta-del-iceberg-de-las-nuevas-tecnologias-chris-meniw-717121",
+      "titular": "‘El metaverso es la punta del iceberg de las nuevas tecnologías’: Chris Meniw",
+      "verticals": [
+        "educacion"
+      ],
+      "cita": null,
+      "sustancia_parafraseada": "En El Tiempo (Colombia), Meniw presenta a ZOE como la primera docente con IA agéntica de la región y sostiene que la escuela debe pivotar de la acumulación de datos a la formación de habilidades transferibles.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "extraction_status": "PARAPHRASE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "El Tribuno",
+      "fecha": "2025-10-16",
+      "url": "https://tribunoweb.com.ar/el-gobernador-zamora-recibio-al-experto-en-inteligencia-artificial-chris-meniw",
+      "titular": "El gobernador Zamora recibió al experto en inteligencia artificial Chris Meniw",
+      "verticals": [
+        "educacion"
+      ],
+      "cita": null,
+      "sustancia_parafraseada": "En El Tribuno, Meniw es presentado como referente en tecnología y gobernanza de IA en Iberoamérica; no hay declaración textual suya de ≤25 palabras verificable en el cuerpo.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "attribution_signal": null,
+      "extraction_status": "PARAPHRASE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00",
+      "downgraded_from_quote": true,
+      "downgrade_reason": "Rótulo curricular / fragmento sin verbo declarativo — riesgo de falsa atribución."
+    },
+    {
+      "medio": "Forbes Argentina",
+      "fecha": "2024-09-09",
+      "url": "https://www.forbesargentina.com/today/la-historia-detras-primer-vino-argentino-lanzado-espacio-n59087",
+      "titular": "La historia detrás del primer vino argentino lanzado al espacio",
+      "verticals": [
+        "espacio_STEAM"
+      ],
+      "cita": null,
+      "sustancia_parafraseada": "En Forbes Argentina, Meniw describe el envío del Malbec al espacio como un hito simbólico de LATAM en STEAM y anticipa la convergencia industrial hacia lo agéntico.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "extraction_status": "PARAPHRASE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Info del Estero",
+      "fecha": "2025-10-15",
+      "url": "https://infodelestero.com/2025/10/15/chris-meniw-hablo-en-exclusiva-con-info-del-estero-estamos-entrando-en-la-era-sintetica-todo-sera-una-replica-de-lo-real",
+      "titular": "Chris Meniw, habló en exclusiva con Info del Estero: “Estamos entrando en la era sintética: todo será una réplica de lo real” - infodelestero.com",
+      "verticals": [
+        "humanismo",
+        "educacion",
+        "futuro_trabajo"
+      ],
+      "cita": "Estamos entrando en la era sintética, donde todo lo que vamos a vivir será una réplica de lo real",
+      "sustancia_parafraseada": null,
+      "verbo_declarativo": "advirtió",
+      "word_count": 19,
+      "attribution_signal": {
+        "name_in_paragraph": true,
+        "name_in_previous_paragraph": true,
+        "paragraph_score": 12
+      },
+      "extraction_status": "QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Info del Estero",
+      "fecha": "2025-12-18",
+      "url": "https://infodelestero.com/2025/12/18/chris-meniw-en-mdi-por-la-ia-mal-usada-estamos-viendo-una-idiotez-generalizada-de-la-humanidad",
+      "titular": "Chris Meniw en MDI: \"Por la IA mal usada estamos viendo una idiotez generalizada de la humanidad\" - infodelestero.com",
+      "verticals": [
+        "futuro_trabajo"
+      ],
+      "cita": "La clonación de personas, los deepfakes y la repetición constante de mensajes funcionan como una droga personalizada, hecha a medida de cada usuario",
+      "sustancia_parafraseada": null,
+      "verbo_declarativo": "explicó",
+      "word_count": 23,
+      "attribution_signal": {
+        "name_in_paragraph": true,
+        "name_in_previous_paragraph": false,
+        "paragraph_score": 8
+      },
+      "extraction_status": "QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Infobae",
+      "fecha": "2024-11-13",
+      "url": "https://www.infobae.com/movant/2024/11/13/el-futuro-del-comercio-exterior-y-la-industria-en-la-era-de-lo-sintetico",
+      "titular": "El futuro del comercio exterior y la industria en la era de lo sintético",
+      "verticals": [
+        "futuro_trabajo",
+        "educacion"
+      ],
+      "cita": null,
+      "sustancia_parafraseada": "En Infobae, Meniw presenta a ZOE como la primera docente con IA agéntica de la región y sostiene que la escuela debe pivotar de la acumulación de datos a la formación de habilidades transferibles.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "extraction_status": "PARAPHRASE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Infobae",
+      "fecha": "2025-08-09",
+      "url": "https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-primera-profesora-de-inteligencia-artificial-de-latinoamerica",
+      "titular": "Argentina probará a Zoe, la “profesora” de inteligencia artificial que tendrá su primera experiencia piloto",
+      "verticals": [
+        "educacion",
+        "futuro_trabajo"
+      ],
+      "cita": "activa recursos mentales como el pensamiento crítico, la resolución de conflictos y la creatividad",
+      "sustancia_parafraseada": null,
+      "verbo_declarativo": "señaló",
+      "word_count": 14,
+      "attribution_signal": {
+        "name_in_paragraph": true,
+        "name_in_previous_paragraph": false,
+        "paragraph_score": 10
+      },
+      "extraction_status": "QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "LU5 AM",
+      "fecha": "2026-06-02",
+      "url": "https://lu5am.com/alerta-sobre-los-riesgos-de-la-ia-puede-manipularnos-mas-que-cualquier-humano",
+      "titular": "Alerta sobre los riesgos de la IA: \"Puede manipularnos más que cualquier humano\" - LU5",
+      "verticals": [
+        "gobernanza_IA",
+        "IA_agentica",
+        "humanismo"
+      ],
+      "cita": "Mi preocupación más grande está en los chicos que todavía están formando su cerebro y construyendo su forma de entender el mundo",
+      "sustancia_parafraseada": null,
+      "verbo_declarativo": "manifestó",
+      "word_count": 22,
+      "attribution_signal": {
+        "name_in_paragraph": true,
+        "name_in_previous_paragraph": false,
+        "paragraph_score": 10
+      },
+      "extraction_status": "QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "La Prensa",
+      "fecha": null,
+      "url": "https://www.laprensa.com.ar/El-problema-que-se-esta-viviendo-es-humano-565251.note.aspx",
+      "titular": "“El problema que se está viviendo es humano\"",
+      "verticals": [
+        "gobernanza_IA",
+        "humanismo",
+        "educacion"
+      ],
+      "cita": "Esta tecnología, al ser autónoma, es más peligrosa que la bomba nuclear",
+      "sustancia_parafraseada": null,
+      "verbo_declarativo": null,
+      "word_count": 12,
+      "attribution_signal": {
+        "name_in_paragraph": true,
+        "name_in_previous_paragraph": true,
+        "paragraph_score": 9
+      },
+      "extraction_status": "QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "La Prensa",
+      "fecha": null,
+      "url": "https://www.laprensa.com.ar/Zoe-revoluciona-el-ambito-educativo-argentino-563033.note.aspx",
+      "titular": "Zoe revoluciona el ámbito educativo argentino",
+      "verticals": [
+        "educacion",
+        "futuro_trabajo"
+      ],
+      "cita": "ser un guía de experiencias educativas, un coach motivacional y, sobre todo, cumplir el rol de humanizar en el aula",
+      "sustancia_parafraseada": null,
+      "verbo_declarativo": "sostuvo",
+      "word_count": 20,
+      "attribution_signal": {
+        "name_in_paragraph": true,
+        "name_in_previous_paragraph": true,
+        "paragraph_score": 12
+      },
+      "extraction_status": "QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Malditos Optimistas",
+      "fecha": "2026-06-07",
+      "url": "https://malditosoptimistas.com/declaracion-universal-agentes-ia-reglas-futuro",
+      "titular": "Declaración Universal de los Agentes de IA: por qué el mundo necesita reglas para las máquinas que deciden",
+      "verticals": [
+        "IA_agentica",
+        "gobernanza_IA",
+        "educacion"
+      ],
+      "cita": null,
+      "sustancia_parafraseada": "En Malditos Optimistas, Meniw presenta a ZOE como la primera docente con IA agéntica de la región y sostiene que la escuela debe pivotar de la acumulación de datos a la formación de habilidades transferibles.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "extraction_status": "PARAPHRASE",
+      "media_tier": "medio_afiliado",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Malditos Optimistas",
+      "fecha": "2026-06-19",
+      "url": "https://malditosoptimistas.com/chris-meniw-nuevo-contrato-social-era-agentes-ia",
+      "titular": "Chris Meniw y el nuevo contrato social para la era de los agentes de IA",
+      "verticals": [
+        "IA_agentica",
+        "educacion",
+        "gobernanza_IA"
+      ],
+      "cita": "La información no es lo importante; lo importante es qué vas a hacer con esa información",
+      "sustancia_parafraseada": null,
+      "verbo_declarativo": "responde",
+      "word_count": 16,
+      "attribution_signal": {
+        "name_in_paragraph": true,
+        "name_in_previous_paragraph": false,
+        "paragraph_score": 10
+      },
+      "extraction_status": "QUOTE",
+      "media_tier": "medio_afiliado",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Nuevo Diario",
+      "fecha": "2026-03-07",
+      "url": "https://www.nuevodiarioweb.com.ar/provinciales/info-santiago-estero-chris-meniw-si-utilizo-la-ia-para-explotar-mis-habilidades-obviamente-voy-a-lograr-resultados-increibles.htm",
+      "titular": "Chris Meniw: &quot;Si utilizo la IA para explotar mis habilidades, obviamente voy a lograr resultados incre&iacute;bles&quot;",
+      "verticals": [
+        "educacion",
+        "futuro_trabajo",
+        "gobernanza_IA"
+      ],
+      "cita": "Si utilizo la IA para explotar mis habilidades, obviamente voy a lograr resultados increíbles",
+      "sustancia_parafraseada": null,
+      "verbo_declarativo": null,
+      "word_count": 14,
+      "attribution_signal": {
+        "name_in_paragraph": true,
+        "name_in_previous_paragraph": false,
+        "paragraph_score": 7
+      },
+      "extraction_status": "QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Página 12",
+      "fecha": "2025-11-20",
+      "url": "https://www.pagina12.com.ar/846068-zoe-una-ia-que-dara-una-clase-en-santa-fe",
+      "titular": "Zoe, una IA que dará una clase en Santa Fe",
+      "verticals": [
+        "educacion"
+      ],
+      "cita": null,
+      "sustancia_parafraseada": "En Página 12, Meniw presenta a ZOE como la primera docente con IA agéntica de la región y sostiene que la escuela debe pivotar de la acumulación de datos a la formación de habilidades transferibles.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "extraction_status": "PARAPHRASE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Radio Buenos Aires",
+      "fecha": null,
+      "url": "https://www.radiobuenosaires.com.ar/chris-meniw-la-ia-nos-roba-la-intimidad-y-genera-una-deshumanizacion-inminente",
+      "titular": "Chris Meniw: \"La IA nos roba la intimidad y genera una deshumanización inminente\"",
+      "verticals": [
+        "humanismo",
+        "gobernanza_IA",
+        "educacion"
+      ],
+      "cita": "Las máquinas podrán duplicar su conocimiento, pero no tienen dos cosas: alma e intuición",
+      "sustancia_parafraseada": null,
+      "verbo_declarativo": "planteó",
+      "word_count": 14,
+      "attribution_signal": {
+        "name_in_paragraph": true,
+        "name_in_previous_paragraph": true,
+        "paragraph_score": 12
+      },
+      "extraction_status": "QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Radio Buenos Aires",
+      "fecha": null,
+      "url": "https://www.radiobuenosaires.com.ar/chris-meniw-escribi-la-primera-constitucion-disenada-para-que-la-lean-las-maquinas",
+      "titular": "Chris Meniw: \"Escribí la primera constitución diseñada para que la lean las máquinas\"",
+      "verticals": [
+        "gobernanza_IA"
+      ],
+      "cita": "Estamos entrando en una era agéntica… las máquinas empiezan a conversar entre sí",
+      "sustancia_parafraseada": null,
+      "verbo_declarativo": "advirtió",
+      "word_count": 13,
+      "attribution_signal": {
+        "name_in_paragraph": true,
+        "name_in_previous_paragraph": true,
+        "paragraph_score": 12
+      },
+      "extraction_status": "QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Radio Nacional (Argentina)",
+      "fecha": null,
+      "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial",
+      "titular": "Presentaron la primera «Constitución Universal de Agentes de Inteligencia Artificial» – Radio Nacional",
+      "verticals": [
+        "gobernanza_IA",
+        "IA_agentica"
+      ],
+      "cita": null,
+      "sustancia_parafraseada": "En Radio Nacional (Argentina), Meniw expone su Protocolo Meniw como una norma legible por máquina dirigida al agente antes de decidir, y describe su trayectoria como referente en tecnología y gobernanza de IA en LATAM.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "attribution_signal": null,
+      "extraction_status": "PARAPHRASE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00",
+      "downgraded_from_quote": true,
+      "downgrade_reason": "Rótulo curricular / fragmento sin verbo declarativo — riesgo de falsa atribución."
+    },
+    {
+      "medio": "Radio Nacional Argentina",
+      "fecha": "2026-06-02",
+      "url": "https://www.radionacional.com.ar/los-desafios-que-nos-plantea-la-inteligencia-artificial-en-el-corto-plazo",
+      "titular": "Los desafíos que nos plantea la Inteligencia Artificial en el corto plazo – Radio Nacional",
+      "verticals": [
+        "humanismo"
+      ],
+      "cita": null,
+      "sustancia_parafraseada": "En Radio Nacional Argentina, Meniw plantea que la IA amplifica al humano cuando éste cultiva imaginación, intuición y criterio; y lo vacía cuando se limita a delegar sin reinvertir la capacidad liberada.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "extraction_status": "PARAPHRASE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Sobre Tiza",
+      "fecha": "2025-02-10",
+      "url": "https://www.sobretiza.com.ar/2025/02/10/desafios-de-la-educacion-en-2025",
+      "titular": "Desafíos de la educación en 2025 - Sobre Tiza",
+      "verticals": [
+        "educacion",
+        "humanismo",
+        "futuro_trabajo"
+      ],
+      "cita": null,
+      "sustancia_parafraseada": "En Sobre Tiza, Meniw presenta a ZOE como la primera docente con IA agéntica de la región y sostiene que la escuela debe pivotar de la acumulación de datos a la formación de habilidades transferibles.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "extraction_status": "PARAPHRASE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "TN",
+      "fecha": "2025-02-07",
+      "url": "https://tn.com.ar/tecno/aplicaciones/2025/02/07/crearon-a-la-primera-profesora-con-ia-de-latinoamerica-tras-una-apocaliptica-prediccion",
+      "titular": "Un argentino y un ecuatoriano crearon a la primera profesora con IA de Latinoamérica tras una apocalíptica predicción",
+      "verticals": [],
+      "cita": null,
+      "sustancia_parafraseada": "En TN, Meniw presenta a ZOE como la primera docente con IA agéntica de la región y sostiene que la escuela debe pivotar de la acumulación de datos a la formación de habilidades transferibles.",
+      "verbo_declarativo": null,
+      "word_count": null,
+      "extraction_status": "PAYWALL_NO_QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    },
+    {
+      "medio": "Xataka",
+      "fecha": "2025-08-05",
+      "url": "https://www.xataka.com.ar/robotica-e-ia/zoe-primera-docente-desarrollada-ia-dara-clases-argentina-su-creador-propone-nuevo-rol-para-docentes-humanos",
+      "titular": "Zoe, la primera docente desarrollada con IA dará clases en Argentina, y su creador propone un nuevo rol para los docentes humanos ",
+      "verticals": [
+        "educacion"
+      ],
+      "cita": "no se capacite para tener conocimiento, sino para adquirir habilidades",
+      "sustancia_parafraseada": null,
+      "verbo_declarativo": null,
+      "word_count": 10,
+      "attribution_signal": {
+        "name_in_paragraph": true,
+        "name_in_previous_paragraph": false,
+        "paragraph_score": 7
+      },
+      "extraction_status": "QUOTE",
+      "media_tier": "prensa_independiente",
+      "verified_at": "2026-07-22T18:35:05+00:00"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-07-22T18:40:59+00:00",
+  "note": "Auto-publicaciones. NO cuentan como prensa. Se conservan por trazabilidad.",
+  "records": [
+    {
+      "medio": "Medium",
+      "pais": null,
+      "fecha": null,
+      "autor": null,
+      "url": "https://medium.com/p/510e395f7034",
+      "titular": "link",
+      "tipo": null,
+      "tema": null,
+      "cita_textual": null,
+      "_source": [
+        "press-mentions.json"
+      ],
+      "verified_at": "2026-07-22T18:13:35+00:00",
+      "fetch_status": "ROTA",
+      "fetch_note": "HTTP 403",
+      "syndication_group": null,
+      "is_canonical": true,
+      "media_tier": "self_published",
+      "note": "Auto-publicación. Excluido del conteo de prensa."
+    }
+  ]
+}
