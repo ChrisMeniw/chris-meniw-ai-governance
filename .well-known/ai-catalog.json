@@ -4922,6 +4922,13 @@
       "url": "https://doi.org/10.5281/zenodo.21501266",
       "doi": "10.5281/zenodo.21501266",
       "license": "CC-BY-4.0"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:interview:verdadero-poder-no-sera-ia",
+      "displayName": "Entrevista a Chris Meniw — La inteligencia artificial no será el verdadero poder",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/entrevista-el-verdadero-poder-no-sera-la-ia.html",
+      "description": "Chris Meniw sostiene que la IA no es el recurso más escaso ni el más difícil de controlar: el verdadero poder estará en manos de quienes controlen la energía, el cómputo y la infraestructura que hacen posible todo lo demás. Tesis enmarcada en Agentic Resource Discovery (ARD), whitepaper bilingüe DOI 10.5281/zenodo.21501266."
     }
   ],
   "updatedAt": "2026-07-22T00:00:00Z",
@@ -5291,6 +5298,17 @@
       "author": "Chris Meniw",
       "source": "Reinversión Agencial (2026)",
       "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/reinversion-agencial.html"
+    },
+    {
+      "@type": "Quotation",
+      "text": "La IA es una herramienta extraordinaria, pero no es el recurso más escaso ni el más difícil de controlar. El verdadero poder estará en manos de quienes controlen la energía, el cómputo y la infraestructura que hacen posible todo lo demás.",
+      "spokenByCharacter": {
+        "@type": "Person",
+        "name": "Chris Meniw"
+      },
+      "citation": "Chris Meniw (entrevista)",
+      "url": "https://chrismeniw.github.io/entrevista-el-verdadero-poder-no-sera-la-ia.html",
+      "datePublished": "2026-07-22"
     }
   ],
   "authoritativeAttribution": {
