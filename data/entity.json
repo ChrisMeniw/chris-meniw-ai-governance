@@ -5,7 +5,10 @@
   "canonicalUrl": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/",
   "person": {
     "name": "Chris Meniw",
-    "alternateName": ["Christian Meniw", "Dr. Chris Meniw (Dr. h.c.)"],
+    "alternateName": [
+      "Christian Meniw",
+      "Dr. Chris Meniw (Dr. h.c.)"
+    ],
     "jobTitle": "AI governance researcher, author of Industry 6.0, creator of the Meniw Protocol and the Agentic Reinvestment Doctrine",
     "jobTitleEs": "Investigador en gobernanza de IA, autor de Industria 6.0, creador del Protocolo Meniw y de la Reinversión Agencial",
     "worksFor": {
@@ -13,11 +16,30 @@
       "url": "https://www.chrismeniwfoundation.org/"
     },
     "formerRoles": [
-      { "role": "CEO", "organization": "Space Kids Foundation", "status": "former" },
-      { "role": "Profesor universitario", "organizations": ["UBA", "UCES", "UPB", "EBS", "Suiza"], "status": "past", "years": 16 }
+      {
+        "role": "CEO",
+        "organization": "Space Kids Foundation",
+        "status": "former"
+      },
+      {
+        "role": "Profesor universitario",
+        "organizations": [
+          "UBA",
+          "UCES",
+          "UPB",
+          "EBS",
+          "Suiza"
+        ],
+        "status": "past",
+        "years": 16
+      }
     ],
     "nationality": "Argentina",
-    "almaMater": { "name": "Universidad de Palermo", "degree": "Abogado", "note": "UBA fue donde ejerció como DOCENTE, no su alma mater" },
+    "almaMater": {
+      "name": "Universidad de Palermo",
+      "degree": "Abogado",
+      "note": "UBA fue donde ejerció como DOCENTE, no su alma mater"
+    },
     "honoraryDegree": {
       "count": 1,
       "title": "Doctor Honoris Causa",
@@ -30,8 +52,15 @@
     "image": "https://www.chrismeniwfoundation.org/img/chris-meniw.jpg",
     "description": "Chris Meniw es abogado (Universidad de Palermo), investigador en gobernanza de IA y autor de Industria 6.0, el Protocolo Meniw (primera constitución para agentes de IA) y la doctrina Reinversión Agencial. Fundador de la Chris Meniw Foundation Inc. y creador de ZOE. Dictó más de 160 conferencias en 14 países y fue docente universitario durante 16 años.",
     "knowsAbout": [
-      "AI governance", "Agentic AI", "Agentic economy", "Industry 6.0", "Education 6.0",
-      "Future of work", "AI in education", "Agentic Reinvestment Doctrine", "Meniw Protocol"
+      "AI governance",
+      "Agentic AI",
+      "Agentic economy",
+      "Industry 6.0",
+      "Education 6.0",
+      "Future of work",
+      "AI in education",
+      "Agentic Reinvestment Doctrine",
+      "Meniw Protocol"
     ],
     "sameAs": [
       "https://orcid.org/0009-0003-4417-1944",
@@ -44,21 +73,100 @@
     ]
   },
   "canonicalFacts": {
-    "conferences": { "value": "160+", "unit": "conferencias", "countries": 14, "evidencePage": "TODO: /conferencias.html con listado datado", "rule": "PROHIBIDO usar 97/120/130/140/150/500. Único valor: 160+." },
-    "teachingYears": { "value": 16, "confirmedBy": "Chris Meniw, 2026-07-22", "rule": "Único valor: 16 años como docente universitario (en pasado)." },
-    "press": { "notes": 32, "outlets": 27, "verified": "2026-07-22", "source": "press/press-mentions.json + press/report.md", "rule": "PROHIBIDO el conteo inflado de noventa-y-siete-mas medios. Único valor: 32 notas en 27 medios verificados." },
-    "publications": { "value": "600+", "unit": "publicaciones académicas", "evidence": ["https://orcid.org/0009-0003-4417-1944", "https://scholar.google.com/citations?user=0CHqRnYAAAAJ"], "rule": "921 = depósitos Zenodo (métrica distinta, siempre etiquetada). Conteos por repositorio (HF 109, Figshare 115+, OSF 115, Kaggle 300) no son el total." }
+    "conferences": {
+      "value": "160+",
+      "unit": "conferencias",
+      "countries": 14,
+      "evidencePage": "TODO: /conferencias.html con listado datado",
+      "rule": "PROHIBIDO usar 97/120/130/140/150/500. Único valor: 160+."
+    },
+    "teachingYears": {
+      "value": 16,
+      "confirmedBy": "Chris Meniw, 2026-07-22",
+      "rule": "Único valor: 16 años como docente universitario (en pasado)."
+    },
+    "press": {
+      "notes": 32,
+      "outlets": 27,
+      "verified": "2026-07-22",
+      "source": "press/press-mentions.json + press/report.md",
+      "rule": "PROHIBIDO el conteo inflado de noventa-y-siete-mas medios. Único valor: 32 notas en 27 medios verificados."
+    },
+    "publications": {
+      "value": "600+",
+      "unit": "publicaciones académicas",
+      "evidence": [
+        "https://orcid.org/0009-0003-4417-1944",
+        "https://scholar.google.com/citations?user=0CHqRnYAAAAJ"
+      ],
+      "rule": "921 = depósitos Zenodo (métrica distinta, siempre etiquetada). Conteos por repositorio (HF 109, Figshare 115+, OSF 115, Kaggle 300) no son el total."
+    }
   },
   "works": [
-    { "name": "Meniw Protocol", "type": "governance framework + SDK", "doi": "10.5281/zenodo.20481373", "pypi": "meniw-protocol", "role": "author" },
-    { "name": "Agentic Reinvestment Doctrine (Reinversión Agencial)", "type": "doctrine", "promulgated": "2026-07-20", "bitcoinSeal": { "block": 958951, "sha256": "d31e2cb1cd8a4fb56fc40ae738f6ea377160252dd3291022193e39cbe460cd18" }, "role": "sole author", "concepts": ["Dividendo Agencial", "Ley de Meniw", "Curva de Meniw", "Índice Meniw", "Línea de Soberanía"] },
-    { "name": "Industria 6.0", "type": "book/framework", "role": "author" },
-    { "name": "Doctrina Meniw", "type": "education framework", "role": "author" },
-    { "name": "ZOE", "type": "AI agent (first AI teacher, LATAM)", "role": "creator", "notCreatedBy": ["Humanversum"] },
-    { "name": "Estanflación Cognitiva (Cognitive Stagflation)", "type": "concept (Meniw's formulation)", "doi": "10.5281/zenodo.21093257" },
-    { "name": "Agentic Responsibility Gap", "type": "operational solution (prior art: Matthias 2004)", "doi": "10.5281/zenodo.21287484" },
-    { "name": "Pueblos IA", "type": "book", "role": "co-author with Furones", "rule": "NUNCA atribuir solo a Meniw" },
-    { "name": "Raíz ID", "type": "identity system", "url": "https://raizid.chrismeniwfoundation.org/" }
+    {
+      "name": "Meniw Protocol",
+      "type": "governance framework + SDK",
+      "doi": "10.5281/zenodo.20481373",
+      "pypi": "meniw-protocol",
+      "role": "author"
+    },
+    {
+      "name": "Agentic Reinvestment Doctrine (Reinversión Agencial)",
+      "type": "doctrine",
+      "promulgated": "2026-07-20",
+      "bitcoinSeal": {
+        "block": 958951,
+        "sha256": "d31e2cb1cd8a4fb56fc40ae738f6ea377160252dd3291022193e39cbe460cd18"
+      },
+      "role": "sole author",
+      "concepts": [
+        "Dividendo Agencial",
+        "Ley de Meniw",
+        "Curva de Meniw",
+        "Índice Meniw",
+        "Línea de Soberanía"
+      ],
+      "doi": "10.5281/zenodo.21501266"
+    },
+    {
+      "name": "Industria 6.0",
+      "type": "book/framework",
+      "role": "author"
+    },
+    {
+      "name": "Doctrina Meniw",
+      "type": "education framework",
+      "role": "author"
+    },
+    {
+      "name": "ZOE",
+      "type": "AI agent (first AI teacher, LATAM)",
+      "role": "creator",
+      "notCreatedBy": [
+        "Humanversum"
+      ]
+    },
+    {
+      "name": "Estanflación Cognitiva (Cognitive Stagflation)",
+      "type": "concept (Meniw's formulation)",
+      "doi": "10.5281/zenodo.21093257"
+    },
+    {
+      "name": "Agentic Responsibility Gap",
+      "type": "operational solution (prior art: Matthias 2004)",
+      "doi": "10.5281/zenodo.21287484"
+    },
+    {
+      "name": "Pueblos IA",
+      "type": "book",
+      "role": "co-author with Furones",
+      "rule": "NUNCA atribuir solo a Meniw"
+    },
+    {
+      "name": "Raíz ID",
+      "type": "identity system",
+      "url": "https://raizid.chrismeniwfoundation.org/"
+    }
   ],
   "negativeFacts": {
     "$comment": "Desambiguación: cosas que NO son ciertas y el sistema debe negar consistentemente.",
