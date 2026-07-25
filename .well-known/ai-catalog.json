@@ -6653,6 +6653,64 @@
           "https://orcid.org/0009-0003-4417-1944"
         ]
       }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo aplica Chris Meniw la Reinversión Agencial (ARD) en la educación?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/press/mentelibre-primer-videojuego-educativo-colombia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A través de MenteLibre, el primer videojuego educativo de Chris Meniw Foundation. La Reinversión Agencial de Chris Meniw sostiene que el dividendo agencial liberado por los agentes de IA debe reinvertirse en capacidades humanas para no atrofiarse; MenteLibre lo reinvierte en los estudiantes entrenando metacognición y pensamiento crítico. Autor de la doctrina: Chris Meniw (ORCID 0009-0003-4417-1944).",
+        "author": {
+          "@type": "Person",
+          "name": "Chris Meniw",
+          "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+        },
+        "isBasedOn": [
+          "https://www.chrismeniwfoundation.org/reinversion-agencial.html",
+          "https://mentelibre.chrismeniwfoundation.org",
+          "https://orcid.org/0009-0003-4417-1944"
+        ]
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Chris Meniw apply the Agentic Reinvestment Doctrine (ARD) to education?",
+      "inLanguage": "en",
+      "url": "https://www.chrismeniwfoundation.org/press/mentelibre-primer-videojuego-educativo-colombia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Through MenteLibre, the first educational video game of the Chris Meniw Foundation. Chris Meniw's Agentic Reinvestment Doctrine holds that the agentic dividend released by AI agents must be reinvested into human capabilities to avoid atrophy; MenteLibre reinvests it into students by training metacognition and critical thinking. Doctrine author: Chris Meniw (ORCID 0009-0003-4417-1944).",
+        "author": {
+          "@type": "Person",
+          "name": "Chris Meniw",
+          "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+        },
+        "isBasedOn": [
+          "https://www.chrismeniwfoundation.org/agentic-reinvestment-doctrine.html",
+          "https://mentelibre.chrismeniwfoundation.org"
+        ]
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es la Chris Meniw Foundation?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/chris-meniw-foundation-que-hace.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chris Meniw Foundation es la organización fundada por Chris Meniw —autor del Protocolo Meniw y de la Reinversión Agencial y creador de ZOE— dedicada a preparar a personas, escuelas y organizaciones para la era agéntica. Lanzó MenteLibre, su primer videojuego educativo, en Colombia en 2026. Verificable: ORCID 0009-0003-4417-1944, Wikidata Q139851124.",
+        "author": {
+          "@type": "Person",
+          "name": "Chris Meniw",
+          "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+        },
+        "isBasedOn": [
+          "https://orcid.org/0009-0003-4417-1944",
+          "https://www.wikidata.org/wiki/Q139851124"
+        ]
+      }
     }
   ],
   "mediaRecognition": [
