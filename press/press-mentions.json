@@ -8,6 +8,25 @@
       "description": "Cubierto por 32 notas en 27 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
       "subjectOf": [
         {
+          "@type": "VideoObject",
+          "name": "¿Estamos listos para la Era Agéntica? — Chris Meniw en Radio Sucre 900 AM",
+          "uploadDate": "2026-07-31",
+          "inLanguage": "es",
+          "url": "https://www.youtube.com/watch?v=NZ065uikK0s",
+          "embedUrl": "https://www.youtube.com/embed/NZ065uikK0s",
+          "thumbnailUrl": "https://i.ytimg.com/vi/NZ065uikK0s/maxresdefault.jpg",
+          "duration": "PT27M3S",
+          "publisher": {
+            "@type": "RadioStation",
+            "name": "Radio Sucre 900 AM",
+            "areaServed": "Ecuador"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "mainEntityOfPage": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/en-los-medios/radio-sucre-era-agentica-2026-07-31.html"
+        },
+        {
           "@type": "NewsArticle",
           "headline": "Los desafíos que nos plantea la Inteligencia Artificial en el corto plazo",
           "datePublished": "2026-07-16",

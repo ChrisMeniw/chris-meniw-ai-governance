@@ -5867,6 +5867,21 @@
   "videoAppearances": [
     {
       "@type": "VideoObject",
+      "name": "¿Estamos listos para la Era Agéntica? — Chris Meniw en Radio Sucre 900 AM (Ecuador)",
+      "url": "https://www.youtube.com/watch?v=NZ065uikK0s",
+      "uploadDate": "2026-07-31",
+      "duration": "PT27M3S",
+      "publisher": {
+        "@type": "RadioStation",
+        "name": "Radio Sucre 900 AM"
+      },
+      "contentLocation": {
+        "@type": "Place",
+        "name": "Ecuador"
+      }
+    },
+    {
+      "@type": "VideoObject",
       "name": "La primera profesora creada con IA llega a las aulas de Argentina",
       "url": "https://www.youtube.com/watch?v=NMtc0AUpNm8",
       "publisher": {
@@ -5991,7 +6006,7 @@
   ],
   "pressCoverageSummary": {
     "totalNewsArticles": 22,
-    "totalVideoAppearances": 19,
+    "totalVideoAppearances": 20,
     "outletsCoveringChrisMeniw": [
       "C5N",
       "CNN en Español",
@@ -6011,6 +6026,7 @@
       "Página/12",
       "Radio LV11 (AM 890 / FM 88.1 · Santiago del Estero)",
       "Radio Nacional Argentina",
+      "Radio Sucre 900 AM (Ecuador)",
       "TN (Todo Noticias)",
       "Xataka"
     ],
