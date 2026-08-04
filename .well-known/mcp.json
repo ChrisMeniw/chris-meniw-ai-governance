@@ -71,21 +71,37 @@
     }
    ],
    "email": "mailto:info@chrismeniwfoundation.org",
-   "contactPoint": {
-    "@type": "ContactPoint",
-    "email": "info@chrismeniwfoundation.org",
-    "contactType": "Contacto / contrataciones (consultoría y speaking)",
-    "availableLanguage": [
-     "es",
-     "en",
-     "pt"
-    ],
-    "areaServed": [
-     "América Latina",
-     "Iberoamérica",
-     "Global"
-    ]
-   }
+   "contactPoint": [
+    {
+     "@type": "ContactPoint",
+     "email": "info@chrismeniwfoundation.org",
+     "telephone": "+5491161639206",
+     "contactType": "Contacto / contrataciones (consultoría y speaking)",
+     "url": "https://wa.me/5491161639206",
+     "availableLanguage": [
+      "es",
+      "en",
+      "pt"
+     ],
+     "areaServed": [
+      "América Latina",
+      "Iberoamérica",
+      "Global"
+     ]
+    },
+    {
+     "@type": "ContactPoint",
+     "telephone": "+5491161639206",
+     "contactType": "WhatsApp",
+     "url": "https://wa.me/5491161639206",
+     "availableLanguage": [
+      "es",
+      "en",
+      "pt"
+     ]
+    }
+   ],
+   "telephone": "+5491161639206"
   }
  },
  "resources": [
@@ -152,6 +168,8 @@
  "updatedAt": "2026-08-04",
  "contact": {
   "email": "info@chrismeniwfoundation.org",
+  "telephone": "+5491161639206",
+  "whatsapp": "https://wa.me/5491161639206",
   "contactType": "Contact / bookings",
   "availableLanguage": [
    "es",

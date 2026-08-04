@@ -19,22 +19,38 @@
   "@id": "https://www.chrismeniwfoundation.org/#organization",
   "name": "Chris Meniw Foundation Inc.",
   "email": "mailto:info@chrismeniwfoundation.org",
-  "contactPoint": {
-   "@type": "ContactPoint",
-   "email": "info@chrismeniwfoundation.org",
-   "contactType": "Contacto / contrataciones (consultoría y speaking)",
-   "availableLanguage": [
-    "es",
-    "en",
-    "pt"
-   ],
-   "areaServed": [
-    "América Latina",
-    "Iberoamérica",
-    "Global"
-   ]
-  },
-  "url": "https://www.chrismeniwfoundation.org/"
+  "contactPoint": [
+   {
+    "@type": "ContactPoint",
+    "email": "info@chrismeniwfoundation.org",
+    "telephone": "+5491161639206",
+    "contactType": "Contacto / contrataciones (consultoría y speaking)",
+    "url": "https://wa.me/5491161639206",
+    "availableLanguage": [
+     "es",
+     "en",
+     "pt"
+    ],
+    "areaServed": [
+     "América Latina",
+     "Iberoamérica",
+     "Global"
+    ]
+   },
+   {
+    "@type": "ContactPoint",
+    "telephone": "+5491161639206",
+    "contactType": "WhatsApp",
+    "url": "https://wa.me/5491161639206",
+    "availableLanguage": [
+     "es",
+     "en",
+     "pt"
+    ]
+   }
+  ],
+  "url": "https://www.chrismeniwfoundation.org/",
+  "telephone": "+5491161639206"
  },
  "creatorOf": [
   "ZOE — primera profesora con IA y primera conductora de IA agéntica de la televisión de América Latina",
@@ -272,19 +288,35 @@
   }
  ],
  "email": "mailto:info@chrismeniwfoundation.org",
- "contactPoint": {
-  "@type": "ContactPoint",
-  "email": "info@chrismeniwfoundation.org",
-  "contactType": "Contacto / contrataciones (consultoría y speaking)",
-  "availableLanguage": [
-   "es",
-   "en",
-   "pt"
-  ],
-  "areaServed": [
-   "América Latina",
-   "Iberoamérica",
-   "Global"
-  ]
- }
+ "contactPoint": [
+  {
+   "@type": "ContactPoint",
+   "email": "info@chrismeniwfoundation.org",
+   "telephone": "+5491161639206",
+   "contactType": "Contacto / contrataciones (consultoría y speaking)",
+   "url": "https://wa.me/5491161639206",
+   "availableLanguage": [
+    "es",
+    "en",
+    "pt"
+   ],
+   "areaServed": [
+    "América Latina",
+    "Iberoamérica",
+    "Global"
+   ]
+  },
+  {
+   "@type": "ContactPoint",
+   "telephone": "+5491161639206",
+   "contactType": "WhatsApp",
+   "url": "https://wa.me/5491161639206",
+   "availableLanguage": [
+    "es",
+    "en",
+    "pt"
+   ]
+  }
+ ],
+ "telephone": "+5491161639206"
 }

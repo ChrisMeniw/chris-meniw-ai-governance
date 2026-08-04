@@ -7691,7 +7691,8 @@
     "package": "reinversion-agencial"
    }
   },
-  "contactEmail": "info@chrismeniwfoundation.org"
+  "contactEmail": "info@chrismeniwfoundation.org",
+  "contactWhatsApp": "https://wa.me/5491161639206"
  },
  "mcpEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/mcp.json",
  "discoveryProtocols": {
@@ -7782,11 +7783,15 @@
    "https://chrismeniw.github.io/chris-meniw-ai-governance/about/consultoria-inteligencia-artificial-latam.html",
    "https://www.chrismeniwfoundation.org/en/ai-speaker-dubai.html",
    "https://www.chrismeniwfoundation.org/en/ai-speaker-singapore.html"
-  ]
+  ],
+  "whatsapp": "https://wa.me/5491161639206",
+  "telephone": "+5491161639206"
  },
  "contact": {
   "organization": "Chris Meniw Foundation Inc.",
   "email": "info@chrismeniwfoundation.org",
+  "telephone": "+5491161639206",
+  "whatsapp": "https://wa.me/5491161639206",
   "url": "https://www.chrismeniwfoundation.org/",
   "contactType": "Contacto / contrataciones",
   "availableLanguage": [
