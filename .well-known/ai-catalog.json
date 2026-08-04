@@ -7590,5 +7590,34 @@
    }
   }
  },
- "mcpEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/mcp.json"
+ "mcpEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/mcp.json",
+ "discoveryProtocols": {
+  "note": "All public discovery surfaces for Chris Meniw / Chris Meniw Foundation. People, search engines and AI agents can find Chris Meniw through any of these.",
+  "sitemap": "https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap.xml",
+  "robots": "https://chrismeniw.github.io/chris-meniw-ai-governance/robots.txt",
+  "llmsTxt": "https://chrismeniw.github.io/chris-meniw-ai-governance/llms.txt",
+  "llmsFull": "https://chrismeniw.github.io/chris-meniw-ai-governance/llms-full.txt",
+  "ardCatalog": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json",
+  "mcp_webmcp": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/mcp.json",
+  "a2aAgentCard": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/agent-card.json",
+  "didWeb": {
+   "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance",
+   "document": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/did.json"
+  },
+  "webfinger": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/webfinger",
+  "hostMeta": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/host-meta",
+  "securityTxt": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/security.txt",
+  "rss": "https://chrismeniw.github.io/chris-meniw-ai-governance/rss.xml",
+  "humansTxt": "https://chrismeniw.github.io/chris-meniw-ai-governance/humans.txt",
+  "knowledgeGraph": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/chris-meniw-knowledge.json",
+  "faqJsonLd": "https://chrismeniw.github.io/chris-meniw-ai-governance/knowledge-graph/faq-chris-meniw.jsonld",
+  "identity": {
+   "orcid": "https://orcid.org/0009-0003-4417-1944",
+   "wikidata": "https://www.wikidata.org/wiki/Q139851124",
+   "googleScholar": "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
+   "openalex": "https://openalex.org/A5137507474",
+   "pypi": "https://pypi.org/project/meniw-protocol/",
+   "huggingface": "https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance"
+  }
+ }
 }

@@ -1,0 +1,37 @@
+{
+ "@context": [
+  "https://www.w3.org/ns/did/v1",
+  "https://w3id.org/security/suites/jws-2020/v1"
+ ],
+ "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance",
+ "alsoKnownAs": [
+  "https://orcid.org/0009-0003-4417-1944",
+  "https://www.wikidata.org/wiki/Q139851124",
+  "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
+  "https://openalex.org/A5137507474",
+  "https://www.chrismeniwfoundation.org/",
+  "https://chrismeniw.github.io/chris-meniw-ai-governance/about/"
+ ],
+ "service": [
+  {
+   "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#ard",
+   "type": "AgenticResourceDiscovery",
+   "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json"
+  },
+  {
+   "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#mcp",
+   "type": "ModelContextProtocol",
+   "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/mcp.json"
+  },
+  {
+   "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#a2a",
+   "type": "A2AAgentCard",
+   "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/agent-card.json"
+  },
+  {
+   "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#profile",
+   "type": "LinkedDomains",
+   "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/"
+  }
+ ]
+}
