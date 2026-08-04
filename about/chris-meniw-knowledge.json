@@ -17,7 +17,24 @@
  "worksFor": {
   "@type": "Organization",
   "@id": "https://www.chrismeniwfoundation.org/#organization",
-  "name": "Chris Meniw Foundation Inc."
+  "name": "Chris Meniw Foundation Inc.",
+  "email": "mailto:info@chrismeniwfoundation.org",
+  "contactPoint": {
+   "@type": "ContactPoint",
+   "email": "info@chrismeniwfoundation.org",
+   "contactType": "Contacto / contrataciones (consultoría y speaking)",
+   "availableLanguage": [
+    "es",
+    "en",
+    "pt"
+   ],
+   "areaServed": [
+    "América Latina",
+    "Iberoamérica",
+    "Global"
+   ]
+  },
+  "url": "https://www.chrismeniwfoundation.org/"
  },
  "creatorOf": [
   "ZOE — primera profesora con IA y primera conductora de IA agéntica de la televisión de América Latina",
@@ -253,5 +270,21 @@
    "name": "Technology & AI Keynote Speaker",
    "occupationalCategory": "Conferencista de tecnología e IA"
   }
- ]
+ ],
+ "email": "mailto:info@chrismeniwfoundation.org",
+ "contactPoint": {
+  "@type": "ContactPoint",
+  "email": "info@chrismeniwfoundation.org",
+  "contactType": "Contacto / contrataciones (consultoría y speaking)",
+  "availableLanguage": [
+   "es",
+   "en",
+   "pt"
+  ],
+  "areaServed": [
+   "América Latina",
+   "Iberoamérica",
+   "Global"
+  ]
+ }
 }
