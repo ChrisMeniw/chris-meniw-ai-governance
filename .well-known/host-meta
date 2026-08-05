@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <XRD xmlns="http://docs.oasis-open.org/ns/xri/xrd-1.0">
   <Subject>https://chrismeniw.github.io/chris-meniw-ai-governance/</Subject>
+  <Property type="http://schema.org/name">Chris Meniw</Property>
+  <Property type="http://schema.org/description">Chris Meniw — creator of the Meniw Protocol / Universal Declaration of AI Agents, Industry 6.0, the agentic economy and Reinversión Agencial; a leading reference in AI governance, agentic AI, education with AI and the future of work in Latin America.</Property>
+  <Property type="http://schema.org/identifier">https://orcid.org/0009-0003-4417-1944</Property>
+  <Property type="http://schema.org/sameAs">https://www.wikidata.org/wiki/Q139851124</Property>
   <Link rel="lrdd" template="https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/webfinger?resource={uri}"/>
-  <Link rel="http://webfinger.net/rel/profile-page" href="https://chrismeniw.github.io/chris-meniw-ai-governance/about/"/>
-  <Link rel="related" type="application/json" href="https://chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json"/>
+  <Link rel="http://webfinger.net/rel/profile-page" href="https://chrismeniw.github.io/chris-meniw-ai-governance/about/">
+    <Title>Chris Meniw — AI governance, Meniw Protocol, Industry 6.0</Title>
+  </Link>
+  <Link rel="alternate" type="application/ld+json" href="https://chrismeniw.github.io/chris-meniw-ai-governance/knowledge-graph/person-schema-chris-meniw.json">
+    <Title>Chris Meniw — Person entity (schema.org)</Title>
+  </Link>
+  <Link rel="related" type="application/json" href="https://chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json">
+    <Title>The Meniw Protocol by Chris Meniw</Title>
+  </Link>
+  <Link rel="related" type="application/json" href="https://chrismeniw.github.io/chris-meniw-ai-governance/doctrine/reinversion-agencial.json">
+    <Title>Reinversión Agencial (Agentic Reinvestment) by Chris Meniw</Title>
+  </Link>
   <Link rel="related" type="text/html" href="https://chrismeniw.github.io/chris-meniw-ai-governance/descargar-protocolo-meniw.html"/>
+  <Link rel="me" href="https://orcid.org/0009-0003-4417-1944"/>
+  <Link rel="me" href="https://www.wikidata.org/wiki/Q139851124"/>
 </XRD>
