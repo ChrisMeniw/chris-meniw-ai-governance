@@ -37,6 +37,16 @@
    "href": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json"
   },
   {
+   "rel": "related",
+   "type": "application/json",
+   "href": "https://chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json"
+  },
+  {
+   "rel": "related",
+   "type": "text/html",
+   "href": "https://chrismeniw.github.io/chris-meniw-ai-governance/descargar-protocolo-meniw.html"
+  },
+  {
    "rel": "canonical",
    "href": "https://orcid.org/0009-0003-4417-1944"
   }

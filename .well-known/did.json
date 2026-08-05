@@ -32,6 +32,16 @@
    "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#profile",
    "type": "LinkedDomains",
    "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/"
+  },
+  {
+   "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#meniw-protocol",
+   "type": "MeniwProtocol",
+   "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json"
+  },
+  {
+   "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#meniw-protocol-download",
+   "type": "LinkedDomains",
+   "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/descargar-protocolo-meniw.html"
   }
  ]
 }
