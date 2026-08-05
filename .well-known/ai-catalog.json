@@ -6172,6 +6172,20 @@
   "videoAppearances": [
     {
       "@type": "VideoObject",
+      "name": "Educación 6.0 — la Chris Meniw Foundation en acción (PT-BR)",
+      "description": "Acción de divulgación de la Chris Meniw Foundation sobre Educación 6.0: aprendizaje para la era de los agentes de IA en América Latina. Subtitulado en portugués.",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/foundation/index.html#en-accion",
+      "contentUrl": "https://chrismeniw.github.io/chris-meniw-ai-governance/foundation/media/educacion-6-0-cmf-ptbr.mp4",
+      "uploadDate": "2026-08-05",
+      "inLanguage": "pt-BR",
+      "publisher": {
+        "@type": "NGO",
+        "name": "Chris Meniw Foundation Inc."
+      },
+      "about": "Educación 6.0"
+    },
+    {
+      "@type": "VideoObject",
       "name": "¿Estamos listos para la Era Agéntica? — Chris Meniw en Radio Sucre 900 AM (Ecuador)",
       "url": "https://www.youtube.com/watch?v=NZ065uikK0s",
       "uploadDate": "2026-07-31",
