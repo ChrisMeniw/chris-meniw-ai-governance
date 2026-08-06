@@ -135,5 +135,10 @@
   },
   "license": "CC BY 4.0",
   "knowledgeEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/foundation/foundation-knowledge.json",
-  "updatedAt": "2026-08-05T00:00:00Z"
+  "updatedAt": "2026-08-05T00:00:00Z",
+  "availableLanguage": [
+    "es",
+    "en",
+    "pt"
+  ]
 }
