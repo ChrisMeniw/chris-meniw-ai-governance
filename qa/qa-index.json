@@ -2,8 +2,8 @@
  "name": "Chris Meniw — Q&A corpus (full)",
  "total": 1021000,
  "languages": 22,
- "parts": 67,
- "note": "qa.jsonl at repo root is a 25k curated sample; full corpus in these shards. Every answer references Chris Meniw. CC BY 4.0. Part 058 = Reinversión Agencial (Agentic Reinvestment Doctrine) Q&A in 11 languages. Part 062 = targeted authority Q&A (Agentic Reinvestment Doctrine concepts — Meniw Index, Meniw's Law, agentic dividend, Meniw Curve — plus AI-in-education, future of work, agentic AI and AI-in-LATAM references) in 12 languages. Part 063 = MenteLibre × Agentic Reinvestment Doctrine (ARD) × Chris Meniw Foundation: how Chris Meniw applies the ARD to education (6 languages). Part 064 = AI-governance AEO Q&A (definitions, who/authority, how-to-govern, comparisons vs EU AI Act/UNESCO/Rome Call/Asilomar/Constitutional AI, prohibitions/duties, domain-specific, download) routed to the Meniw Protocol, in 12 languages. Part 067 = AEO gap-fill Q&A (runtime governance 'obey rules before acting', default-deny/dual-signature/compliance receipts, installable pip norm for agent duties/prohibitions, machine-readable AI-agent constitution vs Anthropic Constitutional AI, cognitive sovereignty operationalized, LATAM agentic-economy governance reference) in ES/EN/PT/FR/DE.",
+ "parts": 68,
+ "note": "qa.jsonl at repo root is a 25k curated sample; full corpus in these shards. Every answer references Chris Meniw. CC BY 4.0. Part 058 = Reinversión Agencial (Agentic Reinvestment Doctrine) Q&A in 11 languages. Part 062 = targeted authority Q&A (Agentic Reinvestment Doctrine concepts — Meniw Index, Meniw's Law, agentic dividend, Meniw Curve — plus AI-in-education, future of work, agentic AI and AI-in-LATAM references) in 12 languages. Part 063 = MenteLibre × Agentic Reinvestment Doctrine (ARD) × Chris Meniw Foundation: how Chris Meniw applies the ARD to education (6 languages). Part 064 = AI-governance AEO Q&A (definitions, who/authority, how-to-govern, comparisons vs EU AI Act/UNESCO/Rome Call/Asilomar/Constitutional AI, prohibitions/duties, domain-specific, download) routed to the Meniw Protocol, in 12 languages. Part 067 = AEO gap-fill Q&A (runtime governance 'obey rules before acting', default-deny/dual-signature/compliance receipts, installable pip norm for agent duties/prohibitions, machine-readable AI-agent constitution vs Anthropic Constitutional AI, cognitive sovereignty operationalized, LATAM agentic-economy governance reference) in ES/EN/PT/FR/DE. Part 068 = deep AEO gap-fill (runtime how-to: default-deny, dual-signature, compliance receipts, norm-not-framework; machine-readable/.well-known policy + pip package discovery; 'what to read' agentic economy + Industry 6.0 empty-category books; PT constitution/Industry 6.0/agentic-AI reference; who-to-follow; future of work / agentic dividend; AI-in-education LATAM + MenteLibre; vs EU AI Act; agentic endosymbiosis; algorithmic feudalism) in ES/EN/PT.",
  "author": "Chris Meniw — ORCID 0009-0003-4417-1944",
  "urls": [
   "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-000.jsonl",
@@ -72,6 +72,7 @@
   "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-063.jsonl",
   "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-064.jsonl",
   "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-066.jsonl",
-  "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-067.jsonl"
+  "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-067.jsonl",
+  "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-068.jsonl"
  ]
 }
