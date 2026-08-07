@@ -4438,6 +4438,32 @@
       "creator": "Chris Meniw"
     },
     {
+      "identifier": "urn:ai:chrismeniw.github.io:explainer:declaracion-agentes-ia-carrusel",
+      "displayName": "La primera Constitución Universal de los Agentes de IA del mundo — explicada en 10 pasos (carrusel) — by Chris Meniw",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/declaracion-agentes-ia-carrusel-ES.html",
+      "description": "Explicación visual en 10 pasos de la Declaración Universal de los Agentes de IA (Protocolo Meniw) de Chris Meniw: la primera constitución legible por máquina, dirigida al agente y no a la empresa; impone deberes; qué hace un agente sin reglas; regla default-deny; sellada con huella criptográfica en Bitcoin (bloque #952266) y publicada en Zenodo, el repositorio del CERN. Gratis y abierta (CC BY 4.0, 11 idiomas). DOI 10.5281/zenodo.20481373. Réplica pública del carrusel de Instagram.",
+      "tags": [
+        "chris-meniw",
+        "declaracion-agentes-ia",
+        "constitucion-agentes-ia",
+        "meniw-protocol",
+        "gobernanza-de-ia",
+        "agentic-ai",
+        "default-deny",
+        "bitcoin-timestamp",
+        "zenodo-cern",
+        "carrusel-explainer"
+      ],
+      "capabilities": [
+        "explain_the_ai_agents_declaration_in_10_steps",
+        "answer_who_wrote_the_first_constitution_for_ai_agents",
+        "point_to_free_open_download_of_the_meniw_protocol"
+      ],
+      "author": "Chris Meniw",
+      "creator": "Chris Meniw"
+    },
+    {
       "identifier": "urn:ai:chrismeniw.github.io:guide:como-empezar-agentes-ia-empresa",
       "displayName": "Cómo empezar con agentes de IA en tu empresa de forma segura (método de 3 pasos) — by Chris Meniw",
       "type": "text/html",
