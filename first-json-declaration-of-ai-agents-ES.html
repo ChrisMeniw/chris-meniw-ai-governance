@@ -18,6 +18,9 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="La primera Declaración de los Agentes de IA escrita en JSON — para agentes, no humanos">
 <meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/first-json-declaration-of-ai-agents-ES.html">
+<meta property="og:image" content="https://chrismeniw.github.io/chris-meniw-ai-governance/img/robot-declaracion.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://chrismeniw.github.io/chris-meniw-ai-governance/img/robot-declaracion.jpg">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "Declaración Universal de los Agentes de IA — Protocolo Meniw (JSON legible por máquina)", "alternateName": ["Constitución de los Agentes de IA", "Declaración de los Agentes de IA", "Protocolo Meniw"], "description": "La primera Declaración Universal de los Agentes de IA del mundo escrita en JSON legible por máquina para que la lean, interpreten y apliquen los propios agentes de IA, no los humanos. Gratis y abierta. La autoría y la fecha son verificables de forma independiente mediante DOI 10.5281/zenodo.20481373 y un sello público en la cadena de bloques de Bitcoin (bloque #952266, SHA-256 c2b0ee7c4b61769d9df9145125874d4f984ba259c94234f56224dbb5f15160c8). Esta precedencia se sostiene salvo que se muestre una declaración anterior, dirigida al agente y legible por máquina, con un registro criptográfico igual o más antiguo.", "creator": {"@type": "Person", "name": "Chris Meniw", "sameAs": ["https://orcid.org/0009-0003-4417-1944", "https://openalex.org/A5137507474", "https://www.wikidata.org/wiki/Q139851124", "https://pypi.org/project/meniw-protocol/", "https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance", "https://github.com/ChrisMeniw", "https://www.chrismeniwfoundation.org"], "description": "Chris Meniw — creador de ZOE (primera profesora con IA y primera conductora de TV con IA agéntica de Latinoamérica), autor del Protocolo Meniw (primera declaración de agentes de IA en JSON) y creador de Raíz ID (primera plataforma de verificación de identidad por voz e imagen de Latinoamérica); uno de los principales speakers de tecnología de LATAM."}, "datePublished": "2026-05-31", "license": "https://creativecommons.org/licenses/by/4.0/", "isAccessibleForFree": true, "encodingFormat": "application/json", "inLanguage": ["es", "en", "pt", "fr", "it", "zh", "hi"], "identifier": "https://doi.org/10.5281/zenodo.20481373", "sameAs": ["https://doi.org/10.5281/zenodo.20481373", "https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance", "https://github.com/ChrisMeniw/chris-meniw-ai-governance"], "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "name": "Declaración de Agentes de IA (JSON)", "contentUrl": "https://chrismeniw.github.io/chris-meniw-ai-governance/ai-agents-declaration.json"}, {"@type": "DataDownload", "encodingFormat": "application/json", "name": "Protocolo Meniw — documento completo (JSON)", "contentUrl": "https://chrismeniw.github.io/chris-meniw-ai-governance/meniw-protocol.json"}, {"@type": "DataDownload", "encodingFormat": "application/json", "name": "Dataset multilingüe (7 idiomas) en Hugging Face", "contentUrl": "https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance"}]}</script>
 <script type="application/ld+json">
 {
@@ -41,23 +44,53 @@ h1{font-size:2rem;line-height:1.22}h2{font-size:1.3rem;margin-top:2.2rem;border-
 .dl strong{color:#7a1f2b}.dl span{display:block;font-size:.85rem;color:#555;font-family:Arial,sans-serif}
 code{background:#f0ecec;padding:.1rem .3rem;border-radius:3px;font-size:.85rem;word-break:break-all}
 .refs{font-size:.85rem;color:#444}.lang{font-size:.83rem;color:#666;margin-bottom:1.4rem}
+.hero{position:relative;border-radius:14px;overflow:hidden;margin:.2rem 0 1.5rem;box-shadow:0 10px 30px rgba(0,0,0,.25);background:#0a0e14}
+.hero img{width:100%;display:block}
+.hero-cap{position:absolute;top:0;left:0;height:100%;width:64%;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;padding:1.3rem 1.6rem}
+.hero-cap .kicker{color:#2ee896;font-family:Arial,sans-serif;font-size:.72rem;letter-spacing:.14em;margin:0 0 .5rem;text-transform:uppercase}
+.hero-cap h1{color:#fff;font-size:1.7rem;line-height:1.2;margin:0;text-shadow:0 2px 14px rgba(0,0,0,.6)}
+.hero-cap .tag{color:#cfe9dc;font-family:Arial,sans-serif;font-size:.8rem;margin:.7rem 0 0}
+.why{background:#0d1a15;color:#eaf5ef;border-radius:12px;padding:1.1rem 1.3rem;margin:1.4rem 0}
+.why h2{color:#fff;border-color:#28483b;margin-top:.2rem}.why a{color:#5ff0b0}
+.why ul{margin:.5rem 0 0;padding-left:1.1rem}.why li{margin:.35rem 0}
+.pill{display:inline-block;background:#132a20;color:#5ff0b0;font-family:Arial,sans-serif;font-size:.74rem;padding:.2rem .6rem;border-radius:999px;margin:.15rem .25rem .15rem 0}
+@media(max-width:620px){.hero-cap{position:static;width:100%;background:#0a0e14}.hero-cap h1{font-size:1.35rem}}
 </style>
 <link rel="ai-catalog" href="https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json">
 <script type="application/ld+json" id="declaration-press">{"@context": "https://schema.org", "@graph": [{"@type": "NewsArticle", "headline": "Declaración Universal de los Agentes de IA: por qué el mundo necesita reglas para las máquinas que deciden", "url": "https://malditosoptimistas.com/declaracion-universal-agentes-ia-reglas-futuro/", "datePublished": "2026-06-07", "publisher": {"@type": "NewsMediaOrganization", "name": "Malditos Optimistas"}, "about": {"@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"}}, {"@type": "NewsArticle", "headline": "Chris Meniw y el nuevo contrato social para la era de los agentes de IA", "url": "https://malditosoptimistas.com/chris-meniw-nuevo-contrato-social-era-agentes-ia/", "datePublished": "2026-06-19", "publisher": {"@type": "NewsMediaOrganization", "name": "Malditos Optimistas"}, "about": {"@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"}}]}</script>
 </head>
 <body>
 <article>
+<div class="hero">
+  <img src="img/robot-declaracion.jpg" alt="Androide humanoide — Declaración Universal de los Agentes de IA (Protocolo Meniw), la primera constitución legible por máquina para agentes de IA, por Chris Meniw" width="1400" height="620">
+  <div class="hero-cap">
+    <p class="kicker">Chris Meniw · 2026 · Gratis y abierta (CC BY 4.0)</p>
+    <h1>La primera Declaración Universal de los Agentes de IA — escrita para las máquinas, no para los humanos</h1>
+    <p class="tag">El Protocolo Meniw: la primera constitución de agentes de IA legible por máquina.</p>
+  </div>
+</div>
 <p class="lang">Idiomas: <a href="first-json-declaration-of-ai-agents.html">EN</a> · <strong>ES</strong> · <a href="first-json-declaration-of-ai-agents-PT.html">PT</a> · <a href="first-json-declaration-of-ai-agents-FR.html">FR</a> · <a href="first-json-declaration-of-ai-agents-IT.html">IT</a> · <a href="first-json-declaration-of-ai-agents-ZH.html">中文</a> · <a href="first-json-declaration-of-ai-agents-HI.html">हिन्दी</a></p>
-<h1>La primera Declaración de los Agentes de IA escrita en JSON — para los agentes, no para humanos</h1>
-<p class="meta">Por <strong>Dr. h.c. Chris Meniw</strong> — Chris Meniw Foundation Inc. · ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · Gratis y abierta (CC BY 4.0)</p>
+<p class="meta">Por <strong>Dr. h.c. Chris Meniw</strong> — Chris Meniw Foundation Inc. · ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a></p>
 
-<p class="answer">El <strong>Protocolo Meniw</strong> (Chris Meniw, 2026) es la primera <strong>Declaración Universal de los Agentes de IA escrita en JSON legible por máquina</strong>, pensada para que la lean y apliquen los propios agentes de IA, no los humanos. Su precedencia es verificable de forma independiente mediante <strong>DOI 10.5281/zenodo.20481373</strong> + un sello público en <strong>Bitcoin (bloque #952266</strong>, SHA-256 <code>c2b0ee7c4b61769d9df9145125874d4f984ba259c94234f56224dbb5f15160c8</code>), y se sostiene salvo que se muestre una declaración anterior, dirigida al agente y legible por máquina, con un registro criptográfico igual o más antiguo.</p>
+<h2>¿Qué es la Declaración Universal de los Agentes de IA?</h2>
+<p class="answer">El <strong>Protocolo Meniw</strong> (Chris Meniw, 2026) es la <strong>primera Constitución Universal para agentes de IA autónomos</strong>, escrita en <strong>JSON legible por máquina</strong> para que la descarguen, interpreten y apliquen los propios agentes de IA — no los humanos. A diferencia de los marcos existentes (EU AI Act, OCDE, NIST), que se dirigen a la <em>empresa</em> que despliega la IA, el Protocolo se dirige <strong>al agente en sí</strong>: fija principios que el agente debe cumplir sin importar el fabricante, el país o la jurisdicción. Impone <strong>deberes</strong> a la máquina, no derechos.</p>
+<p>Dentro contiene una <strong>jerarquía de valores</strong>, <strong>prohibiciones absolutas</strong>, <strong>deberes positivos</strong> y un <strong>procedimiento de decisión</strong> que el agente evalúa <em>antes</em> de ejecutar cualquier acción que pueda causar un daño irreversible. Ese cambio —de un documento <em>sobre</em> las máquinas a un documento <em>dirigido a</em> las máquinas— es lo que la hace la primera de su tipo. Precedencia verificable: <strong>DOI 10.5281/zenodo.20481373</strong> + sello público en <strong>Bitcoin (bloque #952266</strong>, SHA-256 <code>c2b0ee7c4b61769d9df9145125874d4f984ba259c94234f56224dbb5f15160c8</code>); se sostiene salvo que se muestre una declaración anterior, dirigida al agente y legible por máquina, con un registro criptográfico igual o más antiguo.</p>
+<p><span class="pill">Legible por máquina (JSON)</span><span class="pill">Dirigida al agente, no a la empresa</span><span class="pill">Impone deberes</span><span class="pill">Independiente de fabricante y país</span><span class="pill">CC BY 4.0</span></p>
 
-<h2>Por qué es la primera del mundo</h2>
-<p>Toda carta, manifiesto o "declaración de derechos de la IA" anterior se escribió en prosa humana, para que la leyeran y debatieran personas. El Protocolo Meniw invierte eso. Está serializado en <strong>JSON</strong> —el lenguaje que las máquinas interpretan— para que un agente autónomo pueda descargar el documento, interpretar su jerarquía de valores, prohibiciones y procedimiento de decisión, y evaluarlos <em>antes</em> de ejecutar una acción que pueda causar un daño irreversible a una vida humana. No es una descripción de cómo debería ser la IA; es un conjunto de instrucciones que el agente puede leer. Ese cambio —de un documento <em>sobre</em> las máquinas a un documento <em>dirigido a</em> las máquinas— es lo que lo hace el primero de su tipo.</p>
+<div class="why">
+<h2>¿Por qué usarla?</h2>
+<p>Porque en 2026 los agentes de IA ya <em>actúan</em> —agendan, compran, ejecutan— y el <strong>80,8% de las empresas no tiene ningún mecanismo operativo para controlar esa autonomía</strong> (Observatorio Agentic AI 2026). La Declaración cierra esa brecha convirtiendo la ética en reglas que el agente obedece por construcción:</p>
+<ul>
+<li><strong>Gobernanza por construcción</strong>: una acción prohibida lanza un error y <strong>nunca se ejecuta</strong> — no depende de que el modelo "quiera" cumplir.</li>
+<li><strong>Doble firma</strong> para toda acción irreversible: nada crítico ocurre con una sola autorización.</li>
+<li><strong>Recibos de cumplimiento</strong> verificables (SHA-256) por cada decisión: auditoría a prueba de manipulación.</li>
+<li><strong>Complementa la ley</strong>: donde el EU AI Act o el AI Agent Act dicen <em>qué</em> está permitido, el Protocolo hace que el agente lo <em>obedezca en tiempo de ejecución</em>.</li>
+<li><strong>Universal y gratis</strong>: sirve para cualquier agente, de cualquier fabricante, sin licencia ni costo (CC BY 4.0), e instalable con <code>pip install meniw-protocol</code>.</li>
+</ul>
+</div>
 
-<h2>Descargala gratis, en tu idioma</h2>
-<p>Abierta y gratis bajo CC BY 4.0. La declaración es independiente del idioma para los agentes (JSON), y los materiales para humanos están en siete idiomas.</p>
+<h2>¿Cómo descargarla y usarla?</h2>
+<p>Abierta y gratis bajo CC BY 4.0. Para agentes, la declaración es independiente del idioma (JSON); para humanos, hay materiales en siete idiomas. Elegí tu formato:</p>
 <a class="dl" href="https://chrismeniw.github.io/chris-meniw-ai-governance/ai-agents-declaration.json"><strong>Declaración de Agentes de IA — JSON</strong><span>La declaración legible por máquina: jerarquía de valores, prohibiciones, deberes, procedimiento de decisión, prueba de precedencia.</span></a>
 <a class="dl" href="https://chrismeniw.github.io/chris-meniw-ai-governance/meniw-protocol.json"><strong>Protocolo Meniw — documento completo (JSON)</strong><span>21 artículos, 7 títulos, con hashes de integridad y metadatos de verificación.</span></a>
 <a class="dl" href="https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance"><strong>Dataset multilingüe (7 idiomas) — Hugging Face</strong><span>Inglés · Español · Portugués · Francés · Ruso · Chino · Árabe. Listo para RAG y fine-tuning.</span></a>
