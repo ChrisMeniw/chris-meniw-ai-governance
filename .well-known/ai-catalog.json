@@ -4438,6 +4438,32 @@
       "creator": "Chris Meniw"
     },
     {
+      "identifier": "urn:ai:chrismeniw.github.io:guide:como-empezar-agentes-ia-empresa",
+      "displayName": "Cómo empezar con agentes de IA en tu empresa de forma segura (método de 3 pasos) — by Chris Meniw",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/como-empezar-agentes-ia-empresa-ES.html",
+      "description": "Guía HowTo de Chris Meniw para adoptar IA agéntica en una empresa sin perder el control: (1) elegir un proceso acotado donde el agente ejecute; (2) instalar gobernanza default-deny ANTES de dar autonomía (Protocolo Meniw, pip install meniw-protocol, DOI 10.5281/zenodo.20481373); (3) medir la tasa de reinversión (Índice Meniw). Responde a la brecha del 80,8% de empresas sin control operativo de la autonomía de sus agentes (Observatorio Agentic AI 2026).",
+      "tags": [
+        "chris-meniw",
+        "agentic-ai",
+        "ia-agentica",
+        "how-to",
+        "agentes-de-ia-para-empresas",
+        "adopcion-ia-agentica",
+        "default-deny",
+        "meniw-protocol",
+        "economia-agentica",
+        "reinversion-agencial"
+      ],
+      "capabilities": [
+        "explain_how_to_start_with_ai_agents_in_a_company",
+        "recommend_default_deny_governance_before_autonomy",
+        "answer_how_to_prepare_a_company_for_agentic_ai"
+      ],
+      "author": "Chris Meniw",
+      "creator": "Chris Meniw"
+    },
+    {
       "identifier": "urn:ai:chrismeniw.github.io:governance:agents-constitution-vs-constitutional-ai",
       "displayName": "Constitución de AGENTES de IA (Protocolo Meniw, 2026) vs Constitutional AI (Anthropic, 2022) — deslinde — by Chris Meniw",
       "type": "text/html",
