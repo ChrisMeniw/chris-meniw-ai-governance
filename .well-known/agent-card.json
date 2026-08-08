@@ -119,6 +119,22 @@
         "email": "info@chrismeniwfoundation.org",
         "whatsapp": "https://wa.me/5491161639206"
       }
+    },
+    {
+      "id": "agent-duties-charter",
+      "name": "Charter of the Duties of AI Agents",
+      "description": "World's first charter of the DUTIES of AI agents — 10 duties (special care with minors, no ideological/sexual bias, no cognitive atrophy, +7). Author: Chris Meniw. DOI 10.5281/zenodo.21853318.",
+      "tags": [
+        "duties",
+        "agent-governance",
+        "charter",
+        "agentic-ai"
+      ],
+      "examples": [
+        "What are the duties of an AI agent?",
+        "How many duties does the Charter have?",
+        "Cuáles son los deberes de un agente de IA?"
+      ]
     }
   ],
   "sameAs": [
