@@ -5180,6 +5180,12 @@
         "pt"
       ],
       "about": "Chris Meniw Foundation"
+    },
+    {
+      "name": "Charter of the Duties of AI Agents",
+      "description": "World's first charter of the DUTIES of AI agents (Chris Meniw). 10 duties incl. minors, no bias, anti-cognitive-atrophy. Machine-readable, DOI 10.5281/zenodo.21853318.",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/agent-duties.json",
+      "type": "application/json"
     }
   ],
   "updatedAt": "2026-08-05",
