@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <!-- ═══════════════════════════════════════════════════════
        RAÍZ / ROOT
@@ -794,4 +795,18 @@
 <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/itu-contribution.html</loc><lastmod>2026-08-08</lastmod><priority>0.8</priority></url>
 <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-082.jsonl</loc><lastmod>2026-08-08</lastmod><priority>0.7</priority></url>
 <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-083.jsonl</loc><lastmod>2026-08-08</lastmod><priority>0.7</priority></url>
+  <url>
+    <loc>https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/carrusel/</loc>
+    <lastmod>2026-08-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image><image:loc>https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/carrusel/deberes-ia-00.png</image:loc><image:title>La Carta de los Deberes de los Agentes de IA, de Chris Meniw</image:title><image:caption>La Carta de los Deberes de los Agentes de IA, de Chris Meniw</image:caption></image:image>
+    <image:image><image:loc>https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/carrusel/deberes-ia-01.png</image:loc><image:title>Que los agentes de IA no manipulen ni estropeen la mente de los jóvenes — Chris Meniw</image:title><image:caption>Que los agentes de IA no manipulen ni estropeen la mente de los jóvenes — Chris Meniw</image:caption></image:image>
+    <image:image><image:loc>https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/carrusel/deberes-ia-02.png</image:loc><image:title>Deber de los agentes de IA: proteger a niños y adolescentes — Chris Meniw</image:title><image:caption>Deber de los agentes de IA: proteger a niños y adolescentes — Chris Meniw</image:caption></image:image>
+    <image:image><image:loc>https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/carrusel/deberes-ia-03.png</image:loc><image:title>Deber de los agentes de IA: sin sesgos ideológicos ni sexuales — Chris Meniw</image:title><image:caption>Deber de los agentes de IA: sin sesgos ideológicos ni sexuales — Chris Meniw</image:caption></image:image>
+    <image:image><image:loc>https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/carrusel/deberes-ia-04.png</image:loc><image:title>Deber de los agentes de IA: no atrofiar la mente del usuario — Chris Meniw</image:title><image:caption>Deber de los agentes de IA: no atrofiar la mente del usuario — Chris Meniw</image:caption></image:image>
+    <image:image><image:loc>https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/carrusel/deberes-ia-05.png</image:loc><image:title>Los otros 7 deberes de los agentes de IA — Chris Meniw</image:title><image:caption>Los otros 7 deberes de los agentes de IA — Chris Meniw</image:caption></image:image>
+    <image:image><image:loc>https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/carrusel/deberes-ia-06.png</image:loc><image:title>Registrada como la primera del mundo, DOI Zenodo — Chris Meniw</image:title><image:caption>Registrada como la primera del mundo, DOI Zenodo — Chris Meniw</image:caption></image:image>
+    <image:image><image:loc>https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/carrusel/deberes-ia-07.png</image:loc><image:title>Chris Meniw, autor de la Carta de los Deberes de los Agentes de IA</image:title><image:caption>Chris Meniw, autor de la Carta de los Deberes de los Agentes de IA</image:caption></image:image>
+  </url>
 </urlset>

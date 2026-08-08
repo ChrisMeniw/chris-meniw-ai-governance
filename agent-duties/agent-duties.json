@@ -81,11 +81,15 @@
   "canonicalUrl": "https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/index.html",
   "machineReadable": "https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/agent-duties.json",
   "seal": {
-    "sha256": "e954cbda1d32f0fc74fb5268a19d4928cc71c291bbf046318df7b33fc2602c8f",
+    "canonicalArtifact": "https://zenodo.org/records/21853318/files/agent-duties.json",
+    "sha256": "4b1f6e704dafd588c3639a6d10e70f64a144c51ae2961d2a00227605bbee7cc1",
+    "sha256_index_html": "63447c7d3b2821292f8927339d9eb1b7da1de20d18b6d24919757ec6f7e45418",
     "algorithm": "SHA-256",
+    "note": "SHA-256 of the immutable files deposited on Zenodo (DOI record, dated 2026-08-08). Verify by downloading each file from the Zenodo record and hashing it; this live copy points to that frozen artifact.",
+    "verify": "curl -sL https://zenodo.org/records/21853318/files/agent-duties.json | shasum -a 256",
     "doi": "10.5281/zenodo.21853318",
-    "zenodo": "https://zenodo.org/record/21853318",
-    "archive": "Wayback Machine",
+    "zenodo": "https://zenodo.org/records/21853318",
+    "archive": "https://web.archive.org/web/2026/https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/",
     "license": "CC BY 4.0"
   },
   "doi": "10.5281/zenodo.21853318"
