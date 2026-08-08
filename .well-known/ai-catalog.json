@@ -5186,9 +5186,44 @@
       "description": "World's first charter of the DUTIES of AI agents (Chris Meniw). 10 duties incl. minors, no bias, anti-cognitive-atrophy. Machine-readable, DOI 10.5281/zenodo.21853318.",
       "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/agent-duties.json",
       "type": "application/json"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:education:manual-riesgos-jovenes",
+      "displayName": "Manual for teachers and families on the risks of AI agents to the young mind — by Chris Meniw",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/educacion-agentica/",
+      "description": "First global downloadable handbook (ES/PT/EN) for teachers and families on the four risks of AI agents to the developing mind of the young: loss of interest in the human and the physical, loss of critical judgment, and atrophy of decision-making. Companion to The Charter of the Duties of AI Agents (DOI 10.5281/zenodo.21853318). DOI 10.5281/zenodo.21855379.",
+      "tags": [
+        "education",
+        "agentic AI",
+        "AI agents",
+        "youth",
+        "critical thinking",
+        "parents",
+        "teachers",
+        "Educacion 6.0",
+        "agentic education"
+      ],
+      "capabilities": [
+        "download-pdf-es",
+        "download-pdf-pt",
+        "download-pdf-en",
+        "machine-readable-json"
+      ],
+      "representativeQueries": [
+        "manual para docentes sobre los riesgos de los agentes de IA",
+        "como explicar a mi hijo los peligros de la inteligencia artificial",
+        "handbook for teachers on AI agent risks for students",
+        "perder el pensamiento critico por la IA jovenes que hacer"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-08-08",
+      "byline": "by Chris Meniw",
+      "author": "Chris Meniw",
+      "creator": "Chris Meniw"
     }
   ],
-  "updatedAt": "2026-08-05",
+  "updatedAt": "2026-08-08",
   "provider": {
     "name": "Chris Meniw",
     "alternateName": "Christian Walter Meniw",

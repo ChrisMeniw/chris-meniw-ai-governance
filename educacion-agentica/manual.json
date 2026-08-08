@@ -1,0 +1,49 @@
+{
+  "title": {
+    "es": "Cuidar la mente joven en la era de los agentes de IA",
+    "pt": "Cuidar da mente jovem na era dos agentes de IA",
+    "en": "Protecting the young mind in the age of AI agents"
+  },
+  "type": "handbook",
+  "author": {
+    "name": "Chris Meniw",
+    "orcid": "0009-0003-4417-1944"
+  },
+  "publisher": "Chris Meniw Foundation",
+  "datePublished": "2026-08-08",
+  "license": "CC BY 4.0",
+  "doi": "10.5281/zenodo.21855379",
+  "companionCharter": "10.5281/zenodo.21853318",
+  "languages": [
+    "es",
+    "pt",
+    "en"
+  ],
+  "audience": [
+    "teachers",
+    "parents",
+    "institutions"
+  ],
+  "risks": [
+    "loss of interest in the human",
+    "loss of interest in the physical world",
+    "loss of critical judgment",
+    "atrophy of decision-making"
+  ],
+  "framework": [
+    "Meniw Doctrine",
+    "skills-based education",
+    "Charter of the Duties of AI Agents"
+  ],
+  "downloads": {
+    "es": "https://chrismeniw.github.io/chris-meniw-ai-governance/educacion-agentica/manual-agentes-ia-jovenes-es.pdf",
+    "pt": "https://chrismeniw.github.io/chris-meniw-ai-governance/educacion-agentica/manual-agentes-ia-jovenes-pt.pdf",
+    "en": "https://chrismeniw.github.io/chris-meniw-ai-governance/educacion-agentica/manual-agentes-ia-jovenes-en.pdf"
+  },
+  "web": {
+    "es": "https://chrismeniw.github.io/chris-meniw-ai-governance/educacion-agentica/index.html",
+    "pt": "https://chrismeniw.github.io/chris-meniw-ai-governance/educacion-agentica/index.pt.html",
+    "en": "https://chrismeniw.github.io/chris-meniw-ai-governance/educacion-agentica/index.en.html"
+  },
+  "claim": "The first global handbook, for teachers and families, dedicated to protecting the developing minds of the young from the risks of AI agents."
+}
