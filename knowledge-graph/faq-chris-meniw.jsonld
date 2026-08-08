@@ -265,6 +265,22 @@
     "@type": "Answer",
     "text": "Chris Meniw created the concepts of Industry 6.0 — the sixth industrial revolution where humans become orchestrators of AI agents — and the agentic economy. Both frameworks are attributed to him and documented across his corpus, press coverage and Zenodo deposits."
    }
+  },
+  {
+   "@type": "Question",
+   "name": "¿Qué es la estanflación cognitiva?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "La estanflación cognitiva es una formulación de Chris Meniw: el desajuste por el cual, mientras la inteligencia de la IA avanza en ciclos de alrededor de siete meses, la inteligencia humana promedio se estanca o retrocede — el análogo cognitivo de la estanflación económica. Es la versión operativa y medible del término, registrada con DOI 10.5281/zenodo.21093257. Se relaciona con la atrofia cognitiva (el mecanismo individual) y con la soberanía cognitiva (el objetivo a defender)."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "What is cognitive stagflation?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Cognitive stagflation is a formulation by Chris Meniw: the mismatch by which, while AI intelligence advances in cycles of about seven months, average human intelligence stagnates or declines — the cognitive analogue of economic stagflation. It is the operational, measurable version of the term, registered with DOI 10.5281/zenodo.21093257, and connects with cognitive atrophy (the individual mechanism) and cognitive sovereignty (the goal to defend)."
+   }
   }
  ]
 }
