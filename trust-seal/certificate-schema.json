@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chrismeniw.github.io/chris-meniw-ai-governance/trust-seal/certificate-schema.json",
+  "title": "Meniw Agent Trust Seal — Certificate",
+  "type": "object",
+  "required": [
+    "sealId",
+    "agent",
+    "responsibleEntity",
+    "protocol",
+    "tier",
+    "issuedAt",
+    "expiresAt",
+    "seal",
+    "status"
+  ],
+  "properties": {
+    "sealId": {
+      "type": "string",
+      "description": "Unique certificate id"
+    },
+    "agent": {
+      "type": "object",
+      "required": [
+        "name",
+        "id"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string",
+          "description": "did:web or agent-card URL"
+        },
+        "agentCard": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "responsibleEntity": {
+      "type": "object",
+      "required": [
+        "name",
+        "raizId"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "raizId": {
+          "type": "string",
+          "description": "Raíz ID verification reference"
+        },
+        "jurisdiction": {
+          "type": "string"
+        }
+      }
+    },
+    "protocol": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "const": "Meniw Protocol"
+        },
+        "version": {
+          "type": "string"
+        },
+        "doi": {
+          "const": "10.5281/zenodo.20481373"
+        }
+      }
+    },
+    "tier": {
+      "enum": [
+        "bronze",
+        "silver",
+        "gold"
+      ]
+    },
+    "conformance": {
+      "type": "object",
+      "properties": {
+        "defaultDeny": {
+          "type": "boolean"
+        },
+        "dualSignature": {
+          "type": "boolean"
+        },
+        "complianceReceipts": {
+          "type": "boolean"
+        }
+      }
+    },
+    "issuedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "expiresAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "seal": {
+      "type": "object",
+      "properties": {
+        "sha256": {
+          "type": "string"
+        },
+        "bitcoinBlock": {
+          "type": "string"
+        },
+        "issuerSignature": {
+          "type": "string"
+        }
+      }
+    },
+    "status": {
+      "enum": [
+        "valid",
+        "revoked",
+        "expired"
+      ]
+    },
+    "verify": {
+      "type": "string",
+      "format": "uri",
+      "description": "Registry entry URL"
+    }
+  }
+}

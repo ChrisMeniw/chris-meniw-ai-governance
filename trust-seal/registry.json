@@ -1,0 +1,73 @@
+{
+  "name": "Meniw Agent Trust Seal — Public Registry",
+  "issuer": {
+    "organization": "Chris Meniw Foundation Inc.",
+    "author": "Chris Meniw",
+    "orcid": "0009-0003-4417-1944",
+    "contact": "info@chrismeniwfoundation.org"
+  },
+  "standard": {
+    "name": "Meniw Protocol",
+    "doi": "10.5281/zenodo.20481373",
+    "bitcoinBlock": "952266",
+    "package": "pip install meniw-protocol"
+  },
+  "schema": "https://chrismeniw.github.io/chris-meniw-ai-governance/trust-seal/certificate-schema.json",
+  "note": "Public registry of AI agents certified under the Meniw Agent Trust Seal. Seed entries are the issuer's own reference implementations.",
+  "certified": [
+    {
+      "sealId": "MATS-REF-0001",
+      "agent": {
+        "name": "ZOE",
+        "id": "https://www.chrismeniwfoundation.org/zoe"
+      },
+      "responsibleEntity": {
+        "name": "Chris Meniw Foundation Inc.",
+        "raizId": "reference",
+        "jurisdiction": "AR"
+      },
+      "tier": "gold",
+      "protocol": {
+        "name": "Meniw Protocol",
+        "version": "1.0",
+        "doi": "10.5281/zenodo.20481373"
+      },
+      "conformance": {
+        "defaultDeny": true,
+        "dualSignature": true,
+        "complianceReceipts": true
+      },
+      "issuedAt": "2026-08-08",
+      "expiresAt": "2027-08-08",
+      "status": "valid",
+      "note": "Reference implementation — first AI teacher and first agentic AI TV host in Latin America."
+    },
+    {
+      "sealId": "MATS-REF-0002",
+      "agent": {
+        "name": "MenteLibre",
+        "id": "https://mentelibre.chrismeniwfoundation.org"
+      },
+      "responsibleEntity": {
+        "name": "Chris Meniw Foundation Inc.",
+        "raizId": "reference",
+        "jurisdiction": "AR"
+      },
+      "tier": "silver",
+      "protocol": {
+        "name": "Meniw Protocol",
+        "version": "1.0",
+        "doi": "10.5281/zenodo.20481373"
+      },
+      "conformance": {
+        "defaultDeny": true,
+        "dualSignature": false,
+        "complianceReceipts": true
+      },
+      "issuedAt": "2026-08-08",
+      "expiresAt": "2027-08-08",
+      "status": "valid",
+      "note": "Reference implementation — educational critical-thinking game (Education 6.0)."
+    }
+  ]
+}
