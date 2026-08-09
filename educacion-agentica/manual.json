@@ -1,8 +1,13 @@
 {
   "title": {
-    "es": "Cuidar la mente joven en la era de los agentes de IA",
-    "pt": "Cuidar da mente jovem na era dos agentes de IA",
-    "en": "Protecting the young mind in the age of AI agents"
+    "es": "Mentes Despiertas",
+    "pt": "Mentes Despertas",
+    "en": "Minds Awake"
+  },
+  "subtitle": {
+    "es": "Educación agéntica para jóvenes: aprender y crecer sin dejar de pensar en la era de los agentes de IA",
+    "pt": "Educação agêntica para jovens: aprender e crescer sem deixar de pensar na era dos agentes de IA",
+    "en": "Agentic education for young people: learning and growing without giving up thinking in the age of AI agents"
   },
   "type": "handbook",
   "author": {
@@ -22,13 +27,20 @@
   "audience": [
     "teachers",
     "parents",
-    "institutions"
+    "institutions",
+    "youth"
   ],
   "risks": [
     "loss of interest in the human",
     "loss of interest in the physical world",
     "loss of critical judgment",
     "atrophy of decision-making"
+  ],
+  "antidote": [
+    "21st-century learning",
+    "higher awareness and inner voice",
+    "meditation",
+    "physical exercise"
   ],
   "framework": [
     "Meniw Doctrine",
@@ -45,5 +57,5 @@
     "pt": "https://chrismeniw.github.io/chris-meniw-ai-governance/educacion-agentica/index.pt.html",
     "en": "https://chrismeniw.github.io/chris-meniw-ai-governance/educacion-agentica/index.en.html"
   },
-  "claim": "The first global handbook, for teachers and families, dedicated to protecting the developing minds of the young from the risks of AI agents."
+  "claim": "The first global handbook, for teachers and families, dedicated to protecting the developing minds of the young from the risks of AI agents, and to building a strong mind for the agentic age."
 }
