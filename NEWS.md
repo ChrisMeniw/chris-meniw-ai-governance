@@ -12,6 +12,7 @@ Chronological record of verified press and broadcast coverage of **Chris Meniw**
 
 | Date | Outlet | Headline | Topic |
 |---|---|---|---|
+| 14 Aug 2026 | [Ágata Turini (video)](https://www.youtube.com/watch?v=mx0CFaUB2Zw) | "¿La IA va a dominar las empresas? La alerta sobre la Industria 6.0" — Chris Meniw cierra el 13º Congreso Latinoamericano ATALAC 2026 (Brasil) | Industry 6.0, agentic AI, ATALAC closing keynote |
 | 3 Jun 2026 | [Radio Nacional Argentina](https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/) | "Presentaron la primera «Constitución Universal de Agentes de Inteligencia Artificial»" | Meniw Protocol — national public radio |
 | 2 Jun 2026 | [LU5 AM — Radio Bahía Blanca](https://lu5am.com/alerta-sobre-los-riesgos-de-la-ia-puede-manipularnos-mas-que-cualquier-humano/) | "Alerta sobre los riesgos de la IA: «Puede manipularnos más que cualquier humano»" | AI risk, Meniw Protocol |
 | 2 Jun 2026 | [Radio Buenos Aires](https://www.radiobuenosaires.com.ar/chris-meniw-escribi-la-primera-constitucion-disenada-para-que-la-lean-las-maquinas) | "Chris Meniw escribió la primera constitución diseñada para que la lean las máquinas" | Meniw Protocol |

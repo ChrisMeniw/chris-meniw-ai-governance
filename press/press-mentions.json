@@ -9,6 +9,23 @@
       "subjectOf": [
         {
           "@type": "VideoObject",
+          "name": "¿La IA va a dominar las empresas? La alerta sobre la Industria 6.0 — Chris Meniw (13º Congreso Latinoamericano ATALAC 2026, Brasil)",
+          "uploadDate": "2026-08",
+          "inLanguage": "pt",
+          "url": "https://www.youtube.com/watch?v=mx0CFaUB2Zw",
+          "embedUrl": "https://www.youtube.com/embed/mx0CFaUB2Zw",
+          "thumbnailUrl": "https://i.ytimg.com/vi/mx0CFaUB2Zw/hqdefault.jpg",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Ágata Turini"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "mainEntityOfPage": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/en-los-medios/atalac-industria-6-0-sao-paulo-2026.html"
+        },
+        {
+          "@type": "VideoObject",
           "name": "¿Estamos listos para la Era Agéntica? — Chris Meniw en Radio Sucre 900 AM",
           "uploadDate": "2026-07-31",
           "inLanguage": "es",
