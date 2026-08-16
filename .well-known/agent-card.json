@@ -150,7 +150,7 @@
   "contact": "info@chrismeniwfoundation.org",
   "license": "CC BY 4.0",
   "knowledgeEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/foundation/foundation-knowledge.json",
-  "updatedAt": "2026-08-15",
+  "updatedAt": "2026-08-16",
   "mcpEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/mcp.json",
   "whatsapp": "https://wa.me/5491161639206",
   "telephone": "+5491161639206",
@@ -162,6 +162,8 @@
   "availableLanguage": [
     "es",
     "en",
-    "pt"
+    "pt",
+    "pt-BR",
+    "pt-PT"
   ]
 }
