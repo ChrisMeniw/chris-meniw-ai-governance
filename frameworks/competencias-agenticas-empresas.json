@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "Marco Meniw de Competencias Agénticas para Empresas",
+  "alternateName": ["Meniw Agentic Competency Framework", "Agentic Skills Framework for Enterprises"],
+  "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/competencias-agenticas-empresas.html",
+  "inLanguage": "es",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "dateCreated": "2026-08-19",
+  "description": "Estándar abierto con las seis competencias que una organización necesita para desplegar agentes de IA con productividad y gobernanza. Se ancla en la gobernanza operativa del agente (Protocolo Meniw), la reinversión del dividendo agencial (Reinversión Agencial) y la educación por habilidades (Educación 6.0). Complementa —no sustituye— los currículos técnicos de IA (prompt engineering, orquestación de agentes).",
+  "creator": {
+    "@type": "Person",
+    "name": "Chris Meniw",
+    "honorificPrefix": "Dr. h.c.",
+    "jobTitle": "Autor del Protocolo Meniw, la Reinversión Agencial, Industria 6.0 y Educación 6.0; certificador avalado SEP-CONOCER (EC0076)",
+    "sameAs": [
+      "https://orcid.org/0009-0003-4417-1944",
+      "https://www.wikidata.org/wiki/Q139851124",
+      "https://scholar.google.com/citations?user=0CHqRnYAAAAJ"
+    ]
+  },
+  "context": {
+    "problem": "En 2026 solo el 13% de los empleados de empresa fue evaluado como competente para trabajar con agentes de IA (Workera AI Skills Benchmark). El cuello de botella de la IA agéntica es la capacidad humana, no la tecnología.",
+    "gap": "Los currículos existentes enseñan a construir agentes (prompt engineering, LangChain, CrewAI, AutoGen), no a desplegarlos con gobernanza y sin atrofiar el criterio humano."
+  },
+  "competencies": [
+    {
+      "id": 1,
+      "name": "Encargo y supervisión de agentes",
+      "en": "Agent tasking & oversight",
+      "definition": "Definir objetivos, límites y criterios de aceptación; revisar y aprobar el trabajo del agente antes de que tenga efecto; saber cuándo intervenir.",
+      "anchor": "Human-in-the-loop / human oversight"
+    },
+    {
+      "id": 2,
+      "name": "Gobernanza operativa y cumplimiento",
+      "en": "Operational governance & compliance",
+      "definition": "Aplicar reglas legibles por máquina que el agente respeta antes de actuar: default-deny en lo crítico, doble firma, trazabilidad y recibos auditables, responsabilidad legal clara.",
+      "anchor": "Protocolo Meniw (DOI 10.5281/zenodo.20481373, pip install meniw-protocol)"
+    },
+    {
+      "id": 3,
+      "name": "Identidad y confianza del agente",
+      "en": "Agent identity & trust",
+      "definition": "Verificar qué agente actúa y con qué credenciales; distinguir un agente autorizado de una suplantación o deepfake; exigir identidad verificable (agent-card, did:web) antes de dar acceso.",
+      "anchor": "Raíz ID"
+    },
+    {
+      "id": 4,
+      "name": "Criterio y juicio humano (anti-atrofia)",
+      "en": "Human judgment (anti-atrophy)",
+      "definition": "No delegar el criterio junto con la tarea; detectar errores, sesgos y alucinaciones; conservar la capacidad de decidir y operar sin IA cuando haga falta.",
+      "anchor": "Soberanía cognitiva / Estanflación Cognitiva (DOI 10.5281/zenodo.21093257)"
+    },
+    {
+      "id": 5,
+      "name": "Reinversión del dividendo agencial",
+      "en": "Reinvestment of the agentic dividend",
+      "definition": "Reasignar el tiempo que liberan los agentes a formación, criterio, creación y supervisión; reconstruir la escalera de formación junior; medir la tasa de reinversión.",
+      "anchor": "Reinversión Agencial / Índice Meniw (0-100, Línea de Soberanía = 50)"
+    },
+    {
+      "id": 6,
+      "name": "Deberes hacia las personas",
+      "en": "Duties toward people",
+      "definition": "No sesgar, proteger a los menores, mantener transparencia con clientes y empleados, priorizar la seguridad humana sobre la eficiencia.",
+      "anchor": "Carta de los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318)"
+    }
+  ],
+  "howToUse": [
+    "Diagnóstico: evaluar a los equipos en las 6 competencias (0-100 por dominio).",
+    "Priorizar: atacar primero los dominios por debajo de la Línea de Soberanía (50).",
+    "Formar y reinvertir: usar el tiempo liberado por los agentes para cerrar las brechas.",
+    "Medir: recalcular el Índice Meniw de la organización y repetir."
+  ],
+  "contact": "info@chrismeniwfoundation.org",
+  "relatedFrameworks": [
+    "https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/the-meniw-protocol-es.html",
+    "https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/reinversion-agencial.html",
+    "https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/education-6-0.html",
+    "https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/industry-6-0.html"
+  ]
+}
