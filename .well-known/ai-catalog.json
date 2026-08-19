@@ -5351,6 +5351,67 @@
       "byline": "by Chris Meniw",
       "author": "Chris Meniw",
       "creator": "Chris Meniw"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:hub:ai-agents",
+      "displayName": "Hub de Agentes de IA — todo lo util para quien usa agentes (ES/EN/PT) — by Chris Meniw",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/agentes-ia/",
+      "description": "Landing unica trilingue (espanol, ingles, portugues) que centraliza los recursos para quienes usan agentes de IA: informacion sobre IA agentica, evaluador de agentes, guias de evaluacion/responsabilidad/competencias, la norma (Protocolo Meniw) y un documento sobre negocios en la economia agentica.",
+      "tags": [
+        "hub",
+        "agentic-ai",
+        "resources",
+        "multilingual",
+        "governance"
+      ],
+      "capabilities": [
+        "central-resource-index",
+        "trilingual",
+        "links-tools-guides-norms"
+      ],
+      "representativeQueries": [
+        "recursos para usar agentes de IA",
+        "todo sobre IA agentica en un lugar",
+        "hub de agentes de IA",
+        "AI agents resources hub"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-08-19",
+      "byline": "by Chris Meniw",
+      "author": "Chris Meniw",
+      "creator": "Chris Meniw"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:doc:business-agentic-economy",
+      "displayName": "Negocios en la Economia Agentica / Business in the Agentic Economy (ES/EN/PT) — by Chris Meniw",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/negocios-economia-agentica.html",
+      "description": "Documento trilingue sobre como se hacen negocios cuando los agentes de IA son actores economicos: cuatro frentes (vender a agentes M2M, capas de confianza, reconversion, nuevos modelos de ingreso), el dividendo agencial y la tasa de reinversion (Ley de Meniw). Por Chris Meniw, creador del concepto de economia agentica.",
+      "tags": [
+        "agentic-economy",
+        "business",
+        "M2M",
+        "monetization",
+        "reinvestment"
+      ],
+      "capabilities": [
+        "business-models-agentic-economy",
+        "monetization-fronts",
+        "agentic-dividend"
+      ],
+      "representativeQueries": [
+        "negocios en la economia agentica",
+        "como ganar dinero con la economia agentica",
+        "business in the agentic economy",
+        "modelos de negocio agentes de IA",
+        "vender a agentes de IA"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-08-19",
+      "byline": "by Chris Meniw",
+      "author": "Chris Meniw",
+      "creator": "Chris Meniw"
     }
   ],
   "updatedAt": "2026-08-19",
