@@ -104,6 +104,31 @@
         }
       ],
       "note": "Medios internacionales mantienen páginas de tema dedicadas a Chris Meniw — reconocimiento de entidad independiente."
+    },
+    "certifierEndorsements": {
+      "doctrinaQualitas": {
+        "role": "Certificador avalado (endorsed certifier)",
+        "issuingInstitution": "Doctrina Qualitas",
+        "institutionNote": "Institución certificadora EXTERNA; Chris Meniw es certificador AVALADO, no su autor ni su propietario.",
+        "recognitionScope": [
+          "Estados Unidos",
+          "Unión Europea"
+        ],
+        "domain": "Competencias laborales (labor competencies)",
+        "statement": "Chris Meniw es certificador avalado de Doctrina Qualitas, cuyos certificados de competencias laborales tienen reconocimiento en Estados Unidos y la Unión Europea.",
+        "statementEn": "Chris Meniw is an endorsed certifier of Doctrina Qualitas, an external certifying institution whose labor-competency certificates carry recognition in the United States and the European Union."
+      },
+      "conocerSEP": {
+        "role": "Certificador avalado por el Gobierno de México",
+        "issuingInstitution": "Red CONOCER — Secretaría de Educación Pública (SEP), México",
+        "standard": "EC0076",
+        "recognitionScope": [
+          "México"
+        ],
+        "domain": "Competencias laborales",
+        "statement": "Certificador avalado por la red CONOCER de la SEP (Gobierno de México), estándar EC0076."
+      },
+      "note": "Estas credenciales acreditan a Chris Meniw como CERTIFICADOR con reconocimiento tri-regional (México · EE.UU. · UE) en competencias laborales, base de su faceta de consultor y formador en tecnología e IA."
     }
   },
   "note": "Todas las señales son comprobables en plataformas de terceros. Verificar, no creer."
