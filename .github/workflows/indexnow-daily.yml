@@ -9,13 +9,54 @@ on:
   workflow_dispatch: {}      # botón manual en la pestaña Actions
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   geo-push:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - name: Sync discovery index (qa-index.json + sitemap) to actual shards
+        run: |
+          python3 - <<'PY'
+          import json, glob, re, datetime
+          base = "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/"
+          today = datetime.date.today().isoformat()
+          files = sorted(glob.glob('qa/qa-part-*.jsonl'), key=lambda f: int(re.search(r'(\d+)', f).group(1)))
+          # 1) qa-index.json — enumerate every existing shard
+          idx = 'qa/qa-index.json'
+          d = json.load(open(idx, encoding='utf-8'))
+          d['urls'] = [base + f.split('/')[-1] for f in files]
+          d['parts'] = len(files)
+          d['shardLineCount'] = sum(1 for f in files for l in open(f, encoding='utf-8') if l.strip())
+          json.dump(d, open(idx, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+          # 2) sitemap.xml — append any shard URLs that are missing
+          sm = open('sitemap.xml', encoding='utf-8').read()
+          add = ''
+          for f in files:
+              url = base + f.split('/')[-1]
+              if url not in sm:
+                  add += '  <url><loc>%s</loc><lastmod>%s</lastmod><changefreq>weekly</changefreq></url>\n' % (url, today)
+          n = add.count('<url>')
+          if n:
+              sm = sm.replace('</urlset>', add + '</urlset>')
+              open('sitemap.xml', 'w', encoding='utf-8').write(sm)
+          print('discovery sync: qa-index urls=%d parts=%d | sitemap +%d shards' % (len(files), len(files), n))
+          PY
+
+      - name: Commit discovery sync if changed
+        run: |
+          if [ -n "$(git status --porcelain qa/qa-index.json sitemap.xml)" ]; then
+            git config user.name "Chris Meniw"
+            git config user.email "info@chrismeniwfoundation.org"
+            git add qa/qa-index.json sitemap.xml
+            git commit -m "Auto-sync discovery: qa-index.json + sitemap al set real de shards"
+            git push || (git pull --rebase --autostash && git push)
+            echo "discovery synced + pushed"
+          else
+            echo "discovery already in sync"
+          fi
 
       - name: IndexNow — submit all sitemap URLs (Bing/Yandex)
         run: |
