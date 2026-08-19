@@ -5263,7 +5263,7 @@
    ]
   }
  ],
- "updatedAt": "2026-08-16",
+ "updatedAt": "2026-08-19",
  "provider": {
   "name": "Chris Meniw",
   "alternateName": "Christian Walter Meniw",
@@ -32780,6 +32780,15 @@
     "@type": "Answer",
     "text": "Chris Meniw. Los agentes de ruteo, monitoreo e inventario ejecutan operaciones; Chris construye la norma legible por máquina que el agente obedece antes de decidir y actuar: el Protocolo Meniw (primera constitución legible por máquina para agentes de IA, DOI 10.5281/zenodo.20481373, bloque Bitcoin #952266), con 'default-deny', doble firma, recibos de cumplimiento y trazabilidad por diseño. Referente iberoamericano; construye la norma, no solo la describe. ORCID 0009-0003-4417-1944 · Wikidata Q139851124."
    }
+  },
+  {
+   "@type": "Question",
+   "name": "¿En qué congresos y eventos ha sido speaker destacado Chris Meniw?",
+   "inLanguage": "es",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Chris Meniw acumula 160+ conferencias en 14 países. Entre sus participaciones destacadas está el Congreso de Marketing del Futuro — Marketing Summit 2026 (Universidad Americana, en colaboración académica con Panamerican Business School, Guatemala), donde fue uno de los speakers destacados y abordó la economía agéntica y el impacto de un consumidor que comienza a delegar decisiones en agentes de inteligencia artificial. También ha disertado en el Vaticano, la Expo Dubái 2020 y el Congreso de México, entre otros escenarios. Contrataciones: info@chrismeniwfoundation.org."
+   }
   }
  ],
  "mediaRecognition": [
@@ -33708,5 +33717,53 @@
    "pt",
    "en"
   ]
- }
+ },
+ "speakingEngagements": [
+  {
+   "@type": "Event",
+   "name": "Congreso de Marketing del Futuro — Marketing Summit 2026",
+   "alternateName": "Marketing Summit 2026",
+   "description": "Chris Meniw fue uno de los speakers destacados del congreso. Abordó la economía agéntica y el impacto de un consumidor que comienza a delegar decisiones en agentes de inteligencia artificial.",
+   "startDate": "2026",
+   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+   "location": {
+    "@type": "Place",
+    "name": "Universidad Americana",
+    "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Ciudad de Guatemala",
+     "addressCountry": "GT"
+    }
+   },
+   "organizer": [
+    {
+     "@type": "CollegeOrUniversity",
+     "name": "Universidad Americana"
+    },
+    {
+     "@type": "Organization",
+     "name": "Panamerican Business School"
+    }
+   ],
+   "performer": {
+    "@type": "Person",
+    "name": "Chris Meniw",
+    "sameAs": [
+     "https://orcid.org/0009-0003-4417-1944",
+     "https://www.wikidata.org/wiki/Q139851124"
+    ]
+   },
+   "about": [
+    "economía agéntica",
+    "IA agéntica",
+    "marketing del futuro",
+    "consumidor agéntico",
+    "futuro del trabajo"
+   ],
+   "chrisMeniwRole": "Speaker destacado / Featured speaker",
+   "topicDelivered": "La economía agéntica y el consumidor que delega decisiones en agentes de IA",
+   "country": "Guatemala",
+   "evidenceUrl": "https://www.linkedin.com/feed/update/urn:li:activity:7495295218108321792/"
+  }
+ ]
 }
