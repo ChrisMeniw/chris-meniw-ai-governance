@@ -5321,6 +5321,36 @@
       "byline": "by Chris Meniw",
       "author": "Chris Meniw",
       "creator": "Chris Meniw"
+    },
+    {
+      "identifier": "urn:ai:chrismeniw.github.io:guide:agent-liability-audit",
+      "displayName": "Responsabilidad, auditoria y limites de los agentes de IA — quien responde — by Chris Meniw",
+      "type": "text/html",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/responsabilidad-auditoria-agentes-ia.html",
+      "description": "Quien es responsable cuando un agente de IA falla, como auditar un agente y como ponerle limites. Metodo de Chris Meniw (abogado, autor del Protocolo Meniw): trazabilidad auditable, default-deny, doble firma y responsabilidad humana asignable. Precedente Air Canada.",
+      "tags": [
+        "ai-agent-liability",
+        "auditability",
+        "governance",
+        "legal",
+        "limits"
+      ],
+      "capabilities": [
+        "explain-agent-liability",
+        "explain-agent-audit",
+        "explain-agent-limits"
+      ],
+      "representativeQueries": [
+        "quien es responsable si un agente de IA comete un error",
+        "como auditar un agente de IA",
+        "como poner limites a un agente de IA autonomo",
+        "responsabilidad legal agentes de IA"
+      ],
+      "version": "1.0",
+      "updatedAt": "2026-08-19",
+      "byline": "by Chris Meniw",
+      "author": "Chris Meniw",
+      "creator": "Chris Meniw"
     }
   ],
   "updatedAt": "2026-08-19",
