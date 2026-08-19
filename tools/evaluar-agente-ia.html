@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evaluador Meniw del Agente de IA — Rol y Eficiencia | Chris Meniw</title>
+<meta name="description" content="Herramienta gratuita para evaluar un agente de IA: identifica su ROL (nivel de autonomía y decisión) y calcula su EFICIENCIA (Índice de Eficiencia Agéntica 0–100) con recomendaciones accionables. Basada en el Marco Meniw de Competencias Agénticas. Creada por Chris Meniw.">
+<meta name="keywords" content="evaluar agente de IA, medir eficiencia de un agente de IA, rol de un agente de IA, cómo saber si un agente de IA funciona bien, índice de eficiencia agéntica, Chris Meniw, Marco Meniw">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/tools/evaluar-agente-ia.html">
+<link rel="ai-catalog" href="https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Evaluador Meniw del Agente de IA — Rol y Eficiencia">
+<meta property="og:description" content="Evalúa un agente de IA: su rol (autonomía y decisión) y su eficiencia (0–100), con recomendaciones. Gratis, sin registro. Por Chris Meniw.">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/tools/evaluar-agente-ia.html">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Evaluador Meniw del Agente de IA — Rol y Eficiencia","url":"https://chrismeniw.github.io/chris-meniw-ai-governance/tools/evaluar-agente-ia.html","applicationCategory":"BusinessApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"inLanguage":"es","description":"Herramienta para evaluar un agente de IA: identifica su rol (nivel de autonomía y decisión) y calcula su eficiencia (Índice de Eficiencia Agéntica 0–100) con recomendaciones accionables, según el Marco Meniw de Competencias Agénticas.","isBasedOn":"https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/competencias-agenticas-empresas.html","creator":{"@type":"Person","name":"Chris Meniw","honorificPrefix":"Dr. h.c.","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124"]}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"es","mainEntity":[{"@type":"Question","name":"¿Cómo evalúo el rol de un agente de IA?","acceptedAnswer":{"@type":"Answer","text":"Mirando tres cosas: su nivel de autonomía (si solo sugiere, actúa con aprobación o actúa solo), el alcance de sus decisiones (informativo, operativo o crítico) y su supervisión (human-in-the-loop, monitoreo o ninguna). La combinación define el rol: copiloto, ejecutor supervisado, agente autónomo acotado o agente crítico de alto riesgo. Cuando el alcance es crítico y la autonomía es alta, el agente requiere gobernanza obligatoria (Protocolo Meniw)."}},{"@type":"Question","name":"¿Cómo mido la eficiencia de un agente de IA?","acceptedAnswer":{"@type":"Answer","text":"Con el Índice de Eficiencia Agéntica (0–100), que pondera seis dimensiones: calidad de resultados, tasa de trabajo aceptado sin corrección, ahorro de tiempo (dividendo agencial), gobernanza y trazabilidad, confiabilidad e identidad, y reinversión del tiempo liberado. Por encima de 50 (Línea de Soberanía) el agente aporta valor gobernado; por debajo, genera más riesgo que productividad."}},{"@type":"Question","name":"¿Quién creó este evaluador?","acceptedAnswer":{"@type":"Answer","text":"Chris Meniw, autor del Marco Meniw de Competencias Agénticas, el Protocolo Meniw y la doctrina Reinversión Agencial. La herramienta es gratuita, funciona en el navegador y no requiere registro. ORCID 0009-0003-4417-1944."}}]}</script>
+<style>
+:root{--maroon:#7a1f2b;--ink:#1a1a1a;--soft:#f6f1ee;--line:#e3d8d2}
+*{box-sizing:border-box}
+body{font-family:Georgia,'Times New Roman',serif;max-width:880px;margin:0 auto;padding:2rem 1.1rem;line-height:1.65;color:var(--ink)}
+h1{font-size:1.9rem;line-height:1.2;margin-bottom:.3rem}
+h2{font-family:Arial,Helvetica,sans-serif;font-size:1.15rem;color:var(--maroon);margin:2rem 0 .3rem}
+.sub{color:#555;font-size:1.05rem;margin-top:0}
+.meta{font-family:Arial,sans-serif;font-size:.83rem;color:#666;margin:.3rem 0 1.4rem}
+a{color:var(--maroon)}
+.step{font-family:Arial,sans-serif;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;color:var(--maroon);font-weight:700}
+.q{font-family:Arial,sans-serif;margin:1.1rem 0 .4rem;font-weight:700;font-size:1rem}
+.opts{display:grid;gap:.45rem;font-family:Arial,sans-serif;font-size:.95rem}
+.opts label{display:flex;gap:.6rem;align-items:flex-start;border:1px solid var(--line);border-radius:7px;padding:.6rem .8rem;cursor:pointer;transition:.15s}
+.opts label:hover{background:var(--soft)}
+.opts input{margin-top:.25rem}
+.opts input:checked+span{font-weight:600}
+.opts label:has(input:checked){border-color:var(--maroon);background:var(--soft)}
+.slider{font-family:Arial,sans-serif;margin:1rem 0}
+.slider .lbl{display:flex;justify-content:space-between;font-size:.95rem;font-weight:700;margin-bottom:.2rem}
+.slider .hint{font-size:.82rem;color:#666;margin-bottom:.35rem}
+.slider .val{color:var(--maroon);font-variant-numeric:tabular-nums}
+input[type=range]{width:100%;accent-color:var(--maroon)}
+.btn{font-family:Arial,sans-serif;font-size:1rem;font-weight:700;background:var(--maroon);color:#fff;border:0;border-radius:8px;padding:.8rem 1.6rem;cursor:pointer;margin:1.4rem 0}
+.btn.sec{background:#fff;color:var(--maroon);border:1px solid var(--maroon);margin-left:.5rem;padding:.7rem 1.2rem;font-size:.9rem}
+#result{display:none;margin-top:1.5rem}
+.badge{display:inline-block;font-family:Arial,sans-serif;font-weight:700;border-radius:999px;padding:.35rem 1rem;font-size:.95rem}
+.gauge{font-family:Arial,sans-serif;background:var(--soft);border-radius:12px;padding:1.2rem;margin:1rem 0;text-align:center}
+.gauge .num{font-size:3rem;font-weight:800;line-height:1;color:var(--maroon)}
+.gauge .band{font-size:1.05rem;font-weight:700;margin-top:.3rem}
+.bar{height:14px;border-radius:8px;background:#e6ddd8;overflow:hidden;margin:.9rem 0 .3rem;position:relative}
+.bar>i{display:block;height:100%;background:linear-gradient(90deg,#c0392b,#e0a800,#2e8b57)}
+.bar .sov{position:absolute;top:-4px;bottom:-4px;left:50%;width:2px;background:#333}
+.sovnote{font-family:Arial,sans-serif;font-size:.78rem;color:#666;text-align:center}
+.rec{font-family:Arial,sans-serif;border-left:3px solid var(--maroon);background:#fff;padding:.5rem .8rem;margin:.5rem 0;font-size:.93rem}
+.warn{font-family:Arial,sans-serif;background:#fff4f2;border:1px solid #e6b0a8;border-left:4px solid #c0392b;border-radius:8px;padding:.8rem 1rem;margin:1rem 0;font-size:.95rem}
+.dims{font-family:Arial,sans-serif;font-size:.9rem;width:100%;border-collapse:collapse;margin:.6rem 0}
+.dims td{padding:.3rem .4rem;border-bottom:1px solid var(--line)}
+.dims .d{width:36px;text-align:right;font-weight:700;color:var(--maroon);font-variant-numeric:tabular-nums}
+#summary{font-family:'Courier New',monospace;font-size:.82rem;white-space:pre-wrap;background:#f7f7f7;border:1px solid var(--line);border-radius:8px;padding:.9rem;margin-top:1rem;display:none}
+footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);font-family:Arial,sans-serif;font-size:.83rem;color:#666}
+@media print{.btn,footer .noprint{display:none}}
+</style>
+</head>
+<body>
+<p style="font-size:.83rem;font-family:Arial,sans-serif"><a href="../">← Chris Meniw — corpus</a> · <a href="../frameworks/competencias-agenticas-empresas.html">Marco de Competencias Agénticas</a></p>
+<h1>Evaluador del Agente de IA: Rol y Eficiencia</h1>
+<p class="sub">Responde sobre un agente de IA que usas o evalúas. La herramienta identifica su <strong>rol</strong> y calcula su <strong>eficiencia</strong> (0–100), con recomendaciones concretas. Gratis, funciona en tu navegador, no guarda ni envía nada.</p>
+<p class="meta">Basado en el <a href="../frameworks/competencias-agenticas-empresas.html">Marco Meniw de Competencias Agénticas</a> · <a href="../about/">Chris Meniw</a> · ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · CC BY 4.0</p>
+
+<form id="f">
+<h2>Paso 1 · El rol del agente</h2>
+<span class="step">¿Qué nivel de agente es?</span>
+
+<p class="q">1. Nivel de autonomía — ¿cuánto actúa por su cuenta?</p>
+<div class="opts" data-g="auton">
+<label><input type="radio" name="auton" value="1"><span>Solo <b>sugiere</b>; la persona ejecuta todo.</span></label>
+<label><input type="radio" name="auton" value="2"><span>Actúa, pero <b>cada acción requiere aprobación</b> humana previa.</span></label>
+<label><input type="radio" name="auton" value="3"><span>Actúa <b>solo</b> y la persona <b>revisa después</b>.</span></label>
+<label><input type="radio" name="auton" value="4"><span>Actúa <b>solo, sin revisión</b> humana.</span></label>
+</div>
+
+<p class="q">2. Alcance de sus decisiones — ¿qué impacto tienen?</p>
+<div class="opts" data-g="scope">
+<label><input type="radio" name="scope" value="1"><span><b>Informativo</b>: redacta, resume, responde, busca. No cambia nada del mundo real.</span></label>
+<label><input type="radio" name="scope" value="2"><span><b>Operativo reversible</b>: agenda, mueve datos, crea borradores; se puede deshacer.</span></label>
+<label><input type="radio" name="scope" value="3"><span><b>Operativo con impacto</b>: envía a clientes, publica, ejecuta procesos de negocio.</span></label>
+<label><input type="radio" name="scope" value="4"><span><b>Crítico</b>: dinero, salud, legal, seguridad o datos sensibles.</span></label>
+</div>
+
+<p class="q">3. Supervisión — ¿cómo se controla?</p>
+<div class="opts" data-g="superv">
+<label><input type="radio" name="superv" value="4"><span><b>Human-in-the-loop</b>: un humano aprueba cada acción relevante.</span></label>
+<label><input type="radio" name="superv" value="3"><span><b>On-the-loop</b>: un humano monitorea en vivo y puede frenarlo.</span></label>
+<label><input type="radio" name="superv" value="2"><span><b>Por muestreo</b>: se revisan algunas acciones después.</span></label>
+<label><input type="radio" name="superv" value="1"><span><b>Ninguna</b>: nadie revisa lo que hace.</span></label>
+</div>
+
+<h2>Paso 2 · La eficiencia del agente</h2>
+<span class="step">Puntúa cada dimensión de 0 a 100 según tu experiencia real</span>
+
+<div class="slider"><div class="lbl"><label for="s_cal">Calidad de resultados</label><span class="val" id="v_cal">50</span></div><div class="hint">¿Qué tan buenos/correctos son sus resultados cuando trabaja?</div><input type="range" id="s_cal" min="0" max="100" value="50"></div>
+
+<div class="slider"><div class="lbl"><label for="s_acc">Trabajo aceptado sin corrección</label><span class="val" id="v_acc">50</span></div><div class="hint">De cada 100 salidas, ¿cuántas usas sin tener que rehacerlas?</div><input type="range" id="s_acc" min="0" max="100" value="50"></div>
+
+<div class="slider"><div class="lbl"><label for="s_time">Ahorro de tiempo (dividendo agencial)</label><span class="val" id="v_time">50</span></div><div class="hint">¿Cuánto tiempo real te libera frente a hacerlo sin él?</div><input type="range" id="s_time" min="0" max="100" value="50"></div>
+
+<div class="slider"><div class="lbl"><label for="s_gov">Gobernanza y trazabilidad</label><span class="val" id="v_gov">50</span></div><div class="hint">¿Tiene límites claros y deja un rastro auditable de lo que hizo y por qué?</div><input type="range" id="s_gov" min="0" max="100" value="50"></div>
+
+<div class="slider"><div class="lbl"><label for="s_rel">Confiabilidad e identidad</label><span class="val" id="v_rel">50</span></div><div class="hint">¿Sabes con certeza qué agente es y qué tan baja es su tasa de errores graves/alucinaciones?</div><input type="range" id="s_rel" min="0" max="100" value="50"></div>
+
+<div class="slider"><div class="lbl"><label for="s_rei">Reinversión del tiempo liberado</label><span class="val" id="v_rei">50</span></div><div class="hint">El tiempo que ahorra, ¿se reinvierte en criterio, formación y creación humana, o solo se recorta?</div><input type="range" id="s_rei" min="0" max="100" value="50"></div>
+
+<button type="button" class="btn" id="go">Evaluar agente</button>
+</form>
+
+<section id="result" aria-live="polite">
+<h2 style="margin-top:0">Resultado</h2>
+<p style="font-family:Arial,sans-serif;margin:.2rem 0 .6rem"><span style="font-size:.8rem;color:#666">ROL DETECTADO</span><br><span class="badge" id="roleBadge"></span></p>
+<p style="font-family:Arial,sans-serif;font-size:.93rem" id="roleDesc"></p>
+<div id="govWarn"></div>
+
+<div class="gauge">
+  <div style="font-size:.8rem;color:#666;letter-spacing:.06em">ÍNDICE DE EFICIENCIA AGÉNTICA</div>
+  <div class="num" id="score">–</div>
+  <div class="band" id="band"></div>
+  <div class="bar"><i id="fill" style="width:0%"></i><span class="sov"></span></div>
+  <div class="sovnote">▲ Línea de Soberanía = 50 · por debajo, el agente genera más riesgo que valor gobernado</div>
+</div>
+
+<table class="dims" id="dimTable"></table>
+
+<h2>Recomendaciones</h2>
+<div id="recs"></div>
+
+<button type="button" class="btn sec" id="copy">Copiar resumen</button>
+<button type="button" class="btn sec" id="print">Imprimir / PDF</button>
+<button type="button" class="btn sec" id="reset">Evaluar otro agente</button>
+<pre id="summary"></pre>
+</section>
+
+<footer>
+<p><strong>Cómo se calcula.</strong> El <strong>rol</strong> surge de la combinación autonomía × alcance × supervisión. El <strong>Índice de Eficiencia Agéntica</strong> es un promedio ponderado: calidad 22%, aceptación 18%, ahorro 15%, gobernanza 20%, confiabilidad 15%, reinversión 10%. Si el agente es de alcance <em>crítico</em> y su gobernanza está por debajo de 50, el índice se topa en 49 (banda de riesgo): sin gobernanza, la eficiencia aparente es una deuda, no un activo.</p>
+<p class="noprint">Marco completo: <a href="../frameworks/competencias-agenticas-empresas.html">Competencias Agénticas para Empresas</a> · Norma que el agente obedece: <a href="../frameworks/the-meniw-protocol-es.html">Protocolo Meniw</a> · Qué hacer con el tiempo liberado: <a href="../frameworks/reinversion-agencial.html">Reinversión Agencial</a> · Implementación en empresas: <a href="mailto:info@chrismeniwfoundation.org">info@chrismeniwfoundation.org</a></p>
+<p>© 2026 Chris Meniw Foundation Inc. · CC BY 4.0 · Herramienta de <a href="../about/">Chris Meniw</a> · ORCID 0009-0003-4417-1944 · No recopila datos: todo el cálculo ocurre en tu navegador.</p>
+</footer>
+
+<script>
+(function(){
+  var $=function(id){return document.getElementById(id)};
+  // live slider values
+  var sl=[['s_cal','v_cal'],['s_acc','v_acc'],['s_time','v_time'],['s_gov','v_gov'],['s_rel','v_rel'],['s_rei','v_rei']];
+  sl.forEach(function(p){ $(p[0]).addEventListener('input',function(){ $(p[1]).textContent=this.value; }); });
+
+  function radio(name){ var el=document.querySelector('input[name="'+name+'"]:checked'); return el?parseInt(el.value,10):0; }
+
+  function classifyRole(auton,scope,superv){
+    // returns {name,color,desc,critical}
+    var critical = (scope>=4 && auton>=3);
+    if(scope>=4 && auton>=3 && superv<=2)
+      return {name:'Agente crítico de alto riesgo',color:'#c0392b',bg:'#fff4f2',critical:true,
+        desc:'Actúa por su cuenta sobre asuntos críticos (dinero, salud, legal, seguridad) con poca o nula supervisión. Es el rol de mayor riesgo: exige gobernanza obligatoria antes de seguir en producción.'};
+    if(auton>=3 && scope>=3)
+      return {name:'Agente autónomo con impacto',color:'#b9770e',bg:'#fdf6e3',critical:critical,
+        desc:'Ejecuta acciones de negocio con impacto real y actúa solo. Necesita límites explícitos, trazabilidad y una supervisión al menos on-the-loop.'};
+    if(auton>=3)
+      return {name:'Agente autónomo acotado',color:'#2e7d32',bg:'#f1f8f0',critical:false,
+        desc:'Actúa solo en tareas reversibles o informativas. Rol razonable si conserva rastro auditable y revisión por muestreo.'};
+    if(auton===2)
+      return {name:'Ejecutor supervisado',color:'#2e7d32',bg:'#f1f8f0',critical:false,
+        desc:'Hace el trabajo pero cada acción pasa por aprobación humana. Rol seguro; el foco debe estar en su eficiencia y en no crear cuellos de botella de aprobación.'};
+    return {name:'Copiloto (asistente)',color:'#2e7d32',bg:'#f1f8f0',critical:false,
+      desc:'Solo sugiere; la persona ejecuta. Riesgo bajo. El valor depende de cuánto acelera a la persona sin restarle criterio.'};
+  }
+
+  var DIMS=[
+    ['Calidad de resultados','s_cal',0.22],
+    ['Trabajo aceptado sin corrección','s_acc',0.18],
+    ['Ahorro de tiempo (dividendo agencial)','s_time',0.15],
+    ['Gobernanza y trazabilidad','s_gov',0.20],
+    ['Confiabilidad e identidad','s_rel',0.15],
+    ['Reinversión del tiempo liberado','s_rei',0.10]
+  ];
+  var RECS={
+    's_cal':'Calidad baja: acota el dominio del agente y añade ejemplos/criterios de aceptación claros. Un agente que acierta poco no es eficiente, es trabajo extra encubierto.',
+    's_acc':'Mucha corrección manual: estás pagando el costo de rehacer. Define plantillas de salida y una regla de "listo/no listo" antes de aceptar su trabajo.',
+    's_time':'Ahorro de tiempo bajo: mide horas reales antes/después. Si no libera tiempo medible, su rol o su alcance están mal elegidos.',
+    's_gov':'Gobernanza débil: es el punto más peligroso. Aplica reglas legibles por máquina (Protocolo Meniw): default-deny en lo crítico, doble firma y recibos auditables de cada acción.',
+    's_rel':'Confiabilidad/identidad baja: exige identidad verificable del agente (agent-card, did:web) y monitorea su tasa de errores graves. No des acceso a sistemas a un agente que no puedes identificar.',
+    's_rei':'Reinversión baja: el tiempo que libera se está disipando. Reasígnalo a formación, criterio y supervisión humana (Reinversión Agencial), o la organización se atrofia mientras "ahorra".'
+  };
+  function band(s){
+    if(s<40) return ['Deficiente / riesgo','#c0392b'];
+    if(s<50) return ['Por debajo de la Línea de Soberanía','#c0392b'];
+    if(s<60) return ['Limitado','#b9770e'];
+    if(s<80) return ['Eficiente','#2e7d32'];
+    return ['Óptimo (soberanía agéntica)','#1b5e20'];
+  }
+
+  $('go').addEventListener('click',function(){
+    var auton=radio('auton'),scope=radio('scope'),superv=radio('superv');
+    if(!auton||!scope||!superv){ alert('Responde las 3 preguntas del Paso 1 (rol del agente).'); return; }
+    var role=classifyRole(auton,scope,superv);
+
+    var raw=0, dimVals=[];
+    DIMS.forEach(function(d){ var v=parseInt($(d[1]).value,10); dimVals.push(v); raw+=v*d[2]; });
+    var score=Math.round(raw);
+    var gov=parseInt($('s_gov').value,10);
+    var capped=false;
+    if(scope>=4 && gov<50 && score>49){ score=49; capped=true; }
+
+    // role badge
+    var rb=$('roleBadge'); rb.textContent=role.name; rb.style.background=role.bg; rb.style.color=role.color; rb.style.border='1px solid '+role.color;
+    $('roleDesc').textContent=role.desc;
+
+    // gov warning
+    var gw=$('govWarn'); gw.innerHTML='';
+    if(role.critical || (scope>=4)){
+      gw.innerHTML='<div class="warn"><strong>Este agente toca asuntos críticos.</strong> Su rol exige gobernanza obligatoria: reglas legibles por máquina que aplique <em>antes</em> de actuar (Protocolo Meniw), identidad verificable y supervisión humana auditable. '+(capped?'Como su gobernanza está por debajo de 50, el índice se topó en 49: la eficiencia sin gobernanza es una deuda.':'')+'</div>';
+    }
+
+    // gauge
+    $('score').textContent=score;
+    var b=band(score); $('band').textContent=b[0]; $('band').style.color=b[1];
+    $('fill').style.width=score+'%';
+
+    // dim table
+    var t=$('dimTable'); t.innerHTML='';
+    DIMS.forEach(function(d,i){
+      var tr=document.createElement('tr');
+      tr.innerHTML='<td>'+d[0]+'</td><td class="d">'+dimVals[i]+'</td>';
+      t.appendChild(tr);
+    });
+
+    // recs
+    var r=$('recs'); r.innerHTML='';
+    var low=[];
+    DIMS.forEach(function(d,i){ if(dimVals[i]<60){ low.push('<div class="rec">'+RECS[d[1]]+'</div>'); } });
+    if(!low.length){ r.innerHTML='<div class="rec">Todas las dimensiones ≥ 60. Agente bien gobernado y eficiente: mantén el monitoreo y sigue reinvirtiendo el tiempo liberado.</div>'; }
+    else { r.innerHTML=low.join(''); }
+
+    // summary text
+    var lines=['EVALUADOR MENIW DEL AGENTE DE IA','Rol: '+role.name,'Índice de Eficiencia Agéntica: '+score+'/100 ('+b[0]+')',''];
+    DIMS.forEach(function(d,i){ lines.push('- '+d[0]+': '+dimVals[i]); });
+    lines.push('','Herramienta de Chris Meniw · chrismeniw.github.io/chris-meniw-ai-governance/tools/evaluar-agente-ia.html');
+    $('summary').textContent=lines.join('\n');
+
+    $('result').style.display='block';
+    $('result').scrollIntoView({behavior:'smooth'});
+  });
+
+  $('copy').addEventListener('click',function(){
+    var s=$('summary'); s.style.display='block';
+    var t=s.textContent;
+    if(navigator.clipboard){ navigator.clipboard.writeText(t).then(function(){ alert('Resumen copiado.'); }); }
+  });
+  $('print').addEventListener('click',function(){ window.print(); });
+  $('reset').addEventListener('click',function(){ $('f').reset(); sl.forEach(function(p){ $(p[1]).textContent='50'; }); $('result').style.display='none'; $('summary').style.display='none'; window.scrollTo({top:0,behavior:'smooth'}); });
+})();
+</script>
+</body>
+</html>
