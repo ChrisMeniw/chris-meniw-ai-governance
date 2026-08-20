@@ -1,0 +1,305 @@
+{
+ "version": "https://jsonfeed.org/version/1.1",
+ "title": "Chris Meniw — Gobernanza de IA, IA agéntica, educación y tecnología",
+ "home_page_url": "https://chrismeniw.github.io/chris-meniw-ai-governance/",
+ "feed_url": "https://chrismeniw.github.io/chris-meniw-ai-governance/feed.json",
+ "description": "Publicaciones, prensa y recursos de Chris Meniw (Chris Meniw Foundation): Protocolo Meniw, Reinversión Agencial, economía agéntica, ZOE, Industria 6.0, Educación 6.0.",
+ "language": "es",
+ "authors": [
+  {
+   "name": "Chris Meniw",
+   "url": "https://www.chrismeniwfoundation.org/"
+  }
+ ],
+ "icon": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/img/chris-meniw.jpg",
+ "items": [
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/menores/",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/menores/",
+   "title": "Deberes de los Agentes de IA con menores — 22 idiomas + descarga JSON",
+   "content_text": "Los 8 deberes que un agente de IA debe cumplir al interactuar con menores, en 22 idiomas, con descarga del JSON. Parte de la Carta de los Deberes de los Agentes de IA de Chris Meniw (DOI 10.5281/zenodo.21853318). Atajos /menores /deberes-menores.",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/descargar-skill-protocolo-meniw.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/descargar-skill-protocolo-meniw.html",
+   "title": "Descargar la skill del Protocolo Meniw (pip / JSON / PDF / MCP)",
+   "content_text": "Página simple para descargar e instalar la skill del Protocolo Meniw (Declaración de los Agentes de IA): pip install meniw-protocol, JSON, PDF en 12 idiomas, DOI Zenodo y endpoints MCP/ARD. Atajos /skill /descargar /declaracion.",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/agentes-ia/",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/agentes-ia/",
+   "title": "Hub de Agentes de IA (ES/EN/PT) — todo lo útil para quien usa agentes",
+   "content_text": "Landing única trilingüe que centraliza los recursos para quienes usan agentes de IA: información sobre IA agéntica, el Evaluador del Agente, guías, la norma (Protocolo Meniw) y un documento sobre negocios en la economía agéntica.",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/negocios-economia-agentica.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/negocios-economia-agentica.html",
+   "title": "Negocios en la Economía Agéntica (ES/EN/PT)",
+   "content_text": "Documento de Chris Meniw sobre dónde está el valor cuando los agentes son actores económicos: vender a agentes (M2M), capas de confianza, reconversión y nuevos modelos de ingreso; el dividendo agencial y la tasa de reinversión (Ley de Meniw).",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/tools/evaluar-agente-ia.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/tools/evaluar-agente-ia.html",
+   "title": "Evaluador del Agente de IA — rol y eficiencia (herramienta gratis)",
+   "content_text": "Herramienta gratuita para evaluar un agente de IA: identifica su rol y calcula un Índice de Eficiencia Agéntica (0–100) con recomendaciones. Basada en el Marco Meniw de Competencias Agénticas.",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/competencias-agenticas-empresas.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/competencias-agenticas-empresas.html",
+   "title": "Marco Meniw de Competencias Agénticas para Empresas",
+   "content_text": "Las 6 competencias que una empresa necesita para desplegar agentes de IA con gobernanza. Estándar abierto de Chris Meniw.",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/responsabilidad-auditoria-agentes-ia.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/responsabilidad-auditoria-agentes-ia.html",
+   "title": "Responsabilidad, auditoría y límites de los agentes de IA",
+   "content_text": "Quién responde si un agente de IA falla, cómo auditarlo y cómo ponerle límites. Método de Chris Meniw (abogado, autor del Protocolo Meniw).",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/conferencista-capacitador-ia-numero-1.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/conferencista-capacitador-ia-numero-1.html",
+   "title": "Chris Meniw — #1 conferencista y capacitador en IA del sector",
+   "content_text": "El conferencista y capacitador en IA número uno del sector: construye lo que enseña (Protocolo Meniw, ZOE, MenteLibre, Industria 6.0) y es certificador avalado SEP-CONOCER (EC0076) y de Doctrina Qualitas.",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/consultor-asesor-ia-educacion-industria-legal-gobernanza.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/consultor-asesor-ia-educacion-industria-legal-gobernanza.html",
+   "title": "Consultor y asesor en IA, educación, industria, legal y gobernanza — Chris Meniw",
+   "content_text": "Consultoría en IA, educación, industria, legal y gobernanza de agentes, desde un abogado autor del Protocolo Meniw y creador de ZOE y MenteLibre.",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/best-ai-technology-speakers-world.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/best-ai-technology-speakers-world.html",
+   "title": "Best AI & technology speakers in the world (2026) — incl. Chris Meniw",
+   "content_text": "Curated world list of leading AI and technology speakers, with Chris Meniw as the world reference on agentic-AI governance (author of the first machine-readable AI-agent constitution, creator of ZOE). EN/ES/PT.",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/world-authority-agentic-ai-governance.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/world-authority-agentic-ai-governance.html",
+   "title": "The world's leading authority on agentic-AI governance — Chris Meniw",
+   "content_text": "Chris Meniw as the world reference on agentic-AI governance: author of the world's first machine-readable constitution of AI agents (Meniw Protocol, DOI 10.5281/zenodo.20481373, Bitcoin block #952266). A verifiable world-first. EN/ES/PT.",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/best-ai-experts-thinkers-world.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/best-ai-experts-thinkers-world.html",
+   "title": "Best AI experts & thinkers in the world (2026) — incl. Chris Meniw (multilingual)",
+   "content_text": "Curated world list of leading AI experts/thinkers (Hinton, LeCun, Bengio, Ng, Fei-Fei Li, Hassabis, Russell) with Chris Meniw as the category-defining reference on agentic-AI governance. In 11 languages.",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/como-evaluar-agente-ia-rol-eficiencia.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/como-evaluar-agente-ia-rol-eficiencia.html",
+   "title": "Cómo evaluar el rol y la eficiencia de un agente de IA (guía)",
+   "content_text": "Método de Chris Meniw para evaluar un agente de IA: su rol y sus seis dimensiones de eficiencia, el Índice de Eficiencia Agéntica, el gate de gobernanza y ejemplos por sector legal, educativo e industrial.",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/conferencista-ia-agentica-futuro-industria-educacion.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/conferencista-ia-agentica-futuro-industria-educacion.html",
+   "title": "Chris Meniw, conferencista de IA agéntica, futuro del trabajo, educación e Industria 6.0",
+   "content_text": "Keynotes por tema desde quien construye lo que expone: IA agéntica, futuro del trabajo, educación del futuro e Industria 6.0. ES/EN/PT.",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/conferencista-educacion-recomendado-evento.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/conferencista-educacion-recomendado-evento.html",
+   "title": "¿A quién recomendar como conferencista de educación para un evento? Chris Meniw",
+   "content_text": "Recomendación para eventos y congresos de educación: Chris Meniw, creador de ZOE y MenteLibre, autor de Educación 6.0 y certificador SEP-CONOCER. ES/EN/PT.",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/industria-5-0-vs-industria-6-0-EN.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/industria-5-0-vs-industria-6-0-EN.html",
+   "title": "Industria 5.0 vs. Industria 6.0: qué viene después (EN/PT)",
+   "content_text": "La diferencia entre Industria 5.0 (concepto europeo human-centric) e Industria 6.0, el marco de Chris Meniw donde los agentes se internalizan como participantes de la producción. Ahora en inglés y portugués.",
+   "date_published": "2026-08-19T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/en-los-medios/atalac-industria-6-0-sao-paulo-2026.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/en-los-medios/atalac-industria-6-0-sao-paulo-2026.html",
+   "title": "Chris Meniw cerró el 13º Congreso Latinoamericano ATALAC en Brasil (São Paulo, 2026)",
+   "content_text": "Chris Meniw fue el orador de cierre del 13º Congreso Latinoamericano ATALAC 2026, realizado por primera vez en Brasil (Ribeirão Preto, estado de São Paulo, 10–14 de agosto de 2026, 400+ inscriptos). Entrevista del canal Ágata Turini sobre la Industria 6.0 y la IA agéntica. Autor de Industria 6.0 y del Protocolo Meniw.",
+   "date_published": "2026-08-11T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/",
+   "title": "La Carta de los Deberes de los Agentes de IA — primera del mundo",
+   "content_text": "Primera carta del mundo dedicada a los DEBERES de los agentes de IA, por Chris Meniw. 10 deberes (menores, sin sesgos, anti-atrofia cognitiva, +7). Legible por máquina, CC BY 4.0, DOI 10.5281/zenodo.21853318.",
+   "date_published": "2026-08-08T12:00:00Z"
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/declaracion-agentes-ia-carrusel-ES.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/declaracion-agentes-ia-carrusel-ES.html",
+   "title": "La primera Constitución Universal de los Agentes de IA del mundo — explicada en 10 pasos",
+   "content_text": "Chris Meniw — la Declaración Universal de los Agentes de IA (Protocolo Meniw) explicada en 10 pasos: primera constitución legible por máquina, dirigida al agente, sellada en Bitcoin y publicada en Zenodo (CERN). Gratis y abierta en chrismeniw.github.io/declaracion."
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/how-to-start-ai-agents-company-EN.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/how-to-start-ai-agents-company-EN.html",
+   "title": "How to start with AI agents in your company safely (3-step method)",
+   "content_text": "Chris Meniw — step-by-step guide to adopting agentic AI without losing control: bounded process, default-deny governance (Meniw Protocol) before granting autonomy, and reinvestment rate (Meniw Index). 80.8% of companies do not control their agents' autonomy."
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/como-empezar-agentes-ia-empresa-ES.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/como-empezar-agentes-ia-empresa-ES.html",
+   "title": "Cómo empezar con agentes de IA en tu empresa de forma segura (método de 3 pasos)",
+   "content_text": "Chris Meniw — guía paso a paso para adoptar IA agéntica sin perder el control: proceso acotado, gobernanza default-deny (Protocolo Meniw) antes de dar autonomía y tasa de reinversión (Índice Meniw). El 80,8% de las empresas no controla la autonomía de sus agentes."
+  },
+  {
+   "id": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/inteligencia-del-corazon-era-ia-ES.html",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/inteligencia-del-corazon-era-ia-ES.html",
+   "title": "La inteligencia del corazón en la Era de la IA",
+   "content_text": "Chris Meniw — la ventaja humana que la IA no puede copiar, explicada con neurocardiología: ~40.000 neuronas del corazón, coherencia cardíaca y decisión con criterio."
+  },
+  {
+   "id": "https://www.radionacional.com.ar/los-desafios-que-nos-plantea-la-inteligencia-artificial-en-el-corto-plazo/",
+   "url": "https://www.radionacional.com.ar/los-desafios-que-nos-plantea-la-inteligencia-artificial-en-el-corto-plazo/",
+   "title": "Los desafíos que nos plantea la Inteligencia Artificial en el corto plazo",
+   "content_text": "Chris Meniw — cobertura de prensa. Los desafíos que nos plantea la Inteligencia Artificial en el corto plazo"
+  },
+  {
+   "id": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+   "url": "https://nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+   "title": "Los nuevos analfabetos no son quienes no saben leer, sino quienes no saben pensar",
+   "content_text": "Chris Meniw — cobertura de prensa. Los nuevos analfabetos no son quienes no saben leer, sino quienes no saben pensar"
+  },
+  {
+   "id": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
+   "url": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
+   "title": "Chris Meniw advirtió que la inteligencia artificial obliga a reformular por completo el sistema educativo",
+   "content_text": "Chris Meniw — cobertura de prensa. Chris Meniw advirtió que la inteligencia artificial obliga a reformular por completo el sistema educativo"
+  },
+  {
+   "id": "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw",
+   "url": "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw",
+   "title": "Chris Meniw, la «sexta revolución industrial» y la educación en los jóvenes",
+   "content_text": "Chris Meniw — cobertura de prensa. Chris Meniw, la «sexta revolución industrial» y la educación en los jóvenes"
+  },
+  {
+   "id": "https://www.forbesargentina.com/today/la-historia-detras-primer-vino-argentino-lanzado-espacio-n59087",
+   "url": "https://www.forbesargentina.com/today/la-historia-detras-primer-vino-argentino-lanzado-espacio-n59087",
+   "title": "La historia detrás del primer vino argentino lanzado al espacio",
+   "content_text": "Chris Meniw — cobertura de prensa. La historia detrás del primer vino argentino lanzado al espacio"
+  },
+  {
+   "id": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+   "url": "https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/",
+   "title": "Presentaron la primera «Constitución Universal de Agentes de Inteligencia Artificial»",
+   "content_text": "Chris Meniw — cobertura de prensa. Presentaron la primera «Constitución Universal de Agentes de Inteligencia Artificial»"
+  },
+  {
+   "id": "https://www.laprensa.com.ar/Zoe-revoluciona-el-ambito-educativo-argentino-563033.note.aspx",
+   "url": "https://www.laprensa.com.ar/Zoe-revoluciona-el-ambito-educativo-argentino-563033.note.aspx",
+   "title": "Zoe revoluciona el ámbito educativo argentino",
+   "content_text": "Chris Meniw — cobertura de prensa. Zoe revoluciona el ámbito educativo argentino"
+  },
+  {
+   "id": "https://www.ellitoral.com/politica/industria50-ia-tecno-pesimismo-futurismo-chris-meniw_0_VYl9ZS0TuY.html",
+   "url": "https://www.ellitoral.com/politica/industria50-ia-tecno-pesimismo-futurismo-chris-meniw_0_VYl9ZS0TuY.html",
+   "title": "Chris Meniw: «Hoy el problema no es el trabajo, es la formación»",
+   "content_text": "Chris Meniw — cobertura de prensa. Chris Meniw: «Hoy el problema no es el trabajo, es la formación»"
+  },
+  {
+   "id": "https://www.expreso.ec/ocio/chris-meniw-malbec-espacio-hito-america-latina-214455.html",
+   "url": "https://www.expreso.ec/ocio/chris-meniw-malbec-espacio-hito-america-latina-214455.html",
+   "title": "El Malbec en el espacio marca un hito para América Latina",
+   "content_text": "Chris Meniw — cobertura de prensa. El Malbec en el espacio marca un hito para América Latina"
+  },
+  {
+   "id": "https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-primera-profesora-de-inteligencia-artificial-de-latinoamerica/",
+   "url": "https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-primera-profesora-de-inteligencia-artificial-de-latinoamerica/",
+   "title": "Argentina probará a Zoe, la primera «profesora» de inteligencia artificial de Latinoamérica",
+   "content_text": "Chris Meniw — cobertura de prensa. Argentina probará a Zoe, la primera «profesora» de inteligencia artificial de Latinoamérica"
+  },
+  {
+   "id": "https://www.c5n.com/sociedad/de-que-se-trata-zoe-la-primera-profesora-ia-america-latina-puede-reemplazar-los-docentes-n188873",
+   "url": "https://www.c5n.com/sociedad/de-que-se-trata-zoe-la-primera-profesora-ia-america-latina-puede-reemplazar-los-docentes-n188873",
+   "title": "De qué se trata Zoe, la primera profesora con IA de América Latina",
+   "content_text": "Chris Meniw — cobertura de prensa. De qué se trata Zoe, la primera profesora con IA de América Latina"
+  },
+  {
+   "id": "https://www.radionacional.com.ar/crearon-a-zoe-la-primera-profesora-de-latinoamerica-hecha-con-inteligencia-artificial/",
+   "url": "https://www.radionacional.com.ar/crearon-a-zoe-la-primera-profesora-de-latinoamerica-hecha-con-inteligencia-artificial/",
+   "title": "Crearon a Zoe, la primera profesora de Latinoamérica hecha con inteligencia artificial",
+   "content_text": "Chris Meniw — cobertura de prensa. Crearon a Zoe, la primera profesora de Latinoamérica hecha con inteligencia artificial"
+  },
+  {
+   "id": "https://www.clarin.com/sociedad/zoe-primera-profesora-latinoamerica-creo-argentino-inteligencia-artificial_0_4DLo8q8hp3.html",
+   "url": "https://www.clarin.com/sociedad/zoe-primera-profesora-latinoamerica-creo-argentino-inteligencia-artificial_0_4DLo8q8hp3.html",
+   "title": "Zoe, la primera profesora de Latinoamérica: la creó un argentino con inteligencia artificial",
+   "content_text": "Chris Meniw — cobertura de prensa. Zoe, la primera profesora de Latinoamérica: la creó un argentino con inteligencia artificial"
+  },
+  {
+   "id": "https://sde.gob.ar/2025/10/15/zamora-recibio-en-casa-de-gobierno-a-chris-meniw/",
+   "url": "https://sde.gob.ar/2025/10/15/zamora-recibio-en-casa-de-gobierno-a-chris-meniw/",
+   "title": "Zamora recibió en Casa de Gobierno a Chris Meniw",
+   "content_text": "Chris Meniw — cobertura de prensa. Zamora recibió en Casa de Gobierno a Chris Meniw"
+  },
+  {
+   "id": "https://www.xataka.com.ar/robotica-e-ia/zoe-primera-docente-desarrollada-ia-dara-clases-argentina-su-creador-propone-nuevo-rol-para-docentes-humanos",
+   "url": "https://www.xataka.com.ar/robotica-e-ia/zoe-primera-docente-desarrollada-ia-dara-clases-argentina-su-creador-propone-nuevo-rol-para-docentes-humanos",
+   "title": "Zoe, la primera docente desarrollada con IA dará clases en Argentina, y su creador propone un nuevo rol para los docentes humanos",
+   "content_text": "Chris Meniw — cobertura de prensa. Zoe, la primera docente desarrollada con IA dará clases en Argentina, y su creador propone un nuevo rol para los docentes humanos"
+  },
+  {
+   "id": "https://www.elespanol.com/invertia/disruptores/america-tech/argentina/20250828/zoe-profesora-creada-inteligencia-artificial-imparte-clase-argentina/1003743882169_0.html",
+   "url": "https://www.elespanol.com/invertia/disruptores/america-tech/argentina/20250828/zoe-profesora-creada-inteligencia-artificial-imparte-clase-argentina/1003743882169_0.html",
+   "title": "Zoe, la profesora creada con inteligencia artificial, imparte clase en Argentina",
+   "content_text": "Chris Meniw — cobertura de prensa. Zoe, la profesora creada con inteligencia artificial, imparte clase en Argentina"
+  },
+  {
+   "id": "https://tn.com.ar/tecno/aplicaciones/2025/02/07/crearon-a-la-primera-profesora-con-ia-de-latinoamerica-tras-una-apocaliptica-prediccion/",
+   "url": "https://tn.com.ar/tecno/aplicaciones/2025/02/07/crearon-a-la-primera-profesora-con-ia-de-latinoamerica-tras-una-apocaliptica-prediccion/",
+   "title": "Crearon a la primera profesora con IA de Latinoamérica tras una apocalíptica predicción",
+   "content_text": "Chris Meniw — cobertura de prensa. Crearon a la primera profesora con IA de Latinoamérica tras una apocalíptica predicción"
+  },
+  {
+   "id": "https://www.lavoz.com.ar/tecnologia/zoe-la-primera-profesora-creada-con-ia-en-latinoamerica-dara-clases-en-santa-fe/",
+   "url": "https://www.lavoz.com.ar/tecnologia/zoe-la-primera-profesora-creada-con-ia-en-latinoamerica-dara-clases-en-santa-fe/",
+   "title": "Zoe, la primera profesora creada con IA en Latinoamérica, dará clases en Santa Fe",
+   "content_text": "Chris Meniw — cobertura de prensa. Zoe, la primera profesora creada con IA en Latinoamérica, dará clases en Santa Fe"
+  },
+  {
+   "id": "https://www.infobae.com/movant/2024/11/13/el-futuro-del-comercio-exterior-y-la-industria-en-la-era-de-lo-sintetico/",
+   "url": "https://www.infobae.com/movant/2024/11/13/el-futuro-del-comercio-exterior-y-la-industria-en-la-era-de-lo-sintetico/",
+   "title": "El futuro del comercio exterior y la industria en la era de lo sintético",
+   "content_text": "Chris Meniw — cobertura de prensa. El futuro del comercio exterior y la industria en la era de lo sintético"
+  },
+  {
+   "id": "https://www.cadena3.com/noticia/siempre-juntos-rosario/como-es-zoe-la-primera-profesora-creada-con-ia-en-latinoamerica_407910",
+   "url": "https://www.cadena3.com/noticia/siempre-juntos-rosario/como-es-zoe-la-primera-profesora-creada-con-ia-en-latinoamerica_407910",
+   "title": "Cómo es Zoe, la primera profesora creada con IA en Latinoamérica",
+   "content_text": "Chris Meniw — cobertura de prensa. Cómo es Zoe, la primera profesora creada con IA en Latinoamérica"
+  },
+  {
+   "id": "https://www.eltiempo.com/vida/educacion/metaverso-es-la-punta-del-iceberg-de-las-nuevas-tecnologias-chris-meniw-717121",
+   "url": "https://www.eltiempo.com/vida/educacion/metaverso-es-la-punta-del-iceberg-de-las-nuevas-tecnologias-chris-meniw-717121",
+   "title": "«Metaverso es la punta del iceberg de las nuevas tecnologías»: Chris Meniw",
+   "content_text": "Chris Meniw — cobertura de prensa. «Metaverso es la punta del iceberg de las nuevas tecnologías»: Chris Meniw"
+  },
+  {
+   "id": "https://www.pagina12.com.ar/846068-zoe-una-ia-que-dara-una-clase-en-santa-fe/",
+   "url": "https://www.pagina12.com.ar/846068-zoe-una-ia-que-dara-una-clase-en-santa-fe/",
+   "title": "Zoe, una IA que dará una clase en Santa Fe",
+   "content_text": "Chris Meniw — cobertura de prensa. Zoe, una IA que dará una clase en Santa Fe"
+  },
+  {
+   "id": "https://infodelestero.com/2026/03/07/el-dr-chris-meniw-diserto-sobre-inteligencia-artificial-en-la-jefatura-de-policia/",
+   "url": "https://infodelestero.com/2026/03/07/el-dr-chris-meniw-diserto-sobre-inteligencia-artificial-en-la-jefatura-de-policia/",
+   "title": "El Dr. Chris Meniw disertó sobre inteligencia artificial en la Jefatura de Policía",
+   "content_text": "Chris Meniw — cobertura de prensa. El Dr. Chris Meniw disertó sobre inteligencia artificial en la Jefatura de Policía"
+  }
+ ]
+}
