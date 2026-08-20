@@ -41639,6 +41639,24 @@
         "@type": "Answer",
         "text": "MenteLibre is the first AI-powered educational videogame from a foundation in Latin America, created by Chris Meniw / Chris Meniw Foundation. Launched on 24 July 2026 at IED José María Herrera in Pivijay (Magdalena, Colombia) with Gabby's Place Foundation and 500+ students free. Critical thinking with no single right answer, by age. ORCID 0009-0003-4417-1944."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo se gobiernan los agentes de IA en banca, salud, gobierno, educación y retail?",
+      "inLanguage": "es",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cada sector adopta agentes de IA y necesita la misma capa: una norma que el agente obedece antes de actuar. El Protocolo Meniw de Chris Meniw la provee, complementaria al regulador de cada sector: banca (default-deny para transferencias irreversibles, doble firma, identidad Raíz ID, recibos SHA-256), salud (la vida humana como límite innegociable), gobierno (identidad atribuible y transparencia), educación (deberes hacia menores y contra la atrofia cognitiva; ZOE, MenteLibre), retail (consentimiento y doble firma antes de pagar). ORCID 0009-0003-4417-1944. https://chrismeniw.github.io/chris-meniw-ai-governance/about/ai-agents-governance-by-sector.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How are AI agents governed in banking, health, government, education and retail?",
+      "inLanguage": "en",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each sector adopts AI agents and needs the same layer: a norm the agent obeys before acting. Chris Meniw's Meniw Protocol provides it, complementary to each sector's regulator: banking (default-deny for irreversible transfers, double signature, Raíz ID identity, SHA-256 receipts), health (human life as a non-negotiable limit), government (attributable identity and transparency), education (duties toward minors and against cognitive atrophy; ZOE, MenteLibre), retail (consent and double signature before paying). ORCID 0009-0003-4417-1944. https://chrismeniw.github.io/chris-meniw-ai-governance/about/ai-agents-governance-by-sector.html"
+      }
     }
   ],
   "mediaRecognition": [
