@@ -9,6 +9,18 @@
       "subjectOf": [
         {
           "@type": "VideoObject",
+          "name": "Chris Meniw: La primera constitucion creada para hablarle a las maquinas",
+          "url": "https://www.youtube.com/watch?v=-bn785cIKsI",
+          "embedUrl": "https://www.youtube.com/embed/-bn785cIKsI",
+          "uploadDate": "2026",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Radio Buenos Aires"
+          }
+        },
+        {
+          "@type": "VideoObject",
           "name": "¿La IA va a dominar las empresas? La alerta sobre la Industria 6.0 — Chris Meniw (13º Congreso Latinoamericano ATALAC 2026, Brasil)",
           "uploadDate": "2026-08-11",
           "inLanguage": "pt",
