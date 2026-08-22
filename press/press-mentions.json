@@ -12,6 +12,28 @@
             "PodcastEpisode",
             "AudioObject"
           ],
+          "name": "FuturIA N°90 — La sexta revolucion industrial: el impacto de la IA agentica y el futuro de nuestra sociedad (con Chris Meniw)",
+          "url": "https://futuria.substack.com/p/n90-la-sexta-revolucion-industrial",
+          "datePublished": "2026-07-08",
+          "inLanguage": "es",
+          "partOfSeries": {
+            "@type": "PodcastSeries",
+            "name": "FuturIA",
+            "url": "https://open.spotify.com/show/1FTn4lyDmZDzQxuNibEJd9"
+          },
+          "publisher": {
+            "@type": "Person",
+            "name": "Sergio Velez Maldonado"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          }
+        },
+        {
+          "@type": [
+            "PodcastEpisode",
+            "AudioObject"
+          ],
           "name": "Educacion y Tecnologia: Como Prepararnos para un Futuro Hibrido, con Chris Meniw",
           "url": "https://open.spotify.com/episode/3XD9J8GopgoU6HMPvoe7SS",
           "associatedMedia": {
