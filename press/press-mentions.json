@@ -2599,6 +2599,20 @@
       "mentions": {
         "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
       }
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Nuestras Noticias Chihuahua entrevista a Chris Meniw sobre tecnología y futuro",
+      "url": "https://www.instagram.com/reel/DKx4rg2OuUC/",
+      "inLanguage": "es",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Nuestras Noticias Chihuahua (México)"
+      },
+      "about": {
+        "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+      },
+      "description": "Con una visión realista del futuro, Chris Meniw platica de cómo la tecnología influirá en nuestras vidas. Cobertura de prensa mexicana (Chihuahua)."
     }
   ]
 }
