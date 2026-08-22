@@ -8,6 +8,24 @@
       "description": "Cubierto por 32 notas en 27 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
       "subjectOf": [
         {
+          "@type": [
+            "SocialMediaPosting",
+            "VideoObject"
+          ],
+          "name": "Chris Meniw en 'Platicas de Sillon' — Radioactiva Tx (EE.UU./Texas)",
+          "url": "https://www.instagram.com/reels/DONENIgjsJ7/",
+          "datePublished": "2025-09-04",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Radioactiva Tx"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "Aparicion de Chris Meniw en el programa 'Platicas de Sillon' del medio Radioactiva Tx (Texas, EE.UU.)."
+        },
+        {
           "@type": "NewsArticle",
           "headline": "Invita Canaco a Foro de Innovacion para emprendedores y empresarios",
           "url": "https://oem.com.mx/elheraldodechihuahua/local/invita-canaco-a-foro-de-innovacion-para-emprendedores-y-empresarios-23881037.html",
