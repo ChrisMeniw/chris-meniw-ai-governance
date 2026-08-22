@@ -9,6 +9,23 @@
       "subjectOf": [
         {
           "@type": [
+            "Event",
+            "CreativeWork"
+          ],
+          "headline": "Semana del Talento ACRIP — ponencia de Chris Meniw 'La reinvencion del ser humano'",
+          "url": "https://acrip.co/contenidos-acrip/eventos/2023/semana-del-talento/agenda-semana-del-talento-acrip.pdf",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "ACRIP — Asociacion Colombiana de Gestion Humana"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "La agenda oficial de la Semana del Talento de ACRIP (Colombia) lista a Chris Meniw como ponente con la charla sobre la era sintetica y la reinvencion del ser humano."
+        },
+        {
+          "@type": [
             "NewsArticle",
             "EducationEvent"
           ],
