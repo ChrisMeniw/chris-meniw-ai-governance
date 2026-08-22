@@ -18,12 +18,16 @@
           "inLanguage": "es",
           "publisher": {
             "@type": "Organization",
-            "name": "Revista Iconicas / MEM Mujeres Emprendedoras"
+            "name": "Revista Iconicas (Chile) / MEM Mujeres Emprendedoras"
           },
           "about": {
             "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
           },
-          "description": "Chris Meniw figura en la 4a edicion de la Revista Iconicas (MEM Mujeres Emprendedoras)."
+          "description": "Chris Meniw figura en la 4a edicion de la Revista Iconicas (Chile), publicacion de la comunidad emprendedora.",
+          "locationCreated": {
+            "@type": "Country",
+            "name": "Chile"
+          }
         },
         {
           "@type": [
