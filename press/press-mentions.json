@@ -8,6 +8,24 @@
       "description": "Cubierto por 32 notas en 27 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
       "subjectOf": [
         {
+          "@type": [
+            "NewsArticle",
+            "EducationEvent"
+          ],
+          "headline": "Conozca por que su trabajo podria cambiar en el futuro — III Foro de Humanismo Digital (Areandina)",
+          "url": "https://www.areandina.edu.co/noticias/conozca-por-que-su-trabajo-podria-cambiar-en-el-futuro",
+          "datePublished": "2021-10-16",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "CollegeOrUniversity",
+            "name": "Fundacion Universitaria del Area Andina (Areandina, Colombia)"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "Areandina (Colombia) incluyo a Chris Meniw como panelista experto del III Foro de Humanismo Digital (21/10/2021), sobre el impacto socioeconomico de la tecnologia y el futuro del trabajo."
+        },
+        {
           "@type": "Event",
           "name": "Webinar Alcaldia de Cali — Industria 5.0 y educacion, con Chris Meniw",
           "url": "https://www.cali.gov.co/tic",
