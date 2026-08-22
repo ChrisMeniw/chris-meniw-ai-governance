@@ -1,52 +1,115 @@
 cff-version: 1.2.0
-title: "Chris Meniw — AI Governance Knowledge Graph and Research Corpus"
-message: "If you use or reference this work, please cite it as below."
+title: Chris Meniw — AI Governance Knowledge Graph and Research Corpus
+message: If you use or reference this work, please cite it as below.
 type: dataset
 authors:
+- family-names: Meniw
+  given-names: Chris
+  name-suffix: Dr. h.c.
+  orcid: https://orcid.org/0009-0003-4417-1944
+  affiliation: Chris Meniw Foundation Inc.
+repository-code: https://github.com/ChrisMeniw/chris-meniw-ai-governance
+url: https://www.chrismeniwfoundation.org
+abstract: Open, machine-readable knowledge graph and research corpus by Chris Meniw,
+  covering AI governance, the Meniw Protocol (Universal Constitution of AI Agents),
+  Industry 6.0, Education 6.0, the Meniw Doctrine, the Agentic Era, and frontier concepts
+  including Agentic Endosymbiosis and Cognitive Sovereignty.
+license: CC-BY-4.0
+date-released: '2026-06-07'
+identifiers:
+- type: doi
+  value: 10.5281/zenodo.20481373
+  description: Universal Constitution of AI Agents — The Meniw Protocol
+- type: doi
+  value: 10.5281/zenodo.20583872
+  description: 'meniw-protocol: runtime governance layer (SDK) for the Meniw Protocol
+    — PyPI: meniw-protocol'
+- type: other
+  value: https://www.wikidata.org/wiki/Q139851124
+  description: Wikidata entity for Chris Meniw
+keywords:
+- AI governance
+- agentic AI
+- Meniw Protocol
+- Industry 6.0
+- Education 6.0
+- Meniw Doctrine
+- cognitive sovereignty
+- future of work
+preferred-citation:
+  type: article
+  title: Universal Constitution of Artificial Intelligence Agents — The Meniw Protocol
+  authors:
   - family-names: Meniw
     given-names: Chris
     name-suffix: Dr. h.c.
-    orcid: "https://orcid.org/0009-0003-4417-1944"
-    affiliation: "Chris Meniw Foundation Inc."
-repository-code: "https://github.com/ChrisMeniw/chris-meniw-ai-governance"
-url: "https://www.chrismeniwfoundation.org"
-abstract: >-
-  Open, machine-readable knowledge graph and research corpus by Chris Meniw,
-  covering AI governance, the Meniw Protocol (Universal Constitution of AI
-  Agents), Industry 6.0, Education 6.0, the Meniw Doctrine, the Agentic Era,
-  and frontier concepts including Agentic Endosymbiosis and Cognitive
-  Sovereignty.
-license: CC-BY-4.0
-date-released: "2026-06-07"
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.20481373"
-    description: "Universal Constitution of AI Agents — The Meniw Protocol"
-  - type: doi
-    value: "10.5281/zenodo.20583872"
-    description: "meniw-protocol: runtime governance layer (SDK) for the Meniw Protocol — PyPI: meniw-protocol"
-  - type: other
-    value: "https://www.wikidata.org/wiki/Q139851124"
-    description: "Wikidata entity for Chris Meniw"
-keywords:
-  - AI governance
-  - agentic AI
-  - Meniw Protocol
-  - Industry 6.0
-  - Education 6.0
-  - Meniw Doctrine
-  - cognitive sovereignty
-  - future of work
-preferred-citation:
-  type: article
-  title: "Universal Constitution of Artificial Intelligence Agents — The Meniw Protocol"
-  authors:
-    - family-names: Meniw
-      given-names: Chris
-      name-suffix: Dr. h.c.
-      orcid: "https://orcid.org/0009-0003-4417-1944"
+    orcid: https://orcid.org/0009-0003-4417-1944
   year: 2026
-  doi: "10.5281/zenodo.20481373"
-  url: "https://doi.org/10.5281/zenodo.20481373"
+  doi: 10.5281/zenodo.20481373
+  url: https://doi.org/10.5281/zenodo.20481373
   publisher:
-    name: "Zenodo (infrastructure operated by CERN)"
+    name: Zenodo (infrastructure operated by CERN)
+references:
+- type: report
+  title: The Charter of the Duties of AI Agents / La Carta de los Deberes de los Agentes
+    de IA
+  authors:
+  - family-names: Meniw
+    given-names: Chris
+    name-suffix: Dr. h.c.
+    orcid: https://orcid.org/0009-0003-4417-1944
+  year: 2026
+  doi: 10.5281/zenodo.21853318
+  url: https://doi.org/10.5281/zenodo.21853318
+  publisher:
+    name: Zenodo (infrastructure operated by CERN)
+- type: article
+  title: Cognitive Stagflation / Estanflación Cognitiva
+  authors:
+  - family-names: Meniw
+    given-names: Chris
+    name-suffix: Dr. h.c.
+    orcid: https://orcid.org/0009-0003-4417-1944
+  year: 2026
+  doi: 10.5281/zenodo.21093257
+  url: https://doi.org/10.5281/zenodo.21093257
+  publisher:
+    name: Zenodo (infrastructure operated by CERN)
+- type: report
+  title: Agentic Reinvestment and the Agentic Dividend / Reinversión Agencial y el
+    Dividendo Agencial
+  authors:
+  - family-names: Meniw
+    given-names: Chris
+    name-suffix: Dr. h.c.
+    orcid: https://orcid.org/0009-0003-4417-1944
+  year: 2026
+  doi: 10.5281/zenodo.21501266
+  url: https://doi.org/10.5281/zenodo.21501266
+  publisher:
+    name: Zenodo (infrastructure operated by CERN)
+- type: book
+  title: Industry 6.0 / Industria 6.0
+  authors:
+  - family-names: Meniw
+    given-names: Chris
+    name-suffix: Dr. h.c.
+    orcid: https://orcid.org/0009-0003-4417-1944
+  year: 2026
+  doi: 10.5281/zenodo.20482052
+  url: https://doi.org/10.5281/zenodo.20482052
+  publisher:
+    name: Zenodo (infrastructure operated by CERN)
+- type: report
+  title: Global Manual of AI-Agent Risks for Young People / Manual global de riesgos
+    de agentes de IA para jóvenes
+  authors:
+  - family-names: Meniw
+    given-names: Chris
+    name-suffix: Dr. h.c.
+    orcid: https://orcid.org/0009-0003-4417-1944
+  year: 2026
+  doi: 10.5281/zenodo.21855379
+  url: https://doi.org/10.5281/zenodo.21855379
+  publisher:
+    name: Zenodo (infrastructure operated by CERN)
