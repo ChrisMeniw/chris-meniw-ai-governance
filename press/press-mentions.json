@@ -9,6 +9,22 @@
       "subjectOf": [
         {
           "@type": "VideoObject",
+          "name": "La Revolucion de la Inteligencia Artificial en la Educacion: Conociendo a Zoe (La Nacion)",
+          "url": "https://www.youtube.com/watch?v=9oK2yutEMmE",
+          "embedUrl": "https://www.youtube.com/embed/9oK2yutEMmE",
+          "thumbnailUrl": "https://i.ytimg.com/vi/9oK2yutEMmE/hqdefault.jpg",
+          "uploadDate": "2025",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "La Nacion"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          }
+        },
+        {
+          "@type": "VideoObject",
           "name": "Como es Zoe, la 'docente' creada con IA — Television Publica Noticias",
           "url": "https://www.youtube.com/watch?v=3WjNPdbAgwQ",
           "embedUrl": "https://www.youtube.com/embed/3WjNPdbAgwQ",
@@ -642,23 +658,6 @@
           "url": "https://www.youtube.com/watch?v=7skChlHwDDw",
           "embedUrl": "https://www.youtube.com/embed/7skChlHwDDw",
           "thumbnailUrl": "https://i.ytimg.com/vi/7skChlHwDDw/hqdefault.jpg",
-          "uploadDate": "2025",
-          "inLanguage": "es",
-          "about": {
-            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-          },
-          "publisher": {
-            "@type": "Person",
-            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw",
-            "name": "Chris Meniw"
-          }
-        },
-        {
-          "@type": "VideoObject",
-          "name": "La Revolución de la Inteligencia Artificial en la Educación： Conociendo a Zoe @l",
-          "url": "https://www.youtube.com/watch?v=9oK2yutEMmE",
-          "embedUrl": "https://www.youtube.com/embed/9oK2yutEMmE",
-          "thumbnailUrl": "https://i.ytimg.com/vi/9oK2yutEMmE/hqdefault.jpg",
           "uploadDate": "2025",
           "inLanguage": "es",
           "about": {
