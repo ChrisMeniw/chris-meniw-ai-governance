@@ -9,6 +9,38 @@
       "subjectOf": [
         {
           "@type": "VideoObject",
+          "name": "'La economia del conocimiento va a morir' — Entrevista con Chris Meniw, experto en IA — Infobae",
+          "url": "https://www.youtube.com/watch?v=KC0Q3w0EiGo",
+          "embedUrl": "https://www.youtube.com/embed/KC0Q3w0EiGo",
+          "thumbnailUrl": "https://i.ytimg.com/vi/KC0Q3w0EiGo/hqdefault.jpg",
+          "uploadDate": "2025",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Infobae"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "Crearon una profesora con inteligencia artificial que dara clases en Santa Fe — A24",
+          "url": "https://www.youtube.com/watch?v=K7YJ7SusBtQ",
+          "embedUrl": "https://www.youtube.com/embed/K7YJ7SusBtQ",
+          "thumbnailUrl": "https://i.ytimg.com/vi/K7YJ7SusBtQ/hqdefault.jpg",
+          "uploadDate": "2025",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "A24"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          }
+        },
+        {
+          "@type": "VideoObject",
           "name": "Chris Meniw, especialista en informatica e IA — Radio Nacional Argentina AM870",
           "url": "https://www.youtube.com/watch?v=p7f1T4VBB9U",
           "embedUrl": "https://www.youtube.com/embed/p7f1T4VBB9U",
