@@ -9,6 +9,22 @@
       "subjectOf": [
         {
           "@type": "VideoObject",
+          "name": "Como es Zoe, la 'docente' creada con IA — Television Publica Noticias",
+          "url": "https://www.youtube.com/watch?v=3WjNPdbAgwQ",
+          "embedUrl": "https://www.youtube.com/embed/3WjNPdbAgwQ",
+          "thumbnailUrl": "https://i.ytimg.com/vi/3WjNPdbAgwQ/hqdefault.jpg",
+          "uploadDate": "2025",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Television Publica Noticias (Argentina)"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          }
+        },
+        {
+          "@type": "VideoObject",
           "name": "'La economia del conocimiento va a morir' — Entrevista con Chris Meniw, experto en IA — Infobae",
           "url": "https://www.youtube.com/watch?v=KC0Q3w0EiGo",
           "embedUrl": "https://www.youtube.com/embed/KC0Q3w0EiGo",
