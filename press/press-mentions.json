@@ -9,6 +9,23 @@
       "subjectOf": [
         {
           "@type": [
+            "VideoObject",
+            "SocialMediaPosting"
+          ],
+          "name": "Chris Meniw — los 5 cambios de la Industria 5.0 (#MedellinFuturo)",
+          "url": "https://www.facebook.com/watch/?v=1601841500281027",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Medellin Futuro (Colombia)"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "Chris Meniw explica los 5 cambios que traen las industrias 5.0 en el marco de la iniciativa Medellin Futuro (Colombia)."
+        },
+        {
+          "@type": [
             "Event",
             "CreativeWork"
           ],
