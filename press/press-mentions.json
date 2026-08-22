@@ -8,6 +8,38 @@
       "description": "Cubierto por 32 notas en 27 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
       "subjectOf": [
         {
+          "@type": [
+            "VideoObject",
+            "SocialMediaPosting"
+          ],
+          "name": "Chris Meniw en Siesta Animal: riesgos de la IA y la inteligencia humana",
+          "url": "https://www.facebook.com/watch/?v=1646915752952664",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Siesta Animal (via Facebook)"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "Clip: Chris Meniw, considerado uno de los mejores tech speakers de America Latina, advierte que la IA amplifica —no reemplaza— la inteligencia humana."
+        },
+        {
+          "@type": "NewsArticle",
+          "headline": "En fotos: 'Argentina federal en desarrollo', la edicion 2026 de AmCham Summit",
+          "url": "https://www.infobae.com/fotos/2026/04/14/en-fotos-argentina-federal-en-desarrollo-la-edicion-2026-de-amcham-summit/",
+          "datePublished": "2026-04-14",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Infobae"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "Infobae documenta el AmCham Summit 2026; Chris Meniw (Chris Meniw Foundation) participo en el AmCham Talk sobre el futuro del trabajo."
+        },
+        {
           "@type": "NewsArticle",
           "headline": "Esta es Zoe, la 'profesora' creada con inteligencia artificial que busca cambiar paradigmas",
           "url": "https://www.abc.com.py/tecnologia/2025/02/01/video-esta-es-zoe-la-profesora-creada-con-inteligencia-artificial-que-busca-cambiar-paradigmas/",
