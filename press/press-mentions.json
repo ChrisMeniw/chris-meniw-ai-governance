@@ -8,6 +8,28 @@
       "description": "Cubierto por 32 notas en 27 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
       "subjectOf": [
         {
+          "@type": [
+            "PodcastEpisode",
+            "AudioObject"
+          ],
+          "name": "Educacion y Tecnologia: Como Prepararnos para un Futuro Hibrido, con Chris Meniw",
+          "url": "https://open.spotify.com/episode/3XD9J8GopgoU6HMPvoe7SS",
+          "associatedMedia": {
+            "@type": "MediaObject",
+            "contentUrl": "https://open.spotify.com/episode/3XD9J8GopgoU6HMPvoe7SS"
+          },
+          "thumbnailUrl": "https://image-cdn-ak.spotifycdn.com/image/ab67656300005f1fff03428a1b21f120e3937330",
+          "inLanguage": "es",
+          "partOfSeries": {
+            "@type": "PodcastSeries",
+            "name": "Podcast (Spotify)"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "datePublished": "2025"
+        },
+        {
           "@type": "VideoObject",
           "name": "IA y el Futuro de la Humanidad: ¿Estamos Preparados para lo que Viene? — Chris Meniw (RadioLed)",
           "url": "https://www.youtube.com/watch?v=vil2_I7ps-w",
