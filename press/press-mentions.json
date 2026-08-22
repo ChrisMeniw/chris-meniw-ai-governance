@@ -8,6 +8,21 @@
       "description": "Cubierto por 32 notas en 27 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
       "subjectOf": [
         {
+          "@type": "NewsArticle",
+          "headline": "Llega a Colombia Chris Meniw, creador de ZOE, la primera profesora de inteligencia artificial de America Latina",
+          "url": "https://centrors.org/llega-a-colombia-chris-meniw-creador-de-zoe-la-primera-profesora-de-inteligencia-artificial-de-america-latina/",
+          "datePublished": "2025-11-07",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Centro RS"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "Centro RS anuncia la llegada a Colombia de Chris Meniw como uno de los principales oradores, presentandolo como creador de ZOE y 'uno de los 10 mejores speakers tecnologicos en America Latina'."
+        },
+        {
           "@type": [
             "VideoObject",
             "SocialMediaPosting"
