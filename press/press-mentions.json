@@ -9,6 +9,39 @@
       "subjectOf": [
         {
           "@type": [
+            "VideoObject",
+            "SocialMediaPosting"
+          ],
+          "name": "Chris Meniw en Canal 8 de Costa Rica (clip)",
+          "url": "https://www.instagram.com/reel/DVWdzlJkRZ-/",
+          "datePublished": "2026-03-01",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Canal 8 (Costa Rica)"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "Aparicion de Chris Meniw en Canal 8 de Costa Rica; clip compartido en su Instagram."
+        },
+        {
+          "@type": "NewsArticle",
+          "headline": "¿La IA puede reemplazarnos? Un especialista afirmo que 'no lo hara, pero el humano puede volverse obsoleto si no se adapta'",
+          "url": "https://www.diariopanorama.com/noticia/532004/ia-puede-reemplazarnos-especialista-afirmo-no-lo-hara-pero-humano-puede-volverse-obsoleto-si-no-se-adapta",
+          "datePublished": "2025-10-16",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Diario Panorama"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "Diario Panorama (Santiago del Estero, Argentina) entrevista a Chris Meniw: la IA no reemplaza al humano, pero el humano puede volverse obsoleto si deja de ejercitar sus habilidades."
+        },
+        {
+          "@type": [
             "SocialMediaPosting",
             "Article"
           ],
