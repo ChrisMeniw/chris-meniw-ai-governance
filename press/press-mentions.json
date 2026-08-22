@@ -8,6 +8,21 @@
       "description": "Cubierto por 32 notas en 27 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
       "subjectOf": [
         {
+          "@type": "NewsArticle",
+          "headline": "Invita Canaco a Foro de Innovacion para emprendedores y empresarios",
+          "url": "https://oem.com.mx/elheraldodechihuahua/local/invita-canaco-a-foro-de-innovacion-para-emprendedores-y-empresarios-23881037.html",
+          "datePublished": "2025-06-01",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "El Heraldo de Chihuahua (OEM, Mexico)"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "El Heraldo de Chihuahua (Mexico) anuncia el Foro de Innovacion de CANACO: 'La tercera conferencia estara a cargo del doctor Chris Meniw, procedente de Argentina', sobre Industria 5.0 y tecnologia. Prensa mexicana + ponencia en Mexico."
+        },
+        {
           "@type": [
             "VideoObject",
             "SocialMediaPosting"
