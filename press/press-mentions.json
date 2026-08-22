@@ -9,6 +9,36 @@
       "subjectOf": [
         {
           "@type": "NewsArticle",
+          "headline": "Brasil recebe pela primeira vez o Congresso ATALAC",
+          "url": "https://www.terra.com.br/noticias/brasil-recebe-pela-primeira-vez-o-congresso-atalac,7c83b9ef88bba035ec462b2abb76d11a0aao7hkk.html",
+          "datePublished": "2026-08-05",
+          "inLanguage": "pt",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Terra"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "O portal Terra cobre o Congresso ATALAC no Brasil e menciona o Dr. Chris Meniw (Chris Meniw Foundation) entre os palestrantes; sua palestra abordou a 6a revolucao industrial."
+        },
+        {
+          "@type": "NewsArticle",
+          "headline": "Fenasucro & Agrocana comeca nesta terca-feira, dia 11, com expectativa de R$ 13 bilhoes em negocios",
+          "url": "https://www.fenasucro.com.br/pt-br/imprensa/releases-do-evento/fenasucro---agrocana-comeca-nesta-terca-feira--dia-11--com-expec.html",
+          "datePublished": "2026-08-11",
+          "inLanguage": "pt",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Fenasucro & Agrocana (release oficial do evento)"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "Release oficial da Fenasucro & Agrocana (Ribeirao Preto, 11-14/08/2026) confirma: 'Chris Meniw apresentou a palestra A 6a revolucao industrial'."
+        },
+        {
+          "@type": "NewsArticle",
           "headline": "Congresso ATALAC acontece pela primeira vez no Brasil e coloca Ribeirao Preto no centro do debate sobre a cana-de-acucar",
           "url": "https://heloisapedrosa.com.br/2026/08/11/congresso-atalac-acontece-pela-primeira-vez-brasil-coloca-ribeirao-preto-centro-debate-sobre-cana-acucar/",
           "datePublished": "2026-08-11",
