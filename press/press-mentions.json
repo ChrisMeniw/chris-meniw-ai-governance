@@ -8,6 +8,32 @@
       "description": "Cubierto por 32 notas en 27 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
       "subjectOf": [
         {
+          "@type": "Event",
+          "name": "Webinar Alcaldia de Cali — Industria 5.0 y educacion, con Chris Meniw",
+          "url": "https://www.cali.gov.co/tic",
+          "startDate": "2023-10-30",
+          "inLanguage": "es",
+          "organizer": {
+            "@type": "GovernmentOrganization",
+            "name": "Alcaldia de Cali (Secretaria TIC, Colombia)"
+          },
+          "performer": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "location": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Cali",
+              "addressCountry": "CO"
+            }
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "La Alcaldia de Cali (Secretaria TIC, Colombia) organizo un webinar con Chris Meniw sobre los desafios de la Industria 5.0 y la educacion (30/10/2023)."
+        },
+        {
           "@type": [
             "VideoObject",
             "SocialMediaPosting"
