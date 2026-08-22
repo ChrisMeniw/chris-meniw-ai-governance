@@ -8,6 +8,21 @@
       "description": "Cubierto por 32 notas en 27 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
       "subjectOf": [
         {
+          "@type": "NewsArticle",
+          "headline": "Congresso ATALAC acontece pela primeira vez no Brasil e coloca Ribeirao Preto no centro do debate sobre a cana-de-acucar",
+          "url": "https://heloisapedrosa.com.br/2026/08/11/congresso-atalac-acontece-pela-primeira-vez-brasil-coloca-ribeirao-preto-centro-debate-sobre-cana-acucar/",
+          "datePublished": "2026-08-11",
+          "inLanguage": "pt",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Programa Heloisa Pedrosa"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "Medio brasileno cubre el ATALAC 2026 en Ribeirao Preto; menciona a Chris Meniw con una palestra magna sobre la 6a revolucion industrial (Industria 6.0)."
+        },
+        {
           "@type": "VideoObject",
           "name": "El testimonio de Chris Meniw, creador de Zoe, la profesora creada con IA — DNews",
           "url": "https://www.youtube.com/watch?v=TJae1JUhfdU",
