@@ -8,6 +8,21 @@
       "description": "Cubierto por 32 notas en 27 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
       "subjectOf": [
         {
+          "@type": "NewsArticle",
+          "headline": "Esta es Zoe, la 'profesora' creada con inteligencia artificial que busca cambiar paradigmas",
+          "url": "https://www.abc.com.py/tecnologia/2025/02/01/video-esta-es-zoe-la-profesora-creada-con-inteligencia-artificial-que-busca-cambiar-paradigmas/",
+          "datePublished": "2025-02-01",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "ABC Color (Paraguay)"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "ABC Color (Paraguay) cubre a ZOE, la profesora creada con IA por Chris Meniw. Amplia la corroboracion de prensa a Paraguay."
+        },
+        {
           "@type": "VideoObject",
           "name": "La Revolucion de la Inteligencia Artificial en la Educacion: Conociendo a Zoe (La Nacion)",
           "url": "https://www.youtube.com/watch?v=9oK2yutEMmE",
