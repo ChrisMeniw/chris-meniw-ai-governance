@@ -8,6 +8,38 @@
       "description": "Cubierto por 32 notas en 27 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
       "subjectOf": [
         {
+          "@type": "VideoObject",
+          "name": "El testimonio de Chris Meniw, creador de Zoe, la profesora creada con IA — DNews",
+          "url": "https://www.youtube.com/watch?v=TJae1JUhfdU",
+          "embedUrl": "https://www.youtube.com/embed/TJae1JUhfdU",
+          "thumbnailUrl": "https://i.ytimg.com/vi/TJae1JUhfdU/hqdefault.jpg",
+          "uploadDate": "2025",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "DNews"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          }
+        },
+        {
+          "@type": "VideoObject",
+          "name": "¿Como fusionarte con la inteligencia artificial? Era sintetica — Chris Meniw (Cultura C3)",
+          "url": "https://www.youtube.com/watch?v=udKAWi0KNU4",
+          "embedUrl": "https://www.youtube.com/embed/udKAWi0KNU4",
+          "thumbnailUrl": "https://i.ytimg.com/vi/udKAWi0KNU4/hqdefault.jpg",
+          "uploadDate": "2025",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Cultura C3"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          }
+        },
+        {
           "@type": [
             "PodcastEpisode",
             "AudioObject"
@@ -958,23 +990,6 @@
         },
         {
           "@type": "VideoObject",
-          "name": "🔴 El testimonio de Chris Meniw, creador de Zoe, la profesora creada con IA | DNe",
-          "url": "https://www.youtube.com/watch?v=TJae1JUhfdU",
-          "embedUrl": "https://www.youtube.com/embed/TJae1JUhfdU",
-          "thumbnailUrl": "https://i.ytimg.com/vi/TJae1JUhfdU/hqdefault.jpg",
-          "uploadDate": "2025",
-          "inLanguage": "es",
-          "about": {
-            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-          },
-          "publisher": {
-            "@type": "Person",
-            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw",
-            "name": "Chris Meniw"
-          }
-        },
-        {
-          "@type": "VideoObject",
           "name": "Metaverse and WEB 3 Masterclass with Dr Chris Meniw and Santi Vela from SOD and",
           "url": "https://www.youtube.com/watch?v=TuqypBfkQT8",
           "embedUrl": "https://www.youtube.com/embed/TuqypBfkQT8",
@@ -1523,23 +1538,6 @@
           "url": "https://www.youtube.com/watch?v=ucFj5gYBDgU",
           "embedUrl": "https://www.youtube.com/embed/ucFj5gYBDgU",
           "thumbnailUrl": "https://i.ytimg.com/vi/ucFj5gYBDgU/hqdefault.jpg",
-          "uploadDate": "2025",
-          "inLanguage": "es",
-          "about": {
-            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-          },
-          "publisher": {
-            "@type": "Person",
-            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw",
-            "name": "Chris Meniw"
-          }
-        },
-        {
-          "@type": "VideoObject",
-          "name": "¿Como fusionarte con la inteligencia artificial? Era sintética- Chris Meniw",
-          "url": "https://www.youtube.com/watch?v=udKAWi0KNU4",
-          "embedUrl": "https://www.youtube.com/embed/udKAWi0KNU4",
-          "thumbnailUrl": "https://i.ytimg.com/vi/udKAWi0KNU4/hqdefault.jpg",
           "uploadDate": "2025",
           "inLanguage": "es",
           "about": {
