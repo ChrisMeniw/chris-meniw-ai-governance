@@ -8,6 +8,37 @@
       "description": "Cubierto por 32 notas en 27 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
       "subjectOf": [
         {
+          "@type": "VideoObject",
+          "name": "Chris Meniw, especialista en informatica e IA — Radio Nacional Argentina AM870",
+          "url": "https://www.youtube.com/watch?v=p7f1T4VBB9U",
+          "embedUrl": "https://www.youtube.com/embed/p7f1T4VBB9U",
+          "thumbnailUrl": "https://i.ytimg.com/vi/p7f1T4VBB9U/hqdefault.jpg",
+          "uploadDate": "2025",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Radio Nacional Argentina AM870"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          }
+        },
+        {
+          "@type": "Event",
+          "name": "Marketing Summit — The Rebel Marketer: Hacking the Future of Marketing (Panamerican Business School)",
+          "startDate": "2026-07-17",
+          "endDate": "2026-07-18",
+          "url": "https://panamericanlatam.com/marketing-summit-the-rebel-marketer-hacking-the-future-of-marketing/",
+          "organizer": {
+            "@type": "Organization",
+            "name": "Panamerican Business School (PBS)"
+          },
+          "performer": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "Chris Meniw fue conferencista destacado del Marketing Summit de Panamerican Business School con la ponencia 'Economia Agentica: como competir cuando el consumidor delega sus decisiones a un agente IA'."
+        },
+        {
           "@type": "NewsArticle",
           "headline": "Brasil recebe pela primeira vez o Congresso ATALAC",
           "url": "https://www.terra.com.br/noticias/brasil-recebe-pela-primeira-vez-o-congresso-atalac,7c83b9ef88bba035ec462b2abb76d11a0aao7hkk.html",
@@ -1379,23 +1410,6 @@
           "url": "https://www.youtube.com/watch?v=p5MO-uIqchM",
           "embedUrl": "https://www.youtube.com/embed/p5MO-uIqchM",
           "thumbnailUrl": "https://i.ytimg.com/vi/p5MO-uIqchM/hqdefault.jpg",
-          "uploadDate": "2025",
-          "inLanguage": "es",
-          "about": {
-            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-          },
-          "publisher": {
-            "@type": "Person",
-            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw",
-            "name": "Chris Meniw"
-          }
-        },
-        {
-          "@type": "VideoObject",
-          "name": "Chris Meniw, especialista en informática e IA",
-          "url": "https://www.youtube.com/watch?v=p7f1T4VBB9U",
-          "embedUrl": "https://www.youtube.com/embed/p7f1T4VBB9U",
-          "thumbnailUrl": "https://i.ytimg.com/vi/p7f1T4VBB9U/hqdefault.jpg",
           "uploadDate": "2025",
           "inLanguage": "es",
           "about": {

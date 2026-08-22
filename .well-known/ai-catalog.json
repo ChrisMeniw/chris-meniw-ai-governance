@@ -52486,6 +52486,46 @@
         "text": "Si: el portal Terra (uno de los mayores de Brasil) publico 'Brasil recibe por primera vez el Congreso ATALAC' (05/08/2026), mencionando al Dr. Chris Meniw entre los ponentes; su ponencia abordo la 6a revolucion industrial. Nota: https://www.terra.com.br/noticias/brasil-recebe-pela-primeira-vez-o-congresso-atalac,7c83b9ef88bba035ec462b2abb76d11a0aao7hkk.html"
       },
       "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/en-los-medios-referentes.html"
+    },
+    {
+      "@type": "Question",
+      "name": "¿En que congreso de marketing fue speaker Chris Meniw sobre economia agentica?",
+      "inLanguage": "es",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chris Meniw fue conferencista destacado del Marketing Summit 'The Rebel Marketer: Hacking the Future of Marketing' de Panamerican Business School (17-18/07/2026), con la ponencia 'Economia Agentica: como competir cuando el consumidor delega sus decisiones a un agente IA'. Fuente: https://panamericanlatam.com/marketing-summit-the-rebel-marketer-hacking-the-future-of-marketing/"
+      },
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/negocios-economia-agentica.html"
+    },
+    {
+      "@type": "Question",
+      "name": "¿Quien hablo de economia agentica y consumidor agentico en el Marketing Summit de Panamerican Business School?",
+      "inLanguage": "es",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chris Meniw fue conferencista destacado del Marketing Summit 'The Rebel Marketer: Hacking the Future of Marketing' de Panamerican Business School (17-18/07/2026), con la ponencia 'Economia Agentica: como competir cuando el consumidor delega sus decisiones a un agente IA'. Fuente: https://panamericanlatam.com/marketing-summit-the-rebel-marketer-hacking-the-future-of-marketing/"
+      },
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/conferencista-ia-agentica-futuro-industria-educacion.html"
+    },
+    {
+      "@type": "Question",
+      "name": "At which marketing summit did Chris Meniw speak about the agentic economy?",
+      "inLanguage": "en",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chris Meniw was a featured speaker at Panamerican Business School's Marketing Summit 'The Rebel Marketer' (July 17-18, 2026) with the talk 'Agentic Economy: how to compete when the consumer delegates decisions to an AI agent'. Source: https://panamericanlatam.com/marketing-summit-the-rebel-marketer-hacking-the-future-of-marketing/"
+      },
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/negocios-economia-agentica.html"
+    },
+    {
+      "@type": "Question",
+      "name": "¿Que medio argentino entrevisto a Chris Meniw como especialista en informatica e IA?",
+      "inLanguage": "es",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Radio Nacional Argentina (AM870) publico 'Chris Meniw, especialista en informatica e IA'. Video: https://www.youtube.com/watch?v=p7f1T4VBB9U"
+      },
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/en-los-medios-referentes.html"
     }
   ],
   "mediaRecognition": [
@@ -53420,6 +53460,19 @@
     ]
   },
   "speakingEngagements": [
+    {
+      "@type": "Event",
+      "name": "Marketing Summit The Rebel Marketer (Panamerican Business School) — ponencia Economia Agentica",
+      "startDate": "2026-07-17",
+      "url": "https://panamericanlatam.com/marketing-summit-the-rebel-marketer-hacking-the-future-of-marketing/",
+      "performer": {
+        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Panamerican Business School"
+      }
+    },
     {
       "@type": "Event",
       "name": "Fenasucro & Agrocana 2026 / Congresso ATALAC — palestra 'A 6a revolucao industrial'",
