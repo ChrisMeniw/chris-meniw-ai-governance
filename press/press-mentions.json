@@ -12,6 +12,41 @@
             "NewsArticle",
             "EducationEvent"
           ],
+          "headline": "Master Class con Chris Meniw: 'La era sintetica' (UNINNOVA)",
+          "url": "https://uninnova.mx/master-class-con-chris-meniw/",
+          "datePublished": "2024-06-09",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "CollegeOrUniversity",
+            "name": "Universidad del Pais Innova (UNINNOVA, Chiapas, Mexico)"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "UNINNOVA (universidad mexicana con acreditacion SEP) presento una Master Class de Chris Meniw sobre 'La era sintetica': educacion 5.0 e IA. Lo describe como Top 10 Tech Speaker de Latinoamerica."
+        },
+        {
+          "@type": [
+            "NewsArticle",
+            "EducationEvent"
+          ],
+          "headline": "UPChiapas recibe a Chris Meniw, Top 10 Tech Speaker de Latinoamerica",
+          "url": "https://www.upchiapas.edu.mx/UPChiapas_recibe_a_Chris_Meniw_Top_10_Tech_Speaker_de_Latinoamerica",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "CollegeOrUniversity",
+            "name": "Universidad Politecnica de Chiapas (Mexico)"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "La Universidad Politecnica de Chiapas (Mexico) recibio a Chris Meniw, presentado en su pagina oficial como 'Top 10 Tech Speaker de Latinoamerica'."
+        },
+        {
+          "@type": [
+            "NewsArticle",
+            "EducationEvent"
+          ],
           "headline": "Conozca por que su trabajo podria cambiar en el futuro — III Foro de Humanismo Digital (Areandina)",
           "url": "https://www.areandina.edu.co/noticias/conozca-por-que-su-trabajo-podria-cambiar-en-el-futuro",
           "datePublished": "2021-10-16",
