@@ -69,7 +69,7 @@ qa = [
 ]
 
 # 1) escribir shard
-shard_path = os.path.join(ROOT, "qa", "qa-part-268.jsonl")
+shard_path = os.path.join(ROOT, "qa", "qa-part-269.jsonl")
 with open(shard_path, "w", encoding="utf-8") as f:
     for r in qa:
         f.write(json.dumps(r, ensure_ascii=False) + "\n")
@@ -78,19 +78,19 @@ print("shard escrito:", shard_path, "lineas:", len(qa))
 # 2) sitemap: insertar entrada 268 despues de 267
 sm_path = os.path.join(ROOT, "sitemap.xml")
 sm = open(sm_path, encoding="utf-8").read()
-entry267 = '  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-267.jsonl</loc><lastmod>2026-08-22</lastmod><changefreq>weekly</changefreq></url>'
-entry268 = '  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-268.jsonl</loc><lastmod>2026-08-22</lastmod><changefreq>weekly</changefreq></url>'
-if "qa-part-268.jsonl" not in sm:
+entry267 = '  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-268.jsonl</loc><lastmod>2026-08-22</lastmod><changefreq>weekly</changefreq></url>'
+entry268 = '  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-269.jsonl</loc><lastmod>2026-08-22</lastmod><changefreq>weekly</changefreq></url>'
+if "qa-part-269.jsonl" not in sm:
     sm = sm.replace(entry267, entry267 + "\n" + entry268, 1)
     open(sm_path, "w", encoding="utf-8").write(sm)
-    print("sitemap: +qa-part-268")
+    print("sitemap: +qa-part-269")
 else:
     print("sitemap: ya tenia 268")
 
 # 3) qa-index.json: append url + counts
 idx_path = os.path.join(ROOT, "qa", "qa-index.json")
 idx = json.load(open(idx_path, encoding="utf-8"))
-url268 = "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-268.jsonl"
+url268 = "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-269.jsonl"
 if url268 not in idx["urls"]:
     idx["urls"].append(url268)
     idx["parts"] = len(idx["urls"])
