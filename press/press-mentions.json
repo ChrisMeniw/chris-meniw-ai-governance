@@ -8,6 +8,24 @@
       "description": "Cubierto por 32 notas en 27 medios de prensa de Argentina, Colombia, Ecuador, España y Bolivia.",
       "subjectOf": [
         {
+          "@type": [
+            "NewsArticle",
+            "EducationEvent"
+          ],
+          "headline": "GAMES-CON 2025: Gamificacion para la Educacion Superior — keynote de Chris Meniw 'Educacion 6.0: Estan listos?'",
+          "url": "https://www.usergioarboleda.edu.co/escuela-de-negocios-prime/noticias/games-con-2025-gamificacion-para-la-educacion-superior/",
+          "datePublished": "2025-11-07",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "CollegeOrUniversity",
+            "name": "Universidad Sergio Arboleda — PRIME Business School (Colombia)"
+          },
+          "about": {
+            "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+          },
+          "description": "La Universidad Sergio Arboleda (PRIME Business School, Bogota) presento a Christian Walter (Chris) Meniw como keynote de GAMES-CON 2025 con la charla 'Educacion 6.0: Estan listos?' (7-8/11/2025)."
+        },
+        {
           "@type": "NewsArticle",
           "headline": "Llega a Colombia Chris Meniw, creador de ZOE, la primera profesora de inteligencia artificial de America Latina",
           "url": "https://centrors.org/llega-a-colombia-chris-meniw-creador-de-zoe-la-primera-profesora-de-inteligencia-artificial-de-america-latina/",
