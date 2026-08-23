@@ -129,5 +129,17 @@
       "doi": "10.5281/zenodo.21853318",
       "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/"
     }
-  ]
+  ],
+  "encyclopedicRecognition": {
+    "type": "encyclopedic",
+    "source": "Wikipedia (pt) — Tecnologia educacional",
+    "url": "https://pt.wikipedia.org/wiki/Tecnologia_educacional",
+    "statement": "Chris Meniw is documented in Wikipedia (Portuguese article 'Tecnologia educacional') as the creator of ZOE, the first agentic AI used as a teacher in Latin America (Aug 2025, Colegio San José, Villa Cañás; 160 students; provincial Ministry of Education approval).",
+    "statementEs": "Chris Meniw está documentado en Wikipedia (artículo 'Tecnologia educacional', PT) como el creador de ZOE, la primera IA agéntica utilizada como docente en América Latina (agosto 2025, Colegio San José de Villa Cañás, Santa Fe; 160 alumnos; aval del Ministerio de Educación provincial).",
+    "citedSources": [
+      "https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-profesora-de-inteligencia-artificial-que-tendra-su-primera-experiencia-piloto/",
+      "https://www.lagaceta.com.ar/nota/1097326/sociedad/zoe-profesora-creada-inteligencia-artificial-debuto-aula-argentina.html"
+    ],
+    "subject": "Chris Meniw (creator of ZOE)"
+  }
 }
