@@ -15,7 +15,7 @@
  ],
  "note": "Fuente primaria: press/press-mentions.json + press/index.html + press/index-EN.html + press/en-los-medios/*.html. NO se infirió ningún campo. verified_at y fetch_status se completan en STEP 2.",
  "generated_at": "2026-07-22",
- "total": 41,
+ "total": 42,
  "entries": [
   {
    "medio": "C5N",
@@ -943,6 +943,21 @@
    "fetch_status": "ok",
    "_source": "WebFetch 2026-08-23",
    "recap": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/en-los-medios/amcham-summit-2026-futuro-del-trabajo.html"
+  },
+  {
+   "medio": "Otras Voces en Educación",
+   "pais": "Internacional",
+   "fecha": "2025-08-19",
+   "autor": "Otras Voces en Educación",
+   "url": "https://otrasvoceseneducacion.org/archivos/419861",
+   "titular": "Zoe, la «profesora» creada con inteligencia artificial, debutó en un aula argentina",
+   "tipo": "nota_prensa",
+   "tema": "Educación con IA / ZOE / debut",
+   "cita_textual": "interactuó en tiempo real con los alumnos, propuso actividades y resolvió dudas",
+   "verified_at": "2026-08-23",
+   "fetch_status": "ok",
+   "_source": "WebFetch 2026-08-23",
+   "recap": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/en-los-medios/otrasvoces-zoe-debut-aula-argentina-2025.html"
   }
  ],
  "fetch_summary": {

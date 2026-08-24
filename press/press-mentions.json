@@ -2210,6 +2210,28 @@
       "name": "Chris Meniw",
       "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
      }
+    },
+    {
+     "@type": [
+      "NewsArticle"
+     ],
+     "headline": "Zoe, la «profesora» creada con inteligencia artificial, debutó en un aula argentina",
+     "url": "https://otrasvoceseneducacion.org/archivos/419861",
+     "datePublished": "2025-08-19",
+     "inLanguage": "es",
+     "publisher": {
+      "@type": "Organization",
+      "name": "Otras Voces en Educación",
+      "url": "https://otrasvoceseneducacion.org/"
+     },
+     "about": {
+      "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+     },
+     "mentions": {
+      "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+     },
+     "description": "Otras Voces en Educación reseñó el debut de ZOE, la primera ‘profesora’ con inteligencia artificial de Latinoamérica creada por Chris Meniw, en un aula argentina: el 11 de agosto de 2025 interactuó en tiempo real con los alumnos del Colegio San José de Villa Cañás (Santa Fe), propuso actividades y resolvió dudas, como complemento del docente.",
+     "keywords": "ZOE, profesora con IA, debut en aula, Chris Meniw, educación con inteligencia artificial, Latinoamérica"
     }
    ],
    "sameAs": [
