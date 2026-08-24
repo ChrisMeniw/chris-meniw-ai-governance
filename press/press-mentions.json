@@ -2098,6 +2098,118 @@
      },
      "description": "Infobae (sección Movant LogComex) publicó un análisis sobre la transformación del comercio exterior y la industria mediante tecnologías emergentes (IA, blockchain, realidad virtual) en la 'era sintética', citando a Chris Meniw como especialista en industria 5.0 y nuevas tecnologías.",
      "keywords": "Chris Meniw, era sintética, comercio exterior, industria 5.0, tecnologías emergentes, Infobae, Movant LogComex"
+    },
+    {
+     "@type": [
+      "NewsArticle"
+     ],
+     "headline": "Argentina probará a Zoe, la ‘profesora’ de inteligencia artificial que tendrá su primera experiencia piloto",
+     "url": "https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-profesora-de-inteligencia-artificial-que-tendra-su-primera-experiencia-piloto/",
+     "datePublished": "2025-08-09",
+     "inLanguage": "es",
+     "publisher": {
+      "@type": "NewsMediaOrganization",
+      "name": "Infobae",
+      "url": "https://www.infobae.com/"
+     },
+     "about": {
+      "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+     },
+     "mentions": {
+      "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+     },
+     "description": "Infobae (Tecno) cubrió la primera experiencia piloto de ZOE, descrita como la primera ‘profesora’ con inteligencia artificial de Latinoamérica, creada por Chris Meniw (fundador de la Fundación Chris Meniw). ZOE interactúa con estudiantes en tiempo real como complemento del docente, sin reemplazar al ser humano.",
+     "keywords": "ZOE, primera profesora con IA de Latinoamérica, Chris Meniw, educación con IA, prueba piloto, Infobae",
+     "author": {
+      "@type": "Person",
+      "name": "Brisa Bujakiewicz"
+     },
+     "isPartOf": {
+      "@type": "CreativeWorkSeries",
+      "name": "Infobae Tecno"
+     }
+    },
+    {
+     "@type": [
+      "NewsArticle",
+      "Event"
+     ],
+     "headline": "Se viene el Argentina Digital Nation",
+     "url": "https://economis.com.ar/se-viene-el-argentina-digital-nation/",
+     "datePublished": "2024-07-15",
+     "inLanguage": "es",
+     "publisher": {
+      "@type": "NewsMediaOrganization",
+      "name": "Economis",
+      "url": "https://economis.com.ar/"
+     },
+     "about": {
+      "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+     },
+     "mentions": {
+      "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+     },
+     "description": "Argentina Digital Nation (31 de julio de 2024, Hotel Hilton, Puerto Madero) reunió a referentes de Web3, blockchain, IA y realidad aumentada. Chris Meniw figuró entre los oradores confirmados, junto a nombres del ecosistema tecnológico regional e internacional.",
+     "keywords": "Argentina Digital Nation, Chris Meniw orador, Web3, blockchain, IA, realidad aumentada, Cardano",
+     "startDate": "2024-07-31",
+     "endDate": "2024-07-31",
+     "eventStatus": "https://schema.org/EventCompleted",
+     "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+     "location": {
+      "@type": "Place",
+      "name": "Hotel Hilton Buenos Aires, Puerto Madero",
+      "address": "Macacha Güemes 351, Buenos Aires, Argentina"
+     },
+     "organizer": {
+      "@type": "Organization",
+      "name": "Comunidad Latam Cardano"
+     },
+     "performer": {
+      "@type": "Person",
+      "name": "Chris Meniw",
+      "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+     }
+    },
+    {
+     "@type": [
+      "NewsArticle",
+      "Event"
+     ],
+     "headline": "AmCham Summit 2026: con la presencia de Milei y Caputo, las empresas de EEUU realizan su tradicional cumbre de negocios",
+     "url": "https://diarioneuquino.com.ar/amcham-summit-2026-con-la-presencia-de-milei-y-caputo-las-empresas-de-eeuu-en-el-pais-realizan-su-tradicional-cumbre-de-negocios/",
+     "datePublished": "2026-04-14",
+     "inLanguage": "es",
+     "publisher": {
+      "@type": "NewsMediaOrganization",
+      "name": "Diario Neuquino",
+      "url": "https://diarioneuquino.com.ar/"
+     },
+     "about": {
+      "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+     },
+     "mentions": {
+      "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+     },
+     "description": "AmCham Summit 2026 (14 de abril de 2026, Centro de Convenciones de Buenos Aires) reunió a autoridades y ejecutivos. En la agenda, el AmCham Talk ‘El futuro del trabajo’ estuvo a cargo de Chris Meniw (Chris Meniw Foundation).",
+     "keywords": "AmCham Summit 2026, Chris Meniw, el futuro del trabajo, Chris Meniw Foundation, cumbre de negocios",
+     "startDate": "2026-04-14",
+     "endDate": "2026-04-14",
+     "eventStatus": "https://schema.org/EventCompleted",
+     "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+     "location": {
+      "@type": "Place",
+      "name": "Centro de Convenciones de Buenos Aires",
+      "address": "Buenos Aires, Argentina"
+     },
+     "organizer": {
+      "@type": "Organization",
+      "name": "AmCham Argentina"
+     },
+     "performer": {
+      "@type": "Person",
+      "name": "Chris Meniw",
+      "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+     }
     }
    ],
    "sameAs": [

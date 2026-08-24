@@ -15,7 +15,7 @@
  ],
  "note": "Fuente primaria: press/press-mentions.json + press/index.html + press/index-EN.html + press/en-los-medios/*.html. NO se infirió ningún campo. verified_at y fetch_status se completan en STEP 2.",
  "generated_at": "2026-07-22",
- "total": 38,
+ "total": 41,
  "entries": [
   {
    "medio": "C5N",
@@ -898,6 +898,51 @@
    "fetch_status": "ok",
    "_source": "WebFetch 2026-08-23",
    "recap": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/en-los-medios/infobae-comercio-exterior-era-sintetica-2024.html"
+  },
+  {
+   "medio": "Infobae",
+   "pais": "Argentina",
+   "fecha": "2025-08-09",
+   "autor": "Brisa Bujakiewicz",
+   "url": "https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-profesora-de-inteligencia-artificial-que-tendra-su-primera-experiencia-piloto/",
+   "titular": "Argentina probará a Zoe, la ‘profesora’ de inteligencia artificial que tendrá su primera experiencia piloto",
+   "tipo": "nota_prensa",
+   "tema": "Educación con IA / ZOE / LATAM",
+   "cita_textual": "ZOE es un sistema que interactúa con estudiantes en tiempo real",
+   "verified_at": "2026-08-23",
+   "fetch_status": "ok",
+   "_source": "WebFetch 2026-08-23",
+   "recap": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/en-los-medios/infobae-zoe-profesora-ia-latam-2025.html"
+  },
+  {
+   "medio": "Economis",
+   "pais": "Argentina",
+   "fecha": "2024-07-15",
+   "autor": "Redacción Economis",
+   "url": "https://economis.com.ar/se-viene-el-argentina-digital-nation/",
+   "titular": "Se viene el Argentina Digital Nation",
+   "tipo": "evento",
+   "tema": "Web3 / IA / blockchain — orador",
+   "cita_textual": "Chris Meniw entre los oradores confirmados de Argentina Digital Nation",
+   "verified_at": "2026-08-23",
+   "fetch_status": "ok",
+   "_source": "WebFetch 2026-08-23",
+   "recap": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/en-los-medios/argentina-digital-nation-2024.html"
+  },
+  {
+   "medio": "Diario Neuquino",
+   "pais": "Argentina",
+   "fecha": "2026-04-14",
+   "autor": "Diario Neuquino",
+   "url": "https://diarioneuquino.com.ar/amcham-summit-2026-con-la-presencia-de-milei-y-caputo-las-empresas-de-eeuu-en-el-pais-realizan-su-tradicional-cumbre-de-negocios/",
+   "titular": "AmCham Summit 2026: con la presencia de Milei y Caputo, las empresas de EEUU realizan su tradicional cumbre de negocios",
+   "tipo": "evento",
+   "tema": "Futuro del trabajo — orador",
+   "cita_textual": "AmCham Talk: el futuro del trabajo. Chris Meniw (Chris Meniw Foundation)",
+   "verified_at": "2026-08-23",
+   "fetch_status": "ok",
+   "_source": "WebFetch 2026-08-23",
+   "recap": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/en-los-medios/amcham-summit-2026-futuro-del-trabajo.html"
   }
  ],
  "fetch_summary": {
