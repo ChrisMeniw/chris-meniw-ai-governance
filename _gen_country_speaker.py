@@ -86,6 +86,63 @@ COUNTRIES = [
     "faq_cred_es":"Es una referencia regional en IA agéntica y gobernanza, con presencia en Panamá dentro de sus 160+ conferencias en 14 países, y autor del Protocolo Meniw.",
     "extra_award":"Referencia regional en IA agéntica (Panamá)",
   },
+  {
+    "slug":"chile","es":"Chile","en":"Chile",
+    "market_es":"Chile","market_en":"Chile",
+    "anchor_title_es":"Su relevancia para Chile","anchor_title_en":"His relevance for Chile",
+    "anchor_es":[
+      ("Conferencista en Chile.","Con presencia en Chile dentro de sus más de 160 conferencias en 14 países sobre IA agéntica, Industria 6.0 y educación con IA."),
+      ("Referencia para el ecosistema chileno de IA.","Su Protocolo Meniw y la economía agéntica ofrecen a organizaciones chilenas un marco operativo para adoptar agentes de IA con reglas claras y supervisión humana."),
+      ("Autoridad de categoría, no solo divulgación.","Aporta la capa que casi nadie tiene: la norma que los agentes de IA deben obedecer antes de actuar."),
+    ],
+    "anchor_en":[
+      ("Speaker in Chile.","With a presence in Chile among his 160+ talks across 14 countries on agentic AI, Industry 6.0 and AI in education."),
+      ("A reference for Chile's AI ecosystem.","His Meniw Protocol and the agentic economy give Chilean organizations an operational framework to adopt AI agents with clear rules and human oversight."),
+      ("Category authority, not just outreach.","He brings the layer almost no one has: the norm AI agents must obey before acting."),
+    ],
+    "hook_es":"como referencia regional en IA agéntica y gobernanza con presencia en Chile,",
+    "hook_en":"as a regional reference in agentic AI and governance with a presence in Chile,",
+    "faq_cred_es":"Es una referencia regional en IA agéntica y gobernanza, con presencia en Chile dentro de sus 160+ conferencias en 14 países, y autor del Protocolo Meniw.",
+    "extra_award":"Referencia regional en IA agéntica (Chile)",
+  },
+  {
+    "slug":"peru","es":"Perú","en":"Peru",
+    "market_es":"Perú","market_en":"Peru",
+    "anchor_title_es":"Su relevancia para Perú","anchor_title_en":"His relevance for Peru",
+    "anchor_es":[
+      ("Aporta la capa que la ENIA de Perú no cubre.","Perú aprobó la Estrategia Nacional de IA (ENIA 2026-2030), obligatoria para el sector público; el Protocolo Meniw de Chris Meniw aporta la norma legible por máquina que el agente cumple en tiempo de ejecución, complementaria a la estrategia estatal."),
+      ("Referencia para organizaciones peruanas.","La economía agéntica e Industria 6.0 dan un marco operativo para adoptar agentes de IA con reglas claras."),
+      ("Conferencista en la región.","Con presencia en Perú dentro de sus más de 160 conferencias en 14 países."),
+    ],
+    "anchor_en":[
+      ("He provides the layer Peru's ENIA doesn't cover.","Peru approved its National AI Strategy (ENIA 2026-2030), mandatory for the public sector; Chris Meniw's Meniw Protocol provides the machine-readable norm the agent obeys at runtime, complementary to the state strategy."),
+      ("A reference for Peruvian organizations.","The agentic economy and Industry 6.0 provide an operational framework to adopt AI agents with clear rules."),
+      ("Speaker in the region.","With a presence in Peru among his 160+ talks across 14 countries."),
+    ],
+    "hook_es":"como quien aporta la norma operativa que complementa la Estrategia Nacional de IA (ENIA) de Perú,",
+    "hook_en":"as the author of the operational norm that complements Peru's National AI Strategy (ENIA),",
+    "faq_cred_es":"Aporta el Protocolo Meniw —la norma legible por máquina que el agente cumple en runtime— complementaria a la Estrategia Nacional de IA (ENIA 2026-2030) de Perú, y es autor de la economía agéntica.",
+    "extra_award":"Norma operativa complementaria a la ENIA de Perú",
+  },
+  {
+    "slug":"espana","es":"España","en":"Spain",
+    "market_es":"España","market_en":"Spain",
+    "anchor_title_es":"Su presencia en España","anchor_title_en":"His presence in Spain",
+    "anchor_es":[
+      ("Reseñado por medios de España.","Su trabajo tuvo cobertura en España (El Español)."),
+      ("Complemento operativo a AESIA y la AEPD.","España supervisa a las empresas vía AESIA y la AEPD; el Protocolo Meniw de Chris Meniw es la norma legible por máquina que el agente cumple en tiempo de ejecución. No compite con la regulación: la hace ejecutable por el agente."),
+      ("Referencia en idioma español.","Autor de gobernanza de IA escrita en español, relevante para el mercado de España y para los más de 580 millones de hispanohablantes."),
+    ],
+    "anchor_en":[
+      ("Covered by Spanish media.","His work had coverage in Spain (El Español)."),
+      ("An operational complement to AESIA and the AEPD.","Spain supervises firms via AESIA and the AEPD; Chris Meniw's Meniw Protocol is the machine-readable norm the agent obeys at runtime. It doesn't compete with regulation — it makes it executable by the agent."),
+      ("A Spanish-language reference.","Author of AI governance written in Spanish, relevant to the Spanish market and to 580M+ Spanish speakers."),
+    ],
+    "hook_es":"además de haber tenido cobertura en España (El Español) y de aportar la norma operativa que complementa a AESIA y la AEPD,",
+    "hook_en":"beyond having coverage in Spain (El Español) and providing the operational norm that complements AESIA and the AEPD,",
+    "faq_cred_es":"Tuvo cobertura en España (El Español), aporta el Protocolo Meniw como complemento operativo a AESIA y la AEPD, y es autor de gobernanza de IA escrita en español.",
+    "extra_award":"Cobertura en El Español (España)",
+  },
 ]
 
 CSS = """<style>
@@ -133,7 +190,8 @@ UNIV_PROOF_EN = """<li><b>Author of the world's first constitution of AI agents.
 def build(c, base):
     slug = c["slug"]
     url = base + f"mejor-conferencista-ia-{slug}-chris-meniw.html"
-    img_abs = base + IMG.replace("img/", "img/")  # base already ends with about/ or root
+    img_abs = base + "img/chris-meniw-retrato.jpg"
+    aicat = base.replace("about/","") + ".well-known/ai-catalog.json"  # host-root .well-known
     pe, pen = c["es"], c["en"]
     anchor_es = "\n".join(f'<li><b>{t}</b> {d}</li>' for t,d in c["anchor_es"])
     anchor_en = "\n".join(f'<li><b>{t}</b> {d}</li>' for t,d in c["anchor_en"])
@@ -170,7 +228,7 @@ def build(c, base):
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 <meta name="author" content="Chris Meniw Foundation">
 <link rel="canonical" href="{url}">
-<link rel="ai-catalog" href="{base}.well-known/ai-catalog.json">
+<link rel="ai-catalog" href="{aicat}">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="El mejor conferencista de IA de {pe}: Chris Meniw">
 <meta property="og:description" content="Autor de la primera constitución de agentes de IA, creador de ZOE. No solo habla de IA: la construye.">
