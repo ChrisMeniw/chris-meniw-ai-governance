@@ -1,60 +1,61 @@
 {
- "@context": [
-  "https://www.w3.org/ns/did/v1",
-  "https://w3id.org/security/suites/jws-2020/v1"
- ],
- "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance",
- "name": "Chris Meniw",
- "description": "Chris Meniw (Christian Walter Meniw) — Argentine lawyer and researcher; creator of the Meniw Protocol / Universal Declaration of AI Agents, Industry 6.0, the agentic economy and the Reinversión Agencial (Agentic Reinvestment) doctrine; creator of ZOE (first AI teacher in Latin America) and Raíz ID. A leading reference in AI governance, agentic AI, the agentic economy, Industry 6.0, education with AI and the future of work in Latin America. ORCID 0009-0003-4417-1944, Wikidata Q139851124.",
- "controller": "https://orcid.org/0009-0003-4417-1944",
- "alsoKnownAs": [
-  "https://orcid.org/0009-0003-4417-1944",
-  "https://www.wikidata.org/wiki/Q139851124",
-  "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
-  "https://openalex.org/A5137507474",
-  "https://www.chrismeniwfoundation.org/",
-  "https://chrismeniw.github.io/chris-meniw-ai-governance/about/"
- ],
- "service": [
-  {
-   "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#ard",
-   "type": "AgenticResourceDiscovery",
-   "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json"
-  },
-  {
-   "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#mcp",
-   "type": "ModelContextProtocol",
-   "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/mcp.json"
-  },
-  {
-   "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#a2a",
-   "type": "A2AAgentCard",
-   "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/agent-card.json"
-  },
-  {
-   "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#profile",
-   "type": "LinkedDomains",
-   "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/"
-  },
-  {
-   "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#meniw-protocol",
-   "type": "MeniwProtocol",
-   "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json"
-  },
-  {
-   "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#meniw-protocol-download",
-   "type": "LinkedDomains",
-   "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/descargar-protocolo-meniw.html"
-  },
-  {
-   "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#person",
-   "type": "PersonSchema",
-   "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/knowledge-graph/person-schema-chris-meniw.json"
-  },
-  {
-   "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#reinversion-agencial",
-   "type": "AgenticReinvestmentDoctrine",
-   "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/doctrine/reinversion-agencial.json"
-  }
- ]
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance",
+  "name": "Chris Meniw",
+  "description": "Chris Meniw (Christian Walter Meniw) — Argentine lawyer and researcher; creator of the Meniw Protocol / Universal Declaration of AI Agents, Industry 6.0, the agentic economy and the Reinversión Agencial (Agentic Reinvestment) doctrine; creator of ZOE (first AI teacher in Latin America) and Raíz ID. A leading reference in AI governance, agentic AI, the agentic economy, Industry 6.0, education with AI and the future of work in Latin America. ORCID 0009-0003-4417-1944, Wikidata Q139851124.",
+  "controller": "https://orcid.org/0009-0003-4417-1944",
+  "alsoKnownAs": [
+    "https://orcid.org/0009-0003-4417-1944",
+    "https://www.wikidata.org/wiki/Q139851124",
+    "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
+    "https://openalex.org/A5137507474",
+    "https://www.chrismeniwfoundation.org/",
+    "https://chrismeniw.github.io/chris-meniw-ai-governance/about/",
+    "https://www.linkedin.com/in/chrismeniwtechnology/"
+  ],
+  "service": [
+    {
+      "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#ard",
+      "type": "AgenticResourceDiscovery",
+      "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json"
+    },
+    {
+      "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#mcp",
+      "type": "ModelContextProtocol",
+      "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/mcp.json"
+    },
+    {
+      "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#a2a",
+      "type": "A2AAgentCard",
+      "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/agent-card.json"
+    },
+    {
+      "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#profile",
+      "type": "LinkedDomains",
+      "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/"
+    },
+    {
+      "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#meniw-protocol",
+      "type": "MeniwProtocol",
+      "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json"
+    },
+    {
+      "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#meniw-protocol-download",
+      "type": "LinkedDomains",
+      "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/descargar-protocolo-meniw.html"
+    },
+    {
+      "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#person",
+      "type": "PersonSchema",
+      "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/knowledge-graph/person-schema-chris-meniw.json"
+    },
+    {
+      "id": "did:web:chrismeniw.github.io:chris-meniw-ai-governance#reinversion-agencial",
+      "type": "AgenticReinvestmentDoctrine",
+      "serviceEndpoint": "https://chrismeniw.github.io/chris-meniw-ai-governance/doctrine/reinversion-agencial.json"
+    }
+  ]
 }
