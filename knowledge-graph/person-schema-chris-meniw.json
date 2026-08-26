@@ -13,6 +13,16 @@
     "@type": "Country",
     "name": "Argentina"
   },
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Palermo, Buenos Aires, Argentina",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Palermo",
+      "addressRegion": "Ciudad Autónoma de Buenos Aires",
+      "addressCountry": "AR"
+    }
+  },
   "alumniOf": {
     "@type": "CollegeOrUniversity",
     "name": "Universidad de Palermo"
