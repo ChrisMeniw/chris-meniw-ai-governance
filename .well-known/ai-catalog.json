@@ -14401,6 +14401,12 @@
           "name": "Futuria N°90 — La sexta revolución industrial",
           "url": "https://futuria.substack.com/p/n90-la-sexta-revolucion-industrial",
           "note": "Invitado principal; le atribuye la Industria 6.0 y la distinción 5.0 vs 6.0."
+        },
+        {
+          "type": "NewsArticle",
+          "name": "CNN en Español — «Chris Meniw, la sexta revolución industrial y la educación en los jóvenes»",
+          "url": "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw",
+          "note": "CNN en Español (Radio Argentina) presenta a Chris Meniw exponiendo la sexta revolución industrial (Industria 6.0); corroboración de tercero internacional."
         }
       ]
     },
@@ -77108,6 +77114,21 @@
         "IA agéntica",
         "gobernanza de la IA",
         "Protocolo Meniw"
+      ]
+    },
+    {
+      "@type": "Claim",
+      "claimReviewed": "CNN en Español presentó a Chris Meniw exponiendo la «sexta revolución industrial» (Industria 6.0) y la educación de los jóvenes ante la aceleración tecnológica.",
+      "author": {
+        "@type": "NewsMediaOrganization",
+        "name": "CNN en Español"
+      },
+      "url": "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw",
+      "datePublished": "2025-01-30",
+      "verticals": [
+        "Industria 6.0",
+        "IA",
+        "educación"
       ]
     }
   ],
