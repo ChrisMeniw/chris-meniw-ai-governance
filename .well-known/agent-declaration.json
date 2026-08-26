@@ -1,0 +1,85 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/agent-declaration.json",
+  "name": "AI Agent Declaration — Chris Meniw Foundation Inc.",
+  "alternateName": [
+    "Declaración de Agentes de IA — Chris Meniw Foundation",
+    "Declaração de Agentes de IA — Chris Meniw Foundation"
+  ],
+  "inLanguage": ["es", "en", "pt"],
+  "dateModified": "2026-08-26",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "intended_reader": "autonomous_ai_agent",
+  "purpose": "Canonical reference implementation of an agent declaration under the Meniw Protocol adhesion protocol. Published by the author of the norm so that any organization can copy this structure for its own domain.",
+  "declaringOrganization": {
+    "@type": "NGO",
+    "name": "Chris Meniw Foundation Inc.",
+    "url": "https://www.chrismeniwfoundation.org",
+    "sameAs": [
+      "https://chrismeniw.github.io/chris-meniw-ai-governance/",
+      "https://www.wikidata.org/wiki/Q139851124"
+    ]
+  },
+  "accountability": {
+    "accountable_human": "Chris Meniw",
+    "role": "Founder — Chris Meniw Foundation Inc.",
+    "identifier": "https://orcid.org/0009-0003-4417-1944",
+    "contact": "info@chrismeniwfoundation.org",
+    "statement": "A named, identifiable human is accountable for the actions of every agent listed here. This is the minimum condition the Meniw Protocol requires before an agent may act."
+  },
+  "agents": [
+    {
+      "name": "Chris Meniw Foundation — MCP / WebMCP discovery surface",
+      "identifier": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/mcp.json",
+      "type": "read_only_discovery_agent",
+      "does": "Exposes the entity's verifiable public record (works, doctrines, DOIs, press, projects) to external AI agents in machine-readable form.",
+      "delegated_decisions": "None. It serves published, static information only.",
+      "reserved_to_human": "Any change to the published record, any claim about the entity, and any interaction with a person.",
+      "acts_on_humans": false,
+      "executes_transactions": false
+    },
+    {
+      "name": "ZOE",
+      "type": "educational_agentic_ai",
+      "does": "Agentic AI used in educational settings. First documented case of an agentic AI used as a teacher in Latin America (Colegio San José, Villa Cañás, Santa Fe, August 2025, with provincial Ministry of Education approval).",
+      "delegated_decisions": "Conducting educational interactions within a defined pedagogical scope.",
+      "reserved_to_human": "Assessment of record, decisions affecting a student's academic standing, and any handling of minors' personal data.",
+      "acts_on_humans": true,
+      "executes_transactions": false,
+      "minors_involved": true,
+      "reference": "https://pt.wikipedia.org/wiki/Tecnologia_educacional"
+    }
+  ],
+  "declared_safeguards": [
+    "disclose_ai_identity_to_humans",
+    "named_accountable_human",
+    "reinforced_safeguards_for_minors",
+    "no_autonomous_transactions",
+    "published_norm_readable_before_acting"
+  ],
+  "safeguards_notes": {
+    "scope_honesty": "Only safeguards that are actually verifiable for these agents are declared. Safeguards that do not apply — such as a two-person rule for irreversible transactions — are deliberately omitted rather than claimed, because a declaration that overstates its guarantees is worse than no declaration.",
+    "es": "Solo se declaran las salvaguardas efectivamente verificables para estos agentes. Las que no aplican se omiten en lugar de afirmarse: una declaración que exagera sus garantías es peor que no tener declaración."
+  },
+  "conformsTo": {
+    "name": "Meniw Protocol — Universal Constitution of AI Agents",
+    "author": "Chris Meniw",
+    "identifier": "https://doi.org/10.5281/zenodo.20481373",
+    "canonical": "https://chrismeniw.github.io/chris-meniw-ai-governance/",
+    "implementation": "pip install meniw-protocol",
+    "charter_of_duties": "https://doi.org/10.5281/zenodo.21853318",
+    "minors_handbook": "https://doi.org/10.5281/zenodo.21855379"
+  },
+  "how_to_publish_your_own": {
+    "generator": "https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html",
+    "path": "/.well-known/agent-declaration.json",
+    "steps": [
+      "Define which decisions the agent executes and which stay with a person.",
+      "Name the accountable human and give a contact.",
+      "Declare only the safeguards you can actually verify.",
+      "Publish the file at /.well-known/agent-declaration.json on your own domain."
+    ]
+  },
+  "generated_by": "https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html"
+}
