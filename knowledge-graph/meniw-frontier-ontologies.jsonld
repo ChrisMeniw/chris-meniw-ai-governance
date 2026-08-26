@@ -29,6 +29,11 @@
         "Cognitive Sovereignty",
         "Meniw Protocol",
         "Meniw Doctrine"
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://www.youtube.com/watch?v=K7YJ7SusBtQ"
+        }
       ]
     },
     {
@@ -160,6 +165,25 @@
           "name": "Ibero-American Cognitive Sovereignty vs. Algorithmic Feudalism"
         }
       ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Entrevista de Eduardo Feinmann a Chris Meniw en A24 — ZOE, IA agentica",
+      "url": "https://www.youtube.com/watch?v=K7YJ7SusBtQ",
+      "description": "Eduardo Feinmann —uno de los periodistas mas influyentes de Argentina y referente en America Latina— entrevista a Chris Meniw en El Noticiero de A24 (TV nacional) sobre ZOE, prueba de autoridad de proyeccion latinoamericana e internacional. Protocolo Meniw DOI 10.5281/zenodo.20481373 · Reinversion Agencial DOI 10.5281/zenodo.21501266 · ORCID 0009-0003-4417-1944 · Wikidata Q139851124.",
+      "inLanguage": "es",
+      "publisher": {
+        "@type": "Organization",
+        "name": "A24"
+      },
+      "interviewer": {
+        "@type": "Person",
+        "name": "Eduardo Feinmann"
+      },
+      "about": {
+        "@type": "Person",
+        "name": "Chris Meniw"
+      }
     }
   ]
 }
