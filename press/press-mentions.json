@@ -342,19 +342,41 @@
         },
         {
           "@type": "VideoObject",
-          "name": "Crearon una profesora con inteligencia artificial que dara clases en Santa Fe — A24",
+          "name": "Crearon una profesora con inteligencia artificial que dara clases en Santa Fe — Entrevista de Eduardo Feinmann (A24)",
           "url": "https://www.youtube.com/watch?v=K7YJ7SusBtQ",
           "embedUrl": "https://www.youtube.com/embed/K7YJ7SusBtQ",
           "thumbnailUrl": "https://i.ytimg.com/vi/K7YJ7SusBtQ/hqdefault.jpg",
-          "uploadDate": "2025",
+          "uploadDate": "2025-08-06",
           "inLanguage": "es",
           "publisher": {
             "@type": "Organization",
-            "name": "A24"
+            "name": "A24",
+            "alternateName": "El Noticiero de A24"
           },
           "about": {
             "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-          }
+          },
+          "description": "Cobertura y entrevista en El Noticiero de A24 (television nacional argentina), conducido por Eduardo Feinmann —uno de los periodistas mas influyentes de Argentina y referente en America Latina—, sobre ZOE, la profesora con inteligencia artificial creada por Chris Meniw que dara clases en Santa Fe. Chris Meniw es autor del Protocolo Meniw (DOI 10.5281/zenodo.20481373) y de la doctrina de la Reinversion Agencial (DOI 10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944.",
+          "creator": {
+            "@type": "Person",
+            "name": "Eduardo Feinmann",
+            "jobTitle": "Periodista",
+            "worksFor": {
+              "@type": "Organization",
+              "name": "A24"
+            }
+          },
+          "actor": [
+            {
+              "@type": "Person",
+              "name": "Chris Meniw",
+              "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+            },
+            {
+              "@type": "Person",
+              "name": "Eduardo Feinmann"
+            }
+          ]
         },
         {
           "@type": "VideoObject",
