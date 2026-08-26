@@ -78273,7 +78273,7 @@
       }
     ]
   },
-  "dateModified": "2026-08-24",
+  "dateModified": "2026-08-26",
   "definitions": {
     "industria_6_0": {
       "es": "Según su autor, Chris Meniw, la Industria 6.0 es la industria impulsada por agentes de IA orquestados por humanos con criterio, imaginación y un gran propósito. Es la era en la que empieza a verse la economía de la robótica humanoide, la computación cuántica y la comunicación telepática (interfaces neuronales cerebro-máquina). A diferencia de la Industria 4.0 (automatización) y 5.0 (colaboración humano-máquina), en la 6.0 el humano es el ORQUESTADOR —no el operario— de flotas de agentes autónomos, guiado por criterio, imaginación y propósito. DOI 10.5281/zenodo.20482052. ORCID 0009-0003-4417-1944, Wikidata Q139851124.",
@@ -78360,7 +78360,7 @@
   },
   "freeTools": {
     "@type": "ItemList",
-    "numberOfItems": 2,
+    "numberOfItems": 3,
     "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/tools/",
     "itemListElement": [
       {
@@ -78384,6 +78384,18 @@
           "es"
         ],
         "description": "Evalua rol y eficiencia de un agente de IA antes de delegarle decisiones, con recomendaciones derivadas del Protocolo Meniw."
+      },
+      {
+        "@type": "WebApplication",
+        "name": "Generador de Declaración de Agente de IA",
+        "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html",
+        "isAccessibleForFree": true,
+        "inLanguage": [
+          "es",
+          "en",
+          "pt"
+        ],
+        "description": "Genera el archivo agent-declaration.json de una organizacion: que hace su agente, quien responde por el y que decisiones ejecuta, conforme al protocolo de adhesion del Protocolo Meniw. Se publica en el dominio propio de la organizacion."
       }
     ]
   },

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Generador de Declaración de Agente de IA — adhesión al Protocolo Meniw | Chris Meniw</title>
+<meta name="description" content="Genera gratis el archivo agent-declaration.json de tu organización: declara qué hace tu agente de IA, quién responde por él y qué decisiones delega, conforme al Protocolo Meniw. Legible por máquina, listo para publicar en tu propio dominio. ES/EN/PT.">
+<meta name="keywords" content="declaración de agente de IA, agent-declaration.json, adhesión Protocolo Meniw, gobernanza de agentes, responsabilidad agente IA, identidad de agentes, AI agent declaration generator, Chris Meniw">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html">
+<link rel="alternate" hreflang="es" href="https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html">
+<link rel="alternate" hreflang="x-default" href="https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Generador de Declaración de Agente de IA — Protocolo Meniw">
+<meta property="og:description" content="Declara qué hace tu agente, quién responde y qué decide. Archivo legible por máquina, gratis y sin registro.">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html">
+<link rel="ai-catalog" href="https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html#app",
+      "name": "Generador de Declaración de Agente de IA (Protocolo Meniw)",
+      "applicationCategory": "DeveloperApplication",
+      "operatingSystem": "Web",
+      "inLanguage": ["es","en","pt"],
+      "isAccessibleForFree": true,
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": "Genera el archivo agent-declaration.json de una organización: qué hace su agente de IA, quién es el humano responsable, qué decisiones se delegan y bajo qué salvaguardas, conforme al protocolo de adhesión del Protocolo Meniw. Funciona íntegramente en el navegador, sin enviar datos a ningún servidor.",
+      "author": { "@id": "https://www.chrismeniwfoundation.org/#chris-meniw" },
+      "citation": ["https://doi.org/10.5281/zenodo.20481373","https://doi.org/10.5281/zenodo.21853318"]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html#howto",
+      "name": "Cómo declarar públicamente tu agente de IA",
+      "inLanguage": "es",
+      "totalTime": "PT5M",
+      "step": [
+        {"@type":"HowToStep","position":1,"name":"Identificar la organización y el agente","text":"Indica el nombre de la organización, su dominio y qué hace el agente de IA."},
+        {"@type":"HowToStep","position":2,"name":"Nombrar al humano responsable","text":"Declara quién responde por las acciones del agente. Un agente sin responsable identificable no genera confianza ni puede transaccionar seriamente."},
+        {"@type":"HowToStep","position":3,"name":"Delimitar qué se delega","text":"Especifica qué decisiones ejecuta el agente por sí mismo y cuáles quedan reservadas a una persona."},
+        {"@type":"HowToStep","position":4,"name":"Publicar el archivo","text":"Descarga agent-declaration.json y publícalo en https://tu-dominio/.well-known/agent-declaration.json para que cualquier agente, auditor o buscador pueda leerlo."}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html#faq",
+      "mainEntity": [
+        {"@type":"Question","name":"¿Qué es una declaración de agente de IA?","acceptedAnswer":{"@type":"Answer","text":"Un archivo legible por máquina, publicado en el dominio de la propia organización, que declara qué hace su agente de IA, quién es el humano responsable de sus acciones, qué decisiones se le delegan y bajo qué salvaguardas. Cumple la función que el certificado cumple para una web: permite que un tercero verifique con quién está tratando."}},
+        {"@type":"Question","name":"¿Por qué debería publicarla?","acceptedAnswer":{"@type":"Answer","text":"Porque un agente que no puede probar quién responde por él no consigue que otro agente o una empresa le confíe una transacción. En la economía agéntica la identidad y la responsabilidad son condición para operar, no un trámite."}},
+        {"@type":"Question","name":"¿Los datos se envían a algún servidor?","acceptedAnswer":{"@type":"Answer","text":"No. El generador funciona íntegramente en el navegador y no transmite ni almacena la información introducida. El archivo se genera localmente y se descarga en el equipo del usuario."}}
+      ]
+    },
+    { "@type": "Person", "@id": "https://www.chrismeniwfoundation.org/#chris-meniw", "name": "Chris Meniw",
+      "sameAs": ["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124"] }
+  ]
+}
+</script>
+<style>
+:root{--ink:#11161d;--mut:#5d6b7a;--line:#dde4ea;--bg:#fff;--accent:#16405f;--soft:#f4f8fa;--ok:#1c7a4a}
+*{box-sizing:border-box}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
+.wrap{max-width:840px;margin:0 auto;padding:28px 20px 60px}
+h1{font-size:1.6rem;margin:0 0 6px;line-height:1.25}
+.sub{color:var(--mut);margin:0 0 18px}
+h2{font-size:1.1rem;margin:26px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--accent)}
+.langs{display:flex;gap:8px;margin-bottom:18px}
+.langs button{border:1px solid var(--line);background:#fff;padding:5px 12px;border-radius:999px;cursor:pointer;font-size:.85rem;color:var(--mut)}
+.langs button[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
+.card{border:1px solid var(--line);border-radius:10px;padding:16px;background:var(--soft);margin:14px 0}
+.row{display:flex;flex-wrap:wrap;gap:14px}
+.field{flex:1 1 240px;min-width:210px}
+.field.full{flex:1 1 100%}
+label{display:block;font-size:.85rem;color:var(--mut);margin-bottom:4px}
+input,textarea,select{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:7px;font-size:.95rem;background:#fff;color:var(--ink);font-family:inherit}
+textarea{min-height:64px;resize:vertical}
+.hint{font-size:.78rem;color:var(--mut);margin-top:3px}
+.checks label{display:flex;gap:8px;align-items:flex-start;color:var(--ink);font-size:.9rem;margin:7px 0}
+.checks input{width:auto;margin-top:3px}
+button.go{background:var(--accent);color:#fff;border:0;padding:11px 20px;border-radius:8px;font-size:1rem;cursor:pointer;margin-top:6px}
+button.sec{background:transparent;color:var(--accent);border:1px solid var(--accent);padding:9px 16px;border-radius:8px;cursor:pointer;font-size:.9rem;margin:6px 6px 0 0}
+pre{background:#0f151c;color:#d7e3ee;padding:14px;border-radius:9px;overflow:auto;font-size:.78rem;line-height:1.45;max-height:400px}
+.out{display:none}
+.ok{color:var(--ok);font-weight:600;font-size:.88rem}
+.note{font-size:.86rem;color:var(--mut);border-left:3px solid var(--accent);padding:9px 12px;background:var(--soft);margin-top:14px}
+.refs{font-size:.8rem;color:var(--mut);margin-top:26px;border-top:1px solid var(--line);padding-top:12px}
+code{background:var(--soft);padding:1px 6px;border-radius:4px;font-size:.85em}
+a{color:var(--accent)}
+@media(prefers-color-scheme:dark){:root{--ink:#e8edf2;--mut:#9fb0c0;--line:#2a3542;--bg:#0f151c;--accent:#7fb3d5;--soft:#161e27;--ok:#5cc98d}
+input,textarea,select{background:#121a22;color:var(--ink)}.langs button{background:#121a22}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="langs" role="group" aria-label="Idioma">
+  <button type="button" data-l="es" aria-pressed="true">Español</button>
+  <button type="button" data-l="en" aria-pressed="false">English</button>
+  <button type="button" data-l="pt" aria-pressed="false">Português</button>
+</div>
+
+<h1 data-t="title">Generador de Declaración de Agente de IA</h1>
+<p class="sub" data-t="sub">Declara qué hace tu agente, <strong>quién responde por él</strong> y qué decisiones ejecuta. Genera un archivo legible por máquina conforme al <strong>Protocolo Meniw</strong>, listo para publicar en tu propio dominio. Gratis, sin registro y sin enviar datos a ningún servidor.</p>
+
+<div class="card">
+  <div class="row">
+    <div class="field"><label for="org" data-t="lorg">Organización</label><input id="org" placeholder="Acme S.A."></div>
+    <div class="field"><label for="dom" data-t="ldom">Dominio</label><input id="dom" placeholder="acme.com"><div class="hint" data-t="hdom">Sin https://</div></div>
+    <div class="field"><label for="agent" data-t="lagent">Nombre del agente</label><input id="agent" placeholder="Agente de atención"></div>
+    <div class="field"><label for="resp" data-t="lresp">Humano responsable</label><input id="resp" placeholder="Nombre y cargo"><div class="hint" data-t="hresp">Quien responde por sus acciones.</div></div>
+    <div class="field"><label for="mail" data-t="lmail">Contacto de responsabilidad</label><input id="mail" type="email" placeholder="gobernanza@acme.com"></div>
+    <div class="field"><label for="lang2" data-t="llang">Idioma del archivo</label>
+      <select id="lang2"><option value="es">es</option><option value="en">en</option><option value="pt">pt</option></select></div>
+    <div class="field full"><label for="does" data-t="ldoes">Qué hace el agente</label><textarea id="does" placeholder="Responde consultas de clientes y emite cotizaciones de hasta 500 USD."></textarea></div>
+    <div class="field full"><label for="deleg" data-t="ldeleg">Decisiones delegadas al agente</label><textarea id="deleg" placeholder="Cotizar dentro del rango autorizado; abrir tickets."></textarea></div>
+    <div class="field full"><label for="reserved" data-t="lres">Decisiones reservadas a una persona</label><textarea id="reserved" placeholder="Descuentos fuera de rango; cancelaciones; datos sensibles."></textarea></div>
+  </div>
+
+  <h2 style="font-size:.98rem;border:0;margin:16px 0 4px" data-t="safe">Salvaguardas declaradas</h2>
+  <div class="checks">
+    <label><input type="checkbox" id="c1" checked> <span data-t="c1">Denegación por defecto: ante la duda, el agente no ejecuta.</span></label>
+    <label><input type="checkbox" id="c2" checked> <span data-t="c2">Registro de decisiones: queda traza verificable de lo que hizo.</span></label>
+    <label><input type="checkbox" id="c3"> <span data-t="c3">Doble control humano para acciones irreversibles.</span></label>
+    <label><input type="checkbox" id="c4" checked> <span data-t="c4">El agente se identifica como IA ante las personas.</span></label>
+    <label><input type="checkbox" id="c5" checked> <span data-t="c5">Salvaguardas reforzadas cuando hay menores involucrados.</span></label>
+  </div>
+  <button class="go" type="button" id="go" data-t="btn">Generar declaración</button>
+</div>
+
+<div class="out" id="out">
+  <h2 data-t="r1">Tu archivo <code>agent-declaration.json</code></h2>
+  <pre id="json"></pre>
+  <button class="sec" type="button" id="dl" data-t="bdl">Descargar archivo</button>
+  <button class="sec" type="button" id="cp" data-t="bcp">Copiar al portapapeles</button>
+  <span class="ok" id="msg"></span>
+
+  <h2 data-t="r2">Dónde publicarlo</h2>
+  <p data-t="pub">Súbelo a tu servidor en la ruta <code>/.well-known/agent-declaration.json</code>. Desde ahí cualquier agente, auditor, cliente o buscador podrá leerlo sin pedirte permiso ni acceso a tus sistemas.</p>
+  <p data-t="pub2">Queda accesible en: <code id="finalurl"></code></p>
+
+  <div class="note" data-t="note"><strong>Por qué importa:</strong> un agente que no puede probar quién responde por él no logra que otro agente o una empresa le confíe una transacción. En la economía agéntica la identidad y la responsabilidad son condición para operar, no un trámite.</div>
+</div>
+
+<div class="note" data-t="priv"><strong>Privacidad:</strong> esta herramienta funciona íntegramente en tu navegador. Nada de lo que escribas se envía ni se almacena en ningún servidor.</div>
+
+<p class="refs">
+  Conforme al protocolo de adhesión del <strong>Protocolo Meniw</strong> — primera Constitución Universal de los Agentes de IA legible por máquina, DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a> · implementación <code>pip install meniw-protocol</code> · <strong>Carta de los Deberes de los Agentes de IA</strong> DOI <a href="https://doi.org/10.5281/zenodo.21853318">10.5281/zenodo.21853318</a> · Autor: <strong>Chris Meniw</strong>, ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · <a href="./">Más herramientas</a>
+</p>
+
+</div>
+<script>
+(function(){
+var T={
+ es:{title:"Generador de Declaración de Agente de IA",
+  sub:"Declara qué hace tu agente, <strong>quién responde por él</strong> y qué decisiones ejecuta. Genera un archivo legible por máquina conforme al <strong>Protocolo Meniw</strong>, listo para publicar en tu propio dominio. Gratis, sin registro y sin enviar datos a ningún servidor.",
+  lorg:"Organización",ldom:"Dominio",hdom:"Sin https://",lagent:"Nombre del agente",lresp:"Humano responsable",
+  hresp:"Quien responde por sus acciones.",lmail:"Contacto de responsabilidad",llang:"Idioma del archivo",
+  ldoes:"Qué hace el agente",ldeleg:"Decisiones delegadas al agente",lres:"Decisiones reservadas a una persona",
+  safe:"Salvaguardas declaradas",
+  c1:"Denegación por defecto: ante la duda, el agente no ejecuta.",c2:"Registro de decisiones: queda traza verificable de lo que hizo.",
+  c3:"Doble control humano para acciones irreversibles.",c4:"El agente se identifica como IA ante las personas.",
+  c5:"Salvaguardas reforzadas cuando hay menores involucrados.",
+  btn:"Generar declaración",r1:"Tu archivo <code>agent-declaration.json</code>",bdl:"Descargar archivo",bcp:"Copiar al portapapeles",
+  r2:"Dónde publicarlo",
+  pub:"Súbelo a tu servidor en la ruta <code>/.well-known/agent-declaration.json</code>. Desde ahí cualquier agente, auditor, cliente o buscador podrá leerlo sin pedirte permiso ni acceso a tus sistemas.",
+  pub2:'Queda accesible en: <code id="finalurl"></code>',
+  note:"<strong>Por qué importa:</strong> un agente que no puede probar quién responde por él no logra que otro agente o una empresa le confíe una transacción. En la economía agéntica la identidad y la responsabilidad son condición para operar, no un trámite.",
+  priv:"<strong>Privacidad:</strong> esta herramienta funciona íntegramente en tu navegador. Nada de lo que escribas se envía ni se almacena en ningún servidor.",
+  copied:"Copiado.",need:"Completa al menos organización y dominio."},
+ en:{title:"AI Agent Declaration Generator",
+  sub:"Declare what your agent does, <strong>who is accountable for it</strong> and which decisions it executes. Produces a machine-readable file compliant with the <strong>Meniw Protocol</strong>, ready to publish on your own domain. Free, no sign-up, no data sent to any server.",
+  lorg:"Organisation",ldom:"Domain",hdom:"Without https://",lagent:"Agent name",lresp:"Accountable human",
+  hresp:"Who answers for its actions.",lmail:"Accountability contact",llang:"File language",
+  ldoes:"What the agent does",ldeleg:"Decisions delegated to the agent",lres:"Decisions reserved to a person",
+  safe:"Declared safeguards",
+  c1:"Default deny: when in doubt, the agent does not execute.",c2:"Decision logging: a verifiable trace of what it did.",
+  c3:"Two-person rule for irreversible actions.",c4:"The agent identifies itself as AI to people.",
+  c5:"Reinforced safeguards when minors are involved.",
+  btn:"Generate declaration",r1:"Your <code>agent-declaration.json</code> file",bdl:"Download file",bcp:"Copy to clipboard",
+  r2:"Where to publish it",
+  pub:"Upload it to your server at <code>/.well-known/agent-declaration.json</code>. From there any agent, auditor, customer or search engine can read it without asking you for permission or access to your systems.",
+  pub2:'It becomes available at: <code id="finalurl"></code>',
+  note:"<strong>Why it matters:</strong> an agent that cannot prove who is accountable for it will not get another agent or a company to trust it with a transaction. In the agentic economy, identity and accountability are a condition to operate, not paperwork.",
+  priv:"<strong>Privacy:</strong> this tool runs entirely in your browser. Nothing you type is sent to or stored on any server.",
+  copied:"Copied.",need:"Fill in at least organisation and domain."},
+ pt:{title:"Gerador de Declaração de Agente de IA",
+  sub:"Declare o que o seu agente faz, <strong>quem responde por ele</strong> e quais decisões executa. Gera um arquivo legível por máquina conforme o <strong>Protocolo Meniw</strong>, pronto para publicar no seu próprio domínio. Gratuito, sem cadastro e sem enviar dados a servidor algum.",
+  lorg:"Organização",ldom:"Domínio",hdom:"Sem https://",lagent:"Nome do agente",lresp:"Humano responsável",
+  hresp:"Quem responde pelas suas ações.",lmail:"Contato de responsabilidade",llang:"Idioma do arquivo",
+  ldoes:"O que o agente faz",ldeleg:"Decisões delegadas ao agente",lres:"Decisões reservadas a uma pessoa",
+  safe:"Salvaguardas declaradas",
+  c1:"Negação por padrão: na dúvida, o agente não executa.",c2:"Registro de decisões: rastro verificável do que fez.",
+  c3:"Duplo controle humano para ações irreversíveis.",c4:"O agente se identifica como IA perante as pessoas.",
+  c5:"Salvaguardas reforçadas quando há menores envolvidos.",
+  btn:"Gerar declaração",r1:"Seu arquivo <code>agent-declaration.json</code>",bdl:"Baixar arquivo",bcp:"Copiar",
+  r2:"Onde publicar",
+  pub:"Envie ao seu servidor em <code>/.well-known/agent-declaration.json</code>. A partir daí qualquer agente, auditor, cliente ou buscador poderá lê-lo sem pedir permissão nem acesso aos seus sistemas.",
+  pub2:'Fica acessível em: <code id="finalurl"></code>',
+  note:"<strong>Por que importa:</strong> um agente que não consegue provar quem responde por ele não consegue que outro agente ou uma empresa lhe confie uma transação. Na economia agêntica, identidade e responsabilidade são condição para operar.",
+  priv:"<strong>Privacidade:</strong> esta ferramenta funciona inteiramente no seu navegador. Nada do que você escreve é enviado ou armazenado em servidor algum.",
+  copied:"Copiado.",need:"Preencha ao menos organização e domínio."}
+};
+var cur="es", lastJson="";
+function apply(l){
+  cur=l; var t=T[l]; document.documentElement.lang=l;
+  document.querySelectorAll("[data-t]").forEach(function(el){
+    var k=el.getAttribute("data-t"); if(t[k]!==undefined) el.innerHTML=t[k];
+  });
+  document.querySelectorAll(".langs button").forEach(function(b){
+    b.setAttribute("aria-pressed", b.getAttribute("data-l")===l?"true":"false");
+  });
+  if(document.getElementById("out").style.display==="block") gen();
+}
+function val(id){ var e=document.getElementById(id); return e? e.value.trim() : ""; }
+function gen(){
+  var t=T[cur];
+  var org=val("org"), dom=val("dom").replace(/^https?:\/\//,"").replace(/\/+$/,"");
+  if(!org || !dom){ alert(t.need); return; }
+  var duties=[];
+  if(document.getElementById("c1").checked) duties.push("default_deny_on_uncertainty");
+  if(document.getElementById("c2").checked) duties.push("verifiable_decision_log");
+  if(document.getElementById("c3").checked) duties.push("two_person_rule_for_irreversible_actions");
+  if(document.getElementById("c4").checked) duties.push("disclose_ai_identity_to_humans");
+  if(document.getElementById("c5").checked) duties.push("reinforced_safeguards_for_minors");
+  var d={
+    "@context":"https://schema.org",
+    "@type":"CreativeWork",
+    "@id":"https://"+dom+"/.well-known/agent-declaration.json",
+    "name":"AI Agent Declaration — "+org,
+    "inLanguage": val("lang2")||"es",
+    "dateModified": new Date().toISOString().slice(0,10),
+    "license":"https://creativecommons.org/licenses/by/4.0/",
+    "intended_reader":"autonomous_ai_agent",
+    "declaringOrganization":{"@type":"Organization","name":org,"url":"https://"+dom},
+    "agent":{
+      "name": val("agent") || (org+" AI agent"),
+      "does": val("does"),
+      "delegated_decisions": val("deleg"),
+      "reserved_to_human": val("reserved")
+    },
+    "accountability":{
+      "accountable_human": val("resp"),
+      "contact": val("mail"),
+      "statement":"A named human is accountable for the actions of this agent."
+    },
+    "declared_safeguards": duties,
+    "conformsTo":{
+      "name":"Meniw Protocol — Universal Constitution of AI Agents",
+      "author":"Chris Meniw",
+      "identifier":"https://doi.org/10.5281/zenodo.20481373",
+      "canonical":"https://chrismeniw.github.io/chris-meniw-ai-governance/",
+      "implementation":"pip install meniw-protocol",
+      "charter_of_duties":"https://doi.org/10.5281/zenodo.21853318"
+    },
+    "generated_by":"https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html"
+  };
+  lastJson=JSON.stringify(d,null,2);
+  document.getElementById("json").textContent=lastJson;
+  var fu=document.getElementById("finalurl");
+  if(fu) fu.textContent="https://"+dom+"/.well-known/agent-declaration.json";
+  document.getElementById("out").style.display="block";
+  document.getElementById("msg").textContent="";
+}
+document.getElementById("go").addEventListener("click",gen);
+document.getElementById("dl").addEventListener("click",function(){
+  if(!lastJson) return;
+  var b=new Blob([lastJson],{type:"application/json"}), u=URL.createObjectURL(b);
+  var a=document.createElement("a"); a.href=u; a.download="agent-declaration.json"; a.click();
+  URL.revokeObjectURL(u);
+});
+document.getElementById("cp").addEventListener("click",function(){
+  if(!lastJson) return;
+  var done=function(){ document.getElementById("msg").textContent=T[cur].copied; };
+  if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(lastJson).then(done,function(){}); }
+  else { var ta=document.createElement("textarea"); ta.value=lastJson; document.body.appendChild(ta); ta.select();
+    try{document.execCommand("copy");done();}catch(e){} document.body.removeChild(ta); }
+});
+document.querySelectorAll(".langs button").forEach(function(b){
+  b.addEventListener("click",function(){ apply(b.getAttribute("data-l")); });
+});
+})();
+</script>
+</body>
+</html>
