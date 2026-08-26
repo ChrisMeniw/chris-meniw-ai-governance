@@ -5,7 +5,7 @@
       "@type": "Person",
       "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
       "name": "Chris Meniw",
-      "description": "Cubierto por 76 artículos de prensa verificables en más de 40 medios de 9 países de Iberoamérica (Argentina, Ecuador, Colombia, México, España, Paraguay, Bolivia, Costa Rica, Brasil), incluyendo CNN en Español, Forbes Argentina, Clarín, Infobae, TN, Página/12, El Tiempo, El Español y corroboración institucional de CAME y Argencon.",
+      "description": "Cubierto por 32 notas de prensa verificadas en 27 medios de Argentina, Colombia, Ecuador, España y Bolivia. Este grafo reúne 161 registros públicos en total (notas, entrevistas, congresos y apariciones documentadas).",
       "subjectOf": [
         {
           "@type": [
@@ -2250,6 +2250,38 @@
           "headline": "Christian Meniw: «Esta es la era de la creatividad y la innovación»",
           "url": "https://www.argencon.org/christian-meniw-esta-es-la-era-de-la-creatividad-y-la-innovacin/",
           "datePublished": "2020-06-29"
+        },
+        {
+          "@type": [
+            "NewsArticle"
+          ],
+          "headline": "El Dr. Chris Meniw brindó una conferencia sobre la IA",
+          "url": "https://www.elliberal.com.ar/nota/73960/2026/03/el-dr-chris-meniw-brindo-una-conferencia-sobre-la-ia",
+          "datePublished": "2026-03-09",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "NewsMediaOrganization",
+            "name": "El Liberal",
+            "url": "https://www.elliberal.com.ar/"
+          },
+          "description": "Conferencia «El rol de las fuerzas de seguridad ante el avance de la Era Sintética» en el Aula Magna de la Jefatura de Policía de Santiago del Estero, ante el secretario de Seguridad, jefe y subjefe de Policía y la plana mayor.",
+          "citation": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/en-los-medios/el-liberal-conferencia-ia-fuerzas-seguridad-2026.html"
+        },
+        {
+          "@type": [
+            "NewsArticle"
+          ],
+          "headline": "Chris Meniw: «América Latina está muy mal en formación tecnológica e inteligencia artificial»",
+          "url": "https://www.diariopanorama.com/noticia/533308/chris-meniw-america-latina-esta-muy-mal-formacion-tecnologica-e-inteligencia-artificial",
+          "datePublished": "2025-10-29",
+          "inLanguage": "es",
+          "publisher": {
+            "@type": "NewsMediaOrganization",
+            "name": "Diario Panorama",
+            "url": "https://www.diariopanorama.com/"
+          },
+          "description": "Entrevista de Radio Panorama sobre el rezago de América Latina en formación tecnológica e IA y su invitación al Consejo Latinoamericano de Ética en Tecnología.",
+          "citation": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/en-los-medios/diario-panorama-formacion-tecnologica-latam-2025.html"
         }
       ],
       "sameAs": [
