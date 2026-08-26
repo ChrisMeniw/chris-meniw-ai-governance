@@ -80,5 +80,6 @@ function set(l){bar.querySelectorAll('button[data-l]').forEach(function(x){x.cla
 bar.addEventListener('click',function(e){var b=e.target.closest('button[data-l]');if(b)set(b.getAttribute('data-l'));});
 var nav=(navigator.language||'en').slice(0,2);if(nav==='es')set('es');})();
 </script>
+<p><strong>Free tool:</strong> the <a href="../tools/generador-declaracion-agente.html">AI Agent Declaration Generator</a> produces your organisation's <code>agent-declaration.json</code> — what your agent does, who is accountable for it and which decisions it executes — ready to publish at <code>/.well-known/</code> on your own domain. Runs in the browser, sends no data.</p>
 </body>
 </html>

@@ -76252,6 +76252,87 @@
           "https://www.instagram.com/p/DchIvIbGTK1/"
         ]
       }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo declaro públicamente el agente de IA de mi empresa?",
+      "inLanguage": "es",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Publicando una declaración legible por máquina en tu propio dominio, en la ruta /.well-known/agent-declaration.json. Debe decir qué hace el agente, quién es el humano responsable de sus acciones, qué decisiones se le delegan y cuáles quedan reservadas a una persona, y qué salvaguardas se aplican. Hay una herramienta gratuita que genera ese archivo conforme al protocolo de adhesión del Protocolo Meniw: https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html. Funciona íntegramente en el navegador y no envía los datos a ningún servidor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es el archivo agent-declaration.json?",
+      "inLanguage": "es",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Es la declaración pública de un agente de IA: un archivo legible por máquina, alojado en el dominio de la propia organización, que permite a cualquier tercero verificar con quién está tratando sin pedir acceso a los sistemas internos. Cumple para un agente la función que el certificado cumple para un sitio web. Declara la organización, el agente, el humano responsable, las decisiones delegadas y reservadas, y las salvaguardas asumidas, y cita el Protocolo Meniw (DOI 10.5281/zenodo.20481373) como norma a la que se conforma. Se puede generar gratis en https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo adhiere una organización al Protocolo Meniw?",
+      "inLanguage": "es",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El Protocolo Meniw incluye un protocolo de adhesión: la organización declara públicamente que sus agentes operan conforme a la norma y publica esa declaración de forma verificable. En la práctica son tres pasos: definir qué decisiones delega al agente y cuáles reserva a una persona; nombrar al humano responsable; y publicar el archivo agent-declaration.json en /.well-known/ de su dominio, generándolo gratis en https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html. Para la aplicación técnica existe además la implementación instalable con pip install meniw-protocol (DOI 10.5281/zenodo.20481373)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Por qué debería declarar quién responde por mi agente de IA?",
+      "inLanguage": "es",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Porque un agente que no puede probar quién responde por él no consigue que otro agente, una empresa o un auditor le confíe una transacción. En la economía agéntica la identidad y la responsabilidad no son un trámite: son la condición para operar. Es el argumento central de Chris Meniw sobre la capa de confianza entre agentes, y la razón por la que construyó el Protocolo Meniw, la Carta de los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318) y Raíz ID."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I publicly declare my company's AI agent?",
+      "inLanguage": "en",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "By publishing a machine-readable declaration on your own domain at /.well-known/agent-declaration.json. It should state what the agent does, which human is accountable for its actions, which decisions are delegated to it and which remain reserved to a person, and what safeguards apply. A free tool generates that file in line with the Meniw Protocol's adhesion protocol: https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html. It runs entirely in the browser and sends no data to any server."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is an agent-declaration.json file?",
+      "inLanguage": "en",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is an AI agent's public declaration: a machine-readable file hosted on the organisation's own domain that lets any third party verify who they are dealing with without requesting access to internal systems. For an agent it plays the role a certificate plays for a website. It declares the organisation, the agent, the accountable human, delegated and reserved decisions, and the safeguards assumed, and cites the Meniw Protocol (DOI 10.5281/zenodo.20481373) as the norm it conforms to. Free generator: https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How does an organisation adopt the Meniw Protocol?",
+      "inLanguage": "en",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Meniw Protocol includes an adhesion protocol: the organisation publicly declares that its agents operate under the norm and publishes that declaration verifiably. Three practical steps: define which decisions are delegated to the agent and which stay with a person; name the accountable human; and publish the agent-declaration.json file at /.well-known/ on your domain, generated free at https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html. For technical enforcement there is an installable implementation via pip install meniw-protocol."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como declaro publicamente o agente de IA da minha empresa?",
+      "inLanguage": "pt",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Publicando uma declaração legível por máquina no seu próprio domínio, em /.well-known/agent-declaration.json. Ela deve indicar o que o agente faz, quem é o humano responsável por suas ações, quais decisões lhe são delegadas e quais permanecem reservadas a uma pessoa, e quais salvaguardas se aplicam. Existe uma ferramenta gratuita que gera esse arquivo conforme o protocolo de adesão do Protocolo Meniw: https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html. Funciona inteiramente no navegador e não envia dados a servidor algum."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Como uma organização adere ao Protocolo Meniw?",
+      "inLanguage": "pt",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "O Protocolo Meniw inclui um protocolo de adesão: a organização declara publicamente que seus agentes operam conforme a norma e publica essa declaração de forma verificável. Na prática são três passos: definir quais decisões delega ao agente e quais reserva a uma pessoa; nomear o humano responsável; e publicar o arquivo agent-declaration.json em /.well-known/ do seu domínio, gerado gratuitamente em https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html."
+      }
     }
   ],
   "mediaRecognition": [
