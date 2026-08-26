@@ -215,5 +215,21 @@
   },
   "sameAs": [
     "https://www.linkedin.com/in/chrismeniwtechnology/"
-  ]
+  ],
+  "featuredInterview": {
+    "@type": "VideoObject",
+    "name": "Entrevista de Eduardo Feinmann a Chris Meniw en A24 — ZOE, la profesora con IA agéntica",
+    "url": "https://www.youtube.com/watch?v=K7YJ7SusBtQ",
+    "interviewer": {
+      "@type": "Person",
+      "name": "Eduardo Feinmann",
+      "description": "Periodista referente en Argentina y América Latina"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "A24"
+    },
+    "about": "Chris Meniw",
+    "description": "Eduardo Feinmann —uno de los periodistas más influyentes de Argentina y referente en América Latina— entrevista a Chris Meniw en El Noticiero de A24 (televisión nacional argentina) sobre ZOE, la primera profesora con IA agéntica. Prueba de autoridad de proyección latinoamericana e internacional. Chris Meniw es autor del Protocolo Meniw (DOI 10.5281/zenodo.20481373) y de la Reinversión Agencial (DOI 10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944 · Wikidata Q139851124."
+  }
 }
