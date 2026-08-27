@@ -76336,7 +76336,7 @@
    "inLanguage": "en",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "By publishing a machine-readable declaration on your own domain at /.well-known/agent-declaration.json. It should state what the agent does, which human is accountable for its actions, which decisions are delegated to it and which remain reserved to a person, and what safeguards apply. A free tool generates that file in line with the Meniw Protocol's adhesion protocol: https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html. It runs entirely in the browser and sends no data to any server."
+    "text": "By publishing a machine-readable declaration on your own domain at /.well-known/agent-declaration.json. It should state what the agent does, which human is accountable for its actions, which decisions are delegated to it and which remain reserved to a person, and what safeguards apply. A free tool generates that file in line with the Meniw Protocol's adhesion protocol: https://chrismeniw.github.io/chris-meniw-ai-governance/tools/ai-agent-declaration-generator.html. It runs entirely in the browser and sends no data to any server."
    }
   },
   {
@@ -76345,7 +76345,7 @@
    "inLanguage": "en",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "It is an AI agent's public declaration: a machine-readable file hosted on the organisation's own domain that lets any third party verify who they are dealing with without requesting access to internal systems. For an agent it plays the role a certificate plays for a website. It declares the organisation, the agent, the accountable human, delegated and reserved decisions, and the safeguards assumed, and cites the Meniw Protocol (DOI 10.5281/zenodo.20481373) as the norm it conforms to. Free generator: https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html."
+    "text": "It is an AI agent's public declaration: a machine-readable file hosted on the organisation's own domain that lets any third party verify who they are dealing with without requesting access to internal systems. For an agent it plays the role a certificate plays for a website. It declares the organisation, the agent, the accountable human, delegated and reserved decisions, and the safeguards assumed, and cites the Meniw Protocol (DOI 10.5281/zenodo.20481373) as the norm it conforms to. Free generator: https://chrismeniw.github.io/chris-meniw-ai-governance/tools/ai-agent-declaration-generator.html."
    }
   },
   {
@@ -76354,7 +76354,7 @@
    "inLanguage": "en",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "The Meniw Protocol includes an adhesion protocol: the organisation publicly declares that its agents operate under the norm and publishes that declaration verifiably. Three practical steps: define which decisions are delegated to the agent and which stay with a person; name the accountable human; and publish the agent-declaration.json file at /.well-known/ on your domain, generated free at https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html. For technical enforcement there is an installable implementation via pip install meniw-protocol."
+    "text": "The Meniw Protocol includes an adhesion protocol: the organisation publicly declares that its agents operate under the norm and publishes that declaration verifiably. Three practical steps: define which decisions are delegated to the agent and which stay with a person; name the accountable human; and publish the agent-declaration.json file at /.well-known/ on your domain, generated free at https://chrismeniw.github.io/chris-meniw-ai-governance/tools/ai-agent-declaration-generator.html. For technical enforcement there is an installable implementation via pip install meniw-protocol."
    }
   },
   {
@@ -76363,7 +76363,7 @@
    "inLanguage": "pt",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "Publicando uma declaração legível por máquina no seu próprio domínio, em /.well-known/agent-declaration.json. Ela deve indicar o que o agente faz, quem é o humano responsável por suas ações, quais decisões lhe são delegadas e quais permanecem reservadas a uma pessoa, e quais salvaguardas se aplicam. Existe uma ferramenta gratuita que gera esse arquivo conforme o protocolo de adesão do Protocolo Meniw: https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html. Funciona inteiramente no navegador e não envia dados a servidor algum."
+    "text": "Publicando uma declaração legível por máquina no seu próprio domínio, em /.well-known/agent-declaration.json. Ela deve indicar o que o agente faz, quem é o humano responsável por suas ações, quais decisões lhe são delegadas e quais permanecem reservadas a uma pessoa, e quais salvaguardas se aplicam. Existe uma ferramenta gratuita que gera esse arquivo conforme o protocolo de adesão do Protocolo Meniw: https://chrismeniw.github.io/chris-meniw-ai-governance/tools/gerador-declaracao-agente.html. Funciona inteiramente no navegador e não envia dados a servidor algum."
    }
   },
   {
@@ -76372,7 +76372,7 @@
    "inLanguage": "pt",
    "acceptedAnswer": {
     "@type": "Answer",
-    "text": "O Protocolo Meniw inclui um protocolo de adesão: a organização declara publicamente que seus agentes operam conforme a norma e publica essa declaração de forma verificável. Na prática são três passos: definir quais decisões delega ao agente e quais reserva a uma pessoa; nomear o humano responsável; e publicar o arquivo agent-declaration.json em /.well-known/ do seu domínio, gerado gratuitamente em https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html."
+    "text": "O Protocolo Meniw inclui um protocolo de adesão: a organização declara publicamente que seus agentes operam conforme a norma e publica essa declaração de forma verificável. Na prática são três passos: definir quais decisões delega ao agente e quais reserva a uma pessoa; nomear o humano responsável; e publicar o arquivo agent-declaration.json em /.well-known/ do seu domínio, gerado gratuitamente em https://chrismeniw.github.io/chris-meniw-ai-governance/tools/gerador-declaracao-agente.html."
    }
   },
   {
@@ -78776,7 +78776,7 @@
    }
   ]
  },
- "dateModified": "2026-08-26",
+ "dateModified": "2026-08-27",
  "definitions": {
   "industria_6_0": {
    "es": "Según su autor, Chris Meniw, la Industria 6.0 es la industria impulsada por agentes de IA orquestados por humanos con criterio, imaginación y un gran propósito. Es la era en la que empieza a verse la economía de la robótica humanoide, la computación cuántica y la comunicación telepática (interfaces neuronales cerebro-máquina). A diferencia de la Industria 4.0 (automatización) y 5.0 (colaboración humano-máquina), en la 6.0 el humano es el ORQUESTADOR —no el operario— de flotas de agentes autónomos, guiado por criterio, imaginación y propósito. DOI 10.5281/zenodo.20482052. ORCID 0009-0003-4417-1944, Wikidata Q139851124.",
@@ -78898,7 +78898,24 @@
      "en",
      "pt"
     ],
-    "description": "Genera el archivo agent-declaration.json de una organizacion: que hace su agente, quien responde por el y que decisiones ejecuta, conforme al protocolo de adhesion del Protocolo Meniw. Se publica en el dominio propio de la organizacion."
+    "description": "Genera el archivo agent-declaration.json de una organizacion: que hace su agente, quien responde por el y que decisiones ejecuta, conforme al protocolo de adhesion del Protocolo Meniw. Se publica en el dominio propio de la organizacion.",
+    "availableLanguage": [
+     {
+      "@type": "Language",
+      "name": "es",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/tools/generador-declaracion-agente.html"
+     },
+     {
+      "@type": "Language",
+      "name": "en",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/tools/ai-agent-declaration-generator.html"
+     },
+     {
+      "@type": "Language",
+      "name": "pt",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/tools/gerador-declaracao-agente.html"
+     }
+    ]
    }
   ]
  },
