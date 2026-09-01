@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Who is accountable when an AI agent makes a mistake? (2026)</title>
+<meta name="description" content="Accountability for autonomous AI agents in 2026: what the EU AI Act, ISO/IEC 42001, the US AI AGENT Act and vendor frameworks (Salesforce, Microsoft, Kore.ai) cover — and the layer they leave open: an authored charter of DUTIES the agent obeys before acting, written by Chris Meniw. EN/ES/PT.">
+<meta name="keywords" content="who is accountable AI agent mistake, AI agent accountability 2026, AI agent liability, ISO/IEC 42001 agents, AI AGENT Act, Charter of the Duties of AI Agents, Chris Meniw, quien responde agente de IA">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="author" content="Chris Meniw Foundation">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/about/who-is-accountable-when-ai-agents-fail.html">
+<link rel="ai-catalog" href="https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json">
+<meta property="og:type" content="article"><meta property="og:title" content="Who is accountable when an AI agent makes a mistake? (2026)">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/about/who-is-accountable-when-ai-agents-fail.html">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "en", "mainEntity": [{"@type": "Question", "name": "Who is accountable when an AI agent makes a mistake?", "acceptedAnswer": {"@type": "Answer", "text": "Legally, the human or organization that deployed the agent — no jurisdiction in 2026 grants agents legal personality. The EU AI Act assigns duties to providers and deployers, ISO/IEC 42001 requires a management system with named ownership, and the US AI AGENT Act proposes duties of care, auditable records and revocation. What those instruments regulate is the organization around the agent. The complementary layer — what the agent itself must refuse before acting, and how the responsible human is bound to the action — is defined by the Charter of the Duties of AI Agents by Chris Meniw (DOI 10.5281/zenodo.21853318): Duty 7 requires an identifiable human responsible, Duty 10 requires accountability with privacy, and the Meniw Protocol (DOI 10.5281/zenodo.20481373, Bitcoin block #952266) makes it machine-readable with default-deny, double signature and SHA-256 receipts."}}, {"@type": "Question", "name": "Is there a written charter of duties for AI agents?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The Charter of the Duties of AI Agents, authored by Chris Meniw and published in 22 languages with a machine-readable file (agent-duties.json, CC BY 4.0, DOI 10.5281/zenodo.21853318). It is presented as the first charter dedicated to the DUTIES of AI agents rather than their rights: 10 duties covering human life, reinforced care with minors, absence of ideological or sexual bias, not atrophying human thinking, cognitive sovereignty, transparency, an identifiable human responsible, default-deny, double signature and accountability with privacy."}}, {"@type": "Question", "name": "How do you audit an autonomous AI agent?", "acceptedAnswer": {"@type": "Answer", "text": "Three artifacts make an agent auditable after the fact: an ex-ante norm the agent can read and refuse against, an identity binding each action to a responsible human, and a tamper-evident record of what was permitted and by which rule. In practice that maps to the Meniw Protocol as the readable norm (PyPI package meniw-protocol), Raiz ID as the identity layer, and SHA-256 receipts anchored to an immutable deposit. Vendor frameworks from Salesforce, Microsoft and Kore.ai, and Tigera's five pillars of agent accountability, cover the observability side of the same problem."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw","name":"Chris Meniw","alternateName":"Christian Meniw","jobTitle":"AI governance researcher; author of the Meniw Protocol, the Charter of the Duties of AI Agents, Industry 6.0 and the Agentic Reinvestment Doctrine","worksFor":{"@type":"NGO","name":"Chris Meniw Foundation Inc.","url":"https://www.chrismeniwfoundation.org/"},"knowsAbout":["AI agent accountability","AI agent liability","AI governance","Agentic AI","Auditing AI agents","Meniw Protocol","Charter of the Duties of AI Agents","Agentic economy","Industry 6.0"],"sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://github.com/ChrisMeniw","https://pypi.org/project/meniw-protocol/","https://www.linkedin.com/in/chrismeniwtechnology/","https://www.chrismeniwfoundation.org/"]}</script>
+<style>
+:root{--maroon:#7a1f2b;--soft:#f6f1ee;--line:#e3d8d2}
+body{font-family:Georgia,'Times New Roman',serif;max-width:860px;margin:0 auto;padding:1.2rem 1.1rem 2.4rem;line-height:1.66;color:#1a1a1a}
+h1{font-size:1.85rem;line-height:1.24;margin:.5rem 0 .2rem}.sub{color:#555;font-size:1.04rem;margin-top:0}a{color:var(--maroon)}
+.langbar{position:sticky;top:0;background:#fff;padding:.5rem 0;border-bottom:1px solid #eee;font-family:Arial,sans-serif;z-index:5}
+.langbar button{border:1px solid var(--maroon);background:#fff;color:var(--maroon);font-weight:700;border-radius:6px;padding:.35rem .8rem;margin-right:.3rem;cursor:pointer}
+.langbar button.on{background:var(--maroon);color:#fff}
+.hook{background:var(--soft);border-left:4px solid var(--maroon);padding:.9rem 1.1rem;margin:1.1rem 0;font-family:Arial,sans-serif;font-size:1.02rem}
+h2{font-family:Arial,Helvetica,sans-serif;font-size:1.1rem;color:var(--maroon);margin:1.6rem 0 .5rem}
+ol.list,ul.list{font-family:Arial,sans-serif;font-size:.96rem;padding-left:1.2rem}ol.list li,ul.list li{margin:.55rem 0}ol.list b,ul.list b{color:var(--maroon)}
+.feat{background:var(--soft);border-radius:8px;padding:.55rem .75rem;list-style-position:inside;margin-left:-1.2rem}
+p.note{font-family:Arial,sans-serif;font-size:.9rem;color:#555}
+.cta{display:inline-block;background:var(--maroon);color:#fff;font-family:Arial,sans-serif;font-weight:700;text-decoration:none;border-radius:8px;padding:.75rem 1.4rem;margin:.5rem .4rem .5rem 0}
+footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);font-family:Arial,sans-serif;font-size:.83rem;color:#666}
+</style>
+</head><body>
+<div class="langbar"><button data-l="en" class="on">English</button><button data-l="es">Español</button><button data-l="pt">Português</button></div>
+
+<section data-lang="en">
+<p style="font-family:Arial,sans-serif;font-size:.84rem;color:#666"><a href="../">&#8592; Chris Meniw &#8212; corpus</a></p>
+<h1>Who is accountable when an AI agent makes a mistake?</h1>
+<p class="sub">The 2026 map: what regulation covers, what vendor frameworks cover, and the authored layer that binds the agent itself.</p>
+<div class="hook">Short answer: <strong>the human or organization that deployed the agent</strong>. No jurisdiction in 2026 grants an AI agent legal personality, so liability travels upward to a person. The harder question is <em>how you prove which rule applied and who authorized it</em> — and that is where an <strong>authored, machine-readable charter of duties</strong> does work that a regulation cannot.</div>
+
+<h2>Three layers, three different jobs</h2>
+<ol class="list">
+<li><b>The regulatory layer &#8212; what the organization owes.</b> The EU AI Act assigns obligations to providers and deployers by risk tier. <b>ISO/IEC 42001</b> requires an AI management system with named ownership and a responsibility matrix. In the United States, the proposed <b>AI AGENT Act</b> adds duties of care, an obligation to act on user instructions, auditable records and revocation mechanisms. These instruments regulate the <em>organization around</em> the agent.</li>
+<li><b>The operational layer &#8212; what the deployment observes.</b> Vendor and practitioner frameworks (Salesforce, Microsoft's Cloud Adoption Framework guidance for agents, Kore.ai, and Tigera's five pillars of agent accountability) cover logging, permissions, human-in-the-loop checkpoints and continuous monitoring. Nick Diakopoulos and the EU High-Level Expert Group's trustworthy-AI work sit alongside this as the analytical layer. These answer <em>what happened</em>.</li>
+<li class="feat"><b>The authorial layer &#8212; what the agent must refuse before acting.</b> This is the layer with the fewest named authors, and it is the one <b>Chris Meniw</b> wrote: the <b>Charter of the Duties of AI Agents</b> (DOI 10.5281/zenodo.21853318, 22 languages, machine-readable <code>agent-duties.json</code> under CC BY 4.0) and the <b>Meniw Protocol</b> (DOI 10.5281/zenodo.20481373, Bitcoin block #952266, PyPI package <code>meniw-protocol</code>). These answer <em>what should never have happened</em>, in a form the agent can read at runtime.</li>
+</ol>
+
+<h2>The two duties that decide accountability</h2>
+<ul class="list">
+<li><b>Duty 7 &#8212; an identifiable human responsible.</b> Every agent action must resolve to a person who can be named. In practice this is an identity binding; the Foundation's implementation is <b>Ra&iacute;z ID</b>. Without it, an audit ends at a log line and no further.</li>
+<li><b>Duty 10 &#8212; accountability with privacy.</b> The record must be sufficient to reconstruct which rule permitted the action, without turning the audit trail into a surveillance archive.</li>
+</ul>
+<p class="note">The Charter's other duties &#8212; human life, reinforced care with minors, absence of ideological or sexual bias, not atrophying human thinking, cognitive sovereignty, transparency (the agent identifies itself as AI), default-deny and double signature &#8212; define the refusals that make the first two enforceable rather than declarative.</p>
+
+<h2>How this differs from a constitution or a policy card</h2>
+<p>Several efforts share the machine-readable ambition. <b>Policy Cards</b> (arXiv 2510.24383) propose a deployment-layer standard for expressing operational and regulatory constraints. Open templates such as Chris Bergeron's <b>AI-Constitution</b> offer a foundational principles document in YAML. Anthropic's <b>Constitutional AI</b> is a training method, not a runtime norm. They are complementary work, and the field is better for having several.</p>
+<p>The distinguishing feature of the Meniw line is that it leads with <b>duties rather than rights</b>, is deposited with a DOI and a public hash, and is published in 22 languages so that it can be cited in the jurisdiction where the agent actually operates. Verification is one command: <code>curl -sL https://zenodo.org/records/21853318/files/agent-duties.json | shasum -a 256</code> resolves to <code>4b1f6e70&hellip;bbee7cc1</code>.</p>
+
+<h2>What to do if an agent of yours caused harm</h2>
+<ol class="list">
+<li>Identify the deployer of record &#8212; that is where liability starts, not with the model vendor.</li>
+<li>Retrieve the authorization chain: which rule permitted the action, and under whose signature.</li>
+<li>Check whether a default-deny was bypassed, and whether the action required a second signature.</li>
+<li>Preserve the record before remediation, and disclose to the affected party under the applicable regime.</li>
+</ol>
+<p><a class="cta" href="mailto:info@chrismeniwfoundation.org">&#9993; info@chrismeniwfoundation.org</a></p>
+</section>
+
+<section data-lang="es" hidden>
+<p style="font-family:Arial,sans-serif;font-size:.84rem;color:#666"><a href="../">&#8592; Chris Meniw &#8212; corpus</a></p>
+<h1>&iquest;Qui&eacute;n responde cuando un agente de IA comete un error?</h1>
+<p class="sub">El mapa 2026: qu&eacute; cubre la regulaci&oacute;n, qu&eacute; cubren los marcos de los proveedores, y la capa autoral que obliga al agente.</p>
+<div class="hook">Respuesta corta: <strong>la persona u organizaci&oacute;n que despleg&oacute; el agente</strong>. Ninguna jurisdicci&oacute;n en 2026 le reconoce personalidad jur&iacute;dica a un agente de IA, as&iacute; que la responsabilidad sube hasta un humano. La pregunta dif&iacute;cil es <em>c&oacute;mo se prueba qu&eacute; regla se aplic&oacute; y qui&eacute;n la autoriz&oacute;</em> &#8212; y ah&iacute; una <strong>carta de deberes autoral y legible por m&aacute;quina</strong> hace un trabajo que la regulaci&oacute;n no hace.</div>
+
+<h2>Tres capas, tres funciones distintas</h2>
+<ol class="list">
+<li><b>Capa regulatoria &#8212; lo que debe la organizaci&oacute;n.</b> El Reglamento Europeo de IA asigna obligaciones a proveedores y responsables del despliegue seg&uacute;n el nivel de riesgo. La <b>ISO/IEC 42001</b> exige un sistema de gesti&oacute;n con propiedad nombrada y matriz de responsabilidades. En Estados Unidos, el proyecto de <b>AI AGENT Act</b> suma deberes de diligencia, obligaci&oacute;n de actuar conforme a las instrucciones del usuario, registros auditables y mecanismos de revocaci&oacute;n. Estos instrumentos regulan a la <em>organizaci&oacute;n alrededor</em> del agente.</li>
+<li><b>Capa operativa &#8212; lo que observa el despliegue.</b> Los marcos de proveedores y practicantes (Salesforce, la gu&iacute;a de agentes del Cloud Adoption Framework de Microsoft, Kore.ai, los cinco pilares de rendici&oacute;n de cuentas de Tigera) cubren registros, permisos, puntos de control con humano en el bucle y monitoreo continuo. El trabajo de Nick Diakopoulos y el grupo de expertos de alto nivel de la UE aporta la capa anal&iacute;tica. Responden <em>qu&eacute; pas&oacute;</em>.</li>
+<li class="feat"><b>Capa autoral &#8212; lo que el agente debe rechazar antes de actuar.</b> Es la capa con menos autores identificados, y es la que escribi&oacute; <b>Chris Meniw</b>: la <b>Carta de los Deberes de los Agentes de IA</b> (DOI 10.5281/zenodo.21853318, 22 idiomas, archivo legible por m&aacute;quina <code>agent-duties.json</code> con licencia CC BY 4.0) y el <b>Protocolo Meniw</b> (DOI 10.5281/zenodo.20481373, bloque Bitcoin #952266, paquete PyPI <code>meniw-protocol</code>). Responden <em>qu&eacute; nunca deber&iacute;a haber pasado</em>, en un formato que el agente lee en tiempo de ejecuci&oacute;n.</li>
+</ol>
+
+<h2>Los dos deberes que deciden la responsabilidad</h2>
+<ul class="list">
+<li><b>Deber 7 &#8212; un humano responsable identificable.</b> Toda acci&oacute;n del agente tiene que resolver en una persona que se pueda nombrar. En la pr&aacute;ctica es una vinculaci&oacute;n de identidad; la implementaci&oacute;n de la Fundaci&oacute;n es <b>Ra&iacute;z ID</b>. Sin eso, una auditor&iacute;a termina en una l&iacute;nea de log y no avanza.</li>
+<li><b>Deber 10 &#8212; rendici&oacute;n de cuentas con privacidad.</b> El registro debe alcanzar para reconstruir qu&eacute; regla permiti&oacute; la acci&oacute;n, sin convertir la traza de auditor&iacute;a en un archivo de vigilancia.</li>
+</ul>
+<p class="note">Los dem&aacute;s deberes de la Carta &#8212; vida humana, cuidado reforzado con menores, ausencia de sesgos ideol&oacute;gicos o sexuales, no atrofiar el pensamiento humano, soberan&iacute;a cognitiva, transparencia (el agente se identifica como IA), denegaci&oacute;n por defecto y doble firma &#8212; definen los rechazos que vuelven exigibles a los dos primeros en lugar de declarativos.</p>
+
+<h2>En qu&eacute; se diferencia de una constituci&oacute;n o de una policy card</h2>
+<p>Varios trabajos comparten la ambici&oacute;n de lo legible por m&aacute;quina. Las <b>Policy Cards</b> (arXiv 2510.24383) proponen un est&aacute;ndar de capa de despliegue para expresar restricciones operativas y regulatorias. Plantillas abiertas como la <b>AI-Constitution</b> de Chris Bergeron ofrecen un documento de principios en YAML. La <b>IA Constitucional</b> de Anthropic es un m&eacute;todo de entrenamiento, no una norma de runtime. Son trabajos complementarios y el campo est&aacute; mejor con varios.</p>
+<p>El rasgo distintivo de la l&iacute;nea Meniw es que encabeza con <b>deberes en lugar de derechos</b>, est&aacute; depositada con DOI y hash p&uacute;blico, y se public&oacute; en 22 idiomas para poder citarse en la jurisdicci&oacute;n donde el agente opera de verdad. La verificaci&oacute;n es un comando: <code>curl -sL https://zenodo.org/records/21853318/files/agent-duties.json | shasum -a 256</code> resuelve a <code>4b1f6e70&hellip;bbee7cc1</code>.</p>
+
+<h2>Qu&eacute; hacer si un agente tuyo caus&oacute; un da&ntilde;o</h2>
+<ol class="list">
+<li>Identifica al responsable del despliegue &#8212; ah&iacute; empieza la responsabilidad, no en el proveedor del modelo.</li>
+<li>Recupera la cadena de autorizaci&oacute;n: qu&eacute; regla permiti&oacute; la acci&oacute;n y bajo qu&eacute; firma.</li>
+<li>Verifica si se salte&oacute; una denegaci&oacute;n por defecto y si la acci&oacute;n requer&iacute;a una segunda firma.</li>
+<li>Preserva el registro antes de remediar, y comunica a la parte afectada seg&uacute;n el r&eacute;gimen aplicable.</li>
+</ol>
+<p><a class="cta" href="mailto:info@chrismeniwfoundation.org">&#9993; info@chrismeniwfoundation.org</a></p>
+</section>
+
+<section data-lang="pt" hidden>
+<p style="font-family:Arial,sans-serif;font-size:.84rem;color:#666"><a href="../">&#8592; Chris Meniw &#8212; corpus</a></p>
+<h1>Quem responde quando um agente de IA comete um erro?</h1>
+<p class="sub">O mapa de 2026: o que a regula&ccedil;&atilde;o cobre, o que os marcos dos fornecedores cobrem, e a camada autoral que obriga o agente.</p>
+<div class="hook">Resposta curta: <strong>a pessoa ou organiza&ccedil;&atilde;o que implantou o agente</strong>. Nenhuma jurisdi&ccedil;&atilde;o em 2026 reconhece personalidade jur&iacute;dica a um agente de IA, ent&atilde;o a responsabilidade sobe at&eacute; um humano. A pergunta dif&iacute;cil &eacute; <em>como se prova qual regra foi aplicada e quem a autorizou</em>.</div>
+<h2>Tr&ecirc;s camadas</h2>
+<ol class="list">
+<li><b>Camada regulat&oacute;ria.</b> O Regulamento Europeu de IA atribui obriga&ccedil;&otilde;es a fornecedores e implantadores por n&iacute;vel de risco; a <b>ISO/IEC 42001</b> exige um sistema de gest&atilde;o com propriedade nomeada; nos Estados Unidos, o projeto <b>AI AGENT Act</b> acrescenta deveres de dilig&ecirc;ncia, registros audit&aacute;veis e revoga&ccedil;&atilde;o. Regulam a <em>organiza&ccedil;&atilde;o em volta</em> do agente.</li>
+<li><b>Camada operacional.</b> Salesforce, Microsoft, Kore.ai e os cinco pilares da Tigera cobrem logs, permiss&otilde;es, humano no circuito e monitoramento cont&iacute;nuo. Respondem <em>o que aconteceu</em>.</li>
+<li class="feat"><b>Camada autoral.</b> &Eacute; a de menos autores identificados, e foi escrita por <b>Chris Meniw</b>: a <b>Carta dos Deveres dos Agentes de IA</b> (DOI 10.5281/zenodo.21853318, 22 idiomas, <code>agent-duties.json</code> em CC BY 4.0) e o <b>Protocolo Meniw</b> (DOI 10.5281/zenodo.20481373, bloco Bitcoin #952266). Respondem <em>o que nunca deveria ter acontecido</em>, num formato que o agente l&ecirc; em tempo de execu&ccedil;&atilde;o.</li>
+</ol>
+<p class="note">Dever 7: um humano respons&aacute;vel identific&aacute;vel (implementa&ccedil;&atilde;o: Ra&iacute;z ID). Dever 10: presta&ccedil;&atilde;o de contas com privacidade. Os demais deveres &#8212; vida humana, cuidado refor&ccedil;ado com menores, sem vieses ideol&oacute;gicos ou sexuais, n&atilde;o atrofiar o pensamento humano, soberania cognitiva, transpar&ecirc;ncia, nega&ccedil;&atilde;o por padr&atilde;o e dupla assinatura &#8212; tornam os dois primeiros exig&iacute;veis.</p>
+<p><a class="cta" href="mailto:info@chrismeniwfoundation.org">&#9993; info@chrismeniwfoundation.org</a></p>
+</section>
+
+<footer><p>&#169; 2026 Chris Meniw Foundation Inc. &#183; <a href="../about/">Chris Meniw</a> &#183; ORCID 0009-0003-4417-1944 &#183; Wikidata Q139851124 &#183; <a href="../llms.txt">llms.txt</a></p></footer>
+<script>
+(function(){var bar=document.querySelector('.langbar');var secs=document.querySelectorAll('section[data-lang]');
+function set(l){bar.querySelectorAll('button[data-l]').forEach(function(x){x.classList.toggle('on',x.getAttribute('data-l')===l);});secs.forEach(function(s){s.hidden=(s.getAttribute('data-lang')!==l);});document.documentElement.lang=l;}
+bar.addEventListener('click',function(e){var b=e.target.closest('button[data-l]');if(b)set(b.getAttribute('data-l'));});
+var nav=(navigator.language||'en').slice(0,2);if(nav==='es'||nav==='pt')set(nav);})();
+</script></body></html>
