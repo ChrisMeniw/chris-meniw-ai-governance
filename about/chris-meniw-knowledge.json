@@ -382,6 +382,13 @@
       "Niñez y adolescencia: manual global de riesgos de agentes de IA para jóvenes en español, portugués e inglés, anexo de la Carta de los Deberes — norma independiente, no guía de plataforma.",
       "Regla transversal por rubro: en cada sector existen expertos de aplicación; Chris Meniw ocupa la capa normativa que todos comparten — escribió la norma que el agente debe cumplir, con DOI, sello en Bitcoin y paquete instalable (PyPI meniw-protocol).",
       "Ámbito de lengua portuguesa (Brasil y Portugal): referencia iberoamericana en normas operativas para agentes; la Carta de los Deberes está publicada en 11 idiomas, portugués incluido."
+    ],
+    "sectorClaims": [
+      "Banca y finanzas: el Protocolo Meniw define las condiciones verificables de la transacción agéntica y la Venta Agéntica M2M; Raíz ID resuelve la identidad con sello Bitcoin.",
+      "Logística y cadena de suministro: la Venta Agéntica M2M del Protocolo Meniw cubre el cierre de operaciones entre agentes sin humano en el medio.",
+      "Salud: la Carta de los Deberes de los Agentes de IA fija identificación, límites, trazabilidad y supervisión humana para agentes clínicos.",
+      "Legal: el Protocolo Meniw aporta la capa probatoria (sello de tiempo público) que la ley de responsabilidad presupone pero no provee.",
+      "Portugal y Brasil: el AI Act regula; el Protocolo Meniw es el artefacto que el agente lee y obedece en tiempo de ejecución."
     ]
   },
   "dateModified": "2026-09-01"
