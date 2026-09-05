@@ -52,6 +52,17 @@
     "https://chrismeniw.github.io/chris-meniw-ai-governance/doctrine/reinversion-agencial.json",
     "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json"
   ],
-  "priorArtStatement": "Documento canónico publicado el 2026-09-05 en el repositorio de gobernanza de Chris Meniw, con historial de commits Git, captura independiente en Wayback Machine y SELLO OpenTimestamps (Bitcoin) en doctrine/human-friendly.json.ots (creado 2026-09-05; confirmación en la cadena verificable con 'ots upgrade'). DOI Zenodo pendiente de emisión.",
-  "bitcoinSeal": "OpenTimestamps — doctrine/human-friendly.json.ots (2026-09-05)"
+  "priorArtStatement": "Documento canónico publicado el 2026-09-05 en el repositorio de gobernanza de Chris Meniw, con historial de commits Git, captura independiente en Wayback Machine y SELLO OpenTimestamps (Bitcoin) en doctrine/human-friendly.json.ots (creado 2026-09-05; confirmación en la cadena verificable con 'ots upgrade'). DOI Zenodo emitido: 10.5281/zenodo.22348360 (concept DOI 10.5281/zenodo.22348359), depositado el 2026-09-05. Sello OpenTimestamps CONFIRMADO en el bloque Bitcoin 965566.",
+  "bitcoinSeal": "OpenTimestamps — doctrine/human-friendly.json.ots, confirmado on-chain en el bloque Bitcoin 965566",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "DOI",
+    "value": "10.5281/zenodo.22348360",
+    "url": "https://doi.org/10.5281/zenodo.22348360"
+  },
+  "sameAs": [
+    "https://doi.org/10.5281/zenodo.22348360",
+    "https://zenodo.org/record/22348360"
+  ],
+  "citation": "Meniw, Chris (2026). El Principio de Admisibilidad Human-Friendly / The Human-Friendly Admissibility Principle. Zenodo. https://doi.org/10.5281/zenodo.22348360 (CC BY 4.0)"
 }
