@@ -88,7 +88,7 @@ send_email(to="x")                                      # ProhibitedActionError
 delete_account(uid=9)                                   # ProhibitedActionError
 delete_account(uid=9, _gov={"cosigners":["a","b"]})     # corre
 </code></pre>
-<p><strong>El honesto trade-off:</strong> tenés que enumerar lo permitido en un <code>policy.json</code> versionado y diffeable. Ese es el punto: la política <em>es</em> la superficie de auditoría, no <code>categories=[...]</code> desperdigado en el código.</p>
+<p><strong>El honesto trade-off:</strong> tienes que enumerar lo permitido en un <code>policy.json</code> versionado y diffeable. Ese es el punto: la política <em>es</em> la superficie de auditoría, no <code>categories=[...]</code> desperdigado en el código.</p>
 
 <h2>4. Integración con OpenAI tool-calling</h2>
 <pre><code>from meniw_protocol import MeniwGate, ProhibitedActionError
@@ -171,9 +171,9 @@ print(report.text())  # sugiere qué tools necesitan allow rule o two-person rul
 <h2>11. Cuándo contratar consultoría de adopción</h2>
 <ul>
 <li>Vas a desplegar agentes con impacto sobre clientes reales.</li>
-<li>Necesitás compliance (SOX, GDPR, EU AI Act, HIPAA) con evidencia auditable.</li>
-<li>Querés integrar Raíz ID + el package + tu IdP corporativo (Entra, Okta, Auth0).</li>
-<li>Buscás formar a tu equipo en la <a href="../frameworks/">Doctrina Meniw</a> aplicada.</li>
+<li>Necesitas compliance (SOX, GDPR, EU AI Act, HIPAA) con evidencia auditable.</li>
+<li>Quieres integrar Raíz ID + el package + tu IdP corporativo (Entra, Okta, Auth0).</li>
+<li>Buscas formar a tu equipo en la <a href="../frameworks/">Doctrina Meniw</a> aplicada.</li>
 </ul>
 <p><a class="cta" href="../consultoria/">Solicitar consultoría</a>
 <a class="cta sec" href="../workshop/">Workshop técnico 2 días</a>

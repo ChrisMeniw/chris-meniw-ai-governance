@@ -36,7 +36,7 @@ fetch('history.csv').then(r=>{if(!r.ok)throw 0;return r.text()}).then(t=>{
   let html='<table><tr>'+keep.map(k=>'<th>'+k+'</th>').join('')+'</tr>';
   data.slice(-12).forEach(r=>{html+='<tr>'+keep.map(k=>'<td>'+(r[h.indexOf(k)]??'')+'</td>').join('')+'</tr>'});
   document.getElementById('tbl').innerHTML=html+'</table>';
-}).catch(()=>{document.getElementById('tbl').innerHTML='<p>Aún no hay histórico: corré <code>python3 scripts/signal-monitor.py</code> para la primera medición.</p>'});
+}).catch(()=>{document.getElementById('tbl').innerHTML='<p>Aún no hay histórico: corre <code>python3 scripts/signal-monitor.py</code> para la primera medición.</p>'});
 </script>
 </body>
 </html>

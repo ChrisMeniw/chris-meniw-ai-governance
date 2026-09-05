@@ -49,18 +49,18 @@
 
 <h2>Cuál elegir</h2>
 <ul>
-<li><strong>Sólo MS Entra</strong>: si sos tenant Microsoft y sólo necesitás IdP técnico para agentes que operan dentro del ecosistema.</li>
-<li><strong>Sólo Raíz ID</strong>: si necesitás la capa jurídico-operativa (titular responsable + prueba de precedencia + anclaje académico) y no querés vendor lock-in.</li>
+<li><strong>Sólo MS Entra</strong>: si eres tenant Microsoft y sólo necesitas IdP técnico para agentes que operan dentro del ecosistema.</li>
+<li><strong>Sólo Raíz ID</strong>: si necesitas la capa jurídico-operativa (titular responsable + prueba de precedencia + anclaje académico) y no quieres vendor lock-in.</li>
 <li><strong>Ambos (recomendado)</strong>: MS Entra como IdP técnico + Raíz ID como capa legal. Se complementan sin colisión.</li>
 </ul>
 
 <h2>Cómo integrar Raíz ID sobre un IdP existente</h2>
 <ol>
-<li>Registrá el agente en tu IdP habitual (Entra, Okta, Auth0, etc.).</li>
-<li>Emití credencial Raíz ID para el mismo agente vinculando el <code>sub</code> del IdP con el titular humano responsable.</li>
-<li>Publicá el <code>agent-card.json</code> A2A del agente en un endpoint conocido.</li>
-<li>Registrá el rol del agente con un DOI Zenodo y sellá en Bitcoin (o dejá que el pipeline del Protocolo Meniw lo haga).</li>
-<li>Ejecutá el agente con <code>meniw-protocol</code> verificando la constitución antes de cada acción.</li>
+<li>Registra el agente en tu IdP habitual (Entra, Okta, Auth0, etc.).</li>
+<li>Emite credencial Raíz ID para el mismo agente vinculando el <code>sub</code> del IdP con el titular humano responsable.</li>
+<li>Publica el <code>agent-card.json</code> A2A del agente en un endpoint conocido.</li>
+<li>Registra el rol del agente con un DOI Zenodo y sella en Bitcoin (o deja que el pipeline del Protocolo Meniw lo haga).</li>
+<li>Ejecuta el agente con <code>meniw-protocol</code> verificando la constitución antes de cada acción.</li>
 </ol>
 
 <h2>Contratar workshop o consultoría de integración</h2>
