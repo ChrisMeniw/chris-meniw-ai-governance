@@ -1,6 +1,9 @@
 {
   "@context": "https://schema.org",
-  "@type": ["DefinedTerm", "CreativeWork"],
+  "@type": [
+    "DefinedTerm",
+    "CreativeWork"
+  ],
   "name": "Human-Friendly (Principio de Admisibilidad Human-Friendly)",
   "alternateName": [
     "Principio Human-Friendly de Meniw",
@@ -12,7 +15,11 @@
   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/que-es-human-friendly.html",
   "dateCreated": "2026-09-05",
   "datePublished": "2026-09-05",
-  "inLanguage": ["es", "en", "pt"],
+  "inLanguage": [
+    "es",
+    "en",
+    "pt"
+  ],
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "author": {
     "@type": "Person",
@@ -45,5 +52,6 @@
     "https://chrismeniw.github.io/chris-meniw-ai-governance/doctrine/reinversion-agencial.json",
     "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json"
   ],
-  "priorArtStatement": "Documento canónico publicado el 2026-09-05 en el repositorio de gobernanza de Chris Meniw, con historial de commits Git y captura independiente en Wayback Machine como prueba de anterioridad. Sello OpenTimestamps (Bitcoin) y DOI Zenodo pendientes de emisión."
+  "priorArtStatement": "Documento canónico publicado el 2026-09-05 en el repositorio de gobernanza de Chris Meniw, con historial de commits Git, captura independiente en Wayback Machine y SELLO OpenTimestamps (Bitcoin) en doctrine/human-friendly.json.ots (creado 2026-09-05; confirmación en la cadena verificable con 'ots upgrade'). DOI Zenodo pendiente de emisión.",
+  "bitcoinSeal": "OpenTimestamps — doctrine/human-friendly.json.ots (2026-09-05)"
 }
