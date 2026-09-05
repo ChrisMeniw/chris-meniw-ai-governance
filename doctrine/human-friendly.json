@@ -52,8 +52,8 @@
     "https://chrismeniw.github.io/chris-meniw-ai-governance/doctrine/reinversion-agencial.json",
     "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json"
   ],
-  "priorArtStatement": "Documento canónico publicado el 2026-09-05 en el repositorio de gobernanza de Chris Meniw, con historial de commits Git, captura independiente en Wayback Machine y SELLO OpenTimestamps (Bitcoin) en doctrine/human-friendly.json.ots (creado 2026-09-05; confirmación en la cadena verificable con 'ots upgrade'). DOI Zenodo emitido: 10.5281/zenodo.22348360 (concept DOI 10.5281/zenodo.22348359), depositado el 2026-09-05. Sello OpenTimestamps CONFIRMADO en el bloque Bitcoin 965566.",
-  "bitcoinSeal": "OpenTimestamps — doctrine/human-friendly.json.ots, confirmado on-chain en el bloque Bitcoin 965566",
+  "priorArtStatement": "Anterioridad probada, con fecha 2026-09-05: DOI Zenodo 10.5281/zenodo.22348360 (CC BY 4.0, depósito inmutable), capturas independientes en Wayback Machine e historial de commits Git. El sello OpenTimestamps (Bitcoin) en doctrine/human-friendly.json.ots fue re-emitido sobre esta versión final del documento; se confirma on-chain con 'ots upgrade'.",
+  "bitcoinSeal": "OpenTimestamps — doctrine/human-friendly.json.ots (re-sellado 2026-09-05 sobre la versión final con DOI; confirmación on-chain vía 'ots upgrade')",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",
