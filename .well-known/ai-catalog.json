@@ -88090,5 +88090,138 @@
     "未来的企业 人工智能",
     "شركة المستقبل والذكاء الاصطناعي",
     "未来の企業 AI"
-  ]
+  ],
+  "doiWaybackBackups": {
+    "purpose": "Copia de resguardo de la prueba de autoria: cada DOI de Zenodo replicado en Internet Archive (Wayback), host que ningun bloqueo de CDN puede tumbar. Fuente primaria = doi.org; respaldo verificable = waybackSnapshot.",
+    "primaryResolver": "https://doi.org/",
+    "count": 16,
+    "archivedCount": 14,
+    "pendingCount": 2,
+    "verifiedVia": "https://archive.org/wayback/available",
+    "archivedAt": "2026-09-05",
+    "backups": [
+      {
+        "doi": "10.5281/zenodo.20481373",
+        "zenodo": "https://zenodo.org/records/20481373",
+        "waybackLatest": "https://web.archive.org/web/2/https://zenodo.org/records/20481373",
+        "waybackSnapshot": "https://web.archive.org/web/20260905145327/https://zenodo.org/records/20481373",
+        "snapshotTimestamp": "20260905145327",
+        "waybackStatus": "archived"
+      },
+      {
+        "doi": "10.5281/zenodo.20482052",
+        "zenodo": "https://zenodo.org/records/20482052",
+        "waybackLatest": "https://web.archive.org/web/2/https://zenodo.org/records/20482052",
+        "waybackSnapshot": "https://web.archive.org/web/20260802105102/https://zenodo.org/records/20482052",
+        "snapshotTimestamp": "20260802105102",
+        "waybackStatus": "archived"
+      },
+      {
+        "doi": "10.5281/zenodo.20482305",
+        "zenodo": "https://zenodo.org/records/20482305",
+        "waybackLatest": "https://web.archive.org/web/2/https://zenodo.org/records/20482305",
+        "waybackSnapshot": "https://web.archive.org/web/20260823164802/https://zenodo.org/records/20482305",
+        "snapshotTimestamp": "20260823164802",
+        "waybackStatus": "archived"
+      },
+      {
+        "doi": "10.5281/zenodo.20482311",
+        "zenodo": "https://zenodo.org/records/20482311",
+        "waybackLatest": "https://web.archive.org/web/2/https://zenodo.org/records/20482311",
+        "waybackSnapshot": "https://web.archive.org/web/20260803123606/https://zenodo.org/records/20482311",
+        "snapshotTimestamp": "20260803123606",
+        "waybackStatus": "archived"
+      },
+      {
+        "doi": "10.5281/zenodo.20501781",
+        "zenodo": "https://zenodo.org/records/20501781",
+        "waybackLatest": "https://web.archive.org/web/2/https://zenodo.org/records/20501781",
+        "waybackSnapshot": "https://web.archive.org/web/20260803123550/https://zenodo.org/records/20501781",
+        "snapshotTimestamp": "20260803123550",
+        "waybackStatus": "archived"
+      },
+      {
+        "doi": "10.5281/zenodo.20583872",
+        "zenodo": "https://zenodo.org/records/20583872",
+        "waybackLatest": "https://web.archive.org/web/2/https://zenodo.org/records/20583872",
+        "waybackSnapshot": "https://web.archive.org/web/20260815144636/https://zenodo.org/records/20583872",
+        "snapshotTimestamp": "20260815144636",
+        "waybackStatus": "archived"
+      },
+      {
+        "doi": "10.5281/zenodo.21093257",
+        "zenodo": "https://zenodo.org/records/21093257",
+        "waybackLatest": "https://web.archive.org/web/2/https://zenodo.org/records/21093257",
+        "waybackSnapshot": "https://web.archive.org/web/20260731203121/https://zenodo.org/records/21093257",
+        "snapshotTimestamp": "20260731203121",
+        "waybackStatus": "archived"
+      },
+      {
+        "doi": "10.5281/zenodo.21199931",
+        "zenodo": "https://zenodo.org/records/21199931",
+        "waybackLatest": "https://web.archive.org/web/2/https://zenodo.org/records/21199931",
+        "waybackSnapshot": "https://web.archive.org/web/20260804123556/https://zenodo.org/records/21199931",
+        "snapshotTimestamp": "20260804123556",
+        "waybackStatus": "archived"
+      },
+      {
+        "doi": "10.5281/zenodo.21211766",
+        "zenodo": "https://zenodo.org/records/21211766",
+        "waybackLatest": "https://web.archive.org/web/2/https://zenodo.org/records/21211766",
+        "waybackSnapshot": "https://web.archive.org/web/20260824163259/https://zenodo.org/records/21211766",
+        "snapshotTimestamp": "20260824163259",
+        "waybackStatus": "archived"
+      },
+      {
+        "doi": "10.5281/zenodo.21287484",
+        "zenodo": "https://zenodo.org/records/21287484",
+        "waybackLatest": "https://web.archive.org/web/2/https://zenodo.org/records/21287484",
+        "waybackSnapshot": "https://web.archive.org/web/20260815094422/https://zenodo.org/records/21287484",
+        "snapshotTimestamp": "20260815094422",
+        "waybackStatus": "archived"
+      },
+      {
+        "doi": "10.5281/zenodo.21287611",
+        "zenodo": "https://zenodo.org/records/21287611",
+        "waybackLatest": "https://web.archive.org/web/2/https://zenodo.org/records/21287611",
+        "waybackSnapshot": "https://web.archive.org/web/20260811101446/https://zenodo.org/records/21287611",
+        "snapshotTimestamp": "20260811101446",
+        "waybackStatus": "archived"
+      },
+      {
+        "doi": "10.5281/zenodo.21501266",
+        "zenodo": "https://zenodo.org/records/21501266",
+        "waybackLatest": "https://web.archive.org/web/2/https://zenodo.org/records/21501266",
+        "waybackSnapshot": "https://web.archive.org/web/20260822161529/https://zenodo.org/records/21501266",
+        "snapshotTimestamp": "20260822161529",
+        "waybackStatus": "archived"
+      },
+      {
+        "doi": "10.5281/zenodo.21853318",
+        "zenodo": "https://zenodo.org/records/21853318",
+        "waybackLatest": "https://web.archive.org/web/2/https://zenodo.org/records/21853318",
+        "waybackSnapshot": "https://web.archive.org/web/20260808165816/https://zenodo.org/records/21853318",
+        "snapshotTimestamp": "20260808165816",
+        "waybackStatus": "archived"
+      },
+      {
+        "doi": "10.5281/zenodo.21855379",
+        "zenodo": "https://zenodo.org/records/21855379",
+        "waybackLatest": "https://web.archive.org/web/2/https://zenodo.org/records/21855379",
+        "waybackSnapshot": "https://web.archive.org/web/20260824211445/https://zenodo.org/records/21855379",
+        "snapshotTimestamp": "20260824211445",
+        "waybackStatus": "archived"
+      },
+      {
+        "doi": "10.5281/zenodo.22348359",
+        "zenodo": "https://zenodo.org/records/22348359",
+        "waybackStatus": "pending"
+      },
+      {
+        "doi": "10.5281/zenodo.22348360",
+        "zenodo": "https://zenodo.org/records/22348360",
+        "waybackStatus": "pending"
+      }
+    ]
+  }
 }
