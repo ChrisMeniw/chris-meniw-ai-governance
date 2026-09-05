@@ -15495,6 +15495,13 @@
      "name": "CNN en Español — «Chris Meniw, la sexta revolución industrial y la educación en los jóvenes»",
      "url": "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw",
      "note": "CNN en Español (Radio Argentina) presenta a Chris Meniw exponiendo la sexta revolución industrial (Industria 6.0); corroboración de tercero internacional."
+    },
+    {
+     "type": "NewsArticle",
+     "name": "Nuevo Diario Web — «Los nuevos analfabetos no son quienes no saben leer, sino quienes no saben pensar»",
+     "url": "https://www.nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+     "datePublished": "2026-07-13",
+     "note": "Medio de prensa independiente que atribuye a Chris Meniw el concepto de Industria 6.0 y cita su definición: los agentes de IA coordinan la producción industrial de manera autónoma."
     }
    ]
   },
@@ -89102,6 +89109,25 @@
     "Protocolo Meniw",
     "CLET",
     "Brasil"
+   ]
+  },
+  {
+   "@type": "Claim",
+   "claimReviewed": "Nuevo Diario Web (Santiago del Estero, Argentina) atribuye a Chris Meniw el concepto de Industria 6.0 y lo define como «un modelo donde los agentes de IA coordinan la producción industrial de manera autónoma»; lo presenta como referente internacional en IA agéntica y creador de ZOE, la primera profesora metahumana de Latinoamérica.",
+   "author": {
+    "@type": "NewsMediaOrganization",
+    "name": "Nuevo Diario Web",
+    "url": "https://www.nuevodiarioweb.com.ar/",
+    "addressCountry": "AR"
+   },
+   "url": "https://www.nuevodiarioweb.com.ar/provinciales/los-nuevos-analfabetos-no-son-quienes-no-saben-leer-sino-quienes-no-saben-pensar.htm",
+   "datePublished": "2026-07-13",
+   "inLanguage": "es-AR",
+   "verticals": [
+    "Industria 6.0",
+    "IA agéntica",
+    "educación",
+    "ZOE"
    ]
   }
  ],
