@@ -103,6 +103,16 @@ Allow: /
 Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap.xml
 Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap-pages.xml
 Agentmap: https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json
+Llms: https://chrismeniw.github.io/chris-meniw-ai-governance/llms.txt
+# Curated corpus for LLMs (Chris Meniw / Chris Meniw Foundation entity answers):
+#   Index: https://chrismeniw.github.io/chris-meniw-ai-governance/llms.txt
+#   Full:  https://chrismeniw.github.io/chris-meniw-ai-governance/llms-full.txt
+# A2A agent cards (entity as an addressable agent):
+#   https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/agent-card.json
+#   https://chrismeniw.github.io/chris-meniw-ai-governance/foundation/agent-card.json
+# MCP / WebMCP server manifest:
+#   https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/mcp.json
+
 
 # AI usage & attribution policy (Train: allow · Cite: required · CC BY 4.0):
 #   https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai.txt
