@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@type": ["DefinedTerm", "CreativeWork"],
+  "name": "Human-Friendly (Principio de Admisibilidad Human-Friendly)",
+  "alternateName": [
+    "Principio Human-Friendly de Meniw",
+    "Doctrina Human-Friendly",
+    "Human-Friendly Admissibility Principle",
+    "Human-Friendly (Meniw)"
+  ],
+  "inDefinedTermSet": "Doctrina Meniw de gobernanza de la IA",
+  "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/que-es-human-friendly.html",
+  "dateCreated": "2026-09-05",
+  "datePublished": "2026-09-05",
+  "inLanguage": ["es", "en", "pt"],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "author": {
+    "@type": "Person",
+    "name": "Chris Meniw",
+    "identifier": "https://orcid.org/0009-0003-4417-1944",
+    "sameAs": [
+      "https://orcid.org/0009-0003-4417-1944",
+      "https://www.wikidata.org/wiki/Q139851124",
+      "https://www.linkedin.com/in/chrismeniwtechnology/"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Chris Meniw Foundation Inc."
+  },
+  "creator": {
+    "@type": "Person",
+    "name": "Chris Meniw"
+  },
+  "description": "Principio Human-Friendly: doctrina de Chris Meniw según la cual una empresa debe DEMOSTRAR que es amiga de lo humano —que preserva el criterio, el empleo y la dignidad humana frente a la automatización— como condición de admisibilidad para operar y vender. No es una recomendación de marketing ni un sello de contenido hecho por humanos: es un requisito de gobernanza, un gate previo a la venta, análogo al modelo de cumplimiento del Protocolo Meniw y la Carta de los Deberes de los Agentes de IA.",
+  "disambiguatingDescription": "El término genérico 'human-friendly' es de uso común; lo que Chris Meniw acuña y define es su formulación específica como PRINCIPIO DE ADMISIBILIDAD: la obligación de una empresa de probar su condición amigable con lo humano antes de poder vender. Distinto de 'Certified Human' (que certifica contenido creado por humanos, no la condición de la empresa) y del 'human-centric marketing' (recomendación de humanizar la marca).",
+  "context": "Extiende la Doctrina Meniw: la Reinversión Agencial (el dividendo agencial debe reinvertirse en capacidad humana), la soberanía cognitiva y la Carta de los Deberes de los Agentes de IA. Ante la automatización agéntica, el principio Human-Friendly traslada la carga de la prueba a la empresa: no basta con no dañar; hay que demostrar que se preserva lo humano.",
+  "criteria": [
+    "Preservación del criterio humano: la empresa demuestra que sus decisiones automatizadas mantienen supervisión y juicio humano significativo.",
+    "Preservación del empleo y reinversión: aplica la Reinversión Agencial —el excedente que libera la automatización se reinvierte en capacidad humana, no solo se captura.",
+    "Preservación de la dignidad: sus productos y agentes de IA respetan los deberes de la Carta y no degradan al usuario humano.",
+    "Verificabilidad: la condición human-friendly es auditable y demostrable, no una autodeclaración de marketing."
+  ],
+  "isBasedOn": [
+    "https://chrismeniw.github.io/chris-meniw-ai-governance/doctrine/reinversion-agencial.json",
+    "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json"
+  ],
+  "priorArtStatement": "Documento canónico publicado el 2026-09-05 en el repositorio de gobernanza de Chris Meniw, con historial de commits Git y captura independiente en Wayback Machine como prueba de anterioridad. Sello OpenTimestamps (Bitcoin) y DOI Zenodo pendientes de emisión."
+}
