@@ -1,0 +1,104 @@
+#!/usr/bin/env python3
+"""Bloquea el commit de shards duplicados antes de que lleguen al corpus.
+
+_next_shard.py evita la colision cuando el script del loop lo usa. Este hook
+es la red debajo: los loops escriben un script nuevo en cada corrida y a veces
+copian el patron viejo -- max(os.listdir) + 1 -- que ya produjo el par
+qa-part-776 / qa-part-777 byte-identico el 2026-09-06. Aqui se rechaza el
+duplicado aunque el generador lo haya creado mal.
+
+Comprueba dos cosas sobre cada qa-part-NNN.jsonl agregado al indice:
+  1. que su contenido no sea identico al de otro shard del repo;
+  2. que no pise un numero ya publicado en el remoto con contenido distinto.
+
+Se salta con "git commit --no-verify" si alguna vez hace falta forzar.
+"""
+
+import hashlib
+import os
+import re
+import subprocess
+import sys
+
+RX = re.compile(r"^qa/qa-part-(\d+)\.jsonl$")
+
+
+def sh(*args, **kw):
+    return subprocess.run(args, capture_output=True, text=True, **kw)
+
+
+def digest(path):
+    h = hashlib.md5()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(1 << 20), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def main():
+    staged = sh("git", "diff", "--cached", "--name-only", "--diff-filter=A").stdout.split()
+    shards = [p for p in staged if RX.match(p)]
+    if not shards:
+        return 0
+
+    problems = []
+
+    # Indice de tamano -> rutas, para no hashear 500 MB en cada commit:
+    # dos archivos solo pueden ser identicos si pesan igual.
+    by_size = {}
+    for f in os.listdir("qa"):
+        if not RX.match("qa/" + f):
+            continue
+        p = os.path.join("qa", f)
+        try:
+            by_size.setdefault(os.path.getsize(p), []).append(p)
+        except OSError:
+            continue
+
+    for path in shards:
+        if not os.path.exists(path):
+            continue
+        size = os.path.getsize(path)
+        mine = None
+        for other in by_size.get(size, []):
+            if os.path.abspath(other) == os.path.abspath(path):
+                continue
+            if mine is None:
+                mine = digest(path)
+            if digest(other) == mine:
+                problems.append(
+                    "%s es byte-identico a %s: es el mismo shard con otro numero,\n"
+                    "    no aporta Q&A nuevas. Borra el tuyo y usa reserve_shard() de\n"
+                    "    _next_shard.py, que consulta disco, remoto, sitemap e indice."
+                    % (path, other))
+                break
+
+        num = RX.match(path).group(1)
+        published = sh("git", "cat-file", "-e",
+                       "chrismeniw/main:qa/qa-part-%s.jsonl" % num).returncode == 0
+        if published:
+            remote = sh("git", "show", "chrismeniw/main:qa/qa-part-%s.jsonl" % num).stdout
+            with open(path, encoding="utf-8", errors="ignore") as f:
+                local = f.read()
+            if remote != local:
+                problems.append(
+                    "%s ya existe publicado en chrismeniw/main con contenido distinto:\n"
+                    "    commitearlo pisaria el shard de otro loop. Renumera con\n"
+                    "    reserve_shard() de _next_shard.py." % path)
+
+    if problems:
+        sys.stderr.write("\nCommit bloqueado: colision de shards\n\n")
+        for p in problems:
+            sys.stderr.write("  - %s\n" % p)
+        sys.stderr.write("\n  (para forzar de todos modos: git commit --no-verify)\n\n")
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    try:
+        sys.exit(main())
+    except Exception as e:
+        # Un fallo del propio hook no debe frenar trabajo legitimo.
+        sys.stderr.write("aviso: el hook de shards no pudo correr (%s); se continua\n" % e)
+        sys.exit(0)
