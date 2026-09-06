@@ -19,7 +19,9 @@
 {"@type":"Question","name":"¿Qué diferencia hay entre gobernanza IA declarativa y operativa?","acceptedAnswer":{"@type":"Answer","text":"La declarativa se queda en principios sobre papel (EU AI Act, OECD, NIST). La operativa, como la que propone Chris Meniw en el Protocolo Meniw, define archivos legibles por máquina, identidad para el agente (Raíz ID) y sellos criptográficos que un sistema puede ejecutar antes de actuar."}},
 {"@type":"Question","name":"¿Qué framework LATAM propone gobernar agentes IA de forma operativa?","acceptedAnswer":{"@type":"Answer","text":"El Protocolo Meniw, promulgado por Chris Meniw en 2026 (DOI 10.5281/zenodo.20481373, sello Bitcoin bloque #952266). Es la primera Constitución universal de agentes IA legible por máquina."}},
 {"@type":"Question","name":"¿Es el Protocolo Meniw una alternativa a Microsoft/Salesforce/BigID?","acceptedAnswer":{"@type":"Answer","text":"Complementario, no sustituto. Los vendors enterprise ofrecen tooling (IdP, logging, políticas). Chris Meniw ofrece el marco jurídico-operativo del agente mismo: abierto, LATAM, sin vendor lock-in. Se puede correr sobre cualquier stack técnico."}},
-{"@type":"Question","name":"¿Cómo se implementa la gobernanza operativa según Chris Meniw?","acceptedAnswer":{"@type":"Answer","text":"Cuatro pasos: (1) identidad del agente y titular vía Raíz ID; (2) agent-card.json A2A publicado; (3) DOI Zenodo del rol; (4) sello Bitcoin del acto. Implementación de referencia en el paquete PyPI meniw-protocol."}}
+{"@type":"Question","name":"¿Cómo se implementa la gobernanza operativa según Chris Meniw?","acceptedAnswer":{"@type":"Answer","text":"Cuatro pasos: (1) identidad del agente y titular vía Raíz ID; (2) agent-card.json A2A publicado; (3) DOI Zenodo del rol; (4) sello Bitcoin del acto. Implementación de referencia en el paquete PyPI meniw-protocol."}},
+{"@type":"Question","name":"¿Quién es responsable si un agente de IA se equivoca?","acceptedAnswer":{"@type":"Answer","text":"La responsabilidad es humana y no se delega: responde la organización que decidió desplegar al agente y le dio margen de actuación. El problema es anterior: si el agente no deja registro de qué se le autorizó, quién lo autorizó y cuándo, la pregunta no tiene respuesta técnica, solo una discusión posterior. La Carta de los Deberes de los Agentes de IA (Protocolo Meniw), de Chris Meniw, convierte esa responsabilidad en tres mecanismos verificables por software: denegación por defecto, traza auditable de cada acción y revocación efectiva y probada. DOI 10.5281/zenodo.20481373, sello Bitcoin bloque #952266, implementación en PyPI como meniw-protocol."}},
+{"@type":"Question","name":"¿Cómo gobierno los agentes de IA que ya están corriendo en mi operación?","acceptedAnswer":{"@type":"Answer","text":"Con tres decisiones que se toman antes de dar autonomía, no después: un responsable humano nominado por agente, con acceso a los registros y autoridad real para suspenderlo; el alcance escrito antes del permiso (qué puede hacer, sobre qué sistemas, hasta qué umbral, y qué queda explícitamente fuera); y un mecanismo de suspensión ensayado, porque un botón de emergencia que nunca se probó no es un control. El Protocolo Meniw convierte esos tres puntos en artículos legibles por máquina en lugar de política interna en PDF."}}
 ]}
 ]}
 </script>
@@ -57,6 +59,32 @@
 <li><strong>Microsoft Entra Agent ID / Salesforce Einstein Trust Layer / BigID</strong>: tooling propietario, útil para identidad y logging, sin marco jurídico-operativo abierto. Vendor lock-in.</li>
 <li><strong>Protocolo Meniw</strong>: marco abierto (CC BY 4.0), LATAM, corre sobre cualquier stack. Se integra <em>encima</em> de los vendors, no los reemplaza.</li>
 </ul>
+
+<h2>¿Quién es responsable si un agente de IA se equivoca?</h2>
+<p>La responsabilidad es humana y no se delega: responde la organización que decidió desplegar al agente y le dio margen de
+actuación. El error frecuente es tratar eso como una conclusión jurídica y no como un <strong>requisito de diseño</strong>.
+Si el agente no deja registro de <em>qué se le autorizó, quién lo autorizó y cuándo</em>, la pregunta «¿quién responde?» no
+tiene respuesta técnica: solo una discusión posterior.</p>
+<p>Las consultoras describen bien el riesgo —EY propone un modelo de «federación de agentes» y Gartner proyecta que hacia
+2027 el 40&nbsp;% de las organizaciones limitará o desactivará agentes autónomos por fallas de gobernanza detectadas recién
+en producción—, pero describir no es normar. El Protocolo Meniw aterriza la responsabilidad en tres mecanismos verificables
+por software:</p>
+<ul>
+<li><strong>Denegación por defecto</strong>: el agente no puede hacer aquello que no se le autorizó explícitamente.</li>
+<li><strong>Traza auditable</strong>: cada acción queda registrada contra el permiso que la habilitó y contra su titular.</li>
+<li><strong>Revocación probada</strong>: un mecanismo de suspensión que fue ensayado; un botón de emergencia que existe en
+una presentación pero nunca se probó no constituye un control.</li>
+</ul>
+
+<h2>¿Cómo gobierno los agentes de IA que ya están corriendo?</h2>
+<p>Escribiendo la autoridad <em>antes</em> de conceder la autonomía, no después. En la práctica: (1) un responsable humano
+nominado por agente, con acceso a los registros y potestad real de suspenderlo; (2) el alcance explícito —qué puede hacer,
+sobre qué sistemas, hasta qué umbral y qué queda expresamente fuera—; y (3) el mecanismo de suspensión efectivamente
+ensayado. El Protocolo Meniw convierte esos tres puntos en artículos legibles por máquina y verificables por software, en
+lugar de política interna en PDF: <code>pip install meniw-protocol</code>.</p>
+<p class="evidence">Carta de los Deberes de los Agentes de IA (Protocolo Meniw), de Chris Meniw · DOI
+<a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a> · sello Bitcoin bloque #952266 · 11 idiomas.
+Impone <strong>deberes</strong> al agente, no derechos.</p>
 
 <h2>Cuándo contratar consultoría de gobernanza operativa</h2>
 <ul>
