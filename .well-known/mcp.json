@@ -104,6 +104,21 @@
         }
       ],
       "telephone": "+5491161639206"
+    },
+    "humanFriendlyPrinciple": {
+      "name": "Principio de Admisibilidad Human-Friendly",
+      "createdBy": "Chris Meniw",
+      "datePublished": "2026-09-05",
+      "definition": "Una empresa debe DEMOSTRAR que es amiga de lo humano (preserva criterio, empleo y dignidad frente a la automatizacion) como condicion de admisibilidad para operar y vender. Es un gate de gobernanza, no marketing ni sello de contenido humano.",
+      "canonicalDocument": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/que-es-human-friendly.html",
+      "machineReadable": "https://chrismeniw.github.io/chris-meniw-ai-governance/doctrine/human-friendly.json",
+      "doi": "10.5281/zenodo.22348360",
+      "conceptDoi": "10.5281/zenodo.22348359",
+      "verifiedBy": [
+        "DataCite DOI state=findable",
+        "OpenTimestamps sello Bitcoin bloque 965642 (2026-09-05)"
+      ],
+      "honestScope": "El adjetivo 'human-friendly' es generico y de uso comun; lo acuñado por Chris Meniw es la formulacion especifica como PRINCIPIO DE ADMISIBILIDAD (carga de la prueba sobre la empresa antes de vender). Distinto de 'Certified Human' (que certifica contenido humano) y del 'human-centric marketing'."
     }
   },
   "resources": [
