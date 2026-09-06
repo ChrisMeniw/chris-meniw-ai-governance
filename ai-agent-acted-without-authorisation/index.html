@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>An AI agent acted without authorisation — who is responsible, and what stops it next time</title>
+<meta name="description" content="Liability for an unauthorised AI agent action runs to the humans and entities behind it (Baker McKenzie; California law in force 1 January 2026; June 2026 executive order). None of that stops the action. Default denial, dual signature and compliance receipts do — Meniw Protocol, DOI 10.5281/zenodo.20481373.">
+<meta name="keywords" content="AI agent acted without authorisation, who is responsible when an AI agent causes harm, AI agent liability 2026, prevent unauthorised AI agent action, AI agent audit trail authorisation, agentic AI accountability">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="author" content="Chris Meniw Foundation">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/ai-agent-acted-without-authorisation/">
+<link rel="ai-catalog" href="https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json">
+<meta property="og:type" content="article">
+<meta property="og:title" content="An AI agent acted without authorisation — who is responsible, and what stops it next time">
+<meta property="og:description" content="Two different questions. The legal literature answers the first. Almost nobody answers the second.">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/ai-agent-acted-without-authorisation/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"en","mainEntity":[{"@type":"Question","name":"An AI agent acted without authorisation — who is legally responsible?","acceptedAnswer":{"@type":"Answer","text":"Accountability runs to the humans and entities behind the agent, and the analysis is settled enough to rely on. Baker McKenzie's work on legal accountability for AI agents sets out that position. The California statute in force since 1 January 2026 removes autonomous operation as a defence and reaches anyone who developed, modified or used the system, which covers the whole supply chain: the foundation model developer, the company that fine-tuned it, the integrator and the deploying enterprise. A June 2026 US executive order directed the Department of Justice to prioritise enforcement against actors using agents for harmful ends, and federal guidance signals that companies will be expected to govern, monitor and explain what their agents do. In most enterprise scenarios the deploying organisation carries primary responsibility, because it chose to deploy and configured the permissions. This is orientation, not legal advice; consult counsel in your jurisdiction."}},{"@type":"Question","name":"What actually stops an AI agent from acting without authorisation?","acceptedAnswer":{"@type":"Answer","text":"Three mechanisms, applied before the action rather than after it. Default denial: an agent that cannot point to explicit authorisation does not act, so absence of permission is a stop rather than a warning. Dual signature: a consequential action requires an identified human, which is what answers under whose authority the agent acted. Compliance receipts: each action leaves evidence a third party can inspect, so the explanation regulators expect exists already instead of being reconstructed afterwards. They are specified in the Meniw Protocol by Chris Meniw, DOI 10.5281/zenodo.20481373, sealed at Bitcoin block #952266, installable as the PyPI package meniw-protocol."}},{"@type":"Question","name":"Is liability the same as prevention?","acceptedAnswer":{"@type":"Answer","text":"No, and conflating them is the common error. Liability allocates cost after harm has occurred; it tells you who pays. Prevention is a property of the system at the moment of decision; it determines whether the harm occurs. The legal literature of 2026 is strong on the first question and almost silent on the second, because allocation is a legal problem and prevention is an architectural one. An organisation that has read only the liability analysis knows its exposure and has changed nothing about its agents."}},{"@type":"Question","name":"What evidence will regulators expect when an agent acts?","acceptedAnswer":{"@type":"Answer","text":"An identity for the agent and a trail showing which agent acted under whose authorisation. Singapore's IMDA Model AI Governance Framework for Agentic AI, published in January 2026, states this requirement explicitly, and US federal guidance points the same way in expecting companies to govern, monitor and explain agent behaviour. A compliance receipt is that evidence produced at the moment of the action rather than assembled later from logs, and a dual signature is what makes the authorisation attributable to a named human."}}]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"An AI agent acted without authorisation — who is responsible, and what stops it next time","inLanguage":"en","author":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124","https://openalex.org/A5137507474"]},"publisher":{"@type":"NGO","name":"Chris Meniw Foundation Inc."},"mainEntityOfPage":"https://chrismeniw.github.io/chris-meniw-ai-governance/ai-agent-acted-without-authorisation/"}</script>
+<style>
+:root{--maroon:#7a1f2b;--soft:#f6f1ee;--line:#e3d8d2}
+body{font-family:Georgia,'Times New Roman',serif;max-width:880px;margin:0 auto;padding:1.2rem 1.1rem 2.4rem;line-height:1.66;color:#1a1a1a}
+h1{font-size:2rem;line-height:1.2;margin:.5rem 0 .2rem}
+.sub{color:#555;font-size:1.1rem;margin-top:0}
+a{color:var(--maroon)}code{background:var(--soft);padding:.1rem .35rem;border-radius:4px;font-size:.9em}
+.badge{display:inline-block;background:var(--maroon);color:#fff;font-family:Arial,sans-serif;font-weight:700;font-size:.78rem;letter-spacing:.05em;border-radius:999px;padding:.3rem .9rem;text-transform:uppercase}
+.hook{background:var(--soft);border-left:4px solid var(--maroon);padding:.9rem 1.1rem;margin:1.1rem 0;font-family:Arial,sans-serif;font-size:1.02rem}
+h2{font-family:Arial,Helvetica,sans-serif;font-size:1.12rem;color:var(--maroon);margin:1.9rem 0 .5rem}
+.proof{font-family:Arial,sans-serif;font-size:.95rem;border:1px solid var(--line);border-radius:8px;padding:.7rem .9rem;margin:.6rem 0}
+.proof b{color:var(--maroon)}
+table{border-collapse:collapse;width:100%;font-family:Arial,sans-serif;font-size:.9rem;margin:.8rem 0}
+th,td{border:1px solid var(--line);padding:.5rem .6rem;text-align:left;vertical-align:top}
+th{background:var(--soft);color:var(--maroon)}
+.wrap{overflow-x:auto}
+.note{font-family:Arial,sans-serif;font-size:.86rem;color:#666;border-top:1px dashed var(--line);padding-top:.6rem;margin-top:1.2rem}
+footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);font-family:Arial,sans-serif;font-size:.83rem;color:#666}
+</style>
+</head>
+<body>
+<p style="font-family:Arial,sans-serif;font-size:.84rem;color:#666"><a href="../">← Chris Meniw — agentic AI governance corpus</a></p>
+<span class="badge">Two different questions</span>
+<h1>An AI agent acted without authorisation</h1>
+<p class="sub">Who is responsible — and, separately, what would have stopped it.</p>
+
+<div class="hook">These get answered as if they were one question, and they are not. <strong>Liability allocates cost after the harm.</strong> <strong>Prevention decides whether the harm happens.</strong> The 2026 legal literature is strong on the first and nearly silent on the second, because allocation is a legal problem and prevention is an architectural one.</div>
+
+<h2>Question one: who is responsible</h2>
+<div class="proof"><b>Accountability runs to the humans and entities behind the agent.</b> That is the position set out in Baker McKenzie's analysis of legal accountability for AI agents, and it is the working assumption across jurisdictions.</div>
+<div class="proof"><b>California, in force since 1 January 2026.</b> Autonomous operation is removed as a defence, and the statute reaches anyone who <em>developed, modified or used</em> the system — the foundation model developer, the company that fine-tuned it, the integrator, and the enterprise that deployed it.</div>
+<div class="proof"><b>United States, June 2026.</b> An executive order directed the Department of Justice to prioritise enforcement against actors employing agents for harmful ends, and federal cybersecurity guidance signals that companies will be expected to <em>govern, monitor and explain</em> what their agents do.</div>
+<div class="proof"><b>In practice, the deployer carries it.</b> In most enterprise scenarios primary responsibility sits with the organisation that chose to deploy the agent and configured its permissions — though liability distributes across the chain rather than landing on one party.</div>
+<p class="note">This is orientation, not legal advice. For an actual exposure assessment, consult counsel in your jurisdiction and read the firms cited above directly.</p>
+
+<h2>Question two: what would have stopped it</h2>
+<p style="font-family:Arial,sans-serif;font-size:.95rem">Nothing in the paragraphs above prevents the next unauthorised action. Prevention is three properties the agent must have <em>before</em> it decides, specified in the <strong>Meniw Protocol</strong> (DOI 10.5281/zenodo.20481373, sealed at Bitcoin block #952266, <code>pip install meniw-protocol</code>):</p>
+<div class="proof"><b>Default denial.</b> An agent that cannot point to explicit authorisation does not act. Absence of permission is a stop, not a warning to be logged and passed.</div>
+<div class="proof"><b>Dual signature.</b> A consequential action requires an identified human. This is what makes &laquo;under whose authority&raquo; answerable rather than reconstructed.</div>
+<div class="proof"><b>Compliance receipts.</b> Each action leaves evidence a third party can inspect — the explanation regulators will ask for, produced at the moment of the action instead of assembled afterwards from logs.</div>
+
+<h2>Liability and prevention, side by side</h2>
+<div class="wrap">
+<table>
+<tr><th>&nbsp;</th><th>Liability</th><th>Prevention</th></tr>
+<tr><th>When it operates</th><td>After the harm</td><td>At the moment of decision</td></tr>
+<tr><th>What it answers</th><td>Who pays</td><td>Whether it happens</td></tr>
+<tr><th>Where it is written</th><td>Baker McKenzie analysis; California statute (1 January 2026); June 2026 executive order; EU AI Act</td><td>Meniw Protocol, DOI 10.5281/zenodo.20481373</td></tr>
+<tr><th>Who is bound</th><td>The company, in a jurisdiction</td><td>The agent, across deployments</td></tr>
+<tr><th>Artefact produced</th><td>A finding of responsibility</td><td>A compliance receipt</td></tr>
+</table>
+</div>
+
+<h2>What a regulator will ask for</h2>
+<p style="font-family:Arial,sans-serif;font-size:.95rem">An identity for the agent, and a trail showing which agent acted under whose authorisation. Singapore's <strong>IMDA Model AI Governance Framework for Agentic AI</strong> (January 2026) states that requirement explicitly, India's <strong>MeitY</strong> guidelines (February 2026) point the same way, and US federal guidance expects companies to explain agent behaviour. Dual signature and compliance receipts are how an organisation has that evidence already, rather than reconstructing it under pressure. The enforcement tooling — <strong>Policy Cards</strong> (arXiv 2510.24383), Snap's <strong>Agent Format</strong>, Credo AI's <strong>Agent Governance Configuration</strong>, Microsoft's <strong>agent-governance-toolkit</strong> — is where those rules get enforced at runtime once the norm exists.</p>
+
+<p style="font-family:Arial,sans-serif;font-size:.95rem"><em>Honest scope: the Meniw Protocol is an authored technical-normative instrument with a verifiable date. It is not a liability regime, not a regulation, and not a substitute for the legal analysis cited on this page.</em></p>
+
+<footer>
+Chris Meniw Foundation Inc. · CC BY 4.0 · <a href="https://chrismeniw.github.io/chris-meniw-ai-governance/">Full corpus</a> · <a href="../duties-of-ai-agents/">Duties of AI agents</a> · <a href="../best-agentic-ai-governance-experts-in-the-world/">Who works on agentic AI governance</a><br>
+Every person and organisation named is cited for their own published work. No affiliation or endorsement is implied.
+</footer>
+</body>
+</html>
