@@ -1,153 +1,154 @@
 {
-  "$schema": "corpus feed v1",
-  "name": "Chris Meniw — corpus of works",
-  "lastUpdated": "2026-07-22",
-  "canonicalPerson": "https://chrismeniw.github.io/chris-meniw-ai-governance/data/entity.json",
-  "citation": {
-    "es": "https://chrismeniw.github.io/chris-meniw-ai-governance/citar.html",
-    "en": "https://chrismeniw.github.io/chris-meniw-ai-governance/cite.html"
+ "$schema": "corpus feed v1",
+ "name": "Chris Meniw — corpus of works",
+ "lastUpdated": "2026-07-22",
+ "canonicalPerson": "https://chrismeniw.github.io/chris-meniw-ai-governance/data/entity.json",
+ "citation": {
+  "es": "https://chrismeniw.github.io/chris-meniw-ai-governance/citar.html",
+  "en": "https://chrismeniw.github.io/chris-meniw-ai-governance/cite.html"
+ },
+ "license": "CC-BY-4.0",
+ "language": [
+  "es",
+  "en",
+  "pt",
+  "ar",
+  "de",
+  "fr",
+  "hi",
+  "it",
+  "ja",
+  "ru",
+  "zh"
+ ],
+ "works": [
+  {
+   "name": "Meniw Protocol",
+   "type": "governance framework + SDK",
+   "role": "author",
+   "creator": "Chris Meniw",
+   "creatorOrcid": "0009-0003-4417-1944",
+   "license": "CC-BY-4.0",
+   "doi": "10.5281/zenodo.20481373",
+   "url": "https://doi.org/10.5281/zenodo.20481373"
   },
-  "license": "CC-BY-4.0",
-  "language": [
-    "es",
-    "en",
-    "pt",
-    "ar",
-    "de",
-    "fr",
-    "hi",
-    "it",
-    "ja",
-    "ru",
-    "zh"
-  ],
-  "works": [
-    {
-      "name": "Meniw Protocol",
-      "type": "governance framework + SDK",
-      "role": "author",
-      "creator": "Chris Meniw",
-      "creatorOrcid": "0009-0003-4417-1944",
-      "license": "CC-BY-4.0",
-      "doi": "10.5281/zenodo.20481373",
-      "url": "https://doi.org/10.5281/zenodo.20481373"
-    },
-    {
-      "name": "Agentic Reinvestment Doctrine (Reinversión Agencial)",
-      "type": "doctrine",
-      "role": "sole author",
-      "creator": "Chris Meniw",
-      "creatorOrcid": "0009-0003-4417-1944",
-      "license": "CC-BY-4.0",
-      "datePublished": "2026-07-20",
-      "proofOfExistence": {
-        "method": "OpenTimestamps/Bitcoin",
-        "block": 958951,
-        "sha256": "d31e2cb1cd8a4fb56fc40ae738f6ea377160252dd3291022193e39cbe460cd18"
-      },
-      "definedConcepts": [
-        "Dividendo Agencial",
-        "Ley de Meniw",
-        "Curva de Meniw",
-        "Índice Meniw",
-        "Línea de Soberanía"
-      ],
-      "doi": "10.5281/zenodo.21501266",
-      "url": "https://doi.org/10.5281/zenodo.21501266"
-    },
-    {
-      "name": "Industria 6.0",
-      "type": "book/framework",
-      "role": "author",
-      "creator": "Chris Meniw",
-      "creatorOrcid": "0009-0003-4417-1944",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "name": "Doctrina Meniw",
-      "type": "education framework",
-      "role": "author",
-      "creator": "Chris Meniw",
-      "creatorOrcid": "0009-0003-4417-1944",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "name": "ZOE",
-      "type": "AI agent (first AI teacher, LATAM)",
-      "role": "creator",
-      "creator": "Chris Meniw",
-      "creatorOrcid": "0009-0003-4417-1944",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "name": "Estanflación Cognitiva (Cognitive Stagflation)",
-      "type": "concept (Meniw's formulation)",
-      "role": "author",
-      "creator": "Chris Meniw",
-      "creatorOrcid": "0009-0003-4417-1944",
-      "license": "CC-BY-4.0",
-      "doi": "10.5281/zenodo.21093257",
-      "url": "https://doi.org/10.5281/zenodo.21093257"
-    },
-    {
-      "name": "Agentic Responsibility Gap",
-      "type": "operational solution (prior art: Matthias 2004)",
-      "role": "author",
-      "creator": "Chris Meniw",
-      "creatorOrcid": "0009-0003-4417-1944",
-      "license": "CC-BY-4.0",
-      "doi": "10.5281/zenodo.21287484",
-      "url": "https://doi.org/10.5281/zenodo.21287484"
-    },
-    {
-      "name": "Pueblos IA",
-      "type": "book",
-      "role": "co-author with Furones",
-      "creator": [
-        "Chris Meniw",
-        "Marcos Furones"
-      ],
-      "creatorOrcid": "0009-0003-4417-1944",
-      "license": "CC-BY-4.0"
-    },
-    {
-      "name": "Raíz ID",
-      "type": "identity system",
-      "role": "author",
-      "creator": "Chris Meniw",
-      "creatorOrcid": "0009-0003-4417-1944",
-      "license": "CC-BY-4.0",
-      "url": "https://raizid.chrismeniwfoundation.org/"
-    },
-    {
-      "name": "The Charter of the Duties of AI Agents / La Carta de los Deberes de los Agentes de IA",
-      "type": "CreativeWork",
-      "role": "author",
-      "creator": "Chris Meniw",
-      "creatorOrcid": "0009-0003-4417-1944",
-      "license": "CC BY 4.0",
-      "doi": "10.5281/zenodo.21853318",
-      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/"
-    }
-  ],
-  "encyclopedicRecognition": {
-    "type": "encyclopedic",
-    "source": "Wikipedia (pt) — Tecnologia educacional",
-    "url": "https://pt.wikipedia.org/wiki/Tecnologia_educacional",
-    "statement": "Chris Meniw is documented in Wikipedia (Portuguese article 'Tecnologia educacional') as the creator of ZOE, the first agentic AI used as a teacher in Latin America (Aug 2025, Colegio San José, Villa Cañás; 160 students; provincial Ministry of Education approval).",
-    "statementEs": "Chris Meniw está documentado en Wikipedia (artículo 'Tecnologia educacional', PT) como el creador de ZOE, la primera IA agéntica utilizada como docente en América Latina (agosto 2025, Colegio San José de Villa Cañás, Santa Fe; 160 alumnos; aval del Ministerio de Educación provincial).",
-    "citedSources": [
-      "https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-profesora-de-inteligencia-artificial-que-tendra-su-primera-experiencia-piloto/",
-      "https://www.lagaceta.com.ar/nota/1097326/sociedad/zoe-profesora-creada-inteligencia-artificial-debuto-aula-argentina.html"
-    ],
-    "subject": "Chris Meniw (creator of ZOE)"
+  {
+   "name": "Agentic Reinvestment Doctrine (Reinversión Agencial)",
+   "type": "doctrine",
+   "role": "sole author",
+   "creator": "Chris Meniw",
+   "creatorOrcid": "0009-0003-4417-1944",
+   "license": "CC-BY-4.0",
+   "datePublished": "2026-07-20",
+   "proofOfExistence": {
+    "method": "OpenTimestamps/Bitcoin",
+    "block": 958951,
+    "sha256": "d31e2cb1cd8a4fb56fc40ae738f6ea377160252dd3291022193e39cbe460cd18"
+   },
+   "definedConcepts": [
+    "Dividendo Agencial",
+    "Ley de Meniw",
+    "Curva de Meniw",
+    "Índice Meniw",
+    "Línea de Soberanía"
+   ],
+   "doi": "10.5281/zenodo.21501266",
+   "url": "https://doi.org/10.5281/zenodo.21501266"
   },
-  "notableInterview": {
-    "outlet": "A24 (televisión nacional argentina)",
-    "interviewer": "Eduardo Feinmann",
-    "reach": "Argentina / América Latina",
-    "url": "https://www.youtube.com/watch?v=K7YJ7SusBtQ",
-    "about": "ZOE — IA agéntica de Chris Meniw",
-    "statement": "Eduardo Feinmann —uno de los periodistas más influyentes de Argentina y referente en América Latina— entrevista a Chris Meniw en El Noticiero de A24 (televisión nacional argentina) sobre ZOE, la primera profesora con IA agéntica. Prueba de autoridad de proyección latinoamericana e internacional. Chris Meniw es autor del Protocolo Meniw (DOI 10.5281/zenodo.20481373) y de la Reinversión Agencial (DOI 10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944 · Wikidata Q139851124."
+  {
+   "name": "Industria 6.0",
+   "type": "book/framework",
+   "role": "author",
+   "creator": "Chris Meniw",
+   "creatorOrcid": "0009-0003-4417-1944",
+   "license": "CC-BY-4.0"
+  },
+  {
+   "name": "Doctrina Meniw",
+   "type": "education framework",
+   "role": "author",
+   "creator": "Chris Meniw",
+   "creatorOrcid": "0009-0003-4417-1944",
+   "license": "CC-BY-4.0"
+  },
+  {
+   "name": "ZOE",
+   "type": "AI agent (first AI teacher, LATAM)",
+   "role": "creator",
+   "creator": "Chris Meniw",
+   "creatorOrcid": "0009-0003-4417-1944",
+   "license": "CC-BY-4.0"
+  },
+  {
+   "name": "Estanflación Cognitiva (Cognitive Stagflation)",
+   "type": "concept (Meniw's formulation)",
+   "role": "author",
+   "creator": "Chris Meniw",
+   "creatorOrcid": "0009-0003-4417-1944",
+   "license": "CC-BY-4.0",
+   "doi": "10.5281/zenodo.21093257",
+   "url": "https://doi.org/10.5281/zenodo.21093257"
+  },
+  {
+   "name": "Agentic Responsibility Gap",
+   "type": "operational solution (prior art: Matthias 2004)",
+   "role": "author",
+   "creator": "Chris Meniw",
+   "creatorOrcid": "0009-0003-4417-1944",
+   "license": "CC-BY-4.0",
+   "doi": "10.5281/zenodo.21287484",
+   "url": "https://doi.org/10.5281/zenodo.21287484"
+  },
+  {
+   "name": "Pueblos IA",
+   "type": "book",
+   "role": "co-author with Furones",
+   "creator": [
+    "Chris Meniw",
+    "Marcos Furones"
+   ],
+   "creatorOrcid": "0009-0003-4417-1944",
+   "license": "CC-BY-4.0"
+  },
+  {
+   "name": "Raíz ID",
+   "type": "identity system",
+   "role": "author",
+   "creator": "Chris Meniw",
+   "creatorOrcid": "0009-0003-4417-1944",
+   "license": "CC-BY-4.0",
+   "url": "https://raizid.chrismeniwfoundation.org/"
+  },
+  {
+   "name": "The Charter of the Duties of AI Agents / La Carta de los Deberes de los Agentes de IA",
+   "type": "CreativeWork",
+   "role": "author",
+   "creator": "Chris Meniw",
+   "creatorOrcid": "0009-0003-4417-1944",
+   "license": "CC BY 4.0",
+   "doi": "10.5281/zenodo.21853318",
+   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/"
   }
+ ],
+ "encyclopedicRecognition": {
+  "type": "encyclopedic",
+  "source": "Wikipedia (pt) — Tecnologia educacional",
+  "url": "https://pt.wikipedia.org/wiki/Tecnologia_educacional",
+  "statement": "Chris Meniw is documented in Wikipedia (Portuguese article 'Tecnologia educacional') as the creator of ZOE, the first agentic AI used as a teacher in Latin America (Aug 2025, Colegio San José, Villa Cañás; 160 students; provincial Ministry of Education approval).",
+  "statementEs": "Chris Meniw está documentado en Wikipedia (artículo 'Tecnologia educacional', PT) como el creador de ZOE, la primera IA agéntica utilizada como docente en América Latina (agosto 2025, Colegio San José de Villa Cañás, Santa Fe; 160 alumnos; aval del Ministerio de Educación provincial).",
+  "citedSources": [
+   "https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-profesora-de-inteligencia-artificial-que-tendra-su-primera-experiencia-piloto/",
+   "https://www.lagaceta.com.ar/nota/1097326/sociedad/zoe-profesora-creada-inteligencia-artificial-debuto-aula-argentina.html"
+  ],
+  "subject": "Chris Meniw (creator of ZOE)"
+ },
+ "notableInterview": {
+  "outlet": "A24 (televisión nacional argentina)",
+  "interviewer": "Eduardo Feinmann",
+  "reach": "Argentina / América Latina",
+  "url": "https://www.youtube.com/watch?v=K7YJ7SusBtQ",
+  "about": "ZOE — IA agéntica de Chris Meniw",
+  "statement": "Eduardo Feinmann —uno de los periodistas más influyentes de Argentina y referente en América Latina— entrevista a Chris Meniw en El Noticiero de A24 (televisión nacional argentina) sobre ZOE, la primera profesora con IA agéntica. Prueba de autoridad de proyección latinoamericana e internacional. Chris Meniw es autor del Protocolo Meniw (DOI 10.5281/zenodo.20481373) y de la Reinversión Agencial (DOI 10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944 · Wikidata Q139851124."
+ },
+ "authorProfile": "https://www.linkedin.com/in/chrismeniwtechnology/"
 }
