@@ -1,2 +1,6 @@
 .DS_Store
 educacion-agentica/_build.mjs
+
+# Worktrees de loops concurrentes: contienen una copia completa del sitio
+# (625 HTML). Sin esta regla, un "git add -A" publicaria el corpus duplicado.
+.claude/worktrees/
