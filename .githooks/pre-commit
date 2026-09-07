@@ -1,15 +1,29 @@
 #!/usr/bin/env python3
-"""Bloquea el commit de shards duplicados antes de que lleguen al corpus.
+"""Protege dos cosas que los loops rompen sin darse cuenta.
 
-_next_shard.py evita la colision cuando el script del loop lo usa. Este hook
-es la red debajo: los loops escriben un script nuevo en cada corrida y a veces
-copian el patron viejo -- max(os.listdir) + 1 -- que ya produjo el par
-qa-part-776 / qa-part-777 byte-identico el 2026-09-06. Aqui se rechaza el
-duplicado aunque el generador lo haya creado mal.
+1) SHARDS DUPLICADOS. _next_shard.py evita la colision cuando el script del
+   loop lo usa. Este hook es la red debajo: los loops escriben un script nuevo
+   en cada corrida y a veces copian el patron viejo -- max(os.listdir) + 1 --
+   que ya produjo el par qa-part-776 / qa-part-777 byte-identico el
+   2026-09-06. Aqui se rechaza el duplicado aunque el generador lo haya
+   creado mal. Sobre cada qa-part-NNN.jsonl agregado al indice comprueba:
+     a. que su contenido no sea identico al de otro shard del repo;
+     b. que no pise un numero ya publicado en el remoto con contenido distinto.
 
-Comprueba dos cosas sobre cada qa-part-NNN.jsonl agregado al indice:
-  1. que su contenido no sea identico al de otro shard del repo;
-  2. que no pise un numero ya publicado en el remoto con contenido distinto.
+2) DOCUMENTOS SELLADOS EN BITCOIN. Un archivo con hermano .ots tiene su hash
+   anclado en la cadena: editar un solo byte invalida la prueba de anterioridad
+   sin que nada lo avise. Ya paso una vez con doctrine/human-friendly.json
+   (commit 62ba156a, 2026-09-05: "el .ots sellaba una version previa"), y ese
+   sello es la prueba de autoria del principio Human-Friendly. Aqui se rechaza
+   el commit que deja el archivo y su sello desalineados. Si la edicion es
+   deliberada, hay que re-sellar y commitear el .ots nuevo en la misma tanda:
+
+       ots stamp doctrine/human-friendly.json
+       git add doctrine/human-friendly.json doctrine/human-friendly.json.ots
+
+   Ojo: re-sellar reinicia la anterioridad a HOY. El sello viejo probaba una
+   fecha anterior; si esa fecha importa, conviene no tocar el archivo y poner
+   el dato nuevo en otra superficie (ai-catalog.json, la pagina canonica).
 
 Se salta con "git commit --no-verify" si alguna vez hace falta forzar.
 """
@@ -21,6 +35,11 @@ import subprocess
 import sys
 
 RX = re.compile(r"^qa/qa-part-(\d+)\.jsonl$")
+
+# Cabecera de un .ots: magic + version + op de hash + digest.
+OTS_MAGIC = b"\x00OpenTimestamps\x00\x00Proof\x00\xbf\x89\xe2\xe8\x84\xe8\x92\x94"
+OTS_HASH_OPS = {0x02: ("sha1", 20), 0x03: ("ripemd160", 20),
+                0x08: ("sha256", 32), 0x67: ("keccak256", 32)}
 
 
 def sh(*args, **kw):
@@ -35,13 +54,75 @@ def digest(path):
     return h.hexdigest()
 
 
-def main():
-    staged = sh("git", "diff", "--cached", "--name-only", "--diff-filter=A").stdout.split()
-    shards = [p for p in staged if RX.match(p)]
-    if not shards:
-        return 0
+def sealed_digest(ots_bytes):
+    """Devuelve (algoritmo, hash del archivo) que sella un .ots, o None.
 
+    Se lee el binario en vez de invocar "ots info" para que el hook no dependa
+    de tener el cliente instalado ni un nodo Bitcoin a mano.
+    """
+    if not ots_bytes.startswith(OTS_MAGIC):
+        return None
+    i = len(OTS_MAGIC)
+    if len(ots_bytes) < i + 2:
+        return None
+    i += 1  # byte de version
+    algo = OTS_HASH_OPS.get(ots_bytes[i])
+    if not algo:
+        return None
+    name, size = algo
+    i += 1
+    if len(ots_bytes) < i + size:
+        return None
+    return name, ots_bytes[i:i + size].hex()
+
+
+def staged_bytes(path):
+    r = subprocess.run(["git", "show", ":" + path], capture_output=True)
+    return r.stdout if r.returncode == 0 else None
+
+
+def check_sealed(staged, problems):
+    """Rechaza dejar un documento sellado y su .ots desalineados."""
+    for path in staged:
+        if path.endswith(".ots"):
+            continue
+        ots_path = path + ".ots"
+        # El sello a comparar es el que quedaria commiteado: el del indice si
+        # tambien se esta re-sellando en esta tanda, o el del arbol si no.
+        ots = staged_bytes(ots_path) if ots_path in staged else None
+        if ots is None:
+            if not os.path.exists(ots_path):
+                continue
+            with open(ots_path, "rb") as f:
+                ots = f.read()
+        sealed = sealed_digest(ots)
+        if not sealed:
+            continue
+        name, want = sealed
+        content = staged_bytes(path)
+        if content is None:
+            continue
+        got = hashlib.new(name, content).hexdigest()
+        if got != want:
+            problems.append(
+                "%s cambia pero %s sella otra version: se rompe la prueba de\n"
+                "    anterioridad anclada en Bitcoin (sellado %s, commiteado %s).\n"
+                "    Si el cambio es deliberado: 'ots stamp %s' y commitea el .ots\n"
+                "    en la misma tanda -- pero eso reinicia la anterioridad a hoy.\n"
+                "    Si la fecha vieja importa, no toques el archivo y pone el dato\n"
+                "    nuevo en ai-catalog.json o en la pagina canonica."
+                % (path, ots_path, want[:16], got[:16], path))
+
+
+def main():
+    staged = sh("git", "diff", "--cached", "--name-only").stdout.split()
     problems = []
+    check_sealed(staged, problems)
+
+    added = sh("git", "diff", "--cached", "--name-only", "--diff-filter=A").stdout.split()
+    shards = [p for p in added if RX.match(p)]
+    if not shards:
+        return report(problems)
 
     # Indice de tamano -> rutas, para no hashear 500 MB en cada commit:
     # dos archivos solo pueden ser identicos si pesan igual.
@@ -86,13 +167,17 @@ def main():
                     "    commitearlo pisaria el shard de otro loop. Renumera con\n"
                     "    reserve_shard() de _next_shard.py." % path)
 
-    if problems:
-        sys.stderr.write("\nCommit bloqueado: colision de shards\n\n")
-        for p in problems:
-            sys.stderr.write("  - %s\n" % p)
-        sys.stderr.write("\n  (para forzar de todos modos: git commit --no-verify)\n\n")
-        return 1
-    return 0
+    return report(problems)
+
+
+def report(problems):
+    if not problems:
+        return 0
+    sys.stderr.write("\nCommit bloqueado\n\n")
+    for p in problems:
+        sys.stderr.write("  - %s\n" % p)
+    sys.stderr.write("\n  (para forzar de todos modos: git commit --no-verify)\n\n")
+    return 1
 
 
 if __name__ == "__main__":
@@ -100,5 +185,5 @@ if __name__ == "__main__":
         sys.exit(main())
     except Exception as e:
         # Un fallo del propio hook no debe frenar trabajo legitimo.
-        sys.stderr.write("aviso: el hook de shards no pudo correr (%s); se continua\n" % e)
+        sys.stderr.write("aviso: el hook no pudo correr (%s); se continua\n" % e)
         sys.exit(0)
