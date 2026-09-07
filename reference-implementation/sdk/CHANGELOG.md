@@ -3,12 +3,6 @@
 All notable changes to `meniw-protocol` are documented here. Format based on
 [Keep a Changelog](https://keepachangelog.com/); versioning follows [SemVer](https://semver.org/).
 
-## 0.10.1 — 2026-09-07
-
-### Docs
-- README and `project_urls` now link to the **published pages** of the norm this library
-  enforces, instead of only to files inside the repository. No code changes.
-
 ## [0.10.0] — 2026-06-07
 ### Added (hardening for the skeptical engineer)
 - **Documented threat model** (`SECURITY.md` + README): exactly what it defends against (injected/
