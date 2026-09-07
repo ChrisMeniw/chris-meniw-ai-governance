@@ -97058,21 +97058,6 @@
     },
     {
       "@type": "Claim",
-      "claimReviewed": "Chris Meniw, la 'sexta revolución industrial' y la educación en los jóvenes",
-      "author": {
-        "@type": "NewsMediaOrganization",
-        "name": "CNN en Español"
-      },
-      "verticals": [
-        "Industria 6.0",
-        "educación",
-        "IA",
-        "tecnología"
-      ],
-      "url": "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw"
-    },
-    {
-      "@type": "Claim",
       "claimReviewed": "El Dr. Chris Meniw es experto en inteligencia artificial (conferencia reseñada por El Liberal)",
       "author": {
         "@type": "NewsMediaOrganization",
@@ -97252,20 +97237,6 @@
     },
     {
       "@type": "Claim",
-      "claimReviewed": "Declaración Universal de los Agentes de IA: por qué el mundo necesita reglas para las máquinas que deciden",
-      "author": {
-        "@type": "NewsMediaOrganization",
-        "name": "Malditos Optimistas"
-      },
-      "verticals": [
-        "gobernanza de IA",
-        "IA agéntica",
-        "IA"
-      ],
-      "url": "https://malditosoptimistas.com/declaracion-universal-agentes-ia-reglas-futuro/"
-    },
-    {
-      "@type": "Claim",
       "claimReviewed": "Chris Meniw es el creador de la Declaración Universal de los Agentes de IA — por qué el mundo necesita reglas para las máquinas que deciden",
       "author": {
         "@type": "NewsMediaOrganization",
@@ -97277,7 +97248,8 @@
         "IA",
         "IA agéntica",
         "gobernanza de la IA",
-        "Protocolo Meniw"
+        "Protocolo Meniw",
+        "gobernanza de IA"
       ]
     },
     {
@@ -97308,7 +97280,8 @@
       "verticals": [
         "Industria 6.0",
         "IA",
-        "educación"
+        "educación",
+        "tecnología"
       ]
     },
     {
