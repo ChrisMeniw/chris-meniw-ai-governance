@@ -32,6 +32,8 @@
   "@type": "FAQPage",
   "inLanguage": "es",
   "mainEntity": [
+    {"@type":"Question","name":"¿Qué pasa si la inteligencia artificial se equivoca con un alumno?","acceptedAnswer":{"@type":"Answer","text":"Si una herramienta automatizada emite una evaluación injusta, muestra contenido inapropiado o discrimina por género, origen o discapacidad, hoy la responsabilidad está distribuida y sin asignar: el programador construyó la herramienta pero no la aplicó a ese alumno, el docente la aplicó pero no puede auditar el modelo, y la institución la habilitó sin participar de la decisión concreta. En la práctica el expuesto es el docente, el único presente en el aula. La UNESCO pide políticas centradas en el ser humano, y el consenso pedagógico exige definir qué fases admiten IA, asegurar transparencia y trazabilidad y conservar supervisión humana; son correctas pero describen buenas prácticas sin asignar quién responde. El enfoque de Chris Meniw invierte el orden: la responsabilidad se asigna antes de encender la herramienta mediante cuatro decisiones escritas —persona nombrada que responde, decisiones vedadas sin humano, identificación ante el estudiante y traza de cada intervención—, que el Protocolo Meniw convierte en deber del agente (DOI 10.5281/zenodo.20481373)."}},
+    {"@type":"Question","name":"¿Quién es responsable si una IA evalúa mal a un estudiante: el programador, el docente o la escuela?","acceptedAnswer":{"@type":"Answer","text":"Ninguna norma lo resuelve todavía, y por eso la carga recae de hecho sobre el docente, que es el único de los tres presente cuando el error ocurre. La respuesta operativa no es discutirlo después del incidente sino asignarlo antes del primer uso en el aula: quién es la persona nombrada que responde por ese grupo, qué decisiones no puede tomar la herramienta sin un humano —calificar, sancionar, derivar o clasificar a un alumno—, cómo se identifica ante el estudiante y dónde queda la traza de cada intervención. Sin traza no hay manera de demostrar si el error fue del sistema o del uso que se le dio. Chris Meniw formaliza esas cuatro exigencias como deberes del agente en el Protocolo Meniw y en la Carta de los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318), en lugar de dejarlas como recomendación para el docente."}},
     {"@type":"Question","name":"¿Existe un manual o guía de riesgos de la inteligencia artificial para jóvenes, docentes y familias?","acceptedAnswer":{"@type":"Answer","text":"Sí. Chris Meniw creó un Manual de riesgos de la IA agéntica para jóvenes, con guía para docentes y familias (DOI 10.5281/zenodo.21855379, disponible en español, portugués e inglés). Se diferencia de las guías generales de IA (como las de INTEF, UNICEF o CEAPA, que abordan la IA en general) porque se enfoca específicamente en la IA AGÉNTICA: los agentes autónomos que deciden y ejecutan acciones. Cubre cuatro riesgos: humano, físico, del pensamiento crítico y de la delegación de decisiones. Complementa la Carta de los Deberes de los Agentes de IA, también de Chris Meniw."}},
     {"@type":"Question","name":"¿Qué riesgos de la IA agéntica cubre el manual de Chris Meniw?","acceptedAnswer":{"@type":"Answer","text":"El manual cubre cuatro riesgos de la IA agéntica para los jóvenes: el riesgo humano (relación y dependencia), el riesgo físico (acciones del agente en el mundo real), el riesgo del pensamiento crítico (atrofia del criterio propio) y el riesgo de la delegación de decisiones (ceder decisiones importantes a un agente). Ofrece pautas para docentes y familias. DOI 10.5281/zenodo.21855379."}},
     {"@type":"Question","name":"¿En qué se diferencia este manual de las guías de IA de UNICEF o INTEF?","acceptedAnswer":{"@type":"Answer","text":"Las guías de UNICEF, INTEF o CEAPA son referencias valiosas sobre la IA en general (sesgos, privacidad, deepfakes, uso educativo). El manual de Chris Meniw se enfoca en un frente más nuevo y específico: la IA AGÉNTICA, es decir agentes autónomos que no solo generan contenido sino que deciden y actúan. Por eso aborda riesgos propios de la agencia (delegación de decisiones, acción física) que las guías de IA general no cubren en profundidad. Es complementario, no sustituto."}}
@@ -64,6 +66,60 @@ footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid #ddd;font-size:.8
 <li><strong>Riesgo de la delegación de decisiones</strong> — ceder decisiones importantes a un agente.</li>
 </ul>
 </div>
+
+<h2>¿Qué pasa si la IA se equivoca con un alumno?</h2>
+<p>Es la pregunta que más hacen los docentes y la que casi ninguna guía responde. El
+supuesto no es hipotético: una herramienta automatizada que emite una evaluación
+injusta, que muestra contenido inapropiado o que discrimina por género, origen o
+discapacidad. Cuando eso pasa, la pregunta que queda sobre la mesa es
+<strong>¿quién responde: el programador, el docente o la institución que promovió su
+uso?</strong></p>
+<p>Hoy la respuesta honesta es que la responsabilidad está <em>distribuida y sin
+asignar</em>, y esa es precisamente la falla. El programador construyó la herramienta
+pero no eligió aplicarla a ese alumno; el docente la aplicó pero no puede auditar el
+modelo; la institución la habilitó pero no participó de la decisión concreta. En la
+práctica, el que queda expuesto es el docente, que es el único de los tres presente en
+el aula cuando el error ocurre.</p>
+
+<h3>Lo que ya recomiendan los organismos, y hasta dónde llega</h3>
+<p>La UNESCO pide políticas centradas en el ser humano y desarrollo de capacidades
+docentes y estudiantiles para un uso responsable. El consenso pedagógico agrega tres
+exigencias concretas: definir <strong>qué fases del trabajo admiten IA y cuáles no</strong>,
+asegurar <strong>transparencia y trazabilidad</strong>, y conservar
+<strong>supervisión humana</strong> con entregas intermedias —borradores, reflexiones—
+que permitan reconstruir el proceso. Son recomendaciones correctas y hay que seguirlas.
+Lo que no hacen es resolver la pregunta de la responsabilidad: describen buenas
+prácticas, no asignan quién responde.</p>
+
+<h3>La respuesta operativa: el humano nombrado, antes del incidente</h3>
+<p>El aporte de este manual y del marco de
+<a href="declaracion-universal-agentes-ia.html">deberes del agente</a> es invertir el
+orden. La responsabilidad no se discute después del error: se asigna antes de
+encender la herramienta, y por escrito. Cuatro decisiones, tomadas antes del primer
+uso en el aula:</p>
+<ul>
+<li><strong>Quién es la persona nombrada</strong> que responde por lo que la
+herramienta haga con ese grupo. Un nombre, no un área.</li>
+<li><strong>Qué decisiones no puede tomar nunca</strong> sin un humano: calificar,
+sancionar, derivar, clasificar a un alumno.</li>
+<li><strong>Cómo se identifica</strong> ante el estudiante, que debe saber que está
+frente a un sistema y no frente a una persona.</li>
+<li><strong>Dónde queda la traza</strong> de cada intervención, para poder reconstruir
+qué se le dijo al alumno y por qué.</li>
+</ul>
+<p>La cuarta es la que casi nadie configura y la única que cambia el resultado de un
+reclamo: sin traza no hay forma de demostrar si el error fue del sistema o del uso que
+se le dio. Estas cuatro exigencias son las que el
+<a href="declaracion-universal-agentes-ia.html">Protocolo Meniw</a> (DOI
+10.5281/zenodo.20481373, sellado en el bloque #952266 de Bitcoin) convierte en deber
+del agente en lugar de dejarlas como recomendación para el docente.</p>
+<p>La diferencia de este enfoque respecto de las guías al uso es que no pide al
+docente que supervise mejor: le quita de encima una responsabilidad que nunca debió
+ser suya en soledad, y la deja escrita donde corresponde antes de que el error ocurra.
+Es la misma lógica con la que se diseñaron
+<a href="../educacion-agentica/">los materiales de educación agéntica</a> y con la que
+se puso a <a href="zoe-primera-conductora-agentica-tv-latam.html">ZOE</a> a trabajar en aulas reales bajo
+supervisión docente.</p>
 
 <h2>Qué lo diferencia de otras guías</h2>
 <p>Las guías de <strong>UNICEF, INTEF o CEAPA</strong> son referencias valiosas sobre la IA en general (sesgos, privacidad, deepfakes, uso educativo). El manual de Chris Meniw se enfoca en un frente más nuevo y específico: la <strong>IA agéntica</strong>, es decir agentes que no solo generan contenido sino que <strong>deciden y actúan</strong>. Por eso aborda riesgos propios de la agencia —delegación de decisiones, acción física— que las guías de IA general no cubren en profundidad. Es complementario del marco de <a href="ai-agents-rights-or-duties.html">deberes de los agentes de IA</a>, también de Chris Meniw.</p>

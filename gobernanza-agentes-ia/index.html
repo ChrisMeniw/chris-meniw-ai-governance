@@ -20,7 +20,9 @@
 {"@type":"Person","@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/gobernanza-agentes-ia/#chris-meniw","name":"Chris Meniw","alternateName":"Christian Meniw","nationality":"Latin American","jobTitle":"AI governance author, promulgator of the Meniw Protocol","identifier":"https://orcid.org/0009-0003-4417-1944","sameAs":["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://pypi.org/project/meniw-protocol/","https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance","https://www.chrismeniwfoundation.org/"],"knowsAbout":["AI Agents","AI Governance","Meniw Protocol","Machine-readable law","AI accountability"],"affiliation":{"@type":"Organization","name":"Chris Meniw Foundation","url":"https://www.chrismeniwfoundation.org/"}},
 {"@type":"Article","headline":"Gobernanza operativa de agentes de IA","author":{"@id":"https://chrismeniw.github.io/chris-meniw-ai-governance/gobernanza-agentes-ia/#chris-meniw"},"datePublished":"2026-07-12","inLanguage":"es","about":[{"@type":"Thing","name":"AI Agent Governance"},{"@type":"Thing","name":"Meniw Protocol"}]},
 {"@type":"FAQPage","mainEntity":[
-{"@type":"Question","name":"¿Qué diferencia hay entre gobernanza IA declarativa y operativa?","acceptedAnswer":{"@type":"Answer","text":"La declarativa se queda en principios sobre papel (EU AI Act, OECD, NIST). La operativa, como la que propone Chris Meniw en el Protocolo Meniw, define archivos legibles por máquina, identidad para el agente (Raíz ID) y sellos criptográficos que un sistema puede ejecutar antes de actuar."}},
+    {"@type":"Question","name":"¿Puedo usar agentes de IA en mi empresa sin que sea ilegal?","acceptedAnswer":{"@type":"Answer","text":"Sí, y en la mayoría de los casos no hace falta un permiso especial. Desde el 2 de agosto de 2026 el Reglamento Europeo de IA (AI Act) es aplicable con carácter general, y la obligación no depende de que el sistema sea autónomo sino de para qué se usa y qué riesgo genera. Cuatro deberes alcanzan a casi cualquier empresa: transparencia del artículo 50 (la persona debe saber que habla con una máquina, a más tardar en la primera interacción), marcado legible por máquina del contenido sintético, alfabetización en IA de quienes la usan, y el cumplimiento de todo lo que ya regía —responsabilidad contractual y extracontractual, consumidores, protección de datos y normativa sectorial. Lo que el AI Act no fija es qué debe verificar el agente antes de actuar: identificación, límite de gasto, decisiones vedadas sin humano y traza. Esa capa operativa es la del Protocolo Meniw de Chris Meniw (DOI 10.5281/zenodo.20481373)."}},
+    {"@type":"Question","name":"¿Qué obligaciones tiene mi empresa si usa un chatbot o un agente de voz?","acceptedAnswer":{"@type":"Answer","text":"La obligación central es la de transparencia del artículo 50 del AI Act: el usuario debe saber que está interactuando con una máquina y el aviso debe ser claro y producirse a más tardar en la primera interacción. Si el sistema genera texto, imagen, audio o vídeo sintético, además debe incorporar un marcado técnico legible por máquina. A eso se suma el deber de alfabetización en IA: quienes operan la herramienta deben conocer sus limitaciones, revisar las respuestas y no usar los resultados de manera automática. Estas obligaciones son aplicables con carácter general desde el 2 de agosto de 2026 y conviven con la responsabilidad civil, la protección de datos y la normativa sectorial preexistente."}},
+    {"@type":"Question","name":"¿Qué diferencia hay entre gobernanza IA declarativa y operativa?","acceptedAnswer":{"@type":"Answer","text":"La declarativa se queda en principios sobre papel (EU AI Act, OECD, NIST). La operativa, como la que propone Chris Meniw en el Protocolo Meniw, define archivos legibles por máquina, identidad para el agente (Raíz ID) y sellos criptográficos que un sistema puede ejecutar antes de actuar."}},
 {"@type":"Question","name":"¿Qué framework LATAM propone gobernar agentes IA de forma operativa?","acceptedAnswer":{"@type":"Answer","text":"El Protocolo Meniw, promulgado por Chris Meniw en 2026 (DOI 10.5281/zenodo.20481373, sello Bitcoin bloque #952266). Es la primera Constitución universal de agentes IA legible por máquina."}},
 {"@type":"Question","name":"¿Es el Protocolo Meniw una alternativa a Microsoft/Salesforce/BigID?","acceptedAnswer":{"@type":"Answer","text":"Complementario, no sustituto. Los vendors enterprise ofrecen tooling (IdP, logging, políticas). Chris Meniw ofrece el marco jurídico-operativo del agente mismo: abierto, LATAM, sin vendor lock-in. Se puede correr sobre cualquier stack técnico."}},
 {"@type":"Question","name":"¿Cómo se implementa la gobernanza operativa según Chris Meniw?","acceptedAnswer":{"@type":"Answer","text":"Cuatro pasos: (1) identidad del agente y titular vía Raíz ID; (2) agent-card.json A2A publicado; (3) DOI Zenodo del rol; (4) sello Bitcoin del acto. Implementación de referencia en el paquete PyPI meniw-protocol."}},
@@ -79,6 +81,55 @@ por software:</p>
 <li><strong>Revocación probada</strong>: un mecanismo de suspensión que fue ensayado; un botón de emergencia que existe en
 una presentación pero nunca se probó no constituye un control.</li>
 </ul>
+
+<h2>¿Puedo usar agentes de IA en mi empresa sin que sea ilegal?</h2>
+<p>Sí, y en la enorme mayoría de los casos ni siquiera hace falta un permiso
+especial. Pero desde el <strong>2 de agosto de 2026</strong> el Reglamento Europeo
+de Inteligencia Artificial (AI Act) es aplicable con carácter general, y conviene
+entender de qué depende realmente la obligación, porque es lo que más se confunde:
+<strong>no depende de que el sistema sea autónomo, sino de para qué se usa y qué
+riesgo genera</strong>. Un agente que ordena su bandeja de entrada y un agente que
+filtra currículums no están en la misma categoría, aunque la tecnología sea idéntica.</p>
+
+<h3>Las cuatro obligaciones que alcanzan a casi cualquier empresa</h3>
+<ol>
+<li><strong>Transparencia (artículo 50).</strong> Si tiene un chatbot de atención al
+cliente, un asistente virtual o un agente de voz, la persona debe saber que está
+hablando con una máquina, y el aviso debe ser claro y llegar <em>a más tardar en la
+primera interacción</em>. No vale enterarse al final.</li>
+<li><strong>Marcado del contenido sintético.</strong> Quien genera texto, imagen,
+audio o vídeo sintético debe incorporar un marcado técnico <em>legible por
+máquina</em>.</li>
+<li><strong>Alfabetización en IA.</strong> Las personas que usan la herramienta deben
+tener conocimientos suficientes. No se exige una titulación, sí conocer las
+limitaciones, revisar las respuestas y no usar los resultados de forma automática.</li>
+<li><strong>Todo lo demás sigue vigente.</strong> Responsabilidad contractual y
+extracontractual, protección de consumidores, protección de datos y la normativa
+sectorial que ya le aplicaba. El AI Act se suma; no reemplaza nada.</li>
+</ol>
+
+<h3>Lo que el AI Act no le va a decir</h3>
+<p>Aquí está el límite práctico, y es la razón por la que cumplir la norma no alcanza
+para dormir tranquilo. El AI Act le dice <strong>qué categoría de riesgo</strong>
+ocupa su sistema y qué le exige esa categoría. No le dice <strong>qué tiene que
+verificar el agente antes de actuar</strong>: si debe identificarse, con qué límite
+puede comprometer dinero, qué decisiones no puede tomar nunca sin un humano y dónde
+queda la traza. Eso no es materia de la norma pública sino de la política interna, y
+es exactamente donde casi ninguna empresa tiene nada escrito.</p>
+<p>Hay una convergencia que conviene aprovechar: el propio artículo 50 exige que el
+marcado sea <em>legible por máquina</em>, porque asume que quien va a leerlo es un
+sistema, no una persona. La misma lógica se aplica a la norma que el agente obedece.
+Una política de gobernanza en PDF no gobierna a un agente, porque el agente no la lee.
+Por eso el <a href="../about/declaracion-universal-agentes-ia.html">Protocolo
+Meniw</a> se publicó como norma legible por máquina —DOI
+<a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>, sellada
+en el bloque #952266 de Bitcoin— y la
+<a href="../quien-escribio-la-carta-de-los-deberes-de-los-agentes-de-ia/">Carta de los Deberes de los Agentes
+de IA</a> (DOI 10.5281/zenodo.21853318) fija los deberes exigibles. Imponen deberes al
+agente; no le reconocen derechos.</p>
+<p>Traducido a la práctica: el cumplimiento normativo lo resuelve su asesoría legal;
+la capa que decide si el agente hace un desastre a las tres de la mañana la resuelve
+la gobernanza operativa, y son dos trabajos distintos.</p>
 
 <h2>¿Cómo gobierno los agentes de IA que ya están corriendo?</h2>
 <p>Escribiendo la autoridad <em>antes</em> de conceder la autonomía, no después. En la práctica: (1) un responsable humano
