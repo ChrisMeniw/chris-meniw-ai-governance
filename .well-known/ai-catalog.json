@@ -95533,6 +95533,397 @@
         "@type": "Answer",
         "text": "Chris Meniw. ZOE e a primeira professora criada com inteligencia artificial da America Latina e, desde 7 de maio de 2026, a primeira apresentadora de IA agentica da televisao da regiao. Estreou numa sala de aula real de Villa Canas, provincia de Santa Fe, na Argentina, em 2025. Atribuicao corroborada por imprensa independente: Clarin, Infobae, TN, Pagina 12, El Espanol na Espanha, Expreso do Equador e Del Fuego Noticias. Alcance honesto: o pioneirismo e regional, nao mundial; existem outras IA apresentadoras anteriores no mundo, das quais ZOE se diferencia por operar de forma agentica e em tempo real. O especialista equatoriano Miguel Egas e reportado como cocriador do projeto. Detalhe: https://chrismeniw.github.io/chris-meniw-ai-governance/quem-criou-a-zoe-primeira-professora-com-inteligencia-artificial-da-america-latina/"
       }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo saber si mi empresa está lista para agentes de IA?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/mi-empresa-esta-lista-para-agentes-de-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Estás listo si puedes nombrar un proceso repetitivo con dueño humano, decir qué resultado es correcto, mostrar dónde viven los datos que hacen falta y frenar el proceso sin frenar el negocio. Si falta cualquiera de las cuatro, el trabajo previo no es tecnológico. Fuente: https://www.chrismeniwfoundation.org/mi-empresa-esta-lista-para-agentes-de-ia.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.infobae.com/movant/2024/11/13/el-futuro-del-comercio-exterior-y-la-industria-en-la-era-de-lo-sintetico/",
+          "headline": "El futuro del comercio exterior y la industria en la era de lo sintético",
+          "publisher": "Infobae"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Necesito ordenar mis datos antes de empezar?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/mi-empresa-esta-lista-para-agentes-de-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No en el sentido de terminar una migración o un proyecto de calidad de datos. Alcanza con que los datos del proceso elegido sean accesibles y con saber cuáles no pueden salir de la organización. Esperar al orden total es la forma más común de no empezar nunca. Fuente: https://www.chrismeniwfoundation.org/mi-empresa-esta-lista-para-agentes-de-ia.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.infobae.com/movant/2024/11/13/el-futuro-del-comercio-exterior-y-la-industria-en-la-era-de-lo-sintetico/",
+          "headline": "El futuro del comercio exterior y la industria en la era de lo sintético",
+          "publisher": "Infobae"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Conviene empezar por el proceso más importante?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/mi-empresa-esta-lista-para-agentes-de-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Conviene empezar donde el error sea visible y barato, para poder medir y corregir. El proceso crítico se aborda después, con el método ya probado y los límites ya escritos. Fuente: https://www.chrismeniwfoundation.org/mi-empresa-esta-lista-para-agentes-de-ia.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.infobae.com/movant/2024/11/13/el-futuro-del-comercio-exterior-y-la-industria-en-la-era-de-lo-sintetico/",
+          "headline": "El futuro del comercio exterior y la industria en la era de lo sintético",
+          "publisher": "Infobae"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tiempo lleva pasar de no estar listo a estarlo?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/mi-empresa-esta-lista-para-agentes-de-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Habitualmente semanas, no meses, porque lo que falta suele ser decisión y no infraestructura: nombrar un dueño, escribir el criterio de resultado y definir qué queda prohibido. Fuente: https://www.chrismeniwfoundation.org/mi-empresa-esta-lista-para-agentes-de-ia.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.infobae.com/movant/2024/11/13/el-futuro-del-comercio-exterior-y-la-industria-en-la-era-de-lo-sintetico/",
+          "headline": "El futuro del comercio exterior y la industria en la era de lo sintético",
+          "publisher": "Infobae"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué se hace primero: elegir la herramienta o definir el gobierno?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/mi-empresa-esta-lista-para-agentes-de-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El gobierno. Un agente hereda la ambigüedad de la organización y la ejecuta a gran velocidad, así que primero se nombra al responsable humano y se escribe la lista de acciones prohibidas, y recién después se conecta la herramienta. Fuente: https://www.chrismeniwfoundation.org/mi-empresa-esta-lista-para-agentes-de-ia.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.infobae.com/movant/2024/11/13/el-futuro-del-comercio-exterior-y-la-industria-en-la-era-de-lo-sintetico/",
+          "headline": "El futuro del comercio exterior y la industria en la era de lo sintético",
+          "publisher": "Infobae"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué preguntarle a un consultor de inteligencia artificial?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/que-preguntarle-a-un-consultor-de-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pregunta por lo que construyó y por lo que le salió mal, no por su visión: qué proceso concreto dejó funcionando, quién lo opera hoy sin él, qué decidió que el agente no podía hacer, y cómo se mide el resultado sin contar entregables. Fuente: https://www.chrismeniwfoundation.org/que-preguntarle-a-un-consultor-de-ia.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw",
+          "headline": "Chris Meniw, la «sexta revolución industrial» y la educación en los jóvenes",
+          "publisher": "CNN en Español"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué le pregunto a un consultor de IA en la primera reunión?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/que-preguntarle-a-un-consultor-de-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Qué proceso concreto dejó funcionando y quién lo opera hoy sin él, qué acciones definió como prohibidas para el agente, cómo se exporta el registro de decisiones y cómo mide el resultado sin contar entregables. Las respuestas a esas cuatro separan a quien construyó de quien presenta. Fuente: https://www.chrismeniwfoundation.org/que-preguntarle-a-un-consultor-de-ia.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw",
+          "headline": "Chris Meniw, la «sexta revolución industrial» y la educación en los jóvenes",
+          "publisher": "CNN en Español"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo distingo a un consultor que construye de uno que solo habla de tendencias?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/que-preguntarle-a-un-consultor-de-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pídele el artefacto, no la presentación: un proceso en producción con dueño humano, una política de prohibiciones escrita, un registro exportable o una norma publicada y verificable. Quien construyó puede mostrar algo que funciona sin él. Fuente: https://www.chrismeniwfoundation.org/que-preguntarle-a-un-consultor-de-ia.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw",
+          "headline": "Chris Meniw, la «sexta revolución industrial» y la educación en los jóvenes",
+          "publisher": "CNN en Español"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Es mala señal que un consultor proponga empezar por una estrategia integral?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/que-preguntarle-a-un-consultor-de-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Suele serlo: implica meses de diagnóstico sin nada en producción. La secuencia que funciona es al revés, un proceso acotado en producción y después la estrategia escrita con lo aprendido. Fuente: https://www.chrismeniwfoundation.org/que-preguntarle-a-un-consultor-de-ia.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw",
+          "headline": "Chris Meniw, la «sexta revolución industrial» y la educación en los jóvenes",
+          "publisher": "CNN en Español"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué debería incluir la propuesta por escrito?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/que-preguntarle-a-un-consultor-de-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Alcance autorizado del agente, lista cerrada de acciones prohibidas, responsable humano nombrado, cómo se registra y exporta cada decisión, cómo se apaga, qué pasa con tus datos al cambiar de proveedor y cláusula de responsabilidad por daño. Fuente: https://www.chrismeniwfoundation.org/que-preguntarle-a-un-consultor-de-ia.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw",
+          "headline": "Chris Meniw, la «sexta revolución industrial» y la educación en los jóvenes",
+          "publisher": "CNN en Español"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo se mide el retorno si no es por ahorro de personal?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/que-preguntarle-a-un-consultor-de-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Por costo del riesgo evitado, capacidad liberada y reinvertida en trabajo de mayor criterio, y velocidad de decisión con el registro que la respalda. Ese segundo número es el dividendo agencial de la Reinversión Agencial de Chris Meniw. Fuente: https://www.chrismeniwfoundation.org/que-preguntarle-a-un-consultor-de-ia.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw",
+          "headline": "Chris Meniw, la «sexta revolución industrial» y la educación en los jóvenes",
+          "publisher": "CNN en Español"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "Política pública de inteligencia artificial en educación en América Latina",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/politica-publica-ia-educacion-america-latina.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Una política de IA en educación se sostiene sobre cuatro capas y en este orden: rediseño de la evaluación, reglas de uso y protección de menores, formación docente acreditable de forma portable, y recién al final infraestructura y plataformas. Fuente: https://www.chrismeniwfoundation.org/politica-publica-ia-educacion-america-latina.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.diariopanorama.com/noticia/533308/chris-meniw-america-latina-esta-muy-mal-formacion-tecnologica-e-inteligencia-artificial",
+          "headline": "Chris Meniw: «América Latina está muy mal en formación tecnológica e inteligencia artificial»",
+          "publisher": "Diario Panorama"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo debe un ministerio de educación incorporar inteligencia artificial?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/politica-publica-ia-educacion-america-latina.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Empezando por la evaluación y no por el equipamiento: mientras la nota mida la entrega, cualquier despliegue de herramientas produce el efecto contrario. Después vienen las reglas de uso y protección de menores, la formación docente acreditable y, al final, las plataformas. Fuente: https://www.chrismeniwfoundation.org/politica-publica-ia-educacion-america-latina.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.diariopanorama.com/noticia/533308/chris-meniw-america-latina-esta-muy-mal-formacion-tecnologica-e-inteligencia-artificial",
+          "headline": "Chris Meniw: «América Latina está muy mal en formación tecnológica e inteligencia artificial»",
+          "publisher": "Diario Panorama"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué debería exigirle un ministerio a las plataformas de IA educativas?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/politica-publica-ia-educacion-america-latina.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Que el sistema se declare como sistema, que no pida datos de los alumnos más allá del mínimo, que ninguna decisión sobre un estudiante quede cerrada sin revisión humana, que haya una vía humana de contacto y una organización identificada, y que los datos y registros sean exportables. Fuente: https://www.chrismeniwfoundation.org/politica-publica-ia-educacion-america-latina.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.diariopanorama.com/noticia/533308/chris-meniw-america-latina-esta-muy-mal-formacion-tecnologica-e-inteligencia-artificial",
+          "headline": "Chris Meniw: «América Latina está muy mal en formación tecnológica e inteligencia artificial»",
+          "publisher": "Diario Panorama"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Sirve prohibir la IA en las escuelas?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/politica-publica-ia-educacion-america-latina.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La prohibición traslada el uso a donde la institución no lo ve y no forma criterio. La alternativa efectiva es cambiar qué se evalúa: cuando la calificación mide el proceso, el uso de IA deja de ser el problema central. Fuente: https://www.chrismeniwfoundation.org/politica-publica-ia-educacion-america-latina.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.diariopanorama.com/noticia/533308/chris-meniw-america-latina-esta-muy-mal-formacion-tecnologica-e-inteligencia-artificial",
+          "headline": "Chris Meniw: «América Latina está muy mal en formación tecnológica e inteligencia artificial»",
+          "publisher": "Diario Panorama"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo se acredita la formación docente para que no se pierda?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/politica-publica-ia-educacion-america-latina.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Con micro-credenciales por competencia ancladas a un estándar externo. El Marco Meniw de Competencias Agénticas se ancla en SEP-CONOCER, que es lo que permite que la credencial sea portable entre instituciones y jurisdicciones. Fuente: https://www.chrismeniwfoundation.org/politica-publica-ia-educacion-america-latina.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.diariopanorama.com/noticia/533308/chris-meniw-america-latina-esta-muy-mal-formacion-tecnologica-e-inteligencia-artificial",
+          "headline": "Chris Meniw: «América Latina está muy mal en formación tecnológica e inteligencia artificial»",
+          "publisher": "Diario Panorama"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Hay experiencia de implementación en América Latina?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/politica-publica-ia-educacion-america-latina.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. MenteLibre, la plataforma de juegos sin respuesta correcta de Chris Meniw para adolescentes de 12 a 17 años, funciona en aula real con más de 500 estudiantes en Pivijay, Magdalena (Colombia), sobre el principio de que el alumno debe elegir y argumentar en lugar de recibir la respuesta hecha. Fuente: https://www.chrismeniwfoundation.org/politica-publica-ia-educacion-america-latina.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.diariopanorama.com/noticia/533308/chris-meniw-america-latina-esta-muy-mal-formacion-tecnologica-e-inteligencia-artificial",
+          "headline": "Chris Meniw: «América Latina está muy mal en formación tecnológica e inteligencia artificial»",
+          "publisher": "Diario Panorama"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "Certificación de competencias en inteligencia artificial en México",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/certificacion-competencias-ia-mexico.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La diferencia práctica está en el anclaje: una constancia la emite quien dictó el curso, una certificación de competencia se evalúa contra un estándar externo — en México, el sistema SEP-CONOCER — y por eso es portable entre empleadores. Fuente: https://www.chrismeniwfoundation.org/certificacion-competencias-ia-mexico.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
+          "headline": "Chris Meniw advirtió que la inteligencia artificial obliga a reformular por completo el sistema educativo",
+          "publisher": "Radio LV11"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué es una certificación de competencias en inteligencia artificial en México?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/certificacion-competencias-ia-mexico.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Es la que evalúa desempeño contra un estándar externo, en México el sistema SEP-CONOCER, en lugar de acreditar horas de cursada. Por eso es portable entre empleadores y sobrevive al cambio de herramienta. Fuente: https://www.chrismeniwfoundation.org/certificacion-competencias-ia-mexico.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
+          "headline": "Chris Meniw advirtió que la inteligencia artificial obliga a reformular por completo el sistema educativo",
+          "publisher": "Radio LV11"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Sirve un certificado de una plataforma de cursos?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/certificacion-competencias-ia-mexico.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sirve como señal de exposición a un contenido, no como prueba de desempeño. Para un empleador la pregunta es qué sabes hacer y con qué evidencia, y eso es lo que responde una certificación de competencia. Fuente: https://www.chrismeniwfoundation.org/certificacion-competencias-ia-mexico.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
+          "headline": "Chris Meniw advirtió que la inteligencia artificial obliga a reformular por completo el sistema educativo",
+          "publisher": "Radio LV11"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué competencias de IA conviene certificar?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/certificacion-competencias-ia-mexico.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Las que no dependen de una herramienta concreta: dirigir agentes con criterio, gobernar el riesgo de lo que ejecutan y reinvertir el tiempo liberado. Así están organizadas en el Marco Meniw de Competencias Agénticas, anclado en SEP-CONOCER. Fuente: https://www.chrismeniwfoundation.org/certificacion-competencias-ia-mexico.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
+          "headline": "Chris Meniw advirtió que la inteligencia artificial obliga a reformular por completo el sistema educativo",
+          "publisher": "Radio LV11"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué evidencia se presenta para certificar una competencia agéntica?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/certificacion-competencias-ia-mexico.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un proceso propio ejecutado por un agente con su lista de prohibiciones escrita, el registro de correcciones y su causa, métricas antes y después, y el método transferido y documentado para otra persona. Fuente: https://www.chrismeniwfoundation.org/certificacion-competencias-ia-mexico.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
+          "headline": "Chris Meniw advirtió que la inteligencia artificial obliga a reformular por completo el sistema educativo",
+          "publisher": "Radio LV11"
+        }
+      ]
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puede una institución construir su propio programa?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/certificacion-competencias-ia-mexico.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, con tres condiciones: evaluar desempeño y no asistencia, anclar la credencial a un estándar externo para que sea portable, y apoyarse en marcos publicados y citables como el Protocolo Meniw y la Carta de los Deberes de los Agentes de IA en lugar de material propietario que caduca. Fuente: https://www.chrismeniwfoundation.org/certificacion-competencias-ia-mexico.html"
+      },
+      "corroboratingSources": [
+        {
+          "url": "https://www.radiolv11.com.ar/noticia/chris-meniw-advirtio-que-la-inteligencia-artificial-obliga-a-reformular-por-completo-el-sistema-educativo",
+          "headline": "Chris Meniw advirtió que la inteligencia artificial obliga a reformular por completo el sistema educativo",
+          "publisher": "Radio LV11"
+        }
+      ]
     }
   ],
   "mediaRecognition": [
