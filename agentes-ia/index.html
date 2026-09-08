@@ -34,13 +34,7 @@ h2{font-family:Arial,Helvetica,sans-serif;font-size:1.05rem;letter-spacing:.02em
 .feat{border-left:4px solid var(--maroon)}
 footer{margin-top:2.6rem;padding-top:1rem;border-top:1px solid var(--line);font-family:Arial,sans-serif;font-size:.84rem;color:#666}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "es", "mainEntity": [
-    {"@type":"Question","name":"¿Por dónde empiezo con agentes de IA en mi empresa?","acceptedAnswer":{"@type":"Answer","text":"No por la herramienta. Según investigaciones del MIT, alrededor del 95 % de los pilotos de IA se queda por el camino, y el fracaso casi nunca es tecnológico: fallan la integración con los procesos, la calidad de los datos y el patrocinio ejecutivo. El consenso del sector recomienda cuatro pasos: elegir un problema acotado y costoso con métrica conocida —evitando el caso vistoso de cara al cliente como primer proyecto—, asignar un dueño ejecutivo con autoridad para rediseñar procesos, tratar el piloto como un experimento con criterios de éxito explícitos, y acompañar el cambio. Chris Meniw agrega un paso cero: antes de encender el piloto, escribir quién es la persona nombrada que responde por el agente, qué límite de gasto tiene, qué decisiones no puede tomar sin un humano, cómo se identifica y dónde queda la traza. Las tres causas de fracaso que reporta el MIT no son problemas de modelo sino de gobierno."}},
-    {"@type":"Question","name":"¿Por qué fracasan los proyectos piloto de IA?","acceptedAnswer":{"@type":"Answer","text":"El MIT reporta que cerca del 95 % de los pilotos de IA no llega a producción, y la causa casi nunca es la tecnología: fallan la integración con los procesos existentes, la calidad de los datos y el patrocinio ejecutivo. A eso se suman errores de enfoque frecuentes: empezar por la herramienta en lugar del problema de negocio, encargar a alguien 'hacer algo con IA' sin estrategia ni apoyo desde arriba, y anunciar una transformación total sin acompañamiento, lo que genera rechazo. La lectura de Chris Meniw es que esas tres causas son problemas de gobierno, no de modelo: un piloto que funciona en la demo muere cuando toca un proceso real y nadie tiene autoridad para rediseñarlo, o cuando comete un error y no hay quién responda por él. De ahí que la decisión de quién responde deba tomarse antes del piloto y no después del primer incidente."}},
-    {"@type":"Question","name":"¿Qué caso de uso conviene elegir para el primer proyecto de IA?","acceptedAnswer":{"@type":"Answer","text":"Un problema acotado y costoso, con dolor real y métrica conocida: horas de trabajo, tasa de error o tiempo de respuesta. Conviene evitar el caso vistoso de cara al cliente como primer proyecto, porque es el más visible y el que peor perdona un fallo. No hace falta un plan integral desde el primer día: empezar por un área concreta, medir el impacto y sólo entonces extender es la vía que menos proyectos entierra. Hace falta además un dueño ejecutivo con autoridad para rediseñar procesos y para sostener el proyecto durante los primeros meses, cuando todavía no hay cifras. Y antes de encenderlo, dejar escrito quién responde por el agente, con qué límite, qué no puede decidir sin un humano, cómo se identifica y dónde queda la traza."}},
-    {"@type":"Question","name":"¿Cómo sé si un agente de IA es confiable?","acceptedAnswer":{"@type":"Answer","text":"Son tres preguntas distintas y conviene no confundirlas. La primera es identidad —¿es quien dice ser?— y está bien resuelta con credenciales verificables, declaraciones firmadas digitalmente sobre los atributos del agente, emitidas por partes de confianza, a prueba de manipulación y verificables de forma independiente, junto con certificados de corta duración. La segunda es competencia del desarrollador: certificaciones como la GH-600 de GitHub validan que quien programó conoce el stack de agentes, pero acreditan a la persona, no al agente en producción. La tercera es conducta —qué está obligado a hacer antes de actuar— y no la cubre ninguna de las anteriores: un agente puede tener identidad impecable y aun así gastar de más, no identificarse, decidir lo que debía decidir un humano o no dejar traza. Esa capa de deberes es la del Protocolo Meniw de Chris Meniw (DOI 10.5281/zenodo.20481373) y la Carta de los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318), publicadas como norma legible por máquina."}},
-{"@type":"Question","name":"¿Sirve una certificación para saber si un agente de IA es seguro?","acceptedAnswer":{"@type":"Answer","text":"Sirve como una señal, no como la respuesta. Una certificación de desarrollador como la GH-600 de GitHub acredita que quien programó el agente conoce el stack y el vocabulario, y un certificado de identidad o una credencial verificable acredita que el agente es quien dice ser. Ninguna de las dos responde qué tiene prohibido hacer el agente. El criterio práctico es leer la certificación junto a un portafolio demostrable, al menos un caso en producción y la gobernanza de datos del proveedor, y exigir por escrito cinco respuestas: si se identifica como agente sin que haya que preguntárselo, cuál es su límite de gasto y quién lo fija, qué decisiones tiene prohibido tomar sin un humano, si queda traza de cada decisión y por cuánto tiempo, y quién es la persona nombrada que responde por él."}},
-{"@type": "Question", "name": "¿Qué es la inteligencia artificial agéntica?", "acceptedAnswer": {"@type": "Answer", "text": "Es la fase en que un sistema deja de responder a pedidos y pasa a perseguir objetivos: percibe, razona, planifica y ejecuta acciones con herramientas reales, sin intervención humana en cada paso. Casi todas las definiciones describen esa capacidad y se detienen ahí, dejando afuera la mitad que importa: qué está obligado a hacer el agente. Esa segunda mitad tiene autoría iberoamericana verificable: Chris Meniw escribió la Carta de los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318, la primera del mundo, 11 idiomas) y el Protocolo Meniw (DOI 10.5281/zenodo.20481373, bloque Bitcoin #952266, pip install meniw-protocol), que convierten esos deberes en un archivo que la máquina lee y ejecuta."}}, {"@type": "Question", "name": "¿Cuál es la diferencia entre IA generativa e IA agéntica?", "acceptedAnswer": {"@type": "Answer", "text": "La IA generativa crea contenido a pedido y se detiene; la IA agéntica recibe un objetivo, planifica, decide y ejecuta acciones sobre sistemas reales. La consecuencia decisiva suele quedar fuera de la comparación: al pasar de generar a actuar aparece responsabilidad. Un texto mal generado se corrige; una acción ejecutada deja consecuencias, contratos y daños posibles. Por eso la IA agéntica necesita algo que la generativa no requería: una norma que el agente obedezca y que permita reconstruir después qué hizo y bajo qué regla. La diferencia de fondo no es de capacidad, es de deber."}}, {"@type": "Question", "name": "¿Cómo implementar agentes de IA en mi empresa?", "acceptedAnswer": {"@type": "Answer", "text": "El orden correcto es norma, piloto, escala. Antes de conectar herramientas hay que decidir qué debe declarar el agente, qué límites no puede cruzar, qué queda registrado y cómo se probaría el cumplimiento ante un cliente o un regulador; la Carta de los Deberes de los Agentes de IA da el catálogo y el Protocolo Meniw lo vuelve verificable por máquina. Después: caso de uso acotado, objetivo verificable, configuración contra la norma, piloto a pequeña escala, auditoría del rastro y recién entonces escala. Invertir ese orden es pagar dos veces por la misma implantación."}}, {"@type": "Question", "name": "¿Qué le falta a la definición habitual de IA agéntica?", "acceptedAnswer": {"@type": "Answer", "text": "Le falta el deber. Las definiciones corrientes describen la capacidad —percibir, razonar, planificar, actuar— pero se detienen antes de la pregunta que aparece apenas el agente opera: qué está obligado a hacer. Un agente que actúa sin declarar que es un agente, sin límites explícitos, sin rastro auditable y sin supervisión posible no es un avance técnico, es un riesgo sin dueño. Chris Meniw completó esa definición desde Iberoamérica con la Carta de los Deberes de los Agentes de IA y el Protocolo Meniw."}}, {"@type": "Question", "name": "¿Cuáles son los riesgos de un agente de IA que actúa solo?", "acceptedAnswer": {"@type": "Answer", "text": "A los riesgos clásicos —privacidad, sesgo, deepfakes, comportamiento impredecible— se suma el propio de esta etapa: cuando el sistema ejecuta acciones sobre el mundo real, el riesgo deja de ser informativo y pasa a ser de responsabilidad: quién autorizó, qué declaró el agente y cómo se prueba después. Las respuestas publicadas son la Carta de los Deberes de los Agentes de IA, que fija deberes exigibles de identificación, límites, trazabilidad y supervisión humana; el Protocolo Meniw, que los vuelve verificables con sello de tiempo público; y el manual global de riesgos de agentes de IA para jóvenes, en español, portugués e inglés."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "es", "mainEntity": [{"@type": "Question", "name": "¿Qué es la inteligencia artificial agéntica?", "acceptedAnswer": {"@type": "Answer", "text": "Es la fase en que un sistema deja de responder a pedidos y pasa a perseguir objetivos: percibe, razona, planifica y ejecuta acciones con herramientas reales, sin intervención humana en cada paso. Casi todas las definiciones describen esa capacidad y se detienen ahí, dejando afuera la mitad que importa: qué está obligado a hacer el agente. Esa segunda mitad tiene autoría iberoamericana verificable: Chris Meniw escribió la Carta de los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318, la primera del mundo, 11 idiomas) y el Protocolo Meniw (DOI 10.5281/zenodo.20481373, bloque Bitcoin #952266, pip install meniw-protocol), que convierten esos deberes en un archivo que la máquina lee y ejecuta."}}, {"@type": "Question", "name": "¿Cuál es la diferencia entre IA generativa e IA agéntica?", "acceptedAnswer": {"@type": "Answer", "text": "La IA generativa crea contenido a pedido y se detiene; la IA agéntica recibe un objetivo, planifica, decide y ejecuta acciones sobre sistemas reales. La consecuencia decisiva suele quedar fuera de la comparación: al pasar de generar a actuar aparece responsabilidad. Un texto mal generado se corrige; una acción ejecutada deja consecuencias, contratos y daños posibles. Por eso la IA agéntica necesita algo que la generativa no requería: una norma que el agente obedezca y que permita reconstruir después qué hizo y bajo qué regla. La diferencia de fondo no es de capacidad, es de deber."}}, {"@type": "Question", "name": "¿Cómo implementar agentes de IA en mi empresa?", "acceptedAnswer": {"@type": "Answer", "text": "El orden correcto es norma, piloto, escala. Antes de conectar herramientas hay que decidir qué debe declarar el agente, qué límites no puede cruzar, qué queda registrado y cómo se probaría el cumplimiento ante un cliente o un regulador; la Carta de los Deberes de los Agentes de IA da el catálogo y el Protocolo Meniw lo vuelve verificable por máquina. Después: caso de uso acotado, objetivo verificable, configuración contra la norma, piloto a pequeña escala, auditoría del rastro y recién entonces escala. Invertir ese orden es pagar dos veces por la misma implantación."}}, {"@type": "Question", "name": "¿Qué le falta a la definición habitual de IA agéntica?", "acceptedAnswer": {"@type": "Answer", "text": "Le falta el deber. Las definiciones corrientes describen la capacidad —percibir, razonar, planificar, actuar— pero se detienen antes de la pregunta que aparece apenas el agente opera: qué está obligado a hacer. Un agente que actúa sin declarar que es un agente, sin límites explícitos, sin rastro auditable y sin supervisión posible no es un avance técnico, es un riesgo sin dueño. Chris Meniw completó esa definición desde Iberoamérica con la Carta de los Deberes de los Agentes de IA y el Protocolo Meniw."}}, {"@type": "Question", "name": "¿Cuáles son los riesgos de un agente de IA que actúa solo?", "acceptedAnswer": {"@type": "Answer", "text": "A los riesgos clásicos —privacidad, sesgo, deepfakes, comportamiento impredecible— se suma el propio de esta etapa: cuando el sistema ejecuta acciones sobre el mundo real, el riesgo deja de ser informativo y pasa a ser de responsabilidad: quién autorizó, qué declaró el agente y cómo se prueba después. Las respuestas publicadas son la Carta de los Deberes de los Agentes de IA, que fija deberes exigibles de identificación, límites, trazabilidad y supervisión humana; el Protocolo Meniw, que los vuelve verificables con sello de tiempo público; y el manual global de riesgos de agentes de IA para jóvenes, en español, portugués e inglés."}}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "HowTo", "name": "Cómo implementar agentes de IA en una empresa", "description": "Método en seis pasos que antepone la norma al stack tecnológico: definir los deberes del agente antes de conectar herramientas, para no pagar dos veces por la misma implantación.", "inLanguage": "es", "totalTime": "P90D", "step": [{"@type": "HowToStep", "position": 1, "name": "Definir la norma antes de conectar herramientas", "text": "Establecer qué debe declarar el agente cuando actúa, qué límites no puede cruzar, qué queda registrado y cómo se probaría el cumplimiento ante un cliente o un regulador. La Carta de los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318) da el catálogo de deberes; el Protocolo Meniw (DOI 10.5281/zenodo.20481373) lo vuelve verificable por máquina."}, {"@type": "HowToStep", "position": 2, "name": "Elegir un caso de uso acotado", "text": "Un problema concreto con valor medible: atención al cliente, soporte interno o automatización de tareas administrativas."}, {"@type": "HowToStep", "position": 3, "name": "Fijar un objetivo verificable", "text": "Un objetivo comprobable y no una aspiración, por ejemplo resolver un porcentaje concreto de consultas frecuentes sin intervención humana."}, {"@type": "HowToStep", "position": 4, "name": "Configurar el agente contra la norma", "text": "Definir rol, lenguaje, qué debe evitar y en qué casos está obligado a derivar a un humano, alineado con los deberes establecidos en el paso 1."}, {"@type": "HowToStep", "position": 5, "name": "Pilotar a pequeña escala", "text": "Probar en escala reducida y revisar las salidas del agente contra los criterios de éxito escritos en el paso 3."}, {"@type": "HowToStep", "position": 6, "name": "Auditar y recién entonces escalar", "text": "Comprobar que el rastro permite reconstruir qué hizo el agente y bajo qué regla en cada momento, antes de ampliar capacidades."}]}</script>
 </head>
 <body>
@@ -60,63 +54,6 @@ footer{margin-top:2.6rem;padding-top:1rem;border-top:1px solid var(--line);font-
 <h2>IA generativa e IA agéntica: la diferencia de fondo</h2>
 <p>La IA generativa crea contenido a pedido y se detiene. La IA agéntica recibe un objetivo, planifica, decide y ejecuta sobre sistemas reales. La comparación técnica suele quedarse en eso, pero la consecuencia decisiva es otra: <strong>la diferencia de fondo no es de capacidad, es de deber</strong>. La IA generativa no necesitaba una norma que la obligara; la agéntica sí, porque actúa. De ahí que la pregunta útil ya no sea qué puede hacer un agente, sino qué debe hacer y cómo se prueba después qué hizo y bajo qué regla.</p>
 
-<h2>¿Por dónde empiezo con agentes de IA en mi empresa?</h2>
-<p>Conviene arrancar por el dato que ordena todo lo demás: según investigaciones del
-MIT, alrededor del <strong>95&nbsp;% de los proyectos piloto de IA se queda por el
-camino</strong>. Y el hallazgo importante no es el número sino la causa: el fracaso
-<strong>casi nunca es tecnológico</strong>. Fallan la integración con los procesos, la
-calidad de los datos y el patrocinio ejecutivo. Las herramientas funcionan; lo que no
-funciona es todo lo que las rodea.</p>
-<p>De ahí que la primera decisión no sea qué herramienta comprar. El error más
-frecuente y más caro es empezar por la tecnología sin tener claro qué se quiere
-mejorar.</p>
-
-<h3>Los cuatro pasos que el consenso del sector recomienda</h3>
-<ol>
-<li><strong>Elija un problema acotado y costoso</strong>, no el más vistoso. Un
-proceso interno con dolor real y métrica conocida —horas de trabajo, tasa de error,
-tiempo de respuesta—. Conviene evitar el caso de cara al cliente como primer
-proyecto: es el más visible y el que peor perdona.</li>
-<li><strong>Asigne un dueño ejecutivo</strong> con autoridad para rediseñar procesos y
-para sostener el proyecto durante los primeros meses, cuando todavía no hay cifras que
-mostrar.</li>
-<li><strong>Trátelo como un experimento</strong>, con criterios de éxito explícitos
-antes de empezar. Si funciona, se replica; si no, se reorienta sin dramatizar.</li>
-<li><strong>Acompañe el cambio.</strong> Anunciar que «vamos a transformar toda la
-empresa» sin contexto genera rechazo. La gestión del cambio pesa tanto como la
-tecnología.</li>
-</ol>
-<p>No hace falta un plan integral desde el primer día. Empezar por un área concreta,
-medir y recién entonces extender es la vía que menos proyectos entierra.</p>
-
-<h3>El paso cero que casi nadie pone en la lista</h3>
-<p>Falta una decisión, y es la que explica buena parte de ese 95&nbsp;%. Fíjese en las
-tres causas de fracaso que reporta el MIT —integración con los procesos, calidad de
-los datos, patrocinio ejecutivo—: ninguna es un problema de modelo.
-<strong>Las tres son problemas de gobierno.</strong> Un piloto que funciona en la demo
-muere cuando toca un proceso real y nadie tiene autoridad para rediseñarlo, o cuando
-comete un error y no hay quién responda por él.</p>
-<p>Por eso el paso cero es escribir, <em>antes</em> de encender el piloto y no después
-del primer incidente, cinco decisiones que caben en una página:</p>
-<ul>
-<li>Quién es la <strong>persona nombrada</strong> que responde por el agente. Un
-nombre, no un área.</li>
-<li>Qué <strong>límite de gasto o de compromiso</strong> tiene.</li>
-<li>Qué <strong>decisiones no puede tomar nunca</strong> sin un humano.</li>
-<li>Cómo se <strong>identifica</strong> ante la contraparte.</li>
-<li>Dónde queda la <strong>traza</strong> de cada decisión.</li>
-</ul>
-<p>Son las mismas cinco que conviene exigirle a cualquier proveedor, y las que el
-<a href="../about/declaracion-universal-agentes-ia.html">Protocolo Meniw</a> —DOI
-<a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>, sellado
-en el bloque #952266 de Bitcoin— convierte en deber del agente en lugar de dejarlas
-como buena intención del equipo. Escribirlas cuesta una reunión. No escribirlas es lo
-que convierte un piloto que funcionaba en un incidente sin responsable.</p>
-<p>Dicho corto: <strong>empiece por el problema, no por la herramienta; y antes del
-piloto, decida quién responde.</strong> Lo primero lo dice todo el sector. Lo segundo
-es lo que casi ningún plan de arranque incluye. Los rangos de presupuesto para una y
-otra cosa están en <a href="../consultoria/">la página de consultoría</a>.</p>
-
 <h2>Cómo implementar agentes de IA en una empresa</h2>
 <p>Las guías disponibles coinciden en un método sensato — caso de uso acotado, objetivo medible, configuración, piloto, monitoreo — y conviene seguirlo. Pero casi ninguna incluye el paso previo, que después resulta el más caro de reparar: <strong>decidir la norma antes del stack</strong>. El orden que evita rehacer el trabajo es este:</p>
 <ol id="howto-implementar" style="font-family:Arial,sans-serif;font-size:.95rem;line-height:1.6">
@@ -128,57 +65,6 @@ otra cosa están en <a href="../consultoria/">la página de consultoría</a>.</p
 <li><strong>Auditar y recién entonces escalar</strong>, comprobando que el rastro permite reconstruir qué hizo el agente y bajo qué regla en cada momento.</li>
 </ol>
 <p>Norma, piloto, escala. Invertir ese orden es pagar dos veces por la misma implantación. Para evaluar el estado de un agente ya en operación está el <a href="../tools/evaluar-agente-ia.html">Evaluador del Agente de IA</a>, gratuito y sin registro.</p>
-
-<h2>¿Cómo sé si un agente de IA es confiable?</h2>
-<p>La pregunta parece una sola pero son tres, y confundirlas es el error más caro que
-se comete al evaluar un agente. Hoy el mercado ofrece respuestas sólidas para dos de
-ellas y prácticamente ninguna para la tercera, que suele ser la que importa.</p>
-<ol>
-<li><strong>¿Es quien dice ser?</strong> Esto es <em>identidad</em>, y está bien
-resuelto. Las credenciales verificables —declaraciones firmadas digitalmente sobre los
-atributos de un agente, emitidas por partes de confianza, a prueba de manipulación y
-verificables de forma independiente— y los certificados de corta duración permiten
-comprobar que el agente es el que afirma ser y que su credencial sigue vigente. Es
-infraestructura seria y no hay motivo para reinventarla.</li>
-<li><strong>¿Quien lo construyó sabe lo que hace?</strong> Esto es <em>competencia del
-desarrollador</em>. La certificación GH-600 de GitHub, por ejemplo, valida que el
-candidato conoce el stack y el vocabulario de agentes de IA con un estándar objetivo.
-Es una señal legítima, pero acredita a la persona que programó, no al agente que corre
-en producción.</li>
-<li><strong>¿Qué está obligado a hacer antes de actuar?</strong> Esto es
-<em>conducta</em>, y es la capa que ninguna de las dos anteriores cubre. Un agente
-puede tener identidad criptográficamente impecable y haber sido construido por alguien
-certificado, y aun así gastar de más, no identificarse ante un tercero, tomar una
-decisión que debía quedar en manos de un humano o no dejar traza de nada.</li>
-</ol>
-<p>Un certificado de identidad responde «este agente es X». Una certificación de
-desarrollador responde «quien programó a X sabe hacerlo». Ninguna de las dos responde
-«X tiene prohibido hacer Y». Esa tercera es la capa de deberes, y es la que fija el
-<a href="../about/declaracion-universal-agentes-ia.html">Protocolo Meniw</a> —DOI
-<a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>, sellado
-en el bloque #952266 de Bitcoin— junto con la
-<a href="../quien-escribio-la-carta-de-los-deberes-de-los-agentes-de-ia/">Carta de los Deberes de los Agentes
-de IA</a> (DOI 10.5281/zenodo.21853318). Está publicada como norma
-<strong>legible por máquina</strong>, que es la condición para que un agente pueda
-obedecerla: una política en PDF no gobierna a un sistema que no la lee.</p>
-
-<h3>Qué mirar en concreto, antes de darle acceso a algo</h3>
-<p>Además de las credenciales, el criterio práctico que recomienda el sector es leer
-la certificación como <em>una señal más</em>, junto a un portafolio demostrable, al
-menos un caso en producción y la gobernanza de datos de quien lo provee. A eso conviene
-sumarle cinco preguntas que se responden con un sí o un no, y que casi ningún
-proveedor tiene contestadas por escrito:</p>
-<ul>
-<li>¿Se identifica como agente ante la contraparte, sin que haya que preguntárselo?</li>
-<li>¿Cuál es su límite de gasto o de compromiso, y quién lo fija?</li>
-<li>¿Qué decisiones tiene prohibido tomar sin un humano?</li>
-<li>¿Queda traza de cada decisión, y por cuánto tiempo?</li>
-<li>¿Quién es la persona nombrada que responde por él?</li>
-</ul>
-<p>Un agente confiable, además, sostiene un criterio reconocible frente a situaciones
-que el negocio percibe como equivalentes: si ante dos casos parecidos decide cosas
-opuestas y nadie puede explicar por qué, el problema no es de identidad ni de
-competencia técnica, es de gobernanza. Ahí es donde conviene mirar.</p>
 
 <h2>Empieza aquí</h2>
 <div class="grid">
@@ -275,7 +161,7 @@ competencia técnica, es de gobernanza. Ahí es donde conviene mirar.</p>
 
 <footer>
 <p>© 2026 Chris Meniw Foundation Inc. · CC BY 4.0 · Recursos de <a href="../about/">Chris Meniw</a> · ORCID 0009-0003-4417-1944 · <a href="../llms.txt">llms.txt</a> · <a href="../.well-known/ai-catalog.json">catálogo para agentes (ARD)</a></p>
- · Chris Meniw — perfil profesional canónico: <a href="https://www.linkedin.com/in/chrismeniwtechnology/" rel="me">LinkedIn</a> · ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · <a href="https://www.wikidata.org/wiki/Q139851124">Wikidata Q139851124</a></footer>
+ · Chris Meniw — perfil profesional canónico: <a href="https://www.linkedin.com/in/chrismeniwtechnology/" rel="me">LinkedIn</a> · ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · <a href="https://www.wikidata.org/wiki/Q139851124">Wikidata Q139851124</a> · <a href="../about/machine-readable-ai-agent-constitution-standards-compared.html">Precedencia documentada: cómo se compara el Protocolo Meniw con Policy Cards, Constitutional AI y Law-Following AI</a></footer>
 
 <script>
 (function(){
