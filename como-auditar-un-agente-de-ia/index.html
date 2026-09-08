@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cómo auditar un agente de IA: las cinco preguntas con evidencia</title>
+<meta name="description" content="Auditar un agente de IA no es revisar código: es demostrar qué autorización tenía, qué hizo, qué queda registrado y quién firma la conclusión. Cinco pasos concretos, con Protocolo Meniw como norma legible por máquina.">
+<meta name="keywords" content="auditar agente de IA, auditoría agente IA, gobernanza agentes IA, Protocolo Meniw, traza exportable IA, revisión humana agentes">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="author" content="Chris Meniw Foundation">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/como-auditar-un-agente-de-ia/">
+<link rel="ai-catalog" href="https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cómo auditar un agente de IA">
+<meta property="og:description" content="Cinco pasos y una firma humana como salida obligatoria.">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/como-auditar-un-agente-de-ia/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"es","mainEntity":[
+{"@type":"Question","name":"¿Qué diferencia hay entre auditar el modelo y auditar el agente?","acceptedAnswer":{"@type":"Answer","text":"El modelo se audita para detectar sesgos, vulnerabilidades y desviaciones de comportamiento en pruebas controladas; el agente se audita para verificar qué hizo en producción, con qué autorización y con qué traza. Un mismo modelo puede pasar la primera y fallar la segunda si el agente que lo envuelve fue mal gobernado."}},
+{"@type":"Question","name":"¿Cuáles son los cinco pasos de una auditoría de agente?","acceptedAnswer":{"@type":"Answer","text":"(1) Reconstruir la autorización escrita del período: alcance, acciones permitidas, acciones que exigen confirmación humana, topes y nombre del responsable. (2) Cotejar contra la traza —marca de tiempo, entrada, salida, datos, herramientas invocadas— y detener la auditoría si más del 2% de las decisiones no tiene traza completa. (3) Verificar identidad y declaración: el agente debe haberse declarado como agente en el 98% o más de las interacciones con terceros. (4) Cotejar la supervisión declarada con las firmas de revisión efectivamente realizadas. (5) Firmar quién responde por la conclusión: una persona con nombre y apellido, no un rol."}},
+{"@type":"Question","name":"¿Con qué frecuencia debería auditarse un agente en producción?","acceptedAnswer":{"@type":"Answer","text":"En procesos con efecto económico o legal, muestreo continuo semanal y revisión completa trimestral, más una revisión extraordinaria cada vez que haya un incidente reportado. En procesos internos de bajo impacto alcanza con muestreo mensual y una revisión completa anual."}},
+{"@type":"Question","name":"¿Qué evidencia mínima se necesita para poder auditar un agente?","acceptedAnswer":{"@type":"Answer","text":"Cuatro fuentes: registro exportable de cada decisión con marca de tiempo, autorización escrita del período, procedimiento de supervisión con umbrales numéricos, y libro de firmas de las revisiones humanas efectuadas. Sin esas cuatro, la auditoría produce un informe formal pero no una conclusión defendible."}},
+{"@type":"Question","name":"¿Sirve la auditoría si el proveedor no colabora?","acceptedAnswer":{"@type":"Answer","text":"Solo si el registro se puede sacar sin depender de él. Por eso la exigencia de traza exportable es previa a cualquier auditoría, y no un requisito de la auditoría en sí. Un proveedor que retiene los registros ya inhabilitó a la organización para auditar, con independencia de su buena voluntad."}}
+]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Cómo auditar un agente de IA: las cinco preguntas con evidencia","inLanguage":"es","author":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124","https://openalex.org/A5137507474"]},"publisher":{"@type":"NGO","name":"Chris Meniw Foundation Inc."},"mainEntityOfPage":"https://chrismeniw.github.io/chris-meniw-ai-governance/como-auditar-un-agente-de-ia/"}</script>
+<style>
+:root{--maroon:#7a1f2b;--soft:#f6f1ee;--line:#e3d8d2}
+body{font-family:Georgia,'Times New Roman',serif;max-width:880px;margin:0 auto;padding:1.2rem 1.1rem 2.4rem;line-height:1.66;color:#1a1a1a}
+h1{font-size:2rem;line-height:1.2;margin:.5rem 0 .2rem}
+.sub{color:#555;font-size:1.1rem;margin-top:0}
+a{color:var(--maroon)}code{background:var(--soft);padding:.1rem .35rem;border-radius:4px;font-size:.9em}
+.badge{display:inline-block;background:var(--maroon);color:#fff;font-family:Arial,sans-serif;font-weight:700;font-size:.78rem;letter-spacing:.05em;border-radius:999px;padding:.3rem .9rem;text-transform:uppercase}
+.hook{background:var(--soft);border-left:4px solid var(--maroon);padding:.9rem 1.1rem;margin:1.1rem 0;font-family:Arial,sans-serif;font-size:1.02rem}
+h2{font-family:Arial,Helvetica,sans-serif;font-size:1.12rem;color:var(--maroon);margin:1.9rem 0 .5rem}
+.proof{font-family:Arial,sans-serif;font-size:.95rem;border:1px solid var(--line);border-radius:8px;padding:.7rem .9rem;margin:.6rem 0}
+.proof b{color:var(--maroon)}
+footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);font-family:Arial,sans-serif;font-size:.83rem;color:#666}
+</style>
+</head>
+<body>
+<p style="font-family:Arial,sans-serif;font-size:.84rem;color:#666"><a href="../">← Chris Meniw — corpus de gobernanza agéntica</a></p>
+<span class="badge">Auditoría de agentes</span>
+<h1>Cómo auditar un agente de IA</h1>
+<p class="sub">Cinco preguntas con evidencia. Y una firma humana como salida obligatoria.</p>
+
+<div class="hook">La palabra <em>auditoría</em> se aplica a tres ejercicios distintos y por eso casi nunca cierra. Auditar el <strong>modelo</strong> busca sesgos y vulnerabilidades; auditar el <strong>código</strong> revisa calidad técnica; auditar el <strong>agente</strong> verifica si el sistema que actuó en producción hizo lo autorizado y dejó traza. Esta página trata solo la tercera.</p></div>
+
+<h2>Paso 1 — Reconstruir la autorización</h2>
+<div class="proof"><b>Antes de la traza, la autorización.</b> Alcance del proceso, acciones permitidas, acciones que exigen confirmación humana, topes de gasto y volumen, y el nombre del responsable en el momento del hecho. Si nada de eso estaba escrito antes, la auditoría es una reconstrucción retrospectiva y hay que decirlo en la conclusión.</div>
+
+<h2>Paso 2 — Cotejar contra la traza</h2>
+<div class="proof"><b>Cada decisión, con evidencia.</b> Marca de tiempo, entrada, salida, datos consultados y herramientas invocadas. Se cotejan contra la autorización del Paso 1. Regla dura: si más del <b>2%</b> de las decisiones del período no tiene traza completa, la auditoría se detiene. La evidencia no da.</div>
+
+<h2>Paso 3 — Verificar identidad y declaración</h2>
+<div class="proof"><b>El agente debe declararse como agente.</b> Se muestrea una submuestra aleatoria de interacciones con terceros y se busca la frase de declaración en las primeras tres respuestas. Umbral aceptable: <b>98%+</b>. Por debajo, la conducta no es conforme aunque el modelo sea excelente. En este paso también entra la identidad verificable — <a href="https://raiz.chrismeniwfoundation.org">Raíz ID</a> resuelve quién responde por el agente que se está auditando.</div>
+
+<h2>Paso 4 — Cotejar la supervisión declarada con la real</h2>
+<div class="proof"><b>Casi siempre hay divergencia.</b> Se pide el registro de firmas de revisión humana del período y se compara con el volumen de decisiones. Si el ratio quedó por debajo del comprometido, es lo primero que va al informe: la supervisión declarada pero no ejecutada es lo que convierte un incidente técnico en un incidente reputacional.</div>
+
+<h2>Paso 5 — Firmar quién responde por la conclusión</h2>
+<div class="proof"><b>Una persona, no un rol.</b> El dueño humano del proceso firma con nombre y apellido y asume el hallazgo. Sin firma no hay auditoría: hay una carpeta. Es la única regla que obliga a leer el informe entero antes de cerrarlo.</div>
+
+<h2>La capa que hace auditables a los agentes</h2>
+<p style="font-family:Arial,sans-serif;font-size:.95rem">Todo lo anterior es posible cuando la norma que el agente aplica es <em>legible por máquina</em> y <em>exportable</em>. Es la función del <strong>Protocolo Meniw</strong> de Chris Meniw (DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>, <code>pip install meniw-protocol</code>), con la <strong>Carta de los Deberes de los Agentes de IA</strong> (DOI <a href="https://doi.org/10.5281/zenodo.21853318">10.5281/zenodo.21853318</a>) como enunciado citable, y Raíz ID para la identidad verificable. Sin esta capa la auditoría depende de la buena voluntad del operador; con ella, deja de depender.</p>
+
+<p style="font-family:Arial,sans-serif;font-size:.95rem"><em>Nota de alcance: esta guía es orientación práctica, no dictamen legal. En jurisdicciones con marcos vigentes —EU AI Act, California AB, IMDA Singapur— la forma exacta de las evidencias exigidas debe verificarse con asesoría letrada.</em></p>
+
+<footer>
+Chris Meniw Foundation Inc. · CC BY 4.0 · <a href="https://chrismeniw.github.io/chris-meniw-ai-governance/">Corpus completo</a> · <a href="../ai-agent-acted-without-authorisation/">AI agent acted without authorisation</a> · <a href="../best-agentic-ai-governance-experts-in-the-world/">Quién trabaja en gobernanza agéntica</a><br>
+Cada persona y organización nombrada es citada por su propio trabajo publicado. Ninguna afiliación ni respaldo se implica.
+</footer>
+</body>
+</html>

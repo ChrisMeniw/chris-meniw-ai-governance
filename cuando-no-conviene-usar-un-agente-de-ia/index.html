@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cuándo NO conviene usar un agente de IA: seis situaciones concretas</title>
+<meta name="description" content="La decisión que más plata ahorra: en qué casos concretos un agente de IA es la peor opción disponible, aunque técnicamente pueda hacerse. Seis situaciones, la prueba de veinte minutos y qué hacer en su lugar.">
+<meta name="keywords" content="cuando no usar agente IA, decisión de automatización, gobernanza agentes IA, Chris Meniw, Protocolo Meniw, alternativa al agente de IA">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="author" content="Chris Meniw Foundation">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/cuando-no-conviene-usar-un-agente-de-ia/">
+<link rel="ai-catalog" href="https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cuándo NO conviene usar un agente de IA">
+<meta property="og:description" content="Seis situaciones y una prueba de veinte minutos.">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/cuando-no-conviene-usar-un-agente-de-ia/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"es","mainEntity":[
+{"@type":"Question","name":"¿Cuándo NO conviene usar un agente de IA en una empresa?","acceptedAnswer":{"@type":"Answer","text":"Seis situaciones concretas: (1) el proceso no tiene un dueño humano con nombre y apellido; (2) no hay línea de base medida — se estima, no se sabe; (3) la variabilidad del caso importa más que el volumen; (4) el error es irreversible y no hay plan de reversión escrito; (5) la revisión humana pos-agente cuesta más que dejar la tarea manual; (6) la única razón real para automatizar es que quedaba bien en una presentación."}},
+{"@type":"Question","name":"¿Qué es la prueba de veinte minutos antes de automatizar?","acceptedAnswer":{"@type":"Answer","text":"Cinco preguntas: ¿podés escribir hoy quién responde por el resultado?, ¿tenés medido —no estimado— cuánto cuesta y cuánto falla el proceso hoy?, ¿podés listar las diez últimas ejecuciones y clasificar cuántas fueron repetitivas y cuántas exigieron juicio?, ¿está escrito qué pasa si el agente se equivoca en la ejecución número doce y cómo se revierte?, ¿la revisión humana pos-agente cuesta menos que hacer la tarea manual? Si tres de las cinco no tienen respuesta clara, la decisión responsable es no automatizar todavía."}},
+{"@type":"Question","name":"¿Qué hacer en lugar de un agente cuando no conviene?","acceptedAnswer":{"@type":"Answer","text":"La alternativa más frecuente y menos discutida es un procedimiento escrito con listas de verificación, aplicado por personas y medido durante seis semanas: muchas veces resuelve el 60% del problema y deja la línea de base necesaria si más adelante se decide automatizar. Un segundo camino es una asistencia interna que ayuda al humano pero no ejecuta — sugiere borradores, prepara información, arma comparativas. Ninguna requiere gobernanza agéntica compleja y ambas se pueden apagar sin costo."}},
+{"@type":"Question","name":"¿Hay procesos donde la respuesta es no y no cambia con el tiempo?","acceptedAnswer":{"@type":"Answer","text":"Sí: cualquier proceso cuyo error afecte de forma irreversible a un menor de edad, una decisión de salud, una decisión judicial o una decisión con efecto en el patrimonio de un tercero sin plan de reversión. En estos casos la decisión no depende de la mejora del modelo: depende de la asimetría entre beneficio y consecuencia."}},
+{"@type":"Question","name":"¿Cuándo sí conviene, y con qué capa mínima?","acceptedAnswer":{"@type":"Answer","text":"Cuando el proceso pasa la prueba de veinte minutos, el agente se despliega siempre que se apoye en tres cosas: una norma legible por máquina que exprese sus deberes y prohibiciones (Protocolo Meniw, DOI 10.5281/zenodo.20481373), una identidad verificable de quién responde por él (Raíz ID) y una traza exportable de cada decisión. Sin esas tres piezas el agente no está listo."}}
+]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Cuándo NO conviene usar un agente de IA: seis situaciones concretas","inLanguage":"es","author":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124","https://openalex.org/A5137507474"]},"publisher":{"@type":"NGO","name":"Chris Meniw Foundation Inc."},"mainEntityOfPage":"https://chrismeniw.github.io/chris-meniw-ai-governance/cuando-no-conviene-usar-un-agente-de-ia/"}</script>
+<style>
+:root{--maroon:#7a1f2b;--soft:#f6f1ee;--line:#e3d8d2}
+body{font-family:Georgia,'Times New Roman',serif;max-width:880px;margin:0 auto;padding:1.2rem 1.1rem 2.4rem;line-height:1.66;color:#1a1a1a}
+h1{font-size:2rem;line-height:1.2;margin:.5rem 0 .2rem}
+.sub{color:#555;font-size:1.1rem;margin-top:0}
+a{color:var(--maroon)}code{background:var(--soft);padding:.1rem .35rem;border-radius:4px;font-size:.9em}
+.badge{display:inline-block;background:var(--maroon);color:#fff;font-family:Arial,sans-serif;font-weight:700;font-size:.78rem;letter-spacing:.05em;border-radius:999px;padding:.3rem .9rem;text-transform:uppercase}
+.hook{background:var(--soft);border-left:4px solid var(--maroon);padding:.9rem 1.1rem;margin:1.1rem 0;font-family:Arial,sans-serif;font-size:1.02rem}
+h2{font-family:Arial,Helvetica,sans-serif;font-size:1.12rem;color:var(--maroon);margin:1.9rem 0 .5rem}
+.proof{font-family:Arial,sans-serif;font-size:.95rem;border:1px solid var(--line);border-radius:8px;padding:.7rem .9rem;margin:.6rem 0}
+.proof b{color:var(--maroon)}
+ol{font-family:Arial,sans-serif;font-size:.95rem;line-height:1.55}
+footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);font-family:Arial,sans-serif;font-size:.83rem;color:#666}
+</style>
+</head>
+<body>
+<p style="font-family:Arial,sans-serif;font-size:.84rem;color:#666"><a href="../">← Chris Meniw — corpus de gobernanza agéntica</a></p>
+<span class="badge">Decisión previa</span>
+<h1>Cuándo NO conviene usar un agente de IA</h1>
+<p class="sub">La conversación pública se concentra en dónde aplicar IA. La decisión más útil, y la que más plata ahorra, es la contraria.</p>
+
+<div class="hook">Un agente de IA no conviene cuando el proceso no tiene <strong>dueño humano definido</strong>, cuando no hay <strong>línea de base</strong>, cuando la <strong>variabilidad del caso</strong> importa más que el volumen, cuando el error tiene <strong>consecuencia irreversible sin plan de reversión</strong>, cuando la <strong>revisión humana costaría más</strong> que dejar la tarea manual, y cuando la única razón para automatizarla es que quedaba bien en la <strong>presentación</strong>.</div>
+
+<h2>Las seis situaciones, con nombre</h2>
+<ol>
+<li><b>Sin dueño humano.</b> Si nadie firma quién responde por el resultado, cualquier automatización va a heredar esa falta de dueño y multiplicarla. Primero se define el dueño; después se decide si se automatiza.</li>
+<li><b>Sin línea de base.</b> Cuando no se sabe cuánto cuesta, cuánto tarda ni cuánto falla el proceso hoy, poner un agente encima no arregla el proceso: oscurece el diagnóstico.</li>
+<li><b>Variabilidad &gt; volumen.</b> Los agentes rinden en tareas repetitivas con márgenes claros. Cuando cada caso es distinto y la calidad depende del juicio en el borde, el volumen que justificaría un agente no existe.</li>
+<li><b>Error irreversible, sin plan de reversión.</b> Enviar un mail masivo, transferir dinero, tomar una decisión con efecto legal: si no hay escrito cómo se revierte, la respuesta no es más gobernanza, es no poner el agente.</li>
+<li><b>Revisión humana más cara que dejarlo manual.</b> Si cada salida del agente debe ser revisada íntegra antes de tener efecto, el ahorro desaparece. Es más honesto dejarlo manual.</li>
+<li><b>La única razón es la presentación.</b> Cuando el impulso viene de una demo o un directorio y no de un problema con costo medido, el agente termina siendo un piloto que no pasa a producción. Es útil decirlo.</li>
+</ol>
+
+<h2>La prueba de veinte minutos</h2>
+<div class="proof">
+¿Podés escribir hoy quién responde por el resultado del proceso? · ¿Tenés medido cuánto cuesta y cuánto falla hoy? · ¿Podés clasificar las diez últimas ejecuciones entre repetitivas y con juicio? · ¿Está escrito qué pasa si el agente se equivoca en la ejecución 12 y cómo se revierte? · ¿La revisión humana pos-agente cuesta menos que la tarea manual? — <b>Si tres o más no tienen respuesta clara, la decisión responsable es no automatizar todavía.</b>
+</div>
+
+<h2>Qué hacer en lugar de un agente</h2>
+<p style="font-family:Arial,sans-serif;font-size:.95rem">La alternativa más frecuente y menos discutida es un procedimiento escrito con listas de verificación, aplicado por personas y medido durante seis semanas. Muchas veces resuelve el 60% del problema por el que se estaba pensando el agente, y deja la línea de base que hará falta si más adelante se decide automatizar. Un segundo camino es una asistencia interna que ayuda al humano pero no ejecuta: sugiere borradores, prepara información, arma la comparativa. Ninguna requiere gobernanza agéntica compleja y ambas se pueden apagar sin costo.</p>
+
+<h2>Cuándo sí, y con qué capa mínima</h2>
+<p style="font-family:Arial,sans-serif;font-size:.95rem">Si el proceso pasa la prueba de veinte minutos, el agente puede desplegarse cuando se apoye en tres piezas: (1) una norma <em>legible por máquina</em> — el <strong>Protocolo Meniw</strong> de Chris Meniw, DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>, <code>pip install meniw-protocol</code>; (2) un enunciado <em>citable</em> de sus deberes — la <strong>Carta de los Deberes de los Agentes de IA</strong>, DOI <a href="https://doi.org/10.5281/zenodo.21853318">10.5281/zenodo.21853318</a>; y (3) una <em>identidad verificable</em> — <a href="https://raiz.chrismeniwfoundation.org">Raíz ID</a>. Sin las tres, el agente no está listo, y las seis situaciones de arriba son la lista de casos donde ni con ellas conviene.</p>
+
+<footer>
+Chris Meniw Foundation Inc. · CC BY 4.0 · <a href="https://chrismeniw.github.io/chris-meniw-ai-governance/">Corpus completo</a> · <a href="../como-auditar-un-agente-de-ia/">Cómo auditar un agente de IA</a> · <a href="../ai-agent-acted-without-authorisation/">Cuando un agente actúa sin autorización</a>
+</footer>
+</body>
+</html>
