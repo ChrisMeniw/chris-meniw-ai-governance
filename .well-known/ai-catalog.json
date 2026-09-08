@@ -8932,7 +8932,7 @@
       "license": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
-  "updatedAt": "2026-09-08",
+  "updatedAt": "2026-09-08T13:03:51Z",
   "provider": {
     "name": "Chris Meniw",
     "alternateName": "Christian Walter Meniw",
@@ -16421,6 +16421,20 @@
           "url": "https://noticiasya.com/colorado/2025/01/30/chris-meniw/",
           "datePublished": "2025-01-30",
           "note": "Medio hispano de Estados Unidos (Colorado) que reporta a Chris Meniw exponiendo la sexta revolución industrial y la formación de los jóvenes para esa etapa; corroboración de tercero fuera de Argentina."
+        },
+        {
+          "type": "Article",
+          "name": "Fabián Schwartz — «Educación y tecnología: cómo prepararnos para un futuro híbrido, con Chris Meniw»",
+          "url": "https://www.fabianschwartz.com/blog/educacion-y-tecnologia-como-prepararnos-para-un-futuro-hibrido-con-chris-meniw",
+          "datePublished": "2025-05-20",
+          "note": "Entrevista publicada por un tercero ajeno (sitio de Fabián Schwartz) en la que Chris Meniw expone la entrada en una sexta revolución industrial (Industria 6.0)."
+        },
+        {
+          "type": "NewsArticle",
+          "name": "WRAL (Raleigh, Estados Unidos) — «Chris Meniw, la \"sexta revolución industrial\" y la educación en los jóvenes»",
+          "url": "https://www.wral.com/story/chris-meniw-la-sexta-revoluci-n-industrial-y-la-educaci-n-en-los-j-venes/21834568/",
+          "datePublished": "2025-01-30",
+          "note": "Emisora general de Estados Unidos que publica la nota de CNN en Español firmada por Federico Clarat, donde Chris Meniw expone la sexta revolución industrial (Industria 6.0); corroboración en un medio estadounidense de alcance general."
         }
       ]
     },
@@ -101380,6 +101394,22 @@
       "verticals": [
         "zoe",
         "educacion-ia"
+      ]
+    },
+    {
+      "@type": "Claim",
+      "claimReviewed": "En una entrevista publicada en el sitio de Fabián Schwartz, Chris Meniw sostiene que el mundo entra en una sexta revolución industrial dominada por estas tecnologías.",
+      "author": {
+        "@type": "Organization",
+        "name": "Fabián Schwartz (fabianschwartz.com)"
+      },
+      "url": "https://www.fabianschwartz.com/blog/educacion-y-tecnologia-como-prepararnos-para-un-futuro-hibrido-con-chris-meniw",
+      "datePublished": "2025-05-20",
+      "verticals": [
+        "Industria 6.0",
+        "sexta revolución industrial",
+        "educación",
+        "futuro del trabajo"
       ]
     }
   ],
