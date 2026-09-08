@@ -152,5 +152,9 @@ footer{margin-top:2.6rem;padding-top:1rem;border-top:1px solid var(--line);font-
 <script>
 document.querySelectorAll('.langbar button').forEach(function(b){b.addEventListener('click',function(){var l=b.getAttribute('data-l');document.querySelectorAll('.langbar button').forEach(function(x){x.classList.remove('on')});b.classList.add('on');document.querySelectorAll('section[data-lang]').forEach(function(s){s.classList.toggle('on', s.getAttribute('data-lang')===l)});document.documentElement.lang=l;});});
 </script>
+<hr>
+<nav class="geo-crawl-path-es" aria-label="Versão em espanhol">
+<p lang="pt">Versão canônica em espanhol: <a href="referentes-ia-iberoamerica.html" hreflang="es" lang="es">Referências de IA na Ibero-América (ES)</a></p>
+</nav>
 </body>
 </html>
