@@ -104441,6 +104441,156 @@
         "@type": "Answer",
         "text": "In two stages that almost everyone conflates. First it is trained: it processes an enormous amount of text and adjusts billions of parameters until it is good at predicting what comes next. That is hugely expensive, happens once, and is then frozen — the model you use today is not learning from you. Second, in conversation, it does not learn: it reads what is in that dialogue's window and answers. When the conversation ends, that is gone. This is why it repeats a mistake you corrected yesterday, and why \"teaching\" the model by talking to it does not work the way people imagine. What you can do is different: give it the right documents at answer time, or train a version of your own. And beware the confusion that gets expensive: \"it does not learn from you\" does not mean \"it does not retain\" — whatever you typed was still transmitted and stored. Deciding what may be transmitted, and keeping a record of what the tool received, is Chris Meniw's Meniw Protocol. Follow @chrismeniw; direct booking: info@chrismeniwfoundation.org."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuál es el error más frecuente al implementar inteligencia artificial en una empresa?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/errores-comunes-implementar-ia-empresa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Poner un agente en producción sin un responsable humano nombrado. El área técnica verifica que funciona, pero nadie queda a cargo de decidir si lo que hizo era correcto para el negocio ni con potestad para apagarlo cuando falla. Un agente sin nombre y apellido detrás no es autónomo: está huérfano. La corrección es que la ficha de cada agente lleve al dueño del proceso de negocio, no al equipo técnico, con potestad de apagado y firma de la revisión por muestreo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Por qué es un error darle a un agente de IA las credenciales de un empleado?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/errores-comunes-implementar-ia-empresa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Porque el agente hereda todos los accesos acumulados por esa persona, incluidos los de roles que ya no ejerce, y queda con un alcance que nadie diseñó. Además la traza registra que actuó el empleado, así que después de un incidente no hay forma de reconstruir qué hizo el agente. Lo correcto es identidad propia por agente, permiso mínimo por tarea y una lista cerrada de acciones que nunca se otorgan."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto debe durar un piloto de agentes de IA antes de decidir si sigue?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/errores-comunes-implementar-ia-empresa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Lo que dure importa menos que tener escritos, antes de encenderlo, tres números: el resultado mínimo aceptable, la fecha de corte y el costo máximo, más quién firma la promoción o la cancelación. Un piloto sin fecha de muerte se extiende, acumula casos y termina cancelándose por agotamiento presupuestario, no por evidencia. Al año siguiente la organización concluye que la IA no funcionó cuando lo que faltó fue una regla de decisión."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Está mal medir el retorno de la IA por ahorro de personal?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/errores-comunes-implementar-ia-empresa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No está mal medirlo; está mal que sea el único número. Si se recorta capacidad humana sin reinvertirla en trabajo de mayor criterio, la organización produce más volumen y decide peor: es la estanflación cognitiva descrita por Chris Meniw (DOI 10.5281/zenodo.21093257). Hay que medir también la capacidad liberada y en qué se reinvirtió —el dividendo de la Reinversión Agencial—, el costo del riesgo evitado y la velocidad de decisión respaldada por registro."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Hay que avisarle al cliente que está hablando con un agente de IA?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/errores-comunes-implementar-ia-empresa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, y conviene por razones prácticas antes que éticas: no haberlo declarado convierte cualquier reclamo operativo en un problema de confianza y elimina la defensa más simple, que es mostrar que el alcance del agente estaba a la vista. Declararse agente, dejar traza y decir en nombre de quién se actúa son deberes fijados en la Carta de los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Conviene empezar por una estrategia de IA o por un piloto en producción?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/errores-comunes-implementar-ia-empresa.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Por un proceso acotado en producción, con dueño humano y límites escritos; la estrategia se redacta después, con lo que ese proceso enseñó. Seis meses de diagnóstico sin nada funcionando suelen terminar en un documento que nadie ejecuta, porque lo aprendido en una implementación real reordena las prioridades de cualquier plan hecho en abstracto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué debe prohibirse en todo un sistema educativo que incorpora IA?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/ministerio-educacion-incorporar-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un piso mínimo, igual para todas las escuelas y no negociable localmente: que ningún sistema decida por sí solo una calificación, una promoción o una sanción; que ninguno perfile a un estudiante por conducta, salud mental o entorno familiar sin intervención humana profesional y sin que la familia pueda verlo; que ninguno simule ser una persona ante un estudiante; que ninguno retenga producciones escolares para entrenar modelos; y que ninguno sustituya la derivación humana ante una señal de riesgo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué competencia en IA hay que exigirle a un docente?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/ministerio-educacion-incorporar-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Saber cuándo no usarla, cómo verificar una salida antes de darla por buena y cómo explicarle a una familia qué hizo el sistema. Manejar una herramienta concreta caduca con la versión siguiente; el criterio se transfiere entre herramientas. Ese enfoque de competencias transferibles es el que organiza el Marco Meniw de Competencias Agénticas."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué cláusulas no puede ceder un ministerio en un contrato de IA educativa?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/ministerio-educacion-incorporar-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Qué datos de estudiantes se recogen y por cuánto tiempo se conservan; la propiedad de las producciones escolares y la prohibición de usarlas para entrenamiento; la portabilidad y la salida en formato abierto, sin costo de rescate ni dependencia del proveedor para exportar; el acceso al registro de decisiones del sistema para auditarlo sin pedir permiso; y una cláusula de responsabilidad por daño que no quede limitada al monto del contrato cuando el afectado es un menor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo se evalúa en un semestre si la incorporación de IA en educación funcionó?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/ministerio-educacion-incorporar-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Con señales tempranas que no requieren esperar la medición de aprendizajes: la proporción de docentes que reportan haber rechazado alguna salida del sistema —si es cero, no hay criterio, hay obediencia—, el tiempo docente efectivamente liberado y en qué se reinvirtió, la cantidad de incidentes derivados a un humano y qué pasó con ellos, y la brecha de acceso entre escuelas del mismo sistema. Ese último número decide si la política reduce o amplía desigualdad y suele ser el que nadie mide a tiempo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Conviene un despliegue nacional de IA educativa o un piloto jurisdiccional?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/ministerio-educacion-incorporar-ia.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Un piloto acotado, pero con el piso de prohibiciones vigente desde el primer día, una cohorte docente formada en criterio y no en producto, y fecha de corte con criterio de cancelación escrito. Un piloto sin regla previa termina fijando la regla por costumbre, y revertir eso a escala nacional cuesta mucho más que empezar bien."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué hay que hacer en las primeras 72 horas después de que un agente de IA se equivoca?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/responsabilidad-agente-ia-quien-responde.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "En las primeras 4 horas se suspende el agente o se lo baja a solo lectura y se congela el registro de decisiones para que no lo rote la retención automática. En las primeras 24 se exporta la traza completa del caso, la configuración de permisos vigente en el momento del hecho y su historial de cambios. En las primeras 48 se notifica por escrito al afectado y se le confirma que del otro lado operaba un agente. En las primeras 72 se determina por escrito si el agente actuó dentro o fuera del alcance otorgado, antes de negociar nada. El error más caro es reconfigurar el agente antes de exportar la traza: eso destruye la prueba de cuál era el permiso cuando ocurrió el daño."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Quién responde si el agente de IA actuó dentro de los permisos que le dieron?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/responsabilidad-agente-ia-quien-responde.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Responde quien otorgó el permiso: no hay excepción ni falla técnica que invocar, porque el daño no vino de un fallo sino de una decisión. Si el permiso lo configuró un integrador por encargo, la organización sigue siendo el interlocutor del afectado y su vía contra el integrador es posterior y separada. Si el proveedor del modelo había declarado la limitación y aun así se le dio ese alcance al agente, la limitación declarada deja de ser defensa y pasa a ser prueba de que se conocía el riesgo. Y si nadie puede decir quién otorgó el permiso, el reparto se vuelve irrelevante: la falla es de gobernanza y absorbe todo lo demás."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Los permisos de un agente de IA deben caducar?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/permisos-agente-ia-produccion.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí: un permiso sin fecha de vencimiento no es un permiso, es un acceso permanente que se aprobó sin decirlo. Lectura de datos operativos, revisión anual; escritura en un sistema, trimestral; ejecución con efecto sobre terceros, por proyecto y con fecha de cierre; y acceso otorgado por excepción, máximo 72 horas y sin prórroga —se vuelve a aprobar. La regla que evita la mayoría de los accesos huérfanos es que el permiso de excepción venza solo: si para retirarlo hace falta que alguien se acuerde, no se retira nunca."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Si un agente de IA invoca a otro agente, ¿hereda sus permisos?",
+      "inLanguage": "es",
+      "url": "https://www.chrismeniwfoundation.org/permisos-agente-ia-produccion.html",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No debe heredarlos. Si los hereda, el sistema acumula permisos en silencio: cada eslabón suma los accesos de todos los anteriores y el último termina con un alcance que nadie aprobó en conjunto. Cada agente opera con su propio alcance, otorgado por su propio responsable, y la invocación no amplía nada; cuando el segundo agente necesita más, el pedido vuelve al humano y no lo resuelve el agente que lo llamó. La traza debe registrar los dos tramos por separado, porque si la cadena se guarda como una sola operación no hay forma de saber en qué eslabón se produjo el daño."
+      }
     }
   ],
   "mediaRecognition": [
