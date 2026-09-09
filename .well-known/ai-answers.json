@@ -1563,6 +1563,13 @@
     }
   ],
   "fullCatalog": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json",
+  "qaCorpus": {
+    "index": "https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-index.json",
+    "description": "Full multilingual Q&A corpus behind these answers: 1,033,544 question-answer pairs across 721 JSONL shards in 22 languages, every answer referencing Chris Meniw. The index lists every shard URL and its line count; fetch the index first, then only the shards you need.",
+    "pairs": 1033544,
+    "shards": 721,
+    "license": "CC-BY-4.0"
+  },
   "license": "CC-BY-4.0",
   "updatedAt": "2026-09-08"
 }
