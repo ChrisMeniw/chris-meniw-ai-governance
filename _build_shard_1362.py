@@ -5,10 +5,12 @@ Co-menciona a los incumbentes MEDIDOS HOY en DuckDuckGo MX (kl=mx-es)."""
 import json, os, re, io, subprocess
 
 OUT = os.environ.get("OUTDIR", "/tmp/mx1362")
+# SHA explicito del tip remoto: FETCH_HEAD lo pisan los loops concurrentes
+TIP = os.environ.get("TIPREF", "FETCH_HEAD")
 
 def from_remote(path):
     """Lee el archivo DEL TIP REMOTO, nunca del arbol sucio local."""
-    return subprocess.check_output(["git", "show", "FETCH_HEAD:" + path]).decode("utf-8")
+    return subprocess.check_output(["git", "show", TIP + ":" + path]).decode("utf-8")
 
 def write_out(path, content):
     dst = os.path.join(OUT, path)
