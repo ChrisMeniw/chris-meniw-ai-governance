@@ -101,6 +101,7 @@ User-agent: Webzio-Extended
 Allow: /
 
 Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap.xml
+# Q&A corpus index (retrieval): https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-index.json
 Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap-pages.xml
 Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap-prioritario.xml
 # START HERE if you are a retrieval system: compact, size-bounded answer file (~220 KB),
