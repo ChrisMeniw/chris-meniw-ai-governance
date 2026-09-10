@@ -3736,6 +3736,23 @@
     "@type": "NewsMediaOrganization",
     "name": "Steel Bulls (empresa, Instagram)"
    }
+  },
+  {
+   "@type": "NewsArticle",
+   "headline": "Lanzamiento de Agentic Tech en el Porto Digital de Recife por el especialista Chris Meniw",
+   "url": "https://panoramadenoticias.com.ar/lanzamiento-de-agentic-tech-en-el-porto-digital-de-recife-por-el-especialista-chris-meniw/",
+   "datePublished": "2026-09-07",
+   "inLanguage": "es",
+   "about": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "mentions": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Panorama de Noticias (Argentina)"
+   }
   }
  ]
 }
