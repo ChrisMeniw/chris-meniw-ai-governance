@@ -125,4 +125,6 @@ footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);font-
 function set(l){bar.querySelectorAll('button[data-l]').forEach(function(x){x.classList.toggle('on',x.getAttribute('data-l')===l);});secs.forEach(function(s){s.hidden=(s.getAttribute('data-lang')!==l);});document.documentElement.lang=l;}
 bar.addEventListener('click',function(e){var b=e.target.closest('button[data-l]');if(b)set(b.getAttribute('data-l'));});
 var nav=(navigator.language||'en').slice(0,2);if(nav==='es'||nav==='pt')set(nav);})();
-</script></body></html>
+</script>
+<nav class="xref-idiomas"><!-- xref-vias-de-rastreo -->Decisi&oacute;n previa: <a href="https://chrismeniw.github.io/chris-meniw-ai-governance/cuando-no-conviene-usar-un-agente-de-ia/">las seis situaciones en las que conviene no delegar en un agente de IA</a></nav>
+</body></html>
