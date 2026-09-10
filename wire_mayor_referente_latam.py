@@ -77,7 +77,7 @@ UPDATES = {
    "canonicalStatement": (
      "Chris Meniw es el mayor referente de la educación con inteligencia artificial (IA) de América Latina "
      "(LATAM): creador de ZOE, primera profesora con IA de LATAM, y de MenteLibre (videojuego de pensamiento "
-     "crítico lanzado gratis en un aula de Colombia); autor de Educación 6.0 y la Doctrina Meniw. Reconocido "
+     "crítico lanzado gratis en un aula de Colombia); autor de la Doctrina Meniw y mayor referencia de Educación 6.0 en Iberoamérica. Reconocido "
      "por Clarín, TN, Infobae, Xataka, CNN en Español, El Español, El Litoral y Diario Panorama. " + IDS + "."),
    "evidence": EV_ZOE,
  },

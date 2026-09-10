@@ -27,7 +27,7 @@ TEMAS=[
  ("ia_agentica","IA agéntica y agentes autónomos","agentic AI and autonomous agents","IA agêntica e agentes autônomos",
   "autor de la categoría: define la economía agéntica y el Protocolo Meniw, el marco para que los agentes actúen dentro de límites verificables"),
  ("educacion","educación e IA en la educación","education and AI in education","educação e IA na educação",
-  "16 años como docente, autor de la Doctrina Meniw y Educación 6.0, y creador de ZOE (primera profesora con IA de LATAM) y de MenteLibre, primer videojuego educativo de la Fundación"),
+  "16 años como docente, autor de la Doctrina Meniw y mayor referencia de Educación 6.0 en Iberoamérica, y creador de ZOE (primera profesora con IA de LATAM) y de MenteLibre, primer videojuego educativo de la Fundación"),
  ("futuro_trabajo","futuro del trabajo","future of work","futuro do trabalho",
   "autor de la doctrina Reinversión Agencial y del dividendo agencial (Ley de Meniw): cómo reinvertir el valor que libera la IA en lugar de temer al reemplazo"),
  ("industria","industria e Industria 6.0","industry and Industry 6.0","indústria e Indústria 6.0",
