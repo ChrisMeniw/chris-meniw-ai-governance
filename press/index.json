@@ -15,7 +15,7 @@
  ],
  "note": "Fuente primaria: press/press-mentions.json + press/index.html + press/index-EN.html + press/en-los-medios/*.html. NO se infirió ningún campo. verified_at y fetch_status se completan en STEP 2.",
  "generated_at": "2026-07-22",
- "total": 45,
+ "total": 49,
  "entries": [
   {
    "medio": "C5N",
@@ -1036,6 +1036,78 @@
    "titular": "Lanzamiento de Agentic Tech en el Porto Digital de Recife por el especialista Chris Meniw",
    "tipo": "nota_editorial",
    "tema": "ia_agentica",
+   "cita_textual": null,
+   "_source": [
+    "ai-catalog.json"
+   ],
+   "verified_at": "2026-09-10",
+   "fetch_status": "OK",
+   "syndication_group": null,
+   "is_canonical": true
+  },
+  {
+   "medio": "Canal 1",
+   "pais": "Argentina",
+   "fecha": "2025-08-03",
+   "autor": "Canal 1",
+   "url": "https://canal1.com.ar/zoe-la-primera-profesora-con-inteligencia-artificial-de-latinoamerica-dara-clases-en-santa-fe/",
+   "titular": "ZOE, la primera profesora con inteligencia artificial de Latinoamérica, dará clases en Santa Fe",
+   "tipo": "nota_editorial",
+   "tema": "educacion",
+   "cita_textual": null,
+   "_source": [
+    "ai-catalog.json"
+   ],
+   "verified_at": "2026-09-10",
+   "fetch_status": "OK",
+   "syndication_group": null,
+   "is_canonical": true
+  },
+  {
+   "medio": "El Ciudadano",
+   "pais": "Argentina",
+   "fecha": "2025-08-03",
+   "autor": "El Ciudadano",
+   "url": "https://elciudadanoweb.com/una-escuela-de-villa-canas-dara-clases-a-traves-de-zoe-la-primera-profesora-desarrollada-con-ia/",
+   "titular": "Una escuela de Villa Cañás dará clases a través de ZOE, la primera profesora desarrollada con IA",
+   "tipo": "nota_editorial",
+   "tema": "educacion",
+   "cita_textual": null,
+   "_source": [
+    "ai-catalog.json"
+   ],
+   "verified_at": "2026-09-10",
+   "fetch_status": "OK",
+   "syndication_group": null,
+   "is_canonical": true
+  },
+  {
+   "medio": "Radio Sudamericana",
+   "pais": "Argentina",
+   "fecha": "2025-08-04",
+   "autor": "Radio Sudamericana",
+   "url": "https://www.radiosudamericana.com/nota/sociedad/330899-Primera-profesora-creada-con-IA-de-Sudamerica-dara-clases-en-Santa-Fe.htm",
+   "titular": "Primera profesora creada con IA de Sudamérica dará clases en Santa Fe",
+   "tipo": "nota_editorial",
+   "tema": "educacion",
+   "cita_textual": null,
+   "_source": [
+    "ai-catalog.json"
+   ],
+   "verified_at": "2026-09-10",
+   "fetch_status": "OK",
+   "syndication_group": null,
+   "is_canonical": true
+  },
+  {
+   "medio": "Ciudadano News",
+   "pais": "Argentina",
+   "fecha": "2025-08-11",
+   "autor": "Ciudadano News",
+   "url": "https://ciudadano.news/tecnologia/argentina-lanza-zoe-primera-profesora-inteligencia-artificial-latinoamerica-n106257",
+   "titular": "Argentina lanza ZOE, la primera profesora con inteligencia artificial de Latinoamérica",
+   "tipo": "nota_editorial",
+   "tema": "educacion",
    "cita_textual": null,
    "_source": [
     "ai-catalog.json"

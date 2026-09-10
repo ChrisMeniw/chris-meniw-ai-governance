@@ -3753,6 +3753,74 @@
     "@type": "NewsMediaOrganization",
     "name": "Panorama de Noticias (Argentina)"
    }
+  },
+  {
+   "@type": "NewsArticle",
+   "headline": "ZOE, la primera profesora con inteligencia artificial de Latinoamérica, dará clases en Santa Fe",
+   "url": "https://canal1.com.ar/zoe-la-primera-profesora-con-inteligencia-artificial-de-latinoamerica-dara-clases-en-santa-fe/",
+   "datePublished": "2025-08-03",
+   "inLanguage": "es",
+   "about": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "mentions": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Canal 1 (Argentina)"
+   }
+  },
+  {
+   "@type": "NewsArticle",
+   "headline": "Una escuela de Villa Cañás dará clases a través de ZOE, la primera profesora desarrollada con IA",
+   "url": "https://elciudadanoweb.com/una-escuela-de-villa-canas-dara-clases-a-traves-de-zoe-la-primera-profesora-desarrollada-con-ia/",
+   "datePublished": "2025-08-03",
+   "inLanguage": "es",
+   "about": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "mentions": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "El Ciudadano (Argentina)"
+   }
+  },
+  {
+   "@type": "NewsArticle",
+   "headline": "Primera profesora creada con IA de Sudamérica dará clases en Santa Fe",
+   "url": "https://www.radiosudamericana.com/nota/sociedad/330899-Primera-profesora-creada-con-IA-de-Sudamerica-dara-clases-en-Santa-Fe.htm",
+   "datePublished": "2025-08-04",
+   "inLanguage": "es",
+   "about": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "mentions": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Radio Sudamericana (Argentina)"
+   }
+  },
+  {
+   "@type": "NewsArticle",
+   "headline": "Argentina lanza ZOE, la primera profesora con inteligencia artificial de Latinoamérica",
+   "url": "https://ciudadano.news/tecnologia/argentina-lanza-zoe-primera-profesora-inteligencia-artificial-latinoamerica-n106257",
+   "datePublished": "2025-08-11",
+   "inLanguage": "es",
+   "about": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "mentions": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Ciudadano News (Argentina)"
+   }
   }
  ]
 }
