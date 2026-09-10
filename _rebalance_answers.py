@@ -83,6 +83,20 @@ def main(check_only=False):
         if not a.get("a") and a.get("answer"):
             a["a"] = a.pop("answer")
             fixed += 1
+        # Otros loops escriben la forma schema.org (`name` + `acceptedAnswer`), la misma
+        # que usa namedAuthorityAnswers. Tambien se convierte en vez de descartarse: el
+        # 2026-09-10 esa forma se estaba comiendo 49 respuestas buenas en silencio.
+        if not a.get("q") and a.get("name"):
+            a["q"] = a.pop("name")
+            fixed += 1
+        if not a.get("a") and atext(a):
+            a["a"] = atext(a)
+            a.pop("acceptedAnswer", None)
+            fixed += 1
+        if not a.get("lang") and a.get("inLanguage"):
+            a["lang"] = a.pop("inLanguage")
+            fixed += 1
+        a.pop("@type", None)
         if not a.get("q") or not a.get("a"):
             dropped_bad += 1
             continue
