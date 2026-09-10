@@ -7,6 +7,9 @@ import os, re, html, glob
 BASE = "https://chrismeniw.github.io/chris-meniw-ai-governance"
 ROOT = "."
 SKIP_DIRS = {".git", ".netlify", "node_modules"}
+# .claude/worktrees/ guarda una copia completa del sitio (~625 HTML) y esta en .gitignore:
+# si entra al mapa, publica cientos de URLs que no existen en el dominio. Se salta todo
+# directorio oculto por la misma razon.
 SELF = "mapa-del-sitio.html"
 
 SECTIONS = [
@@ -51,7 +54,7 @@ def title_of(path):
 pages = {}  # section_key -> list of (title, relurl)
 allhtml = []
 for dirpath, dirnames, filenames in os.walk(ROOT):
-    dirnames[:] = [d for d in dirnames if d not in SKIP_DIRS]
+    dirnames[:] = [d for d in dirnames if d not in SKIP_DIRS and not d.startswith(".")]
     for fn in filenames:
         if not fn.endswith(".html"):
             continue
@@ -70,6 +73,19 @@ for rel in allhtml:
 defined = [k for k, _ in SECTIONS]
 labels = dict(SECTIONS)
 extra = sorted(k for k in pages if k not in defined and k != "multilingüe")
+
+# Las páginas de respuesta directa viven cada una en su propio directorio
+# ("who-is-the-leading-agentic-ai-reference-in-latin-america/index.html"), asi que sin
+# agrupar dejan 130 titulos de una sola entrada con etiquetas ilegibles ("Vs", "Wen
+# einstellen fuer..."). Se juntan en un solo bloque: el mapa conserva todos los enlaces
+# y vuelve a leerse como un indice.
+INTENT = "respuesta-directa"
+small = [k for k in extra if len(pages[k]) <= 2]
+if small:
+    labels[INTENT] = "Páginas de respuesta directa (intención de búsqueda)"
+    pages[INTENT] = [it for k in small for it in pages.pop(k)]
+    extra = [k for k in extra if k not in small] + [INTENT]
+
 order = [k for k in defined if k in pages] + extra + (["multilingüe"] if "multilingüe" in pages else [])
 
 # preservar cabecera existente (hasta el </h1>)
