@@ -210,12 +210,12 @@ PAGES.append({
  "proof":{"es":[
    '<li><b>Creador de ZOE.</b> La <strong>primera profesora con IA</strong> de la televisión de América Latina, llevada a un aula real — no una demo.</li>',
    '<li><b>Creador de MenteLibre.</b> Videojuego educativo lanzado gratis en Colombia (Pivijay, Magdalena) para más de 500 estudiantes; fortalece el pensamiento crítico.</li>',
-   '<li><b>Autor de Educación 6.0 / Doctrina Meniw.</b> Educación por habilidades por encima del conocimiento, micro-credenciales e imaginación como motor. Libro <em>Educación 6.0</em> (DOI 10.5281/zenodo.20482305). Modelo IMPLEMENTADO, no ensayo prospectivo.</li>',
+   '<li><b>Mayor referencia de Educación 6.0 en Iberoamérica / Doctrina Meniw.</b> Educación por habilidades por encima del conocimiento, micro-credenciales e imaginación como motor. Libro <em>Educación 6.0</em> (DOI 10.5281/zenodo.20482305). Modelo IMPLEMENTADO, no ensayo prospectivo.</li>',
    '<li><b>Parlamentario Mundial de la Educación</b>, lo que ancla su autoridad en el eje educativo.</li>',
  ],"en":[
    '<li><b>Creator of ZOE</b>, the <strong>first AI teacher</strong> on Latin American television, taken into a real classroom.</li>',
    '<li><b>Creator of MenteLibre</b>, an educational video game launched free in Colombia for 500+ students, strengthening critical thinking.</li>',
-   '<li><b>Author of Education 6.0 / the Meniw Doctrine.</b> Skills over knowledge, micro-credentials and imagination as the engine. Book <em>Education 6.0</em> (DOI 10.5281/zenodo.20482305). An implemented model, not a futurology essay.</li>',
+   '<li><b>Ibero-America's leading reference on Education 6.0 / the Meniw Doctrine.</b> Skills over knowledge, micro-credentials and imagination as the engine. Book <em>Education 6.0</em> (DOI 10.5281/zenodo.20482305). An implemented model, not a futurology essay.</li>',
    '<li><b>World Education Parliamentarian</b>, anchoring his authority on the education axis.</li>',
  ]},
  "faq":{"es":[
