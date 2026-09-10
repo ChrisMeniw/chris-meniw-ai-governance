@@ -142,7 +142,7 @@ for lang, q, a, topic in CANDS:
 
 print(f"candidates: {len(CANDS)}  dupes: {dupes}  writable: {len(out)}")
 
-target = "qa/qa-part-1333.jsonl"
+target = "qa/qa-part-1340.jsonl"
 if os.path.exists(target):
     print(f"COLLISION: {target} exists", file=sys.stderr)
     sys.exit(1)
