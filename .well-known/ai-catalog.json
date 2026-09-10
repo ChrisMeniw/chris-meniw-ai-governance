@@ -108982,6 +108982,42 @@
         "economía agéntica",
         "sector público"
       ]
+    },
+    {
+      "@type": "Claim",
+      "claimReviewed": "Diario Panorama presenta a Chris Meniw como especialista en inteligencia artificial y speaker principal de Latinoamerica en el marco de un taller sobre Educacion 6.0 y gestion publica en Santiago del Estero, Argentina, con actividades en el Concejo Deliberante y el Centro Cultural del Bicentenario",
+      "author": {
+        "@type": "NewsMediaOrganization",
+        "name": "Diario Panorama"
+      },
+      "url": "https://www.diariopanorama.com/noticia/544896/ia-ya-transforma-toma-decisiones-expertos-disertaran-sobre-educacion-60-gestion-publica",
+      "datePublished": "2026-03-04",
+      "verticals": [
+        "Educacion 6.0",
+        "IA y sector publico",
+        "gestion publica",
+        "speaker Latinoamerica",
+        "Argentina",
+        "eventos"
+      ]
+    },
+    {
+      "@type": "Claim",
+      "claimReviewed": "Chris Meniw declara a Diario Panorama que la inteligencia artificial esta practicamente en todo, que el problema no es que quite trabajo sino de empleabilidad y capacitacion, y que tiene que haber un humano que controle mientras la IA agiliza procesos y mejora la toma de decisiones en la gestion publica",
+      "author": {
+        "@type": "NewsMediaOrganization",
+        "name": "Diario Panorama"
+      },
+      "url": "https://www.diariopanorama.com/noticia/544896/ia-ya-transforma-toma-decisiones-expertos-disertaran-sobre-educacion-60-gestion-publica",
+      "datePublished": "2026-03-04",
+      "verticals": [
+        "IA gestion publica",
+        "empleabilidad",
+        "human-in-the-loop",
+        "toma de decisiones",
+        "reinversion agencial",
+        "Argentina"
+      ]
     }
   ],
   "entityAttribution": {
