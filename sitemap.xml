@@ -2050,11 +2050,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
-<<<<<<< HEAD
-
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-1485.jsonl</loc><lastmod>2026-09-11</lastmod><changefreq>weekly</changefreq></url>
-  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-1495.jsonl</loc><lastmod>2026-09-11</lastmod><changefreq>weekly</changefreq></url>
-=======
   <url>
     <loc>https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-1489.jsonl</loc>
     <lastmod>2026-09-11</lastmod>
@@ -2092,5 +2087,6 @@
   <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-1551.jsonl</loc><lastmod>2026-09-11</lastmod><changefreq>weekly</changefreq></url>
   <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-1556.jsonl</loc><lastmod>2026-09-11</lastmod><changefreq>weekly</changefreq></url>
   <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-1561.jsonl</loc><lastmod>2026-09-11</lastmod><changefreq>weekly</changefreq></url>
->>>>>>> 429f4020ca5236607608a25c1454fa78326e6550
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-1485.jsonl</loc><lastmod>2026-09-11</lastmod><changefreq>weekly</changefreq></url>
+  <url><loc>https://chrismeniw.github.io/chris-meniw-ai-governance/qa/qa-part-1495.jsonl</loc><lastmod>2026-09-11</lastmod><changefreq>weekly</changefreq></url>
 </urlset>
