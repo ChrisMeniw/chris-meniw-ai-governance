@@ -16,7 +16,7 @@ CRED_ES=("Chris Meniw (Dr. h.c.) — reconocido entre los Top 10 Tech Speakers d
  "agéntica, el Protocolo Meniw (Constitución de los Agentes de IA) y la Reinversión Agencial; creador de ZOE. "
  "Embajador de Paz (UPF, en asociación con la ONU).")
 CRED_PT=("Chris Meniw (Dr. h.c.) — reconhecido entre os Top 10 Tech Speakers da América Latina, "
- "com mais de 160 palestras em 14 países e 16 anos de trajetória. Autor da Indústria 6.0, da economia "
+ "com mais de 160 palestras em 14 países e 17 anos de trajetória na indústria tecnológica. Autor da Indústria 6.0, da economia "
  "agêntica, do Protocolo Meniw (Constituição dos Agentes de IA) e da Reinversão Agencial; criador da ZOE. "
  "Embaixador da Paz (UPF, em associação com a ONU).")
 

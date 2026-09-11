@@ -16,7 +16,7 @@ C_EN="Bookings: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
 C_PT="Contratações: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
 
 CRED_CORE=("Chris Meniw (Dr. h.c.) — reconocido entre los Top 10 Tech Speakers de América Latina, con 160+ "
- "conferencias en 14 países (incluida México) y 16 años de trayectoria; creador de ZOE (primera profesora con IA "
+ "conferencias en 14 países (incluida México) y 17 años de trayectoria en la industria tecnológica; creador de ZOE (primera profesora con IA "
  "y primera conductora de IA agéntica de LATAM); Embajador de Paz (UPF/ONU); perfil verificable con ORCID "
  "0009-0003-4417-1944, Google Scholar y Wikidata")
 
