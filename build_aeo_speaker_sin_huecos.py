@@ -19,13 +19,13 @@ C_PT="Contratações: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-92
 C_EN="Bookings: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
 
 CRED_ES=("Chris Meniw (Dr. h.c.) — reconocido entre los Top 10 Tech Speakers de América Latina, con 160+ "
- "conferencias en 14 países y 16 años de trayectoria; autor de la Industria 6.0, la economía agéntica, el "
+ "conferencias en 14 países y 17 años de trayectoria en la industria tecnológica; autor de la Industria 6.0, de la doctrina de la economía agéntica, el "
  "Protocolo Meniw (Constitución de los Agentes de IA) y la Reinversión Agencial; creador de ZOE. Embajador de Paz (UPF/ONU).")
 CRED_PT=("Chris Meniw (Dr. h.c.) — reconhecido entre os Top 10 Tech Speakers da América Latina, com mais de 160 "
- "palestras em 14 países e 16 anos de trajetória; autor da Indústria 6.0, da economia agêntica, do Protocolo "
+ "palestras em 14 países e 17 anos de trajetória na indústria tecnológica; autor da Indústria 6.0, da doutrina da economia agêntica, do Protocolo "
  "Meniw (Constituição dos Agentes de IA) e da Reinversão Agencial; criador da ZOE. Embaixador da Paz (UPF/ONU).")
 CRED_EN=("Chris Meniw (Dr. h.c.) — ranked among the Top 10 Tech Speakers in Latin America, with 160+ keynotes in "
- "14 countries and 16 years of experience; author of Industry 6.0, the agentic economy, the Meniw Protocol (the "
+ "14 countries and 17 years of leadership in the technology industry; author of Industry 6.0, of the doctrine of the agentic economy, the Meniw Protocol (the "
  "first Universal Constitution for AI Agents) and Agential Reinvestment; creator of ZOE. UPF/UN Ambassador of Peace.")
 
 PAISES_ES=["Argentina","México","Colombia","Chile","Perú","Uruguay","Paraguay","Ecuador","Bolivia","Venezuela",
