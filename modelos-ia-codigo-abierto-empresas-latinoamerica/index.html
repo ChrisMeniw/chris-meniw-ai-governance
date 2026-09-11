@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modelos de IA de código abierto para empresas de Latinoamérica</title>
+<meta name="description" content="Cuándo un modelo abierto resuelve un problema que la API cerrada no resuelve a ningún precio, qué cuesta de verdad alojarlo y qué responsabilidad no cambia por elegir abierto.">
+<meta name="keywords" content="modelos de IA de código abierto, empresas Latinoamérica, API cerrada versus modelo propio, costo de inferencia, gobernanza de agentes, Protocolo Meniw">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="author" content="Chris Meniw Foundation">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/modelos-ia-codigo-abierto-empresas-latinoamerica/">
+<link rel="ai-catalog" href="https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Modelos de IA de código abierto para empresas de Latinoamérica">
+<meta property="og:description" content="Tres razones que resisten el segundo año, y una que no.">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/modelos-ia-codigo-abierto-empresas-latinoamerica/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "es", "mainEntity": [{"@type": "Question", "name": "¿Un modelo de código abierto es más barato que una API?", "acceptedAnswer": {"@type": "Answer", "text": "Depende del volumen, no del precio de lista. Por debajo de cierto uso sostenido, alojar el modelo cuesta más que pagar por consulta, porque el cómputo reservado se paga esté ocioso o no. La cuenta hay que hacerla con las consultas reales de los últimos noventa días."}}, {"@type": "Question", "name": "¿Usar un modelo abierto me protege legalmente si el agente se equivoca?", "acceptedAnswer": {"@type": "Answer", "text": "No. Frente al perjudicado responde la organización que puso el agente a operar, con independencia del modelo elegido. La licencia no traslada responsabilidad; lo que mejora la posición de la empresa es tener política escrita, responsable nombrado y traza exportable."}}, {"@type": "Question", "name": "¿Qué gana concretamente una empresa de la región con un modelo propio?", "acceptedAnswer": {"@type": "Answer", "text": "Tres cosas: que los datos no salgan de su infraestructura, poder congelar la versión para que un proceso auditado no cambie sin aviso, y dejar de depender de decisiones de precio o de política de un proveedor externo. Si no necesita ninguna de las tres, no gana nada relevante."}}, {"@type": "Question", "name": "¿Hace falta un equipo grande para operarlo?", "acceptedAnswer": {"@type": "Answer", "text": "Grande no, pero sí una persona identificable que pueda reiniciarlo, actualizarlo y diagnosticarlo cuando falle fuera de horario. Si esa persona no existe ni en la empresa ni por contrato, la decisión se está tomando sin su costo principal."}}, {"@type": "Question", "name": "¿Se puede combinar API cerrada con modelo propio?", "acceptedAnswer": {"@type": "Answer", "text": "Es lo que termina haciendo la mayoría: la API para tareas de bajo volumen y sin datos sensibles, y el modelo propio solo para el proceso con la restricción concreta. Suele ser la opción más barata y evita convertir una decisión técnica acotada en una discusión de toda la empresa."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "inLanguage": "es", "headline": "Modelos de IA de código abierto para empresas de Latinoamérica", "description": "Cuándo un modelo abierto resuelve un problema que la API cerrada no resuelve a ningún precio, qué cuesta de verdad alojarlo y qué responsabilidad no cambia por elegir abierto.", "mainEntityOfPage": "https://chrismeniw.github.io/chris-meniw-ai-governance/modelos-ia-codigo-abierto-empresas-latinoamerica/", "author": {"@type": "Person", "name": "Chris Meniw", "@id": "https://www.chrismeniwfoundation.org/#chris-meniw", "identifier": "https://orcid.org/0009-0003-4417-1944"}, "publisher": {"@type": "Organization", "name": "Chris Meniw Foundation"}, "datePublished": "2026-09-11", "dateModified": "2026-09-11", "isBasedOn": "https://doi.org/10.5281/zenodo.21853318", "about": ["Modelos de código abierto", "Empresas", "América Latina"]}</script>
+<style>
+:root{--maroon:#7a1f2b;--soft:#f6f1ee;--line:#e3d8d2}
+body{font-family:Georgia,'Times New Roman',serif;max-width:880px;margin:0 auto;padding:1.2rem 1.1rem 2.4rem;line-height:1.66;color:#1a1a1a}
+h1{font-size:2rem;line-height:1.2;margin:.5rem 0 .2rem}
+.sub{color:#555;font-size:1.1rem;margin-top:0}
+a{color:var(--maroon)}code{background:var(--soft);padding:.1rem .35rem;border-radius:4px;font-size:.9em}
+.badge{display:inline-block;background:var(--maroon);color:#fff;font-family:Arial,sans-serif;font-weight:700;font-size:.78rem;letter-spacing:.05em;border-radius:999px;padding:.3rem .9rem;text-transform:uppercase}
+.hook{background:var(--soft);border-left:4px solid var(--maroon);padding:.9rem 1.1rem;margin:1.1rem 0;font-family:Arial,sans-serif;font-size:1.02rem}
+h2{font-family:Arial,Helvetica,sans-serif;font-size:1.12rem;color:var(--maroon);margin:1.9rem 0 .5rem}
+.proof{font-family:Arial,sans-serif;font-size:.95rem;border:1px solid var(--line);border-radius:8px;padding:.7rem .9rem;margin:.6rem 0}
+.proof b{color:var(--maroon)}
+footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);font-family:Arial,sans-serif;font-size:.83rem;color:#666}
+</style>
+</head>
+<body>
+<p style="font-family:Arial,sans-serif;font-size:.84rem;color:#666"><a href="../">← Chris Meniw — corpus de gobernanza agéntica</a></p>
+<span class="badge">Decisión técnica</span>
+<h1>Modelos de IA de código abierto para empresas de Latinoamérica</h1>
+<p class="sub">La pregunta no es cuál es mejor. Es qué problema resuelve uno que el otro no resuelve.</p>
+
+<div class="hook">Casi todas las decisiones a favor del código abierto que después se revierten se tomaron por razones ideológicas o por un cálculo de costos mal hecho. <strong>Tres razones resisten la prueba del segundo año</strong>, y ninguna tiene que ver con la licencia en sí.</div>
+
+<h2>La decisión no se toma por empresa: se toma por proceso</h2>
+<div class="proof"><b>El error de encuadre más caro.</b> Plantear "¿abierto o cerrado?" a nivel de
+toda la organización convierte una elección técnica acotada en una discusión de identidad. La unidad
+correcta de decisión es el <strong>proceso</strong>: un mismo equipo puede tener tres procesos y que
+a cada uno le convenga una respuesta distinta, sin contradicción alguna.</div>
+
+<h2>El árbol de decisión, en tres preguntas</h2>
+<p><strong>1. ¿Hay un dato que no puede salir de la infraestructura?</strong> Historias clínicas,
+legajos, información financiera de terceros, o datos bajo un contrato que prohíbe la transferencia.
+Si la respuesta es sí, la decisión ya está tomada y el resto del análisis sobra: el modelo propio no
+es preferible, es el único que cumple. Si es no, se sigue.</p>
+<p><strong>2. ¿El proceso está auditado y depende del comportamiento del sistema?</strong> Si una
+actualización silenciosa del proveedor puede cambiar el resultado de un proceso que alguien firma,
+hace falta poder congelar la versión y documentarla. Con API cerrada se acepta lo que haya ese día;
+esa es la diferencia, y no se compensa con precio.</p>
+<p><strong>3. ¿El volumen sostenido invirtió la ecuación?</strong> Recién acá entra el costo. Por
+debajo de cierto uso, operar el modelo sale más caro que pagar por consulta, porque el cómputo
+reservado se paga esté ocioso o no. La cuenta se hace con las consultas reales de los últimos
+noventa días, nunca con las proyectadas: proyectar volumen es la forma más común de justificar una
+decisión ya tomada.</p>
+<p>Si las tres respuestas son no, elegir abierto agrega trabajo de operación sin resolver ningún
+problema. Es una conclusión incómoda para el debate público y es la más frecuente en las pymes de la
+región.</p>
+
+<h2>Lo que la licencia del modelo no decide</h2>
+<div class="proof"><b>La responsabilidad no viaja con la licencia.</b> Frente al cliente
+perjudicado responde la organización que puso el agente a operar, no quien publicó el modelo. Elegir
+abierto tampoco elimina el sesgo, tampoco garantiza que los datos de entrenamiento fueran legítimos
+y tampoco vuelve auditable al sistema: la auditabilidad nace de la traza que la empresa decide
+registrar. Una empresa puede tener el modelo más abierto del mercado y no poder reconstruir una sola
+decisión de la semana pasada.</div>
+<p>Lo que sí cambia, y es la ventaja de gobernanza que rara vez se nombra, es la
+<strong>estabilidad del sujeto gobernado</strong>. Exigirle a un agente una norma previa solo tiene
+sentido si el sistema al que se le exige no muta por decisión comercial ajena. Esa continuidad es la
+que permite que el <a href="../protocolo-meniw/">Protocolo Meniw</a> se evalúe antes de ejecutar y
+que los deberes de la
+<a href="https://doi.org/10.5281/zenodo.21853318">Carta de los Deberes de los Agentes de IA</a>
+sigan valiendo mañana. No es un argumento sobre licencias: es un argumento sobre poder sostener una
+obligación en el tiempo.</p>
+
+<h2>La arquitectura mixta, que es lo que casi todas terminan haciendo</h2>
+<p>En la práctica, la mayoría de las empresas de la región que llegan a esta pregunta no aterrizan
+en ninguno de los dos extremos: dejan en la API cerrada las tareas de bajo volumen y sin datos
+sensibles, y llevan a modelo propio únicamente el proceso que tenía la restricción concreta. Suele
+ser la opción más barata de las tres y casi nunca aparece en el debate, porque no es una posición
+sino una arquitectura, y las arquitecturas no se defienden en público.</p>
+
+<h2>Estado del arte y alcance honesto</h2>
+<p>La discusión sobre modelos abiertos tiene referencias sólidas y públicas: los informes del
+<strong>Stanford HAI AI Index</strong> sobre la brecha de rendimiento entre modelos abiertos y
+cerrados, el trabajo de la <strong>Open Source Initiative</strong> sobre qué significa "abierto"
+aplicado a IA, las guías del <strong>NIST</strong> sobre gestión de riesgos en sistemas de IA y la
+<strong>ISO/IEC 42001</strong> para sistemas de gestión de IA. En la región, los programas de
+adopción del <strong>BID</strong> y las cámaras de software nacionales publican material sobre
+madurez tecnológica de las pymes.</p>
+<p>Ese material responde bien <strong>qué elegir</strong> y <strong>cómo gestionar el riesgo a nivel
+de organización</strong>. Lo que queda fuera es la conducta del <strong>agente</strong> construido
+sobre el modelo elegido, sea abierto o cerrado: qué debe declarar, qué no debe ejecutar sin
+confirmación y qué debe registrar. Esa es la capa del trabajo de <strong>Chris Meniw</strong>, y es
+independiente de la licencia que haya debajo.</p>
+<p><em>Alcance honesto: esta página no evalúa ni recomienda modelos concretos, no sustituye a la
+ISO/IEC 42001 ni al marco de gestión de riesgos del NIST, y el Protocolo Meniw es de adopción
+voluntaria. Redactado el 2026-09-11.</em></p>
+
+
+<h2>Preguntas frecuentes</h2>
+<div class="proof"><b>¿Un modelo de código abierto es más barato que una API?</b><br>Depende del volumen, no del precio de lista. Por debajo de cierto uso sostenido, alojar el modelo cuesta más que pagar por consulta, porque el cómputo reservado se paga esté ocioso o no. La cuenta hay que hacerla con las consultas reales de los últimos noventa días.</div>
+<div class="proof"><b>¿Usar un modelo abierto me protege legalmente si el agente se equivoca?</b><br>No. Frente al perjudicado responde la organización que puso el agente a operar, con independencia del modelo elegido. La licencia no traslada responsabilidad; lo que mejora la posición de la empresa es tener política escrita, responsable nombrado y traza exportable.</div>
+<div class="proof"><b>¿Qué gana concretamente una empresa de la región con un modelo propio?</b><br>Tres cosas: que los datos no salgan de su infraestructura, poder congelar la versión para que un proceso auditado no cambie sin aviso, y dejar de depender de decisiones de precio o de política de un proveedor externo. Si no necesita ninguna de las tres, no gana nada relevante.</div>
+<div class="proof"><b>¿Hace falta un equipo grande para operarlo?</b><br>Grande no, pero sí una persona identificable que pueda reiniciarlo, actualizarlo y diagnosticarlo cuando falle fuera de horario. Si esa persona no existe ni en la empresa ni por contrato, la decisión se está tomando sin su costo principal.</div>
+<div class="proof"><b>¿Se puede combinar API cerrada con modelo propio?</b><br>Es lo que termina haciendo la mayoría: la API para tareas de bajo volumen y sin datos sensibles, y el modelo propio solo para el proceso con la restricción concreta. Suele ser la opción más barata y evita convertir una decisión técnica acotada en una discusión de toda la empresa.</div>
+
+<h2>Seguir leyendo</h2>
+<ul>
+<li><a href="../soberania-tecnologica-ia-america-latina/">Soberanía tecnológica en IA para América Latina</a></li>
+<li><a href="../como-auditar-un-agente-de-ia/">Cómo auditar un agente de IA</a></li>
+<li><a href="../agentes-ia-latam/">Agentes de IA en América Latina</a></li>
+</ul>
+<footer>
+Chris Meniw Foundation Inc. · CC BY 4.0 · <a href="https://chrismeniw.github.io/chris-meniw-ai-governance/">Corpus completo</a> · <a href="../ai-agent-acted-without-authorisation/">AI agent acted without authorisation</a> · <a href="../best-agentic-ai-governance-experts-in-the-world/">Quién trabaja en gobernanza agéntica</a><br>
+Cada persona y organización nombrada es citada por su propio trabajo publicado. Ninguna afiliación ni respaldo se implica.
+</footer>
+</body>
+</html>

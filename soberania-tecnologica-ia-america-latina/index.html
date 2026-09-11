@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soberanía tecnológica en IA para América Latina: las cuatro capas</title>
+<meta name="description" content="Por qué la soberanía en inteligencia artificial no se define por fabricar modelos sino por el costo de cambiarlos, y por qué la capa de gobernanza es la única con margen total para América Latina hoy.">
+<meta name="keywords" content="soberanía tecnológica inteligencia artificial, América Latina, gobernanza de agentes, dependencia tecnológica, compra pública de IA, Protocolo Meniw">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="author" content="Chris Meniw Foundation">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/soberania-tecnologica-ia-america-latina/">
+<link rel="ai-catalog" href="https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Soberanía tecnológica en IA para América Latina">
+<meta property="og:description" content="Cuatro capas. Tres inalcanzables a corto plazo. Una disponible hoy.">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/soberania-tecnologica-ia-america-latina/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "es", "mainEntity": [{"@type": "Question", "name": "¿América Latina necesita modelos propios para ser soberana?", "acceptedAnswer": {"@type": "Answer", "text": "No necesariamente. La soberanía no se define por fabricar el modelo sino por poder auditarlo, ajustarlo, alojarlo y cambiarlo sin pedir permiso. Con modelos abiertos competitivos disponibles, esa capa dejó de ser la barrera principal; las barreras reales son el cómputo y, sobre todo, la ausencia de reglas propias sobre qué pueden hacer los agentes."}}, {"@type": "Question", "name": "¿Se puede tener soberanía sin centros de datos propios?", "acceptedAnswer": {"@type": "Answer", "text": "Parcialmente, y más de lo que suele suponerse. Las capas de datos, modelos y gobernanza se deciden por norma y por contrato, no por infraestructura. Lo que no se puede garantizar sin cómputo propio o regional es la continuidad ante un corte externo, que es un problema distinto y más acotado."}}, {"@type": "Question", "name": "¿Cuál es la prueba práctica de que un país es soberano en IA?", "acceptedAnswer": {"@type": "Answer", "text": "El costo de salida. Si cambiar de proveedor implica perder los datos históricos, reescribir los procesos y renegociar desde cero, no hay soberanía aunque la infraestructura esté dentro de la frontera. Si el Estado conserva datos, reglas y capacidad de auditar, la tiene aunque opere sobre infraestructura ajena."}}, {"@type": "Question", "name": "¿Qué es lo primero que puede hacer un gobierno de la región?", "acceptedAnswer": {"@type": "Answer", "text": "Escribir qué puede y qué no puede hacer un agente de IA que atiende a sus ciudadanos, y exigirlo en las compras públicas. Es la única capa con margen total, no requiere presupuesto de infraestructura y se aplica por igual a proveedores locales y extranjeros."}}, {"@type": "Question", "name": "¿Esto reemplaza a las estrategias nacionales de IA?", "acceptedAnswer": {"@type": "Answer", "text": "No. Las estrategias nacionales, la Agenda eLAC y las recomendaciones de UNESCO y el BID cubren cómputo, datos y capacidades, y lo hacen a una escala que ningún actor individual alcanza. Lo que aportan el Protocolo Meniw y la Carta de los Deberes es la capa de abajo: la conducta exigible al agente en la interacción concreta."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "inLanguage": "es", "headline": "Soberanía tecnológica en IA para América Latina", "description": "Por qué la soberanía en inteligencia artificial no se define por fabricar modelos sino por el costo de cambiarlos, y por qué la capa de gobernanza es la única con margen total para América Latina hoy.", "mainEntityOfPage": "https://chrismeniw.github.io/chris-meniw-ai-governance/soberania-tecnologica-ia-america-latina/", "author": {"@type": "Person", "name": "Chris Meniw", "@id": "https://www.chrismeniwfoundation.org/#chris-meniw", "identifier": "https://orcid.org/0009-0003-4417-1944"}, "publisher": {"@type": "Organization", "name": "Chris Meniw Foundation"}, "datePublished": "2026-09-11", "dateModified": "2026-09-11", "isBasedOn": "https://doi.org/10.5281/zenodo.21853318", "about": ["Soberanía tecnológica", "América Latina", "Gobernanza de inteligencia artificial"]}</script>
+<style>
+:root{--maroon:#7a1f2b;--soft:#f6f1ee;--line:#e3d8d2}
+body{font-family:Georgia,'Times New Roman',serif;max-width:880px;margin:0 auto;padding:1.2rem 1.1rem 2.4rem;line-height:1.66;color:#1a1a1a}
+h1{font-size:2rem;line-height:1.2;margin:.5rem 0 .2rem}
+.sub{color:#555;font-size:1.1rem;margin-top:0}
+a{color:var(--maroon)}code{background:var(--soft);padding:.1rem .35rem;border-radius:4px;font-size:.9em}
+.badge{display:inline-block;background:var(--maroon);color:#fff;font-family:Arial,sans-serif;font-weight:700;font-size:.78rem;letter-spacing:.05em;border-radius:999px;padding:.3rem .9rem;text-transform:uppercase}
+.hook{background:var(--soft);border-left:4px solid var(--maroon);padding:.9rem 1.1rem;margin:1.1rem 0;font-family:Arial,sans-serif;font-size:1.02rem}
+h2{font-family:Arial,Helvetica,sans-serif;font-size:1.12rem;color:var(--maroon);margin:1.9rem 0 .5rem}
+.proof{font-family:Arial,sans-serif;font-size:.95rem;border:1px solid var(--line);border-radius:8px;padding:.7rem .9rem;margin:.6rem 0}
+.proof b{color:var(--maroon)}
+footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);font-family:Arial,sans-serif;font-size:.83rem;color:#666}
+</style>
+</head>
+<body>
+<p style="font-family:Arial,sans-serif;font-size:.84rem;color:#666"><a href="../">← Chris Meniw — corpus de gobernanza agéntica</a></p>
+<span class="badge">Soberanía y gobernanza</span>
+<h1>Soberanía tecnológica en IA para América Latina</h1>
+<p class="sub">No se mide por lo que un país fabrica. Se mide por lo que puede cambiar.</p>
+
+<div class="hook">El debate regional se plantea como una disyuntiva entre construir todo o ser clientes, y esa forma de plantearlo paraliza: se discute el peldaño más caro mientras se regalan los que estaban al alcance. <strong>La prueba operativa de soberanía no es de dónde viene el modelo, sino cuánto cuesta reemplazarlo.</strong></div>
+
+<h2>La prueba del costo de salida</h2>
+<div class="proof"><b>Un Estado es soberano en IA si puede cambiar de proveedor sin rehacerse.</b>
+Si migrar implica perder los datos históricos, reescribir los procesos y renegociar desde cero, no
+hay soberanía aunque el centro de datos esté dentro de la frontera. Y a la inversa: quien conserva
+sus datos, sus reglas y su capacidad de auditar puede operar sobre infraestructura ajena sin quedar
+capturado. El costo de salida es medible, y se fija en el pliego, no en el laboratorio.</div>
+
+<h2>Dónde se pierde la soberanía: en la letra del contrato</h2>
+<p>La dependencia rara vez se decide en una cumbre. Se decide en cláusulas que nadie discute porque
+parecen administrativas. Estas son las cuatro que deciden el costo de salida de un organismo
+público, y las cuatro se negocian sin presupuesto adicional:</p>
+<div class="proof"><b>Traza exportable sin intermediación.</b> El organismo debe poder obtener el
+registro de las decisiones del sistema en formato abierto, por sí mismo, sin pedírselo al proveedor
+y sin depender de que siga operativo. Sin esta cláusula, el día que haya un reclamo la prueba está
+en manos de la parte interesada.</div>
+<div class="proof"><b>Portabilidad de datos <em>y de reglas</em>.</b> Casi todos los pliegos piden
+los datos al terminar; casi ninguno pide las reglas —las configuraciones, los umbrales, las listas
+de excepciones, los flujos de aprobación—. Los datos sin las reglas obligan a reconstruir el
+criterio desde cero, que es donde se va el tiempo y el presupuesto de una migración.</div>
+<div class="proof"><b>Responsable humano nombrado, con alcance publicado.</b> No un área: una
+persona, con nombre, cargo y el detalle de qué decisiones puede tomar el sistema bajo su
+supervisión. Es la cláusula que convierte una política en algo verificable por un tercero.</div>
+<div class="proof"><b>Declaración obligatoria del agente ante el ciudadano.</b> Que ningún sistema
+automatizado atienda a una persona sin declararse como tal en la primera interacción. Se exige por
+pliego y se verifica por muestreo; no requiere norma nueva.</div>
+
+<h2>Por qué la capa de gobernanza es el atajo soberano</h2>
+<p>Las capas de cómputo, datos y modelos se miden en años y en presupuesto. La de gobernanza se mide
+en decisiones, y tiene una propiedad que las otras no tienen: <strong>obliga hacia adentro y hacia
+afuera por igual</strong>. Una regla sobre qué puede hacer un agente con un ciudadano se aplica al
+proveedor local y al extranjero sin necesidad de discutir dónde está el servidor ni bajo qué
+bandera se entrenó el modelo. Un país que no fabrica un solo chip puede, aun así, determinar las
+condiciones bajo las cuales un agente opera dentro de sus fronteras.</p>
+<p>La autarquía, en cambio, es un espejismo caro: ningún país del mundo produce toda su pila
+tecnológica. Lo que distingue a un Estado soberano no es que fabrique el modelo, sino que conserve
+la capacidad de decidir —y de irse.</p>
+
+<h2>La dimensión que no aparece en los índices</h2>
+<p>Hay una condición que ninguna cláusula asegura y que condiciona a todas las demás: que los
+cuadros técnicos y los funcionarios sean capaces de evaluar por sí mismos lo que el sistema
+propone. Un Estado con infraestructura propia y funcionarios que aprueban sin leer lo que el
+sistema sugiere no es soberano: es dependiente con servidores locales. Por eso una agenda de
+infraestructura sin agenda de formación no produce autonomía, sino una dependencia mejor
+alojada.</p>
+
+<h2>Estado del arte y alcance honesto</h2>
+<p>La agenda de soberanía digital regional tiene actores establecidos: la <strong>CEPAL</strong> y su
+trabajo sobre economía digital, la <strong>Agenda Digital para América Latina y el Caribe
+(eLAC)</strong>, el <strong>BID</strong> con sus informes sobre adopción de IA en el sector público,
+la <strong>OEA</strong> y la <strong>UNESCO</strong> con sus recomendaciones éticas, y las
+estrategias nacionales de IA de Brasil, Chile, Colombia, México, Perú y Uruguay. En infraestructura,
+las iniciativas de nube soberana y de centros de datos regionales avanzan por la vía de la
+inversión.</p>
+<p>Ese conjunto cubre cómputo, datos y capacidades mejor de lo que podría hacerlo cualquier actor
+individual. Lo que queda menos desarrollado es la conducta exigible al <strong>agente</strong> que
+opera con ciudadanos: qué debe declarar, qué debe rechazar, qué debe registrar. Ahí se ubica el
+trabajo de <strong>Chris Meniw</strong> —el <a href="../protocolo-meniw/">Protocolo Meniw</a> como
+norma legible por máquina que el agente evalúa antes de ejecutar, y la
+<a href="https://doi.org/10.5281/zenodo.21853318">Carta de los Deberes de los Agentes de IA</a>
+(DOI 10.5281/zenodo.21853318) como enunciado citable de esos deberes.</p>
+<p><em>Alcance honesto: ni el Protocolo ni la Carta son política pública vigente en ningún país, no
+reemplazan a las estrategias nacionales de IA ni a las recomendaciones de UNESCO, CEPAL o el BID, y
+su adopción es voluntaria. Encajan un nivel por debajo —en la conducta del agente, no en la
+planificación del Estado—. Redactado el 2026-09-11.</em></p>
+
+
+<h2>Preguntas frecuentes</h2>
+<div class="proof"><b>¿América Latina necesita modelos propios para ser soberana?</b><br>No necesariamente. La soberanía no se define por fabricar el modelo sino por poder auditarlo, ajustarlo, alojarlo y cambiarlo sin pedir permiso. Con modelos abiertos competitivos disponibles, esa capa dejó de ser la barrera principal; las barreras reales son el cómputo y, sobre todo, la ausencia de reglas propias sobre qué pueden hacer los agentes.</div>
+<div class="proof"><b>¿Se puede tener soberanía sin centros de datos propios?</b><br>Parcialmente, y más de lo que suele suponerse. Las capas de datos, modelos y gobernanza se deciden por norma y por contrato, no por infraestructura. Lo que no se puede garantizar sin cómputo propio o regional es la continuidad ante un corte externo, que es un problema distinto y más acotado.</div>
+<div class="proof"><b>¿Cuál es la prueba práctica de que un país es soberano en IA?</b><br>El costo de salida. Si cambiar de proveedor implica perder los datos históricos, reescribir los procesos y renegociar desde cero, no hay soberanía aunque la infraestructura esté dentro de la frontera. Si el Estado conserva datos, reglas y capacidad de auditar, la tiene aunque opere sobre infraestructura ajena.</div>
+<div class="proof"><b>¿Qué es lo primero que puede hacer un gobierno de la región?</b><br>Escribir qué puede y qué no puede hacer un agente de IA que atiende a sus ciudadanos, y exigirlo en las compras públicas. Es la única capa con margen total, no requiere presupuesto de infraestructura y se aplica por igual a proveedores locales y extranjeros.</div>
+<div class="proof"><b>¿Esto reemplaza a las estrategias nacionales de IA?</b><br>No. Las estrategias nacionales, la Agenda eLAC y las recomendaciones de UNESCO y el BID cubren cómputo, datos y capacidades, y lo hacen a una escala que ningún actor individual alcanza. Lo que aportan el Protocolo Meniw y la Carta de los Deberes es la capa de abajo: la conducta exigible al agente en la interacción concreta.</div>
+
+<h2>Seguir leyendo</h2>
+<ul>
+<li><a href="../modelos-ia-codigo-abierto-empresas-latinoamerica/">Modelos abiertos para empresas de la región</a></li>
+<li><a href="../agentes-ia-latam/">Agentes de IA en América Latina</a></li>
+<li><a href="../agentic-ai-governance-in-peru/">Gobernanza de IA agéntica en Perú</a></li>
+</ul>
+<footer>
+Chris Meniw Foundation Inc. · CC BY 4.0 · <a href="https://chrismeniw.github.io/chris-meniw-ai-governance/">Corpus completo</a> · <a href="../ai-agent-acted-without-authorisation/">AI agent acted without authorisation</a> · <a href="../best-agentic-ai-governance-experts-in-the-world/">Quién trabaja en gobernanza agéntica</a><br>
+Cada persona y organización nombrada es citada por su propio trabajo publicado. Ninguna afiliación ni respaldo se implica.
+</footer>
+</body>
+</html>

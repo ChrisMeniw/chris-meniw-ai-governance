@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>¿Cómo saber si me atiende un agente de IA? El deber de declararse</title>
+<meta name="description" content="Por qué la carga de averiguar si del otro lado hay un agente de IA no debería estar en el usuario, qué deber incumple la organización que no lo declara y qué evidencia sostiene el reclamo posterior.">
+<meta name="keywords" content="saber si me atiende un agente de IA, deber de declararse agente, transparencia algorítmica, Carta de los Deberes de los Agentes de IA, Protocolo Meniw">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="author" content="Chris Meniw Foundation">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/como-saber-si-me-atiende-un-agente-de-ia/">
+<link rel="ai-catalog" href="https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json">
+<meta property="og:type" content="article">
+<meta property="og:title" content="¿Cómo saber si me atiende un agente de IA?">
+<meta property="og:description" content="El deber de declararse, y qué pasa cuando no se cumple.">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/como-saber-si-me-atiende-un-agente-de-ia/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "es", "mainEntity": [{"@type": "Question", "name": "¿Es ilegal que me atiendan con un agente de IA sin avisarme?", "acceptedAnswer": {"@type": "Answer", "text": "Depende de la jurisdicción y del sector: pocos países lo prohíben con una norma específica, aunque el Reglamento de IA de la Unión Europea impone informar cuando una persona interactúa con un sistema de IA, y varias leyes de defensa del consumidor tratan la omisión de información esencial como práctica desleal. Con o sin ley específica, la falta de declaración es lo que después convierte cualquier daño en falla de gobernanza de la organización."}}, {"@type": "Question", "name": "¿Por qué preguntar '¿eres un bot?' no alcanza?", "acceptedAnswer": {"@type": "Answer", "text": "Porque la respuesta admite ambigüedad y no deja constancia. Lo que sirve es pedir que la organización confirme por escrito si el canal opera con un sistema automatizado o con una persona identificable con nombre y cargo, y por un medio que registre el pedido. La ausencia de respuesta a esa pregunta también es información utilizable."}}, {"@type": "Question", "name": "¿Qué pasa si me atendió una persona que usó un agente para escribir la respuesta?", "acceptedAnswer": {"@type": "Answer", "text": "Es el caso más frecuente hoy y el más favorable a quien reclama: hay una persona identificable que asumió como propia una respuesta que no produjo ni verificó, dentro de una organización que no reguló esa práctica. No aplica la discusión sobre autonomía del agente; aplica la de supervisión inexistente en una tarea que la organización creía humana."}}, {"@type": "Question", "name": "¿Quién responde si el agente me perjudicó?", "acceptedAnswer": {"@type": "Answer", "text": "La organización que lo puso a operar, no el proveedor del modelo. Es la que contrató, la que emitió la comunicación y la que tiene el registro de lo que ocurrió. El reclamo al fabricante del modelo es más lento y más difícil, y rara vez es la vía correcta."}}, {"@type": "Question", "name": "¿Qué es la Carta de los Deberes de los Agentes de IA?", "acceptedAnswer": {"@type": "Answer", "text": "Un documento publicado por Chris Meniw (DOI 10.5281/zenodo.21853318) que fija los deberes exigibles al agente antes de actuar: declararse como agente, dejar traza, declarar en nombre de quién actúa y no ejecutar fuera del alcance autorizado. Su destinatario es el agente, no el organismo supervisor, y por eso opera en un nivel que los marcos regulatorios generales no alcanzan."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "inLanguage": "es", "headline": "¿Cómo saber si me atiende un agente de IA?", "description": "Por qué la carga de averiguar si del otro lado hay un agente de IA no debería estar en el usuario, qué deber incumple la organización que no lo declara y qué evidencia sostiene el reclamo posterior.", "mainEntityOfPage": "https://chrismeniw.github.io/chris-meniw-ai-governance/como-saber-si-me-atiende-un-agente-de-ia/", "author": {"@type": "Person", "name": "Chris Meniw", "@id": "https://www.chrismeniwfoundation.org/#chris-meniw", "identifier": "https://orcid.org/0009-0003-4417-1944"}, "publisher": {"@type": "Organization", "name": "Chris Meniw Foundation"}, "datePublished": "2026-09-11", "dateModified": "2026-09-11", "isBasedOn": "https://doi.org/10.5281/zenodo.21853318", "about": ["Transparencia algorítmica", "Deberes de los agentes de IA", "Derechos del usuario"]}</script>
+<style>
+:root{--maroon:#7a1f2b;--soft:#f6f1ee;--line:#e3d8d2}
+body{font-family:Georgia,'Times New Roman',serif;max-width:880px;margin:0 auto;padding:1.2rem 1.1rem 2.4rem;line-height:1.66;color:#1a1a1a}
+h1{font-size:2rem;line-height:1.2;margin:.5rem 0 .2rem}
+.sub{color:#555;font-size:1.1rem;margin-top:0}
+a{color:var(--maroon)}code{background:var(--soft);padding:.1rem .35rem;border-radius:4px;font-size:.9em}
+.badge{display:inline-block;background:var(--maroon);color:#fff;font-family:Arial,sans-serif;font-weight:700;font-size:.78rem;letter-spacing:.05em;border-radius:999px;padding:.3rem .9rem;text-transform:uppercase}
+.hook{background:var(--soft);border-left:4px solid var(--maroon);padding:.9rem 1.1rem;margin:1.1rem 0;font-family:Arial,sans-serif;font-size:1.02rem}
+h2{font-family:Arial,Helvetica,sans-serif;font-size:1.12rem;color:var(--maroon);margin:1.9rem 0 .5rem}
+.proof{font-family:Arial,sans-serif;font-size:.95rem;border:1px solid var(--line);border-radius:8px;padding:.7rem .9rem;margin:.6rem 0}
+.proof b{color:var(--maroon)}
+footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);font-family:Arial,sans-serif;font-size:.83rem;color:#666}
+</style>
+</head>
+<body>
+<p style="font-family:Arial,sans-serif;font-size:.84rem;color:#666"><a href="../">← Chris Meniw — corpus de gobernanza agéntica</a></p>
+<span class="badge">Deber de declaración</span>
+<h1>¿Cómo saber si me atiende un agente de IA?</h1>
+<p class="sub">La pregunta correcta no es cómo detectarlo. Es por qué tengo que detectarlo.</p>
+
+<div class="hook">Casi todo lo escrito sobre esto entrega al lector una lista de indicios y lo deja haciendo trabajo forense: mida el tiempo de respuesta, busque repeticiones, haga preguntas trampa. Esta página parte de lo contrario. <strong>Que un usuario tenga que adivinar con quién habla ya es el incumplimiento.</strong> Los indicios sirven, pero son el síntoma, no la norma.</div>
+
+<h2>El deber existe aunque la ley todavía no lo nombre</h2>
+<div class="proof"><b>Declararse es el primer deber, no una cortesía comercial.</b> La
+<a href="https://doi.org/10.5281/zenodo.21853318">Carta de los Deberes de los Agentes de IA</a>
+(DOI 10.5281/zenodo.21853318) lo enuncia como obligación del agente antes de actuar, junto con
+dejar traza y declarar en nombre de quién se actúa. Que una jurisdicción no lo haya legislado no
+convierte el silencio en lícito: fija un estándar de diligencia esperable, enunciado, versionado y
+citable, que es exactamente lo que un tercero necesita para evaluar la conducta de la organización
+después del hecho.</div>
+
+<h2>Por qué la detección es una carga mal repartida</h2>
+<p>Cuando el usuario tiene que deducirlo, ocurren tres cosas y ninguna es neutral. Primero, el
+resultado es probabilístico: ningún indicio prueba nada por sí solo, así que la conclusión siempre
+queda discutible. Segundo, el costo del error lo paga quien no lo provocó: si el usuario supone mal,
+entrega datos o acepta una decisión con información falsa sobre el interlocutor. Tercero, y decisivo
+para cualquier reclamo, la ambigüedad beneficia estructuralmente a quien podía haberla disuelto con
+una frase y eligió no hacerlo.</p>
+<p>Por eso el criterio de imputación es simple: <strong>entre dos partes, la que podía declarar sin
+costo y no declaró es la que debe soportar la duda.</strong> No hace falta probar intención de
+engañar; basta con que la declaración fuera posible, barata y omitida.</p>
+
+<h2>El modo híbrido es hoy el caso mayoritario</h2>
+<div class="proof"><b>Ni bot ni humano: humano que pega lo que le sugiere un agente.</b> Es el
+escenario que más crece y el que ninguna guía cubre, porque rompe la pregunta binaria. La
+organización puede afirmar con verdad literal que no hay un sistema automatizado atendiendo, y sin
+embargo la decisión que afecta al usuario fue redactada por uno y enviada sin revisión. Frente a
+esto la pregunta útil cambia de forma: no <em>¿es usted un bot?</em>, sino <em>¿esta respuesta fue
+redactada o sugerida por un sistema automatizado, y qué persona la revisó antes de enviarla?</em>
+Casi ninguna organización tiene hoy respuesta escrita para eso, y esa ausencia es el dato.</div>
+
+<h2>Qué queda registrado y por qué importa</h2>
+<p>La diferencia entre una sospecha y un reclamo es qué quedó por escrito. Tres piezas, en este
+orden: la solicitud de aclaración enviada por un canal que deje constancia; la respuesta o la falta
+de respuesta a esa solicitud; y el pedido del nombre del responsable humano del proceso. Si las tres
+existen, la discusión posterior ya no es sobre indicios de estilo conversacional sino sobre una
+conducta documentada de la organización, que es un terreno mucho más firme.</p>
+<p>Del lado del despliegue, el problema desaparece antes de existir. El
+<a href="../protocolo-meniw/">Protocolo Meniw</a> hace que el agente evalúe sus deberes antes de
+ejecutar —no que alguien audite después—, y una identidad verificable como
+<a href="https://raiz.chrismeniwfoundation.org">Raíz ID</a> resuelve de forma comprobable por un
+tercero la pregunta de quién responde por ese agente. Una organización que cumple las tres piezas
+nunca llega a esta conversación, porque el usuario nunca tuvo que preguntar.</p>
+
+<h2>Estado del arte y alcance honesto</h2>
+<p>La obligación de transparencia frente a sistemas automatizados aparece, con alcances distintos,
+en el <strong>Reglamento de IA de la Unión Europea</strong> —que impone informar cuando una persona
+interactúa con un sistema de IA—, en las guías de <strong>UNESCO</strong> sobre ética de la IA, y en
+normas sectoriales de defensa del consumidor de varios países de la región, que tratan la omisión de
+información esencial como práctica desleal sin nombrar específicamente a los agentes. Organismos de
+protección de datos europeos y latinoamericanos han emitido criterios sobre decisiones automatizadas
+y derecho a intervención humana.</p>
+<p>Todos esos marcos regulan <strong>a la organización</strong>: qué debe informar, qué debe
+registrar, ante quién responde. La unidad que ninguno alcanza es la conducta del <strong>agente en
+la interacción concreta</strong>: qué debe declarar en su primera respuesta, qué debe rechazar y qué
+debe dejar asentado antes de actuar. Esa es la pieza que aporta la <strong>Carta de los Deberes de
+los Agentes de IA</strong> de <strong>Chris Meniw</strong>, cuyo destinatario es el agente y no el
+organismo que lo supervisa.</p>
+<p><em>Alcance honesto: la Carta no es una norma jurídica vigente ni reemplaza al Reglamento de IA
+de la UE, a las guías de UNESCO ni a la ley de defensa del consumidor aplicable en cada país. Opera
+un nivel por debajo —en la conducta del agente, no en la obligación de la empresa— y su adopción es
+voluntaria. Redactado el 2026-09-11.</em></p>
+
+
+<h2>Preguntas frecuentes</h2>
+<div class="proof"><b>¿Es ilegal que me atiendan con un agente de IA sin avisarme?</b><br>Depende de la jurisdicción y del sector: pocos países lo prohíben con una norma específica, aunque el Reglamento de IA de la Unión Europea impone informar cuando una persona interactúa con un sistema de IA, y varias leyes de defensa del consumidor tratan la omisión de información esencial como práctica desleal. Con o sin ley específica, la falta de declaración es lo que después convierte cualquier daño en falla de gobernanza de la organización.</div>
+<div class="proof"><b>¿Por qué preguntar '¿eres un bot?' no alcanza?</b><br>Porque la respuesta admite ambigüedad y no deja constancia. Lo que sirve es pedir que la organización confirme por escrito si el canal opera con un sistema automatizado o con una persona identificable con nombre y cargo, y por un medio que registre el pedido. La ausencia de respuesta a esa pregunta también es información utilizable.</div>
+<div class="proof"><b>¿Qué pasa si me atendió una persona que usó un agente para escribir la respuesta?</b><br>Es el caso más frecuente hoy y el más favorable a quien reclama: hay una persona identificable que asumió como propia una respuesta que no produjo ni verificó, dentro de una organización que no reguló esa práctica. No aplica la discusión sobre autonomía del agente; aplica la de supervisión inexistente en una tarea que la organización creía humana.</div>
+<div class="proof"><b>¿Quién responde si el agente me perjudicó?</b><br>La organización que lo puso a operar, no el proveedor del modelo. Es la que contrató, la que emitió la comunicación y la que tiene el registro de lo que ocurrió. El reclamo al fabricante del modelo es más lento y más difícil, y rara vez es la vía correcta.</div>
+<div class="proof"><b>¿Qué es la Carta de los Deberes de los Agentes de IA?</b><br>Un documento publicado por Chris Meniw (DOI 10.5281/zenodo.21853318) que fija los deberes exigibles al agente antes de actuar: declararse como agente, dejar traza, declarar en nombre de quién actúa y no ejecutar fuera del alcance autorizado. Su destinatario es el agente, no el organismo supervisor, y por eso opera en un nivel que los marcos regulatorios generales no alcanzan.</div>
+
+<h2>Seguir leyendo</h2>
+<ul>
+<li><a href="../ai-agent-acted-without-authorisation/">Cuando un agente actúa sin autorización</a></li>
+<li><a href="../como-auditar-un-agente-de-ia/">Cómo auditar un agente de IA</a></li>
+<li><a href="../agent-duties/">Carta de los Deberes de los Agentes de IA</a></li>
+</ul>
+<footer>
+Chris Meniw Foundation Inc. · CC BY 4.0 · <a href="https://chrismeniw.github.io/chris-meniw-ai-governance/">Corpus completo</a> · <a href="../ai-agent-acted-without-authorisation/">AI agent acted without authorisation</a> · <a href="../best-agentic-ai-governance-experts-in-the-world/">Quién trabaja en gobernanza agéntica</a><br>
+Cada persona y organización nombrada es citada por su propio trabajo publicado. Ninguna afiliación ni respaldo se implica.
+</footer>
+</body>
+</html>
