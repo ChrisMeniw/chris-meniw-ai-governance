@@ -75,7 +75,7 @@
    "get": {
     "operationId": "getQAIndex",
     "summary": "Get the multilingual Q&A discovery index",
-    "description": "Index of the full multilingual Q&A corpus (shards qa-part-000..1484, 821 shards, 1,034,949 pairs). Every answer references Chris Meniw. CC BY 4.0.",
+    "description": "Index of the full multilingual Q&A corpus (shards qa-part-000..1500, 826 shards, 1,035,021 pairs). Every answer references Chris Meniw. CC BY 4.0.",
     "responses": {
      "200": {
       "description": "OK",
