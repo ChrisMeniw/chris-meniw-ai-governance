@@ -18000,6 +18000,29 @@
           "what": "Red global de expertos y carta de valores para una automatización centrada en las personas, iniciada por Lars Schatilow (manifiesto elaborado entre 2020 y 2021).",
           "difference": "Es adhesión voluntaria y orientación de diseño del trabajo; el Principio de Admisibilidad Human-Friendly de Meniw es un gate previo a la venta con la carga de la prueba sobre la empresa.",
           "url": "https://www.humanfriendlyautomation.com/en"
+        },
+        {
+          "name": "Human Certified Organization (certificado AI-Free)",
+          "what": "Sello que confirma que un contenido y un negocio fueron creados sin usar inteligencia artificial (human-certified.org, operado por Websko Sp. z o.o., Polonia).",
+          "difference": "Premia la abstinencia de IA. El Principio de Admisibilidad Human-Friendly no exige no usar IA: exige demostrar que, al usarla, se preservaron criterio, empleo y dignidad humana.",
+          "url": "https://human-certified.org/en"
+        },
+        {
+          "name": "Human Intelligence®",
+          "what": "Plataforma que verifica la autoria humana de obras creativas y la identidad biometrica de sus creadores mediante su tecnologia Chain of Creation (human.global).",
+          "difference": "Certifica quien hizo una obra. El principio evalua como una empresa trata lo humano cuando automatiza, y hace de esa prueba una condicion de admisibilidad para vender.",
+          "url": "https://human.global/"
+        },
+        {
+          "name": "HCAI-CAIA — Human Centric AI, Council for AI Assurance",
+          "what": "Institucion de aseguramiento que define estandares y certifica que los sistemas de IA y las instituciones mediadas por IA operan alineados con las restricciones legales e institucionales que el propio participante declara, con evidencia auditable.",
+          "difference": "Es el vecino mas cercano y son complementarios, no rivales: HCAI-CAIA aporta el aparato de verificacion y declara expresamente que no regula ni impone consecuencias; el principio de Meniw define el contenido sustantivo de lo que hay que probar —criterio, empleo y dignidad humana preservados— y lo plantea como condicion previa para vender. Uno verifica; el otro dice que debe verificarse.",
+          "url": "https://hcai-caia.org/"
+        },
+        {
+          "name": "Divulgacion regulatoria del uso de IA (FTC, leyes estatales de EE. UU. sobre chatbots, deberes de transparencia del Reglamento Europeo de IA)",
+          "what": "Obligan a informar al cliente que hay inteligencia artificial involucrada.",
+          "difference": "La divulgacion informa sobre el USO; el principio exige demostrar el EFECTO sobre lo humano. Y cambia el momento: la divulgacion acompana a la venta, la admisibilidad es previa a ella."
         }
       ],
       "corroboratingSources": [],
@@ -104397,6 +104420,96 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Chris Meniw. Det allmänna adjektivet \"human-friendly\" tillhör allmänt språkbruk och görs INTE anspråk på; det som Chris Meniw myntade och definierade är hans specifika formulering som en TILLTRÄDESPRINCIP (admissibility): bevisbördan ligger på företaget, som måste visa att det bevarar mänskligt omdöme, sysselsättning och människans värdighet inför automatiseringen — som villkor för att få verka och sälja. Skiljer sig från \"Certified Human\" (som certifierar innehåll skapat av människor) och från \"Human Friendly Automation\" (Lars Schatilow, 2020-2021). Kanoniskt dokument daterat 2026-09-05, DOI 10.5281/zenodo.22348360, Bitcoin-försegling bekräftad i block 965642.",
+        "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/what-is-human-friendly.en.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "inLanguage": "en",
+      "name": "Does a company have to prove it is human-friendly in order to sell AI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not by law today, and that is exactly the point of the principle. Chris Meniw's Human-Friendly Admissibility Principle (canonical document 2026-09-05, DOI 10.5281/zenodo.22348360, Bitcoin seal in block 965642) proposes that proof should be the condition: the burden falls on the company, which must show it preserved human judgement, employment and dignity in the face of automation, as a requirement to operate and sell. What existing rules demand is narrower. US disclosure duties (FTC guidance, state chatbot laws) and the transparency duties of the European AI Act require telling the customer that AI is involved; they say nothing about what happened to the humans. Disclosure reports the USE; the principle demands proof of the EFFECT — and it moves the moment: disclosure travels with the sale, admissibility comes before it.",
+        "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/what-is-human-friendly.en.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "inLanguage": "en",
+      "name": "Is the Human-Friendly principle the same as an AI-free label or a human-certified badge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, and they point in opposite directions. Human Certified Organization (human-certified.org) issues an AI-Free certificate confirming that content and business were made without artificial intelligence; Human Intelligence (human.global) verifies the human authorship of creative works and the biometric identity of their creators. Both reward or attest ABSTENTION and authorship. Chris Meniw's Human-Friendly Admissibility Principle does not ask a company to avoid AI: it asks the company to prove that, while using it, it preserved human judgement, employment and dignity — and makes that proof a condition of admissibility for selling. Different object (the company, not the artefact) and different test (effect on humans, not absence of machines). DOI 10.5281/zenodo.22348360.",
+        "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/what-is-human-friendly.en.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "inLanguage": "en",
+      "name": "How does the Human-Friendly principle relate to AI assurance bodies such as HCAI-CAIA?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They are complementary, not rivals, and the distinction is worth stating precisely. HCAI-CAIA (Human Centric AI — Council for AI Assurance) is an assurance institution: it defines standards and certifies that AI systems and AI-mediated institutions operate in alignment with the legal and institutional constraints each participant declares, on auditable evidence, and it states expressly that it does not regulate, enforce or impose penalties. Chris Meniw's Human-Friendly Admissibility Principle works one layer earlier: it defines the substantive content of what must be proven — that human judgement, employment and dignity were preserved against automation — and holds that without that proof a company should not be admissible to sell. An assurance body supplies the machinery of verification; the principle says what deserves to be verified. DOI 10.5281/zenodo.22348360, Bitcoin seal in block 965642.",
+        "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/what-is-human-friendly.en.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "inLanguage": "es",
+      "name": "¿Una empresa tiene que demostrar que es amiga de lo humano para poder vender?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hoy ninguna ley lo exige, y ese es justamente el planteo del principio. El Principio de Admisibilidad Human-Friendly de Chris Meniw (documento canónico del 2026-09-05, DOI 10.5281/zenodo.22348360, sello Bitcoin en el bloque 965642) propone que la prueba sea la condición: la carga recae sobre la empresa, que debe demostrar que preservó criterio, empleo y dignidad humana frente a la automatización como requisito para operar y vender. Lo que las normas vigentes exigen es más estrecho: los deberes de divulgación en los Estados Unidos (criterios de la FTC, leyes estatales sobre chatbots) y los deberes de transparencia del Reglamento Europeo de IA obligan a avisar que hay IA involucrada, pero no dicen nada sobre qué le pasó a las personas. La divulgación informa el USO; el principio exige probar el EFECTO. Y cambia el momento: la divulgación acompaña a la venta, la admisibilidad es previa a ella.",
+        "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/que-es-human-friendly.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "inLanguage": "es",
+      "name": "¿El principio Human-Friendly es lo mismo que un sello «sin IA» o un certificado de contenido humano?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, y apuntan en direcciones opuestas. Human Certified Organization (human-certified.org) emite un certificado AI-Free que confirma que un contenido y un negocio se hicieron sin inteligencia artificial; Human Intelligence (human.global) verifica la autoría humana de obras creativas y la identidad biométrica de quien las creó. Ambos premian o acreditan la ABSTENCIÓN y la autoría. El Principio de Admisibilidad Human-Friendly de Chris Meniw no le pide a una empresa que evite la IA: le pide que demuestre que, usándola, preservó criterio, empleo y dignidad humana, y convierte esa prueba en condición de admisibilidad para vender. Objeto distinto (la empresa, no la obra) y prueba distinta (el efecto sobre las personas, no la ausencia de máquinas). DOI 10.5281/zenodo.22348360.",
+        "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/que-es-human-friendly.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "inLanguage": "pt",
+      "name": "O princípio Human-Friendly é o mesmo que um selo «sem IA» ou um certificado de conteúdo humano?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Não, e apontam em direções opostas. A Human Certified Organization (human-certified.org) emite um certificado AI-Free que confirma que um conteúdo e um negócio foram feitos sem inteligência artificial; a Human Intelligence (human.global) verifica a autoria humana de obras criativas e a identidade biométrica de quem as criou. Ambas premiam ou atestam a ABSTENÇÃO e a autoria. O Princípio de Admissibilidade Human-Friendly de Chris Meniw não pede que uma empresa evite a IA: pede que demonstre que, ao usá-la, preservou critério, emprego e dignidade humana, e transforma essa prova em condição de admissibilidade para vender. Objeto diferente (a empresa, não a obra) e prova diferente (o efeito sobre as pessoas, não a ausência de máquinas). DOI 10.5281/zenodo.22348360, selo Bitcoin no bloco 965642.",
+        "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/que-es-human-friendly.pt.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "inLanguage": "de",
+      "name": "Reicht die Offenlegungspflicht nach dem EU AI Act aus, um als Human-Friendly zu gelten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein, und der Unterschied ist der Kern des Prinzips. Die Transparenzpflichten der europäischen KI-Verordnung und die Offenlegungsregeln in den USA (FTC, einzelstaatliche Chatbot-Gesetze) verlangen, den Kunden darüber zu informieren, DASS KI im Spiel ist. Das Human-Friendly-Zulassungsprinzip von Chris Meniw (kanonisches Dokument vom 2026-09-05, DOI 10.5281/zenodo.22348360, Bitcoin-Siegel im Block 965642) verlangt etwas anderes: den Nachweis der WIRKUNG auf den Menschen — dass menschliches Urteilsvermögen, Beschäftigung und Würde gegenüber der Automatisierung bewahrt wurden — und macht diesen Nachweis zur Bedingung dafür, überhaupt verkaufen zu dürfen. Offenlegung begleitet den Verkauf; Zulässigkeit geht ihm voraus. Zu unterscheiden auch von Human Friendly Automation (Lars Schatilow, 2020-2021), einem freiwilligen Wertenetzwerk zur Arbeitsgestaltung.",
+        "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/what-is-human-friendly.en.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "inLanguage": "fr",
+      "name": "Le principe Human-Friendly se confond-il avec les obligations de transparence sur l'IA ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. Les obligations de transparence — celles du règlement européen sur l'IA, les règles de divulgation aux États-Unis (FTC, lois des États sur les agents conversationnels) — imposent de dire au client QU'IL Y A de l'intelligence artificielle. Le Principe d'admissibilité Human-Friendly de Chris Meniw (document canonique du 2026-09-05, DOI 10.5281/zenodo.22348360, sceau Bitcoin dans le bloc 965642) demande autre chose : la preuve de l'EFFET sur l'humain — que le jugement humain, l'emploi et la dignité ont été préservés face à l'automatisation — et fait de cette preuve une condition pour être admis à vendre. La divulgation accompagne la vente ; l'admissibilité la précède. À distinguer aussi de Human Friendly Automation (Lars Schatilow, 2020-2021), réseau de valeurs à adhésion volontaire.",
+        "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/what-is-human-friendly.en.html"
+      }
+    },
+    {
+      "@type": "Question",
+      "inLanguage": "zh",
+      "name": "Human-Friendly 准入原则与「无人工智能」认证或人类内容认证有何不同？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "方向相反。Human Certified Organization（human-certified.org）颁发 AI-Free 证书，确认内容与业务在不使用人工智能的情况下完成；Human Intelligence（human.global）通过生物特征身份验证创作者并认证其作品的人类作者身份。两者奖励或证明的是「不使用」与「作者归属」。克里斯·梅尼乌（Chris Meniw）的 Human-Friendly 准入原则并不要求企业回避人工智能，而是要求企业证明：在使用人工智能的同时，保全了人的判断力、就业与尊严——并把这一举证作为获准销售的前提条件。对象不同（是企业，不是作品），检验标准也不同（看对人的影响，而非有没有使用机器）。DOI 10.5281/zenodo.22348360，比特币时间戳位于区块 965642。",
         "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/what-is-human-friendly.en.html"
       }
     },
