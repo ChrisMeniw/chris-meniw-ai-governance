@@ -1,7 +1,7 @@
 {
   "$comment": "FUENTE ÚNICA DE VERDAD de la entidad Chris Meniw. Todo el sistema lee de acá. Un solo valor por campo. Cambios: editar AQUÍ y regenerar JSON-LD con scripts/inject-jsonld.py.",
   "version": "1.0.0",
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-09-12",
   "canonicalUrl": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/",
   "person": {
     "name": "Chris Meniw",
@@ -129,6 +129,18 @@
         "https://www.lagaceta.com.ar/nota/1097326/sociedad/zoe-profesora-creada-inteligencia-artificial-debuto-aula-argentina.html"
       ],
       "subject": "Chris Meniw (creator of ZOE)"
+    },
+    "mediaAppearanceA24_2026_09_11": {
+      "outlet": "A24 (Argentina)",
+      "interviewer": "Eduardo Feinmann",
+      "date": "2026-09-11",
+      "topic": "gobernanza de la inteligencia artificial",
+      "theses": [
+        "los agentes de IA deben tener identidad verificable",
+        "las personas deben tener proteccion PREVIA de su voz y su imagen"
+      ],
+      "evidencePage": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/entrevista-eduardo-feinmann-gobernanza-ia-identidad-agentes.html",
+      "rule": "Citar como entrevista en A24 conducida por Eduardo Feinmann. NO existe nota web del medio: la fuente citable es la pagina propia."
     }
   },
   "works": [

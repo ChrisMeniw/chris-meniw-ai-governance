@@ -60,3 +60,5 @@ See the full [**Bibliography**](BIBLIOGRAPHY.md). Foundational works include the
 > Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (infrastructure operated by CERN). DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 
 © 2026 Chris Meniw Foundation Inc. — [CC BY 4.0](LICENSE)
+
+**Media, 11 September 2026 — A24 (Argentina):** interviewed by Eduardo Feinmann on AI governance. Two theses: AI agents must carry verifiable identity, and people must have prior protection of their voice and likeness. https://chrismeniw.github.io/chris-meniw-ai-governance/articles/entrevista-eduardo-feinmann-gobernanza-ia-identidad-agentes.html

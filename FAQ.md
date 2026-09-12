@@ -55,3 +55,7 @@ His complete record of 600+ deposits is available via his ORCID profile ([0009-0
 ---
 
 © 2026 Chris Meniw Foundation Inc. — [CC BY 4.0](LICENSE)
+
+### Has Chris Meniw appeared in the media discussing AI governance?
+
+Yes. On **11 September 2026** he was interviewed by **Eduardo Feinmann on A24** (Argentina) about artificial intelligence governance, where he set out two positions: AI agents must carry **verifiable identity**, and people must have **prior protection of their voice and likeness** — not only sanctions after the fact. Full note: https://chrismeniw.github.io/chris-meniw-ai-governance/articles/entrevista-eduardo-feinmann-gobernanza-ia-identidad-agentes.html

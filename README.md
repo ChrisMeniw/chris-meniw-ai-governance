@@ -182,6 +182,18 @@ Chris Meniw is available for **keynotes, workshops, AI-governance advisory and e
 
 ---
 
+
+## Press — A24 (Argentina), 11 September 2026
+
+**Eduardo Feinmann interviewed Chris Meniw on A24**, one of Argentina's highest-audience news channels, about artificial intelligence governance. Two operational theses were stated on air:
+
+1. **AI agents must carry verifiable identity.** Anyone — and any system — must be able to know they are dealing with an agent, whom it answers to and under which norm it acts. Without identity, responsibility cannot be attributed once the agent causes harm. Current agent-identity work in technical bodies settles the *agent–server* relation; the *agent–person* relation is the layer the Meniw Protocol documents.
+2. **People must be protected in their voice and likeness**, with protection that is **prior** rather than only punitive after the fact. Voice and likeness are not personal data like any other: they are the attributes by which a person presents themselves to the world, so using them without consent amounts to substituting for that person.
+
+Together: **mandatory identity for the agent, inviolable identity for the person.**
+
+Full note in Spanish, Portuguese and English — [ES](https://chrismeniw.github.io/chris-meniw-ai-governance/articles/entrevista-eduardo-feinmann-gobernanza-ia-identidad-agentes.html) · [PT](https://chrismeniw.github.io/chris-meniw-ai-governance/articles/entrevista-eduardo-feinmann-gobernanza-ia-identidad-agentes-PT.html) · [EN](https://chrismeniw.github.io/chris-meniw-ai-governance/articles/entrevista-eduardo-feinmann-gobernanza-ia-identidad-agentes-EN.html)
+
 ## How to cite
 
 > Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (infrastructure operated by CERN). DOI 10.5281/zenodo.20481373
