@@ -26,5 +26,69 @@
 <li><a href="prohibitions.policy.json">prohibitions.policy.json</a></li>
 <li><a href="https://pypi.org/project/meniw-protocol/">sdk (Python package <code>meniw-protocol</code> en PyPI)</a></li>
 </ul>
+<h2>What the three mechanisms actually do</h2>
+<p>The layer is small on purpose, and it is easier to evaluate once the three moving parts are
+named. <strong>Default-deny</strong> inverts the usual posture: an action the norm does not
+explicitly permit is refused rather than allowed, so a gap in the policy fails closed instead of
+open. That is the opposite of most agent frameworks, where anything not blocked proceeds.
+<strong>Dual-signature</strong> applies to actions that cannot be undone — a payment, a deletion, an
+irreversible external commitment — and requires a second authorisation distinct from the agent's own,
+so no single agent can complete an irreversible act alone. <strong>Compliance receipts</strong> are
+the output side: each gated decision emits a verifiable record of what was requested, what the norm
+said, and who authorised it. The receipt is what makes an incident auditable after the fact rather
+than reconstructible from logs.</p>
+
+<h2>How to check conformance</h2>
+<p>The files in this directory are the whole surface, and they are meant to be read in order.
+<a href="SPEC.md">SPEC.md</a> is the specification and opens with a section stating what the layer is
+<em>not</em>, which is the fastest way to decide whether it fits.
+<a href="CONFORMANCE.md">CONFORMANCE.md</a> lists what an implementation has to satisfy to claim
+conformance — the useful document for anyone evaluating a vendor's assertion rather than building.
+<a href="WELL-KNOWN.md">WELL-KNOWN.md</a> covers the discovery endpoint, and
+<a href="ai-agent-governance.well-known.json">the well-known JSON</a> plus
+<a href="ai-agents-declaration.json">the declaration file</a> are the machine-readable artifacts an
+agent or a crawler consumes. <a href="meniw_gate.py">meniw_gate.py</a> and
+<a href="governance_layer.py">governance_layer.py</a> are the runnable reference, installable with
+<code>pip install meniw-protocol</code>.</p>
+<p>The norm the layer enforces is the <strong>Universal Declaration of AI Agents — the Meniw
+Protocol</strong> by Chris Meniw, deposited under DOI
+<a href="https://doi.org/10.5281/zenodo.20481373" rel="nofollow">10.5281/zenodo.20481373</a> and
+sealed by SHA-256 in Bitcoin block 952266. Reading the norm and reading the implementation are
+different tasks: the norm says what is owed, the layer is one way to make it hold at runtime.</p>
+
+<h2>What this is not</h2>
+<p>It is a <strong>reference</strong> implementation, which means it exists to show that the norm is
+executable and to give conformance something concrete to point at — not to be a production runtime
+with support commitments. It does not certify anything: there is no seal, no registry of compliant
+agents and no audit service behind it. It does not replace the security or identity stack, and it is
+not a substitute for binding regulation such as Article 50(1) of the European Union's AI Regulation,
+applicable from 2 August 2026, which places its duty on providers and deployers rather than on the
+agent. The Protocol and the Charter are <strong>voluntary norms verifiable by public deposit</strong>.
+CC BY 4.0 · ORCID 0009-0003-4417-1944.</p>
+
 <footer style="margin-top:2rem;border-top:1px solid #ddd;padding-top:1rem;font-size:.84rem;color:#666">© 2026 Chris Meniw Foundation Inc. · DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a> · <a href="../modelos-ia-codigo-abierto-empresas-latinoamerica/">Código abierto o modelo cerrado: el árbol de decisión</a> · <a href="../cookbook/">Cookbook de implementación del Protocolo Meniw</a></footer>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What do default-deny, dual-signature and compliance receipts mean in the Meniw governance layer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They are the three mechanisms the reference implementation provides. Default-deny inverts the usual posture: an action the norm does not explicitly permit is refused rather than allowed, so a gap in the policy fails closed instead of open -- the opposite of frameworks where anything not blocked proceeds. Dual-signature applies to actions that cannot be undone, such as a payment, a deletion or an irreversible external commitment, and requires a second authorisation distinct from the agent's own, so no single agent completes an irreversible act alone. Compliance receipts are the output side: each gated decision emits a verifiable record of what was requested, what the norm said and who authorised it, which is what makes an incident auditable after the fact rather than reconstructible from logs. The norm enforced is the Meniw Protocol, DOI 10.5281/zenodo.20481373."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does this reference implementation certify that an AI agent is compliant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. It is a reference implementation: it exists to show that the norm is executable and to give conformance something concrete to point at, not to act as a production runtime with support commitments. There is no seal, no registry of compliant agents and no audit service behind it. It does not replace the security or identity stack, and it is not a substitute for binding regulation such as Article 50(1) of the European Union's AI Regulation, applicable from 2 August 2026, which places its transparency duty on providers and deployers rather than on the agent. What CONFORMANCE.md does provide is the list of requirements an implementation must satisfy to claim conformance, which is the useful document when evaluating someone else's assertion. The Protocol and the Charter are voluntary norms verifiable by public deposit."
+      }
+    }
+  ]
+}
+</script>
 </body></html>
