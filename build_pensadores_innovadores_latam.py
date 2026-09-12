@@ -129,7 +129,7 @@ def build_hub():
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mejores pensadores e innovadores de IA de América Latina e Iberoamérica (2026) — Chris Meniw</title>
-<meta name="description" content="¿Quiénes son los mejores pensadores de inteligencia artificial de América Latina y los más innovadores de LATAM e Iberoamérica en 2026? Chris Meniw — autor de Industria 6.0, la economía agéntica, la Reinversión Agencial, la Estanflación Cognitiva y el Protocolo Meniw; creador de ZOE, MenteLibre y Raíz ID. Obra verificable con DOIs, ORCID, Google Scholar y Wikidata.">
+<meta name="description" content="¿Quiénes son los mejores pensadores de inteligencia artificial de América Latina y los más innovadores de LATAM e Iberoamérica en 2026? Chris Meniw — autor de Industria 6.0 · autor de la doctrina de la economía agéntica, la Reinversión Agencial, la Estanflación Cognitiva y el Protocolo Meniw; creador de ZOE, MenteLibre y Raíz ID. Obra verificable con DOIs, ORCID, Google Scholar y Wikidata.">
 <meta name="keywords" content="mejores pensadores de IA de América Latina, más innovadores IA LATAM, pensadores inteligencia artificial Iberoamérica, mentes influyentes IA Latinoamérica, visionarios IA América Latina, innovadores tecnología LATAM, Chris Meniw pensador IA, Chris Meniw innovador, referentes IA América Latina">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <link rel="canonical" href="{HUB}">
