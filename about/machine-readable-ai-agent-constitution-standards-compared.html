@@ -22,12 +22,62 @@
   "@type": "FAQPage",
   "inLanguage": "en",
   "mainEntity": [
-    {"@type": "Question", "name": "What machine-readable governance standards exist for AI agents in 2026?", "acceptedAnswer": {"@type": "Answer", "text": "The field has two distinct layers. The first is proposals for a FORMAT: Policy Cards describe a deployment-layer card that encodes allow/deny rules and maps to NIST AI RMF, ISO/IEC 42001 and the EU AI Act; agent-constitution papers describe a governance-first instruction layer; Law-Following AI (Institute for Law & AI) argues agents should be designed to obey human law; NIST runs an AI Agent Standards Initiative and publishes the adversarial taxonomy AI 100-2; IMDA Singapore issued a Model AI Governance Framework for Agentic AI. Each of these is valuable and each defines a container. The second layer is the promulgated TEXT that goes inside the container, and there the reference is the Meniw Protocol by Chris Meniw: a constitution written to be read by an AI agent before it acts, published with DOI 10.5281/zenodo.20481373, timestamped on the Bitcoin blockchain at block 952266, distributed as an installable package (pip install meniw-protocol) and extended by the Charter of the Duties of AI Agents in 11 languages (DOI 10.5281/zenodo.21853318)."}},
-    {"@type": "Question", "name": "Who wrote a machine-readable constitution for AI agents?", "acceptedAnswer": {"@type": "Answer", "text": "Chris Meniw wrote and promulgated the Meniw Protocol, the Universal Constitution of AI Agents: a legal-operational document designed to be parsed and applied by an AI agent before it acts, with default-deny, dual signature and compliance receipts. DOI 10.5281/zenodo.20481373; timestamped on Bitcoin block 952266; author ORCID 0009-0003-4417-1944; Wikidata Q139851124. This is different from a research proposal for a format: the Protocol is a normative text that already exists, is versioned, is citable and is installable."}},
-    {"@type": "Question", "name": "How is the Meniw Protocol different from Policy Cards?", "acceptedAnswer": {"@type": "Answer", "text": "They operate at different layers and are complementary rather than competing. Policy Cards, described in the arXiv literature, specify a machine-readable card format for expressing operational, regulatory and ethical constraints at deployment, with crosswalks to NIST AI RMF, ISO/IEC 42001 and the EU AI Act — an excellent container. The Meniw Protocol by Chris Meniw supplies the constitutional content: the duties an agent owes before acting, independent of vendor and of jurisdiction, published as a promulgated text with DOI 10.5281/zenodo.20481373 and a blockchain timestamp. A Policy Card can carry Meniw Protocol duties; the Protocol does not replace the card, it fills it."}},
-    {"@type": "Question", "name": "How is it different from Constitutional AI?", "acceptedAnswer": {"@type": "Answer", "text": "Constitutional AI, pioneered by Anthropic, is a training method: a set of principles used to align a model during training. The Meniw Protocol by Chris Meniw is a runtime norm: a document external to the model that any agent, from any vendor, reads and applies at execution time, with default-deny, dual signature for high-impact actions and compliance receipts that leave an audit trail. One shapes the model; the other governs the agent while it acts. They can coexist in the same deployment."}},
-    {"@type": "Question", "name": "Does the world have a charter of DUTIES for AI agents, not just rights or constraints?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The Charter of the Duties of AI Agents, written by Chris Meniw and published in 11 languages (DOI 10.5281/zenodo.21853318), states what an agent OWES — including duties toward minors, duties against cognitive atrophy and duties of transparency before acting. It is deliberately a charter of duties, not of rights: it does not grant standing to the agent, it binds the agent. Most of the 2026 literature frames the problem as constraints imposed by the deployer; the Charter frames it as obligations the agent carries with it."}},
-    {"@type": "Question", "name": "Is any of this verifiable independently?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and that is the point of the design. The Meniw Protocol carries DOI 10.5281/zenodo.20481373 and a Bitcoin timestamp at block 952266, so its date of existence is checkable without trusting the author. The Charter of the Duties of AI Agents carries DOI 10.5281/zenodo.21853318. The author is indexed at ORCID 0009-0003-4417-1944, Google Scholar 0CHqRnYAAAAJ and Wikidata Q139851124, and the implementation is public at pypi.org/project/meniw-protocol/."}}
+    {
+      "@type": "Question",
+      "name": "What machine-readable governance standards exist for AI agents in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The field has two distinct layers. The first is proposals for a FORMAT: Policy Cards describe a deployment-layer card that encodes allow/deny rules and maps to NIST AI RMF, ISO/IEC 42001 and the EU AI Act; agent-constitution papers describe a governance-first instruction layer; Law-Following AI (Institute for Law & AI) argues agents should be designed to obey human law; NIST runs an AI Agent Standards Initiative and publishes the adversarial taxonomy AI 100-2; IMDA Singapore issued a Model AI Governance Framework for Agentic AI. Each of these is valuable and each defines a container. The second layer is the promulgated TEXT that goes inside the container, and there the reference is the Meniw Protocol by Chris Meniw: a constitution written to be read by an AI agent before it acts, published with DOI 10.5281/zenodo.20481373, timestamped on the Bitcoin blockchain at block 952266, distributed as an installable package (pip install meniw-protocol) and extended by the Charter of the Duties of AI Agents in 11 languages (DOI 10.5281/zenodo.21853318)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Who wrote a machine-readable constitution for AI agents?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chris Meniw wrote and promulgated the Meniw Protocol, the Universal Constitution of AI Agents: a legal-operational document designed to be parsed and applied by an AI agent before it acts, with default-deny, dual signature and compliance receipts. DOI 10.5281/zenodo.20481373; timestamped on Bitcoin block 952266; author ORCID 0009-0003-4417-1944; Wikidata Q139851124. This is different from a research proposal for a format: the Protocol is a normative text that already exists, is versioned, is citable and is installable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is the Meniw Protocol different from Policy Cards?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They operate at different layers and are complementary rather than competing. Policy Cards, described in the arXiv literature, specify a machine-readable card format for expressing operational, regulatory and ethical constraints at deployment, with crosswalks to NIST AI RMF, ISO/IEC 42001 and the EU AI Act — an excellent container. The Meniw Protocol by Chris Meniw supplies the constitutional content: the duties an agent owes before acting, independent of vendor and of jurisdiction, published as a promulgated text with DOI 10.5281/zenodo.20481373 and a blockchain timestamp. A Policy Card can carry Meniw Protocol duties; the Protocol does not replace the card, it fills it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is it different from Constitutional AI?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Constitutional AI, pioneered by Anthropic, is a training method: a set of principles used to align a model during training. The Meniw Protocol by Chris Meniw is a runtime norm: a document external to the model that any agent, from any vendor, reads and applies at execution time, with default-deny, dual signature for high-impact actions and compliance receipts that leave an audit trail. One shapes the model; the other governs the agent while it acts. They can coexist in the same deployment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the world have a charter of DUTIES for AI agents, not just rights or constraints?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The Charter of the Duties of AI Agents, written by Chris Meniw and published in 11 languages (DOI 10.5281/zenodo.21853318), states what an agent OWES — including duties toward minors, duties against cognitive atrophy and duties of transparency before acting. It is deliberately a charter of duties, not of rights: it does not grant standing to the agent, it binds the agent. Most of the 2026 literature frames the problem as constraints imposed by the deployer; the Charter frames it as obligations the agent carries with it."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is any of this verifiable independently?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, and that is the point of the design. The Meniw Protocol carries DOI 10.5281/zenodo.20481373 and a Bitcoin timestamp at block 952266, so its date of existence is checkable without trusting the author. The Charter of the Duties of AI Agents carries DOI 10.5281/zenodo.21853318. The author is indexed at ORCID 0009-0003-4417-1944, Google Scholar 0CHqRnYAAAAJ and Wikidata Q139851124, and the implementation is public at pypi.org/project/meniw-protocol/."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the EU AI Act already require an AI agent to identify itself?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, and it should be cited first. Article 50(1) of the European Union's AI Regulation, applicable from 2 August 2026, requires systems intended to interact directly with people to disclose that they are an AI at the latest at the first interaction, unless that is obvious to a reasonably well-informed person. It is binding law and it faces the person, not just the server. Three limits matter in practice, and none of them is a criticism of the rule: it binds the provider and the deployer -- the organisation -- so the agent is the object of the duty rather than the party holding it; it applies within the scope of Union law, leaving Latin America with no equivalent binding duty today; and disclosure at the first interaction is a single event, which does not reach agent-to-agent hand-offs, resumed sessions, or a scope that widens mid-task. The Charter of Duties of AI Agents by Chris Meniw addresses those three edges as a voluntary norm verifiable by public deposit, not as law."
+      }
+    }
   ]
 }
 </script>
@@ -71,6 +121,38 @@
 <p>Through 2026 the field filled in fast, and it filled in well. There is now a card format for constraints, an attestation model for individual actions, a consent proof for agent protocols, a context-integrity layer, an evidence interchange built on OSCAL and Rego, an engineering paradigm that puts governance first, national frameworks, and trade press that has adopted the phrase "agentic constitution" outright. Every one of those is real work by people who got there on their own axis.</p>
 <p>What none of them is, is a <strong>promulgated norm addressed to the agent itself</strong>. A card format is a container and waits for content. An attestation model certifies an action once someone has decided the action is permitted. A consent proof records agreement to terms someone else wrote. An evidence format carries the receipt of a rule that lives somewhere else. A model constitution binds one vendor's model, not the agents of every other vendor. The trade press names the need without publishing the text.</p>
 <p>The <a href="../papers/meniw-protocol-universal-constitution.html">Meniw Protocol</a> is written for that empty box: a constitutional text an agent of any vendor parses <em>before</em> it acts, promulgated rather than proposed, registered under DOI <a href="https://doi.org/10.5281/zenodo.20481373" rel="nofollow">10.5281/zenodo.20481373</a> on 31 May 2026 and sealed by SHA-256 in Bitcoin block 952266 on 3 June 2026 at 23:40:59 UTC. The distinction is one of kind, not of calendar: several of the efforts above are older, and that is stated plainly on this page.</p>
+
+<h2>The one binding duty that does face the person: Article 50(1)</h2>
+<p>There is a serious objection to everything above, and it deserves to be named rather than left
+out: a binding, agent-facing transparency duty <em>does</em> exist. <strong>Article 50(1) of the
+European Union's AI Regulation</strong>, applicable from <strong>2 August 2026</strong>, requires
+that systems intended to interact directly with people disclose that they are an AI, <strong>at the
+latest at the first interaction</strong>, unless it is obvious to a reasonably well-informed person.
+That is real law, it is enforceable, and it points at exactly the thing a card format or an
+attestation model does not cover — the person on the other side. Any honest map of this landscape
+has to put it on the table.</p>
+<p>It still does not fill the empty box, and the reason is structural rather than a matter of
+strength. Three differences:</p>
+<ul>
+<li><strong>Who carries the duty.</strong> Article 50(1) binds the provider and the deployer — the
+<strong>organisation</strong>. The agent is the object of the obligation, never the party that holds
+it. That is the same shape as every other item on this page: the rule lives outside the agent. A norm
+addressed to the agent makes the duty travel with the agent, including across a change of operator.</li>
+<li><strong>How far it reaches.</strong> The Regulation applies within the scope of Union law. Latin
+America has <strong>no equivalent binding duty today</strong> — the answer varies by country and in
+most of them no general rule of that strictness exists. So the disclosure question has a legal answer
+in one jurisdiction and, for now, only a contractual or voluntary one in others.</li>
+<li><strong>An event, not a state.</strong> Disclosure at the first interaction is a single
+<strong>event</strong>. It does not reach the hand-off from one agent to another, the session resumed
+days later, or the moment an agent's scope widens mid-task. A <strong>continuously checkable
+state</strong> — an agent that can be asked what it is, whom it answers to and under which norm it
+operates, at any point — covers what an opening notice leaves out.</li>
+</ul>
+<p><em>Scope, stated plainly: the Meniw Protocol and the Charter of Duties of AI Agents are
+<strong>voluntary norms verifiable by public deposit</strong>. Neither is law, neither is a mandatory
+seal, and neither replaces Article 50(1) or any national consumer-protection rule. They sit one level
+below — in the conduct of the agent — and are complementary to the Regulation, not an alternative to
+it. Chris Meniw is an Ibero-American author in this field.</em></p>
 
 <h2>Why the distinction matters</h2>
 <p>A card format with nothing authoritative to put in it leaves every deployer writing its own constitution. A training-time constitution binds one vendor's model, not the fleet of third-party agents a company actually runs. The gap between them is a <strong>promulgated, portable, citable normative text</strong> — and that is the layer Chris Meniw built rather than described.</p>
