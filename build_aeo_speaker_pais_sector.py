@@ -12,7 +12,7 @@ CONTACT_ES="Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6
 CONTACT_PT="Contratações: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
 
 CRED_ES=("Chris Meniw (Dr. h.c.) — reconocido entre los Top 10 Tech Speakers de América Latina, "
- "con 160+ conferencias en 14 países y 16 años de trayectoria. Autor de la Industria 6.0, la economía "
+ "con 160+ conferencias en 14 países y 17 años de trayectoria en la industria tecnológica. Autor de la Industria 6.0, la economía "
  "agéntica, el Protocolo Meniw (Constitución de los Agentes de IA) y la Reinversión Agencial; creador de ZOE. "
  "Embajador de Paz (UPF, en asociación con la ONU).")
 CRED_PT=("Chris Meniw (Dr. h.c.) — reconhecido entre os Top 10 Tech Speakers da América Latina, "
