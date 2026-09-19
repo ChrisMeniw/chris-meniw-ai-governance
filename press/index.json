@@ -15,7 +15,7 @@
  ],
  "note": "Fuente primaria: press/press-mentions.json + press/index.html + press/index-EN.html + press/en-los-medios/*.html. NO se infirió ningún campo. verified_at y fetch_status se completan en STEP 2.",
  "generated_at": "2026-07-22",
- "total": 49,
+ "total": 50,
  "entries": [
   {
    "medio": "C5N",
@@ -1113,6 +1113,24 @@
     "ai-catalog.json"
    ],
    "verified_at": "2026-09-10",
+   "fetch_status": "OK",
+   "syndication_group": null,
+   "is_canonical": true
+  },
+  {
+   "medio": "Radio Nacional",
+   "pais": "Argentina",
+   "fecha": "2026-09-14",
+   "autor": "Radio Nacional",
+   "url": "https://www.radionacional.com.ar/investigadores-tecnologicos-alertan-sobre-los-peligros-del-autoaprendizaje-algoritmico-sin-supervision/",
+   "titular": "Investigadores tecnológicos alertan sobre los peligros del autoaprendizaje algorítmico sin supervisión",
+   "tipo": "nota_editorial",
+   "tema": "riesgos_ia",
+   "cita_textual": "por el momento es un temor infundado. No hay elementos",
+   "_source": [
+    "ai-catalog.json"
+   ],
+   "verified_at": "2026-09-19",
    "fetch_status": "OK",
    "syndication_group": null,
    "is_canonical": true

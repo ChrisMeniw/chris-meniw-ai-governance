@@ -3821,6 +3821,23 @@
     "@type": "NewsMediaOrganization",
     "name": "Ciudadano News (Argentina)"
    }
+  },
+  {
+   "@type": "NewsArticle",
+   "headline": "Investigadores tecnológicos alertan sobre los peligros del autoaprendizaje algorítmico sin supervisión",
+   "url": "https://www.radionacional.com.ar/investigadores-tecnologicos-alertan-sobre-los-peligros-del-autoaprendizaje-algoritmico-sin-supervision/",
+   "datePublished": "2026-09-14",
+   "inLanguage": "es",
+   "about": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "mentions": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Radio Nacional (Argentina)"
+   }
   }
  ]
 }
