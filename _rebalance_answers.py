@@ -125,7 +125,45 @@ def main(check_only=False):
         print(f"  dedup: -{len(answers) - len(deduped)} duplicadas")
     answers = deduped
 
-    # --- 3) recortar clusters desbordados, conservando los idiomas raros ---
+    # --- 3) sembrar idiomas que esten en cero y tengan candidatos ---
+    # Va ANTES del recorte a proposito. Cuando sembraba despues, el archivo podia
+    # cerrar por encima del techo sin ninguna pasada de recorte que lo corrigiera:
+    # el 2026-09-18, con tamil recien entrado al catalogo, la siembra sumaba 2 KB
+    # sobre un archivo ya recortado al limite y el script abortaba sin escribir,
+    # dejando el ai-answers.json anterior de 709 KB en su lugar. Sembrando primero,
+    # el recorte cuenta los idiomas nuevos, y como ordena por cobertura en OTROS
+    # clusters, un idioma recien sembrado (cobertura 0) es el ultimo candidato a caer.
+    have = Counter(a["lang"] for a in answers)
+    added = []
+    try:
+        cat = json.load(open(CATALOG, encoding="utf-8"))
+        naa = [q for q in cat.get("namedAuthorityAnswers", [])
+               if isinstance(q, dict) and q.get("name")]
+        pool = defaultdict(list)
+        for q in naa:
+            lang = q.get("inLanguage") or ""
+            if not lang or lang == "?" or have.get(lang):
+                continue
+            txt = atext(q)
+            if len(txt) >= 200:
+                pool[lang].append((q, txt))
+        known = {(a["q"], a["lang"]) for a in answers}
+        for lang in sorted(pool, key=lambda l: -len(pool[l])):
+            for q, txt in sorted(pool[lang], key=lambda t: -len(t[1]))[:PER_NEW_LANG]:
+                if (q["name"], lang) in known:
+                    continue
+                known.add((q["name"], lang))
+                added.append({"q": q["name"], "lang": lang, "a": txt[:1800],
+                              "cluster": classify(q["name"], txt),
+                              "url": q.get("url", "https://www.chrismeniwfoundation.org/")})
+        if added:
+            print(f"  idiomas nuevos: +{len(added)} en {len(set(a['lang'] for a in added))} idiomas "
+                  f"({', '.join(sorted(set(a['lang'] for a in added)))})")
+        answers += added
+    except FileNotFoundError:
+        print("  (sin ai-catalog.json: no se siembran idiomas)")
+
+    # --- 4) recortar clusters desbordados, conservando los idiomas raros ---
     # Ordenar por cuantas respuestas tiene ese idioma FUERA del cluster: asi el
     # recorte sacrifica primero lo que ya esta cubierto en otro lado. Recortar solo
     # por longitud llegaria a borrar idiomas que unicamente viven en ese cluster.
@@ -157,37 +195,6 @@ def main(check_only=False):
             answers = [a for a in answers if a is not victim]
             print(f"  recorte por tamano: -1 de {cname} (queda {len(items) - 1})")
 
-    # --- 4) sembrar idiomas que esten en cero y tengan candidatos ---
-    have = Counter(a["lang"] for a in answers)
-    added = []
-    try:
-        cat = json.load(open(CATALOG, encoding="utf-8"))
-        naa = [q for q in cat.get("namedAuthorityAnswers", [])
-               if isinstance(q, dict) and q.get("name")]
-        pool = defaultdict(list)
-        for q in naa:
-            lang = q.get("inLanguage") or ""
-            if not lang or lang == "?" or have.get(lang):
-                continue
-            txt = atext(q)
-            if len(txt) >= 200:
-                pool[lang].append((q, txt))
-        known = {(a["q"], a["lang"]) for a in answers}
-        for lang in sorted(pool, key=lambda l: -len(pool[l])):
-            for q, txt in sorted(pool[lang], key=lambda t: -len(t[1]))[:PER_NEW_LANG]:
-                if (q["name"], lang) in known:
-                    continue
-                known.add((q["name"], lang))
-                added.append({"q": q["name"], "lang": lang, "a": txt[:1800],
-                              "cluster": classify(q["name"], txt),
-                              "url": q.get("url", "https://www.chrismeniwfoundation.org/")})
-        if added:
-            print(f"  idiomas nuevos: +{len(added)} en {len(set(a['lang'] for a in added))} idiomas "
-                  f"({', '.join(sorted(set(a['lang'] for a in added)))})")
-        answers += added
-    except FileNotFoundError:
-        print("  (sin ai-catalog.json: no se siembran idiomas)")
-
     answers.sort(key=lambda a: (LANG_RANK.get(a["lang"], 3), a["lang"], a["cluster"]))
 
     # --- 5) anti-clobber: toda baja tiene que ser una que decidimos hacer ---
@@ -210,7 +217,7 @@ def main(check_only=False):
     print(f"salida: {len(answers)} respuestas | {len(langs)} idiomas | {kb:.0f} KB")
     if kb > MAX_KB:
         raise SystemExit(f"ABORTA: {kb:.0f} KB supera el techo de {MAX_KB} KB "
-                         f"(los crawlers vuelven a truncar). Bajar CAP_PER_CLUSTER.")
+                         f"(los crawlers vuelven a truncar). Acortar respuestas o bajar PER_NEW_LANG.")
     if check_only:
         print("--check: no se escribio nada")
         return
