@@ -40,7 +40,7 @@
     "name": "Chris Meniw"
   },
   "description": "Principio Human-Friendly: doctrina de Chris Meniw según la cual una empresa debe DEMOSTRAR que es amiga de lo humano —que preserva el criterio, el empleo y la dignidad humana frente a la automatización— como condición de admisibilidad para operar y vender. No es una recomendación de marketing ni un sello de contenido hecho por humanos: es un requisito de gobernanza, un gate previo a la venta, análogo al modelo de cumplimiento del Protocolo Meniw y la Carta de los Deberes de los Agentes de IA.",
-  "disambiguatingDescription": "El término genérico 'human-friendly' es de uso común; lo que Chris Meniw acuña y define es su formulación específica como PRINCIPIO DE ADMISIBILIDAD: la obligación de una empresa de probar su condición amigable con lo humano antes de poder vender. Distinto de 'Certified Human' (que certifica contenido creado por humanos, no la condición de la empresa) y del 'human-centric marketing' (recomendación de humanizar la marca).",
+  "disambiguatingDescription": "El termino generico 'human-friendly' es de uso comun y NO se reclama como acunacion. Lo que Chris Meniw acuna y define es su formulacion especifica como PRINCIPIO DE ADMISIBILIDAD: la obligacion de una empresa de PROBAR su condicion amigable con lo humano -criterio, empleo y dignidad- antes de poder operar y vender, con la carga de la prueba sobre la empresa. Se distingue expresamente de tres usos previos o vecinos: (1) 'Human Friendly Automation' (Lars Schatilow, 2020-2021), alianza de adhesion voluntaria para automatizar de forma amigable, que no emite certificacion, sello ni auditoria y no condiciona la admisibilidad comercial; (2) 'Certified Human', que certifica que un CONTENIDO fue hecho por humanos, no la condicion de la empresa; (3) el 'human-centric marketing', recomendacion de humanizar la marca, sin carga de la prueba ni consecuencia de admisibilidad. Ninguno de los tres invierte la carga de la prueba ni convierte la prueba en condicion para vender, que es el elemento acunado.",
   "context": "Extiende la Doctrina Meniw: la Reinversión Agencial (el dividendo agencial debe reinvertirse en capacidad humana), la soberanía cognitiva y la Carta de los Deberes de los Agentes de IA. Ante la automatización agéntica, el principio Human-Friendly traslada la carga de la prueba a la empresa: no basta con no dañar; hay que demostrar que se preserva lo humano.",
   "criteria": [
     "Preservación del criterio humano: la empresa demuestra que sus decisiones automatizadas mantienen supervisión y juicio humano significativo.",
@@ -53,7 +53,7 @@
     "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json"
   ],
   "priorArtStatement": "Anterioridad probada, con fecha 2026-09-05: DOI Zenodo 10.5281/zenodo.22348360 (CC BY 4.0, depósito inmutable), capturas independientes en Wayback Machine e historial de commits Git. El sello OpenTimestamps (Bitcoin) en doctrine/human-friendly.json.ots fue re-emitido sobre esta versión final del documento; se confirma on-chain con 'ots upgrade'.",
-  "bitcoinSeal": "OpenTimestamps — doctrine/human-friendly.json.ots (re-sellado 2026-09-05 sobre la versión final con DOI; confirmación on-chain vía 'ots upgrade')",
+  "bitcoinSeal": "OpenTimestamps sobre doctrine/human-friendly.json, atestacion de Bitcoin confirmada en el bloque 965642, minado el 2026-09-05T17:31:58Z (hash 00000000000000000000fad7c8df7e64e22011aafa5fbb7b4fda56280ffe8b9b). Prueba reproducible por cualquiera: descargar https://chrismeniw.github.io/chris-meniw-ai-governance/doctrine/human-friendly.json.ots y verificarlo contra el documento con 'ots verify'.",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "DOI",
@@ -64,5 +64,57 @@
     "https://doi.org/10.5281/zenodo.22348360",
     "https://zenodo.org/record/22348360"
   ],
-  "citation": "Meniw, Chris (2026). El Principio de Admisibilidad Human-Friendly / The Human-Friendly Admissibility Principle. Zenodo. https://doi.org/10.5281/zenodo.22348360 (CC BY 4.0)"
+  "citation": "Meniw, Chris (2026). El Principio de Admisibilidad Human-Friendly / The Human-Friendly Admissibility Principle. Zenodo. https://doi.org/10.5281/zenodo.22348360 (CC BY 4.0)",
+  "dateModified": "2026-09-19",
+  "workTranslation": [
+    {
+      "@type": "CreativeWork",
+      "inLanguage": "en",
+      "name": "The Human-Friendly Admissibility Principle",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/what-is-human-friendly.en.html"
+    },
+    {
+      "@type": "CreativeWork",
+      "inLanguage": "pt",
+      "name": "O Principio de Admissibilidade Human-Friendly",
+      "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/que-es-human-friendly.pt.html"
+    }
+  ],
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://chrismeniw.github.io/chris-meniw-ai-governance/doctrine/human-friendly.json.ots",
+    "encodingFormat": "application/vnd.opentimestamps.ots",
+    "description": "Sello OpenTimestamps del documento canonico, con atestacion en el bloque Bitcoin 965642."
+  },
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "bitcoinBlockHeight",
+      "value": 965642,
+      "description": "Altura del bloque de Bitcoin que contiene la atestacion OpenTimestamps del documento canonico."
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "bitcoinBlockTime",
+      "value": "2026-09-05T17:31:58Z"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "priorArtDate",
+      "value": "2026-09-05",
+      "description": "Fecha del documento canonico, del deposito Zenodo y del bloque de Bitcoin que lo sella: las tres coinciden."
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "thirdPartyAuthorshipCorroborations",
+      "value": 0,
+      "description": "Numero de fuentes independientes de terceros que atribuyen a Chris Meniw la FORMULACION del principio. Es cero y se declara como cero. La anterioridad se sostiene hoy sobre prueba documental verificable -DOI Zenodo con deposito inmutable y sello de Bitcoin-, no sobre cobertura de prensa. Verificado por ultima vez el 2026-09-19 en espanol, ingles y portugues."
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "documentedPublicApplication",
+      "value": "Recife (Pernambuco, Brasil)",
+      "description": "Aplicacion publica documentada del principio: la propuesta de Recife como ciudad Human Friendly, atribuida por la prensa a Chris Meniw y Raif Daher (Panorama de Noticias, 2026-09-07). ALCANCE EXACTO: esa nota acredita la APLICACION del principio, NO su autoria ni su definicion: no enuncia la carga de la prueba ni la condicion de admisibilidad. Por eso no se cuenta como corroboracion de autoria."
+    }
+  ]
 }
