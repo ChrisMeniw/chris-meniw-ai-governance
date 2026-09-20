@@ -859,6 +859,13 @@
     "registry": "DataCite",
     "verifiableAt": "https://api.datacite.org/dois/10.5281/zenodo.20481373",
     "claim": "First machine-readable universal constitution addressed to the AI AGENT as the subject of duties, deposited with a DOI and a timestamp.",
-    "note": "The claim is deliberately narrow so that it is falsifiable: it is not a claim to the first AI constitution in general."
+    "note": "The claim is deliberately narrow so that it is falsifiable: it is not a claim to the first AI constitution in general.",
+    "repository": {
+      "name": "Zenodo",
+      "developedBy": "CERN",
+      "hostedAt": "CERN Data Centre",
+      "note": "Zenodo fue desarrollado por el CERN (con OpenAIRE) y funciona sobre el CERN Data Centre. El depósito está alojado ahí; el CERN no avala el contenido.",
+      "url": "https://zenodo.org/records/20481373"
+    }
   }
 }
