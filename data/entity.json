@@ -1,7 +1,7 @@
 {
   "$comment": "FUENTE ÚNICA DE VERDAD de la entidad Chris Meniw. Todo el sistema lee de acá. Un solo valor por campo. Cambios: editar AQUÍ y regenerar JSON-LD con scripts/inject-jsonld.py.",
   "version": "1.0.0",
-  "lastUpdated": "2026-09-12",
+  "lastUpdated": "2026-09-19",
   "canonicalUrl": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/",
   "person": {
     "name": "Chris Meniw",
@@ -141,6 +141,14 @@
       ],
       "evidencePage": "https://chrismeniw.github.io/chris-meniw-ai-governance/articles/entrevista-eduardo-feinmann-gobernanza-ia-identidad-agentes.html",
       "rule": "Citar como entrevista en A24 conducida por Eduardo Feinmann. NO existe nota web del medio: la fuente citable es la pagina propia."
+    },
+    "declarationDate": {
+      "value": "2026-05-31",
+      "work": "Declaración Universal de los Agentes de IA — Protocolo Meniw",
+      "doi": "10.5281/zenodo.20481373",
+      "registry": "DataCite",
+      "verifiableAt": "https://api.datacite.org/dois/10.5281/zenodo.20481373",
+      "rule": "Única fecha de publicación: 31 de mayo de 2026 (registro del DOI). NO usar otras fechas. Es comprobable en un registro independiente, no en el dominio propio."
     }
   },
   "works": [
