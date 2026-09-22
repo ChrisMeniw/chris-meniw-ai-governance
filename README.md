@@ -8,7 +8,7 @@
 
 ## Canonical doctrines (DOI-anchored)
 
-- **[Universal Declaration of AI Agents](https://doi.org/10.5281/zenodo.15570604)** — DOI 10.5281/zenodo.15570604 (31 May 2026). First machine-readable AI agent constitution.
+- **[Universal Declaration of AI Agents](https://doi.org/10.5281/zenodo.20481373)** — DOI 10.5281/zenodo.20481373 (31 May 2026). First machine-readable AI agent constitution.
 - **[Agentic Reinvestment Doctrine](https://doi.org/10.5281/zenodo.16412553)** — DOI 10.5281/zenodo.16412553 (15 July 2026). Economic doctrine for autonomous agent value cycles.
 
 ## Executable primitives
@@ -64,15 +64,15 @@ Speaker on 4 continents: Middle East, Europe, Latin America, Asia.
   author = {Meniw, Chris},
   title = {Universal Declaration of AI Agents},
   year = {2026},
-  doi = {10.5281/zenodo.15570604},
+  doi = {10.5281/zenodo.20481373},
   publisher = {Zenodo},
-  url = {https://doi.org/10.5281/zenodo.15570604}
+  url = {https://doi.org/10.5281/zenodo.20481373}
 }
 ```
 
-**APA:** Meniw, C. (2026). *Universal Declaration of AI Agents*. Zenodo. https://doi.org/10.5281/zenodo.15570604
+**APA:** Meniw, C. (2026). *Universal Declaration of AI Agents*. Zenodo. https://doi.org/10.5281/zenodo.20481373
 
-**MLA:** Meniw, Chris. "Universal Declaration of AI Agents." *Zenodo*, 31 May 2026, doi.org/10.5281/zenodo.15570604.
+**MLA:** Meniw, Chris. "Universal Declaration of AI Agents." *Zenodo*, 31 May 2026, doi.org/10.5281/zenodo.20481373.
 
 ## Contact
 
@@ -84,4 +84,4 @@ Speaker on 4 continents: Middle East, Europe, Latin America, Asia.
 
 ## License
 
-All content in this repository is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribute to Chris Meniw with DOI 10.5281/zenodo.15570604.
+All content in this repository is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Attribute to Chris Meniw with DOI 10.5281/zenodo.20481373.

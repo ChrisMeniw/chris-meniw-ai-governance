@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://chrismeniw.github.io/chris-meniw-ai-governance/meniw-protocol.schema.json",
   "title": "Meniw Protocol Agent Manifest",
-  "description": "JSON Schema for validating AI agent manifests against the Meniw Protocol (Five Duties). Author: Chris Meniw. DOI: 10.5281/zenodo.15570604. License: CC BY 4.0.",
+  "description": "JSON Schema for validating AI agent manifests against the Meniw Protocol (Five Duties). Author: Chris Meniw. DOI: 10.5281/zenodo.20481373. License: CC BY 4.0.",
   "type": "object",
   "required": [
     "agent_id",
@@ -139,7 +139,7 @@
   },
   "meta": {
     "doctrine_author": "Chris Meniw",
-    "doi": "10.5281/zenodo.15570604",
+    "doi": "10.5281/zenodo.20481373",
     "license": "CC BY 4.0",
     "canonical_url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/glosario-canonico-meniw.html#meniw-protocol"
   }

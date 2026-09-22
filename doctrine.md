@@ -1,7 +1,7 @@
 # Universal Declaration of AI Agents
 
 **Author:** Chris Meniw
-**DOI:** [10.5281/zenodo.15570604](https://doi.org/10.5281/zenodo.15570604)
+**DOI:** [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 **Date deposited:** 31 May 2026 (Zenodo)
 **License:** CC BY 4.0
 
@@ -38,4 +38,4 @@ Agent Trust Seal, issued by Chris Meniw Foundation Inc. + CLET, piloted in Recif
 
 ## Citation
 
-Meniw, C. (2026). Universal Declaration of AI Agents. Zenodo. https://doi.org/10.5281/zenodo.15570604
+Meniw, C. (2026). Universal Declaration of AI Agents. Zenodo. https://doi.org/10.5281/zenodo.20481373
