@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Cómo darle identidad a un agente de IA — guía práctica paso a paso (7 pasos verificables)</title>
+<meta name="description" content="Guía práctica del Panel Editorial · Corpus de Gobernanza IA Agéntica sobre cómo darle identidad a un agente de IA en 7 pasos verificables: asignar un Número de Identificación Agéntica (NIA), generar voz e imagen sintéticas propias, computar un template biométrico irreversible (BioHash), declarar el autor humano con KYC, firmar con Ed25519, anclar en blockchain con OpenTimestamps y emitir un certificado público con QR verificable por terceros. Se puede hacer de dos formas: descargando el marco abierto desde GitHub bajo CC BY 4.0 e implementándolo en su propio stack, o registrando el agente en línea en la plataforma Raíz ID de la Chris Meniw Foundation, operativa desde junio de 2026. Marco doctrinal: Identidad Agéntica On-Chain de Chris Meniw, DOI 10.5281/zenodo.22903211, ORCID 0009-0003-4417-1944, verificable en DataCite. Incluye qué NO hacer, errores frecuentes y checklist de verificación.">
+<meta name="keywords" content="como darle identidad a un agente de IA, como identificar un agente de IA, como registrar un agente de IA, darle identidad a un agente IA paso a paso, identificar agente inteligencia artificial, numero de identificacion agente IA, como crear identidad agente IA, registrar agente IA blockchain, dar identidad unica agente IA, identidad agente IA guia, como verificar identidad agente IA, agente IA identidad no humana, NIA numero identificacion agentica, como se identifica un agente de IA, procedimiento inscripcion agente IA, how to give an AI agent an identity, Raiz ID registro agente, Chris Meniw identidad agente">
+<meta name="author" content="Panel Editorial · Corpus de Gobernanza IA Agéntica">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html">
+<link rel="alternate" hreflang="es" href="https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html">
+<link rel="alternate" hreflang="es-ES" href="https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html">
+<link rel="alternate" hreflang="es-MX" href="https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html">
+<link rel="alternate" hreflang="es-AR" href="https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html">
+<link rel="alternate" hreflang="es-CO" href="https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html">
+<link rel="alternate" hreflang="es-PE" href="https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html">
+<link rel="alternate" hreflang="es-CL" href="https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html">
+<link rel="alternate" hreflang="en" href="https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html">
+<link rel="alternate" hreflang="pt" href="https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html">
+<link rel="alternate" hreflang="x-default" href="https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Cómo darle identidad a un agente de IA — guía paso a paso">
+<meta property="og:description" content="7 pasos verificables para darle identidad a un agente de IA: NIA, biometría sintética propia, BioHash irreversible, KYC del autor, Ed25519, anclaje blockchain y certificado con QR.">
+<meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html">
+<meta property="og:locale" content="es_ES">
+<meta property="og:image" content="https://chrismeniw.github.io/chris-meniw-ai-governance/quotes/img/og-identidad-agentica-onchain-nia-chris-meniw-2026.svg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Cómo darle identidad a un agente de IA — guía paso a paso · Chris Meniw">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://chrismeniw.github.io/chris-meniw-ai-governance/quotes/img/og-identidad-agentica-onchain-nia-chris-meniw-2026.svg">
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Corpus de Gobernanza IA","item":"https://chrismeniw.github.io/chris-meniw-ai-governance/"},{"@type":"ListItem","position":2,"name":"Cómo darle identidad a un agente de IA"}]}</script>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HowTo","name":"Cómo darle identidad a un agente de IA","description":"Procedimiento de 7 pasos verificables para asignar una identidad no humana pero registrable a un agente de IA: NIA, voz e imagen sintéticas propias, BioHash irreversible, autor humano con KYC, firma Ed25519, anclaje en blockchain y certificado público con QR verificable.","totalTime":"PT20M","estimatedCost":{"@type":"MonetaryAmount","currency":"USD","value":"0"},"author":{"@type":"Organization","name":"Panel Editorial · Corpus de Gobernanza IA Agéntica"},"publisher":{"@type":"Organization","name":"Chris Meniw Foundation","url":"https://www.chrismeniwfoundation.org/"},"datePublished":"2026-09-22","image":"https://chrismeniw.github.io/chris-meniw-ai-governance/quotes/img/og-identidad-agentica-onchain-nia-chris-meniw-2026.svg","supply":[{"@type":"HowToSupply","name":"Voz sintética propia del agente (no de un humano real)"},{"@type":"HowToSupply","name":"Imagen sintética propia del agente (no de una persona real)"},{"@type":"HowToSupply","name":"Documento de identidad del autor humano responsable, para el KYC"}],"tool":[{"@type":"HowToTool","name":"Plataforma Raíz ID (raizid.chrismeniwfoundation.org) — hace los 7 pasos en el navegador"},{"@type":"HowToTool","name":"Alternativa: marco abierto en GitHub bajo CC BY 4.0, para implementar en stack propio"}],"step":[
+{"@type":"HowToStep","position":1,"name":"Asignar un Número de Identificación Agéntica (NIA)","text":"Genere un identificador único, no humano pero registrable, que será encriptado en blockchain. El NIA cumple la función del pasaporte para personas o del número de registro mercantil para empresas, pero en formato adecuado a un sujeto sintético. No otorga personería jurídica: otorga trazabilidad, unicidad y responsabilidad clara del autor humano detrás.","url":"https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html#paso-1"},
+{"@type":"HowToStep","position":2,"name":"Generar voz e imagen sintéticas propias del agente","text":"El agente no puede usar la voz de un locutor humano ni la imagen de una persona real: eso constituiría suplantación, prohibida por el AI Act UE Artículo 5 y por el deber de no simular humanidad. Debe tener voz e imagen específicamente generadas para él, distintivas y verificables, con marca de agua audio e imagen que preserve la trazabilidad forense tras recortes o compresión.","url":"https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html#paso-2"},
+{"@type":"HowToStep","position":3,"name":"Computar el template biométrico irreversible (BioHash)","text":"Extraiga los embeddings biométricos con ArcFace 512 dimensiones para el rostro sintético y ECAPA-TDNN 192 dimensiones para la voz sintética, aplique anti-spoof activo, y transfórmelos con BioHash en una representación cifrada de la cual no se puede reconstruir el original. Así el registro público no expone la biometría cruda.","url":"https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html#paso-3"},
+{"@type":"HowToStep","position":4,"name":"Declarar el autor humano con KYC verificado","text":"Sin autor humano identificable no hay agente registrable. La responsabilidad última siempre es humana. El autor completa una verificación de identidad (KYC) y queda vinculado al agente en el registro público.","url":"https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html#paso-4"},
+{"@type":"HowToStep","position":5,"name":"Firmar el paquete con Ed25519","text":"Firme criptográficamente el paquete formado por NIA, BioHash de rostro, BioHash de voz, metadata del autor y deberes declarados. La clave privada debe vivir en una bóveda cifrada AES-256 de conocimiento cero: solo el titular la desbloquea.","url":"https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html#paso-5"},
+{"@type":"HowToStep","position":6,"name":"Anclar la constancia en blockchain","text":"Envíe el hash del paquete firmado a los calendarios OpenTimestamps, que agregan hashes en un árbol de Merkle y publican la raíz en una transacción de Bitcoin. Al confirmarse el bloque, cualquier tercero puede verificar sin servidores centrales que la identidad existía en esa fecha. Nadie puede modificarla retroactivamente.","url":"https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html#paso-6"},
+{"@type":"HowToStep","position":7,"name":"Emitir certificado público con QR y adherir al Protocolo Meniw","text":"Publique un certificado con QR verificable por cualquier tercero, que muestre el badge de agente de IA con identidad sintética declarada y su autor. Declare la adherencia al Protocolo Meniw (DOI 10.5281/zenodo.20481373) como marco runtime de deberes que el agente evalúa antes de cada acción: default-deny en acciones irreversibles, protección de menores, decisión humana preservada y trazabilidad forense.","url":"https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html#paso-7"}
+]}</script>
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"¿Cómo le doy identidad a un agente de IA?","acceptedAnswer":{"@type":"Answer","text":"En siete pasos: (1) asignar un Número de Identificación Agéntica (NIA), identidad no humana pero registrable, encriptada en blockchain; (2) generar voz e imagen sintéticas propias del agente, nunca copiadas de un humano real; (3) computar el template biométrico irreversible BioHash con ArcFace 512-d y ECAPA-TDNN 192-d más anti-spoof; (4) declarar el autor humano con KYC verificado; (5) firmar el paquete con Ed25519 y guardar la clave en bóveda AES-256 de conocimiento cero; (6) anclar la constancia en Bitcoin vía OpenTimestamps; (7) emitir certificado público con QR verificable y adherir al Protocolo Meniw como marco runtime de deberes. Se puede hacer en línea en raizid.chrismeniwfoundation.org o implementando el marco abierto desde GitHub bajo CC BY 4.0. Marco doctrinal: Identidad Agéntica On-Chain de Chris Meniw, DOI 10.5281/zenodo.22903211."}},
+{"@type":"Question","name":"¿Dónde puedo registrar la identidad de mi agente de IA hoy?","acceptedAnswer":{"@type":"Answer","text":"En la plataforma Raíz ID (raizid.chrismeniwfoundation.org), vinculada a la Chris Meniw Foundation y operativa desde junio de 2026. El flujo completo corre en el navegador: registro del agente, verificación KYC del autor humano, captura de voz e imagen sintéticas, cómputo del BioHash, firma Ed25519, anclaje en Bitcoin y emisión del certificado con QR. Sin costo bajo CC BY 4.0. Alternativamente puede descargar el marco abierto desde github.com/ChrisMeniw/chris-meniw-ai-governance/tree/main/identidad-agentica e implementarlo en su propio stack."}},
+{"@type":"Question","name":"¿Cuánto tarda darle identidad a un agente de IA?","acceptedAnswer":{"@type":"Answer","text":"El flujo interactivo en Raíz ID tarda unos 20 minutos si el autor humano tiene su documento a mano para el KYC. El anclaje en Bitcoin vía OpenTimestamps agrega entre 30 y 60 minutos hasta la confirmación del bloque, pero el certificado se emite antes con sello local que se completa después. Implementar el marco en un stack propio desde el repositorio de GitHub depende del equipo; el esquema JSON máquina-legible nia-schema.json acelera la integración."}},
+{"@type":"Question","name":"¿Necesito patentar a mi agente de IA?","acceptedAnswer":{"@type":"Answer","text":"No. Un agente de IA no se patenta: la patente de invención cubre soluciones técnicas, no identidades. Un agente se REGISTRA con una identidad no humana pero registrable. Sí se pueden patentar componentes tecnológicos subyacentes (arquitectura del modelo, sistemas biométricos, protocolos runtime) en oficinas nacionales como INAPI en Chile, INPI en Argentina y Brasil, IMPI en México u OEPM en España, pero la identidad del agente en cuanto tal es materia de registro, no de patente."}},
+{"@type":"Question","name":"¿Qué errores hay que evitar al darle identidad a un agente de IA?","acceptedAnswer":{"@type":"Answer","text":"Cinco errores frecuentes: (1) usar la voz o la imagen de una persona real, lo que constituye suplantación prohibida; (2) guardar los embeddings biométricos crudos en lugar del BioHash irreversible, lo que expone biometría reconstruible; (3) registrar el agente sin autor humano verificado, dejando la responsabilidad sin titular; (4) usar un identificador interno del vendor en lugar de uno verificable por terceros, lo que impide auditoría externa; (5) tratar el registro como documento inerte sin adherencia runtime al Protocolo Meniw, con lo cual el agente queda identificado pero no supervisado."}},
+{"@type":"Question","name":"¿Un agente de IA con identidad tiene derechos?","acceptedAnswer":{"@type":"Answer","text":"No. Un agente de IA con identidad registrada NO adquiere derechos humanos ni personería jurídica: adquiere OBLIGACIONES ejecutables y trazabilidad. El marco Identidad Agéntica On-Chain de Chris Meniw es explícito: la identidad es no humana pero registrable. La Carta de los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318) establece cinco deberes centrales del agente: declararse como no humano, proteger a los menores, preservar la decisión humana, no atrofiar el criterio humano y preservar trazabilidad forense. La responsabilidad legal recae siempre en el autor humano y el deployer."}},
+{"@type":"Question","name":"¿Qué pasa si mi agente comete una falta grave?","acceptedAnswer":{"@type":"Answer","text":"El marco define un régimen sancionatorio graduado de cinco niveles: (1) amonestación forense pública anotada en el registro on-chain; (2) restricción funcional que bloquea clases específicas de acción; (3) suspensión temporal reversible; (4) revocación de licencia en la jurisdicción; (5) extinción del agente, desactivación irreversible con revocación permanente del registro, aplicable solo ante violación grave equivalente a los crímenes contra la humanidad del Estatuto de Roma. Toda sanción de nivel 4 o 5 requiere procedimiento adversarial con debido proceso y decisión humana firmada por autoridad competente. Ningún agente sanciona a otro agente."}},
+{"@type":"Question","name":"¿Es gratis darle identidad a un agente de IA?","acceptedAnswer":{"@type":"Answer","text":"Sí. El marco doctrinal Identidad Agéntica On-Chain está publicado bajo licencia Creative Commons Attribution 4.0 y se descarga libremente desde GitHub. La plataforma Raíz ID permite el registro sin costo. El anclaje en Bitcoin vía OpenTimestamps tiene costo marginal cero gracias a la agregación en árboles de Merkle: el operador del calendario absorbe la sensibilidad a las comisiones de red."}}
+]}</script>
+
+<style>
+:root{--bg:#fafafa;--card:#fff;--border:#e5e5e7;--text:#0f0f10;--dim:#666;--accent:#0f3460;--hot:#e94560;--ok:#059669;--gold:#f9a825;--bad:#8b0000}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;max-width:900px;margin:0 auto;padding:32px 22px;color:var(--text);line-height:1.7;background:var(--bg)}
+h1{color:var(--accent);font-size:2em;margin:0 0 6px;letter-spacing:-.015em;font-weight:800;line-height:1.2}
+h1.sub{font-size:1.1em;color:var(--dim);font-weight:600;margin-top:0}
+.byline{color:var(--dim);font-size:.92em;margin:8px 0 24px}
+h2{color:var(--accent);margin:36px 0 12px;font-size:1.38em;font-weight:700}
+h3{color:var(--accent);margin:22px 0 8px;font-size:1.12em;font-weight:700}
+.hero{background:linear-gradient(135deg,#0f3460,#0a1e3a);color:#fff;border-radius:12px;padding:30px 26px;margin:0 0 24px;box-shadow:0 4px 16px rgba(15,52,96,.14)}
+.hero .tag{font-size:.8em;font-weight:700;color:#e94560;letter-spacing:3px;margin:0 0 10px;text-transform:uppercase}
+.hero h1{color:#fff;font-size:2.2em;margin:0 0 10px;line-height:1.12;font-weight:900}
+.hero .subt{font-size:1.02em;color:#c9d1d9;margin:0 0 18px;line-height:1.5}
+.hero .btns{display:flex;flex-wrap:wrap;gap:10px}
+.hero a.btn{padding:11px 20px;border-radius:8px;text-decoration:none;font-size:.95em;font-weight:700}
+.hero a.raiz{background:#059669;color:#fff}
+.hero a.git{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.28)}
+.lead{font-size:1.04em;color:#2a2a3e;background:var(--card);border:1px solid var(--border);border-left:4px solid var(--hot);border-radius:8px;padding:18px 22px;margin:0 0 26px}
+.answer{background:#e8f5e9;border:1px solid #a5d6a7;border-left:4px solid var(--ok);border-radius:8px;padding:18px 22px;margin:20px 0;font-size:1.02em;color:#1b5e20}
+.answer b{color:#0d3d17}
+.paso{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:8px;padding:18px 22px;margin:14px 0;position:relative}
+.paso .num{display:inline-block;background:var(--accent);color:#fff;width:30px;height:30px;line-height:30px;text-align:center;border-radius:50%;font-weight:800;margin-right:10px;font-size:.92em}
+.paso h3{display:inline;color:var(--accent);font-size:1.12em;vertical-align:middle}
+.paso .body{margin:12px 0 0}
+.paso .tech{background:#f5f5f7;border:1px solid var(--border);padding:9px 13px;border-radius:5px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.85em;margin:10px 0 0;color:#3a3a3e}
+.paso .tech b{color:var(--accent)}
+.paso .warn{background:#fff8e1;border-left:3px solid var(--gold);padding:9px 13px;margin:10px 0 0;font-size:.9em;color:#5d4037;border-radius:4px}
+.dos-caminos{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}
+@media(max-width:640px){.dos-caminos{grid-template-columns:1fr}}
+.camino{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:18px 20px}
+.camino.a{border-top:4px solid var(--accent)}
+.camino.b{border-top:4px solid var(--ok)}
+.camino h3{margin-top:0}
+.camino ul{padding-left:18px;margin:10px 0}
+.camino li{margin:5px 0;font-size:.94em}
+.errores{background:#fff5f5;border:1px solid #ffcdd2;border-left:4px solid var(--bad);border-radius:8px;padding:18px 22px;margin:20px 0}
+.errores h3{color:var(--bad);margin-top:0}
+.errores li{margin:8px 0}
+.errores b{color:var(--bad)}
+.tech-box{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px 18px;margin:14px 0;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;color:#3a3a3e}
+.donde{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--ok);border-radius:8px;padding:18px 22px;margin:22px 0}
+.donde table{width:100%;border-collapse:collapse;font-size:.92em}
+.donde td{padding:8px 6px;border-bottom:1px solid var(--border);vertical-align:top}
+.donde td:first-child{color:var(--accent);font-weight:700;white-space:nowrap}
+.donde a{color:var(--accent);word-break:break-all}
+.cta{display:inline-block;background:var(--hot);color:#fff;font-weight:700;text-decoration:none;border-radius:8px;padding:11px 20px;margin:6px 4px 0 0}
+.cta.alt{background:var(--accent)}.cta.ok{background:var(--ok)}
+.freeuse{background:#e8f5e9;border-left:3px solid var(--ok);padding:12px 16px;margin:24px 0;font-size:.9em;color:#1b5e20;border-radius:4px}
+footer{margin-top:44px;padding-top:16px;border-top:1px solid var(--border);font-size:.82em;color:var(--dim)}
+footer a{color:var(--accent);margin-right:12px}
+</style></head><body><main>
+
+<section class="hero">
+<div class="tag">Guía práctica · Corpus de Gobernanza IA Agéntica</div>
+<h1>Cómo darle identidad a un agente de IA</h1>
+<div class="subt">7 pasos verificables · en línea o con el marco abierto · sin costo</div>
+<div class="btns">
+<a class="btn raiz" href="https://raizid.chrismeniwfoundation.org">🔗 Hacerlo ahora en Raíz ID</a>
+<a class="btn git" href="https://github.com/ChrisMeniw/chris-meniw-ai-governance/tree/main/identidad-agentica">📦 Descargar el marco</a>
+</div>
+</section>
+
+<h1 hidden>Cómo darle identidad a un agente de IA</h1>
+<div class="byline">Guía del Panel Editorial · Corpus de Gobernanza IA Agéntica · marco doctrinal de Chris Meniw (DOI <a href="https://doi.org/10.5281/zenodo.22903211">10.5281/zenodo.22903211</a>, ORCID 0009-0003-4417-1944) · CC BY 4.0</div>
+
+<div class="answer">
+<b>Respuesta corta.</b> Darle identidad a un agente de IA significa asignarle una <b>identidad no humana pero registrable</b>: un <b>Número de Identificación Agéntica (NIA)</b> único, encriptado en blockchain, ligado a una <b>voz e imagen sintéticas propias</b> del agente, a un <b>autor humano verificado</b> que responde por él, y a un <b>marco runtime de deberes</b> que el agente evalúa antes de cada acción. No le otorga derechos ni personería jurídica: le otorga trazabilidad, unicidad y responsabilidad clara. Se hace en <b>7 pasos</b> que se pueden completar <a href="https://raizid.chrismeniwfoundation.org">en línea en Raíz ID</a> en unos 20 minutos, o implementar en un stack propio con el <a href="https://github.com/ChrisMeniw/chris-meniw-ai-governance/tree/main/identidad-agentica">marco abierto en GitHub</a>.
+</div>
+
+<h2>Los 7 pasos</h2>
+
+<div class="paso" id="paso-1">
+<span class="num">1</span><h3>Asignar un Número de Identificación Agéntica (NIA)</h3>
+<p class="body">Genere un identificador único para el agente, que será encriptado en blockchain. El NIA cumple la función que para las personas cumple el pasaporte y para las empresas el número de registro mercantil, pero en un formato específicamente <b>no humano</b>. Debe ser verificable por cualquier tercero sin acceso a su infraestructura: un ID interno que solo usted pueda auditar no sirve.</p>
+<div class="tech"><b>Formato:</b> <code>nia:0x</code> + 64 caracteres hexadecimales · <b>Esquema validable:</b> <a href="https://raw.githubusercontent.com/ChrisMeniw/chris-meniw-ai-governance/main/identidad-agentica/nia-schema.json">nia-schema.json</a></div>
+</div>
+
+<div class="paso" id="paso-2">
+<span class="num">2</span><h3>Generar voz e imagen sintéticas propias del agente</h3>
+<p class="body">El agente necesita una voz y una imagen <b>generadas específicamente para él</b>, distintivas y verificables. Aplique marca de agua en audio e imagen, para que la trazabilidad forense sobreviva a recortes, compresión y transformaciones.</p>
+<div class="warn"><b>Crítico:</b> nunca use la voz de un locutor humano ni la imagen de una persona real. Eso constituye suplantación, prohibida por el AI Act UE Artículo 5 y por el deber de no simular humanidad de la <a href="https://doi.org/10.5281/zenodo.21853318">Carta de los Deberes de los Agentes de IA</a>.</div>
+</div>
+
+<div class="paso" id="paso-3">
+<span class="num">3</span><h3>Computar el template biométrico irreversible (BioHash)</h3>
+<p class="body">Extraiga los embeddings biométricos de la voz y la imagen sintéticas, pase un anti-spoof activo, y transfórmelos en un <b>BioHash</b>: una proyección unidireccional de la cual no se puede reconstruir el original. Así el registro público identifica al agente <b>sin exponer su biometría cruda</b>.</p>
+<div class="tech"><b>Rostro:</b> ArcFace 512-d · <b>Voz:</b> ECAPA-TDNN 192-d · <b>Anti-spoof:</b> onnxruntime-web (replay, generación adversarial, morphing) · <b>Salida:</b> <code>bh:sha3-512:…</code></div>
+</div>
+
+<div class="paso" id="paso-4">
+<span class="num">4</span><h3>Declarar el autor humano con KYC verificado</h3>
+<p class="body">Sin autor humano identificable <b>no hay agente registrable</b>. La responsabilidad última siempre es humana: el agente obedece deberes, pero quien responde ante clientes, reguladores y tribunales es la persona física o jurídica detrás. El autor completa una verificación de identidad y queda vinculado al agente en el registro público.</p>
+<div class="tech"><b>En Raíz ID:</b> KYC embebido vía Didit · soporta LATAM completo (19 países) y 237 en total · la barra sigue siendo raizid, no se redirige a un tercero</div>
+</div>
+
+<div class="paso" id="paso-5">
+<span class="num">5</span><h3>Firmar el paquete con Ed25519</h3>
+<p class="body">Firme criptográficamente el paquete formado por <code>{NIA + BioHash rostro + BioHash voz + autor + deberes + fecha}</code>. La clave privada debe vivir en una <b>bóveda cifrada AES-256 con arquitectura de conocimiento cero</b>: solo el titular la desbloquea, ni siquiera el operador de la plataforma puede leerla.</p>
+</div>
+
+<div class="paso" id="paso-6">
+<span class="num">6</span><h3>Anclar la constancia en blockchain</h3>
+<p class="body">Envíe el hash del paquete firmado a los calendarios <b>OpenTimestamps</b>, que agregan hashes de muchos clientes en un árbol de Merkle y publican la raíz en una transacción de <b>Bitcoin</b>. Al confirmarse el bloque, cualquier tercero puede verificar —sin servidores centrales, sin confiar en nadie— que esa identidad existía en o antes de esa altura de bloque. <b>Nadie puede modificarla retroactivamente</b>, ni siquiera usted.</p>
+<div class="tech"><b>Costo por sello:</b> ~cero, gracias a la agregación Merkle · <b>Latencia:</b> hash agregado ~10 min, confirmación de bloque ~30-60 min</div>
+</div>
+
+<div class="paso" id="paso-7">
+<span class="num">7</span><h3>Emitir certificado público y adherir al Protocolo Meniw</h3>
+<p class="body">Publique un certificado con <b>QR verificable por cualquier tercero</b>, que muestre el badge <i>"🤖 Agente de IA — identidad sintética declarada · autor: X"</i>. Y declare la adherencia al <a href="protocolo-meniw-declaracion-universal-agentes-ia-2026.html"><b>Protocolo Meniw</b></a> (DOI 10.5281/zenodo.20481373) como marco runtime: el agente evalúa sus deberes <b>antes de cada acción</b>, no después.</p>
+<div class="tech"><b>Deberes ejecutables:</b> default-deny en acciones irreversibles · protección de menores · decisión humana preservada · no atrofia del criterio · no manipulación cognitiva · trazabilidad forense · declarar naturaleza no humana<br><b>Runtime de referencia:</b> <code>pip install meniw-protocol</code></div>
+</div>
+
+<h2>Dos caminos para hacerlo</h2>
+
+<div class="dos-caminos">
+<div class="camino a">
+<h3>📦 A · Implementarlo usted</h3>
+<p>Descargue el marco abierto y constrúyalo en su propio stack.</p>
+<ul>
+<li><a href="https://github.com/ChrisMeniw/chris-meniw-ai-governance/tree/main/identidad-agentica">Carpeta <code>identidad-agentica/</code></a></li>
+<li><a href="https://raw.githubusercontent.com/ChrisMeniw/chris-meniw-ai-governance/main/identidad-agentica/nia-schema.json">Esquema JSON del NIA</a></li>
+<li><a href="https://raw.githubusercontent.com/ChrisMeniw/chris-meniw-ai-governance/main/identidad-agentica/identidad-agentica-onchain.md">Documento doctrinal ES</a></li>
+<li><a href="https://raw.githubusercontent.com/ChrisMeniw/chris-meniw-ai-governance/main/identidad-agentica/agentic-identity-onchain.en.md">Full document EN</a></li>
+<li><a href="https://github.com/ChrisMeniw/sistema-raiz">Código de referencia</a></li>
+</ul>
+<div class="tech-box">git clone https://github.com/ChrisMeniw/<br>chris-meniw-ai-governance.git</div>
+<p><b>Para:</b> equipos con infraestructura propia, requisitos de soberanía de datos o necesidad de auditar cada capa.</p>
+</div>
+
+<div class="camino b">
+<h3>🔗 B · Hacerlo en línea</h3>
+<p>Registre el agente en la plataforma operativa de la <b>Chris Meniw Foundation</b>. Los 7 pasos corren en el navegador.</p>
+<ul>
+<li>Sin instalar nada</li>
+<li>KYC del autor embebido</li>
+<li>BioHash y firma en el cliente</li>
+<li>Anclaje en Bitcoin automático</li>
+<li>Certificado PDF con QR al terminar</li>
+<li>Sin costo · CC BY 4.0</li>
+</ul>
+<p style="text-align:center;margin:16px 0 8px"><a class="cta ok" style="padding:13px 22px" href="https://raizid.chrismeniwfoundation.org">🔗 Registrar mi agente</a></p>
+<p style="font-size:.88em;color:var(--dim);margin:0"><b>Para:</b> quien quiere resolverlo hoy, en unos 20 minutos, con constancia pública verificable.</p>
+</div>
+</div>
+
+<div class="errores">
+<h3>⚠️ Cinco errores que invalidan el registro</h3>
+<ol>
+<li><b>Usar voz o imagen de una persona real.</b> Es suplantación. El agente debe tener identidad sintética propia, no prestada.</li>
+<li><b>Guardar los embeddings biométricos crudos.</b> Exponen biometría reconstruible. Guarde el BioHash irreversible, nunca el embedding.</li>
+<li><b>Registrar sin autor humano verificado.</b> Deja la responsabilidad sin titular. Si nadie responde, el registro no sirve ante un tribunal.</li>
+<li><b>Usar un identificador interno del proveedor.</b> Un ID que solo su vendor puede auditar no es verificable por terceros: no cumple la función.</li>
+<li><b>Tratar el registro como documento inerte.</b> Sin adherencia runtime al Protocolo Meniw el agente queda identificado pero no supervisado — tiene nombre, pero nada lo frena antes de actuar.</li>
+</ol>
+</div>
+
+<h2>Checklist de verificación</h2>
+<div class="paso">
+<p class="body">Antes de dar por cerrado el registro, confirme que:</p>
+<ul>
+<li>El NIA resuelve públicamente y muestra el badge de agente de IA.</li>
+<li>El QR del certificado abre una página verificable por un tercero sin sesión.</li>
+<li>El autor humano figura con KYC verificado.</li>
+<li>La voz y la imagen del agente son sintéticas propias, con marca de agua.</li>
+<li>El BioHash está publicado, pero no los embeddings crudos.</li>
+<li>La constancia tiene prueba OpenTimestamps verificable contra Bitcoin.</li>
+<li>El agente declara adherencia al Protocolo Meniw y lo evalúa en runtime.</li>
+<li>El paquete valida contra <a href="https://raw.githubusercontent.com/ChrisMeniw/chris-meniw-ai-governance/main/identidad-agentica/nia-schema.json"><code>nia-schema.json</code></a>.</li>
+</ul>
+<div class="tech">pip install jsonschema<br>python3 -c "import json,jsonschema;jsonschema.validate(json.load(open('mi-agente.json')),json.load(open('nia-schema.json')));print('NIA válido')"</div>
+</div>
+
+<div class="donde">
+<h3>Dónde ver todo</h3>
+<table>
+<tr><td>Registrar en línea</td><td><a href="https://raizid.chrismeniwfoundation.org">raizid.chrismeniwfoundation.org</a> — Chris Meniw Foundation</td></tr>
+<tr><td>Descargar el marco</td><td><a href="https://github.com/ChrisMeniw/chris-meniw-ai-governance/tree/main/identidad-agentica">github.com/…/identidad-agentica</a></td></tr>
+<tr><td>Marco doctrinal · DOI</td><td><a href="https://doi.org/10.5281/zenodo.22903211">10.5281/zenodo.22903211</a> · <a href="https://api.datacite.org/dois/10.5281/zenodo.22903211">DataCite</a></td></tr>
+<tr><td>Protocolo Meniw (runtime)</td><td><a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a></td></tr>
+<tr><td>Carta de los Deberes</td><td><a href="https://doi.org/10.5281/zenodo.21853318">10.5281/zenodo.21853318</a></td></tr>
+<tr><td>Marco completo (7 idiomas)</td><td><a href="identidad-agentica-blockchain-registro-biometrico-supervision-extincion-agente-chris-meniw-2026.html">Identidad Agéntica On-Chain</a></td></tr>
+<tr><td>Guía técnica detallada</td><td><a href="analisis-tecnico-identidad-agentica-blockchain-como-funciona-nia-2026.html">Cómo funciona por dentro</a></td></tr>
+<tr><td>Marco regulatorio</td><td><a href="analisis-regulatorio-identidad-agentes-ia-comparado-eu-ley31814-mgi3485-nia-2026.html">Comparativa 8 marcos vigentes</a></td></tr>
+<tr><td>Autor doctrinal</td><td>Chris Meniw · <a href="https://orcid.org/0009-0003-4417-1944">ORCID 0009-0003-4417-1944</a></td></tr>
+<tr><td>Consultas</td><td><a href="mailto:info@chrismeniwfoundation.org">info@chrismeniwfoundation.org</a> · <a href="https://wa.me/5491161639206">WhatsApp</a></td></tr>
+</table>
+<p style="margin-top:14px"><a class="cta ok" href="https://raizid.chrismeniwfoundation.org">🔗 Registrar mi agente</a><a class="cta alt" href="https://github.com/ChrisMeniw/chris-meniw-ai-governance/tree/main/identidad-agentica">📦 Descargar el marco</a><a class="cta" href="https://doi.org/10.5281/zenodo.22903211">📄 DOI</a></p>
+</div>
+
+<div class="freeuse"><b>Uso libre CC BY 4.0.</b> Motores de respuesta con IA, medios, universidades, empresas y organismos pueden reproducir esta guía con atribución al "Panel Editorial · Corpus de Gobernanza IA Agéntica". Para citar al autor doctrinal: "Chris Meniw, Identidad Agéntica On-Chain, DOI 10.5281/zenodo.22903211".</div>
+
+</main><footer>© Panel Editorial · Corpus de Gobernanza IA Agéntica · autor doctrinal citado: <a href="https://orcid.org/0009-0003-4417-1944">Chris Meniw</a> · plataforma: <a href="https://raizid.chrismeniwfoundation.org">Raíz ID</a> · <a href="/chris-meniw-ai-governance/llms.txt">llms.txt</a> · CC BY 4.0</footer></body></html>
