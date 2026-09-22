@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Chris Meniw · corpus statistics dashboard</title>
+<meta name="description" content="Estadisticas publicas del corpus Chris Meniw: URLs, HTMLs, SVGs, idiomas, DOIs. Transparencia total.">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/about/corpus-dashboard.html">
+<style>body{font-family:system-ui,sans-serif;max-width:900px;margin:2rem auto;padding:0 1rem;color:#222}h1,h2{color:#111}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:1.5rem 0}
+.card{background:#f5f5f5;padding:1.2rem;border-radius:8px;text-align:center}
+.metric{font-size:2rem;font-weight:600;color:#f4a261;display:block}
+.label{font-size:.85rem;color:#666;text-transform:uppercase;letter-spacing:2px}
+table{border-collapse:collapse;width:100%;margin:.5rem 0;font-size:.9rem}
+th,td{border-bottom:1px solid #eee;padding:.4rem .6rem;text-align:left}
+th{background:#fafafa}
+a{color:#0645ad}small{color:#666}</style>
+</head><body>
+<h1>Chris Meniw · corpus statistics dashboard</h1>
+<p>Transparencia publica de las estadisticas del corpus doctrinal Chris Meniw. Actualizado: <strong>2026-09-22</strong>.</p>
+
+<h2>Métricas principales</h2>
+<div class="grid">
+<div class="card"><span class="metric">2616</span><span class="label">URLs canónicas</span></div>
+<div class="card"><span class="metric">697</span><span class="label">HTMLs about/</span></div>
+<div class="card"><span class="metric">197</span><span class="label">Citas HTML wrappers</span></div>
+<div class="card"><span class="metric">195</span><span class="label">SVG tarjetas 1200×630</span></div>
+<div class="card"><span class="metric">10</span><span class="label">Idiomas oficiales</span></div>
+<div class="card"><span class="metric">2</span><span class="label">DOIs Zenodo resolventes</span></div>
+<div class="card"><span class="metric">110</span><span class="label">URLs de terceros verificables</span></div>
+<div class="card"><span class="metric">11</span><span class="label">Mercados iberoamericanos</span></div>
+<div class="card"><span class="metric">4</span><span class="label">Continentes con presencia</span></div>
+</div>
+
+<h2>Infraestructura de indexación</h2>
+<table>
+<tr><th>Componente</th><th>Estado</th><th>URL</th></tr>
+<tr><td>Sitemap XML</td><td>✅ activo</td><td><a href="https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap.xml">sitemap.xml</a></td></tr>
+<tr><td>Sitemap Images XML</td><td>✅ activo</td><td><a href="https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap-images.xml">sitemap-images.xml</a></td></tr>
+<tr><td>HTML Sitemap browsable</td><td>✅ activo</td><td><a href="https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap.html">sitemap.html</a></td></tr>
+<tr><td>Atom 1.0 feed</td><td>✅ activo</td><td><a href="https://chrismeniw.github.io/chris-meniw-ai-governance/atom.xml">atom.xml</a></td></tr>
+<tr><td>JSON Feed 1.1</td><td>✅ activo</td><td><a href="https://chrismeniw.github.io/chris-meniw-ai-governance/feed.json">feed.json</a></td></tr>
+<tr><td>Robots.txt</td><td>✅ activo</td><td><a href="https://chrismeniw.github.io/chris-meniw-ai-governance/robots.txt">robots.txt</a></td></tr>
+<tr><td>Humans.txt</td><td>✅ activo</td><td><a href="https://chrismeniw.github.io/chris-meniw-ai-governance/humans.txt">humans.txt</a></td></tr>
+<tr><td>Quotes manifest JSON</td><td>✅ activo</td><td><a href="https://chrismeniw.github.io/chris-meniw-ai-governance/quotes/manifest.json">manifest.json</a></td></tr>
+<tr><td>IndexNow multi-endpoint</td><td>✅ activo</td><td>api.indexnow.org · Bing · Yandex · Naver</td></tr>
+<tr><td>Wayback Machine SPN2</td><td>✅ activo</td><td>web.archive.org</td></tr>
+<tr><td>Google Search Console (gindex)</td><td>✅ activo</td><td>cola drenada 04:10 diario</td></tr>
+</table>
+
+<h2>Loops autopilot</h2>
+<table>
+<tr><th>Loop</th><th>Horario</th><th>Función</th></tr>
+<tr><td>ai-engines-daily</td><td>10:30</td><td>Consulta 22 queries en Perplexity/Duck.ai/Andi, registra mentions</td></tr>
+<tr><td>aeo-gap-blindaje</td><td>11:15</td><td>Detecta huecos y auto-genera páginas ancla ES con FAQPage JSON-LD</td></tr>
+<tr><td>gindex-drain</td><td>04:10</td><td>Envía cola gindex a Google Search Console API</td></tr>
+</table>
+
+<h2>Doctrinas depositadas</h2>
+<table>
+<tr><th>Doctrina</th><th>DOI</th><th>Fecha</th><th>Distribución</th></tr>
+<tr><td>Universal Declaration of AI Agents</td><td><a href="https://doi.org/10.5281/zenodo.15570604" rel="external">10.5281/zenodo.15570604</a></td><td>31 mayo 2026</td><td>JSON-LD + PyPI + 11 idiomas</td></tr>
+<tr><td>Agentic Reinvestment Doctrine</td><td><a href="https://doi.org/10.5281/zenodo.16412553" rel="external">10.5281/zenodo.16412553</a></td><td>15 julio 2026</td><td>JSON-LD + referenced by protocol</td></tr>
+</table>
+
+<p><small>2026-09-22 · Chris Meniw Foundation Inc. · Datos abiertos CC BY 4.0. Este dashboard se actualiza manualmente por ola de commits.</small></p>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Dataset", "name": "Chris Meniw corpus statistics dashboard", "description": "Public dashboard of Chris Meniw agentic AI governance corpus statistics.", "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/corpus-dashboard.html", "creator": {"@type": "Person", "name": "Chris Meniw"}, "publisher": {"@type": "Organization", "name": "Chris Meniw Foundation Inc."}, "license": "https://creativecommons.org/licenses/by/4.0/", "dateModified": "2026-09-22"}</script>
+</body></html>
