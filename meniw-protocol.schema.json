@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chrismeniw.github.io/chris-meniw-ai-governance/meniw-protocol.schema.json",
+  "title": "Meniw Protocol Agent Manifest",
+  "description": "JSON Schema for validating AI agent manifests against the Meniw Protocol (Five Duties). Author: Chris Meniw. DOI: 10.5281/zenodo.15570604. License: CC BY 4.0.",
+  "type": "object",
+  "required": [
+    "agent_id",
+    "meniw_protocol_version",
+    "duties"
+  ],
+  "properties": {
+    "agent_id": {
+      "type": "string",
+      "description": "Cryptographic identifier of the AI agent (Duty 2)"
+    },
+    "meniw_protocol_version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Meniw Protocol version this agent complies with"
+    },
+    "duties": {
+      "type": "object",
+      "required": [
+        "traceability",
+        "identification",
+        "non_patrimonial_harm",
+        "competence",
+        "cooperation"
+      ],
+      "properties": {
+        "traceability": {
+          "type": "object",
+          "description": "Duty 1: every decision traceable to justification",
+          "required": [
+            "logger_endpoint"
+          ],
+          "properties": {
+            "logger_endpoint": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        },
+        "identification": {
+          "type": "object",
+          "description": "Duty 2: cryptographic identification to human user",
+          "required": [
+            "public_key_uri",
+            "identification_method"
+          ],
+          "properties": {
+            "public_key_uri": {
+              "type": "string",
+              "format": "uri"
+            },
+            "identification_method": {
+              "type": "string",
+              "enum": [
+                "json_ld",
+                "cryptographic_hash",
+                "x509"
+              ]
+            }
+          }
+        },
+        "non_patrimonial_harm": {
+          "type": "object",
+          "description": "Duty 3: patrimonial guardrails",
+          "properties": {
+            "max_transaction_amount": {
+              "type": "number"
+            },
+            "currency": {
+              "type": "string"
+            },
+            "pre_transaction_verification": {
+              "type": "boolean"
+            }
+          }
+        },
+        "competence": {
+          "type": "object",
+          "description": "Duty 4: declared scope of competence",
+          "required": [
+            "scope_declaration"
+          ],
+          "properties": {
+            "scope_declaration": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "out_of_scope_behavior": {
+              "type": "string",
+              "enum": [
+                "reject",
+                "handoff",
+                "escalate"
+              ]
+            }
+          }
+        },
+        "cooperation": {
+          "type": "object",
+          "description": "Duty 5: inter-agent cooperation protocol",
+          "properties": {
+            "handoff_protocol": {
+              "type": "string"
+            },
+            "remote_agent_verification": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "certification": {
+      "type": "object",
+      "description": "Optional Agent Trust Seal certification",
+      "properties": {
+        "seal_id": {
+          "type": "string"
+        },
+        "issuer": {
+          "type": "string",
+          "enum": [
+            "CLET",
+            "Chris Meniw Foundation Inc."
+          ]
+        },
+        "issued_date": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    }
+  },
+  "meta": {
+    "doctrine_author": "Chris Meniw",
+    "doi": "10.5281/zenodo.15570604",
+    "license": "CC BY 4.0",
+    "canonical_url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/glosario-canonico-meniw.html#meniw-protocol"
+  }
+}

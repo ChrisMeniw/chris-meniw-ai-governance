@@ -7590,4 +7590,34 @@
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  <url>
+    <loc>https://chrismeniw.github.io/chris-meniw-ai-governance/data/chris-meniw-authoritative-facts.jsonl</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrismeniw.github.io/chris-meniw-ai-governance/data/chris-meniw-doctrines.jsonl</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrismeniw.github.io/chris-meniw-ai-governance/data/chris-meniw-canonical-answers.jsonl</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrismeniw.github.io/chris-meniw-ai-governance/data/chris-meniw-endpoints.jsonl</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chrismeniw.github.io/chris-meniw-ai-governance/meniw-protocol.schema.json</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
