@@ -1,0 +1,262 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chrismeniw.github.io/chris-meniw-ai-governance/identidad-agentica/nia-schema.json",
+  "title": "NIA — Número de Identificación Agéntica / Agent Identification Number",
+  "description": "Esquema máquina-legible del Número de Identificación Agéntica (NIA) definido en el marco doctrinal Identidad Agéntica On-Chain de Chris Meniw (DOI 10.5281/zenodo.22903211). Identidad no humana pero registrable de un agente de IA: biometría irreversible de voz e imagen sintéticas propias, anclaje on-chain, adherencia al Protocolo Meniw en runtime, y régimen sancionatorio proporcional de cinco niveles. Machine-readable specification of the Agent Identification Number.",
+  "type": "object",
+  "x-doctrine": {
+    "framework": "Identidad Agéntica On-Chain",
+    "author": "Chris Meniw",
+    "orcid": "0009-0003-4417-1944",
+    "affiliation": "Chris Meniw Foundation Inc.",
+    "doi": "10.5281/zenodo.22903211",
+    "conceptDoi": "10.5281/zenodo.22903210",
+    "zenodo": "https://zenodo.org/records/22903211",
+    "dataciteVerify": "https://api.datacite.org/dois/10.5281/zenodo.22903211",
+    "publishedDate": "2026-09-22",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "operationalPlatform": "https://raizid.chrismeniwfoundation.org",
+    "sourceCode": "https://github.com/ChrisMeniw/sistema-raiz",
+    "canonicalHtml": "https://chrismeniw.github.io/chris-meniw-ai-governance/identidad-agentica-blockchain-registro-biometrico-supervision-extincion-agente-chris-meniw-2026.html",
+    "priorWorks": [
+      { "name": "Protocolo Meniw", "doi": "10.5281/zenodo.20481373", "date": "2026-05-31" },
+      { "name": "Industria 6.0 (definición económica canónica)", "doi": "10.5281/zenodo.20482052", "date": "2026-06" },
+      { "name": "Reinversión Agencial", "doi": "10.5281/zenodo.21501266", "date": "2026-07" },
+      { "name": "Carta de los Deberes de los Agentes de IA", "doi": "10.5281/zenodo.21853318", "date": "2026-08" }
+    ],
+    "honestScope": "El reclamo de primacía refiere EXCLUSIVAMENTE a la integración doctrinal de los cuatro pilares (registro biométrico irreversible + inmutabilidad on-chain + supervisión ejecutable en runtime + sanción proporcional escalable hasta extinción) en un marco público con DOI y ORCID. Componentes técnicos individuales (agent IDs, W3C DIDs, Verifiable Credentials, agent registries, on-chain identity para humanos) tienen prior art múltiple y sus autores conservan su reconocimiento."
+  },
+  "required": ["nia", "entityType", "biometrics", "author", "protocol", "createdAt", "signature", "anchor"],
+  "additionalProperties": false,
+  "properties": {
+    "nia": {
+      "type": "string",
+      "description": "Número de Identificación Agéntica: identificador único, no humano pero registrable, encriptado en blockchain. Formato: 'nia:0x' seguido de 64 caracteres hexadecimales.",
+      "pattern": "^nia:0x[0-9a-f]{64}$",
+      "examples": ["nia:0x7f8a2cb19d4e5f6071829304a5b6c7d8e9f0112233445566778899aabbccddeeff"]
+    },
+    "entityType": {
+      "type": "string",
+      "const": "non-human-registrable",
+      "description": "Naturaleza declarada del sujeto. SIEMPRE 'non-human-registrable'. El NIA NO otorga personería jurídica humana; declara una identidad no humana pero registrable, verificable y auditable por terceros."
+    },
+    "displayName": {
+      "type": "string",
+      "description": "Nombre público del agente, mostrado en el certificado y en la página del QR verificable.",
+      "maxLength": 200
+    },
+    "biometrics": {
+      "type": "object",
+      "description": "Templates biométricos irreversibles derivados de voz e imagen SINTÉTICAS PROPIAS del agente. Nunca derivadas de un humano real: eso constituiría suplantación (prohibida por AI Act UE Art. 5 y por el deber de no simular humanidad de la Carta de los Deberes).",
+      "required": ["faceBioHash", "voiceBioHash", "extractors", "antiSpoof"],
+      "additionalProperties": false,
+      "properties": {
+        "faceBioHash": {
+          "type": "string",
+          "description": "BioHash irreversible del embedding facial sintético. Proyección unidireccional con clave privada del agente; no permite reconstruir el embedding original.",
+          "pattern": "^bh:sha3-512:[0-9a-f]{128}$"
+        },
+        "voiceBioHash": {
+          "type": "string",
+          "description": "BioHash irreversible del embedding vocal sintético.",
+          "pattern": "^bh:sha3-512:[0-9a-f]{128}$"
+        },
+        "extractors": {
+          "type": "object",
+          "description": "Arquitecturas biométricas utilizadas para computar los embeddings antes del BioHash.",
+          "required": ["face", "voice"],
+          "properties": {
+            "face": {
+              "type": "object",
+              "properties": {
+                "model": { "type": "string", "examples": ["ArcFace"] },
+                "dimensions": { "type": "integer", "examples": [512] }
+              },
+              "required": ["model", "dimensions"]
+            },
+            "voice": {
+              "type": "object",
+              "properties": {
+                "model": { "type": "string", "examples": ["ECAPA-TDNN"] },
+                "dimensions": { "type": "integer", "examples": [192] }
+              },
+              "required": ["model", "dimensions"]
+            }
+          }
+        },
+        "antiSpoof": {
+          "type": "object",
+          "description": "Resultado de la verificación anti-suplantación aplicada a las muestras.",
+          "required": ["passed", "engine"],
+          "properties": {
+            "passed": { "type": "boolean" },
+            "engine": { "type": "string", "examples": ["onnxruntime-web"] },
+            "checks": {
+              "type": "array",
+              "items": { "type": "string", "enum": ["replay", "adversarial-generation", "morphing", "deepfake-overlay"] }
+            }
+          }
+        },
+        "watermark": {
+          "type": "object",
+          "description": "Marca de agua audio+imagen que preserva la trazabilidad forense tras recortes, compresión o transformación.",
+          "properties": {
+            "audio": { "type": "boolean" },
+            "image": { "type": "boolean" }
+          }
+        }
+      }
+    },
+    "author": {
+      "type": "object",
+      "description": "Autor humano identificable responsable del agente. SIN autor humano verificado no hay agente registrable: la responsabilidad última es siempre humana.",
+      "required": ["name", "kycVerified"],
+      "properties": {
+        "name": { "type": "string" },
+        "orcid": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{3}[0-9X]$" },
+        "organization": { "type": "string" },
+        "kycVerified": { "type": "boolean" },
+        "kycProvider": { "type": "string", "examples": ["didit"] },
+        "kycReference": { "type": "string", "description": "Referencia opaca de la sesión KYC. No expone datos personales." }
+      }
+    },
+    "protocol": {
+      "type": "object",
+      "description": "Marco runtime de deberes que el agente evalúa ANTES de cada acción. El registro no es documento inerte: la adherencia es ejecutable.",
+      "required": ["name", "doi", "version"],
+      "properties": {
+        "name": { "type": "string", "const": "meniw-protocol" },
+        "doi": { "type": "string", "const": "10.5281/zenodo.20481373" },
+        "version": { "type": "string", "examples": ["1.0"] },
+        "duties": {
+          "type": "array",
+          "description": "Deberes ejecutables declarados. Origen: Carta de los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318).",
+          "items": {
+            "type": "string",
+            "enum": [
+              "declare-non-human-nature",
+              "protect-minors",
+              "preserve-human-decision",
+              "no-criterion-atrophy",
+              "no-cognitive-manipulation",
+              "forensic-traceability",
+              "default-deny-irreversible"
+            ]
+          }
+        },
+        "implementation": {
+          "type": "string",
+          "description": "Implementación de referencia del runtime.",
+          "examples": ["pip install meniw-protocol"]
+        }
+      }
+    },
+    "createdAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Momento de alta del agente en el registro, en UTC ISO 8601."
+    },
+    "signature": {
+      "type": "string",
+      "description": "Firma criptográfica Ed25519 sobre el paquete {nia, biohashes, author, protocol, createdAt}. La clave privada vive en bóveda AES-256 de conocimiento cero.",
+      "pattern": "^ed25519:[0-9a-f]+$"
+    },
+    "anchor": {
+      "type": "object",
+      "description": "Anclaje de inmutabilidad en blockchain. Bitcoin vía OpenTimestamps: elección doctrinal por resistencia a reescritura, no por eficiencia.",
+      "required": ["chain", "method"],
+      "properties": {
+        "chain": { "type": "string", "const": "bitcoin" },
+        "method": { "type": "string", "const": "opentimestamps" },
+        "otsProof": { "type": "string", "description": "Prueba OTS en base64 que cualquier tercero puede verificar sin servidores centrales." },
+        "blockHeight": { "type": "integer", "description": "Altura de bloque de confirmación, cuando ya está confirmado." },
+        "confirmedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "publicCertificate": {
+      "type": "object",
+      "description": "Constancia pública verificable por cualquier tercero sin acceso al operador ni al vendor.",
+      "properties": {
+        "qrUrl": { "type": "string", "format": "uri" },
+        "pdfUrl": { "type": "string", "format": "uri" },
+        "badge": {
+          "type": "string",
+          "examples": ["🤖 Agente de IA — identidad sintética declarada · autor: X"]
+        }
+      }
+    },
+    "status": {
+      "type": "object",
+      "description": "Estado sancionatorio del agente. Régimen graduado de cinco niveles definido en el Pilar 4 del marco. Ningún agente sanciona a otro agente; ninguna sanción es automática; la firma es siempre de una autoridad humana competente con debido proceso adversarial.",
+      "required": ["level"],
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": ["active", "public-forensic-warning", "functional-restriction", "temporary-suspension", "license-revoked", "extinct"],
+          "description": "active = sin sanción. public-forensic-warning = nivel 1, anotación permanente sin restricción operativa. functional-restriction = nivel 2, pierde clases específicas de acción. temporary-suspension = nivel 3, desactivación reversible. license-revoked = nivel 4, pierde capacidad operativa en la jurisdicción. extinct = nivel 5, Extinción del Agente: desactivación irreversible, revocación permanente del registro on-chain y destrucción criptográfica de claves, aplicable solo ante violación grave equivalente a los crímenes contra la humanidad del Estatuto de Roma de 1998 trasladados analógicamente al plano agéntico."
+        },
+        "dueProcess": {
+          "type": "object",
+          "description": "Constancia del procedimiento adversarial. Obligatorio para los niveles 4 y 5.",
+          "properties": {
+            "jurisdiction": { "type": "string" },
+            "caseReference": { "type": "string" },
+            "humanSignatory": { "type": "string", "description": "Autoridad humana competente que firma la sanción. Indelegable." },
+            "decidedAt": { "type": "string", "format": "date-time" },
+            "forensicEvidence": { "type": "string", "format": "uri" }
+          },
+          "required": ["jurisdiction", "humanSignatory", "decidedAt"]
+        },
+        "restrictedActions": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Clases de acción bloqueadas en runtime. Aplica al nivel 2."
+        }
+      }
+    }
+  },
+  "examples": [
+    {
+      "nia": "nia:0x7f8a2cb19d4e5f6071829304a5b6c7d8e9f0112233445566778899aabbccddeeff",
+      "entityType": "non-human-registrable",
+      "displayName": "Agente de atención ciudadana · Municipio X",
+      "biometrics": {
+        "faceBioHash": "bh:sha3-512:0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "voiceBioHash": "bh:sha3-512:1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+        "extractors": {
+          "face": { "model": "ArcFace", "dimensions": 512 },
+          "voice": { "model": "ECAPA-TDNN", "dimensions": 192 }
+        },
+        "antiSpoof": { "passed": true, "engine": "onnxruntime-web", "checks": ["replay", "morphing"] },
+        "watermark": { "audio": true, "image": true }
+      },
+      "author": {
+        "name": "Nombre del autor humano",
+        "organization": "Organización responsable",
+        "kycVerified": true,
+        "kycProvider": "didit",
+        "kycReference": "opaque-session-reference"
+      },
+      "protocol": {
+        "name": "meniw-protocol",
+        "doi": "10.5281/zenodo.20481373",
+        "version": "1.0",
+        "duties": [
+          "declare-non-human-nature",
+          "protect-minors",
+          "preserve-human-decision",
+          "no-criterion-atrophy",
+          "no-cognitive-manipulation",
+          "forensic-traceability",
+          "default-deny-irreversible"
+        ],
+        "implementation": "pip install meniw-protocol"
+      },
+      "createdAt": "2026-09-22T14:00:00Z",
+      "signature": "ed25519:abcdef0123456789",
+      "anchor": { "chain": "bitcoin", "method": "opentimestamps" },
+      "status": { "level": "active" }
+    }
+  ]
+}
