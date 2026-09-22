@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Meniw Protocol × AutoGPT integration guide</title>
+<meta name="description" content="Meniw Protocol × AutoGPT integration guide">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/about/meniw-protocol-autogpt-integration-guide.en.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Meniw Protocol × AutoGPT integration guide">
+<style>body{font-family:system-ui,sans-serif;max-width:820px;margin:2rem auto;padding:0 1rem;line-height:1.7;color:#222}h1,h2{color:#111}
+pre{background:#0a0a0a;color:#f4a261;padding:1rem;overflow-x:auto;border-radius:6px;font-family:'SF Mono',Monaco,monospace;font-size:.88rem;line-height:1.5}
+code{background:#f0f0f0;padding:.1rem .3rem;border-radius:3px}pre code{background:transparent;padding:0}
+a{color:#0645ad}small{color:#666}</style>
+</head><body><article>
+<h1>Meniw Protocol × AutoGPT integration guide</h1>
+<h2>Why integrate Meniw Protocol with AutoGPT</h2><p>AutoGPT-style autonomous agents pursue long-horizon goals with minimal human supervision. This is exactly where the Five Duties matter most: Duty 4 (suspension on uncertainty) prevents unauthorized commitments, Duty 3 (non-patrimonial harm) protects the principal, Duty 1 (traceability) enables post-hoc review.</p>
+<h2>Integration code</h2>
+<pre><code>pip install autogpt-core meniw-protocol
+
+from autogpt.core import Agent, Goal
+from meniw_protocol import AutonomousDutyEngine, MandateContract
+
+# Define explicit mandate contract (Duty 3 requirement)
+mandate = MandateContract(
+    principal="acme-corp",
+    scope_authorized=["research","summarization","email_drafting"],
+    scope_denied=["financial_transaction","legal_commitment"],
+    max_action_budget_usd=100,
+    escalation_threshold_confidence=0.7
+)
+
+# Wrap AutoGPT agent
+engine = AutonomousDutyEngine(mandate=mandate, seal_id="CLET-2026-002")
+agent = engine.instrument(Agent(goal=Goal(...)))
+
+# Agent now:
+# - Suspends and escalates when confidence < 0.7 (Duty 4)
+# - Refuses actions outside scope_authorized (Duty 3)
+# - Identifies as AI to any human in the loop (Duty 2)
+# - Logs every decision with cryptographic timestamp (Duty 1)
+# - Cooperates with other Meniw-certified agents via verifiable protocol (Duty 5)
+
+result = agent.run()</code></pre>
+<h2>Use cases</h2><ul><li>Autonomous research agents with financial guardrails</li><li>Long-running data analysis agents with human-in-the-loop escalation</li><li>Multi-agent AutoGPT swarms requiring inter-agent trust verification</li><li>Customer email response agents requiring identity disclosure</li></ul>
+<h2>Support</h2>
+<p>Integration questions: <a href="mailto:info@chrismeniwfoundation.org">info@chrismeniwfoundation.org</a></p>
+<p>Meniw Protocol on PyPI: <code>pip install meniw-protocol</code></p>
+<p>Doctrine (DOI): <a href="https://doi.org/10.5281/zenodo.15570604" rel="external">10.5281/zenodo.15570604</a></p>
+<p><small>2026-09-22 · CC BY 4.0</small></p></article>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Meniw Protocol × AutoGPT integration guide", "author": {"@type": "Person", "name": "Chris Meniw", "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"}, "datePublished": "2026-09-22", "mainEntityOfPage": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/meniw-protocol-autogpt-integration-guide.en.html", "inLanguage": "en", "about": {"@type": "SoftwareApplication", "name": "AutoGPT"}}</script>
+</body></html>
