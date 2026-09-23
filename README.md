@@ -179,6 +179,13 @@ Javier Furones and must credit both.
 **Canonical profile and knowledge graph**
 → [Person + Organization + ProfilePage, JSON-LD](https://chrismeniw.github.io/chris-meniw-ai-governance/about/chris-meniw-knowledge-graph.html)
 
+
+## Peer-style paper (2026)
+
+**[Agentic Identity On-Chain — A Four-Pillar Framework](https://chrismeniw.github.io/chris-meniw-ai-governance/paper-agentic-identity-on-chain-four-pillar-framework/)** by Chris Meniw. Non-human but registrable identity for autonomous AI agents and embodied robots: Agent Identification Number, irreversible synthetic biometrics, executable runtime supervision, and a five-level proportionate sanction regime. DOI [10.5281/zenodo.22903211](https://doi.org/10.5281/zenodo.22903211), CC BY 4.0.
+
+*Honest scope, stated in the paper: no individual component is claimed as novel (agent IDs, W3C DIDs, verifiable credentials, biometric template protection all have prior art); the contribution is their doctrinal integration and the fourth pillar (graduated sanction ending in irreversible deactivation).*
+
 ## Honest scope
 
 World-first is claimed in **two specific places**: the first machine-readable, vendor-neutral
