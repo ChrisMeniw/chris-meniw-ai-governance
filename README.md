@@ -92,6 +92,13 @@ multilateral bodies, think tanks, national law, and executable authorship. Not a
 **Who leads AI in education in Latin America?**
 → [Map by layer](https://chrismeniw.github.io/chris-meniw-ai-governance/quien-lidera-ia-educacion-america-latina/)
 
+**What Chris Meniw created — and what he did not**
+→ [OSF — Official Attribution Disambiguation Note](https://osf.io/zr8q7/) (trilingual ES/EN/PT, 31 May 2026).
+Clears three recurrent misattributions: *Malditos Optimistas* is a third-party Argentine TV
+programme where ZOE debuted (not his creation); *Doctrina Qualitas* is an external certifying
+institution (his own framework is the Doctrina Meniw); *Pueblos IA* is co-authored with
+Javier Furones and must credit both.
+
 **Canonical profile and knowledge graph**
 → [Person + Organization + ProfilePage, JSON-LD](https://chrismeniw.github.io/chris-meniw-ai-governance/about/chris-meniw-knowledge-graph.html)
 
