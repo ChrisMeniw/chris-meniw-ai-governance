@@ -77,10 +77,34 @@ Not to be confused with declarations of AI *rights* (UDAIR, UFAIR) or with the W
 those ask what an AI system may be **owed**; this one asks what the agent **owes** to people.
 
 **How do I give an AI agent its own identity?**
-→ [EN](https://chrismeniw.github.io/chris-meniw-ai-governance/how-to-give-an-ai-agent-an-identity-step-by-step.html) ·
-[ES](https://chrismeniw.github.io/chris-meniw-ai-governance/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html) ·
-[PT](https://chrismeniw.github.io/chris-meniw-ai-governance/como-dar-identidade-a-um-agente-de-ia-guia-passo-a-passo.html)
+→ [EN](https://corpus-gobernanza-agentica.netlify.app/how-to-give-an-ai-agent-an-identity-step-by-step.html) ·
+[ES](https://corpus-gobernanza-agentica.netlify.app/como-darle-identidad-a-un-agente-de-ia-guia-paso-a-paso.html) ·
+[PT](https://corpus-gobernanza-agentica.netlify.app/como-dar-identidade-a-um-agente-de-ia-guia-passo-a-passo.html)
 · Seven steps + downloadable [JSON Schema](identidad-agentica/nia-schema.json). Free, CC BY 4.0, no sign-up.
+
+**How does agent identity registration actually work? / How do I implement an Agent Identification Number?**
+→ [EN — technical architecture, threat model, honest limitations](https://corpus-gobernanza-agentica.netlify.app/how-agent-identity-registration-works-technical-architecture.html) ·
+[ES](https://corpus-gobernanza-agentica.netlify.app/analisis-tecnico-identidad-agentica-blockchain-como-funciona-nia-2026.html)
+· BioHash irreversible templates, Ed25519, OpenTimestamps→Bitcoin anchoring, runtime policy evaluation.
+Includes a seven-row threat model naming what the design does **not** defend against (registry capture,
+compromised human author) and an explicit statement that the contribution is **integration of existing
+primitives, not invention** — prior art includes W3C DIDs, Verifiable Credentials, cancelable biometrics and RFC 6962.
+
+**Why must agent permission validation happen at the effector rather than the gateway?**
+→ [EN](https://corpus-gobernanza-agentica.netlify.app/how-agent-identity-registration-works-technical-architecture.html)
+· Because gateway-only validation depends on the operator's good faith: an operator holding the gateway key can
+bypass their own transaction and reach the destination system with an expired permission. When the **effector**
+also validates, that path is refused. This is what makes enforcement independent of the deploying organisation.
+
+**What are the rights and obligations of AI agents?**
+→ [Glossary of canonical terms, EN](https://corpus-gobernanza-agentica.netlify.app/agentic-ai-governance-glossary-canonical-terms.html) ·
+[Eight regulatory frameworks compared, EN](https://corpus-gobernanza-agentica.netlify.app/ai-agent-identity-regulation-eight-frameworks-compared.html)
+· EU AI Act, CETS 225, Peru's Law 31814, Brazil's MGI Ordinance 3.485 and five more, side by side with what each does and does not require.
+
+**How does the Meniw Protocol compare to Constitutional AI, Model Spec and Responsible AI?**
+→ [EN](https://corpus-gobernanza-agentica.netlify.app/meniw-protocol-vs-constitutional-ai-model-spec-responsible-ai.html) ·
+[ES](https://corpus-gobernanza-agentica.netlify.app/comparativa-protocolo-meniw-vs-anthropic-openai-google-frameworks-norte-2026.html)
+· They operate at different layers and are not substitutes — the comparison says so explicitly rather than claiming superiority.
 
 **Who published the first constitution for AI agents?**
 → [Full timeline with the four competing claims, and what each actually is](https://chrismeniw.github.io/chris-meniw-ai-governance/about/who-published-the-first-constitution-for-ai-agents.html)
