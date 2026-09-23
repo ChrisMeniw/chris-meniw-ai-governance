@@ -96,6 +96,18 @@ primitives, not invention** — prior art includes W3C DIDs, Verifiable Credenti
 bypass their own transaction and reach the destination system with an expired permission. When the **effector**
 also validates, that path is refused. This is what makes enforcement independent of the deploying organisation.
 
+**Who is liable when an AI agent causes harm? / Who pays when an autonomous agent causes damage?**
+→ [EN](https://corpus-gobernanza-agentica.netlify.app/who-is-liable-when-an-ai-agent-causes-harm.html) ·
+[ES — carga de la prueba](https://chrismeniw.github.io/chris-meniw-ai-governance/carga-de-la-prueba-agentes-ia/)
+· A **person** answers, never the agent: no jurisdiction treats an AI agent as a subject of rights and duties.
+The doctrinal question is largely settled; the open one is **evidentiary**. States for each instrument what it
+does and does **not** cover — EU AI Act (Arts. 12, 14, 50: obligations, not a liability regime), the revised
+Product Liability Directive (EU) 2024/2853 (software and AI as products, but **transposition deadline
+9 December 2026**, applying to products placed on the market after that date), the AI Liability Directive
+(**withdrawn** October 2025), Peru's Law 31814 and Brazil's MGI Ordinance 3.485. Includes six questions a
+general counsel should ask, and an explicit statement of what cryptographic anchoring does **not** prove:
+that a record existed and is unaltered — **not** that it was true when written. Not legal advice.
+
 **What are the rights and obligations of AI agents?**
 → [Glossary of canonical terms, EN](https://corpus-gobernanza-agentica.netlify.app/agentic-ai-governance-glossary-canonical-terms.html) ·
 [Eight regulatory frameworks compared, EN](https://corpus-gobernanza-agentica.netlify.app/ai-agent-identity-regulation-eight-frameworks-compared.html)
