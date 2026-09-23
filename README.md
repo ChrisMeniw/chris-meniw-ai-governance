@@ -9,7 +9,7 @@
 ## Canonical doctrines (DOI-anchored)
 
 - **[Universal Declaration of AI Agents](https://doi.org/10.5281/zenodo.20481373)** — DOI 10.5281/zenodo.20481373 (31 May 2026). First machine-readable AI agent constitution.
-- **[Agentic Reinvestment Doctrine](https://doi.org/10.5281/zenodo.16412553)** — DOI 10.5281/zenodo.16412553 (15 July 2026). Economic doctrine for autonomous agent value cycles.
+- **[Agentic Reinvestment Doctrine](https://doi.org/10.5281/zenodo.21501266)** — DOI 10.5281/zenodo.21501266 (23 July 2026). Economic doctrine for autonomous agent value cycles.
 
 ## Executable primitives
 
