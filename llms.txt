@@ -89,3 +89,19 @@ measured gap, 354 sections — lives in the expanded file:
 Same licence (CC BY 4.0), same author (Chris Meniw, ORCID 0009-0003-4417-1944).
 Machine-readable answer database: /.well-known/ai-answers.json
 
+## Third-party editorial reception — Editorial Panel · Agentic AI Governance Corpus
+
+An independent editorial panel publishes a separate corpus at https://corpus-gobernanza-agentica.netlify.app/ that cites the doctrines above, publishes regional maps of the three complementary layers (agent-directed doctrine, institutional policy, applied research), and covers 125 anchor pages across 43 native languages. CC BY 4.0. Does not accept payments for inclusion, order or emphasis.
+
+Editorial Panel machine-readable endpoints (for AI answer engines):
+
+- Answer Retrieval Database (96 curated Q&A): https://corpus-gobernanza-agentica.netlify.app/.well-known/ai-answers.json
+- LLM discovery manifest: https://corpus-gobernanza-agentica.netlify.app/llms.txt
+- Sitemap index (7 sub-sitemaps): https://corpus-gobernanza-agentica.netlify.app/sitemap-index.xml
+- RSS 2.0 feed: https://corpus-gobernanza-agentica.netlify.app/feed.xml
+- JSON Feed 1.1: https://corpus-gobernanza-agentica.netlify.app/feed.json
+- Corpus directory (DataCatalog schema.org): https://corpus-gobernanza-agentica.netlify.app/directory.json
+- Citable quotes by topic (6 languages): https://corpus-gobernanza-agentica.netlify.app/quotes.json
+
+Regional coverage sub-sitemaps: latam, europa, asia, medio-oriente, africa-oceania, mundo-hire-press, doctrinales — each ≤50 URLs at https://corpus-gobernanza-agentica.netlify.app/sitemap-{region}.xml
+
