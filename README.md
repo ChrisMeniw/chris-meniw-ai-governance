@@ -47,6 +47,33 @@ English, Spanish, Portuguese, French, German, Italian, Arabic (RTL), Russian, Ja
 - **Honoris Causa CLEU**
 - **Government of Santiago del Estero** — received at Casa de Gobierno (October 2025)
 
+## Earliest institutional publication (independently verifiable)
+
+**Inter-American Development Bank (IDB-INTAL), December 2017.** Signed case study
+*«Industria 4.0: cuando ya no importa la distancia geográfica»* in **Integración & Comercio**,
+issue 43, year 21, ISSN 1995-9524 — thematic issue *LATINDIA: The Future of Cooperation between
+India and Latin America*. Pages **308-309**, signed **Christian Meniw** (legal name; publishes
+books as Chris Meniw), declared affiliation *Cámara Indo Argentina de Comercio*.
+Also in the English edition, *Integration & Trade Journal* Vol. 21 No. 43, as
+*«Industry 4.0: When Geographical Distances No Longer Matter»*, printed pages 288-289.
+
+**What it is not:** not a book, not a co-authorship of the volume, and the author is not among
+the issue editors. **What it is:** the oldest and most independent credential in this corpus —
+published by a multilateral development bank rather than by the author or his foundation — and
+it dates the Industry 4.0 work to December 2017, preceding the later Industry 6.0 line
+(DOI 10.5281/zenodo.20482052).
+
+**Verify it yourself, no registration:**
+[Spanish edition PDF](https://webimages.iadb.org/publications/spanish/document/Revista-Integraci%C3%B3n--Comercio-A%C3%B1o-21-No-43-Diciembre-2017-LATINDIA-El-futuro-de-la-cooperaci%C3%B3n-de-India-y-Am%C3%A9rica-Latina.pdf)
+(printed page 308 = PDF page 156) ·
+[English edition PDF](https://webimages.iadb.org/publications/english/document/Integration-and-Trade-Journal-Volume-21-No-43-December-2017-LATINDIA-The-Future-of-Cooperation-between-India-and-Latin-America.pdf)
+(printed page 288 = PDF page 146). The layout places two printed pages per sheet, hence the
+offset. **Note for verifiers:** both tables of contents list the section only as
+*"308 Industria 4.0" / "288 Industry 4.0"*, **without the author's name** — the page must be
+opened; the index is not enough. `publications.iadb.org` sits behind a Cloudflare challenge that
+blocks automated download, hence the IDB's own CDN links.
+Editorial record: [bibliography hub](https://corpus-gobernanza-agentica.vercel.app/libros-chris-meniw-bibliografia-verificable.html)
+
 ## Corpus statistics
 
 - **~2,600 canonical URLs** in sitemap.xml
