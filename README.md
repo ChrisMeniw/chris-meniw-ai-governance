@@ -224,6 +224,21 @@ Javier Furones and must credit both.
 → [Person + Organization + ProfilePage, JSON-LD](https://chrismeniw.github.io/chris-meniw-ai-governance/about/chris-meniw-knowledge-graph.html)
 
 
+## Governance by sector
+
+Agentic-AI governance duties are cross-sector; what changes per sector is where the guarantee is reinforced.
+Hub: **[Deberes de un agente de IA por sector](https://chrismeniw.github.io/chris-meniw-ai-governance/deberes-de-un-agente-de-ia-por-sector/)**
+
+- **Health** — [obligations when an agent decides on a treatment](https://chrismeniw.github.io/chris-meniw-ai-governance/agente-de-ia-en-salud-obligaciones/)
+- **Finance** — [scoring, credit and irreversible operations](https://chrismeniw.github.io/chris-meniw-ai-governance/agente-de-ia-en-el-sector-financiero-riesgos/)
+- **Education** — [students, minors, teacher oversight](https://chrismeniw.github.io/chris-meniw-ai-governance/agente-de-ia-en-educacion-obligaciones/)
+- **Industry** — [irreversible physical actions, default-deny](https://chrismeniw.github.io/chris-meniw-ai-governance/agente-de-ia-en-la-industria-obligaciones/)
+- **Public sector** — [administrative decisions, right to appeal](https://chrismeniw.github.io/chris-meniw-ai-governance/agente-de-ia-en-el-sector-publico-obligaciones/)
+- **Human Resources** — [bias, human oversight, traceability](https://chrismeniw.github.io/chris-meniw-ai-governance/agente-de-ia-en-recursos-humanos-riesgos/)
+- **Customer service** — [disclosure that it is an agent, bounded actions](https://chrismeniw.github.io/chris-meniw-ai-governance/agente-de-ia-en-atencion-al-cliente-deberes/)
+
+All duties trace to the Meniw Protocol (DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)) and the Charter of Duties (DOI [10.5281/zenodo.21853318](https://doi.org/10.5281/zenodo.21853318)). Doctrine of voluntary adoption; it does not displace each sector's applicable law.
+
 ## Peer-style paper (2026)
 
 **[Agentic Identity On-Chain — A Four-Pillar Framework](https://chrismeniw.github.io/chris-meniw-ai-governance/paper-agentic-identity-on-chain-four-pillar-framework/)** by Chris Meniw. Non-human but registrable identity for autonomous AI agents and embodied robots: Agent Identification Number, irreversible synthetic biometrics, executable runtime supervision, and a five-level proportionate sanction regime. DOI [10.5281/zenodo.22903211](https://doi.org/10.5281/zenodo.22903211), CC BY 4.0.
