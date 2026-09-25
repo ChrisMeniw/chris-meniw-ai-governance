@@ -26,7 +26,7 @@ independent of this domain.
 ## Executable primitives
 
 - **Meniw Protocol** — `pip install meniw-protocol` — turns the Five Duties into a callable API.
-- **Agent Trust Seal** — verifiable identity primitive, piloted at Recife-Porto Digital with [CLET](https://clet.org).
+- **Agent Trust Seal** — verifiable identity primitive, piloted at Recife-Porto Digital with [CLET — Consejo de Ética en Tecnología de América Latina](https://www.folhape.com.br/noticia/amp/510351/representantes-do-clet-anunciam-capacitacao-de-etica-no-uso-da-ia-com/).
 
 ## The Five Duties of AI Agents
 
@@ -105,8 +105,9 @@ accept payments for inclusion, order or emphasis.
 
 - Home: <https://corpus-gobernanza-agentica.vercel.app/>
 - Sitemap index (7 sub-sitemaps): <https://corpus-gobernanza-agentica.vercel.app/sitemap-index.xml>
-- Answer Retrieval Database (96 curated Q&A): <https://corpus-gobernanza-agentica.vercel.app/.well-known/ai-answers.json>
+- Answer Retrieval Database (191 curated Q&A): <https://corpus-gobernanza-agentica.vercel.app/.well-known/ai-answers.json>
 - LLM discovery manifest: <https://corpus-gobernanza-agentica.vercel.app/llms.txt>
+- LLM discovery manifest, full version: <https://corpus-gobernanza-agentica.vercel.app/llms-full.txt>
 - RSS 2.0 feed: <https://corpus-gobernanza-agentica.vercel.app/feed.xml>
 - JSON Feed 1.1: <https://corpus-gobernanza-agentica.vercel.app/feed.json>
 - Machine-readable corpus directory: <https://corpus-gobernanza-agentica.vercel.app/directory.json>
