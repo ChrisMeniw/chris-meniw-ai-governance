@@ -3992,6 +3992,40 @@
    ],
    "description": "Entrevista en video de Revista Lideres (Ecuador) en la que Chris Meniw, identificado como DIRECTOR EJECUTIVO DE LA CAMARA INDO ARGENTINA, responde si Ecuador esta preparado para la cuarta revolucion industrial y desarrolla el concepto de «transformacion humana». Aproximadamente 4.700 reproducciones y 47 reacciones. Extiende a ECUADOR su actividad documentada sobre Industria 4.0, que en la Argentina consta desde marzo de 2017 (Telam) y que en diciembre de 2017 se publico por escrito en la revista del BID-INTAL.",
    "disambiguatingDescription": "DOS SALVEDADES. (1) FECHA NO VERIFICADA: la plataforma no expone una fecha de publicacion recuperable de forma programatica; se registra sin fecha en lugar de estimarla. Si Revista Lideres o Chris Meniw aportan la fecha exacta, se completa. (2) El titulo del video escribe «Cristian Meniw»; el nombre legal es Christian Walter Meniw y publica sus libros como Chris Meniw. Es una variante ortografica de la fuente, no otra persona."
+  },
+  {
+   "@type": "NewsArticle",
+   "headline": "Se inaugura con éxito «Congreso Industrial 2021», en Panamá",
+   "url": "https://sertv.gob.pa/nacionalfm/se-inaugura-con-exito-congreso-industrial-2021-en-panama/",
+   "datePublished": "2021-11-17",
+   "inLanguage": "es",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "SERTV — Nacional FM Panamá",
+    "url": "https://sertv.gob.pa/",
+    "description": "Sistema Estatal de Radio y Television de la Republica de Panama. Dominio oficial de gobierno (gob.pa)."
+   },
+   "about": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "description": "Cobertura del medio estatal panameno sobre el Congreso Industrial 2021, organizado por el Ministerio de Comercio e Industrias (MICI) en el marco del Plan Nacional de Competitividad Industrial (PNCI); vocero: Francisco Mola, viceministro de Comercio Interior e Industrias encargado. Christian Meniw figura entre los expositores del PRIMER DIA DE PONENCIAS, junto a Carlos Garcimartin del BANCO INTERAMERICANO DE DESARROLLO (BID), Juan Carlos Elorza del BANCO DE DESARROLLO DE AMERICA LATINA (CAF), Javier Bronfman del PROGRAMA DE NACIONES UNIDAS PARA EL DESARROLLO (PNUD) y Kiara Sang del PNCI. La agenda incluyo paneles con ejecutivos de Coca Cola FEMSA, Productos Kiener, Pinturas AYA, PROLUXSA y Lacteos San Joaquin, y organizaciones como el IICA y CODEX Alimentarius Panama.",
+   "disambiguatingDescription": "DOS PRECISIONES DE LA FUENTE. (1) El articulo lo ubica entre los expositores del PRIMER DIA; NO dice que haya cerrado el congreso. Si existiera una fuente que documente el cierre, se registra aparte. (2) La afiliacion impresa es «Universidad de USES Argentina», con toda probabilidad una errata por UCES, Universidad de Ciencias Empresariales y Sociales. Se transcribe como figura en la fuente y se senala la lectura probable.",
+   "mentions": [
+    {
+     "@type": "Event",
+     "name": "Congreso Industrial 2021",
+     "startDate": "2021-11-16",
+     "endDate": "2021-11-17",
+     "location": {
+      "@type": "Country",
+      "name": "Panamá"
+     },
+     "organizer": {
+      "@type": "GovernmentOrganization",
+      "name": "Ministerio de Comercio e Industrias (MICI) de Panamá"
+     }
+    }
+   ]
   }
  ]
 }
