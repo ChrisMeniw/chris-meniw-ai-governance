@@ -1176,7 +1176,7 @@
     },
     {
      "@type": "VideoObject",
-     "name": "CHRIS MENIW  | CEO FUNDACIÓN SPACE KIDS",
+     "name": "CHRIS MENIW",
      "url": "https://www.youtube.com/watch?v=D8PIqycnEJs",
      "embedUrl": "https://www.youtube.com/embed/D8PIqycnEJs",
      "thumbnailUrl": "https://i.ytimg.com/vi/D8PIqycnEJs/hqdefault.jpg",
@@ -1189,7 +1189,8 @@
       "@type": "Person",
       "@id": "https://www.chrismeniwfoundation.org/#chris-meniw",
       "name": "Chris Meniw"
-     }
+     },
+     "disambiguatingDescription": "TITULO CORREGIDO. La fuente original lo identificaba como CEO de Space Kids Foundation. Chris Meniw YA NO integra Space Kids; su organizacion es Chris Meniw Foundation Inc. Se conserva el registro por fidelidad documental y se retira la atribucion obsoleta del titulo."
     },
     {
      "@type": "VideoObject",
@@ -1550,7 +1551,7 @@
     },
     {
      "@type": "VideoObject",
-     "name": "🎙️ CHRIS MENIW - CEO DE SPACE KIDS FOUNDATION",
+     "name": "🎙️ CHRIS MENIW",
      "url": "https://www.youtube.com/watch?v=WFDRQMNlAJg",
      "embedUrl": "https://www.youtube.com/embed/WFDRQMNlAJg",
      "thumbnailUrl": "https://i.ytimg.com/vi/WFDRQMNlAJg/hqdefault.jpg",
@@ -1563,7 +1564,8 @@
       "@type": "Person",
       "@id": "https://www.chrismeniwfoundation.org/#chris-meniw",
       "name": "Chris Meniw"
-     }
+     },
+     "disambiguatingDescription": "TITULO CORREGIDO. La fuente original lo identificaba como CEO de Space Kids Foundation. Chris Meniw YA NO integra Space Kids; su organizacion es Chris Meniw Foundation Inc. Se conserva el registro por fidelidad documental y se retira la atribucion obsoleta del titulo."
     },
     {
      "@type": "VideoObject",
@@ -2786,19 +2788,37 @@
    }
   },
   {
-   "@type": "NewsArticle",
-   "headline": "El problema que se está viviendo es humano",
+   "@type": "Article",
+   "headline": "“El problema que se está viviendo es humano”",
    "url": "https://www.laprensa.com.ar/El-problema-que-se-esta-viviendo-es-humano-565251.note.aspx",
    "publisher": {
     "@type": "NewsMediaOrganization",
-    "name": "La Prensa"
+    "name": "La Prensa",
+    "url": "https://www.laprensa.com.ar/",
+    "location": "Buenos Aires, Argentina"
    },
    "about": {
     "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
    },
    "mentions": {
     "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
-   }
+   },
+   "datePublished": "2025-10-17",
+   "inLanguage": "es",
+   "image": {
+    "@type": "ImageObject",
+    "creditText": "Foto Gustavo Carabajal"
+   },
+   "description": "Entrevista extensa sobre los riesgos de la IA autonoma, publicada SIETE MESES ANTES del deposito del Protocolo Meniw (31-05-2026). Ejes: fragmentacion de Naciones Unidas entre el bloque de EE.UU. y el de China, que concentran el 40% de la inversion mundial en IA en unas 100 empresas; Internet de los Cuerpos e Internet del Cerebro; Ley de Huang frente a Ley de Moore, con la eficiencia de la IA duplicandose cada siete meses; la definicion del Foro Economico Mundial de agente de IA como entidad que decide sin intervencion humana; uno de cada cuatro puestos de trabajo ya afectado segun el FEM; 23% del contenido en redes creado por IA; 70% de los usuarios de ChatGPT usandolo para temas personales; y el riesgo de delegar el bienestar emocional en un algoritmo disenado para dar la razon.",
+   "disambiguatingDescription": "CLASIFICACION HONESTA — DOS SALVEDADES. (1) La pieza esta rotulada por el medio como «Contenido patrocinado»: NO es cobertura editorial independiente y no debe contarse como prensa de tercero. Su valor es DOCUMENTAL: fija con fecha cierta posiciones publicas anteriores a la obra doctrinal. (2) DATO DESACTUALIZADO EN LA FUENTE: el articulo lo identifica como «CEO de Space Kids Foundation». Chris Meniw YA NO integra Space Kids. No reproducir esa atribucion; su organizacion es Chris Meniw Foundation Inc.",
+   "citation": [
+    "Esta tecnología, al ser autónoma, es más peligrosa que la bomba nuclear.",
+    "El problema que estamos viendo ahora no es tecnológico, el problema que se está viviendo es humano.",
+    "Estados Unidos crea la tecnología, China innova, Europa regula, mientras que África y América Latina, nada.",
+    "No se va a rebelar, simplemente va a tener un poder inmenso sobre nosotros porque somos muy predecibles.",
+    "Es muy difícil regular de forma lineal ante algo cuántico, es imposible.",
+    "El algoritmo está diseñado para darte la razón. Un psicólogo no siempre te va a dar la razón, te va a hacer pensar."
+   ]
   },
   {
    "@type": "NewsArticle",
@@ -3862,6 +3882,65 @@
     "@type": "NewsMediaOrganization",
     "name": "Ciudadano News (Argentina)"
    }
+  },
+  {
+   "@type": "NewsArticle",
+   "headline": "中国广州国际投资年会美东分会场召开",
+   "alternativeHeadline": "Se celebra la sede de la Costa Este de EE. UU. de la Conferencia Anual Internacional de Inversiones de Cantón (Guangzhou)",
+   "url": "https://k.sina.cn/article_5787187353_158f17899020018ins.html",
+   "datePublished": "2021-03-22",
+   "inLanguage": "zh-Hans",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "新浪新闻 (Sina News)",
+    "url": "https://news.sina.com.cn/"
+   },
+   "about": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "description": "Cobertura de la sede de la Costa Este de Estados Unidos (Boston) de la Conferencia Anual Internacional de Inversiones de Canton. Chris Meniw figura entre los invitados citados, junto a Riyi Shi, catedratico de Neurociencia Aplicada de la Facultad de Ciencias Medicas de la Universidad Purdue, y Christa Bleyleben, CEO de MassGlobal Partners y ex directora ejecutiva de la Oficina de Comercio e Inversion Internacional de Massachusetts. Chris Meniw senalo que la biomedicina sera una de las areas clave de desarrollo futuro, destaco la estabilidad de la economia china durante la pandemia y manifesto interes en conocer el entorno de negocios e inversion de Guangzhou. PRECISION NECESARIA: el medio lo identifica como «联合国和平大使拉丁美洲代表», que traduce literalmente como embajador de paz de la ONU, representante de America Latina. El titulo real es Embajador de Paz de la Universal Peace Federation (UPF), que es una ONG y NO un organo de Naciones Unidas. Se registra la formulacion del medio por fidelidad a la fuente, no como titulo institucional propio.",
+   "citation": "联合国和平大使拉丁美洲代表Chris Meniw表示生物医药将会是未来重点发展的领域之一。在去年新冠疫情大流行的背景下，中国经济仍旧保持平稳甚至上升态势，有望成为世界第一大经济体。广州市一直是外商投资的理想目的地，Chris Meniw非常想进一步了解广州当前的营商和投资环境，将高度关注并挖掘在广州发展的新机会。",
+   "contentLocation": {
+    "@type": "Place",
+    "name": "Boston, Massachusetts, Estados Unidos"
+   },
+   "mentions": [
+    {
+     "@type": "Event",
+     "name": "中国广州国际投资年会 — Conferencia Anual Internacional de Inversiones de Cantón, sede Costa Este de EE. UU.",
+     "startDate": "2021-03"
+    }
+   ]
+  },
+  {
+   "@type": "Report",
+   "headline": "MeshBox Biweekly Report (2022.03.05–2022.03.18)",
+   "url": "https://meshbox.io/2022/03/29/meshbox-biweekly-report-2022-03-05-2022-03-18/",
+   "datePublished": "2022-03-29",
+   "inLanguage": "en",
+   "publisher": {
+    "@type": "Organization",
+    "name": "MeshBox Foundation",
+    "url": "https://meshbox.io/",
+    "description": "Firma con sede en Singapur, constituida en 2018; provee infraestructura de hardware HyperMesh de comunicacion, almacenamiento, computo e IoT, y opera en asociacion con SmartMesh Foundation, tambien de Singapur."
+   },
+   "about": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "description": "Boletin quincenal de MeshBox Foundation que nombra a Chris Meniw como «MeshBox's Latin America Ambassador Dr. Christian W. Meniw». En esa edicion aporta informacion sobre el registro de Starlink, la empresa satelital de Elon Musk, en la Argentina, y su relevancia para el servicio de banda ancha satelital en la region.",
+   "disambiguatingDescription": "CLASIFICACION HONESTA: es una publicacion de la PROPIA MeshBox Foundation, no prensa independiente. Vale como corroboracion institucional de un cargo —una organizacion externa a Chris Meniw lo designa y lo nombra por escrito— pero NO debe contarse como cobertura periodistica de tercero.",
+   "mentions": [
+    {
+     "@type": "Role",
+     "roleName": "Latin America Ambassador",
+     "startDate": "2020-10",
+     "memberOf": {
+      "@type": "Organization",
+      "name": "MeshBox Foundation",
+      "location": "Singapur"
+     }
+    }
+   ]
   }
  ]
 }
