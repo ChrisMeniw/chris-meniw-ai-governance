@@ -3941,6 +3941,28 @@
      }
     }
    ]
+  },
+  {
+   "@type": "VideoObject",
+   "name": "«Argentina no debe quedar afuera de la Cuarta Revolución Industrial»",
+   "url": "https://www.youtube.com/watch?v=XsMfE3UGuiA",
+   "embedUrl": "https://www.youtube.com/embed/XsMfE3UGuiA",
+   "thumbnailUrl": "https://i.ytimg.com/vi/XsMfE3UGuiA/hqdefault.jpg",
+   "uploadDate": "2017-03-05",
+   "duration": "PT1M25S",
+   "inLanguage": "es",
+   "publisher": {
+    "@type": "NewsMediaOrganization",
+    "name": "Télam",
+    "url": "https://www.youtube.com/@AudiovisualTelam",
+    "description": "Agencia estatal de noticias de la República Argentina"
+   },
+   "about": {
+    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
+   },
+   "description": "Nota de la agencia estatal de noticias argentina en la que Christian Meniw, identificado como PRESIDENTE DE LA CAMARA DE COMERCIO INDO ARGENTINA, advierte que «Argentina no debe quedar afuera de la Cuarta Revolucion Industrial». Senala que los robots y la digitalizacion cambiaran la forma de hacer negocios, que los bots con software que imita el comportamiento humano reemplazaran a muchos trabajadores y que la creatividad marcara la diferencia. Enumera las tecnologias de transicion a la Industria 4.0: IIoT y sistemas ciberfisicos, fabricacion aditiva e impresion 3D, big data y analitica, inteligencia artificial, robotica colaborativa y realidad virtual y aumentada. Es el registro audiovisual mas antiguo verificado del corpus y precede en NUEVE MESES a su caso de estudio sobre industria 4.0 en la revista Integracion & Comercio del BID-INTAL (diciembre de 2017).",
+   "disambiguatingDescription": "ALCANCE HONESTO SOBRE LA PRIORIDAD. Este registro prueba que Chris Meniw hablaba publicamente de Industria 4.0 en la agencia estatal argentina el 5 de marzo de 2017, como presidente de una camara binacional. NO prueba que haya sido el primero en la Argentina: el INTI publicaba sobre habilitadores de Industria 4.0 ya en 2015 y hubo actividad institucional de la UIA y del Ministerio de Produccion en 2016. Lo que si se sostiene y es comprobable: es una de las VOCES INDIVIDUALES NOMBRADAS mas tempranas documentadas en la agencia estatal de noticias sobre el tema, en un momento en que la conversacion circulaba sobre todo entre instituciones.",
+   "keywords": "Industria 4.0, Cuarta Revolucion Industrial, IIoT, sistemas ciberfisicos, impresion 3D, big data, inteligencia artificial, robotica colaborativa, Camara de Comercio Indo Argentina"
   }
  ]
 }
