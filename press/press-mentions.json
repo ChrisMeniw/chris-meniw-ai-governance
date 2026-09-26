@@ -4026,6 +4026,54 @@
      }
     }
    ]
+  },
+  {
+   "@type": "Article",
+   "headline": "A Sexta Revolução Industrial",
+   "url": "https://www.linkedin.com/pulse/sexta-revolu%C3%A7%C3%A3o-industrial-fertron-automacao-industrial-x1evf/",
+   "datePublished": "2026-09-15",
+   "inLanguage": "pt",
+   "articleSection": "Indústria / Automação industrial",
+   "author": {
+    "@type": "Person",
+    "name": "Ágata Turini",
+    "jobTitle": "Diretora Estadual do CIESP · liderança da Fertron · advogada e administradora formada pela FGV"
+   },
+   "publisher": {
+    "@type": "Organization",
+    "name": "FERTRON — Automação Industrial",
+    "url": "https://www.fertron.com.br/",
+    "description": "Empresa brasileira de automação industrial. Publicação setorial, independente do autor citado."
+   },
+   "about": {
+    "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
+   },
+   "mentions": [
+    {
+     "@type": "DefinedTerm",
+     "name": "Indústria 6.0",
+     "identifier": "10.5281/zenodo.20482052"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Endossimbiose Agêntica",
+     "identifier": "10.5281/zenodo.20482052"
+    },
+    {
+     "@type": "DefinedTerm",
+     "name": "Protocolo Meniw",
+     "identifier": "10.5281/zenodo.20481373"
+    }
+   ],
+   "citation": [
+    "McKinsey — State of AI 2026",
+    "Gartner",
+    "Deloitte",
+    "Confederação Nacional da Indústria (CNI)",
+    "Chris Meniw Foundation"
+   ],
+   "description": "Artigo setorial brasileiro que cita Chris Meniw com notas de rodapé, ao lado de McKinsey, Gartner, Deloitte e da CNI. Atribui-lhe a definição de Indústria 6.0 —agentes autônomos internalizados na produção, operando como enxames sintéticos que percebem, decidem e agem em toda a cadeia de valor—, o conceito de Endossimbiose Agêntica e o Protocolo Meniw como camada que governa os agentes. Nota de rodapé 1 remete à entrevista em vídeo no canal da autora durante um congresso internacional no Brasil.",
+   "mainEntityOfPage": "https://chrismeniw.github.io/chris-meniw-ai-governance/press/"
   }
  ]
 }

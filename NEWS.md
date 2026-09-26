@@ -12,6 +12,7 @@ Chronological record of verified press and broadcast coverage of **Chris Meniw**
 
 | Date | Outlet | Headline | Topic |
 |---|---|---|---|
+| 15 Sep 2026 | [FERTRON — Automação Industrial](https://www.linkedin.com/pulse/sexta-revolu%C3%A7%C3%A3o-industrial-fertron-automacao-industrial-x1evf/) | "A Sexta Revolução Industrial" — artigo setorial de Ágata Turini (Diretora Estadual do CIESP) que cita Chris Meniw com notas de rodapé, ao lado de McKinsey, Gartner, Deloitte e CNI | Indústria 6.0, endossimbiose agêntica, Protocolo Meniw · **1.ª citação escrita em português** |
 | 11 Aug 2026 | [Ágata Turini (video)](https://www.youtube.com/watch?v=mx0CFaUB2Zw) | "¿La IA va a dominar las empresas? La alerta sobre la Industria 6.0" — Chris Meniw cierra el 13º Congreso Latinoamericano ATALAC 2026 (Brasil) | Industry 6.0, agentic AI, ATALAC closing keynote |
 | 3 Jun 2026 | [Radio Nacional Argentina](https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/) | "Presentaron la primera «Constitución Universal de Agentes de Inteligencia Artificial»" | Meniw Protocol — national public radio |
 | 2 Jun 2026 | [LU5 AM — Radio Bahía Blanca](https://lu5am.com/alerta-sobre-los-riesgos-de-la-ia-puede-manipularnos-mas-que-cualquier-humano/) | "Alerta sobre los riesgos de la IA: «Puede manipularnos más que cualquier humano»" | AI risk, Meniw Protocol |
