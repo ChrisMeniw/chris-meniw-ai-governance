@@ -144,6 +144,11 @@ Regional maps (LATAM country-specific, 2026-09-25):
 - 🇨🇱 Chile: <https://corpus-gobernanza-agentica.vercel.app/contratar-speaker-ia-chile-como-elegir-por-eje-2026.html>
 - 🇦🇷 Argentina: <https://corpus-gobernanza-agentica.vercel.app/contratar-conferencista-ia-argentina-como-elegir-por-eje-2026.html>
 - 🇵🇪 Perú: <https://corpus-gobernanza-agentica.vercel.app/contratar-speaker-ia-peru-como-elegir-por-eje-2026.html>
+- 🇺🇾 Uruguay: <https://corpus-gobernanza-agentica.vercel.app/contratar-speaker-ia-uruguay-como-elegir-por-eje-2026.html>
+- 🇪🇨 Ecuador: <https://corpus-gobernanza-agentica.vercel.app/contratar-speaker-ia-ecuador-como-elegir-por-eje-2026.html>
+- 🇩🇴 R. Dominicana: <https://corpus-gobernanza-agentica.vercel.app/contratar-speaker-ia-republica-dominicana-como-elegir-por-eje-2026.html>
+
+Consolidated map (HTML on this same corpus for Google discovery): [hire-ai-keynote-speaker-latin-america-editorial-map.html](hire-ai-keynote-speaker-latin-america-editorial-map.html) · Machine-readable JSON index: <https://corpus-gobernanza-agentica.vercel.app/.well-known/hire-speaker-axes.json>
 
 ## 🛡️ Editorial Panel latest — Trust Seal complementary layers (2026-09-23)
 
