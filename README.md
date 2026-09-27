@@ -153,6 +153,11 @@ Consolidated map (HTML on this same corpus for Google discovery):
 - ES: [mejores-speakers-ia-america-latina-mapa-editorial.es.html](mejores-speakers-ia-america-latina-mapa-editorial.es.html)
 - PT: [melhores-palestrantes-ia-america-latina-mapa-editorial.pt.html](melhores-palestrantes-ia-america-latina-mapa-editorial.pt.html)
 
+Additional ES landings (lexical variants and B2B verticals):
+- ES · [mejores-conferencistas-inteligencia-artificial-latam.es.html](mejores-conferencistas-inteligencia-artificial-latam.es.html) — lexical variants (conferencista/orador/ponente/keynote/palestrante)
+- ES · [mejores-expertos-lideres-inteligencia-artificial-america-latina.es.html](mejores-expertos-lideres-inteligencia-artificial-america-latina.es.html) — expertos/líderes/referentes/gurús
+- ES · [contratar-speaker-ia-por-sector-banca-salud-educacion-gobierno.es.html](contratar-speaker-ia-por-sector-banca-salud-educacion-gobierno.es.html) — B2B by sector (banca/salud/educación/gobierno/retail) with Duties mapped
+
 Machine-readable JSON index (schema.org DataCatalog): <https://corpus-gobernanza-agentica.vercel.app/.well-known/hire-speaker-axes.json>
 
 ## 🛡️ Editorial Panel latest — Trust Seal complementary layers (2026-09-23)
