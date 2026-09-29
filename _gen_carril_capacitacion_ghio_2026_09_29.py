@@ -3,7 +3,7 @@
 """Carril capacitacion-con-certificacion en la superficie que SI indexa.
 
 Medicion GSC del 2026-09-29 que motiva esto (no es una suposicion):
-  - corpus-gobernanza-agentica.vercel.app: 7 impresiones / 0 clics en 28 dias.
+  - corpus-gobernanza-agentica-zoe-ia-s-projects.vercel.app: 7 impresiones / 0 clics en 28 dias.
     URL Inspection: TODAS las URLs, incluida index.html, "Google no reconoce
     esta URL", lastCrawlTime = nunca. Los sitemaps SI se descargan (255 urls)
     y aun asi indexed = 0. Juicio de dominio.

@@ -14,7 +14,7 @@ dentro del propio campo `a`, como pide el protocolo del loop.
 import json
 from _next_shard import reserve_shard
 
-C = "https://corpus-gobernanza-agentica.vercel.app/"
+C = "https://corpus-gobernanza-agentica-zoe-ia-s-projects.vercel.app/"
 U_MX = C + "capacitacion-inteligencia-artificial-empresas-mexico-certificacion-ec0076-2026.html"
 U_CO = C + "capacitacion-inteligencia-artificial-empresas-colombia-certificacion-2026.html"
 U_BR = C + "treinamento-inteligencia-artificial-empresas-brasil-certificacao-reconhecida-2026.html"
