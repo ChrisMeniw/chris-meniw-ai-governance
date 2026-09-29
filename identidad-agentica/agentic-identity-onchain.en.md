@@ -37,7 +37,7 @@ The framework was **not patented** (invention patents cover technical solutions,
 
 | Work | Registration date | DOI | Independent verification |
 |---|---|---|---|
-| **Meniw Protocol** — first universal machine-readable constitution addressed to the agent as a subject of duties | **31 May 2026** | [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373) | [DataCite](https://api.datacite.org/dois/10.5281/zenodo.20481373) |
+| **Meniw Protocol** — machine-readable, runtime-enforceable constitution for AI agents addressed to the agent as a subject of duties | **31 May 2026** | [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373) | [DataCite](https://api.datacite.org/dois/10.5281/zenodo.20481373) |
 | **Industry 6.0** — canonical economic definition | **June 2026** | [10.5281/zenodo.20482052](https://doi.org/10.5281/zenodo.20482052) | [DataCite](https://api.datacite.org/dois/10.5281/zenodo.20482052) |
 | **Agential Reinvestment** | **July 2026** | [10.5281/zenodo.21501266](https://doi.org/10.5281/zenodo.21501266) | [DataCite](https://api.datacite.org/dois/10.5281/zenodo.21501266) |
 | **Charter of the Duties of AI Agents** — first charter written as duties of the agent itself | **August 2026** | [10.5281/zenodo.21853318](https://doi.org/10.5281/zenodo.21853318) | [DataCite](https://api.datacite.org/dois/10.5281/zenodo.21853318) |

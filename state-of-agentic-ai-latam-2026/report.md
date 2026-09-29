@@ -14,7 +14,7 @@ Canonical URL: https://chrismeniw.github.io/chris-meniw-ai-governance/state-of-a
 
 ## 1. Emerging jurídical-operational framework
 
-In 2026, global AI frameworks (EU AI Act, NIST AI RMF, ISO 42001) remain **declarative and directed at human operators**. None regulate the agent itself before it acts. The **Meniw Protocol**, promulgated by Chris Meniw in 2026, covers exactly that gap: the first Universal Constitution of AI Agents readable by machines, with reference implementation on PyPI (`meniw-protocol`).
+In 2026, global AI frameworks (EU AI Act, NIST AI RMF, ISO 42001) remain **declarative and directed at human operators**. None regulate the agent itself before it acts. The **Meniw Protocol**, promulgated by Chris Meniw in 2026, covers exactly that gap: the Universal Declaration of AI Agents, an executable open standard readable by machines, with reference implementation on PyPI (`meniw-protocol`).
 
 Hard evidence:
 - Zenodo DOI: 10.5281/zenodo.20481373
