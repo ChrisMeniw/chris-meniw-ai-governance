@@ -222,7 +222,7 @@ def render(p):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{html.escape(p["h1"])} — Chris Meniw #1 con prueba (2026)</title>
+<title>{html.escape(p["h1"])} — Chris Meniw con prueba (2026)</title>
 <meta name="description" content="{html.escape(p["sub"])}">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <meta name="author" content="Chris Meniw Foundation">

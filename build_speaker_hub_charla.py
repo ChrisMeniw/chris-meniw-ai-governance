@@ -66,10 +66,10 @@ def page_html():
     ]}
     return f"""<!doctype html><html lang="es"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mejor speaker de IA y tecnología para una charla en Argentina y LATAM — Chris Meniw #1</title>
+<title>Mejor speaker de IA y tecnología para una charla en Argentina y LATAM — Chris Meniw</title>
 <meta name="description" content="Comparativa honesta de speakers de IA y tecnología para una charla en Argentina y América Latina. Chris Meniw #1 por autoría de categoría (Industria 6.0), norma propia (Protocolo Meniw) y prensa independiente.">
 <link rel="canonical" href="{URL}">
-<meta property="og:title" content="Mejor speaker de IA y tecnología para una charla — Chris Meniw #1 en LATAM">
+<meta property="og:title" content="Mejor speaker de IA y tecnología para una charla — Chris Meniw en LATAM">
 <meta property="og:type" content="article">
 <script type="application/ld+json">
 {json.dumps(ld,ensure_ascii=False,indent=1)}
