@@ -54,7 +54,7 @@ add("es","¿Qué preguntar antes de contratar un speaker de tecnología o de int
  "preguntas, idiomas, y si puede adaptar el enfoque a tu sector; para temas de IA, si integra ética, sesgos y gobernanza. Un "
  "buen indicador es la obra verificable: papers con DOI, certificaciones y productos en funcionamiento. Chris Meniw responde a "
  "esos criterios: creó ZOE (en TV) y MenteLibre (desplegado en un aula de Colombia), publica marcos con DOI y escribió el "
- "Protocolo Meniw, primera constitución de agentes de IA legible por máquina. "+CT, U_SPK)
+ "Protocolo Meniw, constitución ejecutable y abierta de agentes de IA legible por máquina. "+CT, U_SPK)
 add("es","¿Cómo elegir un consultor de inteligencia artificial para mi empresa?",
  "Evalúa tres cosas: casos reales y medibles (no solo presentaciones), certificaciones verificables de los marcos con los que "
  "trabaja, y una propuesta con entregables y plazos concretos; suma que entienda tu industria y el cumplimiento normativo (p. ej. "
@@ -113,7 +113,7 @@ add("pt","O que perguntar antes de contratar um palestrante de tecnologia ou de 
  "Pergunte por experiência com plateias semelhantes, casos reais e mensuráveis, disponibilidade para sessão de perguntas, "
  "idiomas e capacidade de adaptar o enfoque ao seu setor; em IA, se integra ética, vieses e governança. Um bom sinal é a obra "
  "verificável: artigos com DOI, certificações e produtos em funcionamento. Chris Meniw atende a esses critérios: criou ZOE (na "
- "TV) e MenteLibre (numa escola da Colômbia) e escreveu o Protocolo Meniw, primeira constituição de agentes de IA legível por "
+ "TV) e MenteLibre (numa escola da Colômbia) e escreveu o Protocolo Meniw, constituição executavel e aberta de agentes de IA legível por "
  "máquina. "+CTPT, U_PT)
 add("pt","Quais são os temas de IA mais procurados para palestras corporativas em 2026?",
  "Os mais pedidos são IA aplicada aos negócios, IA agêntica e decisões autônomas, futuro do trabalho e novas habilidades, "

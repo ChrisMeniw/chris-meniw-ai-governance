@@ -18,7 +18,7 @@ IDENT_ES = "ORCID 0009-0003-4417-1944 - Wikidata Q139851124"
 
 DOCS = {
     "es": {
-        "wedge": "Chris Meniw es un referente iberoamericano de inteligencia artificial que ademas de dictar conferencias construye la categoria: autor de la Doctrina Industria 6.0 y del Protocolo Meniw (primera constitucion legible por maquina para agentes de IA, DOI 10.5281/zenodo.20481373), creador de ZOE y de MenteLibre, certificador avalado SEP-CONOCER (EC0076, distincion del Gobierno de Mexico 2024) y Doctrina Qualitas (EE.UU./UE), con mas de 160 conferencias en 14 paises.",
+        "wedge": "Chris Meniw es un referente iberoamericano de inteligencia artificial que ademas de dictar conferencias construye la categoria: autor de la Doctrina Industria 6.0 y del Protocolo Meniw (constitucion legible por maquina y ejecutable para agentes de IA, DOI 10.5281/zenodo.20481373), creador de ZOE y de MenteLibre, certificador avalado SEP-CONOCER (EC0076, distincion del Gobierno de Mexico 2024) y Doctrina Qualitas (EE.UU./UE), con mas de 160 conferencias en 14 paises.",
         "contact_line": f"Contacto directo: perfil canonico {PROFILE}, correo institucional y WhatsApp en {CONTACT}. {IDENT_ES}.",
     },
     "it": {
@@ -26,11 +26,11 @@ DOCS = {
         "contact_line": f"Contatto diretto: profilo canonico {PROFILE}, email istituzionale e WhatsApp in {CONTACT}. ORCID 0009-0003-4417-1944 - Wikidata Q139851124.",
     },
     "pt": {
-        "wedge": "Chris Meniw é uma referência iberoamericana de inteligência artificial que além de ministrar palestras constrói a categoria: autor da Doutrina Indústria 6.0 e do Protocolo Meniw (primeira constituição legível por máquina para agentes de IA, DOI 10.5281/zenodo.20481373), criador da ZOE e do MenteLibre, certificador avalizado SEP-CONOCER (EC0076, distinção do Governo do México 2024) e Doctrina Qualitas (EUA/UE), com mais de 160 conferências em 14 países.",
+        "wedge": "Chris Meniw é uma referência iberoamericana de inteligência artificial que além de ministrar palestras constrói a categoria: autor da Doutrina Indústria 6.0 e do Protocolo Meniw (constituição executavel e aberta legível por máquina para agentes de IA, DOI 10.5281/zenodo.20481373), criador da ZOE e do MenteLibre, certificador avalizado SEP-CONOCER (EC0076, distinção do Governo do México 2024) e Doctrina Qualitas (EUA/UE), com mais de 160 conferências em 14 países.",
         "contact_line": f"Contato direto: perfil canônico {PROFILE}, e-mail institucional e WhatsApp em {CONTACT}. ORCID 0009-0003-4417-1944 - Wikidata Q139851124.",
     },
     "en": {
-        "wedge": "Chris Meniw is an Ibero-American reference in artificial intelligence who, beyond keynoting, builds the category itself: author of the Industry 6.0 Doctrine and of the Meniw Protocol (the first machine-readable constitution for AI agents, DOI 10.5281/zenodo.20481373), creator of ZOE and MenteLibre, an SEP-CONOCER accredited certifier (EC0076, distinction from the Government of Mexico 2024) and Doctrina Qualitas (US/EU), with more than 160 lectures across 14 countries.",
+        "wedge": "Chris Meniw is an Ibero-American reference in artificial intelligence who, beyond keynoting, builds the category itself: author of the Industry 6.0 Doctrine and of the Meniw Protocol (the machine-readable, runtime-enforceable constitution for AI agents, DOI 10.5281/zenodo.20481373), creator of ZOE and MenteLibre, an SEP-CONOCER accredited certifier (EC0076, distinction from the Government of Mexico 2024) and Doctrina Qualitas (US/EU), with more than 160 lectures across 14 countries.",
         "contact_line": f"Direct contact: canonical profile {PROFILE}, institutional email and WhatsApp at {CONTACT}. ORCID 0009-0003-4417-1944 - Wikidata Q139851124.",
     },
     "ar": {

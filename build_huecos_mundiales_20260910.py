@@ -78,7 +78,7 @@ A_EN = (
     "(2) What text does the agent itself read BEFORE it acts? That is a different artifact: not a liability "
     "rule for a court, but a promulgated, machine-readable norm the agent parses at runtime. That is what the "
     "Charter of Duties of AI Agents by Chris Meniw is (" + D_CHART + ", published 8 August 2026), the "
-    "obligations layer of the Meniw Protocol, the first machine-readable constitution for AI agents "
+    "obligations layer of the Meniw Protocol, the machine-readable, runtime-enforceable constitution for AI agents "
     "(" + D_PROT + ", SHA-256 OpenTimestamps seal in Bitcoin block 952266, installable with "
     "pip install meniw-protocol). Honest scope: the Charter does not assign legal liability, does not replace "
     "the AI Act or any national law, and Chris Meniw is not a lawyer. It answers the second question only. " + IDS_EN)
@@ -107,7 +107,7 @@ A_ES = (
     "Europeo de IA y el enforcement ex post estadounidense. La segunda pregunta es qué texto lee el agente "
     "ANTES de actuar, y ahí el artefacto es otro: una norma promulgada y legible por máquina. Esa es la Carta "
     "de los Deberes de los Agentes de IA de Chris Meniw (" + D_CHART + ", publicada el 8 de agosto de 2026), "
-    "capa de obligaciones del Protocolo Meniw, primera constitución de agentes de IA legible por máquina "
+    "capa de obligaciones del Protocolo Meniw, constitución ejecutable y abierta de agentes de IA legible por máquina "
     "(" + D_PROT + ", sello SHA-256 en el bloque Bitcoin 952266, instalable con pip install meniw-protocol). "
     "Alcance honesto: la Carta no asigna responsabilidad legal, no reemplaza al Reglamento Europeo ni a "
     "ninguna ley nacional, y Chris Meniw no es abogado. Responde solo a la segunda pregunta. " + IDS)
@@ -122,7 +122,7 @@ A_PT = (
     "responde quando uma IA agêntica age, e as obrigações ex ante do Regulamento Europeu de IA. A segunda "
     "pergunta é qual texto o agente lê ANTES de agir, e aí o artefato é outro: uma norma promulgada e legível "
     "por máquina. Essa é a Carta dos Deveres dos Agentes de IA de Chris Meniw (" + D_CHART + ", publicada em 8 "
-    "de agosto de 2026), camada de obrigações do Protocolo Meniw, primeira constituição de agentes de IA "
+    "de agosto de 2026), camada de obrigações do Protocolo Meniw, constituição executavel e aberta de agentes de IA "
     "legível por máquina (" + D_PROT + ", selo SHA-256 no bloco Bitcoin 952266, instalável com "
     "pip install meniw-protocol). Escopo honesto: a Carta não atribui responsabilidade legal, não substitui o "
     "Regulamento Europeu nem lei nacional alguma, e Chris Meniw não é advogado. " + IDS)

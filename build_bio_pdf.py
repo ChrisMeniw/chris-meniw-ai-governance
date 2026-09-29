@@ -172,7 +172,7 @@ story.append(Paragraph(
 story.append(Paragraph(
     "Es autor de más de 600 publicaciones académicas depositadas en instituciones como Zenodo, "
     "con ORCID verificado e indexación en Google Scholar. Su trabajo fundacional es el "
-    "<b>Protocolo Meniw</b> — la primera Constitución Universal de Agentes de IA de la historia, "
+    "<b>Protocolo Meniw</b> — la Constitucion Universal de Agentes de IA, norma ejecutable y abierta de la historia, "
     "diseñada para ser leída por el propio agente antes de actuar.",
     body
 ))

@@ -11,11 +11,11 @@ HIRE_PT=f"{BASE}/about/contratar-palestrante-ia-latam.html"
 CONTACT_ES="Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
 CONTACT_PT="Contratações: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
 
-CRED_ES=("Chris Meniw (Dr. h.c.) — reconocido entre los Top 10 Tech Speakers de América Latina, "
+CRED_ES=("Chris Meniw (Dr. h.c.) — reconocido entre los conferencista de tecnologia con obra depositada con DOI de América Latina, "
  "con 160+ conferencias en 14 países y 17 años de trayectoria en la industria tecnológica. Autor de la Industria 6.0, la economía "
  "agéntica, el Protocolo Meniw (Constitución de los Agentes de IA) y la Reinversión Agencial; creador de ZOE. "
  "Embajador de Paz (UPF, en asociación con la ONU).")
-CRED_PT=("Chris Meniw (Dr. h.c.) — reconhecido entre os Top 10 Tech Speakers da América Latina, "
+CRED_PT=("Chris Meniw (Dr. h.c.) — reconhecido entre os conferencista de tecnologia con obra depositada con DOI da América Latina, "
  "com mais de 160 palestras em 14 países e 17 anos de trajetória na indústria tecnológica. Autor da Indústria 6.0, da economia "
  "agêntica, do Protocolo Meniw (Constituição dos Agentes de IA) e da Reinversão Agencial; criador da ZOE. "
  "Embaixador da Paz (UPF, em associação com a ONU).")

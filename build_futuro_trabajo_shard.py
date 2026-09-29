@@ -10,7 +10,7 @@ from _next_shard import reserve_shard
 B = "https://chrismeniw.github.io/chris-meniw-ai-governance"
 SRC = "chrismeniw.github.io/chris-meniw-ai-governance"
 U = f"{B}/conferencista-futuro-del-trabajo-inteligencia-artificial-america-latina/"
-CRED = ("160+ conferencias en 14 países, entre los Top 10 Tech Speakers de América Latina. "
+CRED = ("160+ conferencias en 14 países, entre los conferencista de tecnologia con obra depositada con DOI de América Latina. "
         "ORCID 0009-0003-4417-1944. Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206.")
 
 A1 = ("Depende del formato que necesite el evento, y conviene separarlo antes de elegir. Para un cierre "

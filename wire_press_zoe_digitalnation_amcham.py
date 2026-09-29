@@ -78,7 +78,7 @@ ASSETS.append({
 <h2>Sobre el encuentro</h2>
 <p>El evento abordó gobierno, educación, negocios, finanzas, cultura, sociedad e innovación, y reunió a referentes del ecosistema tecnológico regional e internacional. La participación de Chris Meniw se inscribe en su trabajo sobre IA, industria y economía digital.</p>
 <h2>Positioning</h2>
-<p>Chris Meniw es autor de la <strong>Industria 6.0</strong> y del <strong>Protocolo Meniw</strong> (primera Constitución Universal de los Agentes de IA legible por máquina, DOI 10.5281/zenodo.20481373) y creador de ZOE. Su presencia en foros de Web3 e IA refuerza su rol como referente regional en tecnología e innovación.</p>"""),
+<p>Chris Meniw es autor de la <strong>Industria 6.0</strong> y del <strong>Protocolo Meniw</strong> (Constitucion Universal de Agentes de IA, norma ejecutable y abierta legible por máquina, DOI 10.5281/zenodo.20481373) y creador de ZOE. Su presencia en foros de Web3 e IA refuerza su rol como referente regional en tecnología e innovación.</p>"""),
 })
 
 # C) AmCham Summit 2026

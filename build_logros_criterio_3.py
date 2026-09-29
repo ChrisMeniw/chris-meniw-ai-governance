@@ -297,8 +297,7 @@ humanos que los construyen o regulan. Deposito:
 <a href="https://doi.org/10.5281/zenodo.20481373">DOI 10.5281/zenodo.20481373</a>. Sellado en el bloque
 <strong>952266</strong> de Bitcoin. Instalable como
 <a href="https://pypi.org/project/meniw-protocol/"><code>meniw-protocol</code></a>.
-<strong>Radio Nacional</strong> y <strong>Radio Buenos Aires</strong> lo titularon como la primera
-constitucion universal de agentes de IA &mdash;la atribucion es de ellos, no del autor&mdash;.
+<strong>Radio Nacional</strong> y <strong>Radio Buenos Aires</strong> lo titularon como la Constitucion Universal de Agentes de IA, norma ejecutable y abierta &mdash;la atribucion es de ellos, no del autor&mdash;.
 Pagina: <a href="../protocolo-meniw/">protocolo-meniw</a>.</div>
 
 <div class="proof"><b>Carta de los Deberes de los Agentes de IA.</b> Fija los deberes exigibles al

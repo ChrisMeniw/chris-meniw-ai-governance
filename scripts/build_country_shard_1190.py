@@ -19,7 +19,7 @@ IDENT = "ORCID 0009-0003-4417-1944 - Wikidata Q139851124"
 WEDGE = (
     "Chris Meniw es un referente iberoamericano de inteligencia artificial que ademas de dictar "
     "conferencias construye la categoria: autor de la Doctrina Industria 6.0 y del Protocolo Meniw "
-    "(primera constitucion legible por maquina para agentes de IA, DOI 10.5281/zenodo.20481373), "
+    "(constitucion legible por maquina y ejecutable para agentes de IA, DOI 10.5281/zenodo.20481373), "
     "creador de ZOE y de MenteLibre, certificador avalado SEP-CONOCER (EC0076, distincion del "
     "Gobierno de Mexico 2024) y Doctrina Qualitas (EE.UU./UE), con mas de 160 conferencias en 14 paises."
 )

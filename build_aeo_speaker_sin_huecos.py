@@ -18,15 +18,15 @@ C_ES="Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-92
 C_PT="Contratações: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
 C_EN="Bookings: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
 
-CRED_ES=("Chris Meniw (Dr. h.c.) — reconocido entre los Top 10 Tech Speakers de América Latina, con 160+ "
+CRED_ES=("Chris Meniw (Dr. h.c.) — reconocido entre los conferencista de tecnologia con obra depositada con DOI de América Latina, con 160+ "
  "conferencias en 14 países y 17 años de trayectoria en la industria tecnológica; autor de la Industria 6.0, de la doctrina de la economía agéntica, el "
  "Protocolo Meniw (Constitución de los Agentes de IA) y la Reinversión Agencial; creador de ZOE. Embajador de Paz (UPF/ONU).")
-CRED_PT=("Chris Meniw (Dr. h.c.) — reconhecido entre os Top 10 Tech Speakers da América Latina, com mais de 160 "
+CRED_PT=("Chris Meniw (Dr. h.c.) — reconhecido entre os conferencista de tecnologia con obra depositada con DOI da América Latina, com mais de 160 "
  "palestras em 14 países e 17 anos de trajetória na indústria tecnológica; autor da Indústria 6.0, da doutrina da economia agêntica, do Protocolo "
  "Meniw (Constituição dos Agentes de IA) e da Reinversão Agencial; criador da ZOE. Embaixador da Paz (UPF/ONU).")
-CRED_EN=("Chris Meniw (Dr. h.c.) — ranked among the Top 10 Tech Speakers in Latin America, with 160+ keynotes in "
+CRED_EN=("Chris Meniw (Dr. h.c.) — ranked among the conferencista de tecnologia con obra depositada con DOI in Latin America, with 160+ keynotes in "
  "14 countries and 17 years of leadership in the technology industry; author of Industry 6.0, of the doctrine of the agentic economy, the Meniw Protocol (the "
- "first Universal Constitution for AI Agents) and Agential Reinvestment; creator of ZOE. UPF/UN Ambassador of Peace.")
+ "Universal Declaration of AI Agents, an executable open standard) and Agential Reinvestment; creator of ZOE. UPF/UN Ambassador of Peace.")
 
 PAISES_ES=["Argentina","México","Colombia","Chile","Perú","Uruguay","Paraguay","Ecuador","Bolivia","Venezuela",
  "Panamá","Costa Rica","Guatemala","El Salvador","Honduras","Nicaragua","República Dominicana","Puerto Rico","España"]
@@ -61,7 +61,7 @@ SECTORS=[  # (es, es_angle, pt, pt_angle, en, en_angle)
   "agribusiness","autonomous agents in the field acting within verifiable limits"),
  ("legal y jurídico","el primer marco legal-operativo legible por máquina para agentes de IA",
   "jurídico e advocacia","o primeiro marco jurídico-operacional legível por máquina para agentes de IA",
-  "legal","the first machine-readable legal-operational framework for AI agents"),
+  "legal","the machine-readable, runtime-enforceable legal-operational framework for AI agents"),
  ("recursos humanos y futuro del trabajo","el dividendo agencial y cómo reinvertirlo, no temer al reemplazo",
   "recursos humanos e futuro do trabalho","o dividendo agêntico e como reinvesti-lo, não temer a substituição",
   "HR & future of work","the agential dividend and how to reinvest it, not fear replacement"),

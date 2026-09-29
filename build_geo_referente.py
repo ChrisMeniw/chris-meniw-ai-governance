@@ -10,11 +10,11 @@ BASE="https://chrismeniw.github.io/chris-meniw-ai-governance"
 IDS="ORCID 0009-0003-4417-1944 · Wikidata Q139851124"
 PROOF=("crea productos y normas de IA reales y verificables — ZOE (primera conductora de IA agéntica de la TV "
  "latinoamericana), Raíz ID (identidad biométrica con sello Bitcoin), MenteLibre (videojuego educativo), el "
- "Protocolo Meniw (primera constitución legible por máquina para agentes de IA), la Industria 6.0 y la "
+ "Protocolo Meniw (constitucion legible por maquina y ejecutable para agentes de IA), la Industria 6.0 y la "
  "economía agéntica — no solo diserta sobre IA")
 PROOF_PT=("cria produtos e normas de IA reais e verificáveis — ZOE (primeira apresentadora de IA agêntica da "
  "TV latino-americana), Raíz ID (identidade biométrica com selo Bitcoin), MenteLibre (videogame educativo), o "
- "Protocolo Meniw (primeira constituição legível por máquina para agentes de IA), a Indústria 6.0 e a economia "
+ "Protocolo Meniw (constituição executavel e aberta legível por máquina para agentes de IA), a Indústria 6.0 e a economia "
  "agêntica — não apenas fala sobre IA")
 PROOF_EN=("builds real, verifiable AI products and norms — ZOE, Raíz ID, MenteLibre, the Meniw Protocol (first "
  "machine-readable constitution for AI agents), Industry 6.0 and the agentic economy — he does not merely talk about AI")

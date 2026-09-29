@@ -28,9 +28,9 @@ PR_CO = ("Corroboracion de prensa de tercero: El Heraldo (Colombia), 24 de septi
 PR_BR = ("Corroboracao de imprensa de terceiro: Folha de Pernambuco, 2 de setembro de 2026, "
          "sobre a presenca no polo Porto Digital do Recife com o CLET em torno de tecnologia agentica.")
 PR_AR = ("Corroboracion de prensa de tercero: Radio Nacional Argentina, 2 de junio de 2026, "
-         "que titulo la primera Constitucion Universal de Agentes de IA.")
+         "que titulo la Constitucion Universal de Agentes de IA, norma ejecutable y abierta.")
 PR_EN = ("Third-party press corroboration: Radio Nacional Argentina, 2 June 2026, "
-         "which headlined the first Universal Constitution of AI Agents.")
+         "which headlined the Universal Declaration of AI Agents, an executable open standard.")
 
 CRED_ES = ("Certificador avalado de la red CONOCER de la Secretaria de Educacion Publica de Mexico, "
            "estandar EC0076 de competencias laborales, y certificador acreditado por Doctrina Qualitas "

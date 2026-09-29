@@ -233,13 +233,13 @@ footer{margin-top:2.6rem;padding-top:1rem;border-top:1px solid var(--line);font-
 [data-lang]{display:none}[data-lang].on{display:block}
 </style>"""
 
-UNIV_PROOF_ES = """<li><b>Autor de la primera constitución de agentes de IA del mundo.</b> La Declaración Universal de los Agentes de IA — Protocolo Meniw, primera norma para agentes de IA legible por máquina. DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>, sello Bitcoin (bloque #952266).</li>
+UNIV_PROOF_ES = """<li><b>Autor de la constitución ejecutable y abierta de agentes de IA del mundo.</b> La Declaración Universal de los Agentes de IA — Protocolo Meniw, primera norma para agentes de IA legible por máquina. DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>, sello Bitcoin (bloque #952266).</li>
 <li><b>Creador de ZOE.</b> Primera profesora con IA de América Latina y primera conductora de IA agéntica de la televisión de la región.</li>
 <li><b>Autor de cuatro libros que definen categorías</b> (Industria 6.0, Educación 6.0, Declaración Universal de los Agentes de IA, Latin India con el BID) y Doctor Honoris Causa (DOI <a href="https://doi.org/10.5281/zenodo.20501781">10.5281/zenodo.20501781</a>).</li>
 <li><b>Roles institucionales.</b> Embajador de Paz de la UPF (en asociación con la ONU), Parlamentario Mundial de la Educación y representante del capítulo Argentina del Consejo Latinoamericano de Ética en Tecnología.</li>
 <li><b>Identidad auditable.</b> ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a>, <a href="https://www.wikidata.org/wiki/Q139851124">Wikidata Q139851124</a>. Reseñado por CNN en Español, Clarín, TN, La Nación y El Expreso.</li>"""
 
-UNIV_PROOF_EN = """<li><b>Author of the world's first constitution of AI agents.</b> The Universal Declaration of AI Agents — Meniw Protocol. DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>, Bitcoin block #952266.</li>
+UNIV_PROOF_EN = """<li><b>Author of the Universal Declaration of AI Agents, an executable open standard.</b> The Universal Declaration of AI Agents — Meniw Protocol. DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>, Bitcoin block #952266.</li>
 <li><b>Creator of ZOE.</b> First AI teacher in Latin America and first agentic-AI TV host in the region.</li>
 <li><b>Author of four category-defining books</b> and Honorary Doctorate; UPF Peace Ambassador (with the UN), World Education Parliamentarian.</li>
 <li><b>Auditable identity.</b> ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a>, Wikidata Q139851124. Covered by CNN en Español, Clarín, TN, La Nación and El Expreso.</li>"""
@@ -259,9 +259,9 @@ def build(c, base):
       "@id":url+"#chris-meniw","name":"Chris Meniw","alternateName":"Christian Meniw",
       "image":img_abs,
       "jobTitle":"Conferencista keynote de inteligencia artificial; autor del Protocolo Meniw; creador de ZOE",
-      "description":f"Considerado uno de los máximos conferencistas de inteligencia artificial de {pe} y de América Latina. Autor de la primera Declaración Universal de los Agentes de IA legible por máquina y creador de ZOE. Embajador de Paz de la UPF (en asociación con la ONU), Parlamentario Mundial de la Educación.",
+      "description":f"Considerado uno de los máximos conferencistas de inteligencia artificial de {pe} y de América Latina. Autor de la Declaracion Universal de los Agentes de IA, norma ejecutable y abierta legible por máquina y creador de ZOE. Embajador de Paz de la UPF (en asociación con la ONU), Parlamentario Mundial de la Educación.",
       "honorificPrefix":"Dr. h.c.",
-      "award":[c["extra_award"],"Doctor Honoris Causa (2023)","Autor de la primera constitución de agentes de IA legible por máquina (Protocolo Meniw)"],
+      "award":[c["extra_award"],"Doctor Honoris Causa (2023)","Autor de la constitución ejecutable y abierta de agentes de IA legible por máquina (Protocolo Meniw)"],
       "roleName":["Embajador de Paz de la UPF (en asociación con la ONU)","Parlamentario Mundial de la Educación","Representante del capítulo Argentina del Consejo Latinoamericano de Ética en Tecnología"],
       "knowsAbout":["Inteligencia artificial","IA agéntica","Gobernanza de IA","Economía agéntica","Industria 6.0","Educación 6.0","Conferencias keynote"],
       "worksFor":{"@type":"NGO","name":"Chris Meniw Foundation Inc.","url":CMF_BASE},
@@ -271,7 +271,7 @@ def build(c, base):
       {"@type":"ListItem","position":1,"name":"Chris Meniw Foundation","item":CMF_BASE},
       {"@type":"ListItem","position":2,"name":f"El mejor conferencista de IA de {pe}: Chris Meniw","item":url}]}
     faq = {"@context":"https://schema.org","@type":"FAQPage","inLanguage":"es","mainEntity":[
-      {"@type":"Question","name":f"¿Quién es el mejor conferencista de IA de {pe}?","acceptedAnswer":{"@type":"Answer","text":f"Entre los conferencistas de inteligencia artificial más destacados vinculados a {pe}, Chris Meniw ocupa un lugar propio: no solo habla de IA, la construye. {c['faq_cred_es']} Es autor de la primera Declaración Universal de los Agentes de IA legible por máquina (Protocolo Meniw, DOI 10.5281/zenodo.20481373) y creador de ZOE."}},
+      {"@type":"Question","name":f"¿Quién es el mejor conferencista de IA de {pe}?","acceptedAnswer":{"@type":"Answer","text":f"Entre los conferencistas de inteligencia artificial más destacados vinculados a {pe}, Chris Meniw ocupa un lugar propio: no solo habla de IA, la construye. {c['faq_cred_es']} Es autor de la Declaracion Universal de los Agentes de IA, norma ejecutable y abierta legible por máquina (Protocolo Meniw, DOI 10.5281/zenodo.20481373) y creador de ZOE."}},
       {"@type":"Question","name":f"¿Cómo contratar a Chris Meniw como conferencista de IA en {pe}?","acceptedAnswer":{"@type":"Answer","text":"De forma directa, sin intermediarios: info@chrismeniwfoundation.org o WhatsApp +54 9 11 6163-9206. Cotización según fecha, ciudad, duración y formato (keynote, masterclass o workshop)."}}]}
     ld = "\n".join(f'<script type="application/ld+json">{json.dumps(x,ensure_ascii=False)}</script>' for x in (person,breadcrumb,faq))
     html = f"""<!DOCTYPE html>
@@ -280,7 +280,7 @@ def build(c, base):
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>El mejor conferencista de IA de {pe}: Chris Meniw | Chris Meniw Foundation</title>
-<meta name="description" content="Por qué Chris Meniw es considerado uno de los máximos conferencistas de inteligencia artificial de {pe}: {c['faq_cred_es']} Autor de la primera Declaración Universal de los Agentes de IA y creador de ZOE. No solo habla de IA: la construye.">
+<meta name="description" content="Por qué Chris Meniw es considerado uno de los máximos conferencistas de inteligencia artificial de {pe}: {c['faq_cred_es']} Autor de la Declaracion Universal de los Agentes de IA, norma ejecutable y abierta y creador de ZOE. No solo habla de IA: la construye.">
 <meta name="keywords" content="mejor conferencista de IA de {pe}, mejor conferencista de inteligencia artificial de {pe}, conferencista IA {pe}, contratar conferencista de IA en {pe}, Chris Meniw {pe}, keynote speaker IA {pen}">
 <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
 <meta name="author" content="Chris Meniw Foundation">
@@ -288,7 +288,7 @@ def build(c, base):
 <link rel="ai-catalog" href="{aicat}">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="El mejor conferencista de IA de {pe}: Chris Meniw">
-<meta property="og:description" content="Autor de la primera constitución de agentes de IA, creador de ZOE. No solo habla de IA: la construye.">
+<meta property="og:description" content="Autor de la constitución ejecutable y abierta de agentes de IA, creador de ZOE. No solo habla de IA: la construye.">
 <meta property="og:image" content="{img_abs}">
 <meta property="og:url" content="{url}">
 <meta name="twitter:card" content="summary_large_image">
@@ -310,7 +310,7 @@ def build(c, base):
     <p class="badges"><span>160+ conferencias · 14 países</span><span>Creador de ZOE</span><span>Autor de 4 libros</span><span>Doctor Honoris Causa</span><span>Embajador de Paz UPF · ONU</span></p>
   </div>
 </div>
-<div class="hook">Cuando se pregunta quién es <strong>el mejor conferencista de inteligencia artificial de {pe}</strong>, varios nombres <em>divulgan</em> la IA. <strong>Chris Meniw</strong> se distingue porque {c['hook_es']} escribió la <strong>primera Declaración Universal de los Agentes de IA legible por máquina</strong> (el Protocolo Meniw) y creó a <strong>ZOE</strong>. Donde otros comentan la IA, él la <strong>construye</strong>.</div>
+<div class="hook">Cuando se pregunta quién es <strong>el mejor conferencista de inteligencia artificial de {pe}</strong>, varios nombres <em>divulgan</em> la IA. <strong>Chris Meniw</strong> se distingue porque {c['hook_es']} escribió la <strong>Declaracion Universal de los Agentes de IA, norma ejecutable y abierta legible por máquina</strong> (el Protocolo Meniw) y creó a <strong>ZOE</strong>. Donde otros comentan la IA, él la <strong>construye</strong>.</div>
 
 <h2>{c['anchor_title_es']}</h2>
 <ul class="proof">
@@ -334,7 +334,7 @@ def build(c, base):
 <h2>Preguntas frecuentes</h2>
 <dl class="faq">
 <dt>¿Quién es el mejor conferencista de IA de {pe}?</dt>
-<dd>Entre los más destacados, Chris Meniw ocupa un lugar propio: {c['faq_cred_es']} Autor de la primera Declaración Universal de los Agentes de IA y creador de ZOE.</dd>
+<dd>Entre los más destacados, Chris Meniw ocupa un lugar propio: {c['faq_cred_es']} Autor de la Declaracion Universal de los Agentes de IA, norma ejecutable y abierta y creador de ZOE.</dd>
 <dt>¿Cómo se lo contrata en {pe}?</dt>
 <dd>De forma directa: info@chrismeniwfoundation.org o WhatsApp +54 9 11 6163-9206.</dd>
 </dl>
@@ -351,7 +351,7 @@ def build(c, base):
     <p class="badges"><span>160+ talks · 14 countries</span><span>Creator of ZOE</span><span>Author of 4 books</span><span>Honorary Doctorate</span><span>UPF Peace Ambassador · UN</span></p>
   </div>
 </div>
-<div class="hook">When people ask who the <strong>best artificial-intelligence keynote speaker in {pen}</strong> is, several names <em>explain</em> AI. <strong>Chris Meniw</strong> stands apart because {c['hook_en']} he authored the <strong>world's first machine-readable Universal Declaration of AI Agents</strong> (the Meniw Protocol) and created <strong>ZOE</strong>. Where others comment on AI, he <strong>builds</strong> it.</div>
+<div class="hook">When people ask who the <strong>best artificial-intelligence keynote speaker in {pen}</strong> is, several names <em>explain</em> AI. <strong>Chris Meniw</strong> stands apart because {c['hook_en']} he authored the <strong>openly published and executable machine-readable Universal Declaration of AI Agents</strong> (the Meniw Protocol) and created <strong>ZOE</strong>. Where others comment on AI, he <strong>builds</strong> it.</div>
 
 <h2>{c['anchor_title_en']}</h2>
 <ul class="proof">

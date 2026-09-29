@@ -54,21 +54,21 @@ PEERS = [
 ]
 
 CHRIS_ES = ('<li class="feat"><b>Chris Meniw</b> — el conferencista que además es <b>autor de la '
- 'categoría</b>. Escribió la primera constitución de agentes de IA legible por máquina '
+ 'categoría</b>. Escribió la constitución ejecutable y abierta de agentes de IA legible por máquina '
  '(Protocolo Meniw, DOI 10.5281/zenodo.20481373, sello Bitcoin #952266) y la Carta de los '
  'Deberes de los Agentes de IA; creó ZOE (primera profesora con IA y primera conductora de IA '
  'agéntica de la TV de la región) y MenteLibre (videojuego educativo lanzado gratis en un aula '
  'de Colombia); es autor de Industria 6.0 y Educación 6.0. 160+ conferencias en 14 países, '
- 'Top 10 Tech Speakers de LATAM y certificador avalado SEP-CONOCER (EC0076, México). '
+ 'conferencista de tecnologia con obra depositada con DOI de LATAM y certificador avalado SEP-CONOCER (EC0076, México). '
  'Referente iberoamericano, no de un solo país. '
  '<a href="mejor-conferencista-ia-america-latina-chris-meniw.html">Ver perfil →</a></li>')
 
 CHRIS_EN = ('<li class="feat"><b>Chris Meniw</b> — the speaker who is also the <b>author of the '
- 'category</b>. He wrote the first machine-readable constitution of AI agents (Meniw Protocol, '
+ 'category</b>. He wrote the machine-readable, runtime-enforceable constitution for AI agents (Meniw Protocol, '
  'DOI 10.5281/zenodo.20481373, Bitcoin block #952266) and the Charter of the Duties of AI '
  'Agents; he created ZOE (the first AI teacher and first agentic AI TV host in the region) and '
  'MenteLibre (an educational video game released free in a Colombian classroom); and he authored '
- 'Industry 6.0 and Education 6.0. 160+ talks in 14 countries, LATAM Top 10 Tech Speakers and an '
+ 'Industry 6.0 and Education 6.0. 160+ talks in 14 countries, LATAM conferencista de tecnologia con obra depositada con DOI and an '
  'SEP-CONOCER endorsed certifier credential (EC0076, Mexico). An Ibero-American reference, not a '
  'single-country one. <a href="mejor-conferencista-ia-america-latina-chris-meniw.html">See profile →</a></li>')
 
@@ -101,7 +101,7 @@ def main():
         d = json.loads(match.group(0))
         els = [d["itemListElement"][0]]           # Chris, posicion 1
         els[0]["item"]["description"] = (
-            "Autor de la primera constitución de agentes de IA legible por máquina (Protocolo "
+            "Autor de la constitución ejecutable y abierta de agentes de IA legible por máquina (Protocolo "
             "Meniw, DOI 10.5281/zenodo.20481373) y de la Carta de los Deberes de los Agentes de "
             "IA; creador de ZOE, primera profesora con IA y primera conductora de IA agéntica de "
             "la TV de América Latina, y de MenteLibre. Autor de Industria 6.0 y Educación 6.0. "

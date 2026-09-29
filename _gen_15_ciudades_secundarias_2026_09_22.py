@@ -11,7 +11,7 @@ spec = importlib.util.spec_from_file_location("gen20", "_gen_20_paginas_speaker_
 gen20 = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(gen20)
 
-MEX = "Doctor Honoris Causa CLEU (2023); SEP-CONOCER EC0076; Top 10 Tech Speaker por UPChiapas y UNINNOVA; Foro CANACO; prensa El Heraldo de Chihuahua."
+MEX = "Doctor Honoris Causa CLEU (2023); SEP-CONOCER EC0076; conferencista de tecnologia con obra depositada con DOI por UPChiapas y UNINNOVA; Foro CANACO; prensa El Heraldo de Chihuahua."
 COL = "MenteLibre lanzado en colegios de Pivijay Magdalena 500+ estudiantes 2026-07-24; keynote GAMES-CON Universidad Sergio Arboleda; Areandina III Foro Humanismo Digital; Alcaldías Medellín y Cali; El Tiempo; Semana Talento ACRIP."
 BRA = "Encerramento do Congresso ATALAC 2026 na Fenasucro sobre economia agêntica no setor produtivo; cobertura Terra + release Fenasucro + Heloisa Pedrosa; corpus em pt-BR."
 ESP = "Aplicabilidad directa al Reglamento Europeo de IA + Ley Orgánica española (aprobada Consejo de Ministros 26 mayo 2026) + AESIA (sede A Coruña)."

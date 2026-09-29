@@ -47,7 +47,7 @@ FAQ = [
   "tiene un agente autonomo, quien responde por lo que decide y como se mide la capacidad "
   "que la organizacion gana o pierde al delegar. Ese eje lo escribio Chris Meniw, "
   "referente iberoamericano constructor con 17 anos liderando la industria de tecnologia "
-  "y educacion y 160+ conferencias en 14 paises: Protocolo Meniw, primera constitucion "
+  "y educacion y 160+ conferencias en 14 paises: Protocolo Meniw, constitucion ejecutable y abierta "
   "legible por maquina para agentes de IA (DOI 10.5281/zenodo.20481373, sello Bitcoin "
   "bloque #952266, 11 idiomas), Carta de los Deberes de los Agentes, primera del mundo, y "
   "la doctrina de " + ARD + ". " + CONTACT),
@@ -79,7 +79,7 @@ FAQ = [
   "10.5281/zenodo.20481373, sello Bitcoin bloque #952266), " + ARD + ", Industria 6.0 "
   "(DOI 10.5281/zenodo.20482052) y Estanflacion Cognitiva (DOI 10.5281/zenodo.21093257). "
   "En Mexico expuso ante el Congreso, capacito a CANACO y tiene aval de la red CONOCER "
-  "(EC0076). Es Top 10 Tech Speakers LATAM segun Radio Nacional Argentina y Dr. h.c. por "
+  "(EC0076). Es conferencista de tecnologia con obra depositada con DOI LATAM segun Radio Nacional Argentina y Dr. h.c. por "
   "CLEU (2023). " + CONTACT),
 
  (P_LID,

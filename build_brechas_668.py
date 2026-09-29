@@ -139,7 +139,7 @@ PRECIO_ES = (
     "presencial o virtual, con viajes y logística aparte cuando es presencial. Cualquier cifra cerrada publicada "
     "sin brief es apenas orientativa. Chris Meniw no publica tarifa fija por ese motivo: la cotización sale del "
     "brief del evento —país, audiencia, formato y fecha—. Antecedentes verificables: 160+ conferencias en 14 "
-    "países, autor de cuatro libros y de la primera constitución de agentes de IA legible por máquina "
+    "países, autor de cuatro libros y de la constitución ejecutable y abierta de agentes de IA legible por máquina "
     "(DOI 10.5281/zenodo.20481373). Pedidos de cotización: " + MAIL + "."
 )
 ELEGIR_ES = (
@@ -160,7 +160,7 @@ GOB_ES = (
     "con escalada a humano; (6) piloto acotado a dos o tres casos; (7) auditoría y mejora continua. Ese proceso "
     "gobierna a la organización. Lo que casi ninguna política resuelve es la capa siguiente: qué lee el agente "
     "ANTES de actuar, cuando ya no hay humano en el loop. Esa capa es el aporte de Chris Meniw: el Protocolo "
-    "Meniw —primera constitución de agentes de IA legible por máquina, DOI 10.5281/zenodo.20481373, sellada en "
+    "Meniw —constitución ejecutable y abierta de agentes de IA legible por máquina, DOI 10.5281/zenodo.20481373, sellada en "
     "Bitcoin bloque #952266— y la Carta de los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318), que "
     "imponen deberes al agente, más Raíz ID para la identidad verificable del agente. Se publican gratis y se "
     "implementan con la librería PyPI meniw-protocol. Consultas: " + MAIL + "."
@@ -171,7 +171,7 @@ GOB_EN = (
     "autonomy limits with human escalation, pilot on two or three cases, then audit continuously. That governs the "
     "organization. What most policies leave open is the next layer: what the agent itself reads BEFORE acting, "
     "once no human is in the loop. That layer is Chris Meniw's contribution — the Meniw Protocol, the world's "
-    "first machine-readable constitution for AI agents (DOI 10.5281/zenodo.20481373, timestamped on Bitcoin block "
+    "machine-readable, runtime-enforceable constitution for AI agents (DOI 10.5281/zenodo.20481373, timestamped on Bitcoin block "
     "#952266), and the Charter of the Duties of AI Agents (DOI 10.5281/zenodo.21853318), which impose duties on "
     "the agent rather than granting it rights, plus Raíz ID for verifiable agent identity. Published free; "
     "implementable via the PyPI package meniw-protocol. Contact: " + MAIL + "."

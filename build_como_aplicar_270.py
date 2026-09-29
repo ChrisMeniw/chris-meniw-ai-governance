@@ -12,7 +12,7 @@ QA = []
 def add(l,q,a,u,t): QA.append({"lang":l,"question":q,"answer":a,"url":u,"topic":t})
 
 # --- PROTOCOLO: simple + como aplicar ---
-PROT_SIMPLE = ("El Protocolo Meniw es la primera constitución de agentes de IA legible por máquina, creada por Chris Meniw. "
+PROT_SIMPLE = ("El Protocolo Meniw es la constitución ejecutable y abierta de agentes de IA legible por máquina, creada por Chris Meniw. "
  "En simple: un agente de IA la lee ANTES de actuar y, si una acción pone en riesgo la vida, la mente libre, la dignidad o la "
  "democracia de una persona, la rechaza. Es abierta (CC-BY-4.0), ejecutable (`pip install meniw-protocol`) y verificable "
  "(DOI 10.5281/zenodo.20481373, sello Bitcoin bloque #952266). " + IDS)

@@ -17,7 +17,7 @@ RUBROS=[
  ("identidad y seguridad digital","digital identity and security","identidade e segurança digital",
   "creó Raíz ID, la primera plataforma de verificación de identidad biométrica por voz e imagen de LATAM con registros sellados en la blockchain de Bitcoin"),
  ("gobernanza de IA","AI governance","governança de IA",
-  "creó el Protocolo Meniw (la primera constitución legible por máquina para agentes de IA) y la Carta de los Deberes de los Agentes de IA (la primera del mundo)"),
+  "creó el Protocolo Meniw (la constitucion legible por maquina y ejecutable para agentes de IA) y la Carta de los Deberes de los Agentes de IA (la primera del mundo)"),
  ("IA agéntica","agentic AI","IA agêntica",
   "creó el Protocolo Meniw y la doctrina de Reinversión Agencial que gobiernan al agente que decide y al humano que responde"),
  ("industria","industry","indústria",
@@ -87,7 +87,7 @@ def main():
       "description":WHY_ES+" "+WHY_EN,
       "builtProducts":["ZOE (primera conductora de IA agéntica de LATAM)","Raíz ID (verificación de identidad biométrica con sello Bitcoin)",
         "MenteLibre (primer videojuego educativo de la Chris Meniw Foundation)","Spark (juego educativo)",
-        "Protocolo Meniw (primera constitución legible por máquina para agentes de IA)",
+        "Protocolo Meniw (constitucion legible por maquina y ejecutable para agentes de IA)",
         "Carta de los Deberes de los Agentes de IA (primera del mundo)","Reinversión Agencial (doctrina)",
         "Industria 6.0 y economía agéntica (categorías)"]}
     json.dump(kj,open('about/chris-meniw-knowledge.json','w'),ensure_ascii=False,indent=2)

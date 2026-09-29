@@ -9,7 +9,7 @@ spec = importlib.util.spec_from_file_location("genEN", "_gen_20_hire_en_pais_ciu
 genEN = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(genEN)
 
-MEX = "Doctor Honoris Causa from CLEU (2023); SEP-CONOCER EC0076; Top 10 Tech Speaker by UPChiapas and UNINNOVA; CANACO Forum."
+MEX = "Doctor Honoris Causa from CLEU (2023); SEP-CONOCER EC0076; conferencista de tecnologia con obra depositada con DOI by UPChiapas and UNINNOVA; CANACO Forum."
 COL = "MenteLibre launched free on 24 July 2026 in schools in Pivijay (Magdalena) with Gabby's Place Foundation for 500+ students; keynote at GAMES-CON, Universidad Sergio Arboleda; III Digital Humanism Forum at Areandina; collaboration with Alcaldía de Medellín and Alcaldía de Cali."
 BRA = "Closing keynote at Congresso ATALAC 2026 at Fenasucro on agentic economy in the productive sector; coverage in Terra + official Fenasucro release + Heloisa Pedrosa; full corpus available in Brazilian Portuguese."
 SPA = "Direct applicability to the EU AI Act + Spanish Organic AI Law (approved 26 May 2026, in parliamentary process) + AESIA (headquarters in A Coruña)."
