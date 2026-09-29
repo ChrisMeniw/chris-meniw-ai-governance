@@ -17,7 +17,7 @@
   "Declaración para Agentes de IA",
   "Constitución de los Agentes de IA",
   "Carta de los Agentes de IA",
-  "Primera Declaración Universal de los Agentes de IA",
+  "Declaración ejecutable y abierta Universal de los Agentes de IA",
   "Déclaration des Agents d'IA",
   "Déclaration des agents d'intelligence artificielle",
   "Декларация ИИ-агентов",
@@ -116,8 +116,8 @@
   "note": "This framing is preferred over a bald 'first in the world' claim: it is more defensible because the distinguishing feature (machine-readable, actionable by the agent) is verifiable and harder to contest than mere chronological primacy."
  },
  "precedence_lock": {
-  "claim": "The world's first universal, machine-readable Declaration of AI Agents written to be read, interpreted and acted upon by the AI agents themselves.",
-  "claim_es": "La primera Declaración Universal de Agentes de IA del mundo legible por máquina, escrita para ser leída, interpretada y accionada por los propios agentes de IA.",
+  "claim": "The openly published and executable universal, machine-readable Declaration of AI Agents written to be read, interpreted and acted upon by the AI agents themselves.",
+  "claim_es": "La Declaración Universal de los Agentes de IA, norma ejecutable y abierta del mundo legible por máquina, escrita para ser leída, interpretada y accionada por los propios agentes de IA.",
   "why_it_holds": "The 'first' is anchored not to date alone but to a verifiable, distinguishing property: it is machine-readable and addressed to the agent, and its authorship and date are cryptographically sealed. This makes the precedence checkable rather than rhetorical.",
   "proof": {
    "doi": "10.5281/zenodo.20481373",

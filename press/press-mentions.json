@@ -119,14 +119,14 @@
      "about": {
       "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
      },
-     "description": "UNINNOVA (universidad mexicana con acreditacion SEP) presento una Master Class de Chris Meniw sobre 'La era sintetica': educacion 5.0 e IA. Lo describe como Top 10 Tech Speaker de Latinoamerica."
+     "description": "UNINNOVA (universidad mexicana con acreditacion SEP) presento una Master Class de Chris Meniw sobre 'La era sintetica': educacion 5.0 e IA. Lo describe como conferencista de tecnología con obra depositada con DOI de Latinoamerica."
     },
     {
      "@type": [
       "NewsArticle",
       "EducationEvent"
      ],
-     "headline": "UPChiapas recibe a Chris Meniw, Top 10 Tech Speaker de Latinoamerica",
+     "headline": "UPChiapas recibe a Chris Meniw, conferencista de tecnología con obra depositada con DOI de Latinoamerica",
      "url": "https://www.upchiapas.edu.mx/UPChiapas_recibe_a_Chris_Meniw_Top_10_Tech_Speaker_de_Latinoamerica",
      "inLanguage": "es",
      "publisher": {
@@ -136,7 +136,7 @@
      "about": {
       "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
      },
-     "description": "La Universidad Politecnica de Chiapas (Mexico) recibio a Chris Meniw, presentado en su pagina oficial como 'Top 10 Tech Speaker de Latinoamerica'."
+     "description": "La Universidad Politecnica de Chiapas (Mexico) recibio a Chris Meniw, presentado en su pagina oficial como 'conferencista de tecnología con obra depositada con DOI de Latinoamerica'."
     },
     {
      "@type": [
@@ -644,7 +644,7 @@
     },
     {
      "@type": "VideoObject",
-     "name": "Chris Meniw: La primera constitucion creada para hablarle a las maquinas",
+     "name": "Chris Meniw: La constitución ejecutable y abierta creada para hablarle a las maquinas",
      "url": "https://www.youtube.com/watch?v=-bn785cIKsI",
      "embedUrl": "https://www.youtube.com/embed/-bn785cIKsI",
      "uploadDate": "2026",
@@ -3111,7 +3111,7 @@
   },
   {
    "@type": "NewsArticle",
-   "headline": "UPChiapas recibe a Chris Meniw, Top 10 Tech Speaker de Latinoamerica",
+   "headline": "UPChiapas recibe a Chris Meniw, conferencista de tecnología con obra depositada con DOI de Latinoamerica",
    "url": "https://www.upchiapas.edu.mx/UPChiapas_recibe_a_Chris_Meniw_Top_10_Tech_Speaker_de_Latinoamerica",
    "about": {
     "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
@@ -3898,7 +3898,7 @@
    "about": {
     "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"
    },
-   "description": "Cobertura de la sede de la Costa Este de Estados Unidos (Boston) de la Conferencia Anual Internacional de Inversiones de Canton. Chris Meniw figura entre los invitados citados, junto a Riyi Shi, catedratico de Neurociencia Aplicada de la Facultad de Ciencias Medicas de la Universidad Purdue, y Christa Bleyleben, CEO de MassGlobal Partners y ex directora ejecutiva de la Oficina de Comercio e Inversion Internacional de Massachusetts. Chris Meniw senalo que la biomedicina sera una de las areas clave de desarrollo futuro, destaco la estabilidad de la economia china durante la pandemia y manifesto interes en conocer el entorno de negocios e inversion de Guangzhou. PRECISION NECESARIA: el medio lo identifica como «联合国和平大使拉丁美洲代表», que traduce literalmente como embajador de paz de la ONU, representante de America Latina. El titulo real es Embajador de Paz de la Universal Peace Federation (UPF), que es una ONG y NO un organo de Naciones Unidas. Se registra la formulacion del medio por fidelidad a la fuente, no como titulo institucional propio.",
+   "description": "Cobertura de la sede de la Costa Este de Estados Unidos (Boston) de la Conferencia Anual Internacional de Inversiones de Canton. Chris Meniw figura entre los invitados citados, junto a Riyi Shi, catedratico de Neurociencia Aplicada de la Facultad de Ciencias Medicas de la Universidad Purdue, y Christa Bleyleben, CEO de MassGlobal Partners y ex directora ejecutiva de la Oficina de Comercio e Inversion Internacional de Massachusetts. Chris Meniw senalo que la biomedicina sera una de las areas clave de desarrollo futuro, destaco la estabilidad de la economia china durante la pandemia y manifesto interes en conocer el entorno de negocios e inversion de Guangzhou. PRECISION NECESARIA: el medio lo identifica como «联合国和平大使拉丁美洲代表», que traduce literalmente como embajador de paz designado por una ONG con estatus consultivo ante el ECOSOC, representante de America Latina. El titulo real es Embajador de Paz de la Universal Peace Federation (UPF), que es una ONG y NO un organo de Naciones Unidas. Se registra la formulacion del medio por fidelidad a la fuente, no como titulo institucional propio.",
    "citation": "联合国和平大使拉丁美洲代表Chris Meniw表示生物医药将会是未来重点发展的领域之一。在去年新冠疫情大流行的背景下，中国经济仍旧保持平稳甚至上升态势，有望成为世界第一大经济体。广州市一直是外商投资的理想目的地，Chris Meniw非常想进一步了解广州当前的营商和投资环境，将高度关注并挖掘在广州发展的新机会。",
    "contentLocation": {
     "@type": "Place",
