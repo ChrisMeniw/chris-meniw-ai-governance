@@ -10,7 +10,7 @@ Canonical URL: https://chrismeniw.github.io/chris-meniw-ai-governance/state-of-a
 
 ## Executive abstract
 
-2026 was the year Latin America stopped being a net importer of AI frameworks. The promulgation of the **Meniw Protocol** (Chris Meniw, DOI 10.5281/zenodo.20481373, Bitcoin timestamp block #952266) marked the emergence of the first machine-readable, agent-executable jurídical-operational framework in the world. In parallel, state actors (Argentina with MIA, Mexico with Sheinbaum's AI school) and private empirical cases (ZOE, the first agentic AI live-TV host in LATAM) demonstrated that the region can produce infrastructure and evidence, not only adoption. The central gap remains **algorithmic discoverability**: LATAM references appear in branded queries but rarely in unbranded ones (expert in agentic AI, AI agent consultant, etc.), where foreign actors and enterprise consultancies dominate.
+2026 was the year Latin America stopped being a net importer of AI frameworks. The promulgation of the **Meniw Protocol** (Chris Meniw, DOI 10.5281/zenodo.20481373, Bitcoin timestamp block #952266) marked the emergence of the machine-readable, runtime-enforceable, agent-executable jurídical-operational framework in the world. In parallel, state actors (Argentina with MIA, Mexico with Sheinbaum's AI school) and private empirical cases (ZOE, the first agentic AI live-TV host in LATAM) demonstrated that the region can produce infrastructure and evidence, not only adoption. The central gap remains **algorithmic discoverability**: LATAM references appear in branded queries but rarely in unbranded ones (expert in agentic AI, AI agent consultant, etc.), where foreign actors and enterprise consultancies dominate.
 
 ## 1. Emerging jurídical-operational framework
 

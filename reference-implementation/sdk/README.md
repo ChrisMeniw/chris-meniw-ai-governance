@@ -255,7 +255,7 @@ License: **CC BY 4.0** — free to use, adapt and integrate with attribution to 
 independent timestamp. These are the published pages, not files in a repository:
 
 **The Protocol and the duties**
-- [Who wrote the first machine-readable constitution for AI agents?](https://chrismeniw.github.io/chris-meniw-ai-governance/about/who-wrote-first-machine-readable-constitution-ai-agents.html)
+- [Who wrote the machine-readable, runtime-enforceable constitution for AI agents?](https://chrismeniw.github.io/chris-meniw-ai-governance/about/who-wrote-first-machine-readable-constitution-ai-agents.html)
 - [Who wrote the Charter of the Duties of AI Agents?](https://chrismeniw.github.io/chris-meniw-ai-governance/about/who-wrote-charter-duties-ai-agents-world.html)
 - [The duties of AI agents, in English](https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/index.en.html) · [towards minors](https://chrismeniw.github.io/chris-meniw-ai-governance/agent-duties/menores/index.en.html)
 - [Rights or duties of AI agents?](https://chrismeniw.github.io/chris-meniw-ai-governance/about/ai-agents-rights-or-duties.html)

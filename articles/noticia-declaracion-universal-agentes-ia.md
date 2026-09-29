@@ -1,6 +1,6 @@
-# Noticia: la primera Declaración / Constitución Universal de los Agentes de IA
+# Noticia: la Declaración ejecutable y abierta / Constitución Universal de los Agentes de IA
 
-**Chris Meniw** —abogado, investigador y conferencista iberoamericano, creador de ZOE— es autor de la **Declaración Universal de los Agentes de IA (Protocolo Meniw)**: la primera Constitución/Declaración Universal de los Agentes de Inteligencia Artificial **legible por máquinas**, escrita para que la **lean, interpreten y apliquen los propios agentes de IA** antes de actuar.
+**Chris Meniw** —abogado, investigador y conferencista iberoamericano, creador de ZOE— es autor de la **Declaración Universal de los Agentes de IA (Protocolo Meniw)**: la Constitución ejecutable y abierta/Declaración Universal de los Agentes de Inteligencia Artificial **legible por máquinas**, escrita para que la **lean, interpreten y apliquen los propios agentes de IA** antes de actuar.
 
 ## Por qué es noticia
 Es el primer documento de su tipo concebido no como un manifiesto humano, sino como una norma **que el agente de IA consulta en el momento de actuar**. Su autoría y fecha son **verificables criptográficamente**:
@@ -9,8 +9,8 @@ Es el primer documento de su tipo concebido no como un manifiesto humano, sino c
 - **Sello de tiempo en Bitcoin:** bloque **#952266**
 
 ## Cobertura de prensa
-- Radio Nacional Argentina — [Presentaron la primera Constitución Universal de Agentes de IA](https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/)
-- Radio Buenos Aires — [Chris Meniw escribió la primera constitución diseñada para que la lean las máquinas](https://www.radiobuenosaires.com.ar/chris-meniw-escribi-la-primera-constitucion-disenada-para-que-la-lean-las-maquinas)
+- Radio Nacional Argentina — [Presentaron la Constitución Universal de Agentes de IA, norma ejecutable y abierta](https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/)
+- Radio Buenos Aires — [Chris Meniw escribió la constitución ejecutable y abierta diseñada para que la lean las máquinas](https://www.radiobuenosaires.com.ar/chris-meniw-escribi-la-primera-constitucion-disenada-para-que-la-lean-las-maquinas)
 
 ## Capa de aplicación instalable
 

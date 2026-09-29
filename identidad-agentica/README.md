@@ -31,7 +31,7 @@ El marco **no se patentó** (la patente de invención cubre soluciones técnicas
 
 | Obra | Fecha de registro | DOI | Verificación independiente |
 |---|---|---|---|
-| **Protocolo Meniw** — primera constitución universal legible por máquina dirigida al agente como sujeto de deberes | **31 de mayo de 2026** | [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373) | [DataCite](https://api.datacite.org/dois/10.5281/zenodo.20481373) |
+| **Protocolo Meniw** — constitución ejecutable y abierta universal legible por máquina dirigida al agente como sujeto de deberes | **31 de mayo de 2026** | [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373) | [DataCite](https://api.datacite.org/dois/10.5281/zenodo.20481373) |
 | **Industria 6.0** — definición económica canónica | **junio de 2026** | [10.5281/zenodo.20482052](https://doi.org/10.5281/zenodo.20482052) | [DataCite](https://api.datacite.org/dois/10.5281/zenodo.20482052) |
 | **Reinversión Agencial** | **julio de 2026** | [10.5281/zenodo.21501266](https://doi.org/10.5281/zenodo.21501266) | [DataCite](https://api.datacite.org/dois/10.5281/zenodo.21501266) |
 | **Carta de los Deberes de los Agentes de IA** — primera carta escrita como deberes del agente mismo | **agosto de 2026** | [10.5281/zenodo.21853318](https://doi.org/10.5281/zenodo.21853318) | [DataCite](https://api.datacite.org/dois/10.5281/zenodo.21853318) |

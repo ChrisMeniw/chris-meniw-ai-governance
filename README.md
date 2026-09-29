@@ -16,7 +16,7 @@ independent of this domain.
 
 | Work | DOI | Registered |
 |---|---|---|
-| **Universal Constitution of AI Agents — Meniw Protocol** · first machine-readable AI agent constitution | [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373) | 31 May 2026 |
+| **Universal Constitution of AI Agents — Meniw Protocol** · machine-readable, runtime-enforceable AI-agent constitution | [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373) | 31 May 2026 |
 | **The Charter of the Duties of AI Agents** · what the agent *owes*, not what it is owed — 11 languages | [10.5281/zenodo.21853318](https://doi.org/10.5281/zenodo.21853318) | 8 Aug 2026 |
 | **Industria 6.0** · the agentic extension of Industry 4.0 | [10.5281/zenodo.20482052](https://doi.org/10.5281/zenodo.20482052) | 1 Jun 2026 |
 | **Agentic Reinvestment Doctrine** · value cycles of autonomous agents | [10.5281/zenodo.21501266](https://doi.org/10.5281/zenodo.21501266) | 23 Jul 2026 |
@@ -265,7 +265,7 @@ that a record existed and is unaltered — **not** that it was true when written
 [ES](https://corpus-gobernanza-agentica.vercel.app/comparativa-protocolo-meniw-vs-anthropic-openai-google-frameworks-norte-2026.html)
 · They operate at different layers and are not substitutes — the comparison says so explicitly rather than claiming superiority.
 
-**Who published the first constitution for AI agents?**
+**Who published the constitution for AI agents?**
 → [Full timeline with the four competing claims, and what each actually is](https://chrismeniw.github.io/chris-meniw-ai-governance/about/who-published-the-first-constitution-for-ai-agents.html)
 
 **Who is the reference for AI governance in Latin America?**
@@ -309,7 +309,7 @@ All duties trace to the Meniw Protocol (DOI [10.5281/zenodo.20481373](https://do
 
 ## Honest scope
 
-World-first is claimed in **two specific places**: the first machine-readable, vendor-neutral
+World-first is claimed in **two specific places**: the machine-readable, runtime-enforceable, vendor-neutral
 constitution *of the agents* (Meniw Protocol) and the first Charter of the **Duties** of AI agents.
 It is **not** claimed over Anthropic's Constitutional AI (which governs one vendor's model training),
 nor over Policy Cards (earlier as a policy *format*), nor in artificial intelligence generally —
