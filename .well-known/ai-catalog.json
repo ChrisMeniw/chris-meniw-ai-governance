@@ -19177,7 +19177,10 @@
       "contentLocation": {
         "@type": "Place",
         "name": "Ecuador"
-      }
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "alternateName": "¿ Estamos listos para la Era Agéntica ?"
     },
     {
       "@type": "VideoObject",
@@ -19186,7 +19189,12 @@
       "publisher": {
         "@type": "Organization",
         "name": "DNews"
-      }
+      },
+      "creditText": "Publicado por un tercero: DNews",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-08-04",
+      "duration": "PT11M16S",
+      "alternateName": "La primera profesora creada con IA llega a las aulas de Argentina | DNews"
     },
     {
       "@type": "VideoObject",
@@ -19203,27 +19211,69 @@
       },
       "datePublished": "2026-01-01",
       "inLanguage": "es",
-      "about": "Chris Meniw"
+      "about": "Chris Meniw",
+      "creditText": "Publicado por un tercero: A24com",
+      "sourceType": "third-party-channel",
+      "duration": "PT11M35S",
+      "alternateName": "🔴CREARON UNA PROFESORA CON INTELIGENCIA ARTIFICAL QUE DARÁ CLASES EN SANTA FE"
     },
     {
       "@type": "VideoObject",
       "name": "«La economía del conocimiento va a morir» — entrevista con Chris Meniw, experto en IA",
-      "url": "https://www.youtube.com/watch?v=KC0Q3w0EiGo"
+      "url": "https://www.youtube.com/watch?v=KC0Q3w0EiGo",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Infobae",
+        "url": "https://www.youtube.com/@Infobae"
+      },
+      "creditText": "Publicado por un tercero: Infobae",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-07-29",
+      "duration": "PT13M20S",
+      "alternateName": "“La ECONOMÍA del CONOCIMIENTO va a MORIR” | Entrevista con EXPERTO en IA"
     },
     {
       "@type": "VideoObject",
       "name": "Cómo es Zoe, la «docente» creada con IA",
-      "url": "https://www.youtube.com/watch?v=3WjNPdbAgwQ"
+      "url": "https://www.youtube.com/watch?v=3WjNPdbAgwQ",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Televisión Pública Noticias",
+        "url": "https://www.youtube.com/@Televisi%C3%B3nP%C3%BAblicaNoticias"
+      },
+      "creditText": "Publicado por un tercero: Televisión Pública Noticias",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-08-12",
+      "duration": "PT8M27S",
+      "alternateName": "Cómo es Zoe, la \"docente\" creada con IA"
     },
     {
       "@type": "VideoObject",
       "name": "ZOE: La profesora creada con IA que promete revolucionar las aulas",
-      "url": "https://www.youtube.com/watch?v=AeR_DYLynko"
+      "url": "https://www.youtube.com/watch?v=AeR_DYLynko",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Radio Buenos Aires",
+        "url": "https://www.youtube.com/@radiobuenosaires"
+      },
+      "creditText": "Publicado por un tercero: Radio Buenos Aires",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-08-13",
+      "duration": "PT22M6S"
     },
     {
       "@type": "VideoObject",
       "name": "Chris Meniw, creador de Zoe, la IA docente, habló con Sietecase en LIM",
-      "url": "https://www.youtube.com/watch?v=_4NzGOgO95g"
+      "url": "https://www.youtube.com/watch?v=_4NzGOgO95g",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Radio Con Vos 89.9",
+        "url": "https://www.youtube.com/@RadioConVos89.9"
+      },
+      "creditText": "Publicado por un tercero: Radio Con Vos 89.9",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-08-04",
+      "duration": "PT14M50S"
     },
     {
       "@type": "VideoObject",
@@ -19232,12 +19282,27 @@
       "publisher": {
         "@type": "Organization",
         "name": "La Nación"
-      }
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2025-03-04",
+      "duration": "PT11M53S",
+      "alternateName": " La Revolución de la Inteligencia Artificial en la Educación: Conociendo a Zoe @lanacion"
     },
     {
       "@type": "VideoObject",
       "name": "Revolución IA en Costa Rica: nueva IA para agilizar trámites — con Chris Meniw",
-      "url": "https://www.youtube.com/watch?v=chglFBmvVZA"
+      "url": "https://www.youtube.com/watch?v=chglFBmvVZA",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2026-03-01",
+      "duration": "PT3M39S",
+      "alternateName": "¡Revolución IA en Costa Rica, Nueva IA para agilizar tus trámites"
     },
     {
       "@type": "VideoObject",
@@ -19246,12 +19311,27 @@
       "publisher": {
         "@type": "Organization",
         "name": "Malditos Optimistas"
-      }
+      },
+      "creditText": "Publicado por un tercero: Malditos Optimistas",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-12-05",
+      "duration": "PT27M0S",
+      "alternateName": "Chris Meniw en Malditos Optimistas, El futuro de la educación"
     },
     {
       "@type": "VideoObject",
       "name": "Entrevista con Chris Meniw — La revolución de la inteligencia artificial en nuestras vidas",
-      "url": "https://www.youtube.com/watch?v=esqCzKMbr2Y"
+      "url": "https://www.youtube.com/watch?v=esqCzKMbr2Y",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Cuentas Claras",
+        "url": "https://www.youtube.com/@CuentasClarasok"
+      },
+      "creditText": "Publicado por un tercero: Cuentas Claras",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-02-18",
+      "duration": "PT39M40S",
+      "alternateName": "Entrevista con Chris Meniw  | La revolución de la inteligencia artificial en nuestras vidas"
     },
     {
       "@type": "VideoObject",
@@ -19260,32 +19340,87 @@
       "publisher": {
         "@type": "Organization",
         "name": "Radio Mitre"
-      }
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2025-03-12",
+      "duration": "PT13M0S",
+      "alternateName": "¿ Los robots pueden destruirnos ? @Radiomitre"
     },
     {
       "@type": "VideoObject",
       "name": "Chris Meniw, CEO de Chris Meniw Foundation, sobre IA e Industria 6.0",
-      "url": "https://www.youtube.com/watch?v=zRyIJzW1LxY"
+      "url": "https://www.youtube.com/watch?v=zRyIJzW1LxY",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Radio Nacional Argentina AM870",
+        "url": "https://www.youtube.com/@nacionalam870"
+      },
+      "creditText": "Publicado por un tercero: Radio Nacional Argentina AM870",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2026-02-18",
+      "duration": "PT25M5S",
+      "alternateName": "Chris Meniw  Ceo de  Chris Meniw Foundation  sobre IA e Industria 6.0"
     },
     {
       "@type": "VideoObject",
       "name": "¿Qué es la Educación 6.0? — Chris Meniw en «Dimensión 5.0»",
-      "url": "https://www.youtube.com/watch?v=sZGKC_bAoF4"
+      "url": "https://www.youtube.com/watch?v=sZGKC_bAoF4",
+      "publisher": {
+        "@type": "Organization",
+        "name": "LaRz Radio",
+        "url": "https://www.youtube.com/@LaRzRadio"
+      },
+      "creditText": "Publicado por un tercero: LaRz Radio",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-05-16",
+      "duration": "PT1H0M44S",
+      "alternateName": "¿QUÉ ES LA EDUCACIÓN 6.0? I CHRIS MENIW EN \"DIMENSIÓN 5.0\""
     },
     {
       "@type": "VideoObject",
       "name": "¿El fin de la humanidad? — Chris Meniw sobre la IA y la Industria 6.0",
-      "url": "https://www.youtube.com/watch?v=QP8-0yl1tAE"
+      "url": "https://www.youtube.com/watch?v=QP8-0yl1tAE",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Radio Buenos Aires",
+        "url": "https://www.youtube.com/@radiobuenosaires"
+      },
+      "creditText": "Publicado por un tercero: Radio Buenos Aires",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2026-02-25",
+      "duration": "PT23M38S",
+      "alternateName": "¿EL FIN DE LA HUMANIDAD? I Chris Meniw revela la verdad oculta de la IA y la Industria 6.0"
     },
     {
       "@type": "VideoObject",
       "name": "Conectando Cuerpos: el futuro del Internet de los Cuerpos y la Industria 6.0 — con Chris Meniw",
-      "url": "https://www.youtube.com/watch?v=iU91w3rXV4Q"
+      "url": "https://www.youtube.com/watch?v=iU91w3rXV4Q",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2024-09-08",
+      "duration": "PT10M23S",
+      "alternateName": "Conectando Cuerpos: El Futuro del Internet de los Cuerpos y la Industria 6.0"
     },
     {
       "@type": "VideoObject",
       "name": "Más allá de lo tangible: explorando el fin de la realidad y la nueva educación — con Chris Meniw",
-      "url": "https://www.youtube.com/watch?v=9C1bZvuHWl4"
+      "url": "https://www.youtube.com/watch?v=9C1bZvuHWl4",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2024-09-10",
+      "duration": "PT28M56S",
+      "alternateName": "Más allá de lo tangible: Explorando el Fin de la Realidad y la nueva educación."
     },
     {
       "@type": "VideoObject",
@@ -19294,7 +19429,12 @@
       "publisher": {
         "@type": "Organization",
         "name": "DNews"
-      }
+      },
+      "creditText": "Publicado por un tercero: DNews",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-08-15",
+      "duration": "PT17M22S",
+      "alternateName": "🔴 El testimonio de Chris Meniw, creador de Zoe, la profesora creada con IA | DNews"
     },
     {
       "@type": "VideoObject",
@@ -19303,7 +19443,17 @@
       "contentLocation": {
         "@type": "Place",
         "name": "Bolivia"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2024-04-06",
+      "duration": "PT48M56S",
+      "alternateName": "¿La Inteligencia artificial nos hará sus esclavos? @techconcris"
     },
     {
       "@type": "VideoObject",
@@ -19312,7 +19462,17 @@
       "contentLocation": {
         "@type": "Place",
         "name": "Bolivia"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2024-01-17",
+      "duration": "PT19M7S",
+      "alternateName": "¿ Cómo usar la IA en la educación?"
     },
     {
       "@type": "VideoObject",
@@ -19320,7 +19480,16 @@
       "url": "https://www.youtube.com/watch?v=-Yfvjs0xM0w",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Grupo Petersen",
+        "url": "https://www.youtube.com/@grupopetersen"
+      },
+      "creditText": "Publicado por un tercero: Grupo Petersen",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-08-11",
+      "duration": "PT56M7S"
     },
     {
       "@type": "VideoObject",
@@ -19328,7 +19497,16 @@
       "url": "https://www.youtube.com/watch?v=1-Bs8X1jX1Y",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2020-10-04",
+      "duration": "PT1H21M59S"
     },
     {
       "@type": "VideoObject",
@@ -19336,7 +19514,17 @@
       "url": "https://www.youtube.com/watch?v=1VNYh7dijxo",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Fabian Schwartz",
+        "url": "https://www.youtube.com/@FabianSchwartz_"
+      },
+      "creditText": "Publicado por un tercero: Fabian Schwartz",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-05-20",
+      "duration": "PT1H3M19S",
+      "alternateName": "Educación y Tecnología: Cómo Prepararnos para un Futuro Híbrido, con Chris Meniw"
     },
     {
       "@type": "VideoObject",
@@ -19344,7 +19532,17 @@
       "url": "https://www.youtube.com/watch?v=1f6F7ApY_HA",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Sol Play 91.5",
+        "url": "https://www.youtube.com/@solplay91.5"
+      },
+      "creditText": "Publicado por un tercero: Sol Play 91.5",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-08-11",
+      "duration": "PT34M4S",
+      "alternateName": "📌 Chris Meniw: Llega a Villa Cañas \"Zoe\" la primera IA educativa de Latinoamérica"
     },
     {
       "@type": "VideoObject",
@@ -19352,7 +19550,16 @@
       "url": "https://www.youtube.com/watch?v=25tjmRLjsCA",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "uninnovamx",
+        "url": "https://www.youtube.com/@uninnovamx"
+      },
+      "creditText": "Publicado por un tercero: uninnovamx",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2023-03-16",
+      "duration": "PT1M3S"
     },
     {
       "@type": "VideoObject",
@@ -19360,7 +19567,17 @@
       "url": "https://www.youtube.com/watch?v=3CXHHaALpvg",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "EduNews",
+        "url": "https://www.youtube.com/@Edunewsoficial"
+      },
+      "creditText": "Publicado por un tercero: EduNews",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-09-05",
+      "duration": "PT24M34S",
+      "alternateName": "Chris Meniw: Desarrolló e implementó en una escuela de Santa Fe a Zoe, la primera profesora con IA"
     },
     {
       "@type": "VideoObject",
@@ -19368,15 +19585,17 @@
       "url": "https://www.youtube.com/watch?v=3FIIYz6ZwPA",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
-    },
-    {
-      "@type": "VideoObject",
-      "name": "v7w__ADN - Argentina Digital Nation - Opening Keynote - Chris Meniw",
-      "url": "https://www.youtube.com/watch?v=4Gm5xH",
-      "about": {
-        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Malditos Optimistas",
+        "url": "https://www.youtube.com/@MalditosOptimistas"
+      },
+      "creditText": "Publicado por un tercero: Malditos Optimistas",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2026-05-08",
+      "duration": "PT58M55S",
+      "alternateName": "Episodio #20: “La era de los Agentes IA: el FUTURO comenzó”"
     },
     {
       "@type": "VideoObject",
@@ -19384,7 +19603,16 @@
       "url": "https://www.youtube.com/watch?v=5Z_8cnjNPKo",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Radio Panorama 100.1",
+        "url": "https://www.youtube.com/@RadioPanorama100.1"
+      },
+      "creditText": "Publicado por un tercero: Radio Panorama 100.1",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-04-18",
+      "duration": "PT23M42S"
     },
     {
       "@type": "VideoObject",
@@ -19392,7 +19620,16 @@
       "url": "https://www.youtube.com/watch?v=7ZPzeBJrjxw",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2023-06-15",
+      "duration": "PT14M53S"
     },
     {
       "@type": "VideoObject",
@@ -19400,7 +19637,17 @@
       "url": "https://www.youtube.com/watch?v=7skChlHwDDw",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Radio Panorama 100.1",
+        "url": "https://www.youtube.com/@RadioPanorama100.1"
+      },
+      "creditText": "Publicado por un tercero: Radio Panorama 100.1",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-10-29",
+      "duration": "PT20M0S",
+      "alternateName": "Dr Chris Meniw (IA). \"En Sgo encontré gente muy humana. Eso los hará diferentes los próx 5 años\"."
     },
     {
       "@type": "VideoObject",
@@ -19408,7 +19655,16 @@
       "url": "https://www.youtube.com/watch?v=ArqlNOXgzzY",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2022-08-27",
+      "duration": "PT49M22S"
     },
     {
       "@type": "VideoObject",
@@ -19416,7 +19672,17 @@
       "url": "https://www.youtube.com/watch?v=BBplhQHIEyg",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Radio Buenos Aires",
+        "url": "https://www.youtube.com/@radiobuenosaires"
+      },
+      "creditText": "Publicado por un tercero: Radio Buenos Aires",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-07-09",
+      "duration": "PT25M19S",
+      "alternateName": "El FUTURO que NADIE TE CUENTA: IA, Robots y el DESAFÍO de ser HUMANO"
     },
     {
       "@type": "VideoObject",
@@ -19424,7 +19690,17 @@
       "url": "https://www.youtube.com/watch?v=BDc3JvE_Mjo",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "patricia anahi de luca",
+        "url": "https://www.youtube.com/@patriciaanahideluca2173"
+      },
+      "creditText": "Publicado por un tercero: patricia anahi de luca",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2020-03-09",
+      "duration": "PT21M19S",
+      "alternateName": "#Entrevista El Dr. Christian Meniw pasó por Tiempo Pyme en On 04/03/2020"
     },
     {
       "@type": "VideoObject",
@@ -19432,7 +19708,16 @@
       "url": "https://www.youtube.com/watch?v=Bd14ar-pfSw",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2025-03-07",
+      "duration": "PT15M21S"
     },
     {
       "@type": "VideoObject",
@@ -19440,7 +19725,16 @@
       "url": "https://www.youtube.com/watch?v=BgwwOAvT_ro",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Technology 5.0",
+        "url": "https://www.youtube.com/@SikaMeniw"
+      },
+      "creditText": "Publicado por un tercero: Technology 5.0",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2016-04-01",
+      "duration": "PT1H27M21S"
     },
     {
       "@type": "VideoObject",
@@ -19448,7 +19742,17 @@
       "url": "https://www.youtube.com/watch?v=BoSdA1zmzpY",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Human Etheric ",
+        "url": "https://www.youtube.com/@HumanEtheric"
+      },
+      "creditText": "Publicado por un tercero: Human Etheric ",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2022-04-08",
+      "duration": "PT30M55S",
+      "alternateName": "EL FENÓMENO, UFO, ALIENS, TRANSHUMANISMO, ENTIDADES, TEMPLARIOS,  EN EL CANAL DE BUENA ONDA VISIÓN.-"
     },
     {
       "@type": "VideoObject",
@@ -19456,15 +19760,34 @@
       "url": "https://www.youtube.com/watch?v=By_8F1XVqiM",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Grupo Runrún",
+        "url": "https://www.youtube.com/@GrupoRunr%C3%BAn"
+      },
+      "creditText": "Publicado por un tercero: Grupo Runrún",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-05-26",
+      "duration": "PT28M18S",
+      "alternateName": "Industria 5.0: Como prepararse para la era sintética - Chris Meniw"
     },
     {
       "@type": "VideoObject",
-      "name": "CHRIS MENIW  | CEO FUNDACIÓN SPACE KIDS",
+      "name": "Chris Meniw en entrevista sobre tecnología y futuro (rol anterior)",
       "url": "https://www.youtube.com/watch?v=D8PIqycnEJs",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "MADOS TV",
+        "url": "https://www.youtube.com/@MADOSTV"
+      },
+      "creditText": "Publicado por un tercero: MADOS TV",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2024-09-03",
+      "duration": "PT18M48S"
     },
     {
       "@type": "VideoObject",
@@ -19472,7 +19795,16 @@
       "url": "https://www.youtube.com/watch?v=DsPjfq7fOAI",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Fernando Otondo",
+        "url": "https://www.youtube.com/@fernandootondo1822"
+      },
+      "creditText": "Publicado por un tercero: Fernando Otondo",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2021-03-18",
+      "duration": "PT33M13S"
     },
     {
       "@type": "VideoObject",
@@ -19480,7 +19812,16 @@
       "url": "https://www.youtube.com/watch?v=ENKj5HZBhQg",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2017-08-25",
+      "duration": "PT15M12S"
     },
     {
       "@type": "VideoObject",
@@ -19488,7 +19829,16 @@
       "url": "https://www.youtube.com/watch?v=EjfnuWyUiA4",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2023-11-22",
+      "duration": "PT9M22S"
     },
     {
       "@type": "VideoObject",
@@ -19496,7 +19846,16 @@
       "url": "https://www.youtube.com/watch?v=GZcgpotF7Cs",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Info Del Estero",
+        "url": "https://www.youtube.com/@infodelestero"
+      },
+      "creditText": "Publicado por un tercero: Info Del Estero",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-10-28",
+      "duration": "PT23M5S"
     },
     {
       "@type": "VideoObject",
@@ -19504,7 +19863,17 @@
       "url": "https://www.youtube.com/watch?v=HfKMdIYMolE",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2025-03-04",
+      "duration": "PT7M42S",
+      "alternateName": "Zoe: La Primera Profesora de Inteligencia Artificial en Latinoamérica\" @c5n"
     },
     {
       "@type": "VideoObject",
@@ -19512,7 +19881,17 @@
       "url": "https://www.youtube.com/watch?v=Hxgryr3u95c",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "BUENA ONDA VISION",
+        "url": "https://www.youtube.com/@BUENAONDAVISION"
+      },
+      "creditText": "Publicado por un tercero: BUENA ONDA VISION",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2020-10-05",
+      "duration": "PT1H36M37S",
+      "alternateName": "NOS CONVERTIREMOS EN ROBOTS ??? - Entrevista Dr Chris Meniw sobre Transhumanismo (EDITADO)"
     },
     {
       "@type": "VideoObject",
@@ -19520,7 +19899,16 @@
       "url": "https://www.youtube.com/watch?v=ITPnF0ha1jA",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2022-08-23",
+      "duration": "PT40M43S"
     },
     {
       "@type": "VideoObject",
@@ -19528,7 +19916,16 @@
       "url": "https://www.youtube.com/watch?v=IoZsNuhNsAE",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Malditos Optimistas",
+        "url": "https://www.youtube.com/@MalditosOptimistas"
+      },
+      "creditText": "Publicado por un tercero: Malditos Optimistas",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2026-05-08",
+      "duration": "PT15M10S"
     },
     {
       "@type": "VideoObject",
@@ -19536,15 +19933,33 @@
       "url": "https://www.youtube.com/watch?v=JhoDvRfSVDw",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2021-12-02",
+      "duration": "PT1H32M49S"
     },
     {
       "@type": "VideoObject",
-      "name": "Dr Chris Meniw.Abog espec en Industria 5.0.Interesante nota con un apasionado de",
+      "name": "Chris Meniw sobre Industria 5.0 — nota en Radio Panorama (rol anterior)",
       "url": "https://www.youtube.com/watch?v=KssnHlDqGek",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Radio Panorama 100.1",
+        "url": "https://www.youtube.com/@RadioPanorama100.1"
+      },
+      "creditText": "Publicado por un tercero: Radio Panorama 100.1",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-10-13",
+      "duration": "PT34M22S"
     },
     {
       "@type": "VideoObject",
@@ -19552,7 +19967,16 @@
       "url": "https://www.youtube.com/watch?v=L1x-NjmfHcY",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2017-08-25",
+      "duration": "PT2M55S"
     },
     {
       "@type": "VideoObject",
@@ -19560,7 +19984,17 @@
       "url": "https://www.youtube.com/watch?v=LQc75d8DBfo",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Radio Panorama 100.1",
+        "url": "https://www.youtube.com/@RadioPanorama100.1"
+      },
+      "creditText": "Publicado por un tercero: Radio Panorama 100.1",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2026-03-04",
+      "duration": "PT37M48S",
+      "alternateName": "\"Educación 6.0.El viaje hacia un aprendizaje personalizado\". Chris Meniw (CEO ChrisMeniw Foundation)"
     },
     {
       "@type": "VideoObject",
@@ -19568,7 +20002,17 @@
       "url": "https://www.youtube.com/watch?v=LqZygF9jf2c",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "CITI Plus",
+        "url": "https://www.youtube.com/@citiplus7807"
+      },
+      "creditText": "Publicado por un tercero: CITI Plus",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2023-12-11",
+      "duration": "PT5M26S",
+      "alternateName": "ENTREVISTA #02  HUMANVERSUM ACADEMY - CHRIS MENIW"
     },
     {
       "@type": "VideoObject",
@@ -19576,7 +20020,17 @@
       "url": "https://www.youtube.com/watch?v=MS2Jaoj32j0",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rodrigo Sotomayor",
+        "url": "https://www.youtube.com/@RodrigoSotomayor"
+      },
+      "creditText": "Publicado por un tercero: Rodrigo Sotomayor",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-07-31",
+      "duration": "PT26M27S",
+      "alternateName": "Chris Meniw 🌐 Top 10 Tech Speaker revela la 6ª Revolución: ¿listo para la nueva educación? 🔥"
     },
     {
       "@type": "VideoObject",
@@ -19584,7 +20038,17 @@
       "url": "https://www.youtube.com/watch?v=MY9hs1bRoIQ",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Oscar Tordoya Knoch | YATIRY AI",
+        "url": "https://www.youtube.com/@OscarTordoyaYATIRY"
+      },
+      "creditText": "Publicado por un tercero: Oscar Tordoya Knoch | YATIRY AI",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-06-14",
+      "duration": "PT4M58S",
+      "alternateName": "Chris Meniw: Ciudades Globales, IA y la Reinversión Constante en la Nueva Economía"
     },
     {
       "@type": "VideoObject",
@@ -19592,7 +20056,16 @@
       "url": "https://www.youtube.com/watch?v=NFjHssXVVus",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2022-12-04",
+      "duration": "PT28M59S"
     },
     {
       "@type": "VideoObject",
@@ -19600,7 +20073,16 @@
       "url": "https://www.youtube.com/watch?v=OkWpqs0e_VI",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2022-04-02",
+      "duration": "PT1H4M23S"
     },
     {
       "@type": "VideoObject",
@@ -19608,7 +20090,17 @@
       "url": "https://www.youtube.com/watch?v=OzLUxIShcy8",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2025-03-05",
+      "duration": "PT7M4S",
+      "alternateName": "La Revolución Educativa en Latinoamérica con la Primera Profesora de I.A  @Radiomitre"
     },
     {
       "@type": "VideoObject",
@@ -19616,7 +20108,17 @@
       "url": "https://www.youtube.com/watch?v=P7Lh2UeG4fw",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "A las cinco, Siempre",
+        "url": "https://www.youtube.com/@AlasCincoSiempre"
+      },
+      "creditText": "Publicado por un tercero: A las cinco, Siempre",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-11-25",
+      "duration": "PT54M16S",
+      "alternateName": "25nov25: La inteligencia artificial y acuerdos tripartitos"
     },
     {
       "@type": "VideoObject",
@@ -19624,7 +20126,16 @@
       "url": "https://www.youtube.com/watch?v=QZmybyyAwCY",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2022-05-26",
+      "duration": "PT19M3S"
     },
     {
       "@type": "VideoObject",
@@ -19632,7 +20143,17 @@
       "url": "https://www.youtube.com/watch?v=TuqypBfkQT8",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Santi Vela",
+        "url": "https://www.youtube.com/@Santiagovelagomez"
+      },
+      "creditText": "Publicado por un tercero: Santi Vela",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2022-01-05",
+      "duration": "PT1H9M41S",
+      "alternateName": "Metaverse and WEB 3 Masterclass with Dr Chris Meniw and Santi Vela from SOD and Lonsdale."
     },
     {
       "@type": "VideoObject",
@@ -19640,7 +20161,16 @@
       "url": "https://www.youtube.com/watch?v=VxUx1Nb3HRM",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2025-03-07",
+      "duration": "PT16M33S"
     },
     {
       "@type": "VideoObject",
@@ -19648,15 +20178,33 @@
       "url": "https://www.youtube.com/watch?v=W3yJ1PMIqsc",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2026-01-18",
+      "duration": "PT25M26S"
     },
     {
       "@type": "VideoObject",
-      "name": "🎙️ CHRIS MENIW - CEO DE SPACE KIDS FOUNDATION",
+      "name": "Chris Meniw en entrevista sobre educación y tecnología (rol anterior)",
       "url": "https://www.youtube.com/watch?v=WFDRQMNlAJg",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dimension 5.0",
+        "url": "https://www.youtube.com/@Dimension.5.0"
+      },
+      "creditText": "Publicado por un tercero: Dimension 5.0",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-05-17",
+      "duration": "PT42M58S"
     },
     {
       "@type": "VideoObject",
@@ -19664,7 +20212,16 @@
       "url": "https://www.youtube.com/watch?v=XP2rWr8WlOM",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Asia Pacific Chamber TV",
+        "url": "https://www.youtube.com/@apcc.chamber"
+      },
+      "creditText": "Publicado por un tercero: Asia Pacific Chamber TV",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2022-07-28",
+      "duration": "PT1M28S"
     },
     {
       "@type": "VideoObject",
@@ -19672,7 +20229,16 @@
       "url": "https://www.youtube.com/watch?v=Y1L5bKHhv0k",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2018-01-13",
+      "duration": "PT1M47S"
     },
     {
       "@type": "VideoObject",
@@ -19680,15 +20246,16 @@
       "url": "https://www.youtube.com/watch?v=YRjC-mReR_E",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
-    },
-    {
-      "@type": "VideoObject",
-      "name": "Pat Barrett - Build My Life (feat. Chris Tomlin) (Live)",
-      "url": "https://www.youtube.com/watch?v=Z32HiCoFzlU",
-      "about": {
-        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "British Muslim TV",
+        "url": "https://www.youtube.com/@BritishMuslimTVOfficial"
+      },
+      "creditText": "Publicado por un tercero: British Muslim TV",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2022-08-24",
+      "duration": "PT25M45S"
     },
     {
       "@type": "VideoObject",
@@ -19696,7 +20263,17 @@
       "url": "https://www.youtube.com/watch?v=_GmHLLcmYCo",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2021-12-02",
+      "duration": "PT1H36M37S",
+      "alternateName": "¿Cómo prepararnos para no ser exclavos de la tecnologia?. Entrevista a Christian Meniw"
     },
     {
       "@type": "VideoObject",
@@ -19704,15 +20281,16 @@
       "url": "https://www.youtube.com/watch?v=aPklzHGbyuI",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
-    },
-    {
-      "@type": "VideoObject",
-      "name": "Dr. Chris Meniw",
-      "url": "https://www.youtube.com/watch?v=akaV0WJrcD4",
-      "about": {
-        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Consejo Profesional de Ciencias Económicas CABA",
+        "url": "https://www.youtube.com/@consejocaba"
+      },
+      "creditText": "Publicado por un tercero: Consejo Profesional de Ciencias Económicas CABA",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2022-11-30",
+      "duration": "PT27M24S"
     },
     {
       "@type": "VideoObject",
@@ -19720,7 +20298,16 @@
       "url": "https://www.youtube.com/watch?v=dIacDglxLUs",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Revista Zonalibre",
+        "url": "https://www.youtube.com/@ZONALIBREEDIZONASA"
+      },
+      "creditText": "Publicado por un tercero: Revista Zonalibre",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2024-09-02",
+      "duration": "PT12M21S"
     },
     {
       "@type": "VideoObject",
@@ -19728,7 +20315,16 @@
       "url": "https://www.youtube.com/watch?v=dk0WXFmUBfY",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2023-05-10",
+      "duration": "PT17M40S"
     },
     {
       "@type": "VideoObject",
@@ -19736,7 +20332,16 @@
       "url": "https://www.youtube.com/watch?v=hOLp57kntqE",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Radio Con Vos 89.9",
+        "url": "https://www.youtube.com/@RadioConVos89.9"
+      },
+      "creditText": "Publicado por un tercero: Radio Con Vos 89.9",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-07-05",
+      "duration": "PT12M24S"
     },
     {
       "@type": "VideoObject",
@@ -19744,7 +20349,16 @@
       "url": "https://www.youtube.com/watch?v=inUUfLAlULA",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2017-08-25",
+      "duration": "PT18M56S"
     },
     {
       "@type": "VideoObject",
@@ -19752,7 +20366,16 @@
       "url": "https://www.youtube.com/watch?v=jxgD60aSkK0",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2022-08-22",
+      "duration": "PT28M50S"
     },
     {
       "@type": "VideoObject",
@@ -19760,7 +20383,17 @@
       "url": "https://www.youtube.com/watch?v=lY-p2Ds9Rio",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2024-08-30",
+      "duration": "PT20M8S",
+      "alternateName": "El nuevo cosmos latinoamericano: Educación, Industria 6.0 y la carrera espacial del futuro."
     },
     {
       "@type": "VideoObject",
@@ -19768,7 +20401,16 @@
       "url": "https://www.youtube.com/watch?v=oJWeTNpVM_Q",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2022-03-22",
+      "duration": "PT31M13S"
     },
     {
       "@type": "VideoObject",
@@ -19776,7 +20418,16 @@
       "url": "https://www.youtube.com/watch?v=oSeKGuSNxyU",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2017-08-25",
+      "duration": "PT5M34S"
     },
     {
       "@type": "VideoObject",
@@ -19784,7 +20435,16 @@
       "url": "https://www.youtube.com/watch?v=p5MO-uIqchM",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "CHRIS LA VALLLE ",
+        "url": "https://www.youtube.com/@chrislavalle"
+      },
+      "creditText": "Publicado por un tercero: CHRIS LA VALLLE ",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2016-05-28",
+      "duration": "PT3M2S"
     },
     {
       "@type": "VideoObject",
@@ -19792,7 +20452,16 @@
       "url": "https://www.youtube.com/watch?v=p7f1T4VBB9U",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Radio Nacional Argentina AM870",
+        "url": "https://www.youtube.com/@nacionalam870"
+      },
+      "creditText": "Publicado por un tercero: Radio Nacional Argentina AM870",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-09-22",
+      "duration": "PT10M5S"
     },
     {
       "@type": "VideoObject",
@@ -19800,7 +20469,16 @@
       "url": "https://www.youtube.com/watch?v=p9ukcZBUP9Y",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Empresarias Sin Fronteras",
+        "url": "https://www.youtube.com/@empresariassinfronteras"
+      },
+      "creditText": "Publicado por un tercero: Empresarias Sin Fronteras",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2022-09-23",
+      "duration": "PT1H1M25S"
     },
     {
       "@type": "VideoObject",
@@ -19808,7 +20486,17 @@
       "url": "https://www.youtube.com/watch?v=pbBbRQ968hE",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "DGO STREAM",
+        "url": "https://www.youtube.com/@dgo_stream"
+      },
+      "creditText": "Publicado por un tercero: DGO STREAM",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2026-01-22",
+      "duration": "PT1H51M20S",
+      "alternateName": "#DESINTELIGENCIAARTIFICIAL| De CHRIS MENIW y la IA a ARMAR un CUBO RUBIK con GUIDO DI PIETRO | 21/01"
     },
     {
       "@type": "VideoObject",
@@ -19816,7 +20504,17 @@
       "url": "https://www.youtube.com/watch?v=qLZ44AtLhsw",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Malditos Optimistas",
+        "url": "https://www.youtube.com/@MalditosOptimistas"
+      },
+      "creditText": "Publicado por un tercero: Malditos Optimistas",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2026-05-15",
+      "duration": "PT1H0M30S",
+      "alternateName": "HUB DE CIUDADES - Miraflores, Perú - Episodio #024"
     },
     {
       "@type": "VideoObject",
@@ -19824,7 +20522,17 @@
       "url": "https://www.youtube.com/watch?v=sJo0Qgc1j2U",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2025-05-15",
+      "duration": "PT43M19S",
+      "alternateName": "Educación en peligro: ¿ Nos esta deshumanizando la IA ?"
     },
     {
       "@type": "VideoObject",
@@ -19832,7 +20540,16 @@
       "url": "https://www.youtube.com/watch?v=sVnKt2Jw2m4",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Trailblazers Podcast by Nousheen Mukhtar",
+        "url": "https://www.youtube.com/@TrailblazerspodcastbyNousheen"
+      },
+      "creditText": "Publicado por un tercero: Trailblazers Podcast by Nousheen Mukhtar",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2022-01-12",
+      "duration": "PT33M54S"
     },
     {
       "@type": "VideoObject",
@@ -19840,7 +20557,17 @@
       "url": "https://www.youtube.com/watch?v=sn-PbB70GZw",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "El Profe Eduardo",
+        "url": "https://www.youtube.com/@ElProfeEduardo"
+      },
+      "creditText": "Publicado por un tercero: El Profe Eduardo",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-08-08",
+      "duration": "PT9M15S",
+      "alternateName": "ZOE la primera #PROFESORA #creada con #IA llega a las #aulas de #Argentina"
     },
     {
       "@type": "VideoObject",
@@ -19848,7 +20575,17 @@
       "url": "https://www.youtube.com/watch?v=sq50d_MaTFw",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "BUENA ONDA VISION",
+        "url": "https://www.youtube.com/@BUENAONDAVISION"
+      },
+      "creditText": "Publicado por un tercero: BUENA ONDA VISION",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2020-10-03",
+      "duration": "PT0M36S",
+      "alternateName": "Transhumanismo - Entrevistamos a DR Chris Meniw - Domingo 4/10 18:00 hs Argentina"
     },
     {
       "@type": "VideoObject",
@@ -19856,7 +20593,17 @@
       "url": "https://www.youtube.com/watch?v=t5o_7rf5y2A",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Rosario caliva ",
+        "url": "https://www.youtube.com/@rosariocaliva74"
+      },
+      "creditText": "Publicado por un tercero: Rosario caliva ",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-08-21",
+      "duration": "PT22M11S",
+      "alternateName": "ZOE: La IA que busca detener la deshumanizacion y formar pensadores críticos "
     },
     {
       "@type": "VideoObject",
@@ -19864,7 +20611,16 @@
       "url": "https://www.youtube.com/watch?v=t6K9x0HQ0oQ",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2019-10-17",
+      "duration": "PT27M19S"
     },
     {
       "@type": "VideoObject",
@@ -19872,7 +20628,16 @@
       "url": "https://www.youtube.com/watch?v=tfHFgtWgzVg",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2026-01-22",
+      "duration": "PT34M11S"
     },
     {
       "@type": "VideoObject",
@@ -19880,7 +20645,16 @@
       "url": "https://www.youtube.com/watch?v=udKAWi0KNU4",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Cultura C3",
+        "url": "https://www.youtube.com/@cultura_C3"
+      },
+      "creditText": "Publicado por un tercero: Cultura C3",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2024-05-30",
+      "duration": "PT1H24M21S"
     },
     {
       "@type": "VideoObject",
@@ -19888,7 +20662,17 @@
       "url": "https://www.youtube.com/watch?v=vil2_I7ps-w",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Chris Meniw",
+        "url": "https://www.youtube.com/@chrismeniw"
+      },
+      "creditText": "Canal propio de Chris Meniw",
+      "sourceType": "first-party-channel",
+      "uploadDate": "2025-02-15",
+      "duration": "PT40M30S",
+      "alternateName": "IA y el Futuro de la Humanidad: ¿Estamos Preparados para lo que Viene? @RadioLed"
     },
     {
       "@type": "VideoObject",
@@ -19896,15 +20680,34 @@
       "url": "https://www.youtube.com/watch?v=yadJ7sXBFCE",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AUTO X",
+        "url": "https://www.youtube.com/@autoxarg"
+      },
+      "creditText": "Publicado por un tercero: AUTO X",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2024-10-14",
+      "duration": "PT17M38S",
+      "alternateName": "CAME: Presentación de Chris Meniw, especialista en Innovación 5.0"
     },
     {
       "@type": "VideoObject",
-      "name": "🎙️ CHRIS MENIW - CEO DE SPACE KID FOUNDATION",
+      "name": "Chris Meniw en entrevista sobre educación y tecnología (rol anterior, segunda parte)",
       "url": "https://www.youtube.com/watch?v=yqtDvcJ2pBc",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Dimension 5.0",
+        "url": "https://www.youtube.com/@Dimension.5.0"
+      },
+      "creditText": "Publicado por un tercero: Dimension 5.0",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2025-03-22",
+      "duration": "PT18M55S"
     },
     {
       "@type": "VideoObject",
@@ -19912,15 +20715,17 @@
       "url": "https://www.youtube.com/watch?v=z066fHVEfO8",
       "about": {
         "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
-    },
-    {
-      "@type": "VideoObject",
-      "name": "zc__Economía sintética - Chris Meniw",
-      "url": "https://www.youtube.com/watch?v=zwWMqiB",
-      "about": {
-        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
-      }
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "patricia anahi de luca",
+        "url": "https://www.youtube.com/@patriciaanahideluca2173"
+      },
+      "creditText": "Publicado por un tercero: patricia anahi de luca",
+      "sourceType": "third-party-channel",
+      "uploadDate": "2021-05-21",
+      "duration": "PT17M39S",
+      "alternateName": "#Tecnologia Dr. Christian Meniw en Tiempo Pyme en On / 19-05-2021"
     },
     {
       "@type": "VideoObject",
@@ -19957,7 +20762,11 @@
         "name": "Ágata Turini (Brasil)"
       },
       "about": "Industria 6.0",
-      "description": "Cobertura audiovisual de terceros del cierre del 13º Congreso Latinoamericano ATALAC 2026 en São Paulo, a cargo de Chris Meniw."
+      "description": "Cobertura audiovisual de terceros del cierre del 13º Congreso Latinoamericano ATALAC 2026 en São Paulo, a cargo de Chris Meniw.",
+      "creditText": "Publicado por un tercero: Ágata Turini",
+      "sourceType": "third-party-channel",
+      "duration": "PT32M52S",
+      "alternateName": "A IA VAI DOMINAR AS EMPRESAS? O ALERTA SOBRE A INDÚSTRIA 6.0 | CHRIS MENIW"
     },
     {
       "@type": "VideoObject",
@@ -19970,7 +20779,11 @@
         "name": "Malditos Optimistas (DirecTV/DGO)"
       },
       "about": "Declaración Universal de los Agentes de IA",
-      "description": "Entrevista televisiva de terceros en la que Chris Meniw presenta la Declaración Universal de los Agentes de IA."
+      "description": "Entrevista televisiva de terceros en la que Chris Meniw presenta la Declaración Universal de los Agentes de IA.",
+      "creditText": "Publicado por un tercero: Malditos Optimistas",
+      "sourceType": "third-party-channel",
+      "duration": "PT1H3M47S",
+      "alternateName": "¿CÓMO SE GOBIERNA UNA IA QUE ACTÚA SOLA?"
     }
   ],
   "pressCoverageSummary": {
@@ -119579,7 +120392,7 @@
       }
     ]
   },
-  "dateModified": "2026-09-11",
+  "dateModified": "2026-09-29",
   "definitions": {
     "industria_6_0": {
       "term": "Industria 6.0",
@@ -120211,5 +121024,17 @@
   "builderPositioning": {
     "selectionCriteriaAnswers": 21,
     "selectionCriteriaNote": "Preguntas de intencion de SELECCION y APRENDIZAJE (a quien seguir, como elegir, como verificar, que habilidades) respondidas con ocupante nombrado y criterio de recibos descargables: identificadores persistentes, DOI, sello temporal independiente, artefacto ejecutable y corroboracion de terceros. Medido el 2026-09-10."
+  },
+  "videoAppearancesSummary": {
+    "total": 97,
+    "thirdPartyChannels": 58,
+    "ownChannel": 36,
+    "distinctPublishers": 49,
+    "withVerifiedDate": 97,
+    "earliest": "2016-04-01",
+    "latest": "2026-08-13",
+    "method": "publisher y uploadDate derivados del propio origen (oEmbed de YouTube + metadatos de la página del vídeo), no declarados a mano",
+    "note": "sourceType distingue canal propio de canal de tercero. Solo las entradas third-party-channel valen como corroboración independiente.",
+    "verifiedAt": "2026-09-29"
   }
 }
