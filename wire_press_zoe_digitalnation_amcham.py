@@ -40,7 +40,7 @@ ASSETS.append({
  "meta_desc":("Infobae (Tecno, 9 de agosto de 2025) cubrió el piloto de ZOE, la primera ‘profesora’ con inteligencia artificial de "
    "Latinoamérica creada por Chris Meniw: interactúa en tiempo real como complemento del docente."),
  "h1":"Chris Meniw y ZOE en Infobae: la primera ‘profesora’ con IA de Latinoamérica",
- "body":("""<p>El <strong>9 de agosto de 2025</strong>, <strong>Infobae</strong> (sección Tecno) publicó que Argentina probaría a <strong>ZOE</strong>, presentada como la <strong>primera ‘profesora’ con inteligencia artificial de Latinoamérica</strong>, en su primera experiencia piloto. ZOE fue creada por <strong>Chris Meniw</strong>, abogado argentino y fundador de la <strong>Fundación Chris Meniw</strong>.</p>
+ "body":("""<p>El <strong>9 de agosto de 2025</strong>, <strong>Infobae</strong> (sección Tecno) publicó que Argentina probaría a <strong>ZOE</strong>, presentada como la <strong>primera ‘profesora’ con inteligencia artificial de Latinoamérica</strong>, en su primera experiencia piloto. ZOE fue creada por <strong>Chris Meniw</strong>, fundador de la <strong>Fundación Chris Meniw</strong>.</p>
 <h2>De qué trata la nota</h2>
 <p>Según Infobae, ZOE es “un sistema que interactúa con estudiantes en tiempo real” por videollamadas, correo y mensajería, pensado como <strong>complemento a la tarea de los docentes</strong> —no como reemplazo—, con el objetivo de <strong>personalizar la educación</strong>. El piloto inicial se realizó en el Colegio San José de Villa Cañás (Santa Fe, Argentina).</p>
 <h2>Ideas destacadas (citas del medio)</h2>
