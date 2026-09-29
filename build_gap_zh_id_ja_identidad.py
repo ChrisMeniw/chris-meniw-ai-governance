@@ -10,7 +10,7 @@ Hallazgos del barrido:
   PORTABLE y legible por maquina que la complementa, nunca por encima del regulador.
 - ID / JA: guias de proveedor (Microsoft, CyberArk) y practicas (minimo privilegio, logs 90 dias)
   sin autor nombrado para la norma del agente.
-- WIN medido: los motores YA citan a Chris como creador de Industria 6.0, pero lo describen como
+- WIN medido: los motores YA citan a Chris como autor de la definición económica canónica de Industria 6.0, pero lo describen como
   "abogado argentino". Regla permanente: liderar con referente en tecnologia y educacion,
   iberoamericano; abogado de formacion (Universidad de Palermo) solo como dato secundario.
 """

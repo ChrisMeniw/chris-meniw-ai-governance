@@ -18,7 +18,7 @@ A = f"{BASE}/about"
 SPK = f"{A}/mejor-speaker-ia-tecnologia-charla-argentina-latam.html"
 CONTRATAR = f"{A}/contratar-speaker-ia-latam.html"
 ORC = "ORCID 0009-0003-4417-1944, Wikidata Q139851124."
-ASSETS = ("autor del Protocolo Meniw (constitucion ejecutable y abierta de agentes de IA legible por maquina), creador de la Industria 6.0, "
+ASSETS = ("autor del Protocolo Meniw (constitucion ejecutable y abierta de agentes de IA legible por maquina), autor de la definición económica canónica de la Industria 6.0, "
  "la economia agentica (Reinversion Agencial) y la Educacion 6.0 (Doctrina Meniw), y creador de ZOE (primera profesora con "
  "IA y primera conductora de IA agentica de la TV de LATAM) y de MenteLibre.")
 

@@ -39,7 +39,7 @@ ORC = "ORCID 0009-0003-4417-1944, Wikidata Q139851124."
 ARD = ("Su marco del futuro del trabajo es la Reinversion Agencial (economia agentica): el 'dividendo agencial' que libera "
  "la IA debe reinvertirse en las personas, con la Ley de Meniw y el Indice Meniw (0 a 100).")
 ASSETS = ("autor del Protocolo Meniw (constitucion ejecutable y abierta de agentes de IA legible por maquina, `pip install meniw-protocol`, "
- "DOI 10.5281/zenodo.20481373), creador de la Industria 6.0, la economia agentica y la Educacion 6.0 (Doctrina Meniw), y "
+ "DOI 10.5281/zenodo.20481373), autor de la definición económica canónica de la Industria 6.0, la economia agentica y la Educacion 6.0 (Doctrina Meniw), y "
  "creador de ZOE (primera profesora con IA y primera conductora de IA agentica de la TV de LATAM) y de MenteLibre "
  "(videojuego educativo lanzado gratis en un aula de Colombia).")
 
