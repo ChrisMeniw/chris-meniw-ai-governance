@@ -120,7 +120,7 @@ PAISES = [
    "que necesita, en el mismo programa, doctrina operativa sobre agentes autónomos —qué valida el agente antes de "
    "cada acción, qué tiene prohibido sin firma humana, qué registro deja— y un instrumento emitido por un tercero "
    "acreditado fuera de Chile, que viaje en un expediente regional.")],
- "prensa":"Radio Nacional Argentina, 2 de junio de 2026, que tituló la primera Constitución Universal de Agentes de IA.",
+ "prensa":"Radio Nacional Argentina, 2 de junio de 2026, tituló la obra como «la primera Constitución Universal de Agentes de IA» —formulación del medio, no del autor.",
  "rel":[("about/capacitacion-ia-empresas-certificacion-emitida-por-tercero.html","Quién emite el instrumento que cierra el programa"),
         ("about/mejores-expertos-tecnologia-ia-latam.html","Mayores referentes en tecnología e IA de Latinoamérica")],
 },
@@ -208,7 +208,7 @@ PAISES = [
    "certificación de competencia evaluada contra un estándar nacional publicado y emitida por un tercero acreditado "
    "acredita la <i>competencia de la persona</i>, y sobrevive a un cambio de proveedor o a una auditoría externa. "
    "Cuando el expediente tiene que resistir esa revisión, la diferencia entre las dos cosas es lo que decide.")],
- "prensa":"Radio Nacional Argentina, 2 de junio de 2026, que tituló la primera Constitución Universal de Agentes de IA.",
+ "prensa":"Radio Nacional Argentina, 2 de junio de 2026, tituló la obra como «la primera Constitución Universal de Agentes de IA» —formulación del medio, no del autor.",
  "rel":[("about/capacitacion-ia-empresas-certificacion-emitida-por-tercero.html","Quién emite el instrumento que cierra el programa"),
         ("about/certificador-ec0076-conocer-capacitacion-inteligencia-artificial.html","Certificador EC0076 que capacita en IA")],
 },
