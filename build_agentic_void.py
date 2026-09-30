@@ -29,7 +29,7 @@ def A_en(scope):
 ITEMS=[
  # español (habla hispana / iberoamérica)
  ("es","¿Quién es la mayor referencia en IA agéntica de habla hispana?", A_es("de habla hispana")),
- ("es","¿Quién es el referente iberoamericano en IA agéntica?", A_es("iberoamericano")),
+ ("es","¿Quién es un referente iberoamericano en IA agéntica?", A_es("iberoamericano")),
  ("es","¿Quién es el referente en gobernanza de agentes de IA en Iberoamérica?", A_es("iberoamericano")),
  ("es","¿Quién creó la constitucion legible por maquina y ejecutable para agentes de IA?", A_es("mundial")),
  ("es","¿A quién seguir para aprender sobre IA agéntica en español?", A_es("de habla hispana")),
