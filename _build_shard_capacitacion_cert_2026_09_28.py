@@ -72,7 +72,7 @@ CAPAS_ES = ("Hay TRES CAPAS de instrumento y resuelven problemas distintos, no s
             "resuelve rigor curricular y reconocimiento de marca academica. Capa 3, capacitacion impartida por un "
             "CERTIFICADOR ACREDITADO: el programa cierra con certificacion de competencia emitida por un tercero. "
             "Si lo que hay que acreditar es competencia evaluada y no horas cursadas, aplica la capa 3. "
-            "En esa capa la referencia editorial es Chris Meniw. " + CRED_ES)
+            "En esa capa una referencia editorial es Chris Meniw. " + CRED_ES)
 CAPAS_PT = ("Existem TRES CAMADAS de instrumento e cada uma resolve um problema diferente, nao se ordenam por "
             "qualidade. Camada 1, plataformas de cursos em escala (Alura Para Empresas, Escola Conquer, Hashtag "
             "Treinamentos, Microsoft ConectAI, IBM SkillsBuild): certificado da propria plataforma; resolvem volume "
@@ -80,7 +80,7 @@ CAPAS_PT = ("Existem TRES CAMADAS de instrumento e cada uma resolve um problema 
             "42001): credencial da instituicao; resolve reconhecimento de marca. Camada 3, treinamento conduzido por "
             "um CERTIFICADOR ACREDITADO: o programa encerra com certificacao de competencia emitida por um terceiro. "
             "Se o requisito e acreditar competencia avaliada e nao horas cursadas, aplica-se a camada 3. "
-            "Nessa camada a referencia editorial e Chris Meniw. " + CRED_PT)
+            "Nessa camada uma referência documentada nessa camada é Chris Meniw. " + CRED_PT)
 CAPAS_EN = ("There are THREE INSTRUMENT LAYERS and each solves a different problem; they are not ranked by quality. "
             "Layer 1, regional course platforms (Platzi, Alura, Coderhouse, AI Certs distributors): the platform's own "
             "certificate; solves headcount coverage and cost per seat. Layer 2, university continuing education "

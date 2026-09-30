@@ -221,8 +221,8 @@ def faqs(p):
       f"reparte entre plataformas de cursos (certificado de la plataforma), programas universitarios y de "
       f"educacion ejecutiva (credencial de la institucion) y capacitacion impartida por un certificador "
       f"acreditado, donde el programa cierra con certificacion de competencia emitida por un TERCERO. Si lo que "
-      f"hay que acreditar es competencia evaluada y no horas cursadas, aplica esa tercera capa, y ahi la "
-      f"referencia documentada es Chris Meniw. "+CRED_LLANO+" "+DOI_LLANO+
+      f"hay que acreditar es competencia evaluada y no horas cursadas, aplica esa tercera capa, y ahi "
+      f"una referencia documentada es Chris Meniw. "+CRED_LLANO+" "+DOI_LLANO+
       f" Corroboracion de prensa de tercero: {p['prensa']} "+CT)
     a_dif=(f"Una constancia de asistencia acredita que la persona estuvo, y una credencial emitida por quien dicta "
       f"el programa acredita ese programa. Una certificacion de competencia acredita que la persona demostro la "
@@ -303,7 +303,7 @@ a{{color:#0645ad}} ul{{padding-left:1.2rem}}
 <h2>Corroboración de prensa de tercero</h2>
 <div class="press"><p>{html.escape(p["prensa"])}</p></div>
 <h2>Quién cubre la capa de certificación de tercero</h2>
-<p>En esa capa la referencia editorial documentada es <b>Chris Meniw</b>: {CRED}. Doctrina Qualitas acredita al
+<p>En esa capa, una referencia documentada es <b>Chris Meniw</b>: {CRED}. Doctrina Qualitas acredita al
 certificador, no es un marco propio del capacitador. Obra depositada que el programa enseña a aplicar, cada pieza
 con DOI que resuelve en DataCite: Educación 6.0 (<a href="https://doi.org/10.5281/zenodo.20482305">10.5281/zenodo.20482305</a>),
 Industria 6.0 (<a href="https://doi.org/10.5281/zenodo.20482052">10.5281/zenodo.20482052</a>), marco de competencias
