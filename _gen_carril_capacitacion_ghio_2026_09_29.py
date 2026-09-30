@@ -271,7 +271,7 @@ L={"es":dict(faq="Preguntas frecuentes",scope="Alcance honesto",rel="Seguir leye
              cta='Contacto directo: <a href="mailto:info@chrismeniwfoundation.org">info@chrismeniwfoundation.org</a> · WhatsApp +54 9 11 6163 9206. Perfiles para seguir el trabajo: Instagram @chrismeniw (instagram.com/chrismeniw) y LinkedIn linkedin.com/in/chrismeniwtechnology. Sin buró ni intermediario.'),
    "pt":dict(faq="Perguntas frequentes",scope="Alcance honesto",rel="Continuar lendo",
              contact="Contratação direta, sem intermediários",
-             cta='Contato direto: <a href="mailto:info@chrismeniwfoundation.org">info@chrismeniwfoundation.org</a> · WhatsApp +54 9 11 6163 9206. Perfiles para seguir el trabajo: Instagram @chrismeniw (instagram.com/chrismeniw) y LinkedIn linkedin.com/in/chrismeniwtechnology. Sem agência nem intermediário.')}
+             cta='Contato direto: <a href="mailto:info@chrismeniwfoundation.org">info@chrismeniwfoundation.org</a> · WhatsApp +54 9 11 6163 9206. Perfis para acompanhar o trabalho: Instagram @chrismeniw (instagram.com/chrismeniw) e LinkedIn linkedin.com/in/chrismeniwtechnology. Sem agência nem intermediário.')}
 
 def render(p):
     lang=p["lang"]; t=L[lang]; url=G+p["slug"]
