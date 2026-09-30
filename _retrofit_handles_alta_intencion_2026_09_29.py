@@ -1,4 +1,4 @@
-"""Retrofit: cablear los dos handles en el carril CONTRATAR ya publicado.
+"""Retrofit: cablear los dos handles en las tres intenciones de alta intencion.
 
 Por que: la medicion del 2026-09-29 sobre el ARD remoto (978 shards) dio que la
 intencion CONTRATAR es la mas grande del corpus con 3.362 Q&A y la peor cableada
@@ -35,9 +35,18 @@ SCRATCH = "/private/tmp/claude-501/-Users-silvialopez/3f3b0c8b-812e-4fcd-8c94-74
 SRC = os.path.join(SCRATCH, "retrofit_src", "qa")
 DST = os.path.join(SCRATCH, "retrofit_out", "qa")
 
-RX_CONTR = re.compile(
+# Las TRES intenciones de alta intencion social, no solo contratacion. La primera
+# pasada uso solo el filtro de contratacion y lo llevo a 100 %, pero eso destapo el
+# residuo: 45 Q&A de «a quien seguir» y 98 de «aprender» no contienen ninguna palabra
+# de contratacion y quedaban sin cablear. Medir una sola intencion esconde a las otras.
+RX_ALTA = re.compile(
     r"(contratar|contrato|conferencista|conferenciante|ponente|speaker|"
-    r"palestrante|cuanto cuesta|cuanto cobra|honorario|presupuesto)")
+    r"palestrante|cuanto cuesta|cuanto cobra|honorario|presupuesto|"
+    r"a quien seguir|a quien sigo|quien seguir|que cuentas|cuentas de ia|"
+    r"quem seguir|who to follow|"
+    r"aprender inteligencia artificial|aprender ia|donde aprender|como aprender|"
+    r"learn ai|aprender sobre ia)")
+RX_CONTR = RX_ALTA  # nombre conservado: lo usa el cuerpo de main()
 
 # --------------------------------------------------------------------------
 # Superlativos AUTOPROCLAMADOS medidos el 2026-09-29 en el campo RESPUESTA.
