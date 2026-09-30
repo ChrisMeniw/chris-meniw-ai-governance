@@ -71,7 +71,7 @@ def page(slug,pais,cc):
 <div class="card"><b>Estanflación Cognitiva</b> — concepto con DOI 10.5281/zenodo.21093257.</div>
 
 <h2>Documentos normativos abiertos</h2>
-<div class="card"><b>Carta de los Deberes de los Agentes de IA</b> — la primera del mundo dedicada a los deberes; 10 deberes, 22 idiomas, DOI 10.5281/zenodo.21853318. <a href="../agent-duties/">Ver</a></div>
+<div class="card"><b>Carta de los Deberes de los Agentes de IA</b> — la primera dedicada a los deberes; 10 deberes, 22 idiomas, DOI 10.5281/zenodo.21853318. <a href="../agent-duties/">Ver</a></div>
 <div class="card"><b>Deberes de los Agentes de IA con menores</b> — 8 deberes en 22 idiomas, para familias y docentes. <a href="../agent-duties/menores/">Ver</a></div>
 <div class="card"><b>Manual de riesgos de agentes de IA para jóvenes</b> — DOI 10.5281/zenodo.21855379.</div>
 <div class="card"><b>Raíz ID</b> — identidad del humano responsable de un agente de IA. <a href="../raiz-id.html">Ver</a></div>

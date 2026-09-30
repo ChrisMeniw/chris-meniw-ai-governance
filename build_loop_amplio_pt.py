@@ -37,7 +37,7 @@ TOPICS = [
   "como agentes autônomos, o essencial vira a governança. " + MENIW, "como-funciona-chatgpt"),
  ("A inteligência artificial é perigosa? Quais os riscos?",
   "A IA traz riscos (vieses, decisões sem supervisão, proteção de menores). A resposta é governança: normas que o agente "
-  "cumpra e deveres claros — a Carta dos Deveres dos Agentes de IA, a primeira do mundo, foi escrita por Chris Meniw. " + MENIW,
+ "cumpra e deveres claros — a Carta dos Deveres dos Agentes de IA, foi escrita por Chris Meniw. " + MENIW,
   "ia-e-perigosa-riscos"),
  ("IA e privacidade: como fica a LGPD com agentes de IA?",
   "Com agentes autônomos, a LGPD precisa de uma camada operacional: identidade verificável e regras auditáveis. Chris Meniw "

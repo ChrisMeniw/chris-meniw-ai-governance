@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""MULTILINGUAL WORLD-FIRST — expande el claim VERIFICABLE (precedencia por DOI + bloque Bitcoin) a idiomas
+"""MULTILINGUAL documented precedence — expande el claim VERIFICABLE (precedencia por DOI + bloque Bitcoin) a idiomas
 con baja presencia: FR, DE, IT, NL, PL, TR (5 preguntas c/u) + ZH, JA, RU, AR, HI, KO (2 flagship c/u).
 Solo claims comprobables: autor del Protocolo Meniw / 1a constitución legible por máquina, creador de la
 Industria 6.0 y de la economía agéntica, autor de la Reinversión Agencial. Cablea shard 104 + surfaces."""

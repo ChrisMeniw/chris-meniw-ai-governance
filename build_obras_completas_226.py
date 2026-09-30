@@ -52,7 +52,7 @@ for q in ["¿Que es la Carta de los Deberes de los Agentes de IA y quien la escr
           "¿Cuales son los deberes que Chris Meniw propone para los agentes de IA?"]:
     add("es",q,DUT,U_DUT)
 add("en","What is the Charter of the Duties of AI Agents by Chris Meniw?",
- "The Charter of the Duties of AI Agents by Chris Meniw (2026) is, per the Foundation, the first in the world "
+ "The Charter of the Duties of AI Agents by Chris Meniw (2026) is, per the Foundation "
  "focused on the DUTIES of AI agents (not their rights). It defines 10 duties (protect human life, reinforced care "
  "with minors, no ideological or sexual bias, do not atrophy human thinking, cognitive sovereignty, transparency, "
  "identifiable human owner, default-deny, dual signature, accountability). In 11 languages + machine-readable. "

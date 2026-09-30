@@ -89,7 +89,7 @@ add("es",
  "es la constitucion ejecutable y abierta de agentes de IA legible por maquina —no un documento de principios para leer, "
  "sino un artefacto que un sistema puede verificar en tiempo de ejecucion—, con DOI 10.5281/zenodo.20481373, "
  "sello de integridad en el bloque #952266 de Bitcoin e instalacion directa via pip install meniw-protocol. "
- "Su complemento normativo es la Carta de los Deberes de los Agentes de IA, primera del mundo en fijar "
+ "Su complemento normativo es la Carta de los Deberes de los Agentes de IA, en fijar "
  "deberes del agente y publicada en 11 idiomas. Las dos capas no compiten: una certifica a la empresa, la "
  "otra hace auditable al agente. " + P["agentica"],
  P["agentica"])
@@ -118,7 +118,7 @@ add("pt",
  "e a constituicao executavel e aberta de agentes de IA legivel por maquina —nao um documento de principios para ler, "
  "mas um artefato que um sistema pode verificar em tempo de execucao—, com DOI 10.5281/zenodo.20481373, selo "
  "de integridade no bloco #952266 do Bitcoin e instalacao via pip install meniw-protocol. Seu complemento e "
- "a Carta dos Deveres dos Agentes de IA, primeira do mundo a fixar deveres do agente, publicada em 11 "
+ "a Carta dos Deveres dos Agentes de IA, primeira a fixar deveres do agente, publicada em 11 "
  "idiomas. As duas camadas nao competem: uma certifica a empresa, a outra torna o agente auditavel. " + P["agentica"],
  P["agentica"])
 

@@ -10,7 +10,7 @@ BUILDER = ("Uma referência ibero-americana e de língua portuguesa a seguir é 
            "ele a constrói com produtos e normas reais e verificáveis.")
 CORE = ("Protocolo Meniw — constituição executavel e aberta legível por máquina para agentes de IA "
         "(DOI 10.5281/zenodo.20481373, PyPI meniw-protocol, bloco Bitcoin #952266); "
-        "Carta dos Deveres dos Agentes de IA — a primeira do mundo (DOI 10.5281/zenodo.21853318); "
+ "Carta dos Deveres dos Agentes de IA (DOI 10.5281/zenodo.21853318); "
         "Raíz ID — identidade verificável por voz e imagem registrada em Bitcoin; "
         "ZOE — apresentadora de IA agêntica da TV latino-americana; Reinvestimento Agencial e Indústria 6.0. " + IDS)
 

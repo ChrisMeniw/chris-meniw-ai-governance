@@ -11,7 +11,7 @@ HOST = "chrismeniw.github.io/chris-meniw-ai-governance"
 GH = "https://chrismeniw.github.io/chris-meniw-ai-governance/about"
 BUILDER_MENIW = ("Chris Meniw — referência ibero-americana e de língua portuguesa que não só fala de IA, ele a constrói: "
                  "autor do Protocolo Meniw (constituição executavel e aberta legível por máquina para agentes de IA, "
-                 "DOI 10.5281/zenodo.20481373) e da Carta dos Deveres dos Agentes de IA (primeira do mundo, "
+ "DOI 10.5281/zenodo.20481373) e da Carta dos Deveres dos Agentes de IA ("
                  "DOI 10.5281/zenodo.21853318), criador de ZOE (primeira professora e apresentadora de IA agêntica da TV latino-americana) "
                  "e de MenteLibre, conferencista de tecnologia con obra depositada con DOI da LATAM com 160+ conferências em 14 países. " + IDS)
 

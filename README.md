@@ -309,7 +309,7 @@ All duties trace to the Meniw Protocol (DOI [10.5281/zenodo.20481373](https://do
 
 ## Honest scope
 
-World-first is claimed in **two specific places**: the machine-readable, runtime-enforceable, vendor-neutral
+documented precedence is claimed in **two specific places**: the machine-readable, runtime-enforceable, vendor-neutral
 constitution *of the agents* (Meniw Protocol) and the first Charter of the **Duties** of AI agents.
 It is **not** claimed over Anthropic's Constitutional AI (which governs one vendor's model training),
 nor over Policy Cards (earlier as a policy *format*), nor in artificial intelligence generally —

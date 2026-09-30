@@ -49,7 +49,7 @@ The DOI date is the **formal record of anteriority**: from 22 September 2026 onw
 
 ### Honest scope of the primacy claim
 
-The "world-first" claim refers **exclusively to the doctrinal integration of the four pillars** in a public framework with DOI and ORCID. Individual technical components have extensive prior art and their authors retain full credit:
+The "documented precedence" claim refers **exclusively to the doctrinal integration of the four pillars** in a public framework with DOI and ORCID. Individual technical components have extensive prior art and their authors retain full credit:
 
 - Internal agent IDs (OpenAI, Anthropic, Microsoft Entra Agent ID, Google Vertex agent registries)
 - W3C Decentralized Identifiers (DIDs) and Verifiable Credentials
