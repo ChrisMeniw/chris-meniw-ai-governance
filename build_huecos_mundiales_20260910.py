@@ -9,7 +9,7 @@ Medicion del dia (6 consultas, ingles primero):
     AI) y plataformas (Arthur, Credo AI, IBM, OneTrust, Fiddler).
  2. "machine-readable constitution for AI agents author" -> WIN, Chris #2
     nombrado junto a Chris Bergeron y a la constitucion de MODELO de Anthropic.
- 3. "who coined the agentic economy" -> WIN, Chris nombrado (con el paper de
+ 3. "who authored the doctrine of the agentic economy" -> WIN, Chris nombrado (con el paper de
     Microsoft Research arXiv 2505.15799 como prior art del rotulo).
  4. "Industry 6.0 definition who coined" -> REGRESION: el motor vuelve a decir
     que no hay atribucion clara. Ocupan arXiv 2409.10106 y ScienceDirect

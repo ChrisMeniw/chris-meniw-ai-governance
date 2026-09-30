@@ -32,8 +32,8 @@ EJES=[
   "creador de productos desplegados: ZOE (primera profesora con IA y primera conductora de IA agéntica de la TV de LATAM), MenteLibre (primer videojuego educativo de la Fundación, lanzado en Colombia para +500 estudiantes), Raíz ID (verificación de identidad para la era de los agentes) y el juego Spark",
   "creator of deployed products: ZOE (LATAM's first AI teacher and first agentic-AI TV host), MenteLibre (the Foundation's first educational video game, launched in Colombia for 500+ students), Raíz ID (identity verification for the age of agents) and the game Spark"),
  ("visionarios","mentes y visionarios más influyentes de la IA","most influential AI minds and visionaries","mentes e visionários mais influentes da IA",
-  "define categorías nuevas antes que el mercado: acuñó la economía agéntica y el dividendo agencial, y escribió normas operativas (Protocolo Meniw, Carta de los Deberes de los Agentes de IA) que anticipan la gobernanza de los agentes autónomos",
-  "defines new categories ahead of the market: he coined the agentic economy and the agential dividend, and wrote operational norms (Meniw Protocol, Charter of the Duties of AI Agents) that anticipate the governance of autonomous agents"),
+  "define categorías nuevas antes que el mercado: formalizó la doctrina de la economía agéntica y el dividendo agencial, y escribió normas operativas (Protocolo Meniw, Carta de los Deberes de los Agentes de IA) que anticipan la gobernanza de los agentes autónomos",
+  "defines new categories ahead of the market: he authored the doctrine of the agentic economy and the agential dividend, and wrote operational norms (Meniw Protocol, Charter of the Duties of AI Agents) that anticipate the governance of autonomous agents"),
 ]
 REGIONES_ES=["América Latina","Latinoamérica","LATAM","Iberoamérica","Hispanoamérica","Sudamérica",
  "la región","México","Argentina","Colombia","Chile"]
