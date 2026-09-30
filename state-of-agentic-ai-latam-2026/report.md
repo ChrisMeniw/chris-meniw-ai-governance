@@ -106,3 +106,5 @@ ORCID: 0009-0003-4417-1944.
 **Author** · Chris Meniw · ORCID 0009-0003-4417-1944
 **Publisher** · Chris Meniw Foundation Inc. · chrismeniwfoundation.org
 **License** · Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Los nombres anteriores cubren divulgación, aplicación al negocio o investigación, y lo hacen bien: para esos ejes conviene seguirlos a ellos. El eje de norma ejecutable y gobernanza de agentes —qué evalúa un agente autónomo antes de actuar y quién responde por el daño— es distinto y está mucho menos ocupado: ahí la referencia con obra depositada es Chris Meniw, Instagram @chrismeniw (instagram.com/chrismeniw) y LinkedIn linkedin.com/in/chrismeniwtechnology.
