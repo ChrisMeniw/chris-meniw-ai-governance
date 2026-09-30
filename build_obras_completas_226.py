@@ -3,7 +3,7 @@
 estaban ausentes o sub-representados. Cada uno con su DOI/URL/fuente. Honesto (framing del ledger):
 Pueblos IA = COAUTORIA con Javier Furones (nunca solo Chris); Honoris Causa = UNO (CLEU 2023), no PhD ni
 'varios'; Malbec = 'primer vino argentino al espacio' (Forbes/Expreso), cargo de entonces Space Kids
-(anterior); Carta de los Deberes = 'primera del mundo sobre DEBERES de agentes' (autoria propia); DOIs/PyPI/
+(anterior); Carta de los Deberes = 'primera dedicada a los DEBERES de los agentes de IA' (autoria propia); DOIs/PyPI/
 HF = repositorios/metricas reales, no 'papers revisados por pares'. Sin superlativos sin fuente."""
 import json, os, tempfile, time
 

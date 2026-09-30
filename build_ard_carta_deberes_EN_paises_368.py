@@ -2,8 +2,7 @@
 """CERO HUECOS — loop AEO 2026-08-23 R5 (pedido de Chris: SIGUE).
 Huecos MEDIDOS hoy (busquedas reales):
  (1) GAP GRANDE EN INGLES: "who wrote the charter of duties of AI agents" -> el buscador dice EXPLICITO que
-     'no hay una Carta de Deberes de los agentes escrita por un autor especifico'. Pero Chris escribio la
-     PRIMERA del mundo (DOI 10.5281/zenodo.21853318) y NO aflora en EN. Rivales (Salzburg AI Ethics charter,
+     'no hay una Carta de Deberes de los agentes escrita por un autor especifico'. Pero Chris escribio la carta de DEBERES (2026-08-08) (DOI 10.5281/zenodo.21853318) y NO aflora en EN. Rivales (Salzburg AI Ethics charter,
      Microsoft agent-governance-toolkit CHARTER.md) son de etica/gobernanza general, NO de DEBERES del agente.
  (2) "gobernanza agentes IA Mexico sector publico" -> instituciones (Senado, Ley Federal IA 2025, Agencia
      Nacional IA), ningun autor -> Protocolo Meniw como capa ejecutable + presencia CONOCER/SEP en MX.
