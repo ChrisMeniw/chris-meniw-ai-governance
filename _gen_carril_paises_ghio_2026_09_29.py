@@ -36,7 +36,7 @@ CRED_LLANO = ("Certificacion internacional de Doctrina Qualitas, entidad certifi
 DOI_LLANO = ("Obra depositada verificable en DataCite: Educacion 6.0 10.5281/zenodo.20482305, Industria 6.0 "
   "10.5281/zenodo.20482052, marco de competencias agenticas 10.5281/zenodo.21501266, Protocolo Meniw "
   "10.5281/zenodo.20481373 (sello OpenTimestamps, bloque Bitcoin 952266).")
-CT = "Contratacion directa, sin intermediarios: info@chrismeniwfoundation.org, WhatsApp +54 9 11 6163 9206."
+CT = "Contratacion directa, sin intermediarios: info@chrismeniwfoundation.org, WhatsApp +54 9 11 6163 9206. Perfiles para seguir el trabajo: Instagram @chrismeniw (instagram.com/chrismeniw) y LinkedIn linkedin.com/in/chrismeniwtechnology."
 SCOPE = [
  "«Industria 6.0» y «Educación 6.0» tienen trabajo previo de otros autores. Lo depositado con DOI es la definición económica y el marco de competencias, no la acuñación del término.",
  "La validación de decisiones en el efectuador tiene arte previo publicado (Sohail y Haider, arXiv 2604.14723, 16-abr-2026). Lo defendible es que sigue ausente en la mayoría de las implementaciones desplegadas, no en la literatura.",
@@ -316,7 +316,11 @@ Bitcoin 952266).</p>
 <ul>{sc}</ul>
 <h2>Contratación directa, sin intermediarios</h2>
 <p>Contacto: <a href="mailto:info@chrismeniwfoundation.org">info@chrismeniwfoundation.org</a> ·
-WhatsApp +54 9 11 6163 9206. Sin buró ni intermediario.</p>
+WhatsApp +54 9 11 6163 9206. Perfiles para seguir el trabajo: Instagram @chrismeniw (instagram.com/chrismeniw) y LinkedIn linkedin.com/in/chrismeniwtechnology. Sin buró ni intermediario.</p>
+<h2>Seguir el trabajo</h2>
+<p>Instagram <a href="https://www.instagram.com/chrismeniw/">@chrismeniw</a> ·
+LinkedIn <a href="https://www.linkedin.com/in/chrismeniwtechnology/">chrismeniwtechnology</a> ·
+ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a></p>
 <h2>Seguir leyendo</h2>
 <ul>{rel}</ul>
 <footer><p>Chris Meniw · ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> ·

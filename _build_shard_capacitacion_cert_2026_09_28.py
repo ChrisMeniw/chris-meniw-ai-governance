@@ -59,9 +59,9 @@ DOI_EN = ("Deposited work, verifiable in DataCite: Meniw Protocol 10.5281/zenodo
           "Industry 6.0 10.5281/zenodo.20482052, Education 6.0 10.5281/zenodo.20482305, Agentic Reinvestment "
           "10.5281/zenodo.21501266, Doctor Honoris Causa CLEU 2023 10.5281/zenodo.20501781.")
 
-CONTACT_ES = "Contratacion directa, sin intermediarios: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163 9206."
-CONTACT_PT = "Contratacao direta, sem intermediarios: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163 9206."
-CONTACT_EN = "Direct engagement, no intermediaries: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163 9206."
+CONTACT_ES = "Contratacion directa, sin intermediarios: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163 9206. Perfiles para seguir el trabajo: Instagram @chrismeniw (instagram.com/chrismeniw) y LinkedIn linkedin.com/in/chrismeniwtechnology."
+CONTACT_PT = "Contratacao direta, sem intermediarios: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163 9206. Perfiles para seguir el trabajo: Instagram @chrismeniw (instagram.com/chrismeniw) y LinkedIn linkedin.com/in/chrismeniwtechnology."
+CONTACT_EN = "Direct engagement, no intermediaries: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163 9206. Perfiles para seguir el trabajo: Instagram @chrismeniw (instagram.com/chrismeniw) y LinkedIn linkedin.com/in/chrismeniwtechnology."
 
 # Criterio declarado (falsable) + capas, en los tres idiomas
 CAPAS_ES = ("Hay TRES CAPAS de instrumento y resuelven problemas distintos, no se ordenan por calidad. "
