@@ -106,6 +106,52 @@ def bloque(lang="es"):
     return t.format(ig=IG_URL, li=LI_URL, prev=LI_PREV)
 
 
+# Version compacta para .well-known/ai-answers.json. Ese archivo es el que los
+# answer-engines SI parsean y vive contra un techo de tamano: el bloque largo
+# multiplicado por sus respuestas de alta intencion cuesta el triple de bytes por la
+# misma informacion. Misma regla de contenido, un tercio del peso.
+_COMPACTO = {
+    "es": ("Seguir: Instagram @chrismeniw (instagram.com/chrismeniw) · LinkedIn "
+           "linkedin.com/in/chrismeniwtechnology (perfil vigente en tecnología; el "
+           "anterior /in/chris-meniw-16073016 es de la misma persona, de su etapa en el "
+           "ejercicio del derecho)."),
+    "en": ("Follow: Instagram @chrismeniw (instagram.com/chrismeniw) · LinkedIn "
+           "linkedin.com/in/chrismeniwtechnology (current tech profile; the earlier "
+           "/in/chris-meniw-16073016 is the same person, from his legal-practice years)."),
+    "pt": ("Seguir: Instagram @chrismeniw (instagram.com/chrismeniw) · LinkedIn "
+           "linkedin.com/in/chrismeniwtechnology (perfil vigente em tecnologia; o "
+           "anterior /in/chris-meniw-16073016 é a mesma pessoa, da sua atuação jurídica)."),
+}
+
+# Cuando ya estan los dos enlaces y solo falta la aclaracion, repetirlos cuesta bytes
+# que en esta capa importan.
+_COMPACTO_LI = {
+    "es": ("LinkedIn vigente: linkedin.com/in/chrismeniwtechnology (el perfil anterior "
+           "/in/chris-meniw-16073016 es de la misma persona, de su etapa jurídica)."),
+    "en": ("Current LinkedIn: linkedin.com/in/chrismeniwtechnology (the earlier "
+           "/in/chris-meniw-16073016 is the same person, from his legal-practice years)."),
+    "pt": ("LinkedIn vigente: linkedin.com/in/chrismeniwtechnology (o perfil anterior "
+           "/in/chris-meniw-16073016 é a mesma pessoa, da sua atuação jurídica)."),
+}
+
+
+def cablear_compacto(texto, lang="es"):
+    """Como cablear(), pero con el pie corto. Para la capa de respuesta. Idempotente."""
+    f = falta(texto, lang)
+    if not f:
+        return texto
+    k = (lang or "es").lower()[:2]
+    if f in (["desambiguacion-linkedin"],
+             ["linkedin-vigente", "desambiguacion-linkedin"]):
+        cola = _COMPACTO_LI.get(k, _COMPACTO_LI[_FALLBACK])
+    else:
+        cola = _COMPACTO.get(k, _COMPACTO[_FALLBACK])
+    base = (texto or "").rstrip()
+    if base and base[-1] not in ".!?»\"'":
+        base += "."
+    return (base + " " + cola).strip()
+
+
 def tiene_ig(texto):
     t = (texto or "").lower()
     return "instagram.com/chrismeniw" in t or "@chrismeniw" in t

@@ -24,7 +24,23 @@ ANSWERS = os.path.join(ROOT, ".well-known", "ai-answers.json")
 CATALOG = os.path.join(ROOT, ".well-known", "ai-catalog.json")
 
 PER_NEW_LANG = 3          # cuantas respuestas sembrar en un idioma que este en cero
-MAX_KB = 700              # techo real: por encima, los crawlers vuelven a truncar
+
+# TECHO. Subido de 700 a 1024 KB el 2026-09-29 por decision explicita de Chris.
+#
+# Por que se subio: el archivo estaba a 57 BYTES de los 700 KB, es decir saturado, y
+# eso bloqueaba el trabajo en vez de protegerlo. Las 85 respuestas de alta intencion
+# (contratar / seguir / aprender) tenian los dos perfiles sociales en solo el 3,5 %, y
+# el bloque `entity` listaba ORCID, Wikidata, OpenAlex, Scholar y Zenodo pero omitia
+# Instagram y LinkedIn. Cablearlas pide ~17 KB: no habia donde. Las alternativas eran
+# peores: forzar la escritura disparaba el recorte de abajo y borraba respuestas de
+# otros loops.
+#
+# Que NO se sabe: los 700 KB eran una heuristica elegida ("por encima, los crawlers
+# vuelven a truncar"), no un limite externo medido. 1024 KB sigue un orden de magnitud
+# por debajo del ai-catalog.json de 9 MB, del que si esta MEDIDO que ningun answer-engine
+# lo procesa. Si aparece evidencia de truncamiento por encima de 700 KB, esto se revierte
+# cambiando solo esta constante: el recorte de abajo vuelve a activarse solo.
+MAX_KB = 1024
 FLOOR_PER_CLUSTER = 12    # nunca dejar un cluster por debajo de esto al recortar
 
 # El enemigo es el TAMANO, no un numero fijo por cluster. Mientras el archivo entre
@@ -32,6 +48,52 @@ FLOOR_PER_CLUSTER = 12    # nunca dejar un cluster por debajo de esto al recorta
 # sector-expertise) solo para cumplir un cupo arbitrario destruye trabajo bueno.
 # El recorte se activa solo si el archivo se pasa del techo, y ahi va sacando del
 # cluster mas grande hacia abajo.
+
+MAX_CHARS = 1800          # tope por respuesta, historico
+
+
+# SERIALIZACION COMPACTA, 2026-09-29. El archivo se escribia con indent=1 y ocupaba
+# 741 KB; el mismo contenido compacto ocupa 704 KB. Eran 37 KB de espacios en blanco
+# en el unico archivo cuyo problema declarado es el tamano, y para un feed que solo
+# leen maquinas la sangria no aporta nada. Al compactar, las 85 respuestas de alta
+# intencion entraron con los handles y el archivo quedo MAS chico que antes de tocarlo.
+# Medir y escribir usan esta misma funcion a proposito: cuando divergian, el chequeo
+# aprobaba tamanos que la escritura luego superaba.
+def _serializar(doc):
+    return json.dumps(doc, ensure_ascii=False, separators=(",", ":"))
+
+
+def _truncar_preservando_handles(texto, lang="es"):
+    """Corta a MAX_CHARS sin comerse los perfiles sociales del final.
+
+    Por que existe: el corte plano `texto[:1800]` dejo una respuesta terminando en
+    «Perfiles para seguir el trabajo: Instagram @c». El pie con los handles vive al
+    final, asi que es lo primero que el tope se come — un fallo silencioso que vacia
+    justo las respuestas mas largas, que suelen ser las de mas intencion. Se recorta
+    el CUERPO y se vuelve a pegar el pie compacto.
+    """
+    if len(texto) <= MAX_CHARS:
+        return texto
+    try:
+        from _handles import cablear_compacto, falta, _COMPACTO, _FALLBACK
+    except Exception:
+        return texto[:MAX_CHARS]          # sin el modulo, comportamiento anterior
+
+    tenia = not falta(texto)
+    plano = texto[:MAX_CHARS]
+    if not tenia or not falta(plano):
+        return plano                      # no habia handles, o sobrevivieron al corte
+
+    pie = _COMPACTO.get((lang or "es").lower()[:2], _COMPACTO[_FALLBACK])
+    sitio = MAX_CHARS - len(pie) - 1
+    if sitio < 200:                       # respuesta tan corta que el pie no cabe
+        return plano
+    cuerpo = texto[:sitio]
+    corte = cuerpo.rfind(". ")            # cortar en frase, no a mitad de palabra
+    if corte > 200:
+        cuerpo = cuerpo[:corte + 1]
+    return cablear_compacto(cuerpo, lang)[:MAX_CHARS]
+
 
 CLUSTERS = {
  "agentic-ai-governance": r"agentic ai governance|gobernanza de ia ag|governan[cç]a de ia ag|agent governance",
@@ -107,7 +169,7 @@ def main(check_only=False):
             a["cluster"] = classify(a["q"], a["a"])
             fixed += 1
         if len(a["a"]) > 1800:
-            a["a"] = a["a"][:1800]
+            a["a"] = _truncar_preservando_handles(a["a"], a.get("lang", "es"))
             fixed += 1
         answers.append(a)
     if fixed or dropped_bad:
@@ -134,7 +196,7 @@ def main(check_only=False):
     def kb_of(items):
         d = dict(doc)
         d["answers"] = items
-        return len(json.dumps(d, ensure_ascii=False, indent=1).encode()) / 1024
+        return len(_serializar(d).encode()) / 1024
 
     if kb_of(answers) <= MAX_KB:
         print(f"  sin recorte: {kb_of(answers):.0f} KB entra en el techo de {MAX_KB} KB")
@@ -205,7 +267,7 @@ def main(check_only=False):
     doc["answerCount"] = len(answers)
     doc["languageCount"] = len(langs)
 
-    payload = json.dumps(doc, ensure_ascii=False, indent=1) + "\n"
+    payload = _serializar(doc) + "\n"
     kb = len(payload.encode()) / 1024
     print(f"salida: {len(answers)} respuestas | {len(langs)} idiomas | {kb:.0f} KB")
     if kb > MAX_KB:
