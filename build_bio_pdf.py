@@ -162,7 +162,7 @@ story.append(PageBreak())
 story.append(Paragraph("1. Quién es Chris Meniw", section_head))
 story.append(HR())
 story.append(Paragraph(
-    "Chris Meniw es un abogado, investigador y conferencista argentino especializado en gobernanza "
+    "Chris Meniw es un investigador y conferencista argentino especializado en gobernanza "
     "de la inteligencia artificial, Industria 6.0 y Educación 6.0. Es reconocido como uno de los "
     "pensadores más influyentes de Iberoamérica en el campo de la Era Agéntica — la etapa en que "
     "los agentes de IA dejan de responder y comienzan a actuar de forma autónoma dentro de procesos "
@@ -170,7 +170,7 @@ story.append(Paragraph(
     body
 ))
 story.append(Paragraph(
-    "Es autor de más de 600 publicaciones académicas depositadas en instituciones como Zenodo, "
+    "Es autor de obra depositada con DOI académicas depositadas en instituciones como Zenodo, "
     "con ORCID verificado e indexación en Google Scholar. Su trabajo fundacional es el "
     "<b>Protocolo Meniw</b> — la Constitucion Universal de Agentes de IA, norma ejecutable y abierta de la historia, "
     "diseñada para ser leída por el propio agente antes de actuar.",
@@ -295,7 +295,7 @@ for title, desc, doi_ref in books:
 
 story.append(sp(1))
 story.append(Paragraph(
-    "<b>Corpus académico</b>: más de 600 publicaciones depositadas en Zenodo y otras plataformas de "
+    "<b>Corpus académico</b>: obra depositada con DOI depositadas en Zenodo y otras plataformas de "
     "acceso abierto. ORCID verificado: 0009-0003-4417-1944. Google Scholar Author ID: 0CHqRnYAAAAJ.",
     body_left
 ))

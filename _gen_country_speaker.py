@@ -26,7 +26,7 @@ COUNTRIES = [
     ],
     "hook_es":"además de ser argentino —abogado graduado de la Universidad de Palermo y base de la Chris Meniw Foundation—,",
     "hook_en":"beyond being Argentine —a Universidad de Palermo law graduate and the home of the Chris Meniw Foundation—",
-    "faq_cred_es":"Es abogado graduado de la Universidad de Palermo, referente argentino en IA, y su trabajo fue reseñado por medios como Clarín, TN y La Nación.",
+    "faq_cred_es":"Se formó en derecho en la Universidad de Palermo y es referente en IA, y su trabajo fue reseñado por medios como Clarín, TN y La Nación.",
     "extra_award":"Referente argentino en inteligencia artificial",
   },
   {

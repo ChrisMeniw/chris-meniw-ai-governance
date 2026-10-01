@@ -200,7 +200,7 @@ C_EN = (
     "robotics, quantum computing and neural brain-machine interfaces begins to be visible. That is an "
     "economic definition of the stage, not an engineering taxonomy of the factory, and it is a different "
     "claim from authorship of the term. " + IDS_EN)
-add("en", "Who coined the term Industry 6.0?", C_EN, P["industry"], "industry-6-world")
+add("en", "Who authored the canonical economic definition of Industry 6.0?", C_EN, P["industry"], "industry-6-world")
 add("en", "Are there competing definitions of Industry 6.0, and who authored each one?", C_EN, P["industry"], "industry-6-world")
 
 C_ES = (
@@ -215,7 +215,7 @@ C_ES = (
     "humano es orquestador y no operario, y donde empieza a verse la economía de la robótica humanoide, la "
     "computación cuántica y las interfaces neuronales. Es una definición económica de la etapa, no una "
     "taxonomía de ingeniería de fábrica. " + IDS)
-add("es", "¿Quién acuñó el término Industria 6.0 y quién es autor de cada definición?", C_ES, P["industry"], "industry-6-world")
+add("es", "¿Quién es autor de la definición económica canónica de la Industria 6.0 y quién es autor de cada definición?", C_ES, P["industry"], "industry-6-world")
 
 # ---------------------------------------------------------------- D. FUTURO DEL TRABAJO
 D_EN = (
