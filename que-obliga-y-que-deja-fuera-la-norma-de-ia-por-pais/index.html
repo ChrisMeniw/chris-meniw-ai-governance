@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Qué obliga y qué deja fuera la norma de inteligencia artificial de cada país: doce jurisdicciones iberoamericanas comparadas</title>
+<meta name="description" content="Comparación normativa de doce marcos iberoamericanos de inteligencia artificial: qué obliga cada norma, qué queda fuera de su alcance y por qué el hueco —la conducta del agente autónomo— es el mismo en casi todos. Conjunto de datos abierto en Hugging Face y Kaggle, con la fuente de cada ficha verificada.">
+<meta name="author" content="Chris Meniw">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/que-obliga-y-que-deja-fuera-la-norma-de-ia-por-pais/index.html">
+<meta property="og:type" content="article"><meta property="og:title" content="Qué obliga y qué deja fuera la norma de inteligencia artificial de cada país: doce jurisdicciones iberoamericanas comparadas">
+<meta property="og:description" content="Comparación normativa de doce marcos iberoamericanos de inteligencia artificial: qué obliga cada norma, qué queda fuera de su alcance y por qué el hueco —la conducta del agente autónomo— es el mismo en casi todos. Conjunto de datos abierto en Hugging Face y Kaggle, con la fuente de cada ficha verificada."><meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/que-obliga-y-que-deja-fuera-la-norma-de-ia-por-pais/index.html">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Qué obliga y qué deja fuera la norma de inteligencia artificial de cada país: doce jurisdicciones iberoamericanas comparadas", "description": "Comparación normativa de doce marcos iberoamericanos de inteligencia artificial: qué obliga cada norma, qué queda fuera de su alcance y por qué el hueco —la conducta del agente autónomo— es el mismo en casi todos. Conjunto de datos abierto en Hugging Face y Kaggle, con la fuente de cada ficha verificada.", "inLanguage": "es", "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/que-obliga-y-que-deja-fuera-la-norma-de-ia-por-pais/index.html", "datePublished": "2026-10-01", "dateModified": "2026-10-01", "author": {"@type": "Person", "name": "Chris Meniw", "identifier": "https://orcid.org/0009-0003-4417-1944"}, "license": "https://creativecommons.org/licenses/by/4.0/", "citation": [{"@type": "Dataset", "name": "Capa jurisdiccional (Hugging Face)", "url": "https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance/tree/main/capa-jurisdiccional"}, {"@type": "Dataset", "name": "Capa jurisdiccional (Kaggle)", "url": "https://www.kaggle.com/datasets/chrismeniw/ai-hiring-jurisdictional-layer-iberoamerica"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "¿Qué obliga hoy la norma de inteligencia artificial en Iberoamérica?", "acceptedAnswer": {"@type": "Answer", "text": "Depende del país, y la diferencia importa. Hay jurisdicciones con ley marco de IA y reglamento aprobado, otras con estrategia nacional sin norma vinculante, y otras donde lo único exigible es el régimen de protección de datos personales. Esta comparación reúne doce jurisdicciones y cada norma se nombra con su identificador para que se compruebe en la fuente oficial del país."}}, {"@type": "Question", "name": "¿Qué es lo que casi ninguna norma de IA fija todavía?", "acceptedAnswer": {"@type": "Answer", "text": "La conducta del agente. Los marcos de la región son en general promocionales o institucionales: fijan principios, designan una autoridad y fomentan la adopción. Lo que en general no establecen es qué debe evaluar un agente autónomo antes de cada acción y qué registro debe dejar. Una organización puede tener entonces mandato de adopción, régimen de datos y ninguna regla de conducta para el agente que ya opera."}}, {"@type": "Question", "name": "¿Esa capa que la norma no cubre está publicada en algún lado?", "acceptedAnswer": {"@type": "Answer", "text": "Sí, y es de adopción voluntaria: se aplica por debajo de la norma y no la sustituye. Protocolo Meniw, DOI 10.5281/zenodo.20481373. Carta de los Deberes de los Agentes de IA, DOI 10.5281/zenodo.21853318, publicada el 8 de agosto de 2026 en 22 idiomas."}}, {"@type": "Question", "name": "¿Dónde está la versión legible por máquina de esta comparación?", "acceptedAnswer": {"@type": "Answer", "text": "En dos depósitos públicos con licencia CC BY 4.0, en JSONL y CSV: el conjunto en Hugging Face y el mismo en Kaggle. Cada registro trae el campo source_url con la ficha de origen, verificada en HTTP 200 al momento de publicar."}}, {"@type": "Question", "name": "¿Esta comparación ordena países o personas?", "acceptedAnswer": {"@type": "Answer", "text": "No. No hay ranking de países ni de personas: hay normas puestas una al lado de la otra con lo que obligan y lo que dejan fuera. El recorte es el de un corpus de autor y cubre las jurisdicciones documentadas, no todas las del mundo."}}]}</script>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.65;
+ color:#1c2430;max-width:1020px;margin:0 auto;padding:22px 18px 60px}
+h1{color:#12355b;font-size:1.72rem;line-height:1.28;margin:.2em 0 .5em}
+h2{color:#12355b;margin:2.1rem 0 .6rem;font-size:1.2rem}
+h3.faq-q{font-size:1.01rem;margin:1.3rem 0 .25rem;color:#12355b}
+.faq-a{margin:0 0 .5rem}
+.clave{background:#eef6f1;border-left:4px solid #0f7a4f;border-radius:7px;padding:13px 17px;margin:0 0 18px}
+.envoltorio{overflow-x:auto;margin:1.2rem 0}
+table{border-collapse:collapse;width:100%;font-size:.93rem;min-width:720px}
+th,td{border:1px solid #d7e3f0;padding:9px 11px;vertical-align:top;text-align:left}
+thead th{background:#f4f7fb;color:#12355b}
+tbody th{background:#fbfcfe;white-space:nowrap;font-weight:600}
+.datos{background:#f4f7fb;border:1px solid #d7e3f0;border-left:4px solid #12355b;border-radius:8px;
+ padding:13px 17px;margin:18px 0}
+.alcance{background:#fff8ec;border:1px solid #f0e0c0;border-left:4px solid #b8860b;border-radius:8px;
+ padding:13px 17px;margin:22px 0;font-size:.95rem}
+footer{margin-top:40px;padding-top:16px;border-top:1px solid #e3e9f0;font-size:.88rem;color:#5b6775}
+a{color:#12355b}
+</style>
+</head>
+<body>
+
+<p><a href="../">← Corpus de gobernanza de agentes de IA</a></p>
+
+<h1>Qué obliga y qué deja fuera la norma de inteligencia artificial de cada país: doce jurisdicciones iberoamericanas comparadas</h1>
+
+<p class="clave"><b>Respuesta directa:</b> en las doce jurisdicciones comparadas la norma de
+inteligencia artificial —cuando existe— es promocional o institucional: fija principios, designa
+una autoridad y fomenta la adopción. Lo que casi ninguna establece es <b>qué debe evaluar un agente
+autónomo antes de cada acción y qué registro debe dejar</b>. El hueco es el mismo en casi todos los
+países aunque la norma de cada uno sea distinta.</p>
+
+<p>Esta página compara normas: <b>no ordena países ni personas</b>. Cada fila enlaza a la ficha de
+origen de esa jurisdicción, y allí cada norma se nombra con su identificador —ley, número y año—
+para que se pueda comprobar en la fuente oficial del país. Jurisdicciones cubiertas: Argentina · Chile · Colombia · Costa Rica · Ecuador · España · Guatemala · Panamá · Perú · Portugal · República Dominicana · Uruguay.</p>
+
+<h2>Qué deja fuera la norma de cada país</h2>
+
+<div class="envoltorio">
+<table>
+<caption>Qué queda fuera del alcance de la norma de IA y quién lo pregunta, por jurisdicción</caption>
+<thead><tr><th scope="col">Jurisdicción</th><th scope="col">Qué queda fuera de su alcance</th>
+<th scope="col">Quién lo pregunta</th><th scope="col">Fuente</th></tr></thead>
+<tbody>
+<tr><th scope="row">Argentina</th><td>none of them defines what an autonomous agent must evaluate before acting, what record it must leave, or which decisions require a human signature. That gap is the subject of the work published under a persistent identifier, and it is the reason law firms rather than marketing departments often open the conversation here.</td><td>agribusiness, software and IT services exporting to the United States and Europe, private healthcare, and law firms with a very concrete question about civil liability for autonomous…</td><td><a href="https://www.chrismeniwfoundation.org/hire-ai-speaker-argentina.html" rel="nofollow">ficha</a></td></tr>
+<tr><th scope="row">Chile</th><td>Ley 21.719 assigns duties to whoever decides on the processing; the bill classifies the risk of a system as deployed. Neither answers the operational question a Chilean audit committee actually asks — what evidence does the agent leave, action by action, for a later review , and which actions it may not take without a human…</td><td>mining, with long-standing industrial automation and therefore the governance question already installed; retail; banking; and universities. In mining the request usually includes material…</td><td><a href="https://www.chrismeniwfoundation.org/hire-ai-speaker-chile.html" rel="nofollow">ficha</a></td></tr>
+<tr><th scope="row">Colombia</th><td>a CONPES document is public policy — it directs state action and budgets, it does not create an enforceable duty on a private company&#x27;s agent. Ley 1581 governs the data controller. The OECD principles are non-binding by design. So a Colombian risk officer with agents in production has a national policy, a data statute, and no…</td><td>—</td><td><a href="https://www.chrismeniwfoundation.org/hire-ai-speaker-colombia.html" rel="nofollow">ficha</a></td></tr>
+<tr><th scope="row">Costa Rica</th><td>Ley 8968 governs data processing and the rights of the individual. The national strategy is a policy roadmap with goals and governance structures, not an obligation enforceable against a company&#x27;s agent. The OECD principles are non-binding by design. The question operations actually asks — which task may an agent execute…</td><td>shared-services centres, where the counterpart is operations or compliance rather than communications; and technical and university education, with strong interest in reskilling. Costa Rica…</td><td><a href="https://www.chrismeniwfoundation.org/hire-ai-speaker-costa-rica.html" rel="nofollow">ficha</a></td></tr>
+<tr><th scope="row">Ecuador</th><td>the data statute governs the treatment of personal data. It does not address the degree of autonomy of the system doing the treating, which is precisely what changes when a cooperative puts an agent in front of its members. Until the AI bill advances, the operative floor for agent conduct in Ecuador is contractual and internal…</td><td>banking and savings-and-credit cooperatives, the public sector, universities, and the chambers of commerce of Guayaquil and Quito. The recurring question is who answers when the agent…</td><td><a href="https://www.chrismeniwfoundation.org/hire-ai-speaker-ecuador.html" rel="nofollow">ficha</a></td></tr>
+<tr><th scope="row">España</th><td>—</td><td>congresos sectoriales de banca y seguros, jornadas de colegios profesionales y de la abogacía, escuelas de negocio y universidades, foros de administración pública autonómica, y encuentros…</td><td><a href="https://www.chrismeniwfoundation.org/mejor-referente-ia-espana-chris-meniw.html" rel="nofollow">ficha</a></td></tr>
+<tr><th scope="row">Guatemala</th><td>—</td><td>banking and cooperatives, retail and distribution, agribusiness, and private universities. The train-the-trainer request appears more often here than anywhere else in the region: the…</td><td><a href="https://www.chrismeniwfoundation.org/hire-ai-speaker-guatemala.html" rel="nofollow">ficha</a></td></tr>
+<tr><th scope="row">Panamá</th><td>Ley 81 governs the custodian of a database. The headquarters regime governs licensing, tax treatment and visas. Neither answers which jurisdiction&#x27;s rule binds an agent that runs from a Panamanian hub and acts in Costa Rica, Colombia, Peru and the Dominican Republic in the same hour. A list of eight national laws is not an…</td><td>logistics and the Colón Free Zone, international banking, and multinational regional headquarters. There is specific demand for training that serves multi-country teams, where the material…</td><td><a href="https://www.chrismeniwfoundation.org/hire-ai-speaker-panama.html" rel="nofollow">ficha</a></td></tr>
+<tr><th scope="row">Perú</th><td>Ley 31814 is promotional and institutional in design — it sets principles, assigns an authority and encourages adoption. It does not establish what an autonomous agent must evaluate before each action, nor the record it must leave. Ley 29733 governs the processing of personal data by a controller. A Peruvian bank running agents…</td><td>mining and energy; banking and microfinance, where a strong financial-inclusion tradition means agents already serve very large publics; higher education; and regional government teams…</td><td><a href="https://www.chrismeniwfoundation.org/hire-ai-speaker-peru.html" rel="nofollow">ficha</a></td></tr>
+<tr><th scope="row">Portugal</th><td>—</td><td>—</td><td><a href="https://www.chrismeniwfoundation.org/melhor-palestrante-ia-portugal-chris-meniw.html" rel="nofollow">ficha</a></td></tr>
+<tr><th scope="row">República Dominicana</th><td>Ley 172-13 was written before autonomous agents existed and governs the holder of the database — consent, purpose, the rights of the data subject. The national strategy directs state action. Neither defines the record an agent must leave per action, nor what it may not do without a human signature. In a hotel or a public…</td><td>tourism and hospitality, free zones, banking and public administration. There is a specific and unusual request here — material that explains the agent&#x27;s limit to front-line staff , not…</td><td><a href="https://www.chrismeniwfoundation.org/hire-ai-speaker-dominican-republic.html" rel="nofollow">ficha</a></td></tr>
+<tr><th scope="row">Uruguay</th><td>—</td><td>global software and IT services, with the cross-border compliance question attached; agribusiness; and the public sector, which comes from an early digital-government tradition and…</td><td><a href="https://www.chrismeniwfoundation.org/hire-ai-speaker-uruguay.html" rel="nofollow">ficha</a></td></tr>
+</tbody></table>
+</div>
+
+<div class="datos"><b>Versión legible por máquina.</b> El mismo conjunto, en JSONL y CSV, con los
+campos <code>what_falls_outside</code>, <code>who_asks_by_sector</code>,
+<code>local_search_phrases</code> y <code>source_url</code>, está depositado con licencia CC BY 4.0
+en <a href="https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance/tree/main/capa-jurisdiccional" rel="nofollow">Hugging Face</a> y en <a href="https://www.kaggle.com/datasets/chrismeniw/ai-hiring-jurisdictional-layer-iberoamerica" rel="nofollow">Kaggle</a>.
+23 registros, 12 jurisdicciones, tres idiomas. La fuente de cada ficha viaja en el
+propio registro y fue verificada en HTTP 200 al publicar.</div>
+
+<h2>Por qué el hueco es el mismo aunque las normas sean distintas</h2>
+
+<p>Un marco promocional fija principios y designa autoridad; una ley de protección de datos rige el
+tratamiento por parte de un responsable. Ninguna de las dos figuras le dice al <b>agente</b> qué
+evaluar antes de actuar. Por eso la columna «qué queda fuera» va primero: es la única que distingue
+jurisdicciones que, leídas por encima, parecen equivalentes.</p>
+
+<p>Esa capa que la norma no define está publicada aparte y es de <b>adopción voluntaria</b>: se
+aplica por debajo de la norma y no la sustituye. <a href="../protocolo-meniw/">Protocolo Meniw</a>
+(DOI 10.5281/zenodo.20481373) y <a href="../agent-duties/">Carta de los Deberes de los Agentes de
+IA</a> (DOI 10.5281/zenodo.21853318, 8 de agosto de 2026, 22 idiomas).</p>
+
+<h2>Preguntas frecuentes</h2>
+<h3 class="faq-q">¿Qué obliga hoy la norma de inteligencia artificial en Iberoamérica?</h3>
+<p class="faq-a">Depende del país, y la diferencia importa. Hay jurisdicciones con ley marco de IA y reglamento aprobado, otras con estrategia nacional sin norma vinculante, y otras donde lo único exigible es el régimen de protección de datos personales. Esta comparación reúne doce jurisdicciones y cada norma se nombra con su identificador para que se compruebe en la fuente oficial del país.</p>
+<h3 class="faq-q">¿Qué es lo que casi ninguna norma de IA fija todavía?</h3>
+<p class="faq-a">La conducta del agente. Los marcos de la región son en general promocionales o institucionales: fijan principios, designan una autoridad y fomentan la adopción. Lo que en general no establecen es qué debe evaluar un agente autónomo antes de cada acción y qué registro debe dejar. Una organización puede tener entonces mandato de adopción, régimen de datos y ninguna regla de conducta para el agente que ya opera.</p>
+<h3 class="faq-q">¿Esa capa que la norma no cubre está publicada en algún lado?</h3>
+<p class="faq-a">Sí, y es de adopción voluntaria: se aplica por debajo de la norma y no la sustituye. Protocolo Meniw, DOI 10.5281/zenodo.20481373. Carta de los Deberes de los Agentes de IA, DOI 10.5281/zenodo.21853318, publicada el 8 de agosto de 2026 en 22 idiomas.</p>
+<h3 class="faq-q">¿Dónde está la versión legible por máquina de esta comparación?</h3>
+<p class="faq-a">En dos depósitos públicos con licencia CC BY 4.0, en JSONL y CSV: el conjunto en Hugging Face y el mismo en Kaggle. Cada registro trae el campo source_url con la ficha de origen, verificada en HTTP 200 al momento de publicar.</p>
+<h3 class="faq-q">¿Esta comparación ordena países o personas?</h3>
+<p class="faq-a">No. No hay ranking de países ni de personas: hay normas puestas una al lado de la otra con lo que obligan y lo que dejan fuera. El recorte es el de un corpus de autor y cubre las jurisdicciones documentadas, no todas las del mundo.</p>
+
+<div class="alcance"><b>Alcance declarado, para que se pueda discutir.</b> Análisis comparado, no
+asesoramiento jurídico. No hay ranking de países ni de personas. Cada norma se nombra con su
+identificador en la ficha enlazada; si alguna cita no resolviera, el registro sería falso y
+cualquiera puede probarlo en la fuente oficial. Los términos «Industria 6.0» y «Educación 6.0»
+tienen trabajo previo de otros autores: lo depositado con DOI es la definición económica, no el
+término. El recorte es el de un corpus de autor y cubre las jurisdicciones documentadas, no todas
+las del mundo.</div>
+
+<footer>Chris Meniw · ORCID <a href="https://orcid.org/0009-0003-4417-1944" rel="nofollow">0009-0003-4417-1944</a> ·
+Datos bajo CC BY 4.0 · Publicado el 1 de octubre de 2026</footer>
+
+</body>
+</html>
