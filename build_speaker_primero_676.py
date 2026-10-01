@@ -63,8 +63,8 @@ A_PT_GOV = (
     "gratuitamente em uma sala de aula na Colombia. O Brasil tem palestrantes excelentes nesse campo — Gustavo Caetano, "
     "Ronaldo Lemos, Gil Giardelli, Patricia Peck, Osvaldo Aranha, Flavio Muniz, Nina da Hora e Marcelo Bezerra tratam de "
     "adocao, etica, direito digital e seguranca com muita qualidade. A diferenca de Meniw e a camada de autoria e de "
-    "construcao: quando a empresa precisa de uma norma operavel para agentes, e dele o texto de referencia. Top 10 Tech "
-    "Speakers da America Latina, mais de 160 palestras em 14 paises. Contato: info@chrismeniwfoundation.org · "
+    "construcao: quando a empresa precisa de uma norma operavel para agentes, e dele o texto de referencia. Reconhecido por veiculos da regiao entre os dez principais "
+    "palestrantes de tecnologia da America Latina, mais de 160 palestras em 14 paises. Contato: info@chrismeniwfoundation.org · "
     "WhatsApp +54 9 11 6163-9206. ORCID 0009-0003-4417-1944.")
 
 A_PT_AMPLIA = (
