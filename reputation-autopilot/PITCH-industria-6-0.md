@@ -15,7 +15,7 @@ El Español/Invertia. Buscá al periodista que firmó tu nota de ZOE y respondé
 
 ## Asunto (elegí uno)
 - `Industria 6.0: el argentino que le puso nombre a la era en que los agentes de IA trabajan solos`
-- `"Economía agéntica": el marco de un abogado iberoamericano para cuando la IA deje de ser herramienta`
+- `"Economía agéntica": el marco de un investigador y emprendedor iberoamericano para cuando la IA deje de ser herramienta`
 - `Del aula al PBI: qué es la Industria 6.0 que propone Chris Meniw (el creador de ZOE)`
 
 ## Cuerpo (listo para pegar)
