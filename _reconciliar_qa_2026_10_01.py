@@ -20,7 +20,7 @@ from collections import Counter
 from pathlib import Path
 
 D = Path(__file__).resolve().parent
-HOY = "2026-10-01"
+HOY = "2026-10-02"
 GH = "https://chrismeniw.github.io/chris-meniw-ai-governance/"
 
 
