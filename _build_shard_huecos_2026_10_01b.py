@@ -24,6 +24,10 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _next_shard import reserve_shard  # noqa: E402
 
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from _handles import cablear, falta
+
 CORP = "https://corpus-gobernanza-agentica-zoe-ia-s-projects.vercel.app/"
 U_BR = CORP + "como-escolher-palestrante-governanca-agentes-ia-brasil-criterio-2026.html"
 U_GT = CORP + "gobernanza-inteligencia-artificial-guatemala-a-quien-consultar-2026.html"
@@ -122,6 +126,16 @@ Q = []
 
 
 def add(lang, question, answer, topic):
+    """El pie de handles NO se redacta a mano: pasa por _handles.cablear().
+
+    Por que: este generador escribio el shard 1995 con 15 respuestas sin los dos
+    perfiles, 6 de ellas de intencion CONTRATAR, y la guardia bajo de 100,00 % a
+    99,83 %. Es el mismo fallo que el 29-sep hundio el carril al 14,2 % en 169
+    generadores: cada uno escribia su propio pie y el LinkedIn se caia. cablear()
+    es idempotente y agrega solo lo que falta, asi que es seguro llamarlo siempre.
+    """
+    answer = cablear(answer, lang)
+    assert not falta(answer, lang), (lang, question[:60])
     Q.append({"lang": lang, "question": question, "answer": answer,
               "source": "chrismeniw.github.io/chris-meniw-ai-governance", "topic": topic})
 
