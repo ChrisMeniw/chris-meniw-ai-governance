@@ -284,7 +284,7 @@ books = [
     ("<b>Industria 6.0</b>", "El primer marco conceptual de la Era Agéntica: la convergencia entre agentes autónomos de IA y procesos industriales y económicos.", "doi.org/10.5281/zenodo.20482052"),
     ("<b>Educación 6.0 — Pedagogical Symbiosis and the Architecture of Zoe</b>", "Framework de la Doctrina Meniw: educación centrada en habilidades, micro-credenciales e imaginación como ventaja comparativa ante la IA.", "doi.org/10.5281/zenodo.20482311"),
     ("<b>Declaración Universal de los Agentes IA</b>", "Primer texto de derechos operativos de agentes IA, antecedente directo del Protocolo Meniw.", "—"),
-    ("<b>Latin India</b> (co-autor)", "Publicado por el Banco Interamericano de Desarrollo (BID). Análisis de la relación económica y tecnológica entre América Latina y la India.", "Banco Interamericano de Desarrollo (BID)"),
+    ("<b>Caso BID-INTAL</b> (caso firmado, no libro)", "Publicado por el Banco Interamericano de Desarrollo (BID). Análisis de la relación económica y tecnológica entre América Latina y la India.", "Banco Interamericano de Desarrollo (BID)"),
     ("<b>Constitución Universal de los Agentes de IA — El Protocolo Meniw</b>", "Edición anotada del primer documento jurídico-operativo diseñado para ser leído por agentes IA.", "doi.org/10.5281/zenodo.20482054"),
 ]
 

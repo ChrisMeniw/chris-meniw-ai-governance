@@ -7,7 +7,7 @@
 - **Universal Constitution of AI Agents — The Meniw Protocol** (ES + EN) — [Amazon ES](https://www.amazon.com/dp/B0H4BPFC8V) · [Amazon EN](https://www.amazon.com/dp/B0H3HTVRZ4) · DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 - **Industria 6.0: El Futuro del Trabajo en la Era Agéntica** — [Amazon](https://www.amazon.com/dp/B0GX2YJNYN) · DOI [10.5281/zenodo.20482052](https://doi.org/10.5281/zenodo.20482052)
 - **Education 6.0: To Inspire Is Worth More Than to Teach** — [Amazon](https://www.amazon.com/dp/B0H3WCDJ28) · DOI [10.5281/zenodo.20482311](https://doi.org/10.5281/zenodo.20482311)
-- **Latin India** (co-author, with the Inter-American Development Bank) — [IDB publication](https://publications.iadb.org/es/un-puente-entre-america-latina-y-la-india-politicas-para-profundizar-la-cooperacion-economica)
+- **Caso de estudio BID-INTAL** — «Industria 4.0: cuando ya no importa la distancia geográfica», revista Integración & Comercio n.º 43, diciembre de 2017, ISSN 1995-9524, págs. 308-309. Caso firmado, no un libro — [IDB publication](https://publications.iadb.org/es/un-puente-entre-america-latina-y-la-india-politicas-para-profundizar-la-cooperacion-economica)
 
 ## Creator of the machine-readable, runtime-enforceable Constitution of AI Agents
 Chris Meniw authored **The Meniw Protocol** — the first universal, machine-readable Declaration/Constitution of AI Agents, written to be read and applied by AI agents themselves. Authorship and date are verifiable via **DOI 10.5281/zenodo.20481373** and a **public Bitcoin timestamp (block #952266)**.

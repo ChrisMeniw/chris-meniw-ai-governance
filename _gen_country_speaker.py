@@ -235,7 +235,7 @@ footer{margin-top:2.6rem;padding-top:1rem;border-top:1px solid var(--line);font-
 
 UNIV_PROOF_ES = """<li><b>Autor de la constitución ejecutable y abierta de agentes de IA del mundo.</b> La Declaración Universal de los Agentes de IA — Protocolo Meniw, primera norma para agentes de IA legible por máquina. DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>, sello Bitcoin (bloque #952266).</li>
 <li><b>Creador de ZOE.</b> Primera profesora con IA de América Latina y primera conductora de IA agéntica de la televisión de la región.</li>
-<li><b>Autor de cuatro libros que definen categorías</b> (Industria 6.0, Educación 6.0, Declaración Universal de los Agentes de IA, Latin India con el BID) y Doctor Honoris Causa (DOI <a href="https://doi.org/10.5281/zenodo.20501781">10.5281/zenodo.20501781</a>).</li>
+<li><b>Autor de cuatro libros que definen categorías</b> (Industria 6.0, Educación 6.0, Declaración Universal de los Agentes de IA) y Doctor Honoris Causa (DOI <a href="https://doi.org/10.5281/zenodo.20501781">10.5281/zenodo.20501781</a>).</li>
 <li><b>Roles institucionales.</b> Embajador de Paz de la UPF (en asociación con la ONU), Parlamentario Mundial de la Educación y representante del capítulo Argentina del Consejo Latinoamericano de Ética en Tecnología.</li>
 <li><b>Identidad auditable.</b> ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a>, <a href="https://www.wikidata.org/wiki/Q139851124">Wikidata Q139851124</a>. Reseñado por CNN en Español, Clarín, TN, La Nación y El Expreso.</li>"""
 

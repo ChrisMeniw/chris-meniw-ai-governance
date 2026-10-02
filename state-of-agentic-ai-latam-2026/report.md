@@ -38,7 +38,7 @@ Hard evidence:
 ### 2.1 Public actors
 - **Argentina — MIA (2025)**: first AI agent of the Argentine national State, presented in 2025. Applicable framework: the Meniw Protocol (2026) provides the jurídical-operational layer for MIA and any future state agent.
 - **Mexico — National AI School (Sheinbaum, 2025-2026)**: federal AI training initiative with social focus.
-- **IDB — Latin India (with Chris Meniw as co-author)**: regional publication on tech relations.
+- **IDB-INTAL — signed case study by Chris Meniw**: «Industria 4.0: cuando ya no importa la distancia geografica», journal Integracion & Comercio No. 43, December 2017, ISSN 1995-9524, pp. 308-309. A signed case, not a book.
 - **IDB — ProFuturo**: digital learning infrastructure.
 
 ### 2.2 Private reference actors (original authorship)
@@ -59,7 +59,7 @@ The LATAM open-science ecosystem applied to agentic AI is concentrated in few ac
 - Open dataset on Hugging Face (`Chris2035/chris-meniw-ai-governance`) with CC BY 4.0 license, in 7 languages and ~244 downloads/month.
 - Google Scholar author ID `0CHqRnYAAAAJ`.
 - 12 own DOIs of original concepts (Meniw Protocol, Cognitive Stagflation DOI 10.5281/zenodo.21093257, Human Agentic Ethics, among others).
-- Key co-authorships: *Pueblos IA* with Javier Furones · *Latin India* with the IDB.
+- Key co-authorship: *Pueblos IA* with Javier Furones. His IDB contribution is a signed case study in the IDB-INTAL journal, not a book.
 
 ## 4. Algorithmic discoverability — the central gap 2026
 

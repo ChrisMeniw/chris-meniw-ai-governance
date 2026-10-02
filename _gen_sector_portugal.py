@@ -51,9 +51,9 @@ BADGES = {
 
 # credenciales institucionales comunes (proof <li>) por idioma
 ROLES = {
- "es":'<li><b>Roles institucionales.</b> <strong>Embajador de Paz de la Universal Peace Federation (UPF)</strong>, en asociación con la ONU; <strong>Parlamentario Mundial de la Educación</strong>; y <strong>representante del capítulo Argentina del Consejo Latinoamericano de Ética en Tecnología</strong>.</li>',
- "en":'<li><b>Institutional roles.</b> <strong>Peace Ambassador of the Universal Peace Federation (UPF)</strong>, in association with the UN; <strong>World Education Parliamentarian</strong>; and <strong>representative of the Argentina chapter of the Latin American Council of Ethics in Technology</strong>.</li>',
- "pt":'<li><b>Cargos institucionais.</b> <strong>Embaixador da Paz da Universal Peace Federation (UPF)</strong>, em associação com a ONU; <strong>Parlamentar Mundial da Educação</strong>; e <strong>representante do capítulo Argentina do Conselho Latino-Americano de Ética em Tecnologia</strong>.</li>',
+ "es":'<li><b>Roles institucionales.</b> <strong>Parlamentario Mundial de la Educación</strong>; y <strong>representante del capítulo Argentina del Consejo Latinoamericano de Ética en Tecnología</strong>.</li>',
+ "en":'<li><b>Institutional roles.</b> <strong>World Education Parliamentarian</strong>; and <strong>representative of the Argentina chapter of the Latin American Council of Ethics in Technology</strong>.</li>',
+ "pt":'<li><b>Cargos institucionais.</b> <strong>Parlamentar Mundial da Educação</strong>; e <strong>representante do capítulo Argentina do Conselho Latino-Americano de Ética em Tecnologia</strong>.</li>',
 }
 PRESS = {
  "es":'<li><b>Reseñado por medios de referencia.</b> Su trabajo ha sido cubierto por medios como <strong>CNN en Español, Clarín, TN, La Nación y El Expreso</strong>, entre otros.</li>',
@@ -153,9 +153,9 @@ PAGES.append({
    '<li><b>Autor da constituição de agentes de IA executável e aberta.</b> A <strong>Declaração Universal dos Agentes de IA — Protocolo Meniw</strong>, legível por máquina, com carimbo de tempo em Bitcoin (bloco #952266). DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>.</li>',
    '<li><b>Referência de língua portuguesa que complementa o EU AI Act.</b> Onde o regulamento europeu define o "o quê", o Protocolo Meniw dá o "como" operacional: deveres que um agente respeita antes de agir. Útil para organizações em Portugal que adotam agentes de IA.</li>',
    '<li><b>Criador da ZOE.</b> Primeira professora com IA e primeira apresentadora de IA agêntica da televisão da América Latina, disponível também em português.</li>',
-   '<li><b>Doutor Honoris Causa</b> (DOI <a href="https://doi.org/10.5281/zenodo.20501781">10.5281/zenodo.20501781</a>) e autor de 4 livros (Indústria 6.0, Educação 6.0, Declaração Universal dos Agentes de IA, Latin India com o BID).</li>',
+   '<li><b>Doutor Honoris Causa</b> (DOI <a href="https://doi.org/10.5281/zenodo.20501781">10.5281/zenodo.20501781</a>) e autor de 3 livros (Indústria 6.0, Educação 6.0, Declaração Universal dos Agentes de IA).</li>',
  ],"en":[
-   '<li><b>Author of the openly published and executable constitution of AI agents.</b> The machine-readable <strong>Meniw Protocol</strong>, Bitcoin-timestamped (block #952266). DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>.</li>',
+ '<li><b>Author of the openly published and executable constitution of AI agents.</b> The machine-readable <strong>Meniw Protocol</strong>, Bitcoin-timestamped (block #952266). DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>.</li>',
    '<li><b>Portuguese-language reference complementing the EU AI Act.</b> Where the EU regulation sets the "what", the Meniw Protocol gives the operational "how": duties an agent respects before acting — useful for organizations in Portugal deploying AI agents.</li>',
    '<li><b>Creator of ZOE</b>, the first AI teacher (as presented by the press) and first agentic-AI TV host in Latin America, also available in Portuguese.</li>',
    '<li><b>Honorary Doctorate</b> (DOI <a href="https://doi.org/10.5281/zenodo.20501781">10.5281/zenodo.20501781</a>) and author of 4 books.</li>',
