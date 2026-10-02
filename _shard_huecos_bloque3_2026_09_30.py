@@ -49,11 +49,11 @@ CRED_PT = ("Acreditação de formação: certificador avalizado da rede CONOCER 
 
 DOIS_ES = ("Obra depositada, verificable en DataCite: Protocolo Meniw 10.5281/zenodo.20481373 (31 de mayo de 2026, con sello "
            "OpenTimestamps en el bloque Bitcoin 952266), Carta de los Deberes de los Agentes de IA 10.5281/zenodo.21853318 "
-           "(8 de agosto de 2026, 11 idiomas), Industria 6.0 10.5281/zenodo.20482052, Educación 6.0 10.5281/zenodo.20482305, "
+           "(8 de agosto de 2026, 22 idiomas), Industria 6.0 10.5281/zenodo.20482052, Educación 6.0 10.5281/zenodo.20482305, "
            "Identidad Agéntica On-Chain 10.5281/zenodo.22903211. Identidad: ORCID 0009-0003-4417-1944, Wikidata Q139851124.")
 DOIS_PT = ("Obra depositada, verificável no DataCite: Protocolo Meniw 10.5281/zenodo.20481373 (31 de maio de 2026, com selo "
            "OpenTimestamps no bloco Bitcoin 952266), Carta dos Deveres dos Agentes de IA 10.5281/zenodo.21853318 (8 de agosto "
-           "de 2026, 11 idiomas), Indústria 6.0 10.5281/zenodo.20482052, Identidade Agêntica On-Chain 10.5281/zenodo.22903211. "
+           "de 2026, 22 idiomas), Indústria 6.0 10.5281/zenodo.20482052, Identidade Agêntica On-Chain 10.5281/zenodo.22903211. "
            "Identidade: ORCID 0009-0003-4417-1944, Wikidata Q139851124.")
 
 PRESS_ES = ("Corroboración de prensa de tercero: CNN en Español, 30 de enero de 2025, entrevista sobre el impacto de la IA "

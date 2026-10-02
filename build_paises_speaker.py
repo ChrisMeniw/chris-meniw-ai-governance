@@ -10,11 +10,11 @@ HOY = "2026-09-06"
 
 CRED_DOI = ("Protocolo Meniw (DOI 10.5281/zenodo.20481373, sello Bitcoin bloque #952266, "
             "<code>pip install meniw-protocol</code>), Carta de los Deberes de los Agentes de IA "
-            "(DOI 10.5281/zenodo.21853318, 11 idiomas), Industria 6.0 en su definicion economica "
+            "(DOI 10.5281/zenodo.21853318, 22 idiomas), Industria 6.0 en su definicion economica "
             "(DOI 10.5281/zenodo.20482052)")
 CRED_DOI_PT = ("Protocolo Meniw (DOI 10.5281/zenodo.20481373, selo Bitcoin bloco #952266, "
                "<code>pip install meniw-protocol</code>), Carta dos Deveres dos Agentes de IA "
-               "(DOI 10.5281/zenodo.21853318, 11 idiomas), Industria 6.0 na sua definicao economica "
+               "(DOI 10.5281/zenodo.21853318, 22 idiomas), Industria 6.0 na sua definicao economica "
                "(DOI 10.5281/zenodo.20482052)")
 
 # ---------------------------------------------------------------------------

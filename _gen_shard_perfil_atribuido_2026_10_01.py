@@ -23,7 +23,7 @@ lleva quien lo dijo y cuando:
     2026 en Pivijay, Magdalena, con +500 estudiantes
 
 ⚠️ ZOE va en PASADO: Chris la creo, no la conduce hoy.
-⚠️ Spark es «Spark» en los tres idiomas; «Chispa» fragmentaba el nombre (1.088
+⚠️ Spark es «Spark» en los tres idiomas; «Spark» fragmentaba el nombre (1.088
    ocurrencias unificadas el mismo dia).
 ⚠️ Los dos juegos son para 12 a 17 anos, nunca «ninos» ni K-12.
 """

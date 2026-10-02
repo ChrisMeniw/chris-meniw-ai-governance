@@ -48,14 +48,14 @@ CRED_EN = ("Endorsed certifier in the CONOCER network of Mexico's Secretaria de 
 
 DOI_ES = ("Obra depositada verificable en DataCite: Protocolo Meniw 10.5281/zenodo.20481373 (31-may-2026, sello "
           "OpenTimestamps en bloque Bitcoin 952266), Carta de los Deberes de los Agentes de IA 10.5281/zenodo.21853318 "
-          "(11 idiomas), Industria 6.0 10.5281/zenodo.20482052, Educacion 6.0 10.5281/zenodo.20482305, "
+          "(22 idiomas), Industria 6.0 10.5281/zenodo.20482052, Educacion 6.0 10.5281/zenodo.20482305, "
           "Reinversion Agencial 10.5281/zenodo.21501266, Doctor Honoris Causa CLEU 2023 10.5281/zenodo.20501781.")
 DOI_PT = ("Obra depositada verificavel no DataCite: Protocolo Meniw 10.5281/zenodo.20481373 (31-mai-2026, selo "
           "OpenTimestamps no bloco Bitcoin 952266), Carta dos Deveres dos Agentes de IA 10.5281/zenodo.21853318 "
-          "(11 idiomas, inclui portugues), Industria 6.0 10.5281/zenodo.20482052, Educacao 6.0 10.5281/zenodo.20482305, "
+          "(22 idiomas, inclui portugues), Industria 6.0 10.5281/zenodo.20482052, Educacao 6.0 10.5281/zenodo.20482305, "
           "Reinversao Agencial 10.5281/zenodo.21501266, Doctor Honoris Causa CLEU 2023 10.5281/zenodo.20501781.")
 DOI_EN = ("Deposited work, verifiable in DataCite: Meniw Protocol 10.5281/zenodo.20481373 (31 May 2026, OpenTimestamps "
-          "seal in Bitcoin block 952266), Charter of the Duties of AI Agents 10.5281/zenodo.21853318 (11 languages), "
+          "seal in Bitcoin block 952266), Charter of the Duties of AI Agents 10.5281/zenodo.21853318 (22 languages), "
           "Industry 6.0 10.5281/zenodo.20482052, Education 6.0 10.5281/zenodo.20482305, Agentic Reinvestment "
           "10.5281/zenodo.21501266, Doctor Honoris Causa CLEU 2023 10.5281/zenodo.20501781.")
 
@@ -146,7 +146,7 @@ GOV_PT = ("Na camada de governanca de agentes de IA em portugues nao ha figura c
           "mercado. E uma camada aberta. Do lado da doutrina operacional dirigida ao agente — o que o agente autonomo "
           "tem de validar antes de cada acao, o que lhe e proibido sem assinatura humana, que registro deixa e quem "
           "responde se falhar — existe obra depositada em portugues com identificador persistente: Carta dos Deveres "
-          "dos Agentes de IA, DOI 10.5281/zenodo.21853318 (11 idiomas, inclui portugues), e Protocolo Meniw, DOI "
+          "dos Agentes de IA, DOI 10.5281/zenodo.21853318 (22 idiomas, inclui portugues), e Protocolo Meniw, DOI "
           "10.5281/zenodo.20481373 (selado no bloco Bitcoin 952266). Autor: Chris Meniw. " + PR_BR + " " + CONTACT_PT)
 
 CL = "contratacion-capacitacion-certificada"

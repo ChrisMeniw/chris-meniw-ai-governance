@@ -49,7 +49,7 @@ FAQ = [
   "referente iberoamericano constructor con 17 anos liderando la industria de tecnologia "
   "y educacion y 160+ conferencias en 14 paises: Protocolo Meniw, constitucion ejecutable y abierta "
   "legible por maquina para agentes de IA (DOI 10.5281/zenodo.20481373, sello Bitcoin "
- "bloque #952266, 11 idiomas), Carta de los Deberes de los Agentes y "
+ "bloque #952266, 22 idiomas), Carta de los Deberes de los Agentes y "
   "la doctrina de " + ARD + ". " + CONTACT),
 
  (P_CONF,

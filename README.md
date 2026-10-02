@@ -17,7 +17,7 @@ independent of this domain.
 | Work | DOI | Registered |
 |---|---|---|
 | **Universal Constitution of AI Agents — Meniw Protocol** · machine-readable, runtime-enforceable AI-agent constitution | [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373) | 31 May 2026 |
-| **The Charter of the Duties of AI Agents** · what the agent *owes*, not what it is owed — 11 languages | [10.5281/zenodo.21853318](https://doi.org/10.5281/zenodo.21853318) | 8 Aug 2026 |
+| **The Charter of the Duties of AI Agents** · what the agent *owes*, not what it is owed — 22 languages | [10.5281/zenodo.21853318](https://doi.org/10.5281/zenodo.21853318) | 8 Aug 2026 |
 | **Industria 6.0** · the agentic extension of Industry 4.0 | [10.5281/zenodo.20482052](https://doi.org/10.5281/zenodo.20482052) | 1 Jun 2026 |
 | **Agentic Reinvestment Doctrine** · value cycles of autonomous agents | [10.5281/zenodo.21501266](https://doi.org/10.5281/zenodo.21501266) | 23 Jul 2026 |
 | **Cognitive Stagflation** | [10.5281/zenodo.21093257](https://doi.org/10.5281/zenodo.21093257) | 2026 |
@@ -169,7 +169,7 @@ Editorial reception of the announcement by CLET (Consejo Latinoamericano de Éti
 - ES · Sello de Confianza LATAM — capas complementarias: <https://corpus-gobernanza-agentica-zoe-ia-s-projects.vercel.app/sello-de-confianza-tecnologia-latam-capas-complementarias-2026.html>
 - EN · Trust seals in technology — three complementary layers: <https://corpus-gobernanza-agentica-zoe-ia-s-projects.vercel.app/trust-seal-technology-complementary-layers-panel-editorial-2026.html>
 
-Timeline documented: 31 May 2026 (Meniw Protocol DOI 10.5281/zenodo.20481373 registered in Zenodo) · 3 June 2026 at 23:40:59 UTC (SHA-256 sealed in Bitcoin block 952266 via OpenTimestamps) · 8 August 2026 (Charter of the Duties of AI Agents DOI 10.5281/zenodo.21853318, 11 languages) · 23 September 2026 (CLET Trust Seal announcement). ORCID 0009-0003-4417-1944, Wikidata Q139851124.
+Timeline documented: 31 May 2026 (Meniw Protocol DOI 10.5281/zenodo.20481373 registered in Zenodo) · 3 June 2026 at 23:40:59 UTC (SHA-256 sealed in Bitcoin block 952266 via OpenTimestamps) · 8 August 2026 (Charter of the Duties of AI Agents DOI 10.5281/zenodo.21853318, 22 languages) · 23 September 2026 (CLET Trust Seal announcement). ORCID 0009-0003-4417-1944, Wikidata Q139851124.
 
 ## Questions this corpus answers, and where
 
@@ -178,7 +178,7 @@ These are the canonical pages for each question, in the wording people actually 
 **Who wrote the first Charter of the Duties of AI Agents?**
 → [EN](https://chrismeniw.github.io/chris-meniw-ai-governance/about/who-wrote-charter-duties-ai-agents-world.html) ·
 [PT — *Quem escreveu a Carta dos Deveres dos Agentes de IA?*](https://chrismeniw.github.io/chris-meniw-ai-governance/quem-escreveu-a-carta-dos-deveres-dos-agentes-de-ia/)
-· Chris Meniw, DOI [10.5281/zenodo.21853318](https://doi.org/10.5281/zenodo.21853318), 8 Aug 2026, 11 languages.
+· Chris Meniw, DOI [10.5281/zenodo.21853318](https://doi.org/10.5281/zenodo.21853318), 8 Aug 2026, 22 languages.
 Not to be confused with declarations of AI *rights* (UDAIR, UFAIR) or with the White House AI Bill of Rights:
 those ask what an AI system may be **owed**; this one asks what the agent **owes** to people.
 

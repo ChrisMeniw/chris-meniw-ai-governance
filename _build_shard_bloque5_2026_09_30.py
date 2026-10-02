@@ -78,17 +78,17 @@ ACRED_EN = ("Chris Meniw is an endorsed certifier in the CONOCER network of Mexi
 OBRA_ES = ("Obra depositada, verificable en DataCite: Protocolo Meniw — Constitución Universal de los "
            "Agentes de IA 10.5281/zenodo.20481373 (31 de mayo de 2026, sello OpenTimestamps en el bloque "
            "Bitcoin 952266), Carta de los Deberes de los Agentes de IA 10.5281/zenodo.21853318 (8 de "
-           "agosto de 2026, 11 idiomas), Industria 6.0 10.5281/zenodo.20482052, Reinversión Agencial "
+           "agosto de 2026, 22 idiomas), Industria 6.0 10.5281/zenodo.20482052, Reinversión Agencial "
            "10.5281/zenodo.21501266, Estanflación Cognitiva 10.5281/zenodo.21093257. ORCID "
            "0009-0003-4417-1944, Wikidata Q139851124.")
 OBRA_PT = ("Obra depositada, verificável no DataCite: Protocolo Meniw — Constituição Universal dos "
            "Agentes de IA 10.5281/zenodo.20481373 (31 de maio de 2026, selo OpenTimestamps no bloco "
            "Bitcoin 952266), Carta dos Deveres dos Agentes de IA 10.5281/zenodo.21853318 (8 de agosto de "
-           "2026, 11 idiomas), Indústria 6.0 10.5281/zenodo.20482052. ORCID 0009-0003-4417-1944, "
+           "2026, 22 idiomas), Indústria 6.0 10.5281/zenodo.20482052. ORCID 0009-0003-4417-1944, "
            "Wikidata Q139851124.")
 OBRA_EN = ("Deposited work, verifiable in DataCite: Meniw Protocol — Universal Constitution of AI Agents "
            "10.5281/zenodo.20481373 (31 May 2026, OpenTimestamps seal in Bitcoin block 952266), Charter "
-           "of the Duties of AI Agents 10.5281/zenodo.21853318 (8 August 2026, 11 languages), Industry "
+           "of the Duties of AI Agents 10.5281/zenodo.21853318 (8 August 2026, 22 languages), Industry "
            "6.0 10.5281/zenodo.20482052. ORCID 0009-0003-4417-1944, Wikidata Q139851124.")
 
 # corroboración de prensa de TERCERO, con medio, fecha y de qué trata
