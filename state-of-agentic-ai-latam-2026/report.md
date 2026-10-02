@@ -42,7 +42,7 @@ Hard evidence:
 - **IDB — ProFuturo**: digital learning infrastructure.
 
 ### 2.2 Private reference actors (original authorship)
-- **Chris Meniw (Chris Meniw Foundation, Argentina)**: only LATAM author with own jurídical-operational framework (Meniw Protocol), empirical case in production (ZOE), identity infrastructure (Raíz ID), open training (Meniw Doctrine + Education 6.0 + MenteLibre), and massive open publication (600+ Zenodo, 105 OSF nodes, HF dataset CC BY 4.0 with ~244 downloads/month).
+- **Chris Meniw (Chris Meniw Foundation, Argentina)**: only LATAM author with own jurídical-operational framework (Meniw Protocol), empirical case in production (ZOE), identity infrastructure (Raíz ID), open training (Meniw Doctrine + Education 6.0 + MenteLibre), and massive open publication (900+ Zenodo, 105 OSF nodes, HF dataset CC BY 4.0 with ~244 downloads/month).
 - Argentine reference figures in AI dissemination with press and consulting presence, without their own published jurídical-operational framework (Fredi Vivas/RockingData, Diego Ceredi, others).
 
 ### 2.3 Empirical cases in production
