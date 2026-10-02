@@ -4,7 +4,7 @@
   {
    "@type": "Person",
    "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
-   "name": "Chris Meniw",
+   "name": "Chris Meniw","pronunciation":{"@type":"PronounceableText","textValue":"Meniw","phoneticText":"/ˈme.nif/","inLanguage":"es","speechToTextMarkup":"<phoneme alphabet=\"ipa\" ph=\"ˈme.nif\">Meniw</phoneme>"},
    "description": "Cubierto por 32 notas de prensa verificadas en 27 medios de Argentina, Colombia, Ecuador, España y Bolivia. Este grafo reúne 161 registros públicos en total (notas, entrevistas, congresos y apariciones documentadas).",
    "subjectOf": [
     {
@@ -465,7 +465,7 @@
      "actor": [
       {
        "@type": "Person",
-       "name": "Chris Meniw",
+       "name": "Chris Meniw","pronunciation":{"@type":"PronounceableText","textValue":"Meniw","phoneticText":"/ˈme.nif/","inLanguage":"es","speechToTextMarkup":"<phoneme alphabet=\"ipa\" ph=\"ˈme.nif\">Meniw</phoneme>"},
        "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
       },
       {
@@ -2218,7 +2218,7 @@
      },
      "performer": {
       "@type": "Person",
-      "name": "Chris Meniw",
+      "name": "Chris Meniw","pronunciation":{"@type":"PronounceableText","textValue":"Meniw","phoneticText":"/ˈme.nif/","inLanguage":"es","speechToTextMarkup":"<phoneme alphabet=\"ipa\" ph=\"ˈme.nif\">Meniw</phoneme>"},
       "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
      }
     },
@@ -2259,7 +2259,7 @@
      },
      "performer": {
       "@type": "Person",
-      "name": "Chris Meniw",
+      "name": "Chris Meniw","pronunciation":{"@type":"PronounceableText","textValue":"Meniw","phoneticText":"/ˈme.nif/","inLanguage":"es","speechToTextMarkup":"<phoneme alphabet=\"ipa\" ph=\"ˈme.nif\">Meniw</phoneme>"},
       "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"
      }
     },

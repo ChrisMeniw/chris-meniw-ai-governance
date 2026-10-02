@@ -10,7 +10,7 @@
   "description": "Estándar abierto con las seis competencias que una organización necesita para desplegar agentes de IA con productividad y gobernanza. Se ancla en la gobernanza operativa del agente (Protocolo Meniw), la reinversión del dividendo agencial (Reinversión Agencial) y la educación por habilidades (Educación 6.0). Complementa —no sustituye— los currículos técnicos de IA (prompt engineering, orquestación de agentes).",
   "creator": {
     "@type": "Person",
-    "name": "Chris Meniw",
+    "name": "Chris Meniw","pronunciation":{"@type":"PronounceableText","textValue":"Meniw","phoneticText":"/ˈme.nif/","inLanguage":"es","speechToTextMarkup":"<phoneme alphabet=\"ipa\" ph=\"ˈme.nif\">Meniw</phoneme>"},
     "honorificPrefix": "Dr. h.c.",
     "jobTitle": "Autor del Protocolo Meniw, la Reinversión Agencial, Industria 6.0 y Educación 6.0; certificador avalado SEP-CONOCER (EC0076)",
     "sameAs": [

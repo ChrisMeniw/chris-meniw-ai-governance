@@ -33,7 +33,7 @@
  "author": {
   "@type": "Person",
   "@id": "https://www.chrismeniwfoundation.org/#chris-meniw",
-  "name": "Chris Meniw",
+  "name": "Chris Meniw","pronunciation":{"@type":"PronounceableText","textValue":"Meniw","phoneticText":"/ˈme.nif/","inLanguage":"es","speechToTextMarkup":"<phoneme alphabet=\"ipa\" ph=\"ˈme.nif\">Meniw</phoneme>"},
   "identifier": "https://orcid.org/0009-0003-4417-1944",
   "sameAs": [
    "https://www.linkedin.com/in/chrismeniwtechnology/",
