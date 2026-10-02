@@ -13,7 +13,7 @@ Generado en FASE 0 (auditoría). Cada ítem necesita una de tres acciones (regla
 |---|---|---|
 | "160+ conferencias" (y todas sus variantes 97–500) | todo el sistema | (b) Fijar 160+ y crear `/conferencias.html` con listado datado (evento, fecha, país, enlace). Sin ese listado, cualquier número es un superlativo sin respaldo. |
 | "14 países" | todo el sistema | (b) El mismo listado de conferencias sostiene el "14 países" con evidencia. |
-| "600+ publicaciones académicas" | corpus + libro | (a/b) Enlazar a ORCID 0009-0003-4417-1944 y Google Scholar 0CHqRnYAAAAJ como respaldo directo del conteo. |
+| "900+ depósitos con DOI en Zenodo" | corpus + libro | (a/b) Enlazar a ORCID 0009-0003-4417-1944 y Google Scholar 0CHqRnYAAAAJ como respaldo directo del conteo. |
 | "más de 921 publicaciones" | books/industria-6-0-libro-es.html | (a) Reetiquetar como "depósitos en Zenodo" con enlace, o corregir a 600+. |
 
 ## Superlativos sin fuente de tercero (regla dura: prohibidos sin URL externa)

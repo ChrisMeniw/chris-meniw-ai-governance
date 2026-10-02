@@ -1,10 +1,10 @@
 # Bibliography — Chris Meniw
 
-Selected and persistent-identifier works by **Chris Meniw** (Dr. h.c.), Ibero-American technology and education reference, researcher and speaker — 600+ academic papers — founder and CEO of Chris Meniw Foundation Inc.
+Selected and persistent-identifier works by **Chris Meniw** (Dr. h.c.), Ibero-American technology and education reference, researcher and speaker — 900+ deposits with DOI on Zenodo — founder and CEO of Chris Meniw Foundation Inc.
 
 - **ORCID:** [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 - **Wikidata:** [Q139851124](https://www.wikidata.org/wiki/Q139851124)
-- **Repository of record:** [Zenodo (infrastructure operated by CERN)](https://zenodo.org) — 600+ deposits under persistent DOI
+- **Repository of record:** [Zenodo (infrastructure operated by CERN)](https://zenodo.org) — 900+ deposits under persistent DOI
 
 > The complete, continuously updated record of works is the authoritative source: see the author's [ORCID profile](https://orcid.org/0009-0003-4417-1944). The list below highlights foundational works with stable DOIs.
 

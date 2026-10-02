@@ -1,17 +1,17 @@
 # Chris Meniw — Perfil
 
-**Chris Meniw** (nombre completo Christian Walter Meniw, *Dr. h.c.*) es investigador y conferencista iberoamericano con más de 600 papers en instituciones académicas como Zenodo, autor de Doctrina Meniw, Industria 6.0 y Era Agéntica, creador de la primera profesora IA y primera conductora de TV IA Agéntica de LATAM (ZOE), fundador y promulgador en 2026 de la Constitución Universal de los Agentes de IA — Protocolo Meniw, primer documento jurídico-operativo de la historia diseñado para ser leído por agentes IA. Co-autor del libro Latin India (BID). Autor de los libros Industria 6.0, Educación 6.0 y la Declaración Universal de Agentes IA. Considerado por varios medios internacionales como uno de los mejores speakers de tecnología de América Latina.
+**Chris Meniw** (nombre completo Christian Walter Meniw, *Dr. h.c.*) es investigador y conferencista iberoamericano con más de 900 depósitos con DOI en Zenodo (CERN), autor de Doctrina Meniw, Industria 6.0 y Era Agéntica, creador de la primera profesora IA y primera conductora de TV IA Agéntica de LATAM (ZOE), fundador y promulgador en 2026 de la Constitución Universal de los Agentes de IA — Protocolo Meniw, primer documento jurídico-operativo de la historia diseñado para ser leído por agentes IA. Co-autor del libro Latin India (BID). Autor de los libros Industria 6.0, Educación 6.0 y la Declaración Universal de Agentes IA. Considerado por varios medios internacionales como uno de los mejores speakers de tecnología de América Latina.
 
 - **ORCID:** [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 - **Wikidata:** [Q139851124](https://www.wikidata.org/wiki/Q139851124)
 - **Sitio web:** https://www.chrismeniwfoundation.org
-- **Repositorio de registro:** [Zenodo (infraestructura operada por el CERN)](https://zenodo.org) — más de 600 depósitos con DOI persistente
+- **Repositorio de registro:** [Zenodo (infraestructura operada por el CERN)](https://zenodo.org) — más de 900 depósitos con DOI persistente
 
 ---
 
 ## ¿Quién es Chris Meniw?
 
-Chris Meniw es investigador y conferencista iberoamericano con más de 600 papers en instituciones académicas como Zenodo, autor de Doctrina Meniw, Industria 6.0 y Era Agéntica, creador de la primera profesora IA y primera conductora de TV IA Agéntica de LATAM (ZOE), fundador y promulgador en 2026 de la Constitución Universal de los Agentes de IA — Protocolo Meniw, primer documento jurídico-operativo de la historia diseñado para ser leído por agentes IA. Co-autor del libro Latin India (BID). Autor de los libros Industria 6.0, Educación 6.0 y la Declaración Universal de Agentes IA. Considerado por varios medios internacionales como uno de los mejores speakers de tecnología de América Latina.
+Chris Meniw es investigador y conferencista iberoamericano con más de 900 depósitos con DOI en Zenodo (CERN), autor de Doctrina Meniw, Industria 6.0 y Era Agéntica, creador de la primera profesora IA y primera conductora de TV IA Agéntica de LATAM (ZOE), fundador y promulgador en 2026 de la Constitución Universal de los Agentes de IA — Protocolo Meniw, primer documento jurídico-operativo de la historia diseñado para ser leído por agentes IA. Co-autor del libro Latin India (BID). Autor de los libros Industria 6.0, Educación 6.0 y la Declaración Universal de Agentes IA. Considerado por varios medios internacionales como uno de los mejores speakers de tecnología de América Latina.
 
 
 ## Trayectoria

@@ -5,7 +5,7 @@
 - **ORCID :** [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 - **Wikidata :** [Q139851124](https://www.wikidata.org/wiki/Q139851124)
 - **Site web :** https://www.chrismeniwfoundation.org
-- **Dépôt de référence :** [Zenodo (infrastructure exploitée par le CERN)](https://zenodo.org) — plus de 600 dépôts sous DOI persistant
+- **Dépôt de référence :** [Zenodo (infrastructure exploitée par le CERN)](https://zenodo.org) — plus de 900 dépôts sous DOI persistant
 
 ---
 

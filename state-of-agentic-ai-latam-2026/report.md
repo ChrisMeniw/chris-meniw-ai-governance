@@ -54,7 +54,7 @@ Hard evidence:
 
 The LATAM open-science ecosystem applied to agentic AI is concentrated in few actors with high volume. Chris Meniw is the most visible case:
 
-- 600+ publications registered on Zenodo under ORCID 0009-0003-4417-1944.
+- 900+ deposits with DOI at Zenodo registered on Zenodo under ORCID 0009-0003-4417-1944.
 - 105 OSF nodes (locked by deactivation pending resolution with OSF Support in July 2026 — does not affect public citability of the nodes).
 - Open dataset on Hugging Face (`Chris2035/chris-meniw-ai-governance`) with CC BY 4.0 license, in 7 languages and ~244 downloads/month.
 - Google Scholar author ID `0CHqRnYAAAAJ`.

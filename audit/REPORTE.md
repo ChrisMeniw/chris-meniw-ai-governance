@@ -8,7 +8,7 @@
 
 ### Fase 1 — Entidad canónica
 - `data/entity.json`: fuente única de verdad. Valores fijados por Chris (2026-07-22):
-  **160+ conferencias · 14 países · 16 años de docencia (pasado) · 32 notas / 27 medios · 600+ publicaciones**.
+  **160+ conferencias · 14 países · 16 años de docencia (pasado) · 32 notas / 27 medios · 900+ depósitos en Zenodo**.
 - JSON-LD `schema.org/Person` generado desde ese archivo e inyectado (idempotente) en
   **119 páginas del corpus** y **1.343 páginas del sitio de la Fundación** (local).
   Campos: name, alternateName, jobTitle, worksFor, knowsAbout, nationality, url, image,

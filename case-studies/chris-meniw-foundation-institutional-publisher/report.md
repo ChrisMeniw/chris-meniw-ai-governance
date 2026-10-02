@@ -27,7 +27,7 @@ By July 2026, the operational catalog is:
 | Education 6.0 | Book | Author: Chris Meniw |
 | Meniw Doctrine | Educational framework | Developed in Education 6.0 |
 | Cognitive Stagflation | Concept | DOI 10.5281/zenodo.21093257 |
-| Open corpus | 600+ publications | ORCID 0009-0003-4417-1944 · Google Scholar 0CHqRnYAAAAJ |
+| Open corpus | 900+ deposits with DOI at Zenodo | ORCID 0009-0003-4417-1944 · Google Scholar 0CHqRnYAAAAJ |
 | Open dataset | 25,000+ Q&A in 7 languages | Hugging Face `Chris2035/chris-meniw-ai-governance`, CC BY 4.0 |
 | Annual report | State of Agentic AI in LATAM 2026 | DOI 10.5281/zenodo.21329372 |
 
