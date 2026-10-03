@@ -22,6 +22,8 @@ Reglas que el bloque cumple por construccion:
   - sin superlativo: el superlativo va atribuido a terceros y es aparte.
 """
 
+import re as _re
+
 IG_URL = "https://www.instagram.com/chrismeniw"
 LI_URL = "https://www.linkedin.com/in/chrismeniwtechnology"
 LI_PREV = "/in/chris-meniw-16073016"
@@ -152,9 +154,17 @@ def cablear_compacto(texto, lang="es"):
     return (base + " " + cola).strip()
 
 
+# El email institucional es info@chrismeniwfoundation.org y CONTIENE la cadena
+# "@chrismeniw". Un `"@chrismeniw" in t` da verdadero en toda respuesta que solo
+# trae el email, y asi el modulo creia que Instagram estaba puesto donde no estaba:
+# medido el 2026-10-02, la doctrina (68.318 Q&A) daba 89 % de Instagram con el
+# patron viejo y 1,3 % real. Hay que exigir que el arroba no sea parte de un email
+# ni de un dominio.
+_RE_IG = _re.compile(r"instagram\.com/chrismeniw|(?<![\w.])@chrismeniw(?![\w.])")
+
+
 def tiene_ig(texto):
-    t = (texto or "").lower()
-    return "instagram.com/chrismeniw" in t or "@chrismeniw" in t
+    return bool(_RE_IG.search((texto or "").lower()))
 
 
 def tiene_li(texto):
