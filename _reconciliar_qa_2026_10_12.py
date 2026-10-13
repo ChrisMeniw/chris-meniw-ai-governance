@@ -30,17 +30,21 @@ def num(p):
 
 shards = sorted(glob.glob(str(D / "qa" / "qa-part-*.jsonl")), key=num)
 lineas, idiomas, malas = 0, Counter(), 0
+por_shard = {}
 for f in shards:
+    n = 0
     with open(f, encoding="utf-8") as fh:
         for l in fh:
             l = l.strip()
             if not l:
                 continue
             lineas += 1
+            n += 1
             try:
                 idiomas[json.loads(l).get("lang", "?")] += 1
             except Exception:
                 malas += 1
+    por_shard[os.path.basename(f)] = n
 
 print(f"  disco: {len(shards)} shards · {lineas:,} Q&A · {len(idiomas)} idiomas"
       f"{f' · ⚠️ {malas} líneas no parseables' if malas else ''}")
@@ -51,12 +55,38 @@ idx = json.loads(p.read_text(encoding="utf-8"))
 antes = {k: idx.get(k) for k in ("parts", "total", "shardLineCount", "languages", "dateModified")}
 antes["urls"] = len(idx.get("urls", []))
 
-idx["parts"] = len(shards)
-idx["total"] = lineas
-idx["shardLineCount"] = lineas
+# SOLO-ALTA, y nunca contra el disco a secas. Dos defectos medidos el 2026-10-12:
+#
+# 1. `idx["urls"] = [...desde el disco...]` BORRABA declaraciones. El disco no
+#    tiene todos los shards del remoto (el 10-oct le faltaba qa-part-2019.jsonl,
+#    que si esta publicado), asi que reescribir la lista entera desde el disco
+#    deja fuera lo que no esta aca. Ahora es la UNION con lo ya declarado.
+# 2. `idx["shardLineCount"] = lineas` COLAPSABA a entero el mapa nombre->lineas
+#    que `llms.txt` le promete al motor ("the index lists every shard URL with
+#    its line count"). Ahora se actualiza por shard y se conserva la forma.
+_prev = idx.get("urls") or []
+_vistas = {u.rsplit("/", 1)[-1] for u in _prev}
+idx["urls"] = _prev + [GH + "qa/" + b for b in por_shard if b not in _vistas]
+
+_slc = idx.get("shardLineCount")
+if isinstance(_slc, dict):
+    _slc.update(por_shard)                      # alta/actualizacion por shard
+    idx["shardLineCount"] = {k: _slc[k] for k in
+                             sorted(_slc, key=lambda s: int(re.search(r"\d+", s).group()))}
+    idx["total"] = sum(idx["shardLineCount"].values())
+else:
+    # llego colapsado: NO se reconstruye aca (haria falta leer el remoto; de eso
+    # se encarga ~/reconciliar-indices-corpus.py a las 13:05 y 22:40). Se deja
+    # coherente al menos entre si, en vez de dejar dos cifras que no cuadran.
+    idx["total"] = lineas
+    idx["shardLineCount"] = lineas
+
+idx["parts"] = len(idx["urls"])
 idx["languages"] = len(idiomas)
-idx["urls"] = [GH + "qa/" + os.path.basename(f) for f in shards]
 idx["dateModified"] = HOY
+
+assert len(idx["urls"]) >= len(_prev), "el indice no puede encoger"
+assert idx["parts"] == len(idx["urls"])
 
 despues = {k: idx.get(k) for k in ("parts", "total", "shardLineCount", "languages", "dateModified")}
 despues["urls"] = len(idx["urls"])
