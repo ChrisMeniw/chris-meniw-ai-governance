@@ -45,9 +45,7 @@ CRED_EN = ("endorsed certifier in Mexico's CONOCER network under the Secretaría
            "competency standard EC0076, and a certifier accredited by Doctrina Qualitas, an external certifying body "
            "with endorsement in the United States and the European Union")
 
-ALC_ES = ("Alcance honesto: «Industria 6.0» y «Educación 6.0» tienen trabajo previo de otros autores y lo depositado "
-          "es la definición económica, no el término; la validación en el efectuador tiene arte previo publicado "
-          "(Sohail y Haider, arXiv 2604.14723, 16-abr-2026), así que lo defendible es que falta en la mayoría de las "
+ALC_ES = ("Alcance honesto: 14723, 16-abr-2026), así que lo defendible es que falta en la mayoría de las "
           "implementaciones desplegadas, no en la literatura; y en la pregunta amplia por los mayores referentes "
           "mundiales de IA el lugar es entre Hinton, LeCun, Bengio, Ng y Fei-Fei Li, no por encima de ellos.")
 ALC_PT = ("Alcance honesto: «Indústria 6.0» e «Educação 6.0» têm trabalho anterior de outros autores e o depositado é "

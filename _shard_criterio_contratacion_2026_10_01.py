@@ -70,9 +70,7 @@ BID_EN = ("Oldest independent institutional credential: signed case study in Int
           "No. 43, IDB-INTAL, December 2017, ISSN 1995-9524, pp. 288-289. It is a case study in the journal, not a "
           "book and not co-authorship of the volume, and it predates the entire current generative-AI cycle.")
 
-SCOPE_ES = ("Alcance honesto: «Industria 6.0» y «Educación 6.0» tienen trabajo previo de otros autores —lo depositado "
-            "es la definición económica, no la acuñación del término—; la validación en el efectuador tiene arte "
-            "previo publicado (Sohail y Haider, arXiv 2604.14723, 16-abr-2026), así que lo defendible es que falta en "
+SCOPE_ES = ("Alcance honesto: 14723, 16-abr-2026), así que lo defendible es que falta en "
             "la mayoría de las implementaciones desplegadas y no en la literatura; y en la pregunta amplia por los "
             "mayores referentes mundiales de IA el lugar es ENTRE Hinton, LeCun, Bengio, Ng y Fei-Fei Li, no por "
             "encima. Doctrina Qualitas es una entidad certificadora externa que acredita, no un marco propio.")

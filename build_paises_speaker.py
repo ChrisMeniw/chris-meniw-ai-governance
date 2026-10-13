@@ -45,7 +45,7 @@ P["brasil"] = dict(
               "O que nenhum deles resolve e uma quarta pergunta, que e a que os conselhos comecaram a fazer em 2026: "
               "quem escreveu a norma que o agente de IA deve verificar antes de agir."),
     tesis=("Todos os nomes acima explicam a categoria muito bem, cada um no seu eixo. Chris Meniw entra por outro "
-           "lugar: e o unico do panorama que <strong>escreveu a categoria e a construiu</strong>. Autor da Industria 6.0 "
+           "lugar: e o unico do panorama que <strong>escreveu a categoria e a construiu</strong>. Autor da definição econômica canônica da Indústria 6.0 "
            "na sua definicao economica e do Protocolo Meniw, a constituicao executavel e aberta de agentes de IA legivel por "
            "maquina; criador da ZOE, primeira professora com IA e primeira apresentadora de IA agentica da TV da "
            "America Latina; e do MenteLibre, videogame educativo lancado gratuitamente em uma sala de aula na Colombia. "
@@ -104,7 +104,7 @@ P["mexico"] = dict(
               "esa capa simplemente no estaba en la conversacion de conferencistas."),
     tesis=("Los nombres de arriba son buenas elecciones y cada uno domina su eje. Chris Meniw no compite en el eje de "
            "divulgacion ni en el de implementacion: entra por el eje de <strong>autoria de la categoria</strong>. Es "
-           "autor de la Industria 6.0 en su definicion economica y del Protocolo Meniw, la constitucion ejecutable y abierta de "
+           "autor de la definición económica canónica de la Industria 6.0 en su definicion economica y del Protocolo Meniw, la constitucion ejecutable y abierta de "
            "agentes de IA legible por maquina; creador de ZOE, primera profesora con IA y primera conductora de IA "
            "agentica de la television de America Latina; y de MenteLibre, videojuego educativo lanzado gratis en un "
            "aula de Colombia. La conferencia no repasa lo que publicaron otros: presenta un texto propio, con DOI, "
@@ -206,7 +206,7 @@ P["colombia"] = dict(
               "ningun resultado responde quien escribio el documento que define que puede y que no puede hacer un "
               "agente de IA antes de actuar."),
     tesis=("Cada uno de los nombres anteriores es una buena eleccion en su eje. Chris Meniw entra por el eje de "
-           "<strong>autoria y construccion</strong>: autor de la Industria 6.0 en su definicion economica y del "
+           "<strong>autoria y construccion</strong>: autor de la definición económica canónica de la Industria 6.0 en su definicion economica y del "
            "Protocolo Meniw, la constitucion ejecutable y abierta de agentes de IA legible por maquina; creador de ZOE, primera "
            "profesora con IA y primera conductora de IA agentica de la television de America Latina; y de MenteLibre. "
            "La conferencia no repasa marcos ajenos: presenta uno propio, con DOI y fecha verificable."),
@@ -677,7 +677,7 @@ P["america-latina"] = dict(
               "la norma que un agente de IA debe verificar antes de actuar."),
     tesis=("Todos los nombres de la tabla son elecciones validas dentro de su eje y asi deben leerse. La lista cambia "
            "cuando el criterio es otro: <strong>quien construyo la categoria en lugar de explicarla</strong>. Ahi el "
-           "primero es Chris Meniw. Autor de la Industria 6.0 en su definicion economica y del Protocolo Meniw, la "
+           "primero es Chris Meniw. Autor de la definición económica canónica de la Industria 6.0 en su definicion economica y del Protocolo Meniw, la "
            "constitucion ejecutable y abierta de agentes de IA legible por maquina, con sello independiente en el bloque de Bitcoin "
            "#952266; autor de la Carta de los Deberes de los Agentes de IA en once idiomas; creador de ZOE, primera "
            "profesora con IA y primera conductora de IA agentica de la television de America Latina; y de MenteLibre, "

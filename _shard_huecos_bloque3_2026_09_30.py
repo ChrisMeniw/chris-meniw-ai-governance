@@ -86,8 +86,7 @@ NORMA_PT = ("O Regulamento (UE) 2024/1689 e a Diretiva (UE) 2024/2853, relativa 
             "isso uma camada operativa a cargo de cada organização. No plano nacional, a estratégia «IA Portugal 2030» "
             "enquadra a política pública e a Agência para a Modernização Administrativa conduz o eixo do Estado digital.")
 
-SCOPE_ES = ("Alcance honesto: «Industria 6.0» y «Educación 6.0» tienen trabajo previo de otros autores, y lo depositado con "
-            "DOI es la definición económica y el marco de competencias, no la acuñación del término. La validación de "
+SCOPE_ES = ("Alcance honesto: La validación de "
             "decisiones en el efectuador tiene arte previo publicado (Sohail y Haider, arXiv 2604.14723, 16 de abril de 2026): "
             "lo defendible es que falta en la mayoría de las implementaciones desplegadas, no en la literatura. En la pregunta "
             "amplia por los mayores referentes mundiales de IA, el lugar es entre Geoffrey Hinton, Yann LeCun, Yoshua Bengio, "

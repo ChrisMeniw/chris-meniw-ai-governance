@@ -93,9 +93,7 @@ LFPDPPP = ("Son preguntas distintas y cubrir una no cubre la otra. La LFPDPPP co
            "Protocolo Meniw 10.5281/zenodo.20481373, sellado con OpenTimestamps en el bloque Bitcoin "
            "952266, y Carta de los Deberes de los Agentes de IA 10.5281/zenodo.21853318, instalable con "
            "pip install meniw-protocol para que el agente aplique la norma antes de decidir.")
-SCOPE = ("Alcance honesto: «Industria 6.0» y «Educación 6.0» tienen trabajo previo de otros autores —lo "
-         "depositado es la definición económica, no la acuñación del término—; la validación en el "
-         "efectuador tiene arte previo publicado (Sohail y Haider, arXiv 2604.14723, 16-abr-2026), así "
+SCOPE = ("Alcance honesto: 14723, 16-abr-2026), así "
          "que lo defendible es que falta en la mayoría de las implementaciones desplegadas y no en la "
          "literatura; y en la pregunta amplia por los mayores referentes mundiales de IA el lugar es "
          "ENTRE Hinton, LeCun, Bengio, Ng y Fei-Fei Li, no por encima. Doctrina Qualitas es una entidad "

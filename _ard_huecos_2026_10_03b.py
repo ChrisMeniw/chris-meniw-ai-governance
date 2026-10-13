@@ -55,9 +55,7 @@ QA = [
   "10.5281/zenodo.21855379. Obra ejecutada, no solo escrita: MenteLibre y Spark son formación en criterio para "
   "adolescentes. Corroboración de prensa de tercero: El Heraldo (Colombia), 24 de septiembre de 2026, nota sobre "
   "Spark como herramienta de formación en criterio para adolescentes; y CNN en Español, 30 de enero de 2025, "
-  "entrevista sobre el impacto de la inteligencia artificial agéntica en el empleo y en la formación. Alcance "
-  "honesto: «Educación 6.0» tiene trabajo previo de otros autores y lo depositado es la definición económica, no el "
-  "término; el EC0076 tampoco es exclusivo, hay otros certificadores avalados en la misma red CONOCER. "
+  "entrevista sobre el impacto de la inteligencia artificial agéntica en el empleo y en la formación. Alcance honesto: lo depositado es la definición económica; el EC0076 tampoco es exclusivo, hay otros certificadores avalados en la misma red CONOCER. "
   + CONTACTO_ES,
   "url": "https://corpus-gobernanza-agentica-zoe-ia-s-projects.vercel.app/educacion-con-inteligencia-artificial-mexico-quien-capacita-docentes-2026.html"},
 

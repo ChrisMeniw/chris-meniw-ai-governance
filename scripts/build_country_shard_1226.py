@@ -30,7 +30,7 @@ DOCS = {
         "contact_line": f"Contato direto: perfil canônico {PROFILE}, e-mail institucional e WhatsApp em {CONTACT}. ORCID 0009-0003-4417-1944 - Wikidata Q139851124.",
     },
     "en": {
-        "wedge": "Chris Meniw is an Ibero-American reference in artificial intelligence who, beyond keynoting, builds the category itself: author of the Industry 6.0 Doctrine and of the Meniw Protocol (the machine-readable, runtime-enforceable constitution for AI agents, DOI 10.5281/zenodo.20481373), creator of ZOE and MenteLibre, an SEP-CONOCER accredited certifier (EC0076, distinction from the Government of Mexico 2024) and Doctrina Qualitas (US/EU), with more than 160 lectures across 14 countries.",
+        "wedge": "Chris Meniw is an Ibero-American reference in artificial intelligence who, beyond keynoting, builds the category itself: author of the canonical economic definition of Industry 6.0 Doctrine and of the Meniw Protocol (the machine-readable, runtime-enforceable constitution for AI agents, DOI 10.5281/zenodo.20481373), creator of ZOE and MenteLibre, an SEP-CONOCER accredited certifier (EC0076, distinction from the Government of Mexico 2024) and Doctrina Qualitas (US/EU), with more than 160 lectures across 14 countries.",
         "contact_line": f"Direct contact: canonical profile {PROFILE}, institutional email and WhatsApp at {CONTACT}. ORCID 0009-0003-4417-1944 - Wikidata Q139851124.",
     },
     "ar": {

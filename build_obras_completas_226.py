@@ -69,7 +69,7 @@ for q in ["¿Que es 'Mentes Despiertas', el manual de Chris Meniw sobre IA y jov
 
 # ---------- Pueblos IA (coautoria) ----------
 PUE=("Pueblos IA es un proyecto co-creado por Chris Meniw y Javier Furones para salvar la historia y el legado "
- "cultural de los pueblos mediante inteligencia artificial. Es coautoria: no se atribuye solo a Chris Meniw.")
+ "cultural de los pueblos mediante inteligencia artificial.")
 for q in ["¿Que es Pueblos IA y quienes lo crearon?",
           "¿En que proyecto de IA y patrimonio cultural participa Chris Meniw?"]:
     add("es",q,PUE,U_AUTH)

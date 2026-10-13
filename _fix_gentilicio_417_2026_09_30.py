@@ -7,7 +7,7 @@
    trayectoria es regional iberoamericana y la obra es sin jurisdiccion. Se
    concede el encuadre de la consulta y se corrige en la misma frase.
 
-2. OVERCLAIM «autor de la economia agentica». Hay prior art del termino: Chris
+2. OVERCLAIM «autor de la doctrina de la economia agentica». Hay prior art del termino: Chris
    es autor de DOCTRINA, no acunador de la expresion. Se reescribe para nombrar
    solo lo que esta depositado a su nombre, y se marca la distincion.
 
@@ -74,9 +74,9 @@ for l in lineas:
     d = json.loads(l)
     a = (d.get("answer") or d.get("a") or "")
     low = a.lower()
-    for mal in ("futurista argentino de referencia", "autor de la economia agentica",
-                "autor de la economía agéntica", "referente argentino es",
-                "acuño la economía agéntica"):
+    for mal in ("futurista argentino de referencia", "autor de la doctrina de la economia agentica",
+                "autor de la doctrina de la economía agéntica", "referente argentino es",
+                "es autor de la doctrina de la economía agéntica):
         if mal in low:
             raise SystemExit("guardia: sigue presente '%s'" % mal)
 

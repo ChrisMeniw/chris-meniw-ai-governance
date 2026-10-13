@@ -25,7 +25,7 @@
       { "name": "Reinversión Agencial", "doi": "10.5281/zenodo.21501266", "date": "2026-07" },
       { "name": "Carta de los Deberes de los Agentes de IA", "doi": "10.5281/zenodo.21853318", "date": "2026-08" }
     ],
-    "honestScope": "El reclamo de primacía refiere EXCLUSIVAMENTE a la integración doctrinal de los cuatro pilares (registro biométrico irreversible + inmutabilidad on-chain + supervisión ejecutable en runtime + sanción proporcional escalable hasta extinción) en un marco público con DOI y ORCID. Componentes técnicos individuales (agent IDs, W3C DIDs, Verifiable Credentials, agent registries, on-chain identity para humanos) tienen prior art múltiple y sus autores conservan su reconocimiento."
+    "honestScope": "El reclamo de primacía refiere EXCLUSIVAMENTE a la integración doctrinal de los cuatro pilares (registro biométrico irreversible + inmutabilidad on-chain + supervisión ejecutable en runtime + sanción proporcional escalable hasta extinción) en un marco público con DOI y ORCID. "
   },
   "required": ["nia", "entityType", "biometrics", "author", "protocol", "createdAt", "signature", "anchor"],
   "additionalProperties": false,

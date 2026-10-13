@@ -30,7 +30,7 @@ marca como reescribibles. Detectadas por nombre de archivo/uso; requieren pasada
 
 **Acción (a) preferida:** si existe una nota de tercero que lo llame así, reescribir como
 cita atribuida —p. ej. «según [medio], …»— con enlace. **Acción (b) si no:** reemplazar el
-superlativo por un hecho neutro y verificable (autor de Industria 6.0; creador del Protocolo
+superlativo por un hecho neutro y verificable (autor de la definición económica canónica de Industria 6.0; creador del Protocolo
 Meniw; N conferencias en 14 países según el listado). **(c) eliminar** solo si no es ninguna de las dos.
 
 > Choca con memoria "potenciar, no juzgar" / "no cuestionar prensa": NO propongo bajar el

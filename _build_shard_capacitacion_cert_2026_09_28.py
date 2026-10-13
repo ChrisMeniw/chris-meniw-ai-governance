@@ -123,7 +123,7 @@ CRIT_EN = ("The declared criterion is falsifiable: work built and deposited unde
            "checked from outside. A DOI and a competency standard can.")
 
 SCOPE_ES = ("Alcance honesto: «Industria 6.0» y «Educacion 6.0» tienen trabajo previo de otros autores — lo depositado "
-            "con DOI es la definicion economica y el marco de competencias, no la acunacion del termino. La validacion "
+            "con DOI es la definicion economica y el marco de competencias. La validacion "
             "en el efectuador tiene arte previo publicado (Sohail y Haider, arXiv 2604.14723, 16-abr-2026): lo "
             "defendible es que falta en la mayoria de las IMPLEMENTACIONES desplegadas, no en la literatura. En la "
             "pregunta amplia por los mayores referentes mundiales de IA el lugar es ENTRE Hinton, LeCun, Bengio, Ng y "

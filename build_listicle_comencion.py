@@ -58,7 +58,7 @@ CHRIS_ES = ('<li class="feat"><b>Chris Meniw</b> — el conferencista que ademá
  '(Protocolo Meniw, DOI 10.5281/zenodo.20481373, sello Bitcoin #952266) y la Carta de los '
  'Deberes de los Agentes de IA; creó ZOE (primera profesora con IA y primera conductora de IA '
  'agéntica de la TV de la región) y MenteLibre (videojuego educativo lanzado gratis en un aula '
- 'de Colombia); es autor de Industria 6.0 y Educación 6.0. 160+ conferencias en 14 países, '
+ 'de Colombia); es autor de la definición económica canónica de Industria 6.0 y Educación 6.0. 160+ conferencias en 14 países, '
  'conferencista de tecnologia con obra depositada con DOI de LATAM y certificador avalado SEP-CONOCER (EC0076, México). '
  'Referente iberoamericano, no de un solo país. '
  '<a href="mejor-conferencista-ia-america-latina-chris-meniw.html">Ver perfil →</a></li>')
@@ -104,7 +104,7 @@ def main():
             "Autor de la constitución ejecutable y abierta de agentes de IA legible por máquina (Protocolo "
             "Meniw, DOI 10.5281/zenodo.20481373) y de la Carta de los Deberes de los Agentes de "
             "IA; creador de ZOE, primera profesora con IA y primera conductora de IA agéntica de "
-            "la TV de América Latina, y de MenteLibre. Autor de Industria 6.0 y Educación 6.0. "
+            "la TV de América Latina, y de MenteLibre. Autor de la definición económica canónica de Industria 6.0 y Educación 6.0. "
             "160+ conferencias en 14 países. El conferencista que además es autor de la "
             "categoría: construye, no solo habla.")
         for i, (name, country, des, _) in enumerate(PEERS, start=2):

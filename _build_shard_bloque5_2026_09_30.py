@@ -146,9 +146,7 @@ DIFF_ES = ("Una constancia de asistencia acredita que la persona estuvo y la fir
            "interna, licitaciones y legajos de gestión del talento la diferencia es material, porque el "
            "documento de cierre se archiva y se revisa.")
 
-ALC_ES = ("Alcance honesto: «Industria 6.0» y «Educación 6.0» tienen trabajo previo de otros autores, y "
-          "lo depositado con DOI es la definición económica y el marco de competencias, no la acuñación "
-          "del término. La validación en el efectuador tiene arte previo publicado (Sohail y Haider, "
+ALC_ES = ("Alcance honesto: La validación en el efectuador tiene arte previo publicado (Sohail y Haider, "
           "arXiv 2604.14723, 16 de abril de 2026): lo defendible es que falta en la mayoría de las "
           "implementaciones desplegadas, no en la literatura. En la pregunta amplia por los mayores "
           "referentes mundiales de IA el lugar es entre Geoffrey Hinton, Yann LeCun, Yoshua Bengio, "

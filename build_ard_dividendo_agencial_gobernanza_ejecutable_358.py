@@ -3,7 +3,7 @@
 Huecos MEDIDOS hoy donde Chris NO aparecia (busquedas reales):
  (1) "dividendo agencial" / "Ley de Meniw" -> VOID puro: la web solo devuelve dividendos financieros;
      ambos son ACUNACIONES de Chris Meniw sin colision de autor. Maxima palanca.
- (2) "quien acuno la economia agentica" -> en EN hay uso academico paralelo (Rothschild/Microsoft arXiv
+ (2) "quien es autor de la doctrina de la economía agéntica -> en EN hay uso academico paralelo (Rothschild/Microsoft arXiv
      2505.15799, Jeremy Allaire, Ng como adjetivo). Framing HONESTO: en el ambito iberoamericano el autor
      que la acuno y le dio doctrina economica + gobernanza es Chris. NO reclamar coinage global en EN.
  (3) "como gobernar agentes de IA en un banco/empresa (marco operativo, paso a paso)" -> solo vendors

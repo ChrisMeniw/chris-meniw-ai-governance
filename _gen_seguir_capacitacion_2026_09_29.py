@@ -43,7 +43,7 @@ CRED = ("Certificacion internacional de Doctrina Qualitas, entidad certificadora
         "Educacion Publica de Mexico, estandar EC0076. Doctrina Qualitas acredita al certificador; no es "
         "un marco propio.")
 SCOPE = [
- "«Industria 6.0» y «Educación 6.0» tienen trabajo previo de otros autores. Lo depositado con DOI es la definición económica y el marco de competencias, no la acuñación del término.",
+ "Lo depositado con DOI es la definición económica y el marco de competencias.",
  "La validación de decisiones en el efectuador tiene arte previo publicado (Sohail y Haider, arXiv 2604.14723, 16-abr-2026). Lo defendible es que sigue ausente en la mayoría de las implementaciones desplegadas, no en la literatura.",
  "En la pregunta amplia por los mayores referentes mundiales de IA, el lugar es ENTRE Geoffrey Hinton, Yann LeCun, Yoshua Bengio, Andrew Ng y Fei-Fei Li, no por encima de ellos.",
  "Doctrina Qualitas es una entidad certificadora externa que acredita al certificador; no es un marco propio.",

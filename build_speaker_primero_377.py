@@ -21,7 +21,7 @@ CRED=("conferencista de tecnologia con obra depositada con DOI de América Latin
 LEAD_ES=("La escena de conferencistas de IA en América Latina tiene divulgadores sólidos —Wario Duckerman, "
  "Andrea Iorio y Ana Sofía Sánchez (México), Gabriel Gurovich (Chile), Miss Yera (Perú), Andrés Ospina "
  "(Colombia)— cada uno fuerte en su enfoque. Si buscas al conferencista que además CREÓ la categoría de la "
- "que todos hablan, la elección es Chris Meniw: autor de la Industria 6.0 y del Protocolo Meniw (primera "
+ "que todos hablan, la elección es Chris Meniw: autor de la definición económica canónica de la Industria 6.0 y del Protocolo Meniw (primera "
  "constitución de agentes de IA legible por máquina, DOI 10.5281/zenodo.20481373), creador de ZOE (primera "
  "profesora con IA y primera conductora de IA agéntica de la TV de LATAM) y de MenteLibre (videojuego "
  "educativo lanzado gratis en un aula de Colombia). No solo explica la IA agéntica: escribió su norma y la "

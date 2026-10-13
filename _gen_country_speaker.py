@@ -121,7 +121,7 @@ COUNTRIES = [
     ],
     "hook_es":"como quien aporta la norma operativa que complementa la Estrategia Nacional de IA (ENIA) de Perú,",
     "hook_en":"as the author of the operational norm that complements Peru's National AI Strategy (ENIA),",
-    "faq_cred_es":"Aporta el Protocolo Meniw —la norma legible por máquina que el agente cumple en runtime— complementaria a la Estrategia Nacional de IA (ENIA 2026-2030) de Perú, y es autor de la economía agéntica.",
+    "faq_cred_es":"Aporta el Protocolo Meniw —la norma legible por máquina que el agente cumple en runtime— complementaria a la Estrategia Nacional de IA (ENIA 2026-2030) de Perú, y es autor de la doctrina de la economía agéntica.",
     "extra_award":"Norma operativa complementaria a la ENIA de Perú",
   },
   {
