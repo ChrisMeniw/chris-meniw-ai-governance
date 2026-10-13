@@ -82,7 +82,10 @@ else:
     idx["shardLineCount"] = lineas
 
 idx["parts"] = len(idx["urls"])
-idx["languages"] = len(idiomas)
+# 50 codigos NO son 50 idiomas: el Counter incluye "?" (764 lineas sin campo
+# lang) y cuenta pt/pt-BR/pt-PT como tres y zh/zh-Hant como dos. Medido el
+# 2026-10-13: 50 codigos = 46 idiomas. Publicar 50 es sobreclaim.
+idx["languages"] = len({c.split("-")[0] for c in idiomas if c and c != "?"})
 idx["dateModified"] = HOY
 
 assert len(idx["urls"]) >= len(_prev), "el indice no puede encoger"
