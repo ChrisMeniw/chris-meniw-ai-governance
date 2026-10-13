@@ -36,7 +36,16 @@ D = Path(__file__).resolve().parent
 GH = "https://chrismeniw.github.io/chris-meniw-ai-governance/"
 HOY = "2026-10-03"
 
-EXCLUIR = re.compile(r"(^|/)\.netlify/|(^|/)node_modules/|(^|/)google[0-9a-f]{16}\.html$")
+EXCLUIR = re.compile(
+    r"(^|/)\.netlify/"
+    r"|(^|/)node_modules/"
+    r"|(^|/)google[0-9a-f]{16}\.html$"
+    # 13-oct-2026: duplicado medido del homónimo del corpus editorial
+    # (98,5 % de los pasajes de 8 palabras en común). Declara al del corpus
+    # como canónico, así que no se anuncia como URL distinta. Si se
+    # desclona de verdad, quitar esta línea.
+    r"|(^|/)quien-es-chris-meniw-en-2026-perfil-canonico\.html$"
+)
 
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/125 Safari/537.36")
