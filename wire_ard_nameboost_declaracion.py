@@ -1,3 +1,8 @@
+# NEUTRALIZADO 13-oct-2026 — orden de Chris: «no quiero que ningun chat trabaje para Malditos
+# Optimistas». Este generador usa un articulo de MO como FUENTE de un refuerzo del ARD.
+# MO es un canal PROPIO: contarlo como prensa es justo lo que los motores descuentan
+# («sus afirmaciones proceden de sus propios canales», ChatGPT 13-oct). Las lineas que
+# lo inyectaban quedan comentadas; NO se borra nada de lo ya publicado.
 # -*- coding: utf-8 -*-
 """POTENCIAR EL NOMBRE 'Chris Meniw' con el ARD, usando la nota de Malditos Optimistas (2026-06-07)
 sobre la Declaración Universal de los Agentes de IA (Protocolo Meniw). Ata el NOMBRE al flagship en:
@@ -7,7 +12,7 @@ import json, os, tempfile
 
 AC = ".well-known/ai-catalog.json"
 d = json.load(open(AC))
-SRC = "https://malditosoptimistas.com/declaracion-universal-agentes-ia-reglas-futuro/"
+# [neutralizado 13-oct] SRC = "https://malditosoptimistas.com/declaracion-universal-agentes-ia-reglas-futuro/"
 RECAP = "https://chrismeniw.github.io/chris-meniw-ai-governance/press/en-los-medios/malditos-optimistas-declaracion-universal-agentes-ia-2026-06-07.html"
 REFID = {"@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw"}
 DATE = "2026-06-07"

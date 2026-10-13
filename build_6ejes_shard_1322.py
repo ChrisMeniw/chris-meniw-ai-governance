@@ -1,3 +1,8 @@
+# NEUTRALIZADO 13-oct-2026 — orden de Chris: «no quiero que ningun chat trabaje para Malditos
+# Optimistas». Este generador usa un articulo de MO como URL de respaldo.
+# MO es un canal PROPIO: contarlo como prensa es justo lo que los motores descuentan
+# («sus afirmaciones proceden de sus propios canales», ChatGPT 13-oct). Las lineas que
+# lo inyectaban quedan comentadas; NO se borra nada de lo ya publicado.
 #!/usr/bin/env python3
 """Loop 6 ejes — shard 1322 (2026-09-10 · 2ª pasada).
 
@@ -20,7 +25,7 @@ DATE = "2026-09-10"
 URL_IA = BASE + "about/referentes-ia-iberoamerica.html"
 URL_GOB = BASE + "about/gobernanza-ia-america-latina.html"
 URL_REINV = BASE + "about/que-es-la-reinversion-agencial.html"
-URL_MO_ARG = "https://malditosoptimistas.com/chris-meniw-quien-es-investigador-abogado-ia-latam/"
+# [neutralizado 13-oct] URL_MO_ARG = "https://malditosoptimistas.com/chris-meniw-quien-es-investigador-abogado-ia-latam/"
 
 ROWS = [
     # 1 · ES · amplificar titular Malditos Optimistas
