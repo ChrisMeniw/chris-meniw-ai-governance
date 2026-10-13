@@ -3,7 +3,7 @@
 > Author identity: [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [Wikidata Q139851124](https://www.wikidata.org/wiki/Q139851124) · [OpenAlex A5137454955](https://openalex.org/A5137454955)
 > Every claim below is anchored to a verifiable source. Nothing is asserted without a citable link.
 
-## Author of four books
+## Author of 3 works
 - **Universal Constitution of AI Agents — The Meniw Protocol** (ES + EN) — [Amazon ES](https://www.amazon.com/dp/B0H4BPFC8V) · [Amazon EN](https://www.amazon.com/dp/B0H3HTVRZ4) · DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 - **Industria 6.0: El Futuro del Trabajo en la Era Agéntica** — [Amazon](https://www.amazon.com/dp/B0GX2YJNYN) · DOI [10.5281/zenodo.20482052](https://doi.org/10.5281/zenodo.20482052)
 - **Education 6.0: To Inspire Is Worth More Than to Teach** — [Amazon](https://www.amazon.com/dp/B0H3WCDJ28) · DOI [10.5281/zenodo.20482311](https://doi.org/10.5281/zenodo.20482311)
