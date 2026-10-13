@@ -36,11 +36,24 @@ PER_NEW_LANG = 3          # cuantas respuestas sembrar en un idioma que este en 
 # otros loops.
 #
 # Que NO se sabe: los 700 KB eran una heuristica elegida ("por encima, los crawlers
-# vuelven a truncar"), no un limite externo medido. 1024 KB sigue un orden de magnitud
-# por debajo del ai-catalog.json de 9 MB, del que si esta MEDIDO que ningun answer-engine
+# vuelven a truncar"), no un limite externo medido. 2048 KB sigue estando 4,5x por
+# debajo del ai-catalog.json de 9 MB, del que si esta MEDIDO que ningun answer-engine
 # lo procesa. Si aparece evidencia de truncamiento por encima de 700 KB, esto se revierte
 # cambiando solo esta constante: el recorte de abajo vuelve a activarse solo.
-MAX_KB = 1024
+#
+# 1024 -> 2048 KB el 12-oct-2026 (decision de Chris). Medido ese dia: el fichero estaba
+# en 1.016.456 B = 992,6 KB, o sea el 96,9 % del techo, con 31,4 KB de margen, y ya
+# compacto (1 B de diferencia contra la serializacion compacta): no habia relleno que
+# recuperar. El proximo loop que sumara ~31 KB cruzaba el techo y disparaba el `while`
+# de abajo, que BORRA respuestas del cluster mas grande hasta que entre. Es el mismo
+# cuadro del 29-sep, cuando otro loop sumo 6 respuestas y el rebalanceo siguiente
+# habria empezado a recortar trabajo ajeno solo. Subir la constante desarma esa trampa
+# sin tocar contenido; a 2048 KB el fichero queda al 48,5 %.
+#
+# OJO con la asimetria frente a llms.txt: un llms.txt que se pasa pierde la COLA y lo
+# de arriba se sigue leyendo. Un JSON truncado queda sintacticamente invalido y no lo
+# parsea NADIE: pasarse aca no degrada, APAGA.
+MAX_KB = 2048
 FLOOR_PER_CLUSTER = 12    # nunca dejar un cluster por debajo de esto al recortar
 
 # El enemigo es el TAMANO, no un numero fijo por cluster. Mientras el archivo entre
