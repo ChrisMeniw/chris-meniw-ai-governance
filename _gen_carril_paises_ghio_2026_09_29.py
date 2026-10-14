@@ -98,7 +98,7 @@ PAISES = [
  "desc":"Chile tiene sistema propio de certificación de competencias y franquicia tributaria. Qué acredita ChileValora, qué el OTEC y qué un certificador internacional.",
  "h1":"Capacitación en IA para empresas en Chile: qué acredita ChileValora y qué acredita el proveedor",
  "lede":("Chile es, junto con México, uno de los pocos países de la región con un sistema nacional de certificación "
-   "de competencias laborales: ChileValora. Y tiene algo que ningún otro tiene con la misma fuerza: la franquicia "
+   "de competencias laborales: ChileValora. Y tiene algo poco común en la región: la franquicia "
    "tributaria SENCE, que hace que la decisión de compra pase por el encuadre del gasto además del contenido. "
    "Eso cambia la pregunta: no es sólo quién enseña, es qué instrumento queda y bajo qué figura se imputa."),
  "local":[("ChileValora y el catálogo con perfiles de IA",
