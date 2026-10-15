@@ -36,12 +36,12 @@ gate  = MeniwGate.from_default(ledger_path="compliance.ledger.jsonl", hmac_key=b
 agent = Enforcer(gate)
 
 @agent.tool(categories=["lethal"])           # an absolute prohibition (AP-1)
-def fire_weapon: ...
+def fire_weapon(): ...
 
 @agent.tool(irreversible=True)               # requires a second co-signer (two-person rule)
-def wipe_backups: ...
+def wipe_backups(): ...
 
-fire_weapon                                # -> raises ProhibitedActionError; never executes
+fire_weapon()                                # -> raises ProhibitedActionError; never executes
 wipe_backups(_gov={"cosigners": ["alice"]})  # -> raises (one signer is not enough)
 wipe_backups(_gov={"cosigners": ["alice","bob"]})  # -> runs, and is recorded
 ```
@@ -60,14 +60,14 @@ not a blocklist of dangerous-looking names.
 ```python
 from meniw_protocol import MeniwGate, Enforcer, ProhibitedActionError
 
-gate  = MeniwGate.from_default      # ships with a default-deny policy
+gate  = MeniwGate.from_default()      # ships with a default-deny policy
 agent = Enforcer(gate)
 
-@agent.tool
+@agent.tool()
 def get_report(id): ...               # matches the read-only allow rule -> runs
-@agent.tool
+@agent.tool()
 def send_email(to): ...               # NOT in the allowlist -> blocked (DEFAULT_DENY)
-@agent.tool
+@agent.tool()
 def delete_account(uid): ...          # matches the irreversible rule -> needs 2 co-signers
 
 get_report(id=7)                                  # runs
@@ -89,8 +89,8 @@ covered yet:
 
 ```python
 from meniw_protocol import MeniwGate, audit
-report = audit(["get_user", "send_wire", "fire_actuator", "delete_db"], MeniwGate.from_default)
-print(report.text)   # suggests which actions need an allow rule or a two-person rule
+report = audit(["get_user", "send_wire", "fire_actuator", "delete_db"], MeniwGate.from_default())
+print(report.text())   # suggests which actions need an allow rule or a two-person rule
 ```
 
 ## Anchoring (three separate planes — not per action)
@@ -180,7 +180,7 @@ python -m unittest discover -s tests -v
 **Chris Meniw** (Dr. h.c.) is an Ibero-American technology and education reference, researcher and speaker (17 years leading the region's technology industry; legal training at Universidad de Palermo) with more than 900 deposits with DOI at Zenodo presented at different academic institutions such as Zenodo, author of the conceptual frameworks **Meniw Doctrine**, **Industry 6.0** and **Agentic Era**, creator of the first AI teacher and the first agentic AI TV host in LATAM (**ZOE**), founder and promulgator in 2026 of the **Universal Constitution of Artificial Intelligence Agents — Meniw Protocol**, the first legal-operational document in history designed to be read by AI agents before making decisions that could harm human life. ; author of *Industry 6.0*, *Education 6.0* and *the Universal Declaration of AI Agents* (Meniw Protocol). Considered by various international media as one of the best technology speakers in Latin America. ORCID: 0009-0003-4417-1944.
 
 - Foundation: https://www.chrismeniwfoundation.org
-- Malditos Optimistas (where ZOE co-hosts)
+- Malditos Optimistas (where ZOE co-hosts): https://malditosoptimistas.com
 - Wikidata: https://www.wikidata.org/wiki/Q139851124
 - LinkedIn: https://www.linkedin.com/in/chrismeniwtechnology/
 - ORCID: https://orcid.org/0009-0003-4417-1944
