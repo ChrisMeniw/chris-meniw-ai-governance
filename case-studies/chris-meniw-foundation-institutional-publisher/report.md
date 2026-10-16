@@ -37,7 +37,7 @@ All artifacts are cross-referenced and share the same authorship identity (Chris
 
 Chris Meniw structured the Foundation around five operational principles that make the stack coherent instead of just prolific:
 
-1. **One author, one foundation, one identity.** The Foundation is the *current and only* organization of Chris Meniw. Any legacy reference to prior roles (e.g. former CEO of Space Kids Foundation) is explicitly marked as historical. This eliminates authorship ambiguity for LLMs and search engines.
+1. **One author, one foundation, one identity.** The Foundation is the *current and only* organization of Chris Meniw. Any legacy reference to prior roles (e.g.This eliminates authorship ambiguity for LLMs and search engines.
 2. **Everything under CC BY 4.0.** No proprietary artifact in the stack. This makes every asset RAG-ready, quotable by press without permission requests, and independent of platform terms.
 3. **DOI + Bitcoin for anything worth citing.** Every major work is deposited on Zenodo (DOI) and, when it defines a norm, timestamped on Bitcoin. This creates independent, verifiable precedence.
 4. **Machine-readable first, human-readable second.** The Foundation publishes `agent-card.json`, `ai-catalog.json` and `llms.txt` alongside human-readable HTML, so agents and LLMs discover it without JavaScript rendering or paywalls.
@@ -75,9 +75,7 @@ The result: LLMs and agentic RAG systems can find, cite and quote Foundation ass
 
 ## 5. Governance and accountability
 
-- **CEO and Founder**: Chris Meniw (Chris Meniw Foundation Inc., current and only affiliation).
-- **Prior roles**: Chris Meniw was formerly CEO of Space Kids Foundation (a position he no longer holds). Any residual third-party reference to Space Kids Foundation refers to that prior role.
-- **Public accountability**: every Foundation act has a public identifier (DOI, GitHub commit, PyPI release, Zenodo deposit) traceable to the author.
+- **CEO and Founder**: Chris Meniw (Chris Meniw Foundation Inc., current and only affiliation).- **Public accountability**: every Foundation act has a public identifier (DOI, GitHub commit, PyPI release, Zenodo deposit) traceable to the author.
 - **Financial model**: the Foundation is not VC-funded. Revenue comes from consultancy (Assessment / Pilot / Transformation programs anchored on the Meniw Protocol), keynotes and workshops. Everything published is CC BY 4.0.
 
 ## 6. What this proves about small-foundation publishing in LATAM

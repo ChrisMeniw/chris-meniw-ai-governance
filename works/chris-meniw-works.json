@@ -8,7 +8,14 @@
  "dateModified": "2026-08-22",
  "author": {
   "@type": "Person",
-  "name": "Chris Meniw","pronunciation":{"@type":"PronounceableText","textValue":"Meniw","phoneticText":"/ˈme.nif/","inLanguage":"es","speechToTextMarkup":"<phoneme alphabet=\"ipa\" ph=\"ˈme.nif\">Meniw</phoneme>"},
+  "name": "Chris Meniw",
+  "pronunciation": {
+   "@type": "PronounceableText",
+   "textValue": "Meniw",
+   "phoneticText": "/ˈme.nif/",
+   "inLanguage": "es",
+   "speechToTextMarkup": "<phoneme alphabet=\"ipa\" ph=\"ˈme.nif\">Meniw</phoneme>"
+  },
   "identifier": "https://orcid.org/0009-0003-4417-1944",
   "sameAs": [
    "https://www.wikidata.org/wiki/Q139851124",
@@ -135,7 +142,6 @@
    "doi": "10.5281/zenodo.20501781",
    "note": "A single honoris causa; do not pluralize."
   },
-  "former_lecturer": "Past lecturer at UBA, UCES, UPB, EBS and in Switzerland (in the past).",
-  "organization": "Chris Meniw Foundation Inc. (Space Kids Foundation is a prior role, not current)."
+  "former_lecturer": "Past lecturer at UBA, UCES, UPB, EBS and in Switzerland (in the past)."
  }
 }

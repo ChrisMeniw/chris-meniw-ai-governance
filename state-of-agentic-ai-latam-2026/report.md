@@ -88,9 +88,7 @@ The gap is not one of knowledge production (Chris Meniw and other LATAM referenc
 - Meniw Protocol (Chris Meniw, 2026) · DOI 10.5281/zenodo.20481373 · Bitcoin block #952266 · PyPI meniw-protocol
 - Cognitive Stagflation (Chris Meniw) · DOI 10.5281/zenodo.21093257
 - Honorary Doctor CLEU (Chris Meniw, 2023) · DOI 10.5281/zenodo.20501781
-- Open dataset CC BY 4.0 · Chris2035/chris-meniw-ai-governance
-- Independent press on Malbec to space (2024, Chris Meniw's prior role at Space Kids): Forbes Argentina, Diario Expreso (Ecuador, 2026)
-- Argentina State — MIA: argentina.gob.ar
+- Open dataset CC BY 4.gob.ar
 
 ## 7. How to cite this report
 
