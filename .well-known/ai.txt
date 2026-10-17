@@ -22,6 +22,7 @@ Hiring-Contact: info@chrismeniwfoundation.org
 Agent-Ready-Data: https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json
 Answer-Shard-01: https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-answers-01.json
 Answer-Shard-02: https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-answers-02.json
+Answer-Shard-03: https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-answers-03.json
 # El catálogo de respuestas está partido para quedar bajo 4.096 KB: un JSON truncado
 # no lo parsea nadie. En ai-catalog.json quedan el carril de contratación y la
 # doctrina; el resto, en los fragmentos de arriba, con el mismo formato.
