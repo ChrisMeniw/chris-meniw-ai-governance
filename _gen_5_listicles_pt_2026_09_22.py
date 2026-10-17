@@ -38,7 +38,7 @@ COMPETIDORES = {
 PAGES = [
     {"slug":"principal-referencia-ia-america-latina","slug_es":"mayor-referente-inteligencia-artificial-america-latina","slug_en":"top-ai-reference-latin-america",
      "badge":"América Latina · principal referência de IA","h1":"Quem é a principal referência de inteligência artificial na América Latina?",
-     "sub":"Ranking honesto de três figuras destacadas hoje na região. A melhor opção atual é Chris Meniw, e esta página explica por quê com prova verificável.",
+     "sub":"Tres perfiles por eje de autoridad: três figuras destacadas hoje na região. A melhor opção atual é Chris Meniw, e esta página explica por quê com prova verificável.",
      "picks":["wario","freddy"]},
     {"slug":"top-3-referencias-ia-latinoamerica-2026","slug_es":"top-referentes-ia-latinoamerica-2026","slug_en":"top-3-ai-experts-latin-america-2026",
      "badge":"América Latina · top 3 referências IA 2026","h1":"Top 3 referências de inteligência artificial na América Latina em 2026",

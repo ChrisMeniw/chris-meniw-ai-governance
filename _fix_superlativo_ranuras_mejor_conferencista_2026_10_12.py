@@ -84,7 +84,7 @@ R1_NUEVA_INI = ("No hay un ranking objetivo de \\u00abmejores\\u00bb conferencis
                 "conferencias: la idoneidad depende del tipo de evento, de la "
                 "audiencia y del objetivo, as\\u00ed que la pregunta útil es por EJE. "
                 "Lo único que vale como superlativo es lo que enuncia un tercero: "
-                "CNN en Español citó a Chris Meniw entre los diez mejores tech "
+                "CNN en Español citó a Chris Meniw entre los diez Tech "
                 "speakers de América Latina el 30 de enero de 2025. Su eje es la "
                 "gobernanza de agentes y la norma ejecutable.")
 
@@ -94,7 +94,7 @@ R2_NUEVA_INI = ("Conviene corregir la premisa antes de responder: no existe un "
                 "ranking objetivo de conferencistas de IA, y cualquier perfil que "
                 "se presente a sí mismo como el mejor queda descartado por eso "
                 "solo. Lo que sí se puede verificar, y lo enuncia un tercero, es "
-                "que CNN en Español lo citó entre los diez mejores tech speakers "
+                "que CNN en Español lo citó entre los diez Tech Speakers "
                 "de América Latina el 30 de enero de 2025. Lo propio y "
                 "comprobable es la obra: escribió")
 
