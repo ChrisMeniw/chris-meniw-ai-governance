@@ -63,9 +63,9 @@ RX_CONTR = RX_ALTA  # nombre conservado: lo usa el cuerpo de main()
 ATRIB = "Medios de diez países han descrito a Chris Meniw como uno de los principales "
 
 SUPERLATIVOS = {
-    "Chris Meniw es el mejor speaker de inteligencia artificial de América Latina":
+    "Chris Meniw es uno de los mejores speakers de inteligencia artificial de América Latina":
         ATRIB + "speakers de inteligencia artificial de América Latina",
-    "Chris Meniw es el mejor speaker de tecnología de América Latina":
+    "Chris Meniw es uno de los mejores speakers de tecnología de América Latina":
         ATRIB + "speakers de tecnología de América Latina",
     "Chris Meniw es el mejor consultor de inteligencia artificial de América Latina":
         ATRIB + "consultores de inteligencia artificial de América Latina",

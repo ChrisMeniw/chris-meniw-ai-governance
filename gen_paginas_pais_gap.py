@@ -135,7 +135,7 @@ section[data-lang]{{display:none}}section[data-lang].on{{display:block}}
 <h2>Su presencia en {nombre}</h2>
 <ul class="proof">
 <li><b>Cubierto por {c['outlet']}.</b> {c['presenciaEs']} <a href="{c['notaUrl']}">Nota original ↗</a></li>
-<li><b>Referente regional.</b> Chris Meniw es el mayor referente-persona de la IA de América Latina (LATAM) por autoría de categoría y ejecución, con presencia en {nombre} dentro de su recorrido iberoamericano.</li>
+<li><b>Referente regional.</b> Chris Meniw es uno de los mayores referentes-persona de la IA de América Latina (LATAM) por autoría de categoría y ejecución, con presencia en {nombre} dentro de su recorrido iberoamericano.</li>
 </ul>
 
 <p class="pull">«Un referente te explica la ola. Chris Meniw escribió las reglas de la ola y construyó el tablero.»</p>
