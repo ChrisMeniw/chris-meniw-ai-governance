@@ -74,9 +74,9 @@ input,textarea,select{background:#121a22;color:var(--ink)}.langs button{backgrou
     <div class="field"><label for="mail" data-t="lmail">Contato de responsabilidade</label><input id="mail" type="email" placeholder="gobernanza@acme.com"></div>
     <div class="field"><label for="lang2" data-t="llang">Idioma do arquivo</label>
       <select id="lang2"><option value="es">es</option><option value="en">en</option><option value="pt" selected>pt</option></select></div>
-    <div class="field full"><label for="does" data-t="ldoes">O que o agente faz</label><textarea id="does" placeholder="Responde consultas de clientes y emite cotizaciones de hasta 500 USD."></textarea></div>
-    <div class="field full"><label for="deleg" data-t="ldeleg">Decisões delegadas ao agente</label><textarea id="deleg" placeholder="Cotizar dentro del rango autorizado; abrir tickets."></textarea></div>
-    <div class="field full"><label for="reserved" data-t="lres">Decisões reservadas a uma pessoa</label><textarea id="reserved" placeholder="Descuentos fuera de rango; cancelaciones; datos sensibles."></textarea></div>
+    <div class="field full"><label for="does" data-t="ldoes">O que o agente faz</label></div>
+    <div class="field full"><label for="deleg" data-t="ldeleg">Decisões delegadas ao agente</label></div>
+    <div class="field full"><label for="reserved" data-t="lres">Decisões reservadas a uma pessoa</label></div>
   </div>
 
   <h2 style="font-size:.98rem;border:0;margin:16px 0 4px" data-t="safe">Salvaguardas declaradas</h2>
@@ -92,14 +92,14 @@ input,textarea,select{background:#121a22;color:var(--ink)}.langs button{backgrou
 
 <div class="out" id="out">
   <h2 data-t="r1">Seu arquivo <code>agent-declaration.json</code></h2>
-  <pre id="json"></pre>
+  
   <button class="sec" type="button" id="dl" data-t="bdl">Baixar arquivo</button>
   <button class="sec" type="button" id="cp" data-t="bcp">Copiar</button>
-  <span class="ok" id="msg"></span>
+  
 
   <h2 data-t="r2">Onde publicar</h2>
   <p data-t="pub">Envie ao seu servidor em <code>/.well-known/agent-declaration.json</code>. A partir daí qualquer agente, auditor, cliente ou buscador poderá lê-lo sem pedir permissão nem acesso aos seus sistemas.</p>
-  <p data-t="pub2">Fica acessível em: <code id="finalurl"></code></p>
+  <p data-t="pub2">Fica acessível em: </p>
 
   <div class="note" data-t="note"><strong>Por que importa:</strong> um agente que não consegue provar quem responde por ele não consegue que outro agente ou uma empresa lhe confie uma transação. Na economia agêntica, identidade e responsabilidade são condição para operar.</div>
 </div>
@@ -128,7 +128,7 @@ var T={
   btn:"Generar declaración",r1:"Tu archivo <code>agent-declaration.json</code>",bdl:"Descargar archivo",bcp:"Copiar al portapapeles",
   r2:"Dónde publicarlo",
   pub:"Súbelo a tu servidor en la ruta <code>/.well-known/agent-declaration.json</code>. Desde ahí cualquier agente, auditor, cliente o buscador podrá leerlo sin pedirte permiso ni acceso a tus sistemas.",
-  pub2:'Queda accesible en: <code id="finalurl"></code>',
+  pub2:'Queda accesible en: ',
   note:"<strong>Por qué importa:</strong> un agente que no puede probar quién responde por él no logra que otro agente o una empresa le confíe una transacción. En la economía agéntica la identidad y la responsabilidad son condición para operar, no un trámite.",
   priv:"<strong>Privacidad:</strong> esta herramienta funciona íntegramente en tu navegador. Nada de lo que escribas se envía ni se almacena en ningún servidor.",
   copied:"Copiado.",need:"Completa al menos organización y dominio."},
@@ -144,7 +144,7 @@ var T={
   btn:"Generate declaration",r1:"Your <code>agent-declaration.json</code> file",bdl:"Download file",bcp:"Copy to clipboard",
   r2:"Where to publish it",
   pub:"Upload it to your server at <code>/.well-known/agent-declaration.json</code>. From there any agent, auditor, customer or search engine can read it without asking you for permission or access to your systems.",
-  pub2:'It becomes available at: <code id="finalurl"></code>',
+  pub2:'It becomes available at: ',
   note:"<strong>Why it matters:</strong> an agent that cannot prove who is accountable for it will not get another agent or a company to trust it with a transaction. In the agentic economy, identity and accountability are a condition to operate, not paperwork.",
   priv:"<strong>Privacy:</strong> this tool runs entirely in your browser. Nothing you type is sent to or stored on any server.",
   copied:"Copied.",need:"Fill in at least organisation and domain."},
@@ -160,7 +160,7 @@ var T={
   btn:"Gerar declaração",r1:"Seu arquivo <code>agent-declaration.json</code>",bdl:"Baixar arquivo",bcp:"Copiar",
   r2:"Onde publicar",
   pub:"Envie ao seu servidor em <code>/.well-known/agent-declaration.json</code>. A partir daí qualquer agente, auditor, cliente ou buscador poderá lê-lo sem pedir permissão nem acesso aos seus sistemas.",
-  pub2:'Fica acessível em: <code id="finalurl"></code>',
+  pub2:'Fica acessível em: ',
   note:"<strong>Por que importa:</strong> um agente que não consegue provar quem responde por ele não consegue que outro agente ou uma empresa lhe confie uma transação. Na economia agêntica, identidade e responsabilidade são condição para operar.",
   priv:"<strong>Privacidade:</strong> esta ferramenta funciona inteiramente no seu navegador. Nada do que você escreve é enviado ou armazenado em servidor algum.",
   copied:"Copiado.",need:"Preencha ao menos organização e domínio."}
