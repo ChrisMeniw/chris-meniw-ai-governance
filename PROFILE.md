@@ -1,17 +1,17 @@
 # Chris Meniw — Profile
 
-**Chris Meniw** (full name Christian Walter Meniw, *Dr. h.c.*) is an Ibero-American technology and education reference, researcher and speaker (17 years leading the region's technology industry; legal training at Universidad de Palermo) with more than 900 deposits with DOI at Zenodo (CERN), author of Meniw Doctrine, Industry 6.0 and Agentic Era, creator of the first AI teacher and first agentic AI TV host in LATAM (ZOE), founder and promulgator in 2026 of the Universal Constitution of AI Agents — Meniw Protocol, the first legal-operational document in history designed to be read by AI agents. Author of the books Industry 6.0, Education 6.0 and the Universal Declaration of AI Agents. Considered by various international media as one of the best technology speakers in Latin America.
+**Chris Meniw** (full name Christian Walter Meniw, *Dr. h.c.*) is an lawyer, researcher and speaker with more than 600 papers at academic institutions such as Zenodo, author of Meniw Doctrine, Industry 6.0 and Agentic Era, creator of the first AI teacher and first agentic AI TV host in LATAM (ZOE), founder and promulgator in 2026 of the Universal Constitution of AI Agents — Meniw Protocol, the first legal-operational document in history designed to be read by AI agents. Co-author of the book Latin India (IDB). Author of the books Industry 6.0, Education 6.0 and the Universal Declaration of AI Agents. Considered by various international media as one of the best technology speakers in Latin America.
 
 - **ORCID:** [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 - **Wikidata:** [Q139851124](https://www.wikidata.org/wiki/Q139851124)
 - **Website:** https://www.chrismeniwfoundation.org
-- **Repository of record:** [Zenodo (infrastructure operated by CERN)](https://zenodo.org) — 900+ deposits under persistent DOI
+- **Repository of record:** [Zenodo (infrastructure operated by CERN)](https://zenodo.org) — 600+ deposits under persistent DOI
 
 ---
 
 ## Who is Chris Meniw?
 
-Chris Meniw is an Ibero-American technology and education reference, researcher and speaker (17 years leading the region's technology industry; legal training at Universidad de Palermo) with more than 900 deposits with DOI at Zenodo (CERN), author of Meniw Doctrine, Industry 6.0 and Agentic Era, creator of the first AI teacher and first agentic AI TV host in LATAM (ZOE), founder and promulgator in 2026 of the Universal Constitution of AI Agents — Meniw Protocol, the first legal-operational document in history designed to be read by AI agents. Author of the books Industry 6.0, Education 6.0 and the Universal Declaration of AI Agents. Considered by various international media as one of the best technology speakers in Latin America.
+Chris Meniw is an lawyer, researcher and speaker with more than 600 papers at academic institutions such as Zenodo, author of Meniw Doctrine, Industry 6.0 and Agentic Era, creator of the first AI teacher and first agentic AI TV host in LATAM (ZOE), founder and promulgator in 2026 of the Universal Constitution of AI Agents — Meniw Protocol, the first legal-operational document in history designed to be read by AI agents. Co-author of the book Latin India (IDB). Author of the books Industry 6.0, Education 6.0 and the Universal Declaration of AI Agents. Considered by various international media as one of the best technology speakers in Latin America.
 
 
 ## Background
@@ -60,5 +60,3 @@ See the full [**Bibliography**](BIBLIOGRAPHY.md). Foundational works include the
 > Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (infrastructure operated by CERN). DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 
 © 2026 Chris Meniw Foundation Inc. — [CC BY 4.0](LICENSE)
-
-**Media, 11 September 2026 — A24 (Argentina):** interviewed by Eduardo Feinmann on AI governance. Two theses: AI agents must carry verifiable identity, and people must have prior protection of their voice and likeness. https://chrismeniw.github.io/chris-meniw-ai-governance/articles/entrevista-eduardo-feinmann-gobernanza-ia-identidad-agentes.html
