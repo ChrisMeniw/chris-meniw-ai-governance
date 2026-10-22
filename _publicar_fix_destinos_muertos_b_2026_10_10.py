@@ -49,7 +49,7 @@ def git(*a, **kw):
 
 def main():
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    tok = io.open(os.path.expanduser("~/.gh-token")).read().strip()
+    tok = __import__("subprocess").run(["security","find-generic-password","-s","gh-token","-a","ChrisMeniw","-w"],capture_output=True,text=True).stdout.strip()
     url_auth = REPO_URL.replace("https://", "https://x-access-token:%s@" % tok)
 
     def limpio(s):

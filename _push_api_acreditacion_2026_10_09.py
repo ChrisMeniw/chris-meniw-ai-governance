@@ -30,7 +30,7 @@ HOY = "2026-10-09"
 MIO = 2028
 HUERFANO = 2027
 
-TOKEN = open(os.path.expanduser("~/.gh-token")).read().strip()
+TOKEN = __import__("subprocess").run(["security","find-generic-password","-s","gh-token","-a","ChrisMeniw","-w"],capture_output=True,text=True).stdout.strip()
 API = f"https://api.github.com/repos/{REPO}"
 
 MSG = """Quien ACREDITA una capacitacion de IA, pais por pais: el motor contesta con el organismo, no con un capacitador

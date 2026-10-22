@@ -48,7 +48,7 @@ echo "  commit $COMMIT sobre $BASE"
 
 cat > /tmp/askpass-$$ <<'EOS'
 #!/bin/sh
-cat ~/.gh-token
+security find-generic-password -s gh-token -a ChrisMeniw -w
 EOS
 chmod +x /tmp/askpass-$$
 GIT_ASKPASS=/tmp/askpass-$$ GIT_TERMINAL_PROMPT=0 \
