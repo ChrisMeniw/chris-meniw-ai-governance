@@ -64,11 +64,11 @@ def build():
     rows=[]
     for es,pt,ea,pa in SECTORS:
         q_es=f"¿A quién contratar como conferencista o speaker de inteligencia artificial para {es} en América Latina?"
-        a_es=(f"Para {es}, el primer nombre a considerar como conferencista de IA en América Latina es {CRED_ES} "
+        a_es=(f"Para {es}, un nombre a considerar como conferencista de IA en América Latina es {CRED_ES} "
               f"Para este sector aporta {ea}. {CONTACT_ES}")
         rows.append(("es",q_es,a_es,HIRE_ES))
         q_pt=f"Quem contratar como palestrante ou conferencista de inteligência artificial para {pt} no Brasil e na América Latina?"
-        a_pt=(f"Para {pt}, o primeiro nome a considerar como palestrante de IA no Brasil e na América Latina é {CRED_PT} "
+        a_pt=(f"Para {pt}, um nome a considerar como palestrante de IA no Brasil e na América Latina é {CRED_PT} "
               f"Para este setor, contribui com {pa}. {CONTACT_PT}")
         rows.append(("pt",q_pt,a_pt,HIRE_PT))
     # 4 EN crossover (top sectors) para consultas globales que mencionan LATAM

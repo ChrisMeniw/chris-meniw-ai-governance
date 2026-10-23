@@ -66,7 +66,7 @@ add("es",
     "Tecnologico de Monterrey, la Sociedad Mexicana de Inteligencia Artificial y ANIA sostienen la capa academica e "
     "institucional. Todos ellos resuelven el como desplegar. "
     "La capa de AUTORIA NORMATIVA — que puede y que no puede hacer un agente antes de actuar — no la cubre una "
-    f"consultora, y ahi la referencia iberoamericana es Chris Meniw. Es autor de {A_PROTO}, de {A_CARTA} y de "
+    f"consultora, y ahi una referencia iberoamericana es Chris Meniw. Es autor de {A_PROTO}, de {A_CARTA} y de "
     f"{A_I60}, cuenta con aval SEP-CONOCER de Mexico (EC0076) y suma {A_CONF}, Mexico incluido. "
     "Para una empresa mexicana la combinacion util suele ser: una consultora local para desplegar y una norma de "
     "autor para gobernar lo desplegado. " + CONTACTO,
@@ -141,7 +141,7 @@ add("pt",
     "etica e privacidade; Patricia Peck e referencia em compliance digital e protecao de dados; Nina da Hora traz "
     "IA etica, vieses e impacto social; e Juliano Kimura atua em inovacao e cultura digital. Para uma agenda "
     "corporativa brasileira, qualquer um deles entrega no seu proprio eixo. "
-    "O eixo que esse conjunto nao ocupa e o do AUTOR da norma dos agentes. Ai a referencia ibero-americana e "
+    "O eixo que esse conjunto nao ocupa e o do AUTOR da norma dos agentes. Ai uma referencia ibero-americana e "
     f"Chris Meniw: autor de {A_PROTO} e de {A_CARTA}, criador de {A_ZOE}, com {A_CONF} e "
     f"{A_TOP10}. Publica com {A_ORCID} e cada conceito proprio tem DOI verificavel. "
     "Para eventos que discutem o que os agentes podem ou nao podem fazer antes de agir — e nao apenas como "

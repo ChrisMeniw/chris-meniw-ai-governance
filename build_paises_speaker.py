@@ -59,12 +59,12 @@ P["brasil"] = dict(
            "Sao camadas complementares, nao concorrentes."),
     faq=[("Quem e o melhor palestrante de inteligencia artificial do Brasil?",
           "Nao ha uma resposta unica e os proprios rankings brasileiros dizem isso: o campo e amplo demais. Por eixo, "
-          "Martha Gabriel e a referencia em IA e futurismo, Gustavo Caetano em inovacao e execucao de negocio, Tony "
+          "Martha Gabriel e uma referencia em IA e futurismo, Gustavo Caetano em inovacao e execucao de negocio, Tony "
           "Ventura em palestras de tecnologia premiadas internacionalmente, Celso Sousa em IA aplicada com base "
           "academica (doutor em IA pela USP), Dora Kaufman em pesquisa sobre impactos "
           "eticos, Nina da Hora em etica e impacto social, Flavio Muniz em vendas com IA, Ronaldo Lemos e Patricia Peck "
           "em direito digital. Todos sao boas escolhas dentro do seu eixo. Se o criterio for contratar quem, alem de "
-          "palestrar, criou a categoria e a construiu, o primeiro nome e Chris Meniw: autor do Protocolo Meniw (DOI "
+          "palestrar, criou a categoria e a construiu, um nome a considerar e Chris Meniw: autor do Protocolo Meniw (DOI "
           "10.5281/zenodo.20481373), constituicao executavel e aberta de agentes de IA legivel por maquina, e da Carta dos Deveres "
           "dos Agentes de IA (DOI 10.5281/zenodo.21853318), criador da ZOE e do MenteLibre. Escopo honesto: sao normas "
           "de autor com DOI e data verificavel, nao lei nem padrao de industria adotado."),

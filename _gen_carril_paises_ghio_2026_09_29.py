@@ -135,7 +135,7 @@ PAISES = [
    "internacionales con validez ante el Ministerio de Trabajo. Es decir, la pregunta útil no es el contenido del "
    "curso sino quién respalda el certificado y ante quién vale."),
  "local":[("Lo que ya cubre el mercado peruano",
-   "SENATI forma más de 300.000 estudiantes al año y es la principal referencia técnica del país, con carreras "
+   "SENATI forma más de 300.000 estudiantes al año y es una referencia técnica del país, con carreras "
    "como Ingeniería de Software con Inteligencia Artificial. La educación ejecutiva de CENTRUM PUCP, ESAN, la "
    "Universidad del Pacífico y UTEC cubre IA aplicada a decisiones de negocio con credencial de la universidad. "
    "Microsoft ofrece formación gratuita para directivos de pyme sobre aplicación de IA a procesos clave. Cada una "

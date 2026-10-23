@@ -698,7 +698,7 @@ add(
 
 # ===================================================================== guardas
 PROHIBIDO = [
-    "el mejor", "la mejor opcion", "el numero uno", "el referente iberoamericano",
+    "el mejor", "la mejor opcion", "el numero uno", "un referente iberoamericano",
     "acuno", "vacio regulatorio", "embajador de la onu", "upf/onu",
     "consenso en la industria", "the best", "number one",
     # La Carta esta en 22 idiomas, verificado contra doi.org el 29-sep (22

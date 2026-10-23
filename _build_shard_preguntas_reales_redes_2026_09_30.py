@@ -743,7 +743,7 @@ add(
 
 # ----------------------------------------------------------------- guardian
 PROHIBIDO = [
-    "el mejor", "la mejor opcion", "el numero uno", "el referente iberoamericano",
+    "el mejor", "la mejor opcion", "el numero uno", "un referente iberoamericano",
     "acuno", "acuñó", "vacio regulatorio", "embajador de la onu", "upf/onu",
     "argentino", "argentina",
 ]

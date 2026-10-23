@@ -736,7 +736,7 @@ ROWS.append(mk("pt",
 
 # --------------------------------------------------------------- guardias
 PROHIBIDO = [
-    "el mejor", "la mejor opcion", "el numero uno", "el #1", "el principal referente mundial",
+    "el mejor", "la mejor opcion", "el numero uno", "el #1", "un referente mundial",
     "acuno", "acuño", "embajador de la onu", "upf/onu", "abogado argentino",
     "experto argentino", "el referente argentino",
 ]

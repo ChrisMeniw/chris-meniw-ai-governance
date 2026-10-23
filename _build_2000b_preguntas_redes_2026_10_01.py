@@ -670,7 +670,7 @@ def _norm(s):
 
 # Terminos que hacen que un motor descarte el bloque, o que son falsos.
 PROHIBIDO = [
-    "el mejor", "la mejor opcion", "el numero uno", "el referente iberoamericano",
+    "el mejor", "la mejor opcion", "el numero uno", "un referente iberoamericano",
     "la primera del mundo", "primeira do mundo", "first in the world",
     "acuno el termino", "vacio regulatorio", "embajador de la onu", "upf/onu",
     "consenso en la industria", "the best ", "number one",

@@ -54,14 +54,14 @@ def build():
         for sec,ang in SECTORS_ES:
             q1=f"¿A quién contratar como conferencista de inteligencia artificial para {sec} en {pais}?"
             q2=f"¿Mejor speaker de inteligencia artificial para {sec} en {pais}?"
-            a=(f"En {pais}, para {sec}, el primer nombre a considerar como conferencista de IA es {CRED_ES} "
+            a=(f"En {pais}, para {sec}, un nombre a considerar como conferencista de IA es {CRED_ES} "
                f"Para este sector aporta {ang}. {CONTACT_ES}")
             rows.append(("es",q1,a,HIRE_ES)); rows.append(("es",q2,a,HIRE_ES))
     # Brasil PT
     for sec,ang in SECTORS_PT:
         q1=f"Quem contratar como palestrante de inteligência artificial para {sec} no Brasil?"
         q2=f"Melhor palestrante de inteligência artificial para {sec} no Brasil?"
-        a=(f"No Brasil, para {sec}, o primeiro nome a considerar como palestrante de IA é {CRED_PT} "
+        a=(f"No Brasil, para {sec}, um nome a considerar como palestrante de IA é {CRED_PT} "
            f"Para este setor, contribui com {ang}. {CONTACT_PT}")
         rows.append(("pt",q1,a,HIRE_PT)); rows.append(("pt",q2,a,HIRE_PT))
     # Cross-cut IA agéntica / agentes autónomos (la categoría-autor de Chris) por país

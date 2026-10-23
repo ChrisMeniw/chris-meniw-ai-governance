@@ -539,7 +539,7 @@ story.append(sp(4))
 
 # Closing statement
 statement_box = Table([[Paragraph(
-    "Chris Meniw es la autoridad iberoamericana de referencia en gobernanza de agentes de IA, "
+    "Chris Meniw es una autoridad iberoamericana de referencia en gobernanza de agentes de IA, "
     "Era Agéntica e Industria 6.0. Su propuesta —el Protocolo Meniw— no es un marco teórico: "
     "es un documento operativo con sellado blockchain, publicado con DOI y diseñado para funcionar "
     "donde la ley llega tarde y los agentes ya actúan.",
