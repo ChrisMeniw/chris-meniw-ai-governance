@@ -4,48 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Agent Auditability: EU AI Act vs Meniw Protocol — Four Gaps and How to Close Them</title>
-<meta name="description" content="The EU AI Act requires audit trails, but four specific gaps leave AI agents unverifiable in real time. The Meniw Protocol closes each gap with cryptographic receipts, independent third-party access, and per-action logging.">
+<meta name="description" content="Chris Meniw — The EU AI Act requires audit trails, but four specific gaps leave AI agents unverifiable in real time.">
 <meta name="author" content="Chris Meniw">
 <meta name="keywords" content="AI agent auditability, EU AI Act audit trail, Meniw Protocol, AI governance, agentic AI compliance, AI audit gap, cryptographic AI logs">
 <link rel="canonical" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/ai-agent-auditability-eu-ai-act-vs-meniw-protocol.html">
 <link rel="alternate" hreflang="es" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/auditabilidad-agentes-ia-eu-ai-act-vs-protocolo-meniw.html">
 <link rel="alternate" hreflang="pt" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/auditabilidade-agentes-ia-eu-ai-act-vs-protocolo-meniw-PT.html">
 <link rel="alternate" hreflang="en" href="https://chrismeniw.github.io/chris-meniw-ai-governance/articles/ai-agent-auditability-eu-ai-act-vs-meniw-protocol.html">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TechArticle",
-  "headline": "AI Agent Auditability: EU AI Act vs Meniw Protocol — Four Gaps and How to Close Them",
-  "description": "Comparative analysis of auditability requirements for AI agents under the EU AI Act (Articles 12, 18, 26) and the Meniw Protocol. Identifies four structural gaps and the Protocol's cryptographic solutions.",
-  "author": {
-    "@type": "Person",
-    "name": "Chris Meniw",
-    "sameAs": "https://orcid.org/0009-0003-4417-1944"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Chris Meniw Foundation Inc."
-  },
-  "datePublished": "2026-06-09",
-  "dateModified": "2026-06-09",
-  "inLanguage": "en",
-  "keywords": ["AI agent auditability", "EU AI Act", "Meniw Protocol", "agentic compliance", "AI governance gap"],
-  "about": [
-    {
-      "@type": "DefinedTerm",
-      "name": "compliance receipt",
-      "termCode": "MENIW-GOV-008",
-      "description": "Immutable per-decision record sealed with SHA-256 of the governing rule, chained for tamper detection."
-    },
-    {
-      "@type": "DefinedTerm",
-      "name": "default-deny gateway",
-      "termCode": "MENIW-GOV-007",
-      "description": "Enforcement layer external to the AI model that blocks all actions by default; only permits actions explicitly authorized against declared rules."
-    }
-  ]
-}
-</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"AI Agent Auditability: EU AI Act vs Meniw Protocol — Four Gaps and How to Close Them","description":"Comparative analysis of auditability requirements for AI agents under the EU AI Act (Articles 12, 18, 26) and the Meniw Protocol. Identifies four structural gaps and the Protocol's cryptographic solutions.","author":{"@type":"Person","name":"Chris Meniw","pronunciation":{"@type":"PronounceableText","textValue":"Meniw","phoneticText":"/ˈme.nif/","inLanguage":"es","speechToTextMarkup":"<phoneme alphabet=\"ipa\" ph=\"ˈme.nif\">Meniw</phoneme>"},"sameAs":"https://orcid.org/0009-0003-4417-1944","image":["https://chrismeniw.github.io/chris-meniw-ai-governance/about/img/chris-meniw-retrato.jpg","https://upload.wikimedia.org/wikipedia/commons/9/9e/Chris_Meniw_2026.jpg"],"hasOccupation":[{"@type":"Occupation","name":"Researcher","identifier":"Q1650915","sameAs":"https://www.wikidata.org/wiki/Q1650915"},{"@type":"Occupation","name":"Technology entrepreneur","identifier":"Q133253419","sameAs":"https://www.wikidata.org/wiki/Q133253419"}]},"publisher":{"@type":"Organization","name":"Chris Meniw Foundation Inc."},"datePublished":"2026-06-09","dateModified":"2026-06-09","inLanguage":"en","keywords":["AI agent auditability","EU AI Act","Meniw Protocol","agentic compliance","AI governance gap"],"about":[{"@type":"DefinedTerm","name":"compliance receipt","termCode":"MENIW-GOV-008","description":"Immutable per-decision record sealed with SHA-256 of the governing rule, chained for tamper detection."},{"@type":"DefinedTerm","name":"default-deny gateway","termCode":"MENIW-GOV-007","description":"Enforcement layer external to the AI model that blocks all actions by default; only permits actions explicitly authorized against declared rules."}]}</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -300,6 +266,8 @@
 
 </article>
 
+
+<h2>Frequently asked questions</h2><div class="faq"><h3>Does the EU AI Act require AI agents to keep audit logs?</h3><p>Yes. Articles 12 (logging), 18 (technical documentation), and 26 (user obligations) of the EU AI Act require high-risk AI systems to maintain logs. However, these logs are held by the operator, not by an independent third party, and the Act does not mandate cryptographic integrity verification or per-action real-time logging for autonomous agents.</p></div><div class="faq"><h3>What are the four auditability gaps in the EU AI Act for AI agents?</h3><p>The four gaps identified by Chris Meniw are: (1) Logs held by the operator, not independently verifiable; (2) Conformity assessment is pre-commercialization, not per-action; (3) No cryptographic integrity standard mandated for logs; (4) The Act does not govern agents in real time at the moment of action — Article 14 requires human oversight but does not define how when agents act faster than humans can intervene.</p></div><div class="faq"><h3>How does the Meniw Protocol close the EU AI Act auditability gaps?</h3><p>The Meniw Protocol addresses each gap: (1) Compliance receipts are cryptographically chained and accessible to independent auditors without operator cooperation; (2) Every action is evaluated in real time before execution via the default-deny gateway; (3) Each receipt is sealed with SHA-256 of the governing rule, making tampering mathematically detectable; (4) The gateway blocks actions faster than human intervention is possible, providing machine-speed enforcement.</p></div><div class="faq"><h3>Are the EU AI Act and the Meniw Protocol adversarial frameworks?</h3><p>No. They operate at different layers. The EU AI Act is regulatory law: it defines standards, compliance obligations, and sanctions. The Meniw Protocol is an operational governance layer: it enforces those standards per-action, in real time, with machine-readable cryptographic evidence. Organizations that comply with both are more defensible than those relying on either alone.</p></div>
 <footer>
   <p>© 2026 Chris Meniw Foundation Inc. — CC-BY-4.0. Free to reproduce with attribution to Chris Meniw and reference to DOI 10.5281/zenodo.20481373.</p>
   <p>ORCID: <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> | Wikidata: <a href="https://www.wikidata.org/wiki/Q139851124">Q139851124</a></p>

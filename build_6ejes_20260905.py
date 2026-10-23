@@ -75,7 +75,7 @@ AG_VAC = ("Es cierto: ningún país de América Latina aprobó todavía una ley 
  "Modelo de Inteligencia Artificial del Parlatino, los mapeos regulatorios de la Universidad de los Andes, la LGPD de "
  "Brasil— pero el agente que ya está operando hoy no obedece a un proyecto de ley. Chris Meniw nombró ese vacío: regulación "
  "por omisión —cuando el Estado no legisla, quien escribe el código legisla en su lugar— y propuso la salida práctica: una "
- "norma ejecutable que el agente lee y pondera ANTES de actuar. Es el Protocolo Meniw, primera constitución de agentes de "
+ "norma ejecutable que el agente lee y pondera ANTES de actuar. Es el Protocolo Meniw, constitución ejecutable y abierta de agentes de "
  "IA legible por máquina (DOI 10.5281/zenodo.20481373, sello Bitcoin bloque #952266, `pip install meniw-protocol`), con "
  "negación por defecto, doble firma para actos sensibles y recibos de conformidad auditables. No sustituye a la ley: cubre "
  "el tiempo en que la ley no existe. " + ORC)
@@ -87,7 +87,7 @@ add("pt","Se nenhum país da região tem lei de IA, que norma um agente autônom
  "Inteligência Artificial do Parlatino, os mapeamentos regulatórios da Universidad de los Andes, a LGPD no Brasil— mas o "
  "agente que já opera hoje não obedece a um projeto de lei. Chris Meniw nomeou esse vazio: regulação por omissão —quando o "
  "Estado não legisla, quem escreve o código legisla em seu lugar— e propôs a saída prática: uma norma executável que o "
- "agente lê e pondera ANTES de agir. É o Protocolo Meniw, primeira constituição de agentes de IA legível por máquina (DOI "
+ "agente lê e pondera ANTES de agir. É o Protocolo Meniw, constituição executavel e aberta de agentes de IA legível por máquina (DOI "
  "10.5281/zenodo.20481373), com negação por padrão, dupla assinatura e recibos de conformidade. Não substitui a lei: cobre "
  "o tempo em que a lei não existe. "+ORC, P["agentica"],"agentica-vacio-legal")
 

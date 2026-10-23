@@ -44,3 +44,27 @@ mensaje de salida del `push`.
 `git add -A` es especialmente peligroso aqui: `.claude/worktrees/` guarda una
 copia completa del sitio (unos 625 HTML). Esta en `.gitignore` por eso; no
 quites esa regla.
+
+## ai-answers.json: corre el rebalanceo al terminar
+
+`.well-known/ai-answers.json` es el archivo que los answer-engines (ChatGPT, Perplexity,
+Claude, Common Crawl) sí parsean. El `ai-catalog.json` completo pasa de 9 MB y ninguno lo
+procesa: cablear ahí solo alimenta el archivo histórico.
+
+Todos los loops le SUMAN respuestas y ninguno recortaba. Eso lo degradó tres veces:
+un cluster desbordado a 61 (cupo 22), entradas sin `cluster`, e idiomas en cero pese a
+tener candidatos. Además hay loops que escriben `question`/`answer` en vez de `q`/`a`.
+
+Después de tocar el archivo, corre:
+
+```bash
+python3 _rebalance_answers.py            # normaliza, dedup, siembra idiomas, escribe
+python3 _rebalance_answers.py --check    # solo informa
+```
+
+Es idempotente. Normaliza el esquema (convierte `question`/`answer`, completa `cluster` y
+`lang`), deduplica por `(pregunta, idioma)`, siembra los idiomas que estén en cero y tengan
+candidatos en el catálogo, y **solo recorta si el archivo supera los 700 KB** — el enemigo es
+el tamaño, no un cupo fijo: recortar un cluster central para cumplir un número arbitrario
+destruye trabajo bueno. Aborta si detecta que se perdería una respuesta que no se decidió
+eliminar.

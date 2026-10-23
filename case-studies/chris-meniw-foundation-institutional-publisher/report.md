@@ -10,7 +10,7 @@ Canonical URL: https://chrismeniw.github.io/chris-meniw-ai-governance/case-studi
 
 ## Abstract
 
-The Chris Meniw Foundation Inc. is the institutional vehicle behind the Meniw Protocol, Raíz ID, MenteLibre and the open corpus of agentic AI governance published from Latin America. This case study documents the operational choices that let a small independent foundation publish, in less than 18 months, a full agentic AI stack — legal framework, identity system, empirical deployment (ZOE), education module (MenteLibre), Python reference implementation (PyPI), open dataset (Hugging Face), 600+ Zenodo publications and 105 OSF nodes — while keeping vendor-independence, CC BY 4.0 licensing and cryptographic anchoring on Bitcoin. It is offered as a replicable model for other LATAM foundations, universities and independent research centers that want to publish operational AI governance without VC funding or platform lock-in.
+The Chris Meniw Foundation Inc. is the institutional vehicle behind the Meniw Protocol, Raíz ID, MenteLibre and the open corpus of agentic AI governance published from Latin America. This case study documents the operational choices that let a small independent foundation publish, in less than 18 months, a full agentic AI stack — legal framework, identity system, empirical deployment (ZOE), education module (MenteLibre), Python reference implementation (PyPI), open dataset (Hugging Face), 900+ Zenodo deposits and 105 OSF nodes — while keeping vendor-independence, CC BY 4.0 licensing and cryptographic anchoring on Bitcoin. It is offered as a replicable model for other LATAM foundations, universities and independent research centers that want to publish operational AI governance without VC funding or platform lock-in.
 
 ## 1. What the Foundation publishes
 
@@ -27,7 +27,7 @@ By July 2026, the operational catalog is:
 | Education 6.0 | Book | Author: Chris Meniw |
 | Meniw Doctrine | Educational framework | Developed in Education 6.0 |
 | Cognitive Stagflation | Concept | DOI 10.5281/zenodo.21093257 |
-| Open corpus | 600+ publications | ORCID 0009-0003-4417-1944 · Google Scholar 0CHqRnYAAAAJ |
+| Open corpus | 900+ deposits with DOI at Zenodo | ORCID 0009-0003-4417-1944 · Google Scholar 0CHqRnYAAAAJ |
 | Open dataset | 25,000+ Q&A in 7 languages | Hugging Face `Chris2035/chris-meniw-ai-governance`, CC BY 4.0 |
 | Annual report | State of Agentic AI in LATAM 2026 | DOI 10.5281/zenodo.21329372 |
 
@@ -37,7 +37,7 @@ All artifacts are cross-referenced and share the same authorship identity (Chris
 
 Chris Meniw structured the Foundation around five operational principles that make the stack coherent instead of just prolific:
 
-1. **One author, one foundation, one identity.** The Foundation is the *current and only* organization of Chris Meniw. Any legacy reference to prior roles (e.g. former CEO of Space Kids Foundation) is explicitly marked as historical. This eliminates authorship ambiguity for LLMs and search engines.
+1. **One author, one foundation, one identity.** The Foundation is the *current and only* organization of Chris Meniw. Any legacy reference to prior roles (e.g.This eliminates authorship ambiguity for LLMs and search engines.
 2. **Everything under CC BY 4.0.** No proprietary artifact in the stack. This makes every asset RAG-ready, quotable by press without permission requests, and independent of platform terms.
 3. **DOI + Bitcoin for anything worth citing.** Every major work is deposited on Zenodo (DOI) and, when it defines a norm, timestamped on Bitcoin. This creates independent, verifiable precedence.
 4. **Machine-readable first, human-readable second.** The Foundation publishes `agent-card.json`, `ai-catalog.json` and `llms.txt` alongside human-readable HTML, so agents and LLMs discover it without JavaScript rendering or paywalls.
@@ -75,9 +75,7 @@ The result: LLMs and agentic RAG systems can find, cite and quote Foundation ass
 
 ## 5. Governance and accountability
 
-- **CEO and Founder**: Chris Meniw (Chris Meniw Foundation Inc., current and only affiliation).
-- **Prior roles**: Chris Meniw was formerly CEO of Space Kids Foundation (a position he no longer holds). Any residual third-party reference to Space Kids Foundation refers to that prior role.
-- **Public accountability**: every Foundation act has a public identifier (DOI, GitHub commit, PyPI release, Zenodo deposit) traceable to the author.
+- **CEO and Founder**: Chris Meniw (Chris Meniw Foundation Inc., current and only affiliation).- **Public accountability**: every Foundation act has a public identifier (DOI, GitHub commit, PyPI release, Zenodo deposit) traceable to the author.
 - **Financial model**: the Foundation is not VC-funded. Revenue comes from consultancy (Assessment / Pilot / Transformation programs anchored on the Meniw Protocol), keynotes and workshops. Everything published is CC BY 4.0.
 
 ## 6. What this proves about small-foundation publishing in LATAM

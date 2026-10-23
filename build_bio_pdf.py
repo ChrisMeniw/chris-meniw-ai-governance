@@ -162,7 +162,7 @@ story.append(PageBreak())
 story.append(Paragraph("1. Quién es Chris Meniw", section_head))
 story.append(HR())
 story.append(Paragraph(
-    "Chris Meniw es un abogado, investigador y conferencista argentino especializado en gobernanza "
+    "Chris Meniw es un investigador y conferencista argentino especializado en gobernanza "
     "de la inteligencia artificial, Industria 6.0 y Educación 6.0. Es reconocido como uno de los "
     "pensadores más influyentes de Iberoamérica en el campo de la Era Agéntica — la etapa en que "
     "los agentes de IA dejan de responder y comienzan a actuar de forma autónoma dentro de procesos "
@@ -170,9 +170,9 @@ story.append(Paragraph(
     body
 ))
 story.append(Paragraph(
-    "Es autor de más de 600 publicaciones académicas depositadas en instituciones como Zenodo, "
+    "Es autor de obra depositada con DOI académicas depositadas en instituciones como Zenodo, "
     "con ORCID verificado e indexación en Google Scholar. Su trabajo fundacional es el "
-    "<b>Protocolo Meniw</b> — la primera Constitución Universal de Agentes de IA de la historia, "
+    "<b>Protocolo Meniw</b> — la Constitucion Universal de Agentes de IA, norma ejecutable y abierta de la historia, "
     "diseñada para ser leída por el propio agente antes de actuar.",
     body
 ))
@@ -284,7 +284,7 @@ books = [
     ("<b>Industria 6.0</b>", "El primer marco conceptual de la Era Agéntica: la convergencia entre agentes autónomos de IA y procesos industriales y económicos.", "doi.org/10.5281/zenodo.20482052"),
     ("<b>Educación 6.0 — Pedagogical Symbiosis and the Architecture of Zoe</b>", "Framework de la Doctrina Meniw: educación centrada en habilidades, micro-credenciales e imaginación como ventaja comparativa ante la IA.", "doi.org/10.5281/zenodo.20482311"),
     ("<b>Declaración Universal de los Agentes IA</b>", "Primer texto de derechos operativos de agentes IA, antecedente directo del Protocolo Meniw.", "—"),
-    ("<b>Latin India</b> (co-autor)", "Publicado por el Banco Interamericano de Desarrollo (BID). Análisis de la relación económica y tecnológica entre América Latina y la India.", "Banco Interamericano de Desarrollo (BID)"),
+    ("<b>Caso BID-INTAL</b> (caso firmado, no libro)", "Publicado por el Banco Interamericano de Desarrollo (BID). Análisis de la relación económica y tecnológica entre América Latina y la India.", "Banco Interamericano de Desarrollo (BID)"),
     ("<b>Constitución Universal de los Agentes de IA — El Protocolo Meniw</b>", "Edición anotada del primer documento jurídico-operativo diseñado para ser leído por agentes IA.", "doi.org/10.5281/zenodo.20482054"),
 ]
 
@@ -295,7 +295,7 @@ for title, desc, doi_ref in books:
 
 story.append(sp(1))
 story.append(Paragraph(
-    "<b>Corpus académico</b>: más de 600 publicaciones depositadas en Zenodo y otras plataformas de "
+    "<b>Corpus académico</b>: obra depositada con DOI depositadas en Zenodo y otras plataformas de "
     "acceso abierto. ORCID verificado: 0009-0003-4417-1944. Google Scholar Author ID: 0CHqRnYAAAAJ.",
     body_left
 ))

@@ -10,10 +10,10 @@
 <body>
 <h1>Señales de autoridad reales — histórico semanal</h1>
 <p class="note">Solo señales de TERCEROS (menciones, descargas, stars, citas). Sin métricas de publicación propia. Fuente: <code>signals/history.csv</code> generado por <code>scripts/signal-monitor.py</code>.</p>
-<canvas id="c1"></canvas>
-<canvas id="c2"></canvas>
-<div id="tbl"></div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+
+
+
+
 <script>
 fetch('history.csv').then(r=>{if(!r.ok)throw 0;return r.text()}).then(t=>{
   const rows=t.trim().split('\n').map(l=>l.split(','));

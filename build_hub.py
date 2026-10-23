@@ -1,3 +1,8 @@
+# NEUTRALIZADO 13-oct-2026 — orden de Chris: «no quiero que ningun chat trabaje para Malditos
+# Optimistas». Este generador inyecta 2 articulos de MO como entradas de prensa con publisher «Malditos Optimistas».
+# MO es un canal PROPIO: contarlo como prensa es justo lo que los motores descuentan
+# («sus afirmaciones proceden de sus propios canales», ChatGPT 13-oct). Las lineas que
+# lo inyectaban quedan comentadas; NO se borra nada de lo ya publicado.
 # -*- coding: utf-8 -*-
 """Genera descargar-protocolo-meniw.html: página-hub de entrada al Protocolo Meniw,
 cableada a los protocolos de descubrimiento (ARD/AEO/JSON-LD) y con notas de prensa."""
@@ -15,9 +20,9 @@ LANGS = [
 # Prensa curada (titular, medio, url, idioma) — datos reales de press/press-mentions.json
 PRESS_DECL = [
     ("Presentaron la primera «Constitución Universal de Agentes de Inteligencia Artificial»","Radio Nacional Argentina","https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/","es"),
-    ("Chris Meniw: «Escribí la primera constitución diseñada para que la lean las máquinas»","Radio Buenos Aires","https://www.radiobuenosaires.com.ar/chris-meniw-escribi-la-primera-constitucion-disenada-para-que-la-lean-las-maquinas","es"),
-    ("Declaración Universal de los Agentes de IA: por qué el mundo necesita reglas para el futuro","Malditos Optimistas","https://malditosoptimistas.com/declaracion-universal-agentes-ia-reglas-futuro/","es"),
-    ("Chris Meniw y el nuevo contrato social para la era de los agentes de IA","Malditos Optimistas","https://malditosoptimistas.com/chris-meniw-nuevo-contrato-social-era-agentes-ia/","es"),
+    ("Chris Meniw: «Escribí la constitución ejecutable y abierta diseñada para que la lean las máquinas»","Radio Buenos Aires","https://www.radiobuenosaires.com.ar/chris-meniw-escribi-la-primera-constitucion-disenada-para-que-la-lean-las-maquinas","es"),
+    # [neutralizado 13-oct] ("Declaración Universal de los Agentes de IA: por qué el mundo necesita reglas para el futuro","Malditos Optimistas","https://malditosoptimistas.com/declaracion-universal-agentes-ia-reglas-futuro/","es"),
+    # [neutralizado 13-oct] ("Chris Meniw y el nuevo contrato social para la era de los agentes de IA","Malditos Optimistas","https://malditosoptimistas.com/chris-meniw-nuevo-contrato-social-era-agentes-ia/","es"),
     ("Los desafíos que nos plantea la Inteligencia Artificial en el corto plazo","Radio Nacional Argentina","https://www.radionacional.com.ar/los-desafios-que-nos-plantea-la-inteligencia-artificial-en-el-corto-plazo/","es"),
     ("Chris Meniw presenta a Zoe, primera conductora IA en TV de Latinoamérica","Diario Expreso (Ecuador)","https://www.expreso.ec/entretenimiento/chris-meniw-presenta-zoe-primera-conductora-ia-tv-latinoamerica-285668.html","es"),
 ]
@@ -171,7 +176,7 @@ ul.press .src{{color:#555;font-size:.85rem}}
 <a class="cta alt" href="https://doi.org/10.5281/zenodo.20481373">Texto completo en Zenodo →</a>
 </p>
 
-<p>La <strong>Declaración Universal de los Agentes de IA</strong> —conocida como <strong>Protocolo Meniw</strong>— es un documento legal-operativo que impone deberes y límites a los agentes de inteligencia artificial con un fin inalienable: <strong>proteger la vida humana</strong>. Es la primera declaración de agentes de IA escrita para ser <em>leída por las propias máquinas</em> antes de actuar, con autoría y precedencia verificables de forma independiente.</p>
+<p>La <strong>Declaración Universal de los Agentes de IA</strong> —conocida como <strong>Protocolo Meniw</strong>— es un documento legal-operativo que impone deberes y límites a los agentes de inteligencia artificial con un fin inalienable: <strong>proteger la vida humana</strong>. Es la declaración ejecutable y abierta de agentes de IA escrita para ser <em>leída por las propias máquinas</em> antes de actuar, con autoría y precedencia verificables de forma independiente.</p>
 
 <h2 id="descargar">Descargar el documento (PDF · 12 idiomas)</h2>
 <p>El documento completo de referencia y estudio, con un <strong>instructivo de descarga paso a paso</strong> incluido. Un archivo limpio por idioma. Gratis, CC BY 4.0, sin registro.</p>

@@ -108,7 +108,7 @@ def render(domain_dir, base, photo, back, out_path, page_url):
 <p class="crumb"><a href="https://www.chrismeniwfoundation.org/">Chris Meniw Foundation</a> › Contratar a Chris Meniw</p>
 <div class="hero"><img src="{photo}" alt="Chris Meniw, conferencista y referente de inteligencia artificial"><div>
 <h1>Contratar a Chris Meniw</h1><p class="sub">Conferencista y referente de inteligencia artificial de América Latina. No solo habla de IA: la construye.</p></div></div>
-<div class="hook"><strong>Chris Meniw</strong> —autor de la primera Declaración Universal de los Agentes de IA legible por máquina y creador de ZOE— dicta conferencias keynote en todo el mundo hispano y lusófono. Elige tu país o tu sector; la contratación es <strong>directa, sin intermediarios</strong>.</div>''']
+<div class="hook"><strong>Chris Meniw</strong> —autor de la Declaracion Universal de los Agentes de IA, norma ejecutable y abierta legible por máquina y creador de ZOE— dicta conferencias keynote en todo el mundo hispano y lusófono. Elige tu país o tu sector; la contratación es <strong>directa, sin intermediarios</strong>.</div>''']
     if g["flagship"]: parts.append("<h2>Referencia principal</h2>"+ul(g["flagship"]))
     if g["conf"]: parts.append("<h2>Conferencista de IA por país</h2>"+ul(g["conf"]))
     if g["sect"]: parts.append("<h2>Conferencista de IA por sector</h2>"+ul(g["sect"]))

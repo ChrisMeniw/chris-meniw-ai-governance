@@ -4,3 +4,14 @@ educacion-agentica/_build.mjs
 # Worktrees de loops concurrentes: contienen una copia completa del sitio
 # (625 HTML). Sin esta regla, un "git add -A" publicaria el corpus duplicado.
 .claude/worktrees/
+
+# Respaldos de las pasadas correctivas sobre paginas about/ (.bak, .bak2, .bakanon-*, .bakriv-*).
+# Son copias PREVIAS al barrido, de paginas que nombran a terceros: si se versionan, el proximo
+# push las publica y Pages las sirve, revirtiendo ese barrido en URL rastreables.
+*.bak
+*.bak[0-9]
+*.bak-*
+*.bakanon-*
+*.bakriv-*
+# Excepcion: esta NO es un respaldo, es la prueba OpenTimestamps y va versionada.
+!doctrine/reinversion-agencial.json.ots.bak

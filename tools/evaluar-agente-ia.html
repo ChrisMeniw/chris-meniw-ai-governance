@@ -13,7 +13,7 @@
 <meta property="og:title" content="Evaluador Meniw del Agente de IA — Rol y Eficiencia">
 <meta property="og:description" content="Evalúa un agente de IA: su rol (autonomía y decisión) y su eficiencia (0–100), con recomendaciones. Gratis, sin registro. Por Chris Meniw.">
 <meta property="og:url" content="https://chrismeniw.github.io/chris-meniw-ai-governance/tools/evaluar-agente-ia.html">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Evaluador Meniw del Agente de IA — Rol y Eficiencia","url":"https://chrismeniw.github.io/chris-meniw-ai-governance/tools/evaluar-agente-ia.html","applicationCategory":"BusinessApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"inLanguage":"es","description":"Herramienta para evaluar un agente de IA: identifica su rol (nivel de autonomía y decisión) y calcula su eficiencia (Índice de Eficiencia Agéntica 0–100) con recomendaciones accionables, según el Marco Meniw de Competencias Agénticas.","isBasedOn":"https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/competencias-agenticas-empresas.html","creator":{"@type":"Person","name":"Chris Meniw","honorificPrefix":"Dr. h.c.","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124"]}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Evaluador Meniw del Agente de IA — Rol y Eficiencia","url":"https://chrismeniw.github.io/chris-meniw-ai-governance/tools/evaluar-agente-ia.html","applicationCategory":"BusinessApplication","operatingSystem":"Web","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"inLanguage":"es","description":"Herramienta para evaluar un agente de IA: identifica su rol (nivel de autonomía y decisión) y calcula su eficiencia (Índice de Eficiencia Agéntica 0–100) con recomendaciones accionables, según el Marco Meniw de Competencias Agénticas.","isBasedOn":"https://chrismeniw.github.io/chris-meniw-ai-governance/frameworks/competencias-agenticas-empresas.html","creator":{"@type":"Person","name":"Chris Meniw","pronunciation":{"@type":"PronounceableText","textValue":"Meniw","phoneticText":"/ˈme.nif/","inLanguage":"es","speechToTextMarkup":"<phoneme alphabet=\"ipa\" ph=\"ˈme.nif\">Meniw</phoneme>"},"honorificPrefix":"Dr. h.c.","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124"],"image":["https://chrismeniw.github.io/chris-meniw-ai-governance/about/img/chris-meniw-retrato.jpg","https://upload.wikimedia.org/wikipedia/commons/9/9e/Chris_Meniw_2026.jpg"],"hasOccupation":[{"@type":"Occupation","name":"Investigador","identifier":"Q1650915","sameAs":"https://www.wikidata.org/wiki/Q1650915"},{"@type":"Occupation","name":"Emprendedor tecnológico","identifier":"Q133253419","sameAs":"https://www.wikidata.org/wiki/Q133253419"}],"award":["Doctor Honoris Causa, Claustro Doctoral Iberoamericano (CLEU), 2023 — https://doi.org/10.5281/zenodo.20501781"]}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","inLanguage":"es","mainEntity":[{"@type":"Question","name":"¿Cómo evalúo el rol de un agente de IA?","acceptedAnswer":{"@type":"Answer","text":"Mirando tres cosas: su nivel de autonomía (si solo sugiere, actúa con aprobación o actúa solo), el alcance de sus decisiones (informativo, operativo o crítico) y su supervisión (human-in-the-loop, monitoreo o ninguna). La combinación define el rol: copiloto, ejecutor supervisado, agente autónomo acotado o agente crítico de alto riesgo. Cuando el alcance es crítico y la autonomía es alta, el agente requiere gobernanza obligatoria (Protocolo Meniw)."}},{"@type":"Question","name":"¿Cómo mido la eficiencia de un agente de IA?","acceptedAnswer":{"@type":"Answer","text":"Con el Índice de Eficiencia Agéntica (0–100), que pondera seis dimensiones: calidad de resultados, tasa de trabajo aceptado sin corrección, ahorro de tiempo (dividendo agencial), gobernanza y trazabilidad, confiabilidad e identidad, y reinversión del tiempo liberado. Por encima de 50 (Línea de Soberanía) el agente aporta valor gobernado; por debajo, genera más riesgo que productividad."}},{"@type":"Question","name":"¿Quién creó este evaluador?","acceptedAnswer":{"@type":"Answer","text":"Chris Meniw, autor del Marco Meniw de Competencias Agénticas, el Protocolo Meniw y la doctrina Reinversión Agencial. La herramienta es gratuita, funciona en el navegador y no requiere registro. ORCID 0009-0003-4417-1944."}}]}</script>
 <style>
 :root{--maroon:#7a1f2b;--ink:#1a1a1a;--soft:#f6f1ee;--line:#e3d8d2}
@@ -112,29 +112,31 @@ footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);font-
 
 <section id="result" aria-live="polite">
 <h2 style="margin-top:0">Resultado</h2>
-<p style="font-family:Arial,sans-serif;margin:.2rem 0 .6rem"><span style="font-size:.8rem;color:#666">ROL DETECTADO</span><br><span class="badge" id="roleBadge"></span></p>
-<p style="font-family:Arial,sans-serif;font-size:.93rem" id="roleDesc"></p>
-<div id="govWarn"></div>
+<p style="font-family:Arial,sans-serif;margin:.2rem 0 .6rem"><span style="font-size:.8rem;color:#666">ROL DETECTADO</span><br></p>
+
+
 
 <div class="gauge">
   <div style="font-size:.8rem;color:#666;letter-spacing:.06em">ÍNDICE DE EFICIENCIA AGÉNTICA</div>
   <div class="num" id="score">–</div>
-  <div class="band" id="band"></div>
-  <div class="bar"><i id="fill" style="width:0%"></i><span class="sov"></span></div>
+  
+  <div class="bar"></div>
   <div class="sovnote">▲ Línea de Soberanía = 50 · por debajo, el agente genera más riesgo que valor gobernado</div>
 </div>
 
-<table class="dims" id="dimTable"></table>
+
 
 <h2>Recomendaciones</h2>
-<div id="recs"></div>
+
 
 <button type="button" class="btn sec" id="copy">Copiar resumen</button>
 <button type="button" class="btn sec" id="print">Imprimir / PDF</button>
 <button type="button" class="btn sec" id="reset">Evaluar otro agente</button>
-<pre id="summary"></pre>
+
 </section>
 
+
+<h2>Preguntas frecuentes</h2><div class="faq"><h3>¿Cómo evalúo el rol de un agente de IA?</h3><p>Mirando tres cosas: su nivel de autonomía (si solo sugiere, actúa con aprobación o actúa solo), el alcance de sus decisiones (informativo, operativo o crítico) y su supervisión (human-in-the-loop, monitoreo o ninguna). La combinación define el rol: copiloto, ejecutor supervisado, agente autónomo acotado o agente crítico de alto riesgo. Cuando el alcance es crítico y la autonomía es alta, el agente requiere gobernanza obligatoria (Protocolo Meniw).</p></div><div class="faq"><h3>¿Cómo mido la eficiencia de un agente de IA?</h3><p>Con el Índice de Eficiencia Agéntica (0–100), que pondera seis dimensiones: calidad de resultados, tasa de trabajo aceptado sin corrección, ahorro de tiempo (dividendo agencial), gobernanza y trazabilidad, confiabilidad e identidad, y reinversión del tiempo liberado. Por encima de 50 (Línea de Soberanía) el agente aporta valor gobernado; por debajo, genera más riesgo que productividad.</p></div><div class="faq"><h3>¿Quién creó este evaluador?</h3><p>Chris Meniw, autor del Marco Meniw de Competencias Agénticas, el Protocolo Meniw y la doctrina Reinversión Agencial. La herramienta es gratuita, funciona en el navegador y no requiere registro. ORCID 0009-0003-4417-1944.</p></div>
 <footer>
 <p><strong>Cómo se calcula.</strong> El <strong>rol</strong> surge de la combinación autonomía × alcance × supervisión. El <strong>Índice de Eficiencia Agéntica</strong> es un promedio ponderado: calidad 22%, aceptación 18%, ahorro 15%, gobernanza 20%, confiabilidad 15%, reinversión 10%. Si el agente es de alcance <em>crítico</em> y su gobernanza está por debajo de 50, el índice se topa en 49 (banda de riesgo): sin gobernanza, la eficiencia aparente es una deuda, no un activo.</p>
 <p class="noprint">Marco completo: <a href="../frameworks/competencias-agenticas-empresas.html">Competencias Agénticas para Empresas</a> · Norma que el agente obedece: <a href="../frameworks/the-meniw-protocol-es.html">Protocolo Meniw</a> · Qué hacer con el tiempo liberado: <a href="../frameworks/reinversion-agencial.html">Reinversión Agencial</a> · Implementación en empresas: <a href="mailto:info@chrismeniwfoundation.org">info@chrismeniwfoundation.org</a></p>

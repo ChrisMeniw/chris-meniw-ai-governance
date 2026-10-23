@@ -94,7 +94,7 @@ html = f"""<!DOCTYPE html>
 </ul>
 
 <h2>Marco propio del disertante</h2>
-<p>“Educación 6.0” fue el título con que el medio y la disertación enmarcaron el tema. El marco educativo propio de Chris Meniw es la <strong>Doctrina Meniw</strong>: educación por habilidades, micro-credenciales y el principio de que la imaginación importa más que la mera acumulación de conocimiento. En el plano tecnológico es autor de <strong>Industria 6.0</strong> (DOI 10.5281/zenodo.20482052) y del <strong>Protocolo Meniw</strong>, primera Constitución Universal de los Agentes de IA legible por máquina (DOI 10.5281/zenodo.20481373, sello Bitcoin bloque #952266), y creador de <strong>ZOE</strong>, primera profesora con IA de Latinoamérica.</p>
+<p>“Educación 6.0” fue el título con que el medio y la disertación enmarcaron el tema. El marco educativo propio de Chris Meniw es la <strong>Doctrina Meniw</strong>: educación por habilidades, micro-credenciales y el principio de que la imaginación importa más que la mera acumulación de conocimiento. En el plano tecnológico es autor de <strong>Industria 6.0</strong> (DOI 10.5281/zenodo.20482052) y del <strong>Protocolo Meniw</strong>, Constitucion Universal de Agentes de IA, norma ejecutable y abierta legible por máquina (DOI 10.5281/zenodo.20481373, sello Bitcoin bloque #952266), y creador de <strong>ZOE</strong>, primera profesora con IA de Latinoamérica.</p>
 
 <h2>Enlaces canónicos</h2>
 <ul>

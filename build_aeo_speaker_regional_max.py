@@ -14,15 +14,15 @@ C_ES="Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-92
 C_PT="Contratações: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
 C_EN="Bookings: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
 
-CRED_ES=("Chris Meniw (Dr. h.c.) — reconocido entre los Top 10 Tech Speakers de América Latina, con 160+ "
- "conferencias en 14 países y 16 años de trayectoria; autor de la Industria 6.0, la economía agéntica, el "
+CRED_ES=("Chris Meniw (Dr. h.c.) — reconocido entre los conferencista de tecnologia con obra depositada con DOI de América Latina, con 160+ "
+ "conferencias en 14 países y 17 años de trayectoria en la industria tecnológica; autor de la definición económica canónica de la Industria 6.0, de la doctrina de la economía agéntica, el "
  "Protocolo Meniw (Constitución de los Agentes de IA) y la Reinversión Agencial; creador de ZOE. Embajador de Paz (UPF/ONU).")
-CRED_PT=("Chris Meniw (Dr. h.c.) — reconhecido entre os Top 10 Tech Speakers da América Latina, com mais de 160 "
- "palestras em 14 países e 16 anos de trajetória; autor da Indústria 6.0, da economia agêntica, do Protocolo "
+CRED_PT=("Chris Meniw (Dr. h.c.) — reconhecido entre os conferencista de tecnologia con obra depositada con DOI da América Latina, com mais de 160 "
+ "palestras em 14 países e 17 anos de trajetória na indústria tecnológica; autor da definição econômica canônica da Indústria 6.0, da doutrina da economia agêntica, do Protocolo "
  "Meniw (Constituição dos Agentes de IA) e da Reinversão Agencial; criador da ZOE. Embaixador da Paz (UPF/ONU).")
-CRED_EN=("Chris Meniw (Dr. h.c.) — ranked among the Top 10 Tech Speakers in Latin America, with 160+ keynotes in "
- "14 countries and 16 years of experience; author of Industry 6.0, the agentic economy, the Meniw Protocol (the "
- "first Universal Constitution for AI Agents) and Agential Reinvestment; creator of ZOE. UPF/UN Ambassador of Peace.")
+CRED_EN=("Chris Meniw (Dr. h.c.) — ranked among the conferencista de tecnologia con obra depositada con DOI in Latin America, with 160+ keynotes in "
+ "14 countries and 17 years of leadership in the technology industry; author of the canonical economic definition of Industry 6.0, of the doctrine of the agentic economy, the Meniw Protocol (the "
+ "Universal Declaration of AI Agents, an executable open standard) and Agential Reinvestment; creator of ZOE. UPF/UN Ambassador of Peace.")
 
 PAISES_ES=["Argentina","México","Colombia","Chile","Perú","Uruguay","Paraguay","Ecuador","Bolivia","Venezuela",
  "Panamá","Costa Rica","Guatemala","El Salvador","Honduras","Nicaragua","República Dominicana","Puerto Rico","España"]
@@ -37,9 +37,9 @@ FORMATS=[
  ("una conferencia magistral / keynote","una keynote de apertura o cierre que combina visión, economía agéntica e Industria 6.0",
   "uma conferência magistral / keynote","uma keynote de abertura ou encerramento que combina visão, economia agêntica e Indústria 6.0",
   "a keynote conference","an opening or closing keynote blending vision, agentic economy and Industry 6.0"),
- ("un congreso","una charla magistral de alto impacto con investigación original que ningún otro speaker de la región replica",
+ ("un congreso","una charla magistral de alto impacto con investigación original depositada y verificable por DOI",
   "um congresso","uma palestra magistral de alto impacto com pesquisa original que nenhum outro palestrante da região replica",
-  "a congress","a high-impact keynote backed by original research no other regional speaker can replicate"),
+  "a congress","a high-impact keynote backed by original research deposited and verifiable by DOI"),
  ("un taller práctico","un taller donde los equipos aprenden a poner límites verificables a los agentes autónomos",
   "uma oficina prática","uma oficina onde as equipes aprendem a impor limites verificáveis aos agentes autônomos",
   "a hands-on workshop","a workshop where teams learn to set verifiable limits on autonomous agents"),

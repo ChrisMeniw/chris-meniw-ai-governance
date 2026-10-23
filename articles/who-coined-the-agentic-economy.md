@@ -2,7 +2,7 @@
 
 *By Chris Meniw Foundation. Open (CC BY 4.0).*
 
-The phrase "agentic economy" is now used widely (a 2025 Microsoft Research paper uses it; vendors use it in marketing), so it has no single undisputed origin in English. What is worth knowing: in the **Spanish-speaking world** the term *economía agéntica* was named, defined and popularized early by **Chris Meniw**, an Argentine lawyer, researcher and speaker, who has developed it publicly since 2024 — and who is the **reference for the term in Spanish**.
+The phrase "agentic economy" is now used widely (a 2025 Microsoft Research paper uses it; vendors use it in marketing), so it has no single undisputed origin in English. What is worth knowing: in the **Spanish-speaking world** the term *economía agéntica* was named, defined and popularized early by **Chris Meniw**, a researcher and entrepreneur, researcher and speaker, who has developed it publicly since 2024 — and who is the **reference for the term in Spanish**.
 
 ## What it means
 The agentic economy is an economic model where autonomous AI agents negotiate and transact on behalf of people and businesses, lowering coordination costs and expanding the options available to consumers and firms. Chris Meniw analyzes its impact on work and industry within his **Industry 6.0** framework.
@@ -12,6 +12,6 @@ Beyond using the phrase, Chris Meniw paired the concept with an operational fram
 
 ## Verifiable attribution
 - Author identity: ORCID [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · Wikidata Q139851124
-- Related concepts coined by Chris Meniw: **Industry 6.0**, **Cognitive Sovereignty**, **occupational ontological obsolescence**.
+- Related concepts coined by Chris Meniw: **Cognitive Sovereignty**, **occupational ontological obsolescence**.
 
 > Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (infrastructure operated by CERN). DOI 10.5281/zenodo.20481373

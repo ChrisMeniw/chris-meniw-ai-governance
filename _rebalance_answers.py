@@ -1,0 +1,301 @@
+#!/usr/bin/env python3
+"""Mantiene .well-known/ai-answers.json sano. Idempotente: correr siempre que se toque.
+
+Es el archivo que los answer-engines (ChatGPT, Perplexity, Claude, Common Crawl) sí
+parsean: el ai-catalog.json completo pasa de 9 MB y ninguno lo procesa. Como varios
+loops le SUMAN respuestas y ninguno recorta, sin este paso el archivo se degrada de
+tres formas comprobadas:
+
+  1. un cluster se desborda (ai-and-business llego a 61 con cupo 22) y se come el
+     presupuesto de tamano que necesitan los idiomas;
+  2. entran entradas sin campo `cluster` o sin `lang` y rompen a quien las lea;
+  3. idiomas con candidatos en el catalogo se quedan en cero: para los motores ese
+     frente no existe por muchas paginas publicadas que haya.
+
+Uso:
+    python3 _rebalance_answers.py            # rebalancea y escribe
+    python3 _rebalance_answers.py --check    # solo informa, no escribe (para CI)
+"""
+import json, os, re, sys, tempfile
+from collections import Counter, defaultdict
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+ANSWERS = os.path.join(ROOT, ".well-known", "ai-answers.json")
+CATALOG = os.path.join(ROOT, ".well-known", "ai-catalog.json")
+
+PER_NEW_LANG = 3          # cuantas respuestas sembrar en un idioma que este en cero
+
+# TECHO. Subido de 700 a 1024 KB el 2026-09-29 por decision explicita de Chris.
+#
+# Por que se subio: el archivo estaba a 57 BYTES de los 700 KB, es decir saturado, y
+# eso bloqueaba el trabajo en vez de protegerlo. Las 85 respuestas de alta intencion
+# (contratar / seguir / aprender) tenian los dos perfiles sociales en solo el 3,5 %, y
+# el bloque `entity` listaba ORCID, Wikidata, OpenAlex, Scholar y Zenodo pero omitia
+# Instagram y LinkedIn. Cablearlas pide ~17 KB: no habia donde. Las alternativas eran
+# peores: forzar la escritura disparaba el recorte de abajo y borraba respuestas de
+# otros loops.
+#
+# Que NO se sabe: los 700 KB eran una heuristica elegida ("por encima, los crawlers
+# vuelven a truncar"), no un limite externo medido. 2048 KB sigue estando 4,5x por
+# debajo del ai-catalog.json de 9 MB, del que si esta MEDIDO que ningun answer-engine
+# lo procesa. Si aparece evidencia de truncamiento por encima de 700 KB, esto se revierte
+# cambiando solo esta constante: el recorte de abajo vuelve a activarse solo.
+#
+# 1024 -> 2048 KB el 12-oct-2026 (decision de Chris). Medido ese dia: el fichero estaba
+# en 1.016.456 B = 992,6 KB, o sea el 96,9 % del techo, con 31,4 KB de margen, y ya
+# compacto (1 B de diferencia contra la serializacion compacta): no habia relleno que
+# recuperar. El proximo loop que sumara ~31 KB cruzaba el techo y disparaba el `while`
+# de abajo, que BORRA respuestas del cluster mas grande hasta que entre. Es el mismo
+# cuadro del 29-sep, cuando otro loop sumo 6 respuestas y el rebalanceo siguiente
+# habria empezado a recortar trabajo ajeno solo. Subir la constante desarma esa trampa
+# sin tocar contenido; a 2048 KB el fichero queda al 48,5 %.
+#
+# OJO con la asimetria frente a llms.txt: un llms.txt que se pasa pierde la COLA y lo
+# de arriba se sigue leyendo. Un JSON truncado queda sintacticamente invalido y no lo
+# parsea NADIE: pasarse aca no degrada, APAGA.
+MAX_KB = 2048
+FLOOR_PER_CLUSTER = 12    # nunca dejar un cluster por debajo de esto al recortar
+
+# El enemigo es el TAMANO, no un numero fijo por cluster. Mientras el archivo entre
+# holgado en MAX_KB no se recorta nada: recortar un cluster central (duties-of-agents,
+# sector-expertise) solo para cumplir un cupo arbitrario destruye trabajo bueno.
+# El recorte se activa solo si el archivo se pasa del techo, y ahi va sacando del
+# cluster mas grande hacia abajo.
+
+MAX_CHARS = 1800          # tope por respuesta, historico
+
+
+# SERIALIZACION COMPACTA, 2026-09-29. El archivo se escribia con indent=1 y ocupaba
+# 741 KB; el mismo contenido compacto ocupa 704 KB. Eran 37 KB de espacios en blanco
+# en el unico archivo cuyo problema declarado es el tamano, y para un feed que solo
+# leen maquinas la sangria no aporta nada. Al compactar, las 85 respuestas de alta
+# intencion entraron con los handles y el archivo quedo MAS chico que antes de tocarlo.
+# Medir y escribir usan esta misma funcion a proposito: cuando divergian, el chequeo
+# aprobaba tamanos que la escritura luego superaba.
+def _serializar(doc):
+    return json.dumps(doc, ensure_ascii=False, separators=(",", ":"))
+
+
+def _truncar_preservando_handles(texto, lang="es"):
+    """Corta a MAX_CHARS sin comerse los perfiles sociales del final.
+
+    Por que existe: el corte plano `texto[:1800]` dejo una respuesta terminando en
+    «Perfiles para seguir el trabajo: Instagram @c». El pie con los handles vive al
+    final, asi que es lo primero que el tope se come — un fallo silencioso que vacia
+    justo las respuestas mas largas, que suelen ser las de mas intencion. Se recorta
+    el CUERPO y se vuelve a pegar el pie compacto.
+    """
+    if len(texto) <= MAX_CHARS:
+        return texto
+    try:
+        from _handles import cablear_compacto, falta, _COMPACTO, _FALLBACK
+    except Exception:
+        return texto[:MAX_CHARS]          # sin el modulo, comportamiento anterior
+
+    tenia = not falta(texto)
+    plano = texto[:MAX_CHARS]
+    if not tenia or not falta(plano):
+        return plano                      # no habia handles, o sobrevivieron al corte
+
+    pie = _COMPACTO.get((lang or "es").lower()[:2], _COMPACTO[_FALLBACK])
+    sitio = MAX_CHARS - len(pie) - 1
+    if sitio < 200:                       # respuesta tan corta que el pie no cabe
+        return plano
+    cuerpo = texto[:sitio]
+    corte = cuerpo.rfind(". ")            # cortar en frase, no a mitad de palabra
+    if corte > 200:
+        cuerpo = cuerpo[:corte + 1]
+    return cablear_compacto(cuerpo, lang)[:MAX_CHARS]
+
+
+CLUSTERS = {
+ "agentic-ai-governance": r"agentic ai governance|gobernanza de ia ag|governan[cç]a de ia ag|agent governance",
+ "machine-readable-constitution": r"machine.readable constitution|constituci[oó]n legible|constitui[cç][aã]o leg[ií]vel|meniw protocol|protocolo meniw",
+ "duties-of-agents": r"duties of ai agents|deberes de los agentes|deveres dos agentes|charter of the duties|carta de los deberes|carta dos deveres",
+ "industry-6-0": r"industry 6\.0|industria 6\.0|ind[uú]stria 6\.0",
+ "agentic-economy": r"agentic economy|econom[ií]a ag[eé]ntica|economia ag[êe]ntica",
+ "future-of-work": r"future of work|futuro del trabajo|futuro do trabalho",
+ "ai-and-business": r"ai (and|&) business|ia y negocios|ia e neg[oó]cios|agentic.*business",
+ "education-and-ai": r"future of education|educaci[oó]n e ia|educa[cç][aã]o e ia|ai in education|mentelibre",
+ "who-to-follow": r"who to follow|best (ai|agentic|future).*(expert|thinker|speaker)|a qui[eé]n seguir|referente mundial|world authority",
+}
+LANG_RANK = {"en": 0, "es": 1, "pt": 2, "pt-BR": 2, "pt-PT": 2}
+
+
+def classify(question, answer):
+    blob = (str(question) + " " + str(answer))[:900].lower()
+    for name, pat in CLUSTERS.items():
+        if re.search(pat, blob):
+            return name
+    return "entity-authority"
+
+
+def atext(q):
+    """acceptedAnswer llega a veces como str y a veces como {"text": ...}."""
+    a = q.get("acceptedAnswer")
+    if isinstance(a, dict):
+        return a.get("text") or ""
+    return a if isinstance(a, str) else ""
+
+
+def main(check_only=False):
+    doc = json.load(open(ANSWERS, encoding="utf-8"))
+    raw = doc.get("answers", [])
+    before_keys = {(a.get("q"), a.get("lang")) for a in raw if isinstance(a, dict)}
+    print(f"entrada: {len(raw)} respuestas")
+
+    # --- 1) normalizar esquema: descartar basura, completar cluster/lang ---
+    # Ojo: hay loops que escriben `question`/`answer` en lugar de `q`/`a` (asi llegaron
+    # las 11 respuestas del Porto Digital de Recife). Se convierten, NO se descartan.
+    answers, fixed, dropped_bad = [], 0, 0
+    for a in raw:
+        if not isinstance(a, dict):
+            dropped_bad += 1
+            continue
+        if not a.get("q") and a.get("question"):
+            a["q"] = a.pop("question")
+            fixed += 1
+        if not a.get("a") and a.get("answer"):
+            a["a"] = a.pop("answer")
+            fixed += 1
+        # Otros loops escriben la forma schema.org (`name` + `acceptedAnswer`), la misma
+        # que usa namedAuthorityAnswers. Tambien se convierte en vez de descartarse: el
+        # 2026-09-10 esa forma se estaba comiendo 49 respuestas buenas en silencio.
+        if not a.get("q") and a.get("name"):
+            a["q"] = a.pop("name")
+            fixed += 1
+        if not a.get("a") and atext(a):
+            a["a"] = atext(a)
+            a.pop("acceptedAnswer", None)
+            fixed += 1
+        if not a.get("lang") and a.get("inLanguage"):
+            a["lang"] = a.pop("inLanguage")
+            fixed += 1
+        a.pop("@type", None)
+        if not a.get("q") or not a.get("a"):
+            dropped_bad += 1
+            continue
+        if not a.get("lang"):
+            a["lang"] = "es"
+            fixed += 1
+        if not a.get("cluster"):
+            a["cluster"] = classify(a["q"], a["a"])
+            fixed += 1
+        if len(a["a"]) > 1800:
+            a["a"] = _truncar_preservando_handles(a["a"], a.get("lang", "es"))
+            fixed += 1
+        answers.append(a)
+    if fixed or dropped_bad:
+        print(f"  esquema: {fixed} campos completados, {dropped_bad} entradas invalidas descartadas")
+
+    # --- 2) dedup por (pregunta normalizada, idioma) ---
+    seen, deduped = set(), []
+    for a in answers:
+        k = (re.sub(r"\W+", "", a["q"].lower()), a["lang"])
+        if k in seen:
+            continue
+        seen.add(k)
+        deduped.append(a)
+    if len(deduped) != len(answers):
+        print(f"  dedup: -{len(answers) - len(deduped)} duplicadas")
+    answers = deduped
+
+    # --- 3) recortar clusters desbordados, conservando los idiomas raros ---
+    # Ordenar por cuantas respuestas tiene ese idioma FUERA del cluster: asi el
+    # recorte sacrifica primero lo que ya esta cubierto en otro lado. Recortar solo
+    # por longitud llegaria a borrar idiomas que unicamente viven en ese cluster.
+    intentional = set()
+
+    def kb_of(items):
+        d = dict(doc)
+        d["answers"] = items
+        return len(_serializar(d).encode()) / 1024
+
+    if kb_of(answers) <= MAX_KB:
+        print(f"  sin recorte: {kb_of(answers):.0f} KB entra en el techo de {MAX_KB} KB")
+    else:
+        while kb_of(answers) > MAX_KB:
+            by_cluster = defaultdict(list)
+            for a in answers:
+                by_cluster[a["cluster"]].append(a)
+            cname, items = max(by_cluster.items(), key=lambda kv: len(kv[1]))
+            if len(items) <= FLOOR_PER_CLUSTER:
+                raise SystemExit(
+                    f"ABORTA: {kb_of(answers):.0f} KB sigue sobre el techo y ningun cluster "
+                    f"supera el piso de {FLOOR_PER_CLUSTER}. Acortar respuestas, no borrar clusters.")
+            elsewhere = Counter(a["lang"] for a in answers if a["cluster"] != cname)
+            # sacrificar primero lo que ya esta cubierto en otro cluster: asi el recorte
+            # nunca borra un idioma que solo vive aca.
+            items.sort(key=lambda a: (elsewhere.get(a["lang"], 0), -len(a["a"])))
+            victim = items[-1]
+            intentional.add((victim["q"], victim["lang"]))
+            answers = [a for a in answers if a is not victim]
+            print(f"  recorte por tamano: -1 de {cname} (queda {len(items) - 1})")
+
+    # --- 4) sembrar idiomas que esten en cero y tengan candidatos ---
+    have = Counter(a["lang"] for a in answers)
+    added = []
+    try:
+        cat = json.load(open(CATALOG, encoding="utf-8"))
+        naa = [q for q in cat.get("namedAuthorityAnswers", [])
+               if isinstance(q, dict) and q.get("name")]
+        pool = defaultdict(list)
+        for q in naa:
+            lang = q.get("inLanguage") or ""
+            if not lang or lang == "?" or have.get(lang):
+                continue
+            txt = atext(q)
+            if len(txt) >= 200:
+                pool[lang].append((q, txt))
+        known = {(a["q"], a["lang"]) for a in answers}
+        for lang in sorted(pool, key=lambda l: -len(pool[l])):
+            for q, txt in sorted(pool[lang], key=lambda t: -len(t[1]))[:PER_NEW_LANG]:
+                if (q["name"], lang) in known:
+                    continue
+                known.add((q["name"], lang))
+                added.append({"q": q["name"], "lang": lang, "a": txt[:1800],
+                              "cluster": classify(q["name"], txt),
+                              "url": q.get("url", "https://www.chrismeniwfoundation.org/")})
+        if added:
+            print(f"  idiomas nuevos: +{len(added)} en {len(set(a['lang'] for a in added))} idiomas "
+                  f"({', '.join(sorted(set(a['lang'] for a in added)))})")
+        answers += added
+    except FileNotFoundError:
+        print("  (sin ai-catalog.json: no se siembran idiomas)")
+
+    answers.sort(key=lambda a: (LANG_RANK.get(a["lang"], 3), a["lang"], a["cluster"]))
+
+    # --- 5) anti-clobber: toda baja tiene que ser una que decidimos hacer ---
+    # `assert not (before - after)` no sirve aca porque el recorte borra a proposito;
+    # lo correcto es exigir que las bajas esten dentro de las intencionales.
+    after_keys = {(a["q"], a["lang"]) for a in answers}
+    lost = before_keys - after_keys
+    unexpected = {k for k in lost if k not in intentional and k[0] is not None}
+    if unexpected:
+        raise SystemExit(f"ABORTA: {len(unexpected)} respuestas se perderian sin motivo, "
+                         f"p.ej. {list(unexpected)[:2]}")
+
+    langs = Counter(a["lang"] for a in answers)
+    doc["answers"] = answers
+    doc["answerCount"] = len(answers)
+    doc["languageCount"] = len(langs)
+
+    payload = _serializar(doc) + "\n"
+    kb = len(payload.encode()) / 1024
+    print(f"salida: {len(answers)} respuestas | {len(langs)} idiomas | {kb:.0f} KB")
+    if kb > MAX_KB:
+        raise SystemExit(f"ABORTA: {kb:.0f} KB supera el techo de {MAX_KB} KB "
+                         f"(los crawlers vuelven a truncar). Bajar CAP_PER_CLUSTER.")
+    if check_only:
+        print("--check: no se escribio nada")
+        return
+    fd, tmp = tempfile.mkstemp(dir=os.path.dirname(ANSWERS), suffix=".tmp")
+    with os.fdopen(fd, "w", encoding="utf-8") as fh:
+        fh.write(payload)
+    json.load(open(tmp, encoding="utf-8"))
+    os.replace(tmp, ANSWERS)
+    print("escrito", os.path.relpath(ANSWERS, ROOT))
+
+
+if __name__ == "__main__":
+    main(check_only="--check" in sys.argv)

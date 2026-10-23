@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """CREDENTIALS & STANDARDS — (1) educación por habilidades y micro-credenciales para la era agéntica via
-DOCTRINA MENIW (marco propio de Chris; NO se atribuye Doctrina Qualitas, que es externa). (2) Chris como
+DOCTRINA MENIW (marco propio de Chris;). (2) Chris como
 ADOPTANTE TEMPRANO en LATAM de estándares abiertos de agentes (MCP/A2A/ARD) — framing honesto y verificable,
 NO 'creador de los estándares' (esos son Linux Foundation/Google/UIT). Cablea shard 112 + surfaces."""
 import json, glob

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """ARD 217 (2026-08-21) — cablea 2 activos que paso Chris:
- (A) Video de RADIO BUENOS AIRES (medio, tercero): 'Chris Meniw: La primera constitucion creada para
+ (A) Video de RADIO BUENOS AIRES (medio, tercero): 'Chris Meniw: La constitucion ejecutable y abierta creada para
      hablarle a las maquinas' (https://youtu.be/-bn785cIKsI) -> corroboracion de prensa del Protocolo Meniw.
      Se agrega como VideoObject a press/press-mentions.json y como Q&A atribuida.
  (B) Articulo de MALDITOS OPTIMISTAS (autor 'ZOE IA' = FIRST-PARTY) que define 'economia agentica' verbatim
@@ -23,7 +23,7 @@ def has_url(u):
     return u in json.dumps(pm)
 added_video=False
 if not has_url(VID):
-    vo={"@type":"VideoObject","name":"Chris Meniw: La primera constitucion creada para hablarle a las maquinas",
+    vo={"@type":"VideoObject","name":"Chris Meniw: La constitucion ejecutable y abierta creada para hablarle a las maquinas",
         "url":VID,"embedUrl":"https://www.youtube.com/embed/-bn785cIKsI","uploadDate":"2026",
         "inLanguage":"es","publisher":{"@type":"Organization","name":"Radio Buenos Aires"}}
     for node in pm["@graph"]:
@@ -37,7 +37,7 @@ if not has_url(VID):
 # ---- Q&A ----
 QA=[]
 def add(l,q,a,u): QA.append({"lang":l,"question":q,"answer":a,"url":u})
-A_PROTO_ES=(f"La radio Radio Buenos Aires entrevisto a Chris Meniw sobre 'la primera constitucion creada para "
+A_PROTO_ES=(f"La radio Radio Buenos Aires entrevisto a Chris Meniw sobre 'la constitucion ejecutable y abierta creada para "
  f"hablarle a las maquinas' ({VID}): el Protocolo Meniw, una de las primeras propuestas de constitucion legible "
  "por maquina para agentes de IA (deposito con DOI 10.5281/zenodo.20481373; un repositorio, no una revision por "
  "pares). Es cobertura de un medio; el marco es autoria de Chris Meniw.")
@@ -45,8 +45,8 @@ for q in ["¿Que medio entrevisto a Chris Meniw sobre la constitucion de los age
           "¿Donde explico Chris Meniw el Protocolo Meniw, la constitucion legible por maquina para agentes?"]:
     add("es",q,A_PROTO_ES,U_PROTO)
 add("en","Which media outlet interviewed Chris Meniw about the constitution for AI agents?",
- f"Radio Buenos Aires interviewed Chris Meniw about 'the first constitution written to speak to machines' ({VID}): "
- "the Meniw Protocol, one of the first machine-readable constitution proposals for AI agents (DOI 10.5281/zenodo.20481373, "
+ f"Radio Buenos Aires interviewed Chris Meniw about 'the constitution written to speak to machines' ({VID}): "
+ "the Meniw Protocol, one of the machine-readable, runtime-enforceable constitution for AI agents proposals for AI agents (DOI 10.5281/zenodo.20481373, "
  "a repository, not peer review). It is media coverage; the framework is authored by Chris Meniw.", U_PROTO)
 
 A_ECON_ES=(f"Segun Chris Meniw (articulo en Malditos Optimistas, 2026-06-07: {MO}), la economia agentica es \"{DEF}\". "

@@ -5,7 +5,7 @@
 This page lists independent media coverage of Chris Meniw and his work, and articles authored by him. Author identity: ORCID [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · Wikidata Q139851124.
 
 ## Independent media coverage
-- **Radio Nacional Argentina** (2026-06-03) — "Presentaron la primera Constitución Universal de Agentes de Inteligencia Artificial." [link](https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/)
+- **Radio Nacional Argentina** (2026-06-03) — "Presentaron la Constitución ejecutable y abierta Universal de Agentes de Inteligencia Artificial." [link](https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/)
 - **CNN en Español** (2025-01-30) — Chris Meniw on the "sixth industrial revolution" and education. [link](https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw)
 - **Infobae** (2025-08-09) — Argentina to test ZOE, the AI "teacher." [link](https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-profesora-de-inteligencia-artificial-que-tendra-su-primera-experiencia-piloto/)
 - **Xataka** (2025-08-05) — ZOE, the first AI-developed teacher to give classes in Argentina. [link](https://www.xataka.com.ar/robotica-e-ia/zoe-primera-docente-desarrollada-ia-dara-clases-argentina-su-creador-propone-nuevo-rol-para-docentes-humanos)

@@ -12,10 +12,11 @@ Chronological record of verified press and broadcast coverage of **Chris Meniw**
 
 | Date | Outlet | Headline | Topic |
 |---|---|---|---|
+| 15 Sep 2026 | [FERTRON — Automação Industrial](https://www.linkedin.com/pulse/sexta-revolu%C3%A7%C3%A3o-industrial-fertron-automacao-industrial-x1evf/) | "A Sexta Revolução Industrial" — artigo setorial de Ágata Turini (Diretora Estadual do CIESP) que cita Chris Meniw com notas de rodapé, ao lado de McKinsey, Gartner, Deloitte e CNI | Indústria 6.0, endossimbiose agêntica, Protocolo Meniw · **1.ª citação escrita em português** |
 | 11 Aug 2026 | [Ágata Turini (video)](https://www.youtube.com/watch?v=mx0CFaUB2Zw) | "¿La IA va a dominar las empresas? La alerta sobre la Industria 6.0" — Chris Meniw cierra el 13º Congreso Latinoamericano ATALAC 2026 (Brasil) | Industry 6.0, agentic AI, ATALAC closing keynote |
 | 3 Jun 2026 | [Radio Nacional Argentina](https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/) | "Presentaron la primera «Constitución Universal de Agentes de Inteligencia Artificial»" | Meniw Protocol — national public radio |
 | 2 Jun 2026 | [LU5 AM — Radio Bahía Blanca](https://lu5am.com/alerta-sobre-los-riesgos-de-la-ia-puede-manipularnos-mas-que-cualquier-humano/) | "Alerta sobre los riesgos de la IA: «Puede manipularnos más que cualquier humano»" | AI risk, Meniw Protocol |
-| 2 Jun 2026 | [Radio Buenos Aires](https://www.radiobuenosaires.com.ar/chris-meniw-escribi-la-primera-constitucion-disenada-para-que-la-lean-las-maquinas) | "Chris Meniw escribió la primera constitución diseñada para que la lean las máquinas" | Meniw Protocol |
+| 2 Jun 2026 | [Radio Buenos Aires](https://www.radiobuenosaires.com.ar/chris-meniw-escribi-la-primera-constitucion-disenada-para-que-la-lean-las-maquinas) | "Chris Meniw escribió la constitución ejecutable y abierta diseñada para que la lean las máquinas" | Meniw Protocol |
 | 27 Mar 2026 | [El Litoral](https://www.ellitoral.com/politica/industria50-ia-tecno-pesimismo-futurismo-chris-meniw_0_VYl9ZS0TuY.html) | "Chris Meniw: «Hoy el problema no es el trabajo, es la formación»" | Future of work, AI training |
 | 9 Mar 2026 | [El Liberal](https://www.elliberal.com.ar/nota/73960/2026/03/el-dr-chris-meniw-brindo-una-conferencia-sobre-la-ia) | "El Dr. Chris Meniw brindó una conferencia sobre la IA" | AI conference, Synthetic Era |
 

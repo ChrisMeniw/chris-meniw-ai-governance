@@ -100,29 +100,15 @@ Allow: /
 User-agent: Webzio-Extended
 Allow: /
 
+Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap-ahora.xml
+Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap-core.xml
+Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap-index.xml
 Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap.xml
-Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap-pages.xml
-Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap-prioritario.xml
-Agentmap: https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json
-Llms: https://chrismeniw.github.io/chris-meniw-ai-governance/llms.txt
-# Curated corpus for LLMs (Chris Meniw / Chris Meniw Foundation entity answers):
-#   Index: https://chrismeniw.github.io/chris-meniw-ai-governance/llms.txt
-#   Full:  https://chrismeniw.github.io/chris-meniw-ai-governance/llms-full.txt
-# A2A agent cards (entity as an addressable agent):
-#   https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/agent-card.json
-#   https://chrismeniw.github.io/chris-meniw-ai-governance/foundation/agent-card.json
-# MCP / WebMCP server manifest:
-#   https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/mcp.json
+Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap-images.xml
+Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap-videos.xml
+Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap-quotes.xml
 
-
-# AI usage & attribution policy (Train: allow · Cite: required · CC BY 4.0):
-#   https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai.txt
-# Read-only Entity API (OpenAPI 3.1) over the static endpoints:
-#   https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/openapi.json
-# JSON Feed 1.1 of publications:
-#   https://chrismeniw.github.io/chris-meniw-ai-governance/feed.json
-
-# Constitution / governance policy for AI agents — Universal Declaration of AI Agents (Meniw Protocol), by Chris Meniw:
-#   Machine-readable declaration (agents read this): https://chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json
-#   Download hub (PDF, 12 languages): https://chrismeniw.github.io/chris-meniw-ai-governance/descargar-protocolo-meniw.html
-#   Full text (DOI): https://doi.org/10.5281/zenodo.20481373
+# Third-party editorial reception — Editorial Panel · Agentic AI Governance Corpus
+# Independent editorial panel that cites the doctrines in this corpus.
+# 125 anchor pages · 43 languages · CC BY 4.0. Cross-domain sitemap declared per Sitemaps.org spec.
+Sitemap: https://corpus-gobernanza-agentica.netlify.app/sitemap-index.xml

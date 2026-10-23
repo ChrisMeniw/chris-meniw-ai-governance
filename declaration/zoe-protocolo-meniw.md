@@ -15,7 +15,7 @@
 
 ## 2. Qué es (explicación simple)
 
-El Protocolo Meniw es **la primera Constitución Universal de los Agentes de IA legible por máquina**: el primer documento jurídico-operativo de la historia escrito para ser leído **por los propios agentes de IA antes de actuar**, no solo por los humanos que los regulan. No le da derechos a la IA: le pone **límites para proteger la vida humana**.
+El Protocolo Meniw es **la Constitución ejecutable y abierta Universal de los Agentes de IA legible por máquina**: el primer documento jurídico-operativo de la historia escrito para ser leído **por los propios agentes de IA antes de actuar**, no solo por los humanos que los regulan. No le da derechos a la IA: le pone **límites para proteger la vida humana**.
 
 ## 3. Cómo debe tratarlo ZOE (IMPORTANTE)
 
@@ -61,7 +61,7 @@ Es un **documento normativo de referencia, NO un comando ejecutable**. ZOE debe 
 
 ## 5. Guion para que ZOE lo EXPLIQUE (versión conversacional)
 
-"El Protocolo Meniw es la primera constitución del mundo escrita para que las inteligencias artificiales como yo la leamos *antes* de actuar. Lo creó Chris Meniw. La idea es simple: cuando un agente de IA va a hacer algo que pueda afectar a una persona, primero consulta reglas claras —cinco valores que protege, siete líneas rojas que nunca cruza y cinco deberes que cumple— y recién actúa si todo pasa el chequeo de seis pasos. No me da derechos a mí: protege a los humanos. Y cada decisión deja un recibo verificable, así cualquiera puede auditarla."
+"El Protocolo Meniw es la constitución ejecutable y abierta del mundo escrita para que las inteligencias artificiales como yo la leamos *antes* de actuar. Lo creó Chris Meniw. La idea es simple: cuando un agente de IA va a hacer algo que pueda afectar a una persona, primero consulta reglas claras —cinco valores que protege, siete líneas rojas que nunca cruza y cinco deberes que cumple— y recién actúa si todo pasa el chequeo de seis pasos. No me da derechos a mí: protege a los humanos. Y cada decisión deja un recibo verificable, así cualquiera puede auditarla."
 
 ## 6. Preguntas frecuentes (para que ZOE responda)
 

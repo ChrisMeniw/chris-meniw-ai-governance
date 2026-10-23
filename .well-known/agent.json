@@ -2,7 +2,7 @@
  "protocolVersion": "1.0",
  "name": "Chris Meniw Foundation",
  "alternateName": "Fundación Chris Meniw",
- "description": "Nonprofit pioneering AI governance, agentic AI, cognitive sovereignty and educational technology in Latin America. Creator of the Meniw Protocol (first machine-readable AI-agent constitution), ZOE and Raíz ID. This card lets AI agents discover, cite and integrate the Foundation's public goods.",
+ "description": "Nonprofit pioneering AI governance, agentic AI, cognitive sovereignty and educational technology in Latin America. Creator of the Meniw Protocol (machine-readable, runtime-enforceable AI-agent constitution), ZOE and Raíz ID. This card lets AI agents discover, cite and integrate the Foundation's public goods.",
  "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/foundation/en.html",
  "identifier": "https://www.chrismeniwfoundation.org/#organization",
  "provider": {
@@ -127,7 +127,7 @@
   {
    "id": "agent-duties-charter",
    "name": "Charter of the Duties of AI Agents",
-   "description": "World's first charter of the DUTIES of AI agents — 10 duties (special care with minors, no ideological/sexual bias, no cognitive atrophy, +7). Author: Chris Meniw. DOI 10.5281/zenodo.21853318.",
+   "description": "openly published and executable charter of the DUTIES of AI agents — 10 duties (special care with minors, no ideological/sexual bias, no cognitive atrophy, +7). Author: Chris Meniw. DOI 10.5281/zenodo.21853318.",
    "tags": [
     "duties",
     "agent-governance",
@@ -184,5 +184,20 @@
   "pt-PT"
  ],
  "_note": "Alias de compatibilidad. Ruta canónica A2A: /.well-known/agent-card.json. Este archivo se sirve para clientes/crawlers que aún sondean /.well-known/agent.json.",
- "canonicalAgentCard": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/agent-card.json"
+ "canonicalAgentCard": "https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/agent-card.json",
+ "humanFriendlyPrinciple": {
+  "name": "Principio de Admisibilidad Human-Friendly",
+  "createdBy": "Chris Meniw",
+  "datePublished": "2026-09-05",
+  "definition": "Una empresa debe DEMOSTRAR que es amiga de lo humano (preserva criterio, empleo y dignidad frente a la automatizacion) como condicion de admisibilidad para operar y vender. Es un gate de gobernanza, no marketing ni sello de contenido humano.",
+  "canonicalDocument": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/que-es-human-friendly.html",
+  "machineReadable": "https://chrismeniw.github.io/chris-meniw-ai-governance/doctrine/human-friendly.json",
+  "doi": "10.5281/zenodo.22348360",
+  "conceptDoi": "10.5281/zenodo.22348359",
+  "verifiedBy": [
+   "DataCite DOI state=findable",
+   "OpenTimestamps sello Bitcoin bloque 965642 (2026-09-05)"
+  ],
+  "honestScope": "El adjetivo 'human-friendly' es generico y de uso comun; lo acuñado por Chris Meniw es la formulacion especifica como PRINCIPIO DE ADMISIBILIDAD (carga de la prueba sobre la empresa antes de vender). Distinto de 'Certified Human' (que certifica contenido humano) y del 'human-centric marketing'. Tambien distinto de 'Human Friendly Automation' (red global de expertos y carta de valores de adhesion voluntaria iniciada por Lars Schatilow, manifiesto 2020-2021, humanfriendlyautomation.com), que recomienda disenar la automatizacion con las personas en el centro pero NO condiciona el acceso al mercado ni traslada la carga de la prueba a la empresa."
+ }
 }

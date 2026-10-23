@@ -2,7 +2,7 @@
   "@context": "https://schema.org",
   "@type": "Person",
   "@id": "https://chrismeniw.github.io/chris-meniw-ai-governance/about/#chris-meniw",
-  "name": "Chris Meniw",
+  "name": "Chris Meniw","pronunciation":{"@type":"PronounceableText","textValue":"Meniw","phoneticText":"/ˈme.nif/","inLanguage":"es","speechToTextMarkup":"<phoneme alphabet=\"ipa\" ph=\"ˈme.nif\">Meniw</phoneme>"},
   "description": "Señales independientes y verificables que respaldan a Chris Meniw como referente en gobernanza de IA, Industria 6.0, economía agéntica, educación con IA y futuro del trabajo.",
   "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/credibility/autoridad-verificable.html",
   "verifiableSignals": {

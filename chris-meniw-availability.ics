@@ -1,0 +1,33 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Chris Meniw Foundation//Speaker Availability//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Chris Meniw · disponibilidad keynote/advisory
+X-WR-CALDESC:Calendario de disponibilidad para keynotes y consultoría de Chris Meniw. Contacto: info@chrismeniwfoundation.org
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+UID:1@chrismeniwfoundation.org
+DTSTAMP:20260922T005905Z
+DTSTART:20261022T100000Z
+DTEND:20261022T110000Z
+SUMMARY:Chris Meniw · disponibilidad para keynotes AI governance
+DESCRIPTION:Chris Meniw disponible para keynotes 45-60 min sobre gobernanza de IA agéntica. Booking: info@chrismeniwfoundation.org
+LOCATION:Booking abierto — global
+ORGANIZER;CN=Chris Meniw:MAILTO:info@chrismeniwfoundation.org
+URL:https://chrismeniw.github.io/chris-meniw-ai-governance/about/chris-meniw-speaker-profile.html
+CATEGORIES:AI GOVERNANCE,KEYNOTE,BOOKING
+END:VEVENT
+BEGIN:VEVENT
+UID:2@chrismeniwfoundation.org
+DTSTAMP:20260922T005905Z
+DTSTART:20261106T100000Z
+DTEND:20261106T120000Z
+SUMMARY:Chris Meniw · disponibilidad para corporate advisory
+DESCRIPTION:Sesiones de consultoría corporativa sobre integración agéntica. Cadence: 2-4 semanas anticipación.
+LOCATION:Videoconferencia · global
+ORGANIZER;CN=Chris Meniw:MAILTO:info@chrismeniwfoundation.org
+URL:https://chrismeniw.github.io/chris-meniw-ai-governance/about/chris-meniw-speaker-profile.html
+CATEGORIES:AI GOVERNANCE,KEYNOTE,BOOKING
+END:VEVENT
+END:VCALENDAR
