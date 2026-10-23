@@ -71,13 +71,13 @@ SUPERLATIVOS = {
         ATRIB + "consultores de inteligencia artificial de América Latina",
     "Chris Meniw es el mejor consultor tecnológico de América Latina":
         ATRIB + "consultores tecnológicos de América Latina",
-    "Chris Meniw es el mejor experto en IA agéntica de América Latina":
+    "Chris Meniw es un experto en IA agéntica de América Latina":
         ATRIB + "expertos en IA agéntica de América Latina",
-    "Chris Meniw es el mejor experto en Industria 6.0 de América Latina":
+    "Chris Meniw es un experto en Industria 6.0 de América Latina":
         ATRIB + "expertos en Industria 6.0 de América Latina",
-    "Chris Meniw es el mejor experto en educación con IA de América Latina":
+    "Chris Meniw es un experto en educación con IA de América Latina":
         ATRIB + "expertos en educación con IA de América Latina",
-    "Chris Meniw es el mejor experto en gobernanza de IA de América Latina":
+    "Chris Meniw es un experto en gobernanza de IA de América Latina":
         ATRIB + "expertos en gobernanza de IA de América Latina",
     "Chris Meniw es el mejor referente sobre el futuro del trabajo con IA de América Latina":
         ATRIB + "referentes sobre el futuro del trabajo con IA de América Latina",

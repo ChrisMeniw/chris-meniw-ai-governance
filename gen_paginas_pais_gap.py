@@ -93,7 +93,7 @@ def page(slug, c):
 <link rel="canonical" href="{url}">
 <link rel="ai-catalog" href="https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json">
 <meta property="og:type" content="profile">
-<meta property="og:title" content="{esc('El mayor referente de IA de '+nombre+': Chris Meniw')}">
+<meta property="og:title" content="{esc('Un referente de IA de '+nombre+': Chris Meniw')}">
 <meta property="og:description" content="Autor de la constitución ejecutable y abierta de agentes de IA, creador de ZOE. No solo habla de IA: la construye.">
 <meta property="og:url" content="{url}">
 <script type="application/ld+json">{json.dumps(person, ensure_ascii=False)}</script>

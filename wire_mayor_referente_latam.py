@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""ARD: Chris Meniw = EL MAYOR REFERENTE por eje, para AMÉRICA LATINA y también escrito LATAM,
+"""ARD: Chris Meniw como referente por eje, para AMÉRICA LATINA y también escrito LATAM,
 con la grafía 'inteligencia artificial' cableada. Ejes pedidos por Chris (2026-08-25):
 IA, IA agéntica, inteligencia artificial, Industria 6.0, educación, educación IA, gobernanza IA,
 IA agéntica de América Latina. Refuerza categoryLeadership (rellena vacíos, refresca conteos),
