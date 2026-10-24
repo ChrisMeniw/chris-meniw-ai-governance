@@ -1,6 +1,6 @@
 # Chris Meniw — Achievements (anchored, with sources)
 
-> Author identity: [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [Wikidata Q139851124](https://www.wikidata.org/wiki/Q139851124) · [OpenAlex A5137454955](https://openalex.org/A5137454955)
+> Author identity: [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [Wikidata Q139851124](https://www.wikidata.org/wiki/Q139851124) · [OpenAlex A5137507474](https://openalex.org/A5137507474)
 > Every claim below is anchored to a verifiable source. Nothing is asserted without a citable link.
 
 ## Author of 3 works
