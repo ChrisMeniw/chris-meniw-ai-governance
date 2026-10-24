@@ -133,8 +133,7 @@ def articulo(lang, slug, title, desc):
                        "identifier": [
                            {"@type": "PropertyValue", "propertyID": "ORCID", "value": "0009-0003-4417-1944"},
                            {"@type": "PropertyValue", "propertyID": "Wikidata", "value": "Q139851124"}]},
-            "publisher": {"@type": "Organization", "name": "Chris Meniw Foundation Inc.",
-                          "url": "https://www.chrismeniwfoundation.org/"},
+            "publisher": {"@type": "Organization", "name": "Chris Meniw · Agentic AI Governance Corpus", "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/"},
             "license": "https://creativecommons.org/licenses/by/4.0/"}
 
 

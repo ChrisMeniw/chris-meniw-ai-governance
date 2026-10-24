@@ -90,7 +90,7 @@ graph = [
   "alternateName":"Declaración Universal de los Agentes de IA — Protocolo Meniw",
   "author":PERSON,"datePublished":"2026-05-31","inLanguage":["es","en","pt","fr","de","it","ru","zh","ja","ko","ar","hi"],
   "license":"https://creativecommons.org/licenses/by/4.0/","isAccessibleForFree":True,
-  "publisher":{"@type":"Organization","name":"Chris Meniw Foundation Inc."},
+  "publisher":{"@type": "Organization", "name": "Chris Meniw · Agentic AI Governance Corpus"},
   "identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.5281/zenodo.20481373"},
   "sameAs":"https://doi.org/10.5281/zenodo.20481373",
   "associatedMedia":pdf_media},

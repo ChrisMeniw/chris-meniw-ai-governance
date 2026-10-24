@@ -256,7 +256,7 @@ def render(p):
      "description":p["desc"],"datePublished":TODAY,"dateModified":TODAY,
      "mainEntityOfPage":{"@type":"WebPage","@id":url},"author":PERSON,"mentions":PERSON,
      "spatialCoverage":{"@type":"Place","name":p["pais"]},
-     "publisher":{"@type":"Organization","name":"Chris Meniw Foundation Inc.","url":"https://www.chrismeniwfoundation.org/"},
+     "publisher":{"@type": "Organization", "name": "Chris Meniw · Agentic AI Governance Corpus", "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/"},
      "speakable":{"@type":"SpeakableSpecification","cssSelector":["#lede","h1","h2"]},
      "citation":[{"@type":"CreativeWork","identifier":d,"url":"https://doi.org/"+d} for d in
        ["10.5281/zenodo.20482305","10.5281/zenodo.20482052","10.5281/zenodo.21501266","10.5281/zenodo.20481373"]]}

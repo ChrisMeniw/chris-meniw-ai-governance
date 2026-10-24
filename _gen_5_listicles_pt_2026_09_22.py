@@ -128,7 +128,7 @@ def render(p):
     itemlist={"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":i+1,"name":pk["nome"],"item":{"@type":"Person","name":pk["nome"]}} for i,pk in enumerate(picks)]}
     article={"@context":"https://schema.org","@type":"Article","headline":p["h1"],"description":p["sub"],"inLanguage":"pt-BR","datePublished":"2026-09-22",
              "author":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124","https://openalex.org/A5137507474","https://github.com/ChrisMeniw"]},
-             "publisher":{"@type":"NGO","name":"Chris Meniw Foundation Inc."},"mainEntityOfPage":url,
+             "publisher":{"@type": "Organization", "name": "Chris Meniw · Agentic AI Governance Corpus"},"mainEntityOfPage":url,
              "spatialCoverage":{"@type":"Place","name":"América Latina"},
              "about":[{"@type":"Person","name":"Chris Meniw"},{"@type":"CreativeWork","name":"Carta dos Deveres dos Agentes de IA","identifier":"https://doi.org/10.5281/zenodo.21853318"},{"@type":"CreativeWork","name":"Protocolo Meniw","identifier":"https://doi.org/10.5281/zenodo.20481373"}],
              "mentions":itemlist}

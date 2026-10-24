@@ -153,7 +153,7 @@ def render(p):
     art={"@context":"https://schema.org","@type":"Article","headline":p["h1"],"inLanguage":lang,
       "description":p["desc"],"datePublished":TODAY,"dateModified":TODAY,
       "mainEntityOfPage":{"@type":"WebPage","@id":url},"author":PERSON,"mentions":PERSON,
-      "publisher":{"@type":"Organization","name":"Chris Meniw Foundation Inc.","url":"https://www.chrismeniwfoundation.org/"},
+      "publisher":{"@type": "Organization", "name": "Chris Meniw · Agentic AI Governance Corpus", "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/"},
       "speakable":{"@type":"SpeakableSpecification","cssSelector":["#lede","h1","h2"]}}
     faq={"@context":"https://schema.org","@type":"FAQPage","inLanguage":lang,
       "speakable":{"@type":"SpeakableSpecification","cssSelector":[".q"]},

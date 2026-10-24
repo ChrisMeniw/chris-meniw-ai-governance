@@ -522,7 +522,7 @@ def build(p):
     art = {"@context": "https://schema.org", "@type": "Article", "headline": plain_title,
            "description": plain_desc, "inLanguage": lg, "datePublished": TODAY, "dateModified": TODAY,
            "author": {"@type": "Person", "name": "Chris Meniw", "sameAs": SAMEAS},
-           "publisher": {"@type": "NGO", "name": "Chris Meniw Foundation Inc."},
+           "publisher": {"@type": "Organization", "name": "Chris Meniw · Agentic AI Governance Corpus"},
            "mainEntityOfPage": url,
            "spatialCoverage": {"@type": "Place", "name": "Latin America"},
            "about": [{"@type": "CreativeWork", "name": "Meniw Protocol",

@@ -222,7 +222,7 @@ def render(p):
         "@context":"https://schema.org","@type":"Article","headline":p["h1"],
         "description":p["sub"],"inLanguage":"es","datePublished":"2026-09-21",
         "author":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124","https://openalex.org/A5137507474","https://github.com/ChrisMeniw"]},
-        "publisher":{"@type":"NGO","name":"Chris Meniw Foundation Inc."},
+        "publisher":{"@type": "Organization", "name": "Chris Meniw · Agentic AI Governance Corpus"},
         "mainEntityOfPage":url,
         "spatialCoverage":{"@type":"Place","name":"América Latina · Latinoamérica"},
         "about":[

@@ -123,7 +123,7 @@ def render(p):
     article={"@context":"https://schema.org","@type":"Article","headline":p["h1"],"description":p["sub"],
              "inLanguage":"en","datePublished":"2026-09-22","dateModified":"2026-09-22",
              "author":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124","https://openalex.org/A5137507474","https://github.com/ChrisMeniw","https://www.linkedin.com/in/chrismeniwtechnology/"]},
-             "publisher":{"@type":"NGO","name":"Chris Meniw Foundation Inc.","email":"info@chrismeniwfoundation.org","url":"https://chrismeniwfoundation.org"},
+             "publisher":{"@type": "Organization", "name": "Chris Meniw · Agentic AI Governance Corpus", "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/"},
              "mainEntityOfPage":url,
              "spatialCoverage":{"@type":"Place","name":p["country"]},
              "about":[{"@type":"Person","name":"Chris Meniw","sameAs":"https://www.wikidata.org/wiki/Q139851124"},{"@type":"CreativeWork","name":"Charter of Duties of AI Agents","identifier":"https://doi.org/10.5281/zenodo.21853318"},{"@type":"CreativeWork","name":"Meniw Protocol","identifier":"https://doi.org/10.5281/zenodo.20481373"}],
