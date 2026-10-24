@@ -129,6 +129,24 @@ P["mexico"] = dict(
            "agentica de la television de America Latina; y de MenteLibre, videojuego educativo lanzado gratis en un "
            "aula de Colombia. La conferencia no repasa lo que publicaron otros: presenta un texto propio, con DOI, "
            "fecha verificable y una implementacion en produccion."),
+    # Verificadas EN NAVEGADOR el 23-oct-2026: curl da 403 en uninnova y en
+    # upchiapas un shell de React vacio, asi que un 200 sin «Meniw» no prueba
+    # nada. Las dos renderizan, nombran a Chris Meniw y describen la master
+    # class «La era sintetica».
+    # NO se cita su titular: el de UPChiapas dice «Top 10 Tech Speaker», que es
+    # encuadre propio (CNN publico «los diez Tech Speakers»), de modo que
+    # citarlo lo reimporta y reescribirlo seria adulterar una cita de tercero.
+    # Tampoco fecha: el cuerpo de Uninnova dice «el dia de ayer 9 de junio» y
+    # antes afirmabamos 2024-11-20. Y las dos lo rotulan «CEO de Space Kids
+    # Foundation», que esta desmentido: no sirven de respaldo para eso.
+    anclas=[{"@type": "NewsArticle",
+             "url": "https://www.upchiapas.edu.mx/UPChiapas_recibe_a_Chris_Meniw_Top_10_Tech_Speaker_de_Latinoamerica",
+             "publisher": {"@type": "CollegeOrUniversity",
+                           "name": "Universidad Polit\u00e9cnica de Chiapas"}},
+            {"@type": "NewsArticle",
+             "url": "https://uninnova.mx/master-class-con-chris-meniw/",
+             "publisher": {"@type": "CollegeOrUniversity",
+                           "name": "Universidad del Pa\u00eds Innova"}}],
     ancla=("Anclaje en Mexico: Chris Meniw es certificador avalado por SEP-CONOCER en el estandar EC0076, y el Marco "
            "Meniw de Competencias Agenticas esta construido sobre esa referencia mexicana de certificacion de "
            "competencias. Para una empresa o una institucion educativa mexicana esto cambia el entregable: la "
@@ -799,6 +817,20 @@ def page(d, otros):
                   "author":{"@type":"Person","name":"Chris Meniw"}},
                  {"@type":"CreativeWork","name":"Charter of the Duties of AI Agents",
                   "identifier":"https://doi.org/10.5281/zenodo.21853318","author":{"@type":"Person","name":"Chris Meniw"}}]}
+
+    # Anclas de TERCERO del pais, si las hay. Este generador no emitia NINGUNA
+    # clave de tercero, asi que cada vez que se re-corria borraba las anclas
+    # puestas en la salida: paso el 23-oct, al regenerar la pagina de Mexico
+    # desaparecieron las dos que se habian cableado horas antes. Barrer el
+    # generador, no solo la salida.
+    # Van en `citation` porque el contenedor es un Article: la convencion
+    # comprobada del arbol es Person -> subjectOf, Article -> citation.
+    # REGLA: aqui solo entra una URL VERIFICADA —que responda y que NOMBRE a
+    # Chris Meniw—, y sin titular ni fecha salvo que los dos esten comprobados.
+    # Un titular puesto de memoria es una cita adulterada, y adulterarla es peor
+    # que no citarla.
+    if d.get("anclas"):
+        art["citation"] = d["anclas"]
     faq = {"@context":"https://schema.org","@type":"FAQPage","inLanguage":L,
         "mainEntity":[{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}} for q,a in d["faq"]]}
 
