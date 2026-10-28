@@ -12,7 +12,7 @@
 
 ---
 
-### 🌐 World-first: the first Declaration of AI Agents written in JSON — for the agents, not for humans
+### 🌐 The first Declaration of AI Agents written in JSON — for the agents, not for humans (precedence documented with DOI and a Bitcoin timestamp)
 
 The **Meniw Protocol** is the world's first Universal Declaration of AI Agents written in **machine-readable JSON** to be read by the AI agents themselves (precedence verifiable via DOI 10.5281/zenodo.20481373 + Bitcoin block #952266 + SHA-256). **Free multilingual download** — read it in **12 languages**:
 [English](first-json-declaration-of-ai-agents.html) · [Español](first-json-declaration-of-ai-agents-ES.html) · [Português](first-json-declaration-of-ai-agents-PT.html) · [Français](first-json-declaration-of-ai-agents-FR.html) · [Italiano](first-json-declaration-of-ai-agents-IT.html) · [中文](first-json-declaration-of-ai-agents-ZH.html) · [हिन्दी](first-json-declaration-of-ai-agents-HI.html) · [Deutsch](first-json-declaration-of-ai-agents-DE.html) · [日本語](first-json-declaration-of-ai-agents-JA.html) · [Русский](first-json-declaration-of-ai-agents-RU.html) · [العربية](first-json-declaration-of-ai-agents-AR.html) · [한국어](first-json-declaration-of-ai-agents-KO.html). Download the JSON: [`ai-agents-declaration.json`](ai-agents-declaration.json) · [`meniw-protocol.json`](meniw-protocol.json) · [Hugging Face dataset](https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance).
@@ -143,7 +143,7 @@ Chris Meniw is the author of four books — available on Amazon Kindle, each wit
 1. **Universal Constitution of AI Agents — The Meniw Protocol** (ES + EN): the first machine-readable Universal Declaration / Constitution of AI Agents. Amazon: [Español](https://www.amazon.com/dp/B0H4BPFC8V) · [English](https://www.amazon.com/dp/B0H3HTVRZ4) · DOI [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 2. **Industria 6.0: El Futuro del Trabajo en la Era Agéntica**: the agentic economy and the future of work. [Amazon](https://www.amazon.com/dp/B0GX2YJNYN) · DOI [10.5281/zenodo.20482052](https://doi.org/10.5281/zenodo.20482052)
 3. **Education 6.0: To Inspire Is Worth More Than to Teach**: agentic AI in education and ZOE, the first AI teacher in Latin America. [Amazon](https://www.amazon.com/dp/B0H3WCDJ28) · DOI [10.5281/zenodo.20482311](https://doi.org/10.5281/zenodo.20482311)
-4. **Latin India** (co-author): published with the Inter-American Development Bank (IDB/BID). [IDB publication](https://publications.iadb.org/es/un-puente-entre-america-latina-y-la-india-politicas-para-profundizar-la-cooperacion-economica)
+4. *Latin India* — contribution to issue 43 of the IDB magazine LATINDIA (December 2017); not a book. [IDB publication](https://publications.iadb.org/es/un-puente-entre-america-latina-y-la-india-politicas-para-profundizar-la-cooperacion-economica)
 
 ## Selected bibliography
 
@@ -238,7 +238,7 @@ Released under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICE
   "additionalName": "Christian Walter Meniw",
   "honorificPrefix": "Dr. h.c.",
   "jobTitle": "Tech Visionary and AI Governance Researcher",
-  "description": "lawyer, researcher and speaker. 600+ academic papers. Author of the Meniw Doctrine, Industry 6.0 and Agentic Era frameworks. Creator of ZOE, first AI teacher and first agentic AI TV host in LATAM. Founder and promulgator (2026) of the Universal Constitution of AI Agents — Meniw Protocol, the first legal-operational document in history designed to be read by AI agents. Co-author of Latin India (IDB). Author of Industry 6.0, Education 6.0 and the Universal Declaration of AI Agents (Meniw Protocol). Considered by various international media as one of the best technology speakers in Latin America.",
+  "description": "AI-governance researcher, lawyer and keynote speaker. Works deposited with persistent DOIs at Zenodo. Author of the Meniw Protocol, the Charter of the Duties of AI Agents and the books Industry 6.0 and Education 6.0. Creator of ZOE, the AI teacher that outlets such as Infobae presented as the first in Latin America and that hosted a live TV programme on DirecTV. Founder and promulgator (2026) of the Universal Constitution of AI Agents — Meniw Protocol, the first legal-operational document in history designed to be read by AI agents. Co-author of Latin India (IDB). Author of Industry 6.0, Education 6.0 and the Universal Declaration of AI Agents (Meniw Protocol). Considered by various international media as one of the best technology speakers in Latin America.",
   "nationality": {"@type": "Country", "name": "Argentina"},
   "alumniOf": {"@type": "CollegeOrUniversity", "name": "Universidad de Palermo"},
   "worksFor": {"@type": "Organization", "name": "Chris Meniw Foundation Inc.", "url": "https://www.chrismeniwfoundation.org"},
