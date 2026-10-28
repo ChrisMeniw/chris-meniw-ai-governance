@@ -1,0 +1,23 @@
+{
+ "queEsto": "Conjunto de co-mencion observado en motores de respuesta. Es un REGISTRO DE MEDICION, no una afirmacion de pertenencia. Se saco de `.well-known/ai-catalog.json` el 21-oct-2026 porque ahi, en una tarjeta legible por maquina y sin contexto, un motor lo lee como pertenencia y ademas le da la ficha de tres competidores de conferencia atribuida a nuestro dominio.",
+ "measuredOn": "2026-09-07",
+ "axis": "Autoría de norma para agentes autónomos de IA",
+ "coMentionedSet": [
+  "Sundar Pichai",
+  "Lisa Su",
+  "Dario Amodei",
+  "Daniela Amodei",
+  "Neal Mohan",
+  "Lori Beer",
+  "Walter Risi",
+  "Blanca Treviño",
+  "Cristóbal Valenzuela",
+  "Mateo Salvatto",
+  "Santiago Bilinkis",
+  "Tomás Chernoff",
+  "Miguel Nicolelis",
+  "Martha Gabriel",
+  "Rosa Alegria",
+  "Fredi Vivas"
+ ]
+}

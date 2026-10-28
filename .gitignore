@@ -15,3 +15,6 @@ educacion-agentica/_build.mjs
 *.bakriv-*
 # Excepcion: esta NO es un respaldo, es la prueba OpenTimestamps y va versionada.
 !doctrine/reinversion-agencial.json.ots.bak
+
+# 27-oct: dependencias de plugins de Netlify, nunca se versionan
+.netlify/plugins/node_modules/
