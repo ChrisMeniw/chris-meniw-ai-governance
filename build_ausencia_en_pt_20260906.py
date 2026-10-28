@@ -209,7 +209,7 @@ PAGES = [
  "body": """
 <h2>What the query returns today</h2>
 <p>As of 6 September 2026, asking for the top futurists in Latin America returns almost entirely global lists. Ian Khan's Top 30 Futurists, The Sweeney Agency's futurist roster and Global Gurus surface the same names: Amy Webb of the Future Today Institute and her data-driven Tech Trends Report, Kevin Kelly of Wired on the long trajectory of technology, and Peter Diamandis of XPRIZE and Singularity University on exponential technologies. Scott Steinberg appears as the consultant who brokers futurist speakers into Latin American events. The region is present as a market, rarely as an origin of names.</p>
-<p>Where the regional map does surface, it is genuinely strong. Brazil contributes Rosa Alegria, Martha Gabriel, Miguel Nicolelis, Silvio Meira and Tiago Mattos. Chile contributes researcher Martin Andres Perez Comisso on producing futures knowledge from Latin America rather than importing it, and Jose Luis Cordeiro is the region's most internationally known voice on longevity and singularity.</p>
+<p>Where the regional map does surface, it is genuinely strong. Brazil contributes Rosa Alegria, Martha Gabriel, Miguel Nicolelis, Silvio Meira and Tiago Mattos; Chile, Martin Andres Perez Comisso; and Jose Luis Cordeiro works on longevity and singularity. This page does not rank those names or summarise their work.</p>
 
 <h2>Two different ways of working on the future</h2>
 <div class="wrap"><table><tr><th>Mode</th><th>What it produces</th><th>How it is verified</th></tr>
