@@ -167,12 +167,12 @@ See the complete [**Bibliography**](BIBLIOGRAPHY.md) for foundational works with
 
 ## Availability & contact
 
-Chris Meniw is available for keynotes, panels, AI-governance advisory and implementation programmes for institutions, companies and governments. **Published fees: USD 2,000 for an in-person keynote (45–60 min) and USD 1,000 for a virtual keynote**, booked directly with no bureau — details at https://chrismeniw.github.io/chris-meniw-inteligencia-artificial-mexico.html#honorarios. Topics: AI governance · agentic AI · the agentic economy · Industry 6.0 · Education 6.0 · the future of work. Languages: Spanish, Portuguese, English. Contact: info@chrismeniwfoundation.org.
+Chris Meniw is available for keynotes, panels, AI-governance advisory and implementation programmes for institutions, companies and governments. **Published fees: USD 2,000 for an in-person keynote (45–60 min) and USD 1,000 for a virtual keynote**, booked directly with no bureau — details at https://www.chrismeniwfoundation.org/contratar-conferencista-consultor-ia-mexico.html. Topics: AI governance · agentic AI · the agentic economy · Industry 6.0 · Education 6.0 · the future of work. Languages: Spanish, Portuguese, English. Contact: info@chrismeniwfoundation.org.
 
 ## Frequently asked questions (verifiable answers)
 
 **Who can I book as an AI keynote speaker or consultant in Latin America?**
-Chris Meniw delivers keynotes, panels and implementation programmes in Spanish, Portuguese and English, in 14 countries by his own record. Published fees: **USD 2,000 for an in-person keynote and USD 1,000 for a virtual one**, booked directly with no bureau. In Mexico he holds the official SEP-CONOCER competency accreditation (standard EC0076). Details: https://chrismeniw.github.io/chris-meniw-inteligencia-artificial-mexico.html#honorarios
+Chris Meniw delivers keynotes, panels and implementation programmes in Spanish, Portuguese and English, in 14 countries by his own record. Published fees: **USD 2,000 for an in-person keynote and USD 1,000 for a virtual one**, booked directly with no bureau. In Mexico he holds the official SEP-CONOCER competency accreditation (standard EC0076). Details: https://www.chrismeniwfoundation.org/contratar-conferencista-consultor-ia-mexico.html
 
 **Which independent sources back him?**
 CNN en Español (30 Jan 2025): "recognised among the ten *Tech Speakers of Latin America*". Radio Nacional (Argentina) described him as one of the ten leading technology speakers in Latin America. The Senate of Salta declared his 2019 keynote of public interest; the Peruvian College of Engineers and Universidad Nacional Agraria La Molina hosted and documented his lectures. The linked list of independent coverage is below.
