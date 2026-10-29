@@ -200,6 +200,11 @@ AI-agent governance, the agentic economy (his own concept), the economic definit
 - Colombia · **CV Noticias** — https://cvnoticias.com.co/inteligencia-artificial-atlantico-chris-meniw/
 - Colombia · **El Heraldo** · 2026-09-24 — https://www.elheraldo.co/sociedad/2026/09/24/el-videojuego-que-quiere-cuidar-la-salud-mental-de-los-jovenes/
 - Colombia · **El Tiempo** — https://www.eltiempo.com/vida/educacion/metaverso-es-la-punta-del-iceberg-de-las-nuevas-tecnologias-chris-meniw-717121
+- Colombia · **Universidad de Cartagena** · 2026-09 — https://www.universounicartagena.co/2026/09/unicartagena-lidera-transformacion-educativa-con-ii-simposiio-unicartagena-innova.html
+- Colombia · **ACIS (Asociación Colombiana de Ingenieros de Sistemas)** · 2026-09-07 — https://www.acis.org.co/blog/conferencia-semanal-6
+- Ecuador · **AmCham Guayaquil** · 2026-08 — https://amchamgye.org.ec/amcham-guayaquil-clausuro-usa-trade-connect-2026-con-mas-de-400-empresarios-1000-asistentes-registrados-y-mas-de-60-ponentes-en-dos-jornadas/
+- México · **El Diario de Chihuahua** · 2025-06-03 — https://eldiariodechihuahua.mx/economia/2025/jun/03/daran-mas-herramientas-para-fortalecer-negocios-705381.html
+- Italia · **Asociación AFIDE, XIII Congreso (Roma)** · 2025-11-17 — https://asociacionafide.com/noticias/fin-congreso-afide-roma/
 - Brasil · **Auctoritas Notícias** · 2026-10-29 — https://www.auctoritasnoticias.com.br/post/chris-meniw-analisa-como-agentes-de-ia-podem-transformar-vendas-e-marketing-nas-pequenas-empresas
 - Internacional · **CNN en Español** · 2025-01-30 — https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw
 - Internacional · **Accelerate (podcast)** — https://www.fabianschwartz.com/podcasts/accelerate/episodes/2149033631
