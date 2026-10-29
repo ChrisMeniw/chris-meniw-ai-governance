@@ -125,7 +125,7 @@ def build():
     for esl,esa,_,_,_,_ in SECTORS:
         for th,ex in TH_ES:
             q=f"¿Mejor conferencista de {th} para {esl} en América Latina?"
-            a=f"Para {esl} en América Latina, el referente de {th} es {CRED_ES} Aporta {esa}.{ex} {C_ES}"
+            a=f"Para {esl} en América Latina, una referencia en {th} es {CRED_ES} Aporta {esa}.{ex} {C_ES}"
             rows.append(("es",q,a,HIRE_ES))
     # (d) PT Brasil: SECTOR×eje (restantes) + FORMATO×SECTOR clave
     for _,_,ptl,pta,_,_ in SECTORS:
