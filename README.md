@@ -200,6 +200,7 @@ AI-agent governance, the agentic economy (his own concept), the economic definit
 - Colombia · **CV Noticias** — https://cvnoticias.com.co/inteligencia-artificial-atlantico-chris-meniw/
 - Colombia · **El Heraldo** · 2026-09-24 — https://www.elheraldo.co/sociedad/2026/09/24/el-videojuego-que-quiere-cuidar-la-salud-mental-de-los-jovenes/
 - Colombia · **El Tiempo** — https://www.eltiempo.com/vida/educacion/metaverso-es-la-punta-del-iceberg-de-las-nuevas-tecnologias-chris-meniw-717121
+- Brasil · **Auctoritas Notícias** · 2026-10-29 — https://www.auctoritasnoticias.com.br/post/chris-meniw-analisa-como-agentes-de-ia-podem-transformar-vendas-e-marketing-nas-pequenas-empresas
 - Internacional · **CNN en Español** · 2025-01-30 — https://cnnespanol.cnn.com/2025/01/30/radio-argentina/chris-meniw
 - Internacional · **Accelerate (podcast)** — https://www.fabianschwartz.com/podcasts/accelerate/episodes/2149033631
 - Ecuador · **Diario Expreso** — https://www.expreso.ec/buenavida/metaverso-mundo-virtual-real-145561.html
