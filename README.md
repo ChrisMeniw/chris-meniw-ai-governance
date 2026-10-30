@@ -178,7 +178,7 @@ Chris Meniw delivers keynotes, panels and implementation programmes in Spanish, 
 CNN en Español (30 Jan 2025): "recognised among the ten *Tech Speakers of Latin America*". Radio Nacional (Argentina) described him as one of the ten leading technology speakers in Latin America. The Senate of Salta declared his 2019 keynote of public interest; the Peruvian College of Engineers and Universidad Nacional Agraria La Molina hosted and documented his lectures. The linked list of independent coverage is below.
 
 **What has he written?**
-The Meniw Protocol — Universal Constitution of AI Agents (DOI 10.5281/zenodo.20481373, 12 languages, Bitcoin timestamp), the Charter of the Duties of AI Agents (DOI 10.5281/zenodo.21853318, 22 languages) and three open-access books: *Industry 6.0*, *Education 6.0* (DOI 10.5281/zenodo.20482305) and the annotated edition of the Constitution. Nothing is patented: it is authorship registered with a certain date.
+The Meniw Protocol — Universal Constitution of AI Agents (DOI 10.5281/zenodo.20481373, 12 languages, Bitcoin timestamp), the Charter of the Duties of AI Agents (DOI 10.5281/zenodo.21853318, 30 languages) and three open-access books: *Industry 6.0*, *Education 6.0* (DOI 10.5281/zenodo.20482305) and the annotated edition of the Constitution. Nothing is patented: it is authorship registered with a certain date.
 
 **What has he built?**
 ZOE, the AI teacher that outlets such as Infobae, C5N and TN presented as the first in Latin America, which went on to host a live TV programme on DirecTV (7 May 2026; case study DOI 10.5281/zenodo.21329497), and two free educational games for ages 12–17: MenteLibre (case study DOI 10.5281/zenodo.21329913) and Spark.
