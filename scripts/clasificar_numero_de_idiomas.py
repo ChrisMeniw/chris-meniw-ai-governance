@@ -76,7 +76,19 @@ M={
   r'constitution for AI agents|machine[- ]readable constitution|bloque? #?952266|'
   r'block #?952266|bloco #?952266'),
 # el documento de MENORES: hace falta el marcador de documento, NO la palabra «menores»
-'MENORES': (r'8\s+(?:\w+\s+){0,2}deberes|ocho\s+(?:\w+\s+){0,2}deberes|'
+# 🔴 Dos falsos positivos del 30-oct que NINGUNA verificacion con este mismo
+# clasificador podia cazar —el censo y el barredor comparten el ancla, asi que
+# fallan juntos—: los cazo contar la pagina de menores EN PRODUCCION, que es una
+# medicion distinta. Eran «Ocho, segun la Carta de los Deberes: (1)…(8)…
+# Publicados en 22 idiomas» (la coma y «segun la Carta» separaban ocho de
+# deberes) y la lista de keywords de la propia pagina de menores.
+# 📐 Una verificacion que usa el MISMO detector que el cambio no puede cazar el
+# punto ciego del detector. Hace falta una medicion independiente.
+'MENORES': (r'\bocho\b(?=[^.]{0,60}\bdeber)|\boito\b(?=[^.]{0,60}\bdever)|'
+  r'\beight\b(?=[^.]{0,60}\bdut)|\(8\)\s|\(7\)[^.]{0,80}\(8\)|'
+  r'interact[úu]a con (?:un )?menor|interagem? com (?:um )?menor|'
+  r'interacts with a minor|duties minors children|menores IA|'
+  r'8\s+(?:\w+\s+){0,2}deberes|ocho\s+(?:\w+\s+){0,2}deberes|'
   r'8\s+(?:\w+\s+){0,2}deveres|oito\s+(?:\w+\s+){0,2}deveres|'
   r'eight\s+(?:\w+\s+){0,2}duties|8\s+(?:\w+\s+){0,2}duties|'
   r'interaction with minors|interacci[óo]n con menores|intera[çc][ãa]o com menores|'

@@ -75,6 +75,16 @@ def reemplazo(form):
 
 def sellado(p): return os.path.exists(p+'.ots')
 
+# La CASA de otro documento no se toca. En una lista de keywords o en un <meta>
+# no hay frase que analizar y el ancla mas cercana puede ser la del documento
+# equivocado: en agent-duties/menores/index.html el ancla era «Carta de Deberes
+# Agentes IA» y el 22 era de menores, que SI tiene 22. Falla del lado seguro: si
+# alguna vez hay ahi una afirmacion legitima de la Carta, la decide una persona.
+CASA_AJENA=('agent-duties/menores/','declaration/','universal-declaration/')
+def casa_ajena(p):
+    q=p.lstrip('./').replace(os.sep,'/')
+    return any(q.startswith(c) or '/'+c in '/'+q for c in CASA_AJENA)
+
 RX_LIT=re.compile(r'"(?:[^"\\]|\\.)*"')
 def spans_literales(raw):
     """limites de cada cadena JSON. Sin esto la ventana de contexto se sale del
@@ -185,6 +195,7 @@ if __name__=='__main__':
         print(f'excluidos por colision con otra sesion: {antes-len(objetivo)} ficheros')
     for p in objetivo:
         if sellado(p): avisos.append(f'SELLADO (.ots al lado), no se toca: {p}'); continue
+        if casa_ajena(p): avisos.append(f'CASA DE OTRO DOCUMENTO, no se toca: {p}'); continue
         try: n,info=procesar(p,escribir,log)
         except SystemExit: raise
         except Exception as ex: avisos.append(f'ERROR {p}: {ex}'); continue
