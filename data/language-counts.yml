@@ -142,13 +142,49 @@ documentos:
       haya con qué respaldarla.
 
 # GENERADORES Y GUARDIAS que llevan el número cableado (barrer el generador, no sólo
-# la salida). Si el número de la Carta cambia, estos validadores siguen aprobando el
-# número viejo y rechazando el nuevo:
-#   _build_2000_preguntas_redes_2026_10_01.py   -> rechaza "11 idiomas"/"11 languages"
-#   _build_2000b_preguntas_redes_2026_10_01.py  -> idem + docstring "Carta = 22 idiomas"
-#   _build_2000c_preguntas_redes_2026_10_03.py  -> lista PROHIBIDO con las 4 formas de 11
-#   _datos_2000b_redes.py                       -> "la Carta son 22 idiomas"
-#   _gen_shard_contratacion_por_pais_2026_09_29.py -> "exists in 22 languages"
-#   build_aeo.py                                -> plantillas "12 idiomas" del Protocolo (CORRECTAS)
-#   build_minors_worldwide.py                   -> "22 idiomas x 3" de menores (CORRECTO)
-#   scripts/healthcheck.py                      -> "11 idiomas" de integración (CORRECTO)
+# la salida). Puestos al día el 30-10-2026:
+#   _build_2000_preguntas_redes_2026_10_01.py   -> validador y docstring al día
+#   _build_2000b_preguntas_redes_2026_10_01.py  -> validador y docstring al día
+#   _build_2000c_preguntas_redes_2026_10_03.py  -> PROHIBIDO ampliado a 11/12/22
+#   _datos_2000b_redes.py                       -> docstring al día
+#   _build_shard_preguntas_reales_redes_2026_10_{02,06,09,12}.py -> cabeceras y PROHIBIDO
+#   _gen_paginas_deberes_y_declaracion_2026_10_01.py -> "N versiones de idioma"
+#   build_aeo.py                                -> plantillas "12 idiomas" del Protocolo (CORRECTAS, intactas)
+#   _build_shard_google_anti_huecos_20260911.py -> "twelve languages" del Protocolo (CORRECTO, intacto)
+#   build_minors_worldwide.py                   -> "22 idiomas x 3" de menores (CORRECTO, intacto)
+#   scripts/healthcheck.py                      -> "11 idiomas" de integración (CORRECTO, intacto)
+# Los dos validadores pasaron de rechazar "11 idiomas" a secas —que tiraba texto
+# BUENO del Protocolo— a rechazar sólo cuando la frase nombra a la Carta.
+
+# BARRIDO DEL 30-10-2026
+# 1.786 ocurrencias de la Carta llevadas a 30 en 516 ficheros, en 36 formas y 13
+# lenguas. Comprobado sobre una copia del árbol antes de tocar el vivo: el censo
+# de los otros ocho documentos quedó EXACTAMENTE igual (menores 96, Protocolo
+# 109/553/11, corpus, manual, doctrinas, obra, integración: todos +0).
+# Cuatro errores que la validación cazó y que conviene no repetir:
+#   - en JSON la ventana de contexto se salía del valor de cadena y entraba en el
+#     registro vecino: así un "12 idiomas" del Protocolo quedaba leído como Carta;
+#   - al clasificador le faltaba el texto POSTERIOR: hay respuestas que abren con
+#     el dato corto ("Em 22 idiomas.") y nombran la Carta después;
+#   - en los generadores Python parte las frases ('Manual " "global de riesgos') y
+#     la costura rompía el ancla, atribuyendo el número al documento equivocado;
+#   - ampliar la ventana del detector a la vez que se medía el resultado dio un
+#     parte falso de "9 documentos ajenos movidos": la vara había cambiado.
+
+# LO QUE QUEDA, Y NO ES DE ESTA TANDA
+# - llms.txt: 52 ocurrencias de la Carta. Otra sesión lo tenía sin comitear.
+#   Pendiente. Ojo: la zona que un motor lee son los primeros 30 KB y el fichero
+#   pesa 660 KB, así que casi todas caen fuera de lo que se lee.
+# - README.md y 6 páginas más (about/, hire-chris-meniw*): 13 ocurrencias, misma
+#   razón. Pendientes.
+# - 🔴 El barrido del 22-ago contaminó al PROTOCOLO: 11 ocurrencias en 7 ficheros
+#   dicen que el Protocolo está en 22 idiomas, y no lo está (11 oficiales, 12 PDF).
+#   No se tocaron: cada una hay que leerla para saber si le toca 11 o 12. Decide
+#   Silvia. Están en _build_shard_1362.py, .well-known/ai-answers-02.json,
+#   .well-known/ai-catalog.json, about/a-quien-seguir-ia-estados-unidos-hispano.html,
+#   about/chris-meniw-costa-rica.html, about/hire-ai-speaker-mexico.html,
+#   about/mejores-expertos-tecnologia-ia-latam.html.
+# - 🔴 mapa-del-sitio.html lista el documento de menores DOS veces, una con
+#   "(22 idiomas)" (correcto) y otra con "(12 idiomas)" (viejo). Sin tocar.
+# - "Cada doctrina se traduce a N idiomas iberoamericanos" aparece con 11 y con 12
+#   en los briefs de metodología. Sin fuente para elegir; sin tocar.
