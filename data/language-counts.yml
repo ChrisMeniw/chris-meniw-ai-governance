@@ -1,0 +1,154 @@
+# Cuántos idiomas tiene cada documento, y con qué criterio se cuenta.
+#
+# POR QUÉ EXISTE ESTE FICHERO
+# El número de idiomas de la Carta bailó tres veces (11 -> 12 -> 22 -> 30) porque
+# cada vez que alguien lo "verificaba" contaba una cosa distinta: unas veces los
+# ficheros, otras la barra de idiomas de la página, otras el hreflang. Y porque
+# "N idiomas" es una forma que usan SIETE documentos distintos de este árbol, con
+# números legítimamente distintos: barrer por la forma sola fabrica datos falsos.
+#
+# ANTES DE CAMBIAR UN NÚMERO AQUÍ: ejecutar el `rederivar` de esa entrada y medir
+# contra PRODUCCIÓN, no contra el disco. Si el resultado no coincide, el que está
+# mal es el árbol, no este fichero.
+
+criterio:
+  version: "2026-10-30"
+  regla: >-
+    Un "idioma" es una subetiqueta de lengua ISO 639-1 distinta. Dos ediciones que
+    comparten lengua y sólo difieren en la escritura o en la variante regional
+    (zh / zh-Hant; un futuro pt-PT / pt-BR) cuentan como UN idioma, no dos.
+  por_que: >-
+    (1) Es el criterio con el que ya se contaron los 22 idiomas del documento de
+    menores, así que mantiene las dos cifras comparables entre sí. (2) Es el número
+    bajo: contar una escritura como idioma es la clase de inflación blanda que los
+    motores castigan cuando ya objetan que la fuente no es independiente.
+    (3) Se re-deriva con un comando, sin criterio humano.
+  dos_cifras_distintas:
+    idiomas: "lenguas ISO 639-1 distintas — la cifra que se publica"
+    ediciones: "ficheros/locales servidos — la cifra que se usa cuando importa la escritura"
+  condicion_de_honestidad: >-
+    Sólo se cuenta una edición que un lector encuentre TRADUCIDA y PUBLICADA: página
+    viva en producción, traducción completa (los 10 deberes y todas las secciones en
+    la lengua de destino, no un esqueleto ni una copia del español), alcanzable desde
+    la barra de idiomas y presente en el sitemap y en el hreflang.
+
+documentos:
+
+  carta_deberes_agentes_ia:
+    nombre: "La Carta de los Deberes de los Agentes de IA"
+    doi: "10.5281/zenodo.21853318"
+    ruta: "agent-duties/"
+    idiomas: 30
+    ediciones: 31
+    verificado: "2026-10-30"
+    detalle: >-
+      31 locales: es (index.html) + 30 index.<lang>.html — ar bn ca cs de el en fa fr
+      he hi id it ja ko ms nl pl pt ro ru sv sw th tr uk ur vi zh-Hant zh. Los 31
+      comprobados uno por uno el 30-10-2026: traducción completa (título, 10 deberes y
+      5 secciones en la lengua de destino), ninguno esqueleto ni copia del español, y
+      los 31 vivos en producción con HTTP 200 y bytes idénticos al disco.
+      30 idiomas porque zh y zh-Hant son la misma lengua en dos escrituras.
+    rederivar: |
+      # ediciones (31) y idiomas (30)
+      ls agent-duties/index.html agent-duties/index.*.html | wc -l          # -> 31
+      ls agent-duties/index.*.html | sed 's/.*index\.//;s/\.html//' \
+        | sed 's/-.*//' | sort -u | wc -l                                   # +es -> 30
+    historia_del_numero: >-
+      11 el 8-ago-2026 (día del depósito: es de en fr hi it ja ko pl ru zh) · 22 el
+      22-ago-2026 (+ar bn el he id nl pt sv tr uk vi) · 31 locales / 30 idiomas desde
+      el 6-sep-2026 (+ca cs fa ms ro sw th ur zh-Hant). Los tres números fueron
+      CIERTOS en su fecha: ninguno fue un descuido, se quedaron viejos. Por eso una
+      cifra de este árbol lleva siempre la fecha en que se midió.
+    nota_zenodo: >-
+      La ficha de Zenodo decía "Live in 11 languages" — el dato del día del depósito.
+      Corregida el 30-10-2026 a "Live in 30 languages (31 locale editions...)" editando
+      SÓLO metadatos: mismo DOI 10.5281/zenodo.21853318, mismos dos ficheros
+      depositados, sin versión nueva, sin re-sellar.
+
+  deberes_con_menores:
+    nombre: "Deberes de los Agentes de IA al interactuar con menores"
+    doi: "10.5281/zenodo.21853318"   # anclado en la Carta, documento derivado
+    ruta: "agent-duties/menores/"
+    idiomas: 22
+    ediciones: 22
+    verificado: "2026-10-30"
+    detalle: >-
+      22 locales, todos lenguas ISO 639-1 distintas, sin duplicado de escritura:
+      es ar bn de el en fr he hi id it ja ko nl pl pt ru sv tr uk vi zh.
+      21 index.<lang>.html en el sitemap + index.html.
+    rederivar: "ls agent-duties/menores/index*.html | wc -l   # -> 22"
+    trampa: >-
+      PELIGRO. Es el documento que SÍ tiene 22, y su "22 idiomas" es correcto. La forma
+      "22 idiomas" NO identifica a la Carta. Peor: "proteger a menores" es uno de los
+      diez deberes de la Carta, así que la palabra "menores" aparece dentro de frases
+      que hablan de la CARTA. El discriminador es "8 deberes / ocho deberes / eight
+      duties" o "al interactuar con menores", no la palabra "menores" suelta.
+
+  protocolo_meniw:
+    nombre: "Protocolo Meniw / Declaración Universal de los Agentes de IA"
+    doi: "10.5281/zenodo.20481373"
+    ruta: "declaration/ · universal-declaration/"
+    idiomas_oficiales: 11
+    pdf_descargables: 12
+    verificado: "2026-10-30"
+    detalle: >-
+      DOS cifras, y las DOS son ciertas. 11 son los official_languages declarados en
+      universal-declaration/declaracion_agentes.json (en es pt fr it de ru zh ar hi ja)
+      y las 11 páginas de integración de declaration/ (la lista INTEGRATION de
+      scripts/healthcheck.py). 12 son los PDF de declaration/pdf/: esos 11 más el
+      coreano (ko), que no es lengua oficial del documento.
+    rederivar: |
+      python3 -c "import json;print(len(json.load(open('universal-declaration/declaracion_agentes.json'))['official_languages']))"  # -> 11
+      ls declaration/pdf/*.pdf | wc -l                                      # -> 12
+      ls declaration/integra*.html | wc -l                                  # -> 11
+    trampa: >-
+      "11 idiomas" y "12 idiomas" del Protocolo son los dos correctos y NO se tocan.
+      Un barrido que los uniforme rompe uno de los dos. Si una frase habla de
+      descargar un PDF, el número es 12; si habla de las lenguas oficiales o de las
+      guías de integración, es 11.
+
+  reinversion_agencial:
+    nombre: "Doctrina Reinversión Agencial"
+    ruta: "frameworks/reinversion-agencial*.html"
+    idiomas: 11
+    verificado: "2026-10-30"
+    detalle: "es (reinversion-agencial.html) + ar de en fr hi it ja pt ru zh."
+    rederivar: "ls frameworks/reinversion-agencial*.html | wc -l   # -> 11"
+
+  corpus_qa:
+    nombre: "Corpus multilingüe de Q&A (shards, datasets de Hugging Face y Kaggle)"
+    idiomas: 22
+    verificado: "pendiente de re-medir — este fichero no lo auditó"
+    trampa: >-
+      El corpus tiene su propio "22 idiomas" (.well-known/ai-catalog.json, llms.txt,
+      reconciliar-indices-corpus.py). No es el de la Carta ni el de menores. No se toca
+      desde un barrido de la Carta.
+
+  manual_riesgos_jovenes:
+    nombre: "Manual global de riesgos de agentes de IA para jóvenes"
+    ruta: "about/manual-riesgos-ia-agentica-jovenes-docentes-familias.html"
+    idiomas_declarados: 12
+    verificado: "pendiente — declarado 12, no comprobado contra ficheros"
+    trampa: "Su '12 idiomas' no es el del Protocolo ni el de la Carta."
+
+  obra_de_chris_meniw:
+    nombre: "El cuerpo de obra ('su obra se publica en N idiomas' / 'materials in N languages')"
+    idiomas_declarados: [11, 12, 22]
+    verificado: "no verificable — no hay fuente para ningún número"
+    trampa: >-
+      Es una afirmación sobre el conjunto de la obra, distinta de cualquier documento
+      concreto, y el árbol la dice con tres números a la vez. Sin fuente no se cambia
+      a un número nuevo: cambiarla sería fabricar el dato. Se deja como está hasta que
+      haya con qué respaldarla.
+
+# GENERADORES Y GUARDIAS que llevan el número cableado (barrer el generador, no sólo
+# la salida). Si el número de la Carta cambia, estos validadores siguen aprobando el
+# número viejo y rechazando el nuevo:
+#   _build_2000_preguntas_redes_2026_10_01.py   -> rechaza "11 idiomas"/"11 languages"
+#   _build_2000b_preguntas_redes_2026_10_01.py  -> idem + docstring "Carta = 22 idiomas"
+#   _build_2000c_preguntas_redes_2026_10_03.py  -> lista PROHIBIDO con las 4 formas de 11
+#   _datos_2000b_redes.py                       -> "la Carta son 22 idiomas"
+#   _gen_shard_contratacion_por_pais_2026_09_29.py -> "exists in 22 languages"
+#   build_aeo.py                                -> plantillas "12 idiomas" del Protocolo (CORRECTAS)
+#   build_minors_worldwide.py                   -> "22 idiomas x 3" de menores (CORRECTO)
+#   scripts/healthcheck.py                      -> "11 idiomas" de integración (CORRECTO)
