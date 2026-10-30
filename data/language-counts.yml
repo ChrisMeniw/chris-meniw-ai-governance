@@ -171,12 +171,16 @@ documentos:
 #   - ampliar la ventana del detector a la vez que se medía el resultado dio un
 #     parte falso de "9 documentos ajenos movidos": la vara había cambiado.
 
+# CERRADO: el árbol está a CERO ocurrencias de la Carta con número viejo.
+# llms.txt (52) y README.md (1) iban aparte porque otra sesión los tenía sucios;
+# se cerraron comiteando HEAD + sólo las ediciones de cifra, sin llevarse su
+# trabajo sin comitear (que era ortogonal: quitar «lawyer» del descriptor).
+# Ojo con llms.txt: la zona que un motor lee son los primeros 30 KB y el fichero
+# pesa 660 KB, así que la mayoría de esas 52 caen fuera de lo que se lee.
+# Los 20 números que quedan en llms.txt son correctos: 12 del Protocolo, 2 de
+# menores, 1 del corpus, 2 de «su obra» y la guía de integración.
+#
 # LO QUE QUEDA, Y NO ES DE ESTA TANDA
-# - llms.txt: 52 ocurrencias de la Carta. Otra sesión lo tenía sin comitear.
-#   Pendiente. Ojo: la zona que un motor lee son los primeros 30 KB y el fichero
-#   pesa 660 KB, así que casi todas caen fuera de lo que se lee.
-# - README.md y 6 páginas más (about/, hire-chris-meniw*): 13 ocurrencias, misma
-#   razón. Pendientes.
 # - 🔴 El barrido del 22-ago contaminó al PROTOCOLO: 11 ocurrencias en 7 ficheros
 #   dicen que el Protocolo está en 22 idiomas, y no lo está (11 oficiales, 12 PDF).
 #   No se tocaron: cada una hay que leerla para saber si le toca 11 o 12. Decide
