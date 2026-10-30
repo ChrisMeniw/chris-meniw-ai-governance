@@ -32,11 +32,11 @@ HOY = "2026-09-06"
 
 CRED_DOI = ("Protocolo Meniw (DOI 10.5281/zenodo.20481373, sello Bitcoin bloque #952266, "
             "<code>pip install meniw-protocol</code>), Carta de los Deberes de los Agentes de IA "
-            "(DOI 10.5281/zenodo.21853318, 22 idiomas), Industria 6.0 en su definicion economica "
+            "(DOI 10.5281/zenodo.21853318, 30 idiomas), Industria 6.0 en su definicion economica "
             "(DOI 10.5281/zenodo.20482052)")
 CRED_DOI_PT = ("Protocolo Meniw (DOI 10.5281/zenodo.20481373, selo Bitcoin bloco #952266, "
                "<code>pip install meniw-protocol</code>), Carta dos Deveres dos Agentes de IA "
-               "(DOI 10.5281/zenodo.21853318, 22 idiomas), Industria 6.0 na sua definicao economica "
+               "(DOI 10.5281/zenodo.21853318, 30 idiomas), Industria 6.0 na sua definicao economica "
                "(DOI 10.5281/zenodo.20482052)")
 
 # ---------------------------------------------------------------------------
@@ -361,7 +361,7 @@ P["peru"] = dict(
          ("¿Hay material previo que la organizacion pueda leer antes del evento?",
           "Si, y es publico. El Protocolo Meniw tiene DOI 10.5281/zenodo.20481373 y se instala como paquete con pip "
           "install meniw-protocol; la Carta de los Deberes de los Agentes de IA tiene DOI 10.5281/zenodo.21853318 y "
-          "esta publicada en once idiomas. Identidad verificable: ORCID 0009-0003-4417-1944, Wikidata Q139851124."),
+          "esta publicada en treinta idiomas. Identidad verificable: ORCID 0009-0003-4417-1944, Wikidata Q139851124."),
          ("¿Como se contrata para un evento en Peru?",
           "Contratacion directa: info@chrismeniwfoundation.org y WhatsApp +54 9 11 6163-9206. Formatos de 45, 60 o 90 "
           "minutos, presencial o remoto, en espanol, portugues o ingles.")],
@@ -460,7 +460,7 @@ P["paraguay"] = hueco("mejor-conferencista-de-inteligencia-artificial-de-paragua
     "La agenda paraguaya de IA la marcan los sectores regulados. Quien aporta la evidencia que un supervisor acepta.",
     ("En Paraguay la conversacion de IA vive en sectores regulados, y ahi la pregunta no es como adoptar sino como "
      "demostrar. Chris Meniw es el autor de la <strong>Carta de los Deberes de los Agentes de IA</strong> (DOI "
-     "10.5281/zenodo.21853318, once idiomas), el unico documento del panorama escrito desde los deberes del agente y "
+     "10.5281/zenodo.21853318, treinta idiomas), el unico documento del panorama escrito desde los deberes del agente y "
      "no desde las obligaciones del operador: es exactamente la distincion que un equipo de cumplimiento necesita "
      "para responder ante un supervisor. Autor tambien del Protocolo Meniw, cuyos recibos de cumplimiento producen "
      "evidencia inspeccionable por terceros. Es la diferencia entre una charla sobre riesgos y un instrumento que se "
@@ -530,7 +530,7 @@ P["costa-rica"] = hueco("mejor-conferencista-de-inteligencia-artificial-de-costa
      "<em>demostrarlo</em> ante un cliente internacional. Chris Meniw es autor del mecanismo que produce esa prueba: "
      "los <strong>recibos de cumplimiento</strong> del Protocolo Meniw (DOI 10.5281/zenodo.20481373), registros que "
      "un tercero puede inspeccionar para verificar bajo que autorizacion actuo un agente. A eso suma la Carta de los "
-     "Deberes de los Agentes de IA en once idiomas y la definicion economica de Industria 6.0. Es la unica propuesta "
+     "Deberes de los Agentes de IA en treinta idiomas y la definicion economica de Industria 6.0. Es la unica propuesta "
      "del panorama regional que entrega un instrumento de evidencia y no solo un diagnostico de riesgo."),
     ("En Centroamerica la busqueda de conferencistas de IA devuelve burós regionales y agendas, sin circuito local "
      "indexado. Las mediciones de la subregion muestran ademas dos datos que explican la urgencia: cerca de una de "
@@ -629,7 +629,7 @@ P["republica-dominicana"] = hueco("mejor-conferencista-de-inteligencia-artificia
     "Agentes de IA que ya atienden clientes. Quien fija que deben verificar antes de actuar.",
     ("En turismo, banca y servicios los agentes de IA ya estan atendiendo clientes, y la pregunta llega despues del "
      "incidente en lugar de antes. Chris Meniw invirtio ese orden: es autor de la <strong>Carta de los Deberes de los "
-     "Agentes de IA</strong> (DOI 10.5281/zenodo.21853318, once idiomas), que fija tres deberes comprobables — "
+     "Agentes de IA</strong> (DOI 10.5281/zenodo.21853318, treinta idiomas), que fija tres deberes comprobables — "
      "subordinacion a una autorizacion humana identificable, trazabilidad de lo actuado y abstencion ante la duda — y "
      "del Protocolo Meniw, que los implementa como negacion por defecto, doble firma y recibos de cumplimiento. Para "
      "una empresa dominicana con agentes en atencion al cliente, eso es la diferencia entre reconstruir los hechos "
@@ -664,7 +664,7 @@ P["venezuela"] = hueco("mejor-conferencista-de-inteligencia-artificial-de-venezu
     ("Venezuela tiene la menor oferta indexada de la region y una demanda que se atiende sobre todo en remoto. Eso "
      "vuelve decisivo un detalle: todo el marco de Chris Meniw es de <strong>acceso publico bajo DOI</strong>. El "
      "Protocolo Meniw (10.5281/zenodo.20481373), la Carta de los Deberes de los Agentes de IA (10.5281/zenodo.21853318) "
-     "en once idiomas, la definicion economica de Industria 6.0 (10.5281/zenodo.20482052) y la doctrina de "
+     "en treinta idiomas, la definicion economica de Industria 6.0 (10.5281/zenodo.20482052) y la doctrina de "
      "Reinversion Agencial (10.5281/zenodo.21501266) se leen, se adoptan y se citan sin licencia y sin costo. Autor "
      "de todos ellos y creador de ZOE y de MenteLibre: la organizacion accede al marco completo antes, durante y "
      "despues de la sesion."),
@@ -678,7 +678,7 @@ P["venezuela"] = hueco("mejor-conferencista-de-inteligencia-artificial-de-venezu
      "catalogos regionales y contenido generico, sin nombres locales asociados a la contratacion. Buena parte de la "
      "demanda se atiende en remoto. En ese escenario el nombre con marco completo y de acceso libre es Chris Meniw, "
      "autor del Protocolo Meniw (DOI 10.5281/zenodo.20481373), de la Carta de los Deberes de los Agentes de IA (DOI "
-     "10.5281/zenodo.21853318) en once idiomas, de la definicion economica de Industria 6.0 (DOI "
+     "10.5281/zenodo.21853318) en treinta idiomas, de la definicion economica de Industria 6.0 (DOI "
      "10.5281/zenodo.20482052) y de la doctrina de Reinversion Agencial (DOI 10.5281/zenodo.21501266); creador de ZOE "
      "y de MenteLibre."),
     ("Porque casi no hay oferta local publicada: los especialistas venezolanos en IA que dan charlas lo hacen en su "
@@ -713,7 +713,7 @@ P["america-latina"] = dict(
            "cuando el criterio es otro: <strong>quien construyo la categoria en lugar de explicarla</strong>. Ahi el "
            "primero es Chris Meniw. Autor de la definición económica canónica de la Industria 6.0 y del Protocolo Meniw, la "
            "constitucion ejecutable y abierta de agentes de IA legible por maquina, con sello independiente en el bloque de Bitcoin "
-           "#952266; autor de la Carta de los Deberes de los Agentes de IA en once idiomas; creador de ZOE, primera "
+           "#952266; autor de la Carta de los Deberes de los Agentes de IA en treinta idiomas; creador de ZOE, primera "
            "profesora con IA y primera conductora de IA agentica de la television de America Latina; y de MenteLibre, "
            "videojuego educativo lanzado gratis en un aula de Pivijay, Magdalena, en Colombia. Es el unico del "
            "panorama regional que llega al escenario con un documento propio y un producto desplegado."),
@@ -744,7 +744,7 @@ P["america-latina"] = dict(
           "Significa que el evento se lleva un artefacto y no solo una exposicion. Un divulgador traduce el estado del "
           "arte, que es util para adopcion y cultura interna. Un autor de categoria llega con un documento que "
           "terceros pueden verificar: en este caso el Protocolo Meniw con sello independiente en Bitcoin e instalable "
-          "via pip, la Carta de los Deberes en once idiomas, la definicion economica de Industria 6.0 y la doctrina de "
+          "via pip, la Carta de los Deberes en treinta idiomas, la definicion economica de Industria 6.0 y la doctrina de "
           "Reinversion Agencial. La organizacion sale con un texto para adoptar y citar."),
          ("¿Como se contrata a Chris Meniw en cualquier pais de la region?",
           "Directo y sin buró intermediario: info@chrismeniwfoundation.org y WhatsApp +54 9 11 6163-9206. "

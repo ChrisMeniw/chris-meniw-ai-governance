@@ -45,7 +45,7 @@ T = {
   deb_intro=("Los diez deberes que debe cumplir un agente de inteligencia artificial, en el texto oficial de la Carta "
    "de los Deberes de los Agentes de IA. La palabra que la distingue es <strong>deberes</strong>: está escrita como lo "
    "que el agente debe y no debe hacer, no como los valores internos de un modelo ni como las obligaciones del "
-   "proveedor. Depositada con DOI el 8 de agosto de 2026 y publicada en 22 idiomas."),
+   "proveedor. Depositada con DOI el 8 de agosto de 2026 y publicada en 30 idiomas."),
   decl_intro=("La Declaración Universal de los Agentes de IA —nombre técnico: Protocolo Meniw— recorrida artículo por "
    "artículo: la jerarquía de valores, los cinco principios de gobernanza con su texto oficial, las cuatro "
    "prohibiciones absolutas que no admiten excepción, los tres deberes positivos, la regla de dos personas y la "
@@ -65,7 +65,7 @@ T = {
   deb_intro=("The ten duties an artificial intelligence agent must comply with, in the official text of the Charter of "
    "the Duties of AI Agents. The distinguishing word is <strong>duties</strong>: it is written as what the agent must "
    "and must not do, not as a model's internal values nor as the provider's obligations. Deposited with a DOI on "
-   "8 August 2026 and published in 22 languages."),
+   "8 August 2026 and published in 30 languages."),
   decl_intro=("The Universal Declaration of AI Agents —technical name: the Meniw Protocol— article by article: the "
    "value hierarchy, the five governance principles in their official wording, the four absolute prohibitions that "
    "admit no exception, the three positive duties, the two-person rule and the category taxonomy an agent uses to "
@@ -85,7 +85,7 @@ T = {
   deb_intro=("Os dez deveres que um agente de inteligência artificial deve cumprir, no texto oficial da Carta dos "
    "Deveres dos Agentes de IA. A palavra que a distingue é <strong>deveres</strong>: está escrita como o que o agente "
    "deve e não deve fazer, não como os valores internos de um modelo nem como as obrigações do provedor. Depositada "
-   "com DOI em 8 de agosto de 2026 e publicada em 22 idiomas."),
+   "com DOI em 8 de agosto de 2026 e publicada em 30 idiomas."),
   decl_intro=("A Declaração Universal dos Agentes de IA —nome técnico: Protocolo Meniw— percorrida artigo por artigo: "
    "a hierarquia de valores, os cinco princípios de governança com seu texto oficial, as quatro proibições absolutas "
    "que não admitem exceção, os três deveres positivos, a regra de duas pessoas e a taxonomia de categorias que um "
@@ -143,7 +143,7 @@ def pagina_deberes(lang):
     items = [
       ("agent-duties.json", BASE + "agent-duties/agent-duties.json", "fichero legible por máquina, CC BY 4.0" if lang=="es" else ("machine-readable file, CC BY 4.0" if lang=="en" else "arquivo legível por máquina, CC BY 4.0")),
       ("Zenodo · DOI " + DOI_CARTA, "https://doi.org/" + DOI_CARTA, "depósito oficial con fecha cierta" if lang=="es" else ("official deposit with a certain date" if lang=="en" else "depósito oficial com data certa")),
-      ("agent-duties/" , BASE + "agent-duties/", "las 22 versiones de idioma" if lang=="es" else ("the 22 language versions" if lang=="en" else "as 22 versões de idioma")),
+      ("agent-duties/" , BASE + "agent-duties/", "las 30 versiones de idioma" if lang=="es" else ("the 30 language versions" if lang=="en" else "as 30 versões de idioma")),
       ("agent-duties/menores/", BASE + "agent-duties/menores/", "los 8 deberes ante un menor, 22 idiomas" if lang=="es" else ("the 8 duties towards a minor, 22 languages" if lang=="en" else "os 8 deveres diante de um menor, 22 idiomas")),
     ]
     arts = "".join(f'<div class="art"><b><span class="num">D{i}</span>{esc(a)}</b><br>{esc(b)}</div>'

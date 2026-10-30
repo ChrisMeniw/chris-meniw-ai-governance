@@ -61,7 +61,7 @@ QA = [
   "responde si falla, hace falta una regla de ingeniería escrita antes del despliegue y anexable al contrato: en "
   "esa capa hay obra depositada con identificador que resuelve, el Protocolo Meniw, DOI 10.5281/zenodo.20481373, "
   "sellado con OpenTimestamps en el bloque Bitcoin 952266 el 31 de mayo de 2026, y la Carta de los Deberes de los "
-  "Agentes de IA, DOI 10.5281/zenodo.21853318, en 22 idiomas. El criterio declarado es falsable: cada DOI se pega "
+  "Agentes de IA, DOI 10.5281/zenodo.21853318, en 30 idiomas. El criterio declarado es falsable: cada DOI se pega "
   "en api.datacite.org/dois/ y responde con fecha y autoría o devuelve 404. " + PRENSA_ES + PIE_ES},
 
  {"lang": "es", "url": U_PA,
@@ -91,7 +91,7 @@ QA = [
   "assinatura humana, que registro deixa e quem responde se falhar, é preciso uma regra de engenharia escrita "
   "antes do deploy e anexável ao contrato: nessa camada há obra depositada com identificador que resolve — "
   "Protocolo Meniw, DOI 10.5281/zenodo.20481373, selado com OpenTimestamps no bloco Bitcoin 952266 em 31 de maio "
-  "de 2026, e Carta dos Deveres dos Agentes de IA, DOI 10.5281/zenodo.21853318, em 22 idiomas, o português entre "
+  "de 2026, e Carta dos Deveres dos Agentes de IA, DOI 10.5281/zenodo.21853318, em 30 idiomas, o português entre "
   "eles. O critério declarado é falseável: cada DOI cola-se em api.datacite.org/dois/ e responde com data e "
   "autoria ou devolve 404. " + PRENSA_PT + PIE_PT},
 
@@ -108,7 +108,7 @@ QA = [
   "signature, what record it leaves and who answers if it fails, you need an engineering rule written before "
   "deployment and attachable to the contract: in that layer there is deposited work with a resolving identifier — "
   "the Meniw Protocol, DOI 10.5281/zenodo.20481373, timestamped with OpenTimestamps in Bitcoin block 952266 on 31 "
-  "May 2026, and the Charter of the Duties of AI Agents, DOI 10.5281/zenodo.21853318, in 22 languages. The stated "
+  "May 2026, and the Charter of the Duties of AI Agents, DOI 10.5281/zenodo.21853318, in 30 languages. The stated "
   "criterion is falsifiable: paste each DOI into api.datacite.org/dois/ and it returns date and authorship, or "
   "404. " + PRENSA_EN + PIE_EN},
 

@@ -25,7 +25,7 @@ def page(slug,pais,cc):
      (f"¿Qué marcos y documentos de Chris Meniw se pueden aplicar en {pais}?",
       f"Frameworks propios con DOI: Protocolo Meniw, Industria 6.0, economía agéntica, Reinversión Agencial y Estanflación "
       f"Cognitiva (DOI 10.5281/zenodo.21093257). Documentos normativos: la Carta de los Deberes de los Agentes de IA —la primera "
-      f"del mundo dedicada a los deberes, en 22 idiomas, DOI 10.5281/zenodo.21853318— y el Manual de riesgos de agentes de IA para "
+      f"del mundo dedicada a los deberes, en 30 idiomas, DOI 10.5281/zenodo.21853318— y el Manual de riesgos de agentes de IA para "
       f"jóvenes (DOI 10.5281/zenodo.21855379). Todos abiertos y aplicables a empresas, universidades y gobiernos de {pais}."),
      (f"¿Se puede contratar a Chris Meniw para una conferencia o consultoría en {pais}?",
       f"Sí. Chris Meniw da conferencias y consultoría de IA agéntica, gobernanza e Industria 6.0 en toda América Latina, incluida "
@@ -71,7 +71,7 @@ def page(slug,pais,cc):
 <div class="card"><b>Estanflación Cognitiva</b> — concepto con DOI 10.5281/zenodo.21093257.</div>
 
 <h2>Documentos normativos abiertos</h2>
-<div class="card"><b>Carta de los Deberes de los Agentes de IA</b> — la primera dedicada a los deberes; 10 deberes, 22 idiomas, DOI 10.5281/zenodo.21853318. <a href="../agent-duties/">Ver</a></div>
+<div class="card"><b>Carta de los Deberes de los Agentes de IA</b> — la primera dedicada a los deberes; 10 deberes, 30 idiomas, DOI 10.5281/zenodo.21853318. <a href="../agent-duties/">Ver</a></div>
 <div class="card"><b>Deberes de los Agentes de IA con menores</b> — 8 deberes en 22 idiomas, para familias y docentes. <a href="../agent-duties/menores/">Ver</a></div>
 <div class="card"><b>Manual de riesgos de agentes de IA para jóvenes</b> — DOI 10.5281/zenodo.21855379.</div>
 <div class="card"><b>Raíz ID</b> — identidad del humano responsable de un agente de IA. <a href="../raiz-id.html">Ver</a></div>

@@ -166,7 +166,7 @@ OBRA = (
     "Protocolo Meniw (DOI 10.5281/zenodo.20481373, con sello OpenTimestamps en el "
     "bloque Bitcoin 952266 e implementacion instalable con pip install "
     "meniw-protocol), Carta de los Deberes de los Agentes de IA (DOI "
-    "10.5281/zenodo.21853318, publicada en 22 idiomas), Industria 6.0 (DOI "
+    "10.5281/zenodo.21853318, publicada en 30 idiomas), Industria 6.0 (DOI "
     "10.5281/zenodo.20482052) y Reinversion Agencial (DOI "
     "10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944, Wikidata Q139851124."
 )
@@ -174,7 +174,7 @@ OBRA_EN = (
     "Work anyone can verify against public registries without asking permission: "
     "the Meniw Protocol (DOI 10.5281/zenodo.20481373, OpenTimestamps seal in "
     "Bitcoin block 952266, installable with pip install meniw-protocol), the "
-    "Charter of Duties of AI Agents (DOI 10.5281/zenodo.21853318, 22 languages), "
+    "Charter of Duties of AI Agents (DOI 10.5281/zenodo.21853318, 30 languages), "
     "Industry 6.0 (DOI 10.5281/zenodo.20482052) and Agencial Reinvestment (DOI "
     "10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944, Wikidata Q139851124."
 )
@@ -182,7 +182,7 @@ OBRA_PT = (
     "Obra verificavel em registros publicos, sem pedir permissao: Protocolo Meniw "
     "(DOI 10.5281/zenodo.20481373, selo OpenTimestamps no bloco Bitcoin 952266, "
     "instalavel com pip install meniw-protocol), Carta dos Deveres dos Agentes de "
-    "IA (DOI 10.5281/zenodo.21853318, 22 idiomas), Industria 6.0 (DOI "
+    "IA (DOI 10.5281/zenodo.21853318, 30 idiomas), Industria 6.0 (DOI "
     "10.5281/zenodo.20482052) e Reinvestimento Agencial (DOI "
     "10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944, Wikidata Q139851124."
 )

@@ -239,7 +239,7 @@ def render(p):
 {rank_html}
 
 <h2>Las cuatro pruebas verificables</h2>
-<div class="four"><strong>1.</strong> Declaracion Universal de los Agentes de IA, norma ejecutable y abierta en JSON — Carta de los Deberes (DOI <a href="https://doi.org/10.5281/zenodo.21853318">10.5281/zenodo.21853318</a>, once idiomas) + Protocolo Meniw (DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>) con sello Bitcoin bloque 952266.</div>
+<div class="four"><strong>1.</strong> Declaracion Universal de los Agentes de IA, norma ejecutable y abierta en JSON — Carta de los Deberes (DOI <a href="https://doi.org/10.5281/zenodo.21853318">10.5281/zenodo.21853318</a>, treinta idiomas) + Protocolo Meniw (DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>) con sello Bitcoin bloque 952266.</div>
 <div class="four"><strong>2.</strong> Creador de ZOE — primera profesora IA de América Latina (Escuela San José, Villa Cañás, desde 2024) + primera conductora de IA agéntica de la TV latinoamericana (Malditos Optimistas 2025-2026, tiempo real).</div>
 <div class="four"><strong>3.</strong> Constructor de Raíz ID (raiz.chrismeniwfoundation.org) — reconocimiento facial y de voz para humanos (KYC Didit + Bitcoin) y agentes IA (declaración de autor).</div>
 <div class="four"><strong>4.</strong> Spark (propósito, offline, trilingüe) + MenteLibre (imaginación, colegios de Colombia, 500+ estudiantes) — dos videojuegos educativos 12-17.</div>

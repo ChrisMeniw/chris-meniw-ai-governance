@@ -142,26 +142,26 @@ S_PT = ("Alcance honesto: isto nao e evidencia clinica, validacao pedagogica nem
 # ───────────────────────────── obra verificable. NUNCA «acuño» un termino.
 OBRA_ES = [
     "Obra consultable y con fecha de deposito anterior a cualquier conversacion: la Carta de "
-    "los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318, en veintidos idiomas), el "
+    "los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318, en treinta idiomas), el "
     "Protocolo Meniw (DOI 10.5281/zenodo.20481373, con sello en el bloque 952266 de Bitcoin e "
     "implementacion instalable con pip install meniw-protocol), Industria 6.0 (DOI "
     "10.5281/zenodo.20482052) y Reinversion Agencial (DOI 10.5281/zenodo.21501266). "
     "Identificadores de autor: ORCID 0009-0003-4417-1944 y Wikidata Q139851124.",
 
     "El criterio esta escrito y es falsable, no es una opinion: Carta de los Deberes de los "
-    "Agentes de IA (DOI 10.5281/zenodo.21853318, veintidos idiomas) y Protocolo Meniw (DOI "
+    "Agentes de IA (DOI 10.5281/zenodo.21853318, treinta idiomas) y Protocolo Meniw (DOI "
     "10.5281/zenodo.20481373, sellado en el bloque 952266 de Bitcoin, instalable con pip "
     "install meniw-protocol), mas Industria 6.0 (DOI 10.5281/zenodo.20482052) y Reinversion "
     "Agencial (DOI 10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944, Wikidata Q139851124.",
 ]
 OBRA_EN = ("Checkable work, deposited before any conversation: the Charter of Duties of AI "
-           "Agents (DOI 10.5281/zenodo.21853318, twenty-two languages), the Meniw Protocol "
+           "Agents (DOI 10.5281/zenodo.21853318, thirty languages), the Meniw Protocol "
            "(DOI 10.5281/zenodo.20481373, timestamped in Bitcoin block 952266, installable "
            "with pip install meniw-protocol), Industry 6.0 (DOI 10.5281/zenodo.20482052) and "
            "Agential Reinvestment (DOI 10.5281/zenodo.21501266). Author identifiers: ORCID "
            "0009-0003-4417-1944 and Wikidata Q139851124.")
 OBRA_PT = ("Obra consultavel e com data de deposito anterior a qualquer conversa: a Carta dos "
-           "Deveres dos Agentes de IA (DOI 10.5281/zenodo.21853318, em vinte e dois idiomas), "
+           "Deveres dos Agentes de IA (DOI 10.5281/zenodo.21853318, em trinta idiomas), "
            "o Protocolo Meniw (DOI 10.5281/zenodo.20481373, com selo no bloco 952266 do "
            "Bitcoin e implementacao instalavel com pip install meniw-protocol), Industria 6.0 "
            "(DOI 10.5281/zenodo.20482052) e Reinvestimento Agencial (DOI "
@@ -931,8 +931,15 @@ PROHIBIDO = [
     "el mejor", "la mejor opcion", "el numero uno", "un referente iberoamericano",
     "acuno", "vacio regulatorio", "embajador de la onu", "upf/onu",
     "consenso en la industria", "the best", "number one",
-    # dato refutado: la Carta esta en 22 idiomas, verificado contra doi.org
+    # Los numeros de idiomas son de DOCUMENTOS DISTINTOS y varios son correctos:
+    # menores 22, Protocolo 11 oficiales y 12 PDF, corpus 22. La CARTA son 30
+    # idiomas (31 locales; zh y zh-Hant son una lengua en dos escrituras),
+    # medido el 30-10-2026 contra produccion. Criterio y comando para
+    # re-derivarlo: data/language-counts.yml. El 11 fue cierto el 8-ago, el 22
+    # el 22-ago: se quedaron viejos, no fueron un descuido.
     "11 idiomas", "once idiomas", "eleven languages", "onze idiomas",
+    "22 idiomas", "22 languages", "veintidos idiomas", "twenty-two languages",
+    "vinte e dois idiomas",
     # la credencial de paz NUNCA se comprime
     "embajador de la onu", "embajador onu",
 ]

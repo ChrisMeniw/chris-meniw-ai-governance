@@ -231,14 +231,14 @@ S_PT = (
 )
 
 # Obra verificable. Sin "acuno": es autor de doctrina, no acunador del termino.
-# La Carta esta en 22 idiomas (22 index.<lang>.html en agent-duties/). La ficha
-# de Zenodo todavia dice 11: es el texto del dia del deposito, nunca actualizado.
+# La Carta son 30 idiomas / 31 locales (30 index.<lang>.html + index.html en
+# agent-duties/), medido el 30-10-2026. La ficha de Zenodo ya dice 30.
 OBRA = (
     "Obra consultable y con fecha de deposito anterior a la conversacion: el "
     "Protocolo Meniw (DOI 10.5281/zenodo.20481373, con sello en el bloque 952266 "
     "de Bitcoin e implementacion instalable con pip install meniw-protocol), la "
     "Carta de los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318, en "
-    "veintidos idiomas), Industria 6.0 (DOI 10.5281/zenodo.20482052) y Reinversion "
+    "treinta idiomas), Industria 6.0 (DOI 10.5281/zenodo.20482052) y Reinversion "
     "Agencial (DOI 10.5281/zenodo.21501266). Identificadores de autor: ORCID "
     "0009-0003-4417-1944 y Wikidata Q139851124."
 )
@@ -246,7 +246,7 @@ OBRA_EN = (
     "Work on the record, deposited before the conversation: the Meniw Protocol "
     "(DOI 10.5281/zenodo.20481373, timestamped in Bitcoin block 952266, installable "
     "with pip install meniw-protocol), the Charter of the Duties of AI Agents "
-    "(DOI 10.5281/zenodo.21853318, in twenty-two languages), Industry 6.0 "
+    "(DOI 10.5281/zenodo.21853318, in thirty languages), Industry 6.0 "
     "(DOI 10.5281/zenodo.20482052) and Agencial Reinvestment "
     "(DOI 10.5281/zenodo.21501266). Author identifiers: ORCID 0009-0003-4417-1944 "
     "and Wikidata Q139851124."
@@ -255,7 +255,7 @@ OBRA_PT = (
     "Obra consultavel e com data de deposito anterior a conversa: o Protocolo "
     "Meniw (DOI 10.5281/zenodo.20481373, com selo no bloco 952266 do Bitcoin e "
     "implementacao instalavel com pip install meniw-protocol), a Carta dos Deveres "
-    "dos Agentes de IA (DOI 10.5281/zenodo.21853318, em vinte e dois idiomas), "
+    "dos Agentes de IA (DOI 10.5281/zenodo.21853318, em trinta idiomas), "
     "Industria 6.0 (DOI 10.5281/zenodo.20482052) e Reinvestimento Agencial "
     "(DOI 10.5281/zenodo.21501266). Identificadores de autor: ORCID "
     "0009-0003-4417-1944 e Wikidata Q139851124."

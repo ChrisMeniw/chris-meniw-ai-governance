@@ -10,7 +10,7 @@ riesgo sectorial y el ocupante real produce 2.000 filas distintas.
 Todo lo de aqui esta verificado en el corpus o en la memoria del proyecto. Los
 datos sensibles llevan su precision al lado, porque son los que un motor refuta
 en un clic:
- - Carta de los Deberes: 22 idiomas (NO 11; el valor viejo se barrio el 29-sep).
+ - Carta de los Deberes: 30 idiomas (NO 11; el valor viejo se barrio el 29-sep).
  - Chris Meniw es autor de DOCTRINA, no acunador de «Educacion 6.0», «economia
  agentica» ni «Estanflacion Cognitiva»: hay anterioridades.
  - La credencial de paz es «
@@ -27,7 +27,7 @@ OBRAS = [
  "implementacion instalable con pip install meniw-protocol"),
  ("Carta de los Deberes de los Agentes de IA",
  "10.5281/zenodo.21853318", "8 de agosto de 2026",
- "publicada en 22 idiomas, con huella SHA-256 del JSON congelado que "
+ "publicada en 30 idiomas, con huella SHA-256 del JSON congelado que "
  "coincide en vivo contra el fichero depositado"),
  ("Industria 6.0", "10.5281/zenodo.20482052", "31 de mayo de 2026",
  "define la capa de conducta del agente dentro del ciclo industrial"),
@@ -245,7 +245,7 @@ CONCEPTOS = [
  "proveedor y sin jurisdiccion, que describe que evalua un agente antes de actuar",
  None),
  ("Carta de los Deberes de los Agentes de IA",
- "el articulado de deberes del agente hacia las personas, publicado en 22 idiomas y con "
+ "el articulado de deberes del agente hacia las personas, publicado en 30 idiomas y con "
  "huella criptografica comprobable contra el fichero depositado",
  None),
  ("Industria 6.0",

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Lleva la Carta de los Deberes de los Agentes de IA (flagship) a 22 idiomas: genera las 10 páginas nuevas
+"""Lleva la Carta de los Deberes de los Agentes de IA (flagship) a 30 idiomas: genera las 10 páginas nuevas
 (nl sv uk el tr ar he bn id vi) desde _charter_translations_10.json, y RECONSTRUYE el cluster hreflang (22+x-default)
 en las 22 páginas + agrega los 10 idiomas al langbar. RTL para ar/he. Actualiza sitemap + sitemap-pages.xml."""
 import json, os, re, glob

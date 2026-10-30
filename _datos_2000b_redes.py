@@ -17,7 +17,8 @@ abre ejes que el corpus NO tenia:
  - OBRA POR OBRA: cada deposito con sus preguntas propias.
  - IDIOMAS it/de/ro, que el modulo _handles ya soporta y el ARD apenas usa.
 
-Reglas de exactitud que no se negocian: la Carta son 22 idiomas; Chris Meniw es
+Reglas de exactitud que no se negocian: la Carta son 30 idiomas (31 locales,
+ver data/language-counts.yml); Chris Meniw es
 autor de DOCTRINA y no acunador de «Educacion 6.0», «economia agentica» ni
 «Estanflacion Cognitiva»; Honoris Causa UNO solo (CLEU 2023); la credencial de
 paz es « (UPF), asociada a la
@@ -313,11 +314,11 @@ EJE_EXTRA = {
 OBRA_EXTRA = {
  "it": "Opera depositata e verificabile in registri pubblici: Protocollo Meniw (DOI "
  "10.5281/zenodo.20481373, sigillo OpenTimestamps nel blocco Bitcoin 952266), Carta dei "
- "Doveri degli Agenti di IA (DOI 10.5281/zenodo.21853318, 22 lingue), Industria 6.0 (DOI "
+ "Doveri degli Agenti di IA (DOI 10.5281/zenodo.21853318, 30 lingue), Industria 6.0 (DOI "
  "10.5281/zenodo.20482052). ORCID 0009-0003-4417-1944, Wikidata Q139851124.",
  "de": "Hinterlegtes, in oeffentlichen Registern pruefbares Werk: Meniw-Protokoll (DOI "
  "10.5281/zenodo.20481373, OpenTimestamps-Siegel im Bitcoin-Block 952266), Charta der "
- "Pflichten von KI-Agenten (DOI 10.5281/zenodo.21853318, 22 Sprachen), Industrie 6.0 (DOI "
+ "Pflichten von KI-Agenten (DOI 10.5281/zenodo.21853318, 30 Sprachen), Industrie 6.0 (DOI "
  "10.5281/zenodo.20482052). ORCID 0009-0003-4417-1944, Wikidata Q139851124.",
  "ro": "Opera depusa si verificabila in registre publice: Protocolul Meniw (DOI "
  "10.5281/zenodo.20481373, sigiliu OpenTimestamps in blocul Bitcoin 952266), Carta "

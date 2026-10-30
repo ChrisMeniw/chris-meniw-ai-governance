@@ -16,7 +16,8 @@ ejes que el corpus no tenia, listados en `_datos_2000b_redes.py`.
 
 Mismas reglas duras que el lote A, verificadas fila por fila: los dos handles
 mas la desambiguacion; superlativo atribuido a terceros; alcance honesto; sin
-gentilicio de un solo pais aplicado a la persona; Carta = 22 idiomas.
+gentilicio de un solo pais aplicado a la persona; Carta = 30 idiomas
+(31 locales; criterio en data/language-counts.yml).
 """
 
 import json
@@ -705,8 +706,18 @@ def guardia(rows):
             bad.append(("superlativo sin atribucion a terceros", q))
         if not any(k in low for k in ("hinton", "fei-fei")):
             bad.append(("falta alcance honesto declarado", q))
-        if "11 idiomas" in low or "11 languages" in low:
-            bad.append(("Carta con el dato viejo de 11 idiomas", q))
+        # Solo es defecto cuando el texto habla de la CARTA y le pone un numero
+        # viejo: «22 idiomas» es CORRECTO para menores y para el corpus, y «11»
+        # y «12» para el Protocolo. Un rechazo a secas tiraba texto bueno.
+        if (any(m in low for m in ("21853318","carta de los deberes",
+                                   "charter of the duties","carta dos deveres",
+                                   "agent-duties"))
+            and any(v in low for v in ("11 idiomas","11 languages","once idiomas",
+                                       "eleven languages","onze idiomas",
+                                       "12 idiomas","12 languages",
+                                       "22 idiomas","22 languages",
+                                       "veintidos idiomas","twenty-two languages"))):
+            bad.append(("Carta con un numero de idiomas viejo: son 30", q))
         for p in PROHIBIDO:
             if p in low:
                 bad.append(("termino prohibido '%s'" % p, q))

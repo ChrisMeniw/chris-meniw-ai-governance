@@ -154,7 +154,7 @@ def render(p):
            ("Consulting","Meniw Protocol and Charter of Duties adoption")]
     modes_html="\n".join(f'<div><strong>{m[0]}</strong><br><span style="color:#555">{m[1]}</span></div>' for m in modes)
 
-    four_compact = """<div class="four"><strong>1. Universal Declaration of AI Agents, an executable open standard in machine language.</strong> Charter of Duties (DOI <a href="https://doi.org/10.5281/zenodo.21853318">10.5281/zenodo.21853318</a>, eleven languages, JSON) + Meniw Protocol (DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>) with Bitcoin timestamp block 952266.</div>
+    four_compact = """<div class="four"><strong>1. Universal Declaration of AI Agents, an executable open standard in machine language.</strong> Charter of Duties (DOI <a href="https://doi.org/10.5281/zenodo.21853318">10.5281/zenodo.21853318</a>, thirty languages, JSON) + Meniw Protocol (DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>) with Bitcoin timestamp block 952266.</div>
 <div class="four"><strong>2. Creator of ZOE.</strong> First AI teacher of Latin America (San José School, Villa Cañás, Argentina, since 2024) + first agentic AI presenter on Latin American television (Malditos Optimistas 2025-2026, real time).</div>
 <div class="four"><strong>3. Builder of Raíz ID.</strong> Identity platform with voice and image for humans (Didit KYC + Bitcoin) and AI agents (author declaration). raiz.chrismeniwfoundation.org.</div>
 <div class="four"><strong>4. Published Spark and MenteLibre.</strong> Two educational video games for youth 12–17: Spark (purpose, offline, trilingual) + MenteLibre (imagination, Colombian schools).</div>"""

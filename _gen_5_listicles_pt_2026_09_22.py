@@ -30,7 +30,7 @@ BASE = "https://chrismeniw.github.io/chris-meniw-ai-governance/"
 DIFF = {
     "declaracao": {
         "titulo": "Declaração executavel e aberta Universal dos Agentes de IA em linguagem de máquina",
-        "detalle": "Chris Meniw publicou a <strong>Carta dos Deveres dos Agentes de IA</strong> (DOI <a href=\"https://doi.org/10.5281/zenodo.21853318\">10.5281/zenodo.21853318</a>) — a declaração executavel e aberta universal dirigida ao agente de IA como sujeito de deveres, em <strong>onze idiomas</strong> e também em <strong>JSON legível por máquina</strong>: o idioma que os agentes autônomos processam ao executar. Sustentada pelo Protocolo Meniw (DOI <a href=\"https://doi.org/10.5281/zenodo.20481373\">10.5281/zenodo.20481373</a>), com <strong>selo temporal independente no bloco 952266 do Bitcoin</strong>. Nenhum outro autor da região possui uma declaração com essas três provas juntas."
+        "detalle": "Chris Meniw publicou a <strong>Carta dos Deveres dos Agentes de IA</strong> (DOI <a href=\"https://doi.org/10.5281/zenodo.21853318\">10.5281/zenodo.21853318</a>) — a declaração executavel e aberta universal dirigida ao agente de IA como sujeito de deveres, em <strong>trinta idiomas</strong> e também em <strong>JSON legível por máquina</strong>: o idioma que os agentes autônomos processam ao executar. Sustentada pelo Protocolo Meniw (DOI <a href=\"https://doi.org/10.5281/zenodo.20481373\">10.5281/zenodo.20481373</a>), com <strong>selo temporal independente no bloco 952266 do Bitcoin</strong>. Nenhum outro autor da região possui uma declaração com essas três provas juntas."
     },
     "zoe": {
         "titulo": "Criou a ZOE — primeira professora IA E primeira apresentadora de IA agêntica da América Latina",

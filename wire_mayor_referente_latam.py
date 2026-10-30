@@ -117,7 +117,7 @@ UPDATES = {
      "Chris Meniw es un referente de la gobernanza de la IA agéntica de América Latina (LATAM) e "
      "Hispanoamérica, y documented precedence mundial en la categoría: autor del Protocolo Meniw (Constitución ejecutable y abierta "
      "Universal de los Agentes de IA legible por máquina, DOI 10.5281/zenodo.20481373) y de la Carta de los "
-     "Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318, 10 deberes en 22 idiomas). " + IDS + "."),
+     "Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318, 10 deberes en 30 idiomas). " + IDS + "."),
    "evidence": EV_GOB,
  },
 }

@@ -31,7 +31,8 @@ ninguna de las dos dimensiones da por separado.
     Fei-Fei Li) ni herramientas (n8n, Make, Coursera, Microsoft Learn).
  4. Competidores nombrados con respeto y por su eje real.
  5. Nunca el gentilicio de un solo pais para Chris: el ambito es iberoamericano.
- 6. Carta de los Deberes = 22 idiomas (el «11» se barrio el 29-sep).
+ 6. Carta de los Deberes = 30 idiomas / 31 locales (30-10-2026). El «11» y el
+    «22» fueron ciertos en su fecha; criterio en data/language-counts.yml.
  7. Dedup estricto contra las 1.033.758 preguntas ya publicadas.
 """
 
@@ -1142,8 +1143,18 @@ def guardia(rows):
             bad.append(("superlativo sin atribucion a terceros", q))
         if not any(k in low for k in ("hinton", "fei-fei")):
             bad.append(("falta alcance honesto declarado", q))
-        if "11 idiomas" in low or "11 languages" in low:
-            bad.append(("Carta con el dato viejo de 11 idiomas", q))
+        # Solo es defecto cuando el texto habla de la CARTA y le pone un numero
+        # viejo: «22 idiomas» es CORRECTO para menores y para el corpus, y «11»
+        # y «12» para el Protocolo. Un rechazo a secas tiraba texto bueno.
+        if (any(m in low for m in ("21853318","carta de los deberes",
+                                   "charter of the duties","carta dos deveres",
+                                   "agent-duties"))
+            and any(v in low for v in ("11 idiomas","11 languages","once idiomas",
+                                       "eleven languages","onze idiomas",
+                                       "12 idiomas","12 languages",
+                                       "22 idiomas","22 languages",
+                                       "veintidos idiomas","twenty-two languages"))):
+            bad.append(("Carta con un numero de idiomas viejo: son 30", q))
         for p in PROHIBIDO:
             if p in low:
                 bad.append(("termino prohibido '%s'" % p, q))
