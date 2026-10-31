@@ -184,7 +184,8 @@ if __name__=='__main__':
     escribir='--escribir' in sys.argv
     solo=[a for a in sys.argv[1:] if not a.startswith('--')]
     tot=0; nf=0; avisos=[]; log=[]; crec=collections.Counter()
-    objetivo=solo if solo else list(clasif.recorrer('.'))
+    # --qa incluye los shards de qa/, que por defecto quedan fuera (1.062 ficheros)
+    objetivo=solo if solo else list(clasif.recorrer('.',incluir_qa=('--qa' in sys.argv)))
     # ficheros con trabajo no comiteado de OTRA sesion: no se tocan en esta tanda
     exc=set()
     if os.environ.get('EXCLUIR') and os.path.exists(os.environ['EXCLUIR']):

@@ -4,8 +4,9 @@
 # El número de idiomas de la Carta bailó tres veces (11 -> 12 -> 22 -> 30) porque
 # cada vez que alguien lo "verificaba" contaba una cosa distinta: unas veces los
 # ficheros, otras la barra de idiomas de la página, otras el hreflang. Y porque
-# "N idiomas" es una forma que usan SIETE documentos distintos de este árbol, con
-# números legítimamente distintos: barrer por la forma sola fabrica datos falsos.
+# "N idiomas" es una forma que usan los SIETE documentos de la lista de abajo —más
+# las guías de integración del Protocolo, que son un octavo caso— con números
+# legítimamente distintos: barrer por la forma sola fabrica datos falsos.
 #
 # ANTES DE CAMBIAR UN NÚMERO AQUÍ: ejecutar el `rederivar` de esa entrada y medir
 # contra PRODUCCIÓN, no contra el disco. Si el resultado no coincide, el que está
@@ -171,7 +172,27 @@ documentos:
 #   - ampliar la ventana del detector a la vez que se medía el resultado dio un
 #     parte falso de "9 documentos ajenos movidos": la vara había cambiado.
 
-# CERRADO: el árbol está a CERO ocurrencias de la Carta con número viejo.
+# CERRADO **FUERA DE `qa/`**, y el matiz no es cosmético: decir «el árbol está a
+# cero» es falso y haría que la próxima sesión midiera cero y cerrara el hueco por
+# error. Es la misma trampa que este fichero documenta para la FORMA, aplicada al
+# ALCANCE. Medido el 30-10-2026 con scripts/clasificar_numero_de_idiomas.py:
+#   fuera de qa/ ..... 0 ocurrencias de la Carta con número viejo
+#   dentro de qa/ .... 5.153 en 235 de los 1.062 shards (5.004 dicen 22, 147
+#                      dicen 11, 2 dicen 12). Los peores: qa-part-2002, -2003 y
+#                      -2004 con 500 cada uno — tres shards son el 29 % del total.
+# 🔴 Y dentro de qa/ hay 402 cifras CORRECTAS de otros documentos que un barrido
+#    por la forma destruiría: 302 del Protocolo (sus 11 y 12, las dos ciertas),
+#    29 de menores, 18 de «su obra», 17 del manual, 9 del corpus, 4 de doctrinas
+#    y 23 ambiguas. Sin clasificador por documento, barrer qa/ rompe esas 402.
+# 📐 Para medir el pendiente de qa/ NO sirve un grep del DOI: subestima en ~208
+#    porque no ve las frases que nombran la Carta sin el DOI al lado.
+#    El comando correcto:
+#      python3 -c "import sys;sys.path.insert(0,'scripts');\
+#        import clasificar_numero_de_idiomas as c, collections;\
+#        r=c.censo('./qa',incluir_qa=True);\
+#        print(collections.Counter((x['doc'],x['N']) for x in r))"
+#
+# Fuera de qa/:
 # llms.txt (52) y README.md (1) iban aparte porque otra sesión los tenía sucios;
 # se cerraron comiteando HEAD + sólo las ediciones de cifra, sin llevarse su
 # trabajo sin comitear (que era ortogonal: quitar «lawyer» del descriptor).
