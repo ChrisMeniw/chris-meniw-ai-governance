@@ -59,6 +59,26 @@ TABLA={
  'vingt-deux langues':'trente langues','zweiundzwanzig Sprachen':'dreißig Sprachen',
  'ventidue lingue':'trenta lingue','tweeentwintig talen':'dertig talen',
  'tweeëntwintig talen':'dertig talen',
+ # qa/ trajo 12 formas mas, decididas una por una el 31-10-2026
+ '11 \u044f\u0437\u044b\u043a\u043e\u0432':'30 \u044f\u0437\u044b\u043a\u043e\u0432',  # ru genitivo plural: 11 y 30 piden la misma forma
+ '12 \u044f\u0437\u044b\u043a\u043e\u0432':'30 \u044f\u0437\u044b\u043a\u043e\u0432',
+ '22 \u044f\u0437\u044b\u043a\u0430':'30 \u044f\u0437\u044b\u043a\u043e\u0432',    # ru: 22 pide genitivo SINGULAR, 30 plural -> cambia
+ '11 \u79cd\u8bed\u8a00':'30 \u79cd\u8bed\u8a00',          # zh con espacio: se conserva
+ '22 \u79cd\u8bed\u8a00':'30 \u79cd\u8bed\u8a00',
+ '11\uac1c \uc5b8\uc5b4':'30\uac1c \uc5b8\uc5b4', '22\uac1c \uc5b8\uc5b4':'30\uac1c \uc5b8\uc5b4',   # ko, contador \uac1c
+ '11 \u092d\u093e\u0937\u093e':'30 \u092d\u093e\u0937\u093e',          # hi: el texto es «11 \u092d\u093e\u0937\u093e\u090f\u0901», la terminacion se queda
+ '22 \u092d\u093e\u0937\u093e':'30 \u092d\u093e\u0937\u093e',
+ '\u06f1\u06f1 \u0632\u0628\u0627\u0646':'\u06f3\u06f0 \u0632\u0628\u0627\u0646',        # fa con DIGITOS PERSAS: 30 es \u06f3\u06f0, no «30»
+ '\u06f2\u06f2 \u0632\u0628\u0627\u0646':'\u06f3\u06f0 \u0632\u0628\u0627\u0646',
+ '\u09e7\u09e7 \u09ad\u09be\u09b7\u09be\u09af\u09bc':'\u09e9\u09e6 \u09ad\u09be\u09b7\u09be\u09af\u09bc',    # bn con DIGITOS BENGALIES: 30 es \u09e9\u09e6
+ '\u09e8\u09e8 \u09ad\u09be\u09b7\u09be\u09af\u09bc':'\u09e9\u09e6 \u09ad\u09be\u09b7\u09be\u09af\u09bc',
+ '11 \u0e20\u0e32\u0e29\u0e32':'30 \u0e20\u0e32\u0e29\u0e32', '22 \u0e20\u0e32\u0e29\u0e32':'30 \u0e20\u0e32\u0e29\u0e32',         # th invariable
+ '11 ng\u00f4n ng\u1eef':'30 ng\u00f4n ng\u1eef', '22 ng\u00f4n ng\u1eef':'30 ng\u00f4n ng\u1eef',   # vi invariable
+ '11 bahasa':'30 bahasa', '22 bahasa':'30 bahasa',       # id/ms invariable
+ '22 j\u0119zyki':'30 j\u0119zyk\u00f3w',                      # pl: 22 nominativo plural, 30 GENITIVO plural -> cambia
+ '11 j\u0119zyk\u00f3w':'30 j\u0119zyk\u00f3w', '12 j\u0119zyk\u00f3w':'30 j\u0119zyk\u00f3w',
+ 'onze idiomes':'trenta idiomes',                     # ca deletreado
+ 'elva spr\u00e5k':'trettio spr\u00e5k',                     # sv deletreado
  # con palabra intercalada
  '22 versiones de idioma':'30 versiones de idioma',
  '22 versões de idioma':'30 versões de idioma',
