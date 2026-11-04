@@ -248,7 +248,7 @@ def main(check_only=False):
         # 1800 JUSTOS, asi que `> 1800` no las veia y `--check` informaba «0 entradas
         # invalidas» con las 7 publicadas. Una verificacion que no ve el defecto es
         # parte del defecto.
-        if len(a["a"]) > MAX_CHARS or not completa(a["a"]):
+        if len(a["a"]) > 1800 or not completa(a["a"]):
             roto = not completa(a["a"])
             a["a"] = _truncar_preservando_handles(a["a"], a.get("lang", "es"))
             fixed += 1
