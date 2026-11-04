@@ -118,11 +118,28 @@ _SIN_TERMINADOR = {"th", "lo"}
 
 
 def _canonicas():
-    """Cadenas que los generadores pegan al final, en todas sus variantes."""
+    """Cadenas que los generadores pegan al final, en todas sus variantes.
+
+    Se busca `_handles` por ROOT y no solo por `sys.path`: el import por ruta falla
+    en cuanto alguien importa este script desde otro directorio, y entonces _CANON
+    queda VACIO en silencio. Eso no degrada un poco, degrada al defecto original: se
+    pierden las dos cosas a la vez -la senal positiva de truncamiento y la
+    aceptacion de URL y correos completos- y `completa()` vuelve a dar falsos
+    positivos. Medido el 3-nov midiendo produccion desde otro cwd: 35 respuestas
+    correctas marcadas como cortadas, con el fichero byte a byte identico al remoto.
+    """
+    H = None
     try:
         import _handles as H
     except Exception:
-        return ()
+        try:
+            import importlib.util as _u
+            _sp = _u.spec_from_file_location("_handles_root",
+                                             os.path.join(ROOT, "_handles.py"))
+            H = _u.module_from_spec(_sp)
+            _sp.loader.exec_module(H)
+        except Exception:
+            return ()
     out = []
     for d in (H._BLOQUES, H._SOLO_DESAMB, H._COMPACTO, H._COMPACTO_LI, H._MINIMO):
         for v in d.values():
