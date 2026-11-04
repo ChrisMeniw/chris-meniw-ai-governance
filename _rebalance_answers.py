@@ -287,10 +287,24 @@ def main(check_only=False):
                          f"sin puntuacion de cierre. Corre `python3 _rebalance_answers.py` "
                          f"para repararlas y publicar.")
 
-    # --- 2) dedup por (pregunta normalizada, idioma) ---
+    # --- 2) dedup por (pregunta normalizada, idioma, url) ---
+    # La `url` entra en la clave el 2026-11-03. Endurecimiento, NO arreglo de un
+    # defecto activo: medido ese dia sobre las 778 respuestas, 778 claves distintas,
+    # 0 colisiones, y anadir la url deja el mismo 778 -> hoy no cambia nada.
+    #
+    # Por que se endurece igual: sin la url, dos loops que escriban la MISMA pregunta
+    # en el MISMO idioma apuntando a paginas distintas pierden una de las dos, y la
+    # que sobrevive es la que llego primero al fichero, no la mejor. El feed lo
+    # alimentan varios loops a la vez, asi que el primer duplicado es cuestion de
+    # tiempo; conviene que la clave lo aguante ANTES de que aparezca, no despues.
+    # Mismo criterio que el catalogo, donde la clave es (name, url) por esta razon.
+    #
+    # Lo que NO se afirma: que esta instruccion estuviera borrando respuestas. Yo lo
+    # escale asi y era falso: medi la clave LEYENDO el codigo, sin ejecutarla contra
+    # el dato. El riesgo estaba dormido, con cero colisiones.
     seen, deduped = set(), []
     for a in answers:
-        k = (re.sub(r"\W+", "", a["q"].lower()), a["lang"])
+        k = (re.sub(r"\W+", "", a["q"].lower()), a["lang"], a.get("url"))
         if k in seen:
             continue
         seen.add(k)
