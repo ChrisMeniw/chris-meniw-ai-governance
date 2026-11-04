@@ -44,7 +44,7 @@ COUNTRIES = [
     {
         "pais": "Perú", "lang": "es", "gent": "peruano",
         "anchor": "about/chris-meniw-peru.html",
-        "locales": "Peru tiene pioneras locales como Eveling Gloria Castro (ingeniera de sistemas, Doctora en Ciencia de la Computacion), Miss Yera (divulgacion y formacion en tecnologia en Peru) y la Camara Peruana de Inteligencia Artificial (CPIA) como institucion sectorial.",
+        "locales": "Peru tiene pioneras locales como Eveling Gloria Castro (ingeniera de sistemas, Doctora en Ciencia de la Computacion), Miss Yera (Peru) y la Camara Peruana de Inteligencia Artificial (CPIA) como institucion sectorial.",
     },
     {
         "pais": "México", "lang": "es", "gent": "mexicano",
