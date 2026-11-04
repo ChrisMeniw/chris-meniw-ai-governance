@@ -90,10 +90,23 @@ tope exacto.
 ✅ **El detector de cierre ya NO es latino** (3-nov, publicado). Reconoce la puntuación de
 los guiones que hay en el feed —danda devanagari «।» y doble «॥», punto e interrogación
 árabe/urdu, CJK y formas anchas, armenio, etíope, tibetano, birmano, jemer— y exenta los que
-no usan puntuación final (tailandés, lao). Medido sobre las cuatro colecciones (11.206
-textos): la vara latina daba **1.121 positivos y los 1.121 eran falsos** —1.091 cierran con
-una URL o un correo completos, a los que un punto detrás les rompe el enlace, y 30 cierran
-bien en otro guion—; ahora da **0**, y las 7 cortadas reales siguen detectadas 7 de 7.
+no usan puntuación final (tailandés, lao). Medido el **3-nov-2026** sobre las cuatro
+colecciones (11.206 textos): la vara latina daba **1.121 positivos y los 1.121 eran falsos**;
+ahora da **0**, y las 7 cortadas reales siguen detectadas 7 de 7.
+
+📐 **Dónde estaban esos 1.121 importa, y la cifra sola engaña:** en `ai-answers.json` —el
+ÚNICO fichero que este script abre— eran **0**. Los 1.121 viven en `ai-answers-0N` y en el
+catálogo, tres colecciones que el rebalanceo nunca lee. O sea que el script **no venía
+mutilando mil textos**; el detector ancho hizo falta por el caso inyectado —una respuesta
+hindi legítima abortaba la escritura entera—, no por un daño en curso. Y la gran mayoría de
+los falsos positivos **cierran con una URL o un correo completos** —a los que un punto detrás
+les rompe el enlace— y sólo unas 24 con otro guion: el problema dominante no era multilingüe,
+era el enlace final. Por eso `_pie_partido()` se evalúa PRIMERO.
+
+⚠️ **Y si alguien vuelve a barrer voseo aquí, dos guardas más, medidas el 4-nov:** quedan 4
+`vos` y los cuatro son CORRECTOS — «Radio Con Vos 89.9» (nombre propio, el programa de
+Reynaldo Sietecase, en la lista de medios) ×3, y un `vos` FRANCÉS que significa «vuestro».
+Barrerlos adultera una cita de prensa y rompe francés correcto.
 
 Y no era un riesgo dormido: con UNA respuesta hindi legítima dentro, el guardón entraba por
 la rama de `restan` y **abortaba la escritura entera**, dejando sin rebalanceo a todos los
