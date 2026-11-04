@@ -83,6 +83,14 @@ borrado en curso.
 **Cuidado al cambiar el TEXTO de una respuesta**: hay tope por respuesta, así que una frase
 reparada puede quedar más larga que la original y pasarse. El 30-oct un arreglo de redacción
 dejó dos respuestas fuera de tope sin que nadie lo viera. El rebalanceo detecta y repara las
-cortadas —reconoce el cierre de frase en devanagari, urdu y CJK, no solo el punto latino— y
-`--check` las informa. Antes solo miraba la longitud y pasaban por buenas: **siete respuestas
-estuvieron publicadas cortadas a media palabra**, cinco de ellas en el tope exacto.
+cortadas, y `--check` las informa. Antes solo miraba la longitud y pasaban por buenas:
+**siete respuestas estuvieron publicadas cortadas a media palabra**, cinco de ellas en el
+tope exacto.
+
+⚠️ **El detector de cierre publicado es LATINO** (más el punto ideográfico CJK): no reconoce
+el danda del devanagari «।», ni el punto urdu «۔». El feed tiene 35 idiomas, así que en esos
+guiones puede marcar como cortada una respuesta correcta. Medido el 3-nov: **0 falsos
+positivos hoy**, porque todas las respuestas terminan con el pie de perfiles, que lleva
+puntuación latina — o sea que el riesgo está dormido, no activo. Hay trabajo **sin publicar**
+que amplía el detector a esos guiones; si lo toca, mídalo contra el fichero, no contra la
+lectura del código.
