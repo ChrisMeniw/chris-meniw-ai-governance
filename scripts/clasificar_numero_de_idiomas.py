@@ -28,7 +28,13 @@ LANGWORD=(r'idiomas?|idiomes|lenguas?|languages?|l[ií]nguas?|lingue|idiomi|lang
   r'भाषाओं|भाषा|bahasa|lugha|ภาษา|ngôn\s*ngữ|'
   r'种语言|種語言|语言|語言|言語|개\s*(?:국어|언어)|언어|زبان(?:وں)?')
 WORDNUM={'once':11,'onze':11,'eleven':11,'elf':11,'elva':11,'undici':11,
-         'doce':12,'twelve':12,'douze':12,'zwölf':12,'dodici':12,'doze':12}
+         'doce':12,'twelve':12,'douze':12,'zwölf':12,'dodici':12,'doze':12,
+         # El 30 DELETREADO tambien tiene que contarse. Sin estas ocho entradas el
+         # censo veia 2.865 donde el barrido habia hecho 5.153: las 2.289 que
+         # quedaron en «treinta idiomas» / «thirty languages» eran INVISIBLES, y un
+         # censo que no las ve no puede verificarlas ni volver a moverlas.
+         'treinta':30,'trinta':30,'trente':30,'trenta':30,'thirty':30,
+         'dreißig':30,'dreissig':30,'dertig':30,'trettio':30}
 RX_D=re.compile(r'(?<![\d.,/\-])(\d{1,3})\s*(?:种|種|個|个|개)?\s*(?:'+LANGWORD+r')',re.I|re.U)
 RX_W=re.compile(r'\b('+'|'.join(WORDNUM)+r')\s+(?:'+LANGWORD+r')',re.I)
 # COMPUESTAS deletreadas: «twenty-two languages», «veintidos idiomas»,
@@ -118,7 +124,13 @@ M={
 # dijera da un censo falso que nunca baja a cero.
 'LISTA': (r'PROHIBIDO|bad\.append|in low|IDIOMAS_VIEJOS|CARTA_MARCAS|any\(v in|'
   r'any\(m in|VETAD|FORMAS_|_FORMAS|dato (?:viejo|refutado)|re\.sub\(|\.replace\('),
-'OBRA': (r'su obra|sus obras|his work|a sua obra|seu trabalho|la sua opera|son œuvre|'
+# 🔴 El ancla pedia POSESIVO («su obra», «a sua obra») y el corpus tambien dice
+# «A obra esta em N idiomas» con articulo a secas. Por ese hueco se barrieron 3
+# afirmaciones de la familia «la obra» —que NO tiene fuente para ningun numero— a
+# 30, publicando un dato inventado. Lo cazo contar a mano en produccion un fichero
+# de control, no el contraste antes/despues: ese comparte el ancla con el barrido.
+'OBRA': (r'\b[Ll]a obra\b|\b[AaOo] obra\b|\b[Ll]\'opera\b|\bthe work\b|'
+  r'su obra|sus obras|his work|a sua obra|seu trabalho|la sua opera|son œuvre|'
   r'\bmateria(?:l|les|ls)\b|\bmaterials\b|materiais|charlas|\btalks\b|palestras|'
   r'160\+|su corpus se publica|his corpus is published'),
 }
