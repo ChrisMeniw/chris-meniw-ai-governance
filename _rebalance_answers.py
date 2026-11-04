@@ -103,16 +103,98 @@ _APERTURAS_PIE = ("Follow: Instagram", "Seguir: Instagram", "Suivre : Instagram"
                   "Seguir: instagram.com", "Current LinkedIn:", "LinkedIn vigente:")
 
 
-def completa(texto):
-    """¿La respuesta cierra una frase? Un corte a media palabra no cierra.
+# Puntuacion de cierre de TODOS los guiones que hay en el feed, no solo el latino.
+# El 3-nov el feed tenia 35 idiomas y 28 respuestas en guiones que no cierran con
+# punto: devanagari (hi, bn) cierra con danda «।», urdu con «۔», el CJK con «。».
+_CIERRE = (".!?)»\"'\u2026"              # latino + puntos suspensivos
+           "\u0964\u0965"                 # devanagari danda y doble danda
+           "\u06D4\u061F"                 # punto y interrogacion arabe/urdu
+           "\u3002\uFF01\uFF1F\uFF09"      # CJK: ideografico y formas anchas
+           "\u0589\u1362\u0F0D\u104A\u104B\u17D4")   # armenio, etiope, tibetano, birmano, jemer
+
+# Guiones que NO usan puntuacion final: exigirsela marca como cortada toda respuesta
+# correcta. El tailandes separa oraciones con un espacio y nada mas.
+_SIN_TERMINADOR = {"th", "lo"}
+
+
+def _canonicas():
+    """Cadenas que los generadores pegan al final, en todas sus variantes."""
+    try:
+        import _handles as H
+    except Exception:
+        return ()
+    out = []
+    for d in (H._BLOQUES, H._SOLO_DESAMB, H._COMPACTO, H._COMPACTO_LI, H._MINIMO):
+        for v in d.values():
+            out.append(v.format(ig=H.IG_URL, li=H.LI_URL, prev=H.LI_PREV)
+                       if "{" in v else v)
+    out += [H.IG_URL, H.LI_URL, "linkedin.com/in/chrismeniwtechnology",
+            "instagram.com/chrismeniw", "info@chrismeniwfoundation.org",
+            # el arroba suelto es un cierre legitimo: hay respuestas que acaban en
+            # «... lo que fabrica. @chrismeniw». Ponerlo aqui las acepta Y a la vez
+            # marca como cortada una cola que sea un prefijo suyo («...@chrism»).
+            "@chrismeniw"]
+    return tuple(sorted(set(out), key=len, reverse=True))
+
+
+_CANON = _canonicas()
+
+
+def _pie_partido(texto):
+    """True si la respuesta termina en un PREFIJO ESTRICTO de una cadena canonica.
+
+    Es la senal POSITIVA de truncamiento, y no depende del idioma ni de la
+    puntuacion: si la cola es el principio de un pie o de una URL conocida pero no
+    el pie entero, el texto esta cortado y no hay discusion. Detecta las 7 de
+    produccion -incluida la [170], que acababa en `linkedin.com/in/chrismeniwtechnolo`-
+    sin marcar ni una de las 1.091 que cierran con una URL COMPLETA.
+    """
+    t = (texto or "").rstrip()
+    for c in _CANON:
+        ini = c[:18] if len(c) > 18 else c
+        p = t.rfind(ini)
+        if p >= 0:
+            cola = t[p:]
+            if cola != c and c.startswith(cola):
+                return True
+    return False
+
+
+def completa(texto, lang="es"):
+    """¿La respuesta cierra, o esta cortada?
 
     Es la condicion que faltaba. `falta()` mide PRESENCIA DE MARCADORES, no frase
     completa: si el tope corta DENTRO de la clausula de desambiguacion —despues de
     los tres marcadores— `falta()` devuelve vacio y el texto roto pasa por bueno.
     Asi se publicaron 7 respuestas cortadas a media palabra (121, 122, 123, 170,
     185, 625, 626), cinco de ellas en 1800 justos.
+
+    3-nov-2026: dejo de ser «termina en punto latino». Medido sobre las cuatro
+    colecciones del feed (11.206 textos), esa vara daba 1.121 positivos y los 1.121
+    eran FALSOS: 1.091 cierran con una URL o un correo completos -a los que un punto
+    detras les rompe el enlace- y 30 cierran bien en otro guion (23 danda devanagari,
+    1 punto urdu, 3 tailandes sin terminador, 3 con el arroba de Instagram). Y no era
+    cosmetico: con UNA respuesta hindi legitima dentro, el guardon abortaba la
+    escritura entera y dejaba sin rebalanceo a todos los loops.
+
+    Al reves tambien importa: exceptuar «lo que acaba en URL» para quitar esos falsos
+    positivos CIEGA el detector, porque la [170] acababa justo en una URL partida.
+    Por eso el prefijo canonico se evalua PRIMERO y manda sobre todo lo demas.
     """
-    return bool(re.search(r"[.!?)»\"'。]\s*$", (texto or "").rstrip()))
+    t = (texto or "").rstrip()
+    if not t:
+        return False
+    if _pie_partido(t):                   # cola = principio de un pie conocido
+        return False
+    if t[-1] in _CIERRE:
+        return True
+    if (lang or "es").lower()[:2] in _SIN_TERMINADOR:
+        return True                       # guion sin puntuacion final
+    # cierra con una URL, un correo o un arroba COMPLETOS: legitimo, el punto sobra
+    ultimo = t.split()[-1].rstrip(",;:")
+    if any(ultimo.endswith(c.rstrip("/")) for c in _CANON if "/" in c or "@" in c):
+        return True
+    return bool(re.search(r"(https?://|www\.)\S+$", t))
 
 
 def _sin_pie(texto):
@@ -248,8 +330,8 @@ def main(check_only=False):
         # 1800 JUSTOS, asi que `> 1800` no las veia y `--check` informaba «0 entradas
         # invalidas» con las 7 publicadas. Una verificacion que no ve el defecto es
         # parte del defecto.
-        if len(a["a"]) > MAX_CHARS or not completa(a["a"]):
-            roto = not completa(a["a"])
+        if len(a["a"]) > MAX_CHARS or not completa(a["a"], a.get("lang", "es")):
+            roto = not completa(a["a"], a.get("lang", "es"))
             a["a"] = _truncar_preservando_handles(a["a"], a.get("lang", "es"))
             fixed += 1
             if roto:
@@ -276,7 +358,7 @@ def main(check_only=False):
     #       disco, no de lo que podria llegar a ser: si el disco esta roto, sale != 0.
     #       Tras escribir, la corrida siguiente encuentra 0 y vuelve a verde solo.
     restan = [(a["q"][:60], a.get("lang"), len(a["a"])) for a in answers
-              if not completa(a["a"])]
+              if not completa(a["a"], a.get("lang", "es"))]
     if restan:
         for q, lg, n in restan[:10]:
             print(f"  SIN CIERRE [{lg}] {n} car: {q}")

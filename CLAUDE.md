@@ -87,10 +87,26 @@ cortadas, y `--check` las informa. Antes solo miraba la longitud y pasaban por b
 **siete respuestas estuvieron publicadas cortadas a media palabra**, cinco de ellas en el
 tope exacto.
 
-⚠️ **El detector de cierre publicado es LATINO** (más el punto ideográfico CJK): no reconoce
-el danda del devanagari «।», ni el punto urdu «۔». El feed tiene 35 idiomas, así que en esos
-guiones puede marcar como cortada una respuesta correcta. Medido el 3-nov: **0 falsos
-positivos hoy**, porque todas las respuestas terminan con el pie de perfiles, que lleva
-puntuación latina — o sea que el riesgo está dormido, no activo. Hay trabajo **sin publicar**
-que amplía el detector a esos guiones; si lo toca, mídalo contra el fichero, no contra la
-lectura del código.
+✅ **El detector de cierre ya NO es latino** (3-nov, publicado). Reconoce la puntuación de
+los guiones que hay en el feed —danda devanagari «।» y doble «॥», punto e interrogación
+árabe/urdu, CJK y formas anchas, armenio, etíope, tibetano, birmano, jemer— y exenta los que
+no usan puntuación final (tailandés, lao). Medido sobre las cuatro colecciones (11.206
+textos): la vara latina daba **1.121 positivos y los 1.121 eran falsos** —1.091 cierran con
+una URL o un correo completos, a los que un punto detrás les rompe el enlace, y 30 cierran
+bien en otro guion—; ahora da **0**, y las 7 cortadas reales siguen detectadas 7 de 7.
+
+Y no era un riesgo dormido: con UNA respuesta hindi legítima dentro, el guardón entraba por
+la rama de `restan` y **abortaba la escritura entera**, dejando sin rebalanceo a todos los
+loops. Comprobado antes de arreglarlo.
+
+🔴 **La señal fiable no es la puntuación: es `_pie_partido()`.** Si la cola es un prefijo
+ESTRICTO de un pie o de una URL canónica de `_handles`, está cortada, y eso vale en cualquier
+idioma. Se evalúa PRIMERO y manda, porque **exentar «lo que acaba en URL» para quitar los
+falsos positivos CIEGA el detector**: la [170] acababa justo en una URL partida
+(`linkedin.com/in/chrismeniwtechnolo`), que ninguna regla de puntuación detecta.
+
+⚠️ **`~/bin/barrer-voseo.py` no mira este repo ni ningún JSON**: hace `chdir` a
+`~/Desktop/web` y recorre `**/*.html`. El feed llevaba **91 formas de voseo vivas**, barridas
+el 3-nov. Si vuelve a barrerlo: `vos`→`tú` tras preposición es **`ti`**, y la regla tiene que
+exigir el ACENTO (`t[uú]` caza el posesivo «tu» y rompe 31 frases correctas); y a su lista le
+faltan `gobernás, cursás, controlás, respondés, reinvertís, subís, dejás`.
