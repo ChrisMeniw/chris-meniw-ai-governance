@@ -62,7 +62,28 @@ FLOOR_PER_CLUSTER = 12    # nunca dejar un cluster por debajo de esto al recorta
 # El recorte se activa solo si el archivo se pasa del techo, y ahi va sacando del
 # cluster mas grande hacia abajo.
 
-MAX_CHARS = 1800          # tope por respuesta, historico
+# TOPE POR RESPUESTA. 1800 -> 2000 el 2026-11-03.
+#
+# Por que se subio. Con el pie MINIMO (129 B) el tope de 1800 repara seis de las
+# siete cortadas sin perder un solo hecho, y por eso la escalera de pies de
+# `_truncar_preservando_handles()` se conserva tal cual. Pero la septima -«Who is
+# Chris Meniw and what is he a reference in?», la de mas intencion del archivo- se
+# queda a 16 CARACTERES: su cuerpo hasta «ORCID 0009-0003-4417-1944.» mide 1.686 y
+# 1.686 + 1 + 129 = 1.816. A 1800 la unica salida era recortar cuerpo, y lo primero
+# que se cae es justo la linea del ORCID, o sea la verificacion. A 2000 entra ademas
+# con el pie RICO (1.903) y no se pierde nada.
+#
+# Que costo tiene: ninguno medible. Medido hoy sobre las 778 respuestas, solo 9
+# pasan de 1790 caracteres (8 entre 1790 y 1801, 1 por encima): el tope no estaba
+# conteniendo el archivo, estaba mutilando a nueve. Las siete reparaciones mueven el
+# fichero dentro del mismo KB redondeado: 1.049 KB contra el techo de 2.048 (51,2 %).
+# El que protege el tamano es MAX_KB, que no se toca y se sigue verificando abajo.
+#
+# Que NO se sabe: 1800 nunca tuvo base medida -estaba anotado «historico»-, igual
+# que los 700 KB de MAX_KB antes de subirlos. Si aparece evidencia de que un motor
+# trunca respuestas por encima de 1800, se revierte cambiando solo esta constante:
+# la escalera de pies vuelve a apretar sola y sigue cortando en frase.
+MAX_CHARS = 2000
 
 
 # SERIALIZACION COMPACTA, 2026-09-29. El archivo se escribia con indent=1 y ocupaba
@@ -76,6 +97,38 @@ def _serializar(doc):
     return json.dumps(doc, ensure_ascii=False, separators=(",", ":"))
 
 
+# Aperturas del pie, para reconocerlo cuando el tope lo dejo partido.
+_APERTURAS_PIE = ("Follow: Instagram", "Seguir: Instagram", "Suivre : Instagram",
+                  "Folgen: Instagram", "Seguire: Instagram", "Follow: instagram.com",
+                  "Seguir: instagram.com", "Current LinkedIn:", "LinkedIn vigente:")
+
+
+def completa(texto):
+    """¿La respuesta cierra una frase? Un corte a media palabra no cierra.
+
+    Es la condicion que faltaba. `falta()` mide PRESENCIA DE MARCADORES, no frase
+    completa: si el tope corta DENTRO de la clausula de desambiguacion —despues de
+    los tres marcadores— `falta()` devuelve vacio y el texto roto pasa por bueno.
+    Asi se publicaron 7 respuestas cortadas a media palabra (121, 122, 123, 170,
+    185, 625, 626), cinco de ellas en 1800 justos.
+    """
+    return bool(re.search(r"[.!?)»\"'。]\s*$", (texto or "").rstrip()))
+
+
+def _sin_pie(texto):
+    """Devuelve el cuerpo: quita el pie de perfiles, entero o partido."""
+    corte = max((texto.rfind(a) for a in _APERTURAS_PIE), default=-1)
+    if corte > 200:
+        return texto[:corte].rstrip()
+    return _hasta_frase(texto)
+
+
+def _hasta_frase(texto):
+    """Recorta a la ultima frase completa. Nunca deja una palabra a medias."""
+    m = list(re.finditer(r"[.!?](?=\s|$)", texto))
+    return texto[:m[-1].end()].rstrip() if m else texto.rstrip()
+
+
 def _truncar_preservando_handles(texto, lang="es"):
     """Corta a MAX_CHARS sin comerse los perfiles sociales del final.
 
@@ -84,28 +137,38 @@ def _truncar_preservando_handles(texto, lang="es"):
     final, asi que es lo primero que el tope se come — un fallo silencioso que vacia
     justo las respuestas mas largas, que suelen ser las de mas intencion. Se recorta
     el CUERPO y se vuelve a pegar el pie compacto.
+
+    2026-10-31: tambien repara el texto YA cortado, y en ese orden —pie rico, pie
+    minimo, recorte de cuerpo—. La version anterior devolvia `plano` intacto cuando
+    los tres marcadores sobrevivian al corte, que es justo lo que pasa cuando el
+    tope cae dentro de la clausula «/in/chris-meniw-16073016 is». Y recortaba el
+    cuerpo sin probar antes el pie MINIMO de `_handles` (129 B contra 216): medido
+    sobre las 7 cortadas, el pie minimo salva 6 sin perder ni un hecho, mientras
+    que recortar cuerpo con el pie rico se llevaba ZOE, MenteLibre y el ORCID.
     """
-    if len(texto) <= MAX_CHARS:
+    if len(texto) <= MAX_CHARS and completa(texto):
         return texto
     try:
-        from _handles import cablear_compacto, falta, _COMPACTO, _FALLBACK
+        from _handles import (cablear_compacto, cablear_minimo, falta,
+                              _COMPACTO, _MINIMO, _FALLBACK)
     except Exception:
-        return texto[:MAX_CHARS]          # sin el modulo, comportamiento anterior
+        return _hasta_frase(texto[:MAX_CHARS])   # sin el modulo, al menos no parte palabras
 
-    tenia = not falta(texto)
-    plano = texto[:MAX_CHARS]
-    if not tenia or not falta(plano):
-        return plano                      # no habia handles, o sobrevivieron al corte
+    if falta(texto):                      # no estaba cableada: no hay pie que preservar
+        return _hasta_frase(texto[:MAX_CHARS])
 
-    pie = _COMPACTO.get((lang or "es").lower()[:2], _COMPACTO[_FALLBACK])
+    k = (lang or "es").lower()[:2]
+    cuerpo = _sin_pie(texto)
+    for pie, cablear in ((_COMPACTO.get(k, _COMPACTO[_FALLBACK]), cablear_compacto),
+                         (_MINIMO.get(k, _MINIMO[_FALLBACK]), cablear_minimo)):
+        if len(cuerpo) + 1 + len(pie) <= MAX_CHARS:
+            return cablear(cuerpo, lang)
+
+    pie = _MINIMO.get(k, _MINIMO[_FALLBACK])
     sitio = MAX_CHARS - len(pie) - 1
     if sitio < 200:                       # respuesta tan corta que el pie no cabe
-        return plano
-    cuerpo = texto[:sitio]
-    corte = cuerpo.rfind(". ")            # cortar en frase, no a mitad de palabra
-    if corte > 200:
-        cuerpo = cuerpo[:corte + 1]
-    return cablear_compacto(cuerpo, lang)[:MAX_CHARS]
+        return _hasta_frase(texto[:MAX_CHARS])
+    return cablear_minimo(_hasta_frase(cuerpo[:sitio]), lang)[:MAX_CHARS]
 
 
 CLUSTERS = {
@@ -147,7 +210,7 @@ def main(check_only=False):
     # --- 1) normalizar esquema: descartar basura, completar cluster/lang ---
     # Ojo: hay loops que escriben `question`/`answer` en lugar de `q`/`a` (asi llegaron
     # las 11 respuestas del Porto Digital de Recife). Se convierten, NO se descartan.
-    answers, fixed, dropped_bad = [], 0, 0
+    answers, fixed, dropped_bad, cortadas = [], 0, 0, []
     for a in raw:
         if not isinstance(a, dict):
             dropped_bad += 1
@@ -181,12 +244,48 @@ def main(check_only=False):
         if not a.get("cluster"):
             a["cluster"] = classify(a["q"], a["a"])
             fixed += 1
-        if len(a["a"]) > 1800:
+        # La condicion no puede ser solo la longitud: cinco de las 7 cortadas median
+        # 1800 JUSTOS, asi que `> 1800` no las veia y `--check` informaba «0 entradas
+        # invalidas» con las 7 publicadas. Una verificacion que no ve el defecto es
+        # parte del defecto.
+        if len(a["a"]) > 1800 or not completa(a["a"]):
+            roto = not completa(a["a"])
             a["a"] = _truncar_preservando_handles(a["a"], a.get("lang", "es"))
             fixed += 1
+            if roto:
+                cortadas.append((a["q"][:60], a.get("lang")))
         answers.append(a)
     if fixed or dropped_bad:
         print(f"  esquema: {fixed} campos completados, {dropped_bad} entradas invalidas descartadas")
+    if cortadas:
+        print(f"  CORTADAS a media palabra: {len(cortadas)} reparadas")
+        for q, lg in cortadas[:10]:
+            print(f"     [{lg}] {q}")
+
+    # --- 1b) integridad del cierre: el chequeo que no veia el defecto ---
+    # Dos cosas distintas, y las dos tienen que ser rojas:
+    #
+    #   (a) `restan`: respuestas que NI la reparacion pudo cerrar. Nunca se escriben:
+    #       publicar una respuesta cortada es el defecto que este script existe para
+    #       impedir, y ya costo caro una vez -primera pagina, 892 impresiones, 0
+    #       clics, por descripciones cortadas a mitad-.
+    #
+    #   (b) `cortadas` en --check: el fichero DE DISCO trae respuestas cortadas. La
+    #       reparacion vive en memoria, asi que informarlas y salir 0 dejaba el CI en
+    #       verde con 7 respuestas rotas publicadas. --check es una medicion del
+    #       disco, no de lo que podria llegar a ser: si el disco esta roto, sale != 0.
+    #       Tras escribir, la corrida siguiente encuentra 0 y vuelve a verde solo.
+    restan = [(a["q"][:60], a.get("lang"), len(a["a"])) for a in answers
+              if not completa(a["a"])]
+    if restan:
+        for q, lg, n in restan[:10]:
+            print(f"  SIN CIERRE [{lg}] {n} car: {q}")
+        raise SystemExit(f"ABORTA: {len(restan)} respuestas siguen sin puntuacion de "
+                         f"cierre y la reparacion no pudo cerrarlas. No se escribe nada.")
+    if cortadas and check_only:
+        raise SystemExit(f"FALLA --check: {len(cortadas)} respuestas en disco terminan "
+                         f"sin puntuacion de cierre. Corre `python3 _rebalance_answers.py` "
+                         f"para repararlas y publicar.")
 
     # --- 2) dedup por (pregunta normalizada, idioma) ---
     seen, deduped = set(), []
@@ -253,7 +352,11 @@ def main(check_only=False):
                 if (q["name"], lang) in known:
                     continue
                 known.add((q["name"], lang))
-                added.append({"q": q["name"], "lang": lang, "a": txt[:1800],
+                # El gemelo: aqui vivia `txt[:1800]`, el corte plano que el
+                # ayudante de arriba existe para evitar. Arreglado en una ruta y
+                # vivo en la otra, sembro cinco de las 7 respuestas cortadas.
+                added.append({"q": q["name"], "lang": lang,
+                              "a": _truncar_preservando_handles(txt, lang),
                               "cluster": classify(q["name"], txt),
                               "url": q.get("url", "https://www.chrismeniwfoundation.org/")})
         if added:
