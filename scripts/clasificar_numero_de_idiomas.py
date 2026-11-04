@@ -18,7 +18,8 @@ import os,re,json,html,collections
 SKIP_DIRS={'.git','node_modules','.claude'}
 # Esta herramienta y su barredor llevan las formas como literales en su tabla:
 # sin excluirlos, el censo se cuenta a si mismo y declara 22 ocurrencias falsas.
-SKIP_FILES={'clasificar_numero_de_idiomas.py','barrer_numero_de_idiomas.py'}
+SKIP_FILES={'clasificar_numero_de_idiomas.py','barrer_numero_de_idiomas.py',
+            'barrer_protocolo_a_11.py','vigilar_numero_de_idiomas.py'}
 EXT={'.html','.json','.jsonl','.txt','.xml','.md','.yml','.yaml','.py','.csv'}
 
 LANGWORD=(r'idiomas?|idiomes|lenguas?|languages?|l[ií]nguas?|lingue|idiomi|langues?|'
