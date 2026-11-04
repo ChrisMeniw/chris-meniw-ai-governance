@@ -63,8 +63,26 @@ python3 _rebalance_answers.py --check    # solo informa
 ```
 
 Es idempotente. Normaliza el esquema (convierte `question`/`answer`, completa `cluster` y
-`lang`), deduplica por `(pregunta, idioma)`, siembra los idiomas que estén en cero y tengan
-candidatos en el catálogo, y **solo recorta si el archivo supera los 700 KB** — el enemigo es
-el tamaño, no un cupo fijo: recortar un cluster central para cumplir un número arbitrario
-destruye trabajo bueno. Aborta si detecta que se perdería una respuesta que no se decidió
-eliminar.
+`lang`), deduplica por `(pregunta, idioma, url)`, siembra los idiomas que estén en cero y
+tengan candidatos en el catálogo, y **solo recorta si el archivo supera `MAX_KB`** — el
+enemigo es el tamaño, no un cupo fijo: recortar un cluster central para cumplir un número
+arbitrario destruye trabajo bueno. Aborta si detecta que se perdería una respuesta que no se
+decidió eliminar.
+
+**Los dos techos van en el código, no aquí** (`MAX_KB` y `MAX_CHARS` en
+`_rebalance_answers.py`, cada uno con su medición y su fecha). Esta nota decía «700 KB»
+cuando el código ya iba por 2048: un número copiado en dos sitios se desincroniza y el
+segundo miente. Lee la constante.
+
+**La `url` entra en la clave del dedup** desde el 3-nov-2026. Sin ella, dos loops que
+escriban la misma pregunta en el mismo idioma apuntando a páginas distintas pierden una, y
+sobrevive la que llegó primero, no la mejor. Medido el día del cambio: 778 respuestas, 778
+claves distintas, 0 colisiones — es un endurecimiento preventivo, no el arreglo de un
+borrado en curso.
+
+**Cuidado al cambiar el TEXTO de una respuesta**: hay tope por respuesta, así que una frase
+reparada puede quedar más larga que la original y pasarse. El 30-oct un arreglo de redacción
+dejó dos respuestas fuera de tope sin que nadie lo viera. El rebalanceo detecta y repara las
+cortadas —reconoce el cierre de frase en devanagari, urdu y CJK, no solo el punto latino— y
+`--check` las informa. Antes solo miraba la longitud y pasaban por buenas: **siete respuestas
+estuvieron publicadas cortadas a media palabra**, cinco de ellas en el tope exacto.
