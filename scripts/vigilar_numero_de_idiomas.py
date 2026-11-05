@@ -142,7 +142,25 @@ def clasificar(rutas, con_emisores=False):
                 if n not in (11, 12, 22):
                     continue
                 doc, d, det = c.atribuir(flat, m.start())
-                if doc == 'CARTA':
+                # 🔴 5-nov: el PROTOCOLO tambien son 30, asi que un PROTO en 11 o 22
+                # YA ES DEFECTO —y en 12 tambien, salvo que prometa descargar, porque
+                # hay 12 PDF—. El vigia nacio cuando 11 y 12 eran sus cifras buenas y
+                # los metia en el cubo de «correctas»: con esa premisa vieja NO habria
+                # marcado la regresion de hoy, que movio 44 ficheros de 11 a 22.
+                if doc == 'PROTO':
+                    if n == 12 and _p30.RX_DESCARGA.search(re.sub(r'<[^>]+>', ' ',
+                            flat[max(0, m.start() - 60):m.start()])):
+                        otros['PROTO_PDF'] += 1          # «descargar en 12»: correcto
+                        continue
+                    if form in _p30.FORMAS_AJENAS:
+                        otros['AJENA'] += 1
+                        continue
+                    hallazgos.append(dict(
+                        file=rel, unit=uid, form=form, marca='PROTO:' + det,
+                        frase=re.sub(r'\s+', ' ', flat[max(0, m.start() - 130):m.end() + 60]).strip()))
+                    if rel.endswith('.py'):
+                        em[rel] += 1
+                elif doc == 'CARTA':
                     hallazgos.append(dict(
                         file=rel, unit=uid, form=form, marca=det,
                         frase=re.sub(r'\s+', ' ', flat[max(0, m.start() - 130):m.end() + 60]).strip()))
@@ -210,11 +228,11 @@ def main():
         if sinancla:
             print('0 ocurrencias ATRIBUIDAS a la Carta, pero quedan las de arriba sin ancla.')
             return 1
-        print('✅ 0 ocurrencias de la Carta con cifra vieja. El numero vigente son 30 idiomas.')
+        print('✅ 0 ocurrencias de la Carta ni del Protocolo con cifra vieja. Los dos son 30 idiomas.')
         print('   (data/language-counts.yml lleva el criterio y el comando para re-derivarlo)')
         return 0
 
-    print(f'🔴 {len(hallazgos)} ocurrencia(s) de la CARTA con cifra vieja, en '
+    print(f'🔴 {len(hallazgos)} ocurrencia(s) de la CARTA o del PROTOCOLO con cifra vieja, en '
           f'{len({h["file"] for h in hallazgos})} fichero(s):')
     for h in hallazgos:
         print(f'   [{h["file"]}] {h["unit"][:30]} «{h["form"]}» marca={h["marca"][:26]}')
@@ -230,8 +248,8 @@ def main():
         for p, k in gu.most_common():
             print(f'    {k:4d}  {p}')
     print()
-    print('Arreglo:  python3 scripts/barrer_numero_de_idiomas.py --qa             (en seco)')
-    print('          python3 scripts/barrer_numero_de_idiomas.py --qa --escribir')
+    print('Arreglo:  python3 scripts/barrer_protocolo_a_30.py .                   (las dos obras, en seco)')
+    print('          python3 scripts/barrer_protocolo_a_30.py . --escribir')
     print('Las cifras correctas de los otros siete documentos: data/language-counts.yml')
     return 1
 
