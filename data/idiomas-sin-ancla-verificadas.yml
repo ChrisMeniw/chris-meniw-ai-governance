@@ -45,3 +45,19 @@ verificadas:
       frase no dice «Carta» ni «ocho deberes»: dice «the duties AI agents owe
       minors», que es la misma cosa escrita de otra manera.
     verificado: "2026-11-05"
+
+  - fichero: "README.md"
+    fragmento: "Descargar (11 idiomas + JSON)"
+    cifra: 11
+    documento: "Protocolo, pero descrito en un SITIO EXTERNO"
+    por_que: >-
+      CORRECTO, y cambiarlo a 30 seria prometer lo que el destino no entrega. La
+      fila apunta a meniw-protocol.netlify.app, que es un despliegue APARTE y no se
+      amplio cuando el Protocolo paso a 30 el 5-nov. Medido en el destino ese mismo
+      dia: dice "free download bundle: declaration + verificador 11 languages",
+      sirve 1 JSON, CERO PDF y declara 9 hreflang. Ademas rige la regla de no-deploy
+      en Netlify, asi que ese sitio no se puede actualizar ahora.
+      🔴 Si alguna vez se redespliega ese sitio con los 30, esta entrada CADUCA.
+    rederivar: >-
+      curl -sL https://meniw-protocol.netlify.app/ | grep -o "[0-9]* languages"
+    verificado: "2026-11-05"

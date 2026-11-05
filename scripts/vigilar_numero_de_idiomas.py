@@ -147,6 +147,10 @@ def clasificar(rutas, con_emisores=False):
                 # hay 12 PDF—. El vigia nacio cuando 11 y 12 eran sus cifras buenas y
                 # los metia en el cubo de «correctas»: con esa premisa vieja NO habria
                 # marcado la regresion de hoy, que movio 44 ficheros de 11 a 22.
+                if doc in ('PROTO', 'CARTA') and any(
+                        rel == vf and vfrag in flat for vf, vfrag in VERIF):
+                    otros['VERIFICADA'] += 1
+                    continue
                 if doc == 'PROTO':
                     if n == 12 and _p30.RX_DESCARGA.search(re.sub(r'<[^>]+>', ' ',
                             flat[max(0, m.start() - 60):m.start()])):
