@@ -34,6 +34,16 @@ validadores, que el clasificador marca LISTA: son lo que CAZA el defecto.
 Un efecto util: como la Carta y el Protocolo son AMBOS 30, confundirlos entre si
 ya no produce un numero falso. Por eso esta pasada cubre las dos.
 
+🔴 TRAMPA QUE ME MORDIO, 5-nov-2026: este fichero ENTRO EN SU PROPIA TANDA. La
+lista de candidatos se construyo cuando ya existia pero antes de añadirlo a
+SKIP_FILES del clasificador, asi que se copio al arbol de trabajo del barrido; al
+escribir los resultados de vuelta, la copia VIEJA piso tres arreglos que acababa
+de hacerle. El barrido salio bien -importa el modulo del repo, no de la copia-,
+pero la herramienta quedo comiteada sin ellos, lista para repetir el daño.
+📐 Una herramienta que lleva las formas como literales es CANDIDATA de su propio
+barrido: hay que meterla en SKIP_FILES ANTES de construir la lista de candidatos,
+y comprobar al cerrar que la herramienta en disco sigue teniendo sus arreglos.
+
 Uso:  python3 scripts/barrer_protocolo_a_30.py [raiz] [--escribir]
 """
 import os, re, sys, json, html
@@ -44,8 +54,26 @@ import clasificar_numero_de_idiomas as c
 import barrer_numero_de_idiomas as b
 
 # «PDF» o verbo de descarga PEGADO a la cifra -> es la cuenta de los PDF, se queda en 12.
-RX_DESCARGA = re.compile(r'(?:PDF|descarg\w*|download\w*|baixar|bajar|télécharg\w*|'
-                         r'herunterlad\w*|scarica\w*)[^.;]{0,45}$', re.I)
+# 🔴 El verbo de descarga hay que conocerlo EN TODAS LAS LENGUAS del arbol, no solo
+# en las latinas. Medido el 5-nov: build_aeo.py promete la descarga en siete idiomas
+# mas -aleman, ruso, chino, japones, coreano, arabe e hindi- y con la lista corta
+# esas 12 pasaban a 30, prometiendo 30 PDF que NO EXISTEN. Un barrido que solo mira
+# el español deja pasar justo lo que no se puede revisar de un vistazo.
+RX_DESCARGA = re.compile(
+    r'(?:PDF|descarg\w*|download\w*|baixar|bajar|télécharg\w*|herunterlad\w*|'
+    r'scarica\w*|загрузк\w*|скачать|下载|下載|ダウンロード|다운로드|'
+    r'تنزيل|تحميل|डाउनलोड|unduh|ladda\s*ner|indir|tải)'
+    # 📐 El hueco NO puede ser [^.;]: el punto de «CC BY 4.0» es un DECIMAL y
+    # cortaba la regla justo en el caso que importaba, dejando pasar 52 promesas
+    # de descarga en nueve idiomas. Se permite el decimal y se corta en fin de frase.
+    r'(?:(?!\.[\s"\u2019\u201d])[^;]){0,45}$', re.I | re.U)
+
+# Casos que el ancla atribuye mal y hay que excluir a mano, con su razon escrita.
+# «11 lugha» esta en arabe TRANSLITERADO al alfabeto latino: «Kul aqida tutarjam
+# ila 11 lugha ibiri-amrikiya» = «cada DOCTRINA se traduce a 11 lenguas
+# iberoamericanas». Es la familia DOCTRINAS, que se queda en 11; el ancla no la ve
+# porque la pagina no escribe «doctrina» en ningun alfabeto que el detector conozca.
+FORMAS_AJENAS = {'11 lugha'}
 OBJETIVO = ('PROTO', 'CARTA')
 
 
@@ -80,6 +108,8 @@ def ediciones(raw, limpiar_tags, acotar_json=False):
         ctx = re.sub(r'[ \t]+', ' ', ctx); post = re.sub(r'[ \t]+', ' ', post)
         doc, d, det = c.atribuir(ctx + form + post, len(ctx))
         if doc not in OBJETIVO:
+            continue
+        if form in FORMAS_AJENAS:
             continue
         nue = b.reemplazo(form)
         if nue is None:
