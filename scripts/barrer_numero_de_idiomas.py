@@ -28,6 +28,11 @@ sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 import clasificar_numero_de_idiomas as clasif
 
 TABLA={
+    # 12 deletreado: el arbol dice «traducido a doce idiomas» y «twelve languages»
+    'doce idiomas':'treinta idiomas','twelve languages':'thirty languages',
+    'douze langues':'trente langues','zwölf Sprachen':'dreißig Sprachen',
+    'dodici lingue':'trenta lingue','doze idiomas':'trinta idiomas',
+    'doze línguas':'trinta línguas','twaalf talen':'dertig talen',
  '22 idiomas':'30 idiomas', '11 idiomas':'30 idiomas', '12 idiomas':'30 idiomas',
  '22 languages':'30 languages','11 languages':'30 languages','12 languages':'30 languages',
  '22 lenguas':'30 lenguas', '11 lenguas':'30 lenguas',
@@ -91,6 +96,23 @@ def reemplazo(form):
     low=form[0].lower()+form[1:]
     if low in TABLA:
         r=TABLA[low]; return r[0].upper()+r[1:]
+    # El corpus editorial trae la forma PARTIDA POR UN SALTO DE LINEA
+    # («22\n      idiomas»): misma afirmacion, distinto espaciado. Se cambia SOLO
+    # el numeral y se conserva el espacio en blanco byte a byte, para no colapsar
+    # el salto y alterar el HTML. Sigue abortando si la palabra-idioma no se conoce.
+    m=re.match(r'^(\d{1,3})(\s+)(.*)$',form,re.S)
+    if m and m.group(2)!=' ':
+        # OJO: la guarda `!= ' '` no es cosmetica. Sin ella, una forma ya normalizada
+        # («12 idiomas desconocido») vuelve a entrar aqui con el MISMO texto y se
+        # recursiona hasta RecursionError —que el `except Exception` del bucle se
+        # TRAGA y salta el fichero en silencio— en vez de abortar con «FORMA SIN
+        # REGLA», que es el aviso que uno necesita ver.
+        num,blanco,resto=m.groups()
+        canon=reemplazo(f'{num} {resto}')
+        if canon:
+            c2=re.match(r'^(\d{1,3})\s+(.*)$',canon,re.S)
+            if c2 and c2.group(2)==resto:
+                return c2.group(1)+blanco+resto
     return None
 
 def sellado(p): return os.path.exists(p+'.ots')
@@ -212,7 +234,9 @@ if __name__=='__main__':
         exc={l.strip() for l in open(os.environ['EXCLUIR']) if l.strip()}
     if exc:
         antes=len(objetivo)
-        objetivo=[o for o in objetivo if o.lstrip('./') not in exc]
+        # OJO: lstrip('./') se come el punto de «.well-known» y metia un fichero
+        # SUCIO de otra sesion en la lista de libres. relpath respeta el punto.
+        objetivo=[o for o in objetivo if os.path.relpath(o,'.') not in exc]
         print(f'excluidos por colision con otra sesion: {antes-len(objetivo)} ficheros')
     for p in objetivo:
         if sellado(p): avisos.append(f'SELLADO (.ots al lado), no se toca: {p}'); continue

@@ -19,7 +19,8 @@ SKIP_DIRS={'.git','node_modules','.claude'}
 # Esta herramienta y su barredor llevan las formas como literales en su tabla:
 # sin excluirlos, el censo se cuenta a si mismo y declara 22 ocurrencias falsas.
 SKIP_FILES={'clasificar_numero_de_idiomas.py','barrer_numero_de_idiomas.py',
-            'barrer_protocolo_a_11.py','vigilar_numero_de_idiomas.py'}
+            'barrer_protocolo_a_11.py','vigilar_numero_de_idiomas.py',
+            'barrer_protocolo_a_30.py'}
 EXT={'.html','.json','.jsonl','.txt','.xml','.md','.yml','.yaml','.py','.csv'}
 
 LANGWORD=(r'idiomas?|idiomes|lenguas?|languages?|l[ií]nguas?|lingue|idiomi|langues?|'
@@ -91,7 +92,19 @@ M={
 # deberes) y la lista de keywords de la propia pagina de menores.
 # 📐 Una verificacion que usa el MISMO detector que el cambio no puede cazar el
 # punto ciego del detector. Hace falta una medicion independiente.
-'MENORES': (r'\bocho\b(?=[^.]{0,60}\bdeber)|\boito\b(?=[^.]{0,60}\bdever)|'
+# 5-nov: dos formas que el vigia saco como «sin ancla» y son de MENORES. Decirlo
+# asi es tan comun como decir «ocho deberes», y sin estas el aviso sale cada dia.
+# 🔴 Aqui solo caben formas donde «menores» es el OBJETO de los deberes, no un
+# item de una lista. El 5-nov añadi «deveres dos agentes ... menores» y volvio a
+# morder la trampa original: «deveres dos agentes autonomos (protecao de menores,
+# ausencia de enviesamentos, ...), publicada em 30 idiomas» es la CARTA —proteger
+# a menores es uno de SUS diez deberes— y quedaba leida como el documento derivado.
+# Contraejemplo guardado en la prueba de abajo.
+'MENORES': (r'deberes que un agente(?: de IA)? tiene con los menores|'
+  r'deveres que um agente(?: de IA)? tem com os menores|'
+  r'duties (?:that )?(?:an? )?AI agents? (?:owes?|owe) (?:to )?minors|'
+  r'duties AI agents owe minors|'
+  r'\bocho\b(?=[^.]{0,60}\bdeber)|\boito\b(?=[^.]{0,60}\bdever)|'
   r'\beight\b(?=[^.]{0,60}\bdut)|\(8\)\s|\(7\)[^.]{0,80}\(8\)|'
   r'interact[úu]a con (?:un )?menor|interagem? com (?:um )?menor|'
   r'interacts with a minor|duties minors children|menores IA|'
@@ -105,7 +118,11 @@ M={
   r'duties[-_]minors|agent-duties/menores|/menores|deberes[-_]menores|'
   r'deberes con menores|deveres com menores|duties toward minors|'
   r'agentes de IA con menores|agentes de IA com menores|agent duties toward minors'),
-'CORPUS': (r'\bshards?\b|qaCorpus|question-answer|Hugging Face|\bKaggle\b|'
+# La huella del CORPUS generado es su propia aritmetica: «22 languages x 8 roles
+# x 3 variants». Donde aparece esa multiplicacion, la cifra es la del corpus.
+'CORPUS': (r'languages?\s*[×x]\s*\d+|idiomas?\s*[×x]\s*\d+|'
+  r'[×x]\s*\d+\s*(?:question|pregunta|categor|role|variant)|'
+  r'\bshards?\b|qaCorpus|question-answer|Hugging Face|\bKaggle\b|'
   r'\bdataset\b|pares de preguntas|pregunta-respuesta|Q&A|corpus multiling|'
   r'multilingual Q|1\.0\d\d\.\d\d\d|1,0\d\d,\d\d\d|\bcorpus\b'),
 'MANUAL': (r'[Mm]anual [Gg]lobal de [Rr]ies?gos|manual de riesgos|[Mm]anual de [Rr]iscos|'
@@ -169,6 +186,19 @@ def html_units(s):
     b=re.sub(r'<style.*?</style>','',b,flags=re.S|re.I)
     b=re.sub(r'<(?:/p|/h[1-6]|/li|/div|/td|br\s*/?)\s*>','\n',b,flags=re.I)
     yield ('texto',html.unescape(re.sub(r'<[^>]+>',' ',b)))
+    # 🔴 El texto detageado NO contiene el content= de los `meta`, porque va DENTRO
+    # de la etiqueta y el detageo se la lleva entera. Y eso es justo lo que el motor
+    # MUESTRA. Medido el 5-nov-2026 en governanca-de-agentes...html: la misma frase
+    # estaba cuatro veces -meta description, og:description, twitter:description y
+    # el description del JSON-LD- y el censo contaba UNA. Cada uno va como unidad
+    # propia y SIN contexto inventado: sin ancla saldran AMBIGUO, que es lo correcto
+    # -se leen a mano-, pero al menos se VEN.
+    for tag in re.finditer(r'<meta\b[^>]*>',s,re.I|re.S):
+        at=dict((k.lower(),v) for k,v in re.findall(r'([A-Za-z:-]+)\s*=\s*"([^"]*)"',tag.group()))
+        cu=at.get('content')
+        if cu: yield (f"meta[{at.get('name') or at.get('property') or at.get('http-equiv') or '?'}]",html.unescape(cu))
+    t=re.search(r'<title[^>]*>(.*?)</title>',s,re.S|re.I)
+    if t: yield ('title',html.unescape(re.sub(r'<[^>]+>',' ',t.group(1))))
     for n,ld in enumerate(re.findall(r'<script type="application/ld\+json">(.*?)</script>',s,re.S|re.I)):
         try: o=json.loads(ld)
         except Exception: yield (f'jsonld#{n}!crudo',html.unescape(ld)); continue

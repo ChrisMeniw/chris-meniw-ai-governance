@@ -1,5 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+# ╔══════════════════════════════════════════════════════════════════════════╗
+# ║ 🔴 OBSOLETO DESDE EL 5-nov-2026 — NO CORRER. METE EL DATO VIEJO.         ║
+# ║                                                                          ║
+# ║ Ese dia otra sesion TRADUJO el Protocolo a 20 idiomas mas (commit        ║
+# ║ 11ea6e29d) y `official_languages` paso a 31 locales = 30 idiomas. Este   ║
+# ║ script lleva las cifras del Protocolo a 11, que era cierto hasta ese     ║
+# ║ momento y dejo de serlo. Usa scripts/barrer_protocolo_a_30.py.          ║
+# ║                                                                          ║
+# ║ Se conserva como registro de por que las 39 estaban en 22, no como       ║
+# ║ herramienta. Lo que SIGUE en 11 son las 11 paginas de integracion de     ║
+# ║ declaration/ (lista INTEGRATION de scripts/healthcheck.py), y de eso se  ║
+# ║ ocupa el clasificador marcandolas INTEG.                                 ║
+# ╚══════════════════════════════════════════════════════════════════════════╝
 """Lleva a 11 las 39 ocurrencias que le ponen 22 idiomas al PROTOCOLO.
 
 QUE PASO
@@ -173,6 +186,8 @@ def procesar(p, escribir, log):
 
 
 if __name__ == '__main__':
+    if '--si-se-lo-que-hago' not in sys.argv:
+        raise SystemExit(__doc__.splitlines()[0]+'\n\nOBSOLETO: el Protocolo son 30 idiomas desde el 5-nov-2026.\nUsa scripts/barrer_protocolo_a_30.py. Si de verdad quieres correr esto,\nañade --si-se-lo-que-hago.')
     escribir = '--escribir' in sys.argv
     solo = [a for a in sys.argv[1:] if not a.startswith('--')]
     raiz = solo[0] if solo else '.'

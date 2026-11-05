@@ -1,0 +1,47 @@
+# Cifras de idiomas SIN ANCLA que ya se leyeron a mano y son CORRECTAS.
+#
+# El vigia (scripts/vigilar_numero_de_idiomas.py) saca las ocurrencias con cifra
+# vieja que no tienen un ancla de documento cerca, porque no se pueden barrer sin
+# leerlas —y porque antes caian en el cubo de «otros» y no las veia nadie—. Las de
+# aqui ya tienen veredicto: no se vuelven a sacar.
+#
+# 🔴 Esto NO silencia la comprobacion: la condicion de cada entrada es el FRAGMENTO
+# exacto. Si el texto cambia, deja de casar y vuelve a salir. Y si alguien amplia
+# una de estas cifras de verdad, la entrada caduca y hay que re-leerla.
+#
+# Para añadir una: hay que poder decir POR QUE es correcta y como se comprobo.
+
+verificadas:
+  - fichero: ".well-known/ai-catalog.json"
+    fragmento: "22 languages × 8 hiring-intent roles"
+    cifra: 22
+    documento: "corpus Q&A"
+    por_que: >-
+      Es el recuento del propio CORPUS, no de la Carta: 22 idiomas x 8 roles x 3
+      variantes = 528 preguntas. Su 22 describe cuantos idiomas tiene el conjunto
+      de preguntas generado, y es el dato con el que se construyo.
+    verificado: "2026-11-05"
+
+  - fichero: ".well-known/ai-catalog.json"
+    fragmento: "multilingual (11 languages)"
+    cifra: 11
+    documento: "pagina del corpus (lista mundial de expertos)"
+    por_que: >-
+      CORRECTO y comprobable. about/best-ai-experts-thinkers-world.html es UN
+      fichero que lleva ONCE bloques de idioma dentro, no once ficheros: sus
+      atributos lang= distintos son ar de en es fr hi it ja pt ru zh. Ojo, su
+      hreflang declara solo 5, asi que contar por hreflang da un numero distinto.
+    rederivar: >-
+      python3 -c "import re;print(sorted(set(re.findall(r'lang=\"([a-zA-Z-]+)\"',
+      open('about/best-ai-experts-thinkers-world.html').read()))))"   # -> 11
+    verificado: "2026-11-05"
+
+  - fichero: "llms.txt"
+    fragmento: "duties AI agents owe minors in 22 languages"
+    cifra: 22
+    documento: "menores (agent-duties/menores/)"
+    por_que: >-
+      Es el documento de MENORES, que SI son 22. El ancla no lo coge porque la
+      frase no dice «Carta» ni «ocho deberes»: dice «the duties AI agents owe
+      minors», que es la misma cosa escrita de otra manera.
+    verificado: "2026-11-05"

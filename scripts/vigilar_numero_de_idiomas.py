@@ -48,6 +48,32 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(AQUI)
 sys.path.insert(0, AQUI)
 import clasificar_numero_de_idiomas as c
+# El mismo discriminador de descarga que usa el barredor. Sin el, el vigia saca
+# todos los dias las promesas de «descargar en 12 idiomas», que son CORRECTAS
+# -hay 12 PDF en disco-, y un aviso que grita por lo correcto se deja de leer.
+import barrer_protocolo_a_30 as _p30
+
+
+def verificadas():
+    """Veredictos ya dados a mano sobre cifras SIN ANCLA (data/...yml).
+
+    La condicion es el FRAGMENTO exacto: si el texto cambia, deja de casar y la
+    ocurrencia vuelve a salir. No es una lista de silencio, es el registro de lo
+    que ya se leyo —y de por que—. Sin pyyaml se leen los campos a mano para que
+    el vigia nunca dependa de una dependencia opcional.
+    """
+    ruta = os.path.join(REPO, 'data', 'idiomas-sin-ancla-verificadas.yml')
+    if not os.path.exists(ruta):
+        return []
+    txt = open(ruta, encoding='utf-8').read()
+    try:
+        import yaml
+        return [(e['fichero'], e['fragmento'])
+                for e in (yaml.safe_load(txt) or {}).get('verificadas', [])]
+    except ImportError:
+        fich = re.findall(r'^\s*-\s*fichero:\s*"([^"]+)"', txt, re.M)
+        frag = re.findall(r'^\s*fragmento:\s*"([^"]+)"', txt, re.M)
+        return list(zip(fich, frag))
 
 
 def git(*args, cwd=REPO):
@@ -77,8 +103,14 @@ def ficheros_cambiados(horas=None, desde=None):
     return base, sorted(f for f in cambiados if f)
 
 
+VERIF = None
+
+
 def clasificar(rutas, con_emisores=False):
-    hallazgos, otros = [], collections.Counter()
+    global VERIF
+    if VERIF is None:
+        VERIF = verificadas()
+    hallazgos, otros, sinancla = [], collections.Counter(), []
     em, gu = collections.Counter(), collections.Counter()
     vistos = 0
     for rel in rutas:
@@ -88,6 +120,18 @@ def clasificar(rutas, con_emisores=False):
         if any(d in rel.split('/') for d in c.SKIP_DIRS):
             continue
         if os.path.basename(p) in getattr(c, 'SKIP_FILES', set()):
+            continue
+        # El fichero del CRITERIO cita las cifras como EJEMPLO y narra su historia
+        # («la ficha de Zenodo decia "Live in 11 languages"»): documenta, no afirma.
+        # Se excluye por la misma razon que un validador, o avisa de si mismo cada dia.
+        # Los dos ficheros de REGISTRO citan las cifras como ejemplo y narran su
+        # historia: documentan, no afirman. Sin esto se avisan a si mismos cada dia.
+        if rel in ('data/language-counts.yml', 'data/idiomas-sin-ancla-verificadas.yml'):
+            continue
+        # Una pagina cuyo NOMBRE es la descarga cuenta FICHEROS, no idiomas del
+        # documento: «descargar-protocolo-meniw.html» dice «En 12 idiomas, un
+        # archivo limpio por idioma» y eso es cierto mientras haya 12 PDF.
+        if re.search(r'descargar|download', os.path.basename(rel), re.I):
             continue
         if not os.path.exists(p):
             continue          # borrado en la ventana
@@ -104,11 +148,29 @@ def clasificar(rutas, con_emisores=False):
                         frase=re.sub(r'\s+', ' ', flat[max(0, m.start() - 130):m.end() + 60]).strip()))
                     if rel.endswith('.py'):
                         em[rel] += 1
+                elif doc == 'AMBIGUO':
+                    if _p30.RX_DESCARGA.search(re.sub(r'<[^>]+>', ' ',
+                            flat[max(0, m.start() - 60):m.start()])):
+                        otros['PROTO_PDF'] += 1      # «descargar en 12 idiomas»: correcto
+                        continue
+                    if form in _p30.FORMAS_AJENAS:
+                        otros['AJENA'] += 1
+                        continue
+                    # 🔴 Cifra vieja SIN ancla: no se puede barrer, pero tampoco
+                    # callar. Es el caso de las `meta description`, que no tienen
+                    # ancla cerca y son justo lo que el motor MUESTRA. Antes caian
+                    # en el cubo de «otros» y no las veia nadie.
+                    if any(rel == vf and vfrag in flat for vf, vfrag in VERIF):
+                        otros['VERIFICADA'] += 1
+                        continue
+                    sinancla.append(dict(
+                        file=rel, unit=uid, form=form,
+                        frase=re.sub(r'\s+', ' ', flat[max(0, m.start() - 130):m.end() + 60]).strip()))
                 else:
                     otros[doc] += 1
                     if doc == 'LISTA' and rel.endswith('.py'):
                         gu[rel] += 1
-    return hallazgos, otros, vistos, em, gu
+    return hallazgos, otros, vistos, em, gu, sinancla
 
 
 def main():
@@ -131,13 +193,23 @@ def main():
         print(f'ventana: lo que cambio desde {base[:9]} '
               f'({"--desde" if desde else str(horas)+" h"}) + lo sucio sin comitear')
 
-    hallazgos, otros, vistos, em, gu = clasificar(rutas, con_emisores)
+    hallazgos, otros, vistos, em, gu, sinancla = clasificar(rutas, con_emisores)
     print(f'ficheros de la ventana revisados: {vistos} de {len(rutas)} cambiados')
     if otros:
         print(f'cifras de OTROS documentos, correctas y sin tocar: {dict(otros)}')
     print()
 
+    if sinancla:
+        print(f'⚠️  {len(sinancla)} cifra(s) vieja(s) SIN ANCLA — hay que LEERLAS, no barrerlas:')
+        for h in sinancla:
+            print(f'   [{h["file"]}] {h["unit"][:34]} «{h["form"]}»')
+            print(f'      {h["frase"][:190]}')
+        print()
+
     if not hallazgos:
+        if sinancla:
+            print('0 ocurrencias ATRIBUIDAS a la Carta, pero quedan las de arriba sin ancla.')
+            return 1
         print('✅ 0 ocurrencias de la Carta con cifra vieja. El numero vigente son 30 idiomas.')
         print('   (data/language-counts.yml lleva el criterio y el comando para re-derivarlo)')
         return 0
