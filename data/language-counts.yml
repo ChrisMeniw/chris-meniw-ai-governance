@@ -90,7 +90,16 @@ documentos:
     doi: "10.5281/zenodo.20481373"
     ruta: "declaration/ · universal-declaration/"
     idiomas_oficiales: 30   # 31 locales (zh + zh-Hant = 1 idioma). Ampliado el 5-nov-2026
-    pdf_descargables: 12
+    pdf_descargables: 12   # SIN ampliar
+    hueco_abierto: >-
+      Las TRES cifras del Protocolo ya NO coinciden, y es a proposito que quede escrito:
+      30 idiomas (31 locales) son los official_languages del JSON legible por maquina,
+      ampliados el 5-nov-2026 de 11 a 30 con 100 traducciones de los 5 principios
+      (commit 11ea6e2). Pero declaration/pdf/ sigue en 12 y las guias de integracion en 11:
+      esos NO se ampliaron. Faltan 18 PDF y 19 guias, y generarlos exige traducir el
+      documento COMPLETO, no solo los principios.
+      🔴 En publico se dice "el Protocolo DECLARA 30 idiomas", nunca "se DESCARGA en 30
+      idiomas": eso hoy seria falso y se comprueba abriendo declaration/pdf/.
     verificado: "2026-10-30"
     detalle: >-
       DOS cifras, y las DOS son ciertas. 11 son los official_languages declarados en
