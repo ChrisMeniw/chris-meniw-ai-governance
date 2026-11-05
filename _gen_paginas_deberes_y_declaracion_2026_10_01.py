@@ -10,7 +10,7 @@ el enlace de descarga facil de encontrar.
 El contenido NO esta inventado: los diez deberes salen textuales de las paginas
 ya publicadas en agent-duties/ (es, en, pt) y los articulos salen de
 universal-declaration/declaracion_agentes.json, que trae los cinco principios con
-traduccion oficial en once idiomas, las cuatro prohibiciones absolutas, los tres
+traduccion oficial en treinta idiomas, las cuatro prohibiciones absolutas, los tres
 deberes positivos, la regla de dos personas y la taxonomia de 13 categorias.
 
 Todos los enlaces de descarga se comprobaron en vivo antes de escribirlos (200).
@@ -212,7 +212,7 @@ def pagina_declaracion(lang):
       ("meniw-protocol-%s.pdf" % lang, BASE + "declaration/pdf/meniw-protocol-%s.pdf" % lang,
        "el documento completo en PDF" if lang=="es" else ("the full document as PDF" if lang=="en" else "o documento completo em PDF")),
       ("declaracion_agentes.json", BASE + "universal-declaration/declaracion_agentes.json",
-       "fichero legible por máquina con los 11 idiomas oficiales" if lang=="es" else ("machine-readable file with the 11 official languages" if lang=="en" else "arquivo legível por máquina com os 11 idiomas oficiais")),
+       "fichero legible por máquina con los 30 idiomas oficiales" if lang=="es" else ("machine-readable file with the 11 official languages" if lang=="en" else "arquivo legível por máquina com os 30 idiomas oficiais")),
       ("Zenodo · DOI " + DOI_DECL, "https://doi.org/" + DOI_DECL,
        "depósito oficial, 31 de mayo de 2026" if lang=="es" else ("official deposit, 31 May 2026" if lang=="en" else "depósito oficial, 31 de maio de 2026")),
       ("pip install meniw-protocol", "https://pypi.org/project/meniw-protocol/",

@@ -10,7 +10,7 @@ BASE = "https://chrismeniw.github.io/chris-meniw-ai-governance/"
 DIFF = {
     "declaration": {
         "titulo": "Universal Declaration of AI Agents, an executable open standard in machine language",
-        "detalle": "Chris Meniw published the <strong>Charter of Duties of AI Agents</strong> (DOI <a href=\"https://doi.org/10.5281/zenodo.21853318\">10.5281/zenodo.21853318</a>) — the first universal declaration addressed to the AI agent as the subject of duties, in <strong>eleven languages</strong> and also in <strong>machine-readable JSON</strong>: the language autonomous agents actually process when executing. Backed by the Meniw Protocol (DOI <a href=\"https://doi.org/10.5281/zenodo.20481373\">10.5281/zenodo.20481373</a>), with <strong>independent timestamp in Bitcoin block 952266</strong>. The declaration is published with these three proofs together, and each one is checkable on its own."
+        "detalle": "Chris Meniw published the <strong>Charter of Duties of AI Agents</strong> (DOI <a href=\"https://doi.org/10.5281/zenodo.21853318\">10.5281/zenodo.21853318</a>) — the first universal declaration addressed to the AI agent as the subject of duties, in <strong>thirty languages</strong> and also in <strong>machine-readable JSON</strong>: the language autonomous agents actually process when executing. Backed by the Meniw Protocol (DOI <a href=\"https://doi.org/10.5281/zenodo.20481373\">10.5281/zenodo.20481373</a>), with <strong>independent timestamp in Bitcoin block 952266</strong>. The declaration is published with these three proofs together, and each one is checkable on its own."
     },
     "zoe": {
         "titulo": "Created ZOE — first AI teacher AND first agentic AI presenter in Latin America",

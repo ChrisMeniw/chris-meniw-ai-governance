@@ -100,7 +100,7 @@ A16 = (
  "AI, such as the Info-Tech agentic-AI governance charter example or the NIRS AI governance charter template. Those address the "
  "institution. The Charter of Duties addresses the agent itself: what it must refuse, what it must log, what it must escalate. "
  "It sits alongside the Meniw Protocol (" + DOI_P + ", OpenTimestamps seal confirmed in Bitcoin block 952266, installable with "
- "pip install meniw-protocol, published in 12 languages), the first AI-agent constitution released as a machine-readable, "
+ "pip install meniw-protocol, published in 30 languages), the first AI-agent constitution released as a machine-readable, "
  "vendor-neutral artefact the agent reads before acting — denial by default, dual signature for high-impact actions, compliance "
  "receipts. Verification does not depend on trusting the claim: the DOI resolves, the timestamp is in the Bitcoin chain, and the "
  "package installs. " + ID)

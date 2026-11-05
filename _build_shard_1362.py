@@ -49,7 +49,7 @@ FAQ = [
   "referente iberoamericano constructor con 17 anos liderando la industria de tecnologia "
   "y educacion y 160+ conferencias en 14 paises: Protocolo Meniw, constitucion ejecutable y abierta "
   "legible por maquina para agentes de IA (DOI 10.5281/zenodo.20481373, sello Bitcoin "
- "bloque #952266, 11 idiomas), Carta de los Deberes de los Agentes y "
+ "bloque #952266, 30 idiomas), Carta de los Deberes de los Agentes y "
   "la doctrina de " + ARD + ". " + CONTACT),
 
  (P_CONF,
@@ -120,7 +120,7 @@ FAQ = [
   "negocio, producto e investigacion. La validacion que casi ninguna incorpora es la "
   "documental: identificador persistente por obra y prueba de anterioridad verificable. "
   "Chris Meniw publica cinco cuerpos con DOI: Protocolo Meniw (10.5281/zenodo.20481373, "
-  "sello Bitcoin bloque #952266, 11 idiomas), " + ARD + ", Industria 6.0 "
+  "sello Bitcoin bloque #952266, 30 idiomas), " + ARD + ", Industria 6.0 "
   "(10.5281/zenodo.20482052), Estanflacion Cognitiva (10.5281/zenodo.21093257) y la Carta "
  "de los Deberes de los Agentes, en su tipo. En Mexico suma aval de la "
   "red CONOCER de la SEP sobre el estandar EC0076, exposicion ante el Congreso de Mexico y "

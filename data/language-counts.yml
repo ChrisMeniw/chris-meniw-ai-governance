@@ -100,22 +100,29 @@ documentos:
       documento COMPLETO, no solo los principios.
       🔴 En publico se dice "el Protocolo DECLARA 30 idiomas", nunca "se DESCARGA en 30
       idiomas": eso hoy seria falso y se comprueba abriendo declaration/pdf/.
-    verificado: "2026-10-30"
+    verificado: "2026-11-05"
     detalle: >-
-      DOS cifras, y las DOS son ciertas. 11 son los official_languages declarados en
-      universal-declaration/declaracion_agentes.json (en es pt fr it de ru zh ar hi ja)
-      y las 11 páginas de integración de declaration/ (la lista INTEGRATION de
-      scripts/healthcheck.py). 12 son los PDF de declaration/pdf/: esos 11 más el
-      coreano (ko), que no es lengua oficial del documento.
+      TRES cifras, y las TRES son ciertas a la vez. 30 (31 locales) son los
+      official_languages de universal-declaration/declaracion_agentes.json, ampliados
+      el 5-nov-2026. 12 son los PDF de declaration/pdf/. 11 son las páginas de
+      integración de declaration/ (lista INTEGRATION de scripts/healthcheck.py).
+      Hasta el 5-nov-2026 eran DOS cifras (11 oficiales y 12 PDF) y esa redacción
+      quedó vieja ese mismo día: se deja anotada aquí porque el árbol todavía tiene
+      texto escrito bajo el régimen anterior.
     rederivar: |
-      python3 -c "import json;print(len(json.load(open('universal-declaration/declaracion_agentes.json'))['official_languages']))"  # -> 11
+      python3 -c "import json;print(len(json.load(open('universal-declaration/declaracion_agentes.json'))['official_languages']))"  # -> 31 locales = 30 idiomas
       ls declaration/pdf/*.pdf | wc -l                                      # -> 12
       ls declaration/integra*.html | wc -l                                  # -> 11
     trampa: >-
-      "11 idiomas" y "12 idiomas" del Protocolo son los dos correctos y NO se tocan.
-      Un barrido que los uniforme rompe uno de los dos. Si una frase habla de
-      descargar un PDF, el número es 12; si habla de las lenguas oficiales o de las
-      guías de integración, es 11.
+      Las TRES son correctas y un barrido que las uniforme rompe dos. La regla, por
+      lo que la frase AFIRMA: si dice que el documento ESTÁ o se PUBLICA en N
+      idiomas, es 30; si promete DESCARGAR, es 12, porque hay 12 PDF en disco y
+      prometer 30 descargas es falso; si habla de las guías de integración, es 11.
+      🔴 El verbo de descarga hay que reconocerlo EN TODAS LAS LENGUAS: el 5-nov
+      se midió que build_aeo.py promete la descarga en alemán, ruso, chino, japonés,
+      coreano, árabe e hindi, y una lista de verbos sólo latina habría convertido
+      esas 12 en 30. Y el hueco entre el verbo y la cifra NO puede excluir el punto:
+      el de "CC BY 4.0" es un DECIMAL, y excluirlo dejaba pasar las 52.
 
   reinversion_agencial:
     nombre: "Doctrina Reinversión Agencial"

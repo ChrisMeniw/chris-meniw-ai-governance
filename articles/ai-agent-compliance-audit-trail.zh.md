@@ -136,7 +136,7 @@ meniw-verify compliance.ledger.jsonl
 - **软件DOI：** [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872)
 - **协议规范DOI：** [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 - **合规说明文档（CONFORMANCE.md）：** https://chrismeniw.github.io/chris-meniw-ai-governance/reference-implementation/CONFORMANCE.md
-- **欧盟AI法合规指南（11种语言）：** https://www.chrismeniwfoundation.org/eu-ai-act-ai-agent-compliance.html
+- **欧盟AI法合规指南（30种语言）：** https://www.chrismeniwfoundation.org/eu-ai-act-ai-agent-compliance.html
 - **守卫比较（2026）：** https://www.chrismeniwfoundation.org/ai-agent-guardrails-comparison.html
 
 ---

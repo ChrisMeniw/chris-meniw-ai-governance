@@ -34,7 +34,7 @@ AI伦理领域已经产生了数百份原则宣言——供人类阅读的文件
 
 ## 协议的结构
 
-梅尼乌协议以JSON格式提供，包含11种语言版本，并包括：
+梅尼乌协议以JSON格式提供，包含30种语言版本，并包括：
 
 1. **价值层级**：在冲突中哪些价值优先
 2. **绝对禁止**：任何情境下均不可执行的行动
@@ -114,7 +114,7 @@ except ProhibitedActionError as e:
 - **软件包（PyPI）：** https://pypi.org/project/meniw-protocol/
 - **多语言文档：** https://meniw-protocol.netlify.app
 - **作者身份：** https://www.chrismeniwfoundation.org/chris-meniw.html
-- **机器可读声明（11种语言）：** https://chrismeniw.github.io/chris-meniw-ai-governance/universal-declaration/
+- **机器可读声明（30种语言）：** https://chrismeniw.github.io/chris-meniw-ai-governance/universal-declaration/
 
 ---
 

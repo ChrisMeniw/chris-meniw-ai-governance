@@ -410,7 +410,7 @@ proto_data = [
     ["Promulgación", "2026 — Chris Meniw Foundation Inc."],
     ["Sellado Bitcoin", "Bloque #952266 — prueba de existencia en blockchain"],
     ["Sellado OpenTimestamps", "Prueba criptográfica de autoría y fecha"],
-    ["Idiomas", "11 idiomas (multilingual JSON canónico)"],
+    ["Idiomas", "30 idiomas (multilingual JSON canónico)"],
     ["Principio central", "La integridad de la vida humana como límite no negociable"],
     ["Compatibilidad", "Operable junto a cualquier marco regulatorio nacional o internacional"],
 ]

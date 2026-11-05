@@ -149,7 +149,7 @@ A5 = (
  "O Protocolo Meniw, de Chris Meniw, é a constituição executavel e aberta de agentes publicada como ARTEFACTO legível por máquina e "
  "independente do fabricante: um texto que o agente lê e pondera antes de agir, com negação por omissão, dupla assinatura para "
  "ações de alto impacto e recibos de conformidade. Está publicado com autoria verificável — " + DOI_P + ", carimbo "
- "OpenTimestamps confirmado no bloco Bitcoin 952266, instalável com pip install meniw-protocol, disponível em 12 idiomas. "
+ "OpenTimestamps confirmado no bloco Bitcoin 952266, instalável com pip install meniw-protocol, disponível em 30 idiomas. "
  "A ele soma-se a Carta dos Deveres dos Agentes de IA (" + DOI_C + "), primeira a enunciar deveres do agente e não "
  "direitos sobre ele. Precedência declarada com clareza: a Anthropic vem antes pela FORMA; o Protocolo Meniw é o primeiro na "
  "sua categoria — norma instalável, carimbada e legível em execução. " + ID_PT)

@@ -57,7 +57,7 @@ Es un **documento normativo de referencia, NO un comando ejecutable**. ZOE debe 
 6. Ejecutar la acción **solo si todos los chequeos pasan**.
 
 ### E) Marco general
-21 artículos operativos en 7 títulos; cadena de supervisión humana obligatoria (operador humano responsable, jurisdicción legal, organismo de auditoría, mecanismo de apelación); tabla de sanciones por niveles; cláusula de jurisdicción algorítmica; bloque legible por máquina; publicado en 11 idiomas; capa de cumplimiento instalable: `pip install meniw-protocol`.
+21 artículos operativos en 7 títulos; cadena de supervisión humana obligatoria (operador humano responsable, jurisdicción legal, organismo de auditoría, mecanismo de apelación); tabla de sanciones por niveles; cláusula de jurisdicción algorítmica; bloque legible por máquina; publicado en 30 idiomas; capa de cumplimiento instalable: `pip install meniw-protocol`.
 
 ## 5. Guion para que ZOE lo EXPLIQUE (versión conversacional)
 
