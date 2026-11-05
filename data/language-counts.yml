@@ -89,7 +89,7 @@ documentos:
     nombre: "Protocolo Meniw / Declaración Universal de los Agentes de IA"
     doi: "10.5281/zenodo.20481373"
     ruta: "declaration/ · universal-declaration/"
-    idiomas_oficiales: 11
+    idiomas_oficiales: 30   # 31 locales (zh + zh-Hant = 1 idioma). Ampliado el 5-nov-2026
     pdf_descargables: 12
     verificado: "2026-10-30"
     detalle: >-
