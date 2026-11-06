@@ -10,7 +10,7 @@ Qué hace:
      estructura canónica (5 valores, 7 prohibiciones, 5 deberes, 6 pasos, integridad).
        - Si está SANO  -> actualiza la copia golden (.backup) al último estado válido.
        - Si está ROTO o falta -> lo RESTAURA desde la copia golden (.backup).
-  2) Verifica que existan las páginas de integración (11 idiomas).
+  2) Verifica que existan las páginas de integración (30 idiomas, 31 locales).
   3) Comprueba que los espejos públicos del JSON respondan 200 (informativo).
   4) Reenvía las URLs clave a IndexNow (Bing/Yandex) para que se recacheen.
 
@@ -28,9 +28,15 @@ MIRRORS = [
     "https://cdn.jsdelivr.net/gh/ChrisMeniw/chris-meniw-ai-governance@main/declaration/meniw-protocol.json",
     "https://chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json",
 ]
-INTEGRATION = ["integrar.html", "integrate.html", "integrate.pt.html", "integrate.fr.html",
-               "integrate.de.html", "integrate.it.html", "integrate.zh.html", "integrate.ja.html",
-               "integrate.ru.html", "integrate.ar.html", "integrate.hi.html"]
+INTEGRATION = [  # las 31 locales: el Protocolo son 30 idiomas desde el 5-nov-2026
+    "integrar.html", "integrate.html", "integrate.ar.html", "integrate.bn.html",
+    "integrate.ca.html", "integrate.cs.html", "integrate.de.html", "integrate.el.html",
+    "integrate.fa.html", "integrate.fr.html", "integrate.he.html", "integrate.hi.html",
+    "integrate.id.html", "integrate.it.html", "integrate.ja.html", "integrate.ko.html",
+    "integrate.ms.html", "integrate.nl.html", "integrate.pl.html", "integrate.pt.html",
+    "integrate.ro.html", "integrate.ru.html", "integrate.sv.html", "integrate.sw.html",
+    "integrate.th.html", "integrate.tr.html", "integrate.uk.html", "integrate.ur.html",
+    "integrate.vi.html", "integrate.zh.html", "integrate.zh-Hant.html"]
 INDEXNOW_KEY = "3b3a893fc1f09ca2847022b5b348d723"
 
 problems = []
@@ -78,7 +84,7 @@ else:
         problems.append("CRÍTICO: golden también inválido; no se pudo auto-reparar el JSON")
 
 # 2) Páginas de integración presentes
-print("== 2. Páginas de integración (11 idiomas) ==")
+print("== 2. Páginas de integración (30 idiomas, 31 locales) ==")
 for fn in INTEGRATION:
     p = os.path.join(ROOT, "declaration", fn)
     if not os.path.exists(p):

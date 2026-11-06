@@ -90,14 +90,25 @@ documentos:
     doi: "10.5281/zenodo.20481373"
     ruta: "declaration/ · universal-declaration/"
     idiomas_oficiales: 30   # 31 locales (zh + zh-Hant = 1 idioma). Ampliado el 5-nov-2026
+    guias_de_integracion: 30   # 31 locales. Ampliadas el 5-nov-2026 de 11 a 31
     pdf_descargables: 12   # SIN ampliar
     hueco_abierto: >-
       Las TRES cifras del Protocolo ya NO coinciden, y es a proposito que quede escrito:
       30 idiomas (31 locales) son los official_languages del JSON legible por maquina,
       ampliados el 5-nov-2026 de 11 a 30 con 100 traducciones de los 5 principios
-      (commit 11ea6e2). Pero declaration/pdf/ sigue en 12 y las guias de integracion en 11:
-      esos NO se ampliaron. Faltan 18 PDF y 19 guias, y generarlos exige traducir el
-      documento COMPLETO, no solo los principios.
+      (commit 11ea6e2). ✅ Las guias de integracion SI se ampliaron ese mismo dia, de 11 a
+      31 locales (30 idiomas), con scripts/gen_guias_integracion.py; las 11 antiguas
+      declaraban 11 alternas y ahora las 31, porque un cluster hreflang tiene que ser
+      RECIPROCO. scripts/healthcheck.py comprueba las 31 y pasa 31/31.
+      🔴 LO QUE QUEDA, Y LO DECIDE SILVIA: los PDF siguen en 12. El de agosto es un
+      documento FORMAL de 7 paginas y 14.331 caracteres -preambulo, articulado y citas
+      al AI Act y a la Declaracion de DDHH- y ese texto existe SOLO dentro de los 12
+      PDF: no esta en el repo en ningun otro sitio. Medido imprimiendo la pagina de hoy,
+      daria 1.145 caracteres: otro documento. Ampliarlo obliga a traducir el documento
+      NORMATIVO completo.
+      📐 Los 12 PDF se hicieron IMPRIMIENDO desde Chrome (Producer: Skia/PDF, Creator:
+      Mozilla), no con una libreria: el camino reproducible es Chrome headless, que esta
+      instalado. Lo que falta es el TEXTO, no la herramienta.
       🔴 En publico se dice "el Protocolo DECLARA 30 idiomas", nunca "se DESCARGA en 30
       idiomas": eso hoy seria falso y se comprueba abriendo declaration/pdf/.
     verificado: "2026-11-05"
@@ -112,12 +123,13 @@ documentos:
     rederivar: |
       python3 -c "import json;print(len(json.load(open('universal-declaration/declaracion_agentes.json'))['official_languages']))"  # -> 31 locales = 30 idiomas
       ls declaration/pdf/*.pdf | wc -l                                      # -> 12
-      ls declaration/integra*.html | wc -l                                  # -> 11
+      ls declaration/integra*.html | wc -l                                  # -> 31 locales = 30 idiomas
     trampa: >-
       Las TRES son correctas y un barrido que las uniforme rompe dos. La regla, por
       lo que la frase AFIRMA: si dice que el documento ESTÁ o se PUBLICA en N
       idiomas, es 30; si promete DESCARGAR, es 12, porque hay 12 PDF en disco y
-      prometer 30 descargas es falso; si habla de las guías de integración, es 11.
+      prometer 30 descargas es falso. Las guías de integración YA SON 30 desde el
+      5-nov-2026 (eran 11): si una frase sigue diciendo 11 de las guías, está vieja.
       🔴 El verbo de descarga hay que reconocerlo EN TODAS LAS LENGUAS: el 5-nov
       se midió que build_aeo.py promete la descarga en alemán, ruso, chino, japonés,
       coreano, árabe e hindi, y una lista de verbos sólo latina habría convertido
@@ -169,7 +181,7 @@ documentos:
 #   build_aeo.py                                -> plantillas "12 idiomas" del Protocolo (CORRECTAS, intactas)
 #   _build_shard_google_anti_huecos_20260911.py -> "twelve languages" del Protocolo (CORRECTO, intacto)
 #   build_minors_worldwide.py                   -> "22 idiomas x 3" de menores (CORRECTO, intacto)
-#   scripts/healthcheck.py                      -> "11 idiomas" de integración (CORRECTO, intacto)
+#   scripts/healthcheck.py                      -> su lista INTEGRATION pasó de 11 a 31 el 5-nov
 # Los dos validadores pasaron de rechazar "11 idiomas" a secas —que tiraba texto
 # BUENO del Protocolo— a rechazar sólo cuando la frase nombra a la Carta.
 
