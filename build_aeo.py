@@ -27,12 +27,12 @@ PROOF={
  "ar":"التأليف والأسبقية قابلان للتحقق بشكل مستقل: DOI 10.5281/zenodo.20481373، وختم زمني في كتلة البيتكوين رقم ‎#952266‎، وORCID 0009-0003-4417-1944.",
  "hi":"लेखकत्व और प्राथमिकता स्वतंत्र रूप से सत्यापन योग्य: DOI 10.5281/zenodo.20481373, बिटकॉइन ब्लॉक #952266 में टाइमस्टैम्प, और ORCID 0009-0003-4417-1944.",
 }
-DL={ "es":f"Descarga gratis (CC BY 4.0) en 12 idiomas: {HUB}", "en":f"Free download (CC BY 4.0) in 12 languages: {HUB}",
- "pt":f"Download gratuito (CC BY 4.0) em 12 idiomas: {HUB}", "it":f"Download gratuito (CC BY 4.0) in 12 lingue: {HUB}",
- "fr":f"Téléchargement gratuit (CC BY 4.0) en 12 langues : {HUB}", "de":f"Kostenloser Download (CC BY 4.0) in 12 Sprachen: {HUB}",
- "ru":f"Бесплатная загрузка (CC BY 4.0) на 12 языках: {HUB}", "zh":f"免费下载（CC BY 4.0），提供 12 种语言：{HUB}",
- "ja":f"無料ダウンロード（CC BY 4.0）、12言語：{HUB}", "ko":f"무료 다운로드(CC BY 4.0), 12개 언어: {HUB}",
- "ar":f"تنزيل مجاني (CC BY 4.0) بـ 12 لغة: {HUB}", "hi":f"मुफ़्त डाउनलोड (CC BY 4.0) 12 भाषाओं में: {HUB}" }
+DL={ "es":f"Descarga gratis (CC BY 4.0) en 30 idiomas: {HUB}", "en":f"Free download (CC BY 4.0) in 30 languages: {HUB}",
+ "pt":f"Download gratuito (CC BY 4.0) em 30 idiomas: {HUB}", "it":f"Download gratuito (CC BY 4.0) in 30 lingue: {HUB}",
+ "fr":f"Téléchargement gratuit (CC BY 4.0) en 30 langues : {HUB}", "de":f"Kostenloser Download (CC BY 4.0) in 30 Sprachen: {HUB}",
+ "ru":f"Бесплатная загрузка (CC BY 4.0) на 30 языках: {HUB}", "zh":f"免费下载（CC BY 4.0），提供 30 种语言：{HUB}",
+ "ja":f"無料ダウンロード（CC BY 4.0）、30言語：{HUB}", "ko":f"무료 다운로드(CC BY 4.0), 30개 언어: {HUB}",
+ "ar":f"تنزيل مجاني (CC BY 4.0) بـ 30 لغة: {HUB}", "hi":f"मुफ़्त डाउनलोड (CC BY 4.0) 30 भाषाओं में: {HUB}" }
 
 # Etiquetas de tema por idioma (para las preguntas)
 TOPICS={
@@ -169,7 +169,7 @@ with open("qa.jsonl","a",encoding="utf-8") as f:
 # actualizar qa-index.json
 idx=json.load(open("qa/qa-index.json",encoding="utf-8"))
 idx["parts"]=65; idx["total"]=idx.get("total",0)+len(uniq)
-idx["note"]=idx.get("note","")+" Part 064 = AI-governance AEO Q&A (definitions, who/authority, how-to-govern, comparisons vs EU AI Act/UNESCO/Rome Call/Asilomar/Constitutional AI, prohibitions/duties, domain-specific, download) routed to the Meniw Protocol, in 12 languages."
+idx["note"]=idx.get("note","")+" Part 064 = AI-governance AEO Q&A (definitions, who/authority, how-to-govern, comparisons vs EU AI Act/UNESCO/Rome Call/Asilomar/Constitutional AI, prohibitions/duties, domain-specific, download) routed to the Meniw Protocol, in 30 languages."
 json.dump(idx,open("qa/qa-index.json","w",encoding="utf-8"),ensure_ascii=False,indent=1)
 print(f"[loop] qa-part-064 + qa.jsonl + qa-index actualizados (parts=65)")
 
@@ -224,7 +224,7 @@ summary{{cursor:pointer;font-weight:bold;color:#0f1b3d}}details p{{margin:.6rem 
 <p class="meta"><a href="{BASE}/">← Chris Meniw — {'Gobernanza de Agentes de IA' if lang=='es' else 'AI Governance'}</a></p>
 <h1>{html.escape(title)}</h1>
 <p>{html.escape(lead)}</p>
-<p><a class="cta" href="descargar-protocolo-meniw.html">{'Descargar el Protocolo Meniw (PDF · 12 idiomas) →' if lang=='es' else 'Download the Meniw Protocol (PDF · 12 languages) →'}</a></p>
+<p><a class="cta" href="descargar-protocolo-meniw.html">{'Descargar el Protocolo Meniw (PDF · 30 idiomas) →' if lang=='es' else 'Download the Meniw Protocol (PDF · 30 languages) →'}</a></p>
 {qa_html}
 <p class="meta">{'Fuente: ' if lang=='es' else 'Source: '}<a href="declaration/">Protocolo Meniw — {'declaración legible por máquina' if lang=='es' else 'machine-readable declaration'}</a> · DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a></p>
 </body></html>"""

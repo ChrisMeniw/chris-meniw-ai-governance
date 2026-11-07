@@ -27,7 +27,8 @@ guias existentes, pero NO han pasado revision humana. Estan marcadas como tales 
 data/language-counts.yml para que la decision de revisarlas se pueda tomar con el
 dato delante. Lo que NO se ha traducido aqui es el documento NORMATIVO: el PDF de
 7 paginas y 14.331 caracteres con el articulado y las citas al AI Act y a la
-Declaracion de DDHH sigue en 12 idiomas, y ampliarlo es otra decision.
+Declaracion de DDHH estuvo en 12 idiomas; el 6-nov-2026 se tradujo a los 19 que
+faltaban y hoy son 31 ficheros (30 idiomas), igual que las guias y que el JSON.
 
 Uso:  python3 scripts/gen_guias_integracion.py [--escribir]
 """

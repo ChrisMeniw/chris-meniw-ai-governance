@@ -17,7 +17,12 @@ dejara de ser cierta, por usar un dato de ayer.
 
 LAS TRES CIFRAS DEL PROTOCOLO, Y SOLO UNA SE MUEVE
   30 = `official_languages` (31 locales). ES LA QUE SE CABLEA.
-  12 = los PDF de declaration/pdf/. SE QUEDA: hay 12 ficheros en disco, medido.
+  12 = los PDF de declaration/pdf/. ⚠️ YA NO: el 6-nov-2026 pasaron a 31 ficheros
+       (30 idiomas), asi que las TRES cifras del Protocolo coinciden y el
+       discriminador RX_DESCARGA de abajo dejo de tener trabajo. Lo que aquel dia
+       dejaba sin tocar lo barrio scripts/barrer_pdf_protocolo_a_30.py, que es
+       este mismo fichero con la condicion INVERTIDA. Esta nota se queda porque
+       explica por que el discriminador existe, no porque siga haciendo falta.
        Prometer 30 descargas seria falso. El discriminador es «PDF» o un verbo de
        descarga en los 60 caracteres ANTERIORES a la cifra; mas lejos que eso ya
        no es el sujeto de la cuenta (medido: una ventana de 320 car. daba 14

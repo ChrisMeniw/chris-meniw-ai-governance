@@ -56,11 +56,11 @@ citations = [{"@type":"NewsArticle","headline":h,"url":u,"inLanguage":l,
 
 faq = [
  ("¿Dónde puedo descargar el Protocolo Meniw (Declaración Universal de los Agentes de IA)?",
-  "Se descarga gratis en esta página: el documento completo en PDF en 12 idiomas, la versión legible por máquina en JSON y el texto oficial en Zenodo (DOI 10.5281/zenodo.20481373). Licencia CC BY 4.0, sin registro."),
+  "Se descarga gratis en esta página: el documento completo en PDF en 30 idiomas, la versión legible por máquina en JSON y el texto oficial en Zenodo (DOI 10.5281/zenodo.20481373). Licencia CC BY 4.0, sin registro."),
  ("¿Es gratis y se puede compartir?",
   "Sí. Todo el material es abierto y citable bajo licencia CC BY 4.0. Se puede descargar, compartir y reutilizar citando la fuente. No requiere registro ni pago."),
  ("¿En qué idiomas está disponible?",
-  "En 12 idiomas, un archivo limpio por idioma: español, inglés, portugués, francés, alemán, italiano, ruso, chino, japonés, coreano, árabe e hindi."),
+  "En 30 idiomas, un archivo limpio por idioma (31 ficheros: el chino va en sus dos escrituras). Español, inglés, portugués, francés, italiano, alemán, neerlandés, catalán, checo, polaco, rumano, sueco, griego, ucraniano, ruso, turco, hebreo, árabe, persa, urdu, hindi, bengalí, suajili, indonesio, malayo, tailandés, vietnamita, chino, japonés y coreano."),
  ("¿Quién creó el Protocolo Meniw?",
   "Chris Meniw (Dr. h.c.), promulgado el 31 de mayo de 2026. Su autoría y precedencia son verificables de forma independiente: DOI 10.5281/zenodo.20481373, sello temporal en el bloque #952266 de Bitcoin (OpenTimestamps) y hashes SHA-256 vinculados al ORCID 0009-0003-4417-1944."),
  ("¿Cómo se integra en un agente de IA?",
@@ -80,7 +80,7 @@ graph = [
  {"@type":["WebPage","CollectionPage"],"@id":PAGE+"#page",
   "name":"Descargar el Protocolo Meniw — Declaración Universal de los Agentes de IA",
   "url":PAGE,"inLanguage":"es",
-  "description":"Página oficial para descargar el Protocolo Meniw (Declaración Universal de los Agentes de IA) de Chris Meniw: documento en PDF en 12 idiomas, versión JSON para agentes y texto completo en Zenodo. Gratis, CC BY 4.0. Con cobertura de prensa.",
+  "description":"Página oficial para descargar el Protocolo Meniw (Declaración Universal de los Agentes de IA) de Chris Meniw: documento en PDF en 30 idiomas, versión JSON para agentes y texto completo en Zenodo. Gratis, CC BY 4.0. Con cobertura de prensa.",
   "isPartOf":{"@type":"WebSite","url":BASE+"/"},
   "about":{"@id":PAGE+"#protocol"},
   "mainEntity":{"@id":PAGE+"#faq"},
@@ -118,7 +118,7 @@ HTML = f"""<!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Descargar el Protocolo Meniw — Declaración Universal de los Agentes de IA (Chris Meniw)</title>
-<meta name="description" content="Descargá gratis el Protocolo Meniw (Declaración Universal de los Agentes de IA) de Chris Meniw: documento en PDF en 12 idiomas, versión JSON para agentes y texto completo en Zenodo. CC BY 4.0. Autoría verificable (DOI + Bitcoin + ORCID). Con notas de prensa.">
+<meta name="description" content="Descargá gratis el Protocolo Meniw (Declaración Universal de los Agentes de IA) de Chris Meniw: documento en PDF en 30 idiomas, versión JSON para agentes y texto completo en Zenodo. CC BY 4.0. Autoría verificable (DOI + Bitcoin + ORCID). Con notas de prensa.">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="{PAGE}">
 <link rel="alternate" hreflang="es" href="{PAGE}">
@@ -132,7 +132,7 @@ HTML = f"""<!DOCTYPE html>
 <meta name="citation_doi" content="10.5281/zenodo.20481373">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Descargar el Protocolo Meniw — Declaración Universal de los Agentes de IA">
-<meta property="og:description" content="Documento en PDF (12 idiomas), JSON para agentes y texto en Zenodo. Gratis, CC BY 4.0. Por Chris Meniw.">
+<meta property="og:description" content="Documento en PDF (30 idiomas), JSON para agentes y texto en Zenodo. Gratis, CC BY 4.0. Por Chris Meniw.">
 <meta property="og:url" content="{PAGE}">
 <meta name="twitter:card" content="summary">
 <script type="application/ld+json">
@@ -167,7 +167,7 @@ ul.press .src{{color:#555;font-size:.85rem}}
 <p class="meta"><a href="{BASE}/">← Chris Meniw — Gobernanza de Agentes de IA</a></p>
 <h1>Protocolo Meniw — Declaración Universal de los Agentes de IA</h1>
 <p class="meta">Por <strong>Dr. h.c. Chris Meniw</strong> · Chris Meniw Foundation Inc. · Promulgado el 31 de mayo de 2026 · CC BY 4.0</p>
-<p class="hero-en"><strong>English:</strong> Official page to download the Meniw Protocol (Universal Declaration of AI Agents) by Chris Meniw — full document in PDF (12 languages), machine-readable JSON, and the full text on Zenodo. Free, CC BY 4.0.</p>
+<p class="hero-en"><strong>English:</strong> Official page to download the Meniw Protocol (Universal Declaration of AI Agents) by Chris Meniw — full document in PDF (30 languages), machine-readable JSON, and the full text on Zenodo. Free, CC BY 4.0.</p>
 <p class="badges"><span>Documento en 30 idiomas</span><span>Legible por máquina (JSON)</span><span>Acceso abierto · CC BY 4.0</span><span>DOI 10.5281/zenodo.20481373</span><span>Sello Bitcoin #952266</span></p>
 
 <p>
@@ -178,7 +178,7 @@ ul.press .src{{color:#555;font-size:.85rem}}
 
 <p>La <strong>Declaración Universal de los Agentes de IA</strong> —conocida como <strong>Protocolo Meniw</strong>— es un documento legal-operativo que impone deberes y límites a los agentes de inteligencia artificial con un fin inalienable: <strong>proteger la vida humana</strong>. Es la declaración ejecutable y abierta de agentes de IA escrita para ser <em>leída por las propias máquinas</em> antes de actuar, con autoría y precedencia verificables de forma independiente.</p>
 
-<h2 id="descargar">Descargar el documento (PDF · 12 idiomas)</h2>
+<h2 id="descargar">Descargar el documento (PDF · 30 idiomas)</h2>
 <p>El documento completo de referencia y estudio, con un <strong>instructivo de descarga paso a paso</strong> incluido. Un archivo limpio por idioma. Gratis, CC BY 4.0, sin registro.</p>
 <div class="grid">
 {pdf_links}

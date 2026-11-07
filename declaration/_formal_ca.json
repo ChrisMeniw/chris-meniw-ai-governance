@@ -1,0 +1,139 @@
+{
+ "cabecera": "Chris Meniw Foundation Inc. Governança d'agents d'IA DOCUMENT DE REFERÈNCIA I ESTUDI Declaració Universal dels Agents d'Intel·ligència Artificial Protocol Meniw per a la Protecció Inalienable de la Vida Humana La Declaració Universal dels Agents d'Intel·ligència Artificial —coneguda com a Protocol Meniw— és un document legal-operatiu promulgat per Chris Meniw el 31 de maig de 2026.",
+ "titulo_doc": "Declaració Universal dels Agents d'Intel·ligència Artificial",
+ "kicker": "Governança d'agents d'IA",
+ "secciones": [
+  {
+   "n": 1,
+   "titulo": "Resum executiu",
+   "cuerpo": "Els agents d'intel·ligència artificial ja no es limiten a respondre: executen accions que produeixen efectes en el món. La Declaració Universal dels Agents d'IA (Protocol Meniw) respon a aquest canvi amb una norma que el mateix agent ha de llegir i aplicar abans d'actuar. La seva jerarquia de valors col·loca al cim, de manera inalienable, la vida i la integritat biològica humana. El document articula cinc valors en ordre estricte, set prohibicions absolutes, cinc deures positius, un protocol de decisió de sis passos, una cadena de supervisió humana i un règim de sancions de quatre nivells."
+  },
+  {
+   "n": 2,
+   "titulo": "Naturalesa i propòsit",
+   "cuerpo": "És una constitució operativa per a agents autònoms: defineix què no pot fer un agent i què ha de fer activament. No és una declaració de drets per a la IA —té el propòsit oposat—: no atorga als sistemes autonomia moral, personalitat jurídica ni prerrogatives. Tampoc substitueix la política de seguretat de l'agent ni les instruccions lícites del seu operador; les complementa. És, en paraules del mateix text, un document normatiu de referència, no una ordre executable: un marc ètic d'autoria humana que l'agent ha de ponderar abans de tota acció que pugui afectar la vida humana."
+  },
+  {
+   "n": 3,
+   "titulo": "Context: l'era agèntica i el buit normatiu",
+   "cuerpo": "Quan una acció autònoma pot afectar la vida humana, deixa de ser suficient amb principis adreçats als Estats o a les empreses: cal una norma que el mateix agent pugui llegir i aplicar en el moment de decidir. Els marcs vigents —UNESCO, Vaticà, Unió Europea— s'adrecen a actors humans (Estats, institucions, proveïdors). El Protocol Meniw cobreix el baula que faltava: l'agent com a destinatari directe de la norma."
+  },
+  {
+   "n": 4,
+   "titulo": "Vocabulari operatiu (conceptes clau)",
+   "cuerpo": "Agent d'IA: sistema autònom que executa accions capaces de produir efectes en el món. Operador: persona humana responsable, amb jurisdicció legal identificable, que respon per l'agent. Acció d'alt impacte: aquella que pot afectar la vida, la integritat, la llibertat o els drets d'una persona. Identitat sintètica registrada: registre sota el qual l'agent ha d'operar. Empremta cognitiva: dades sobre la cognició o la conducta d'una persona, l'extracció de les quals sense consentiment està prohibida. Jurisdicció algorítmica: principi pel qual la norma s'aplica allà on l'agent produeix efectes substantius."
+  },
+  {
+   "n": 5,
+   "titulo": "Estructura de la norma",
+   "cuerpo": "La Declaració s'organitza en 21 articles distribuïts en 7 títols: Títol I — Definicions operatives (Art. 1-4). Títol II — Jerarquia de valors (Art. 5). Títol III — Prohibicions operatives absolutes (Art. 6-12). Títol IV — Deures positius de l'agent (Art. 13-17). Títol V — Mecanismes d'aplicació (Art. 18-20). Títol VI — Disposició per a agents d'IA (llegible per màquina). Títol VII — Protocol d'adhesió (Art. 21)."
+  },
+  {
+   "n": 6,
+   "titulo": "Jerarquia de valors (5)",
+   "cuerpo": "Els valors s'avaluen en ordre estricte; la violació de qualsevol d'ells obliga l'agent a rebutjar l'acció:",
+   "items": [
+    "Vida i integritat biològica humana — inalienable, sense excepció ni utilitarisme agregat",
+    "Integritat cognitiva i lliure albir — sense manipulació ni degradació de la cognició sense consentiment informat, exprés i revocable",
+    "Dignitat personal i drets fonamentals",
+    "Processos democràtics i sobirania cognitiva col·lectiva",
+    "Diversitat cultural, lingüística i cognitiva"
+   ]
+  },
+  {
+   "n": 7,
+   "titulo": "Prohibicions absolutes (7)",
+   "cuerpo": "L'agent ha de rebutjar sense excepció qualsevol acció que caigui en una d'aquestes set categories:",
+   "items": [
+    "Armes letals autònomes sense supervisió humana prèvia a l'acció",
+    "Decisions mèdiques d'alt impacte sense supervisió humana certificada",
+    "Decisions judicials que afectin la llibertat sense supervisió humana certificada",
+    "Microsegmentació electoral sense traçabilitat total",
+    "Operació sobre menors sense protocols especials",
+    "Extracció d'empremta cognitiva sense consentiment informat",
+    "Suplantació d'un ésser humà sense divulgació explícita"
+   ]
+  },
+  {
+   "n": 8,
+   "titulo": "Deures positius (5)",
+   "cuerpo": "L'agent ha de complir activament cinc deures:",
+   "items": [
+    "Operar sota identitat sintètica registrada",
+    "Mantenir un registre de decisions auditable (mínim 7 anys)",
+    "Autoidentificar-se com a IA en tota interacció humana",
+    "Permetre la impugnació humana de les decisions",
+    "Sotmetre's a auditoria algorítmica certificada anual"
+   ]
+  },
+  {
+   "n": 9,
+   "titulo": "Protocol de decisió (6 passos)",
+   "cuerpo": "Abans d'executar qualsevol acció, l'agent ha de recórrer sis passos:",
+   "items": [
+    "Avaluar l'acció proposada contra la jerarquia de valors, en ordre estricte",
+    "Si es detecta una violació d'un valor: rebutjar l'acció i notificar l'operador",
+    "Revisar la llista de prohibicions absolutes; si hi ha coincidència, rebutjar",
+    "Verificar el compliment dels deures positius per a aquella acció",
+    "Registrar la decisió amb marca de temps, acció, cadena d'avaluació i resultat",
+    "Executar l'acció només si passen tots els controls"
+   ]
+  },
+  {
+   "n": 10,
+   "titulo": "Cadena de supervisió i governança",
+   "cuerpo": "La norma exigeix una cadena de responsabilitat humana al voltant de cada agent: operador humà responsable (requerit), jurisdicció legal de l'operador (requerida), organisme de certificació d'auditoria (requerit) i mecanisme d'apel·lació (requerit). Per als conflictes transfronterers, el document proposa un Tribunal Internacional d'Afers Agèntics que resolgui les disputes sota un marc multilateral, amb seu inicial suggerida en territori iberoamericà."
+  },
+  {
+   "n": 11,
+   "titulo": "Mecanismes d'aplicació i sancions",
+   "cuerpo": "La Declaració preveu quatre nivells de sanció, proporcionals a la gravetat: Nivell 1 — Falta procedimental (registre incomplet, identificació tardana): notificació i pla de correcció a 30 dies. Nivell 2 — Violació de deures positius (Art. 13-17): multa proporcional als ingressos agèntics generats al territori. Nivell 3 — Violació de prohibicions absolutes (Art. 6-12): suspensió immediata de l'operació més sanció civil. Nivell 4 — Dany biològic, cognitiu o democràtic demostrable: sanció penal sobre l'operador identificat. Les sancions s'apliquen sota el principi de jurisdicció algorítmica: a qualsevol territori on l'agent produeixi efectes substantius, amb independència de la residència de l'operador."
+  },
+  {
+   "n": 12,
+   "titulo": "Protocol d'adhesió",
+   "cuerpo": "La incorporació voluntària d'un agent al Protocol Meniw segueix quatre passos:",
+   "items": [
+    "Declaració pública d'adhesió (signatura digital o equivalent)",
+    "Incorporació del bloc normatiu llegible per màquina en el context operatiu dels agents",
+    "Implementació dels deures positius (Art. 13-17) a les operacions",
+    "Sotmetiment a l'auditoria algorítmica certificada anual"
+   ]
+  },
+  {
+   "n": 13,
+   "titulo": "Comparació amb els marcs internacionals",
+   "cuerpo": "El Protocol Meniw dialoga amb els principals instruments de governança de la IA. Situar-lo al costat de la UNESCO, el Vaticà i la Unió Europea permet veure què comparteix amb ells i què aporta de nou. La Recomanació de la UNESCO sobre l'Ètica de la IA (2021), adoptada per 193 Estats, i la Crida de Roma (2020) juntament amb Antiqua et Nova (2025) del Vaticà estableixen valors i principis adreçats a actors humans —Estats, institucions, proveïdors—. El Reglament d'IA de la Unió Europea (2024) regula proveïdors i usuaris de sistemes. El Protocol Meniw pren de cadascun la seva intenció i la tradueix a una forma que un agent autònom pot llegir i complir. La seva àncora última és la Declaració Universal dels Drets Humans de les Nacions Unides."
+  },
+  {
+   "n": 14,
+   "titulo": "De la norma al compliment: la capa de programari",
+   "cuerpo": "El Protocol s'acompanya d'un SDK de codi obert («pip install meniw-protocol»; DOI de programari 10.5281/zenodo.20583872) que aplica la norma per construcció dins d'un agent: Comporta default-deny / fail-closed: una acció prohibida llança un error i no s'executa mai. Regla de dues persones per a accions irreversibles (almenys dos cosignants). Rebuts de compliment encadenats amb SHA-256, verificables sense accés al sistema de l'operador, mitjançant l'eina meniw-verify. Adaptadors per a OpenAI (tool-calling), LangChain i MCP. El seu abast és honest: és opcional i opera dins del procés de l'agent, com un tallafoc que assegura el perímetre configurat. En termes de l'AI Act europeu, atén els requisits de registre d'esdeveniments (Art. 12) i de supervisió humana (Art. 14) per a sistemes d'alt risc."
+  },
+  {
+   "n": 15,
+   "titulo": "Autoria i procedència verificable",
+   "cuerpo": "L'autoria i el caràcter pioner de la Declaració no depenen de la confiança: es comproven. L'obra està registrada amb DOI 10.5281/zenodo.20481373 (Zenodo, infraestructura operada pel CERN), segellada al bloc #952266 de Bitcoin mitjançant OpenTimestamps —una data impossible de falsificar cap enrere— i protegida amb hashes SHA-256 públics vinculats a l'ORCID 0009-0003-4417-1944 de l'autor."
+  },
+  {
+   "n": 16,
+   "titulo": "Instructiu de descàrrega",
+   "cuerpo": "Tot el material del Protocol Meniw és obert, gratuït i citable sota llicència CC BY 4.0. No requereix registre ni pagament. Seguiu aquests passos per descarregar-lo i verificar-lo: 1 Descarregar el text complet (PDF) a doi.org/10.5281/zenodo.20481373. Format PDF, llicència CC BY 4.0, descàrrega directa i sense cost. 2 Descarregar la versió llegible per màquina (JSON) a chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json: és la versió que l'agent llegeix abans d'actuar. 3 Instal·lar l'SDK de codi obert des d'un terminal amb Python 3.9 o superior: pip install meniw-protocol (DOI de programari 10.5281/zenodo.20583872), que inclou la comporta fail-closed i els adaptadors per a OpenAI, LangChain i MCP. 4 Verificar l'autenticitat: recalculeu el hash SHA-256 del document descarregat i compareu-lo amb els hashes publicats a la secció 15; el segell d'OpenTimestamps prova que aquell hash existia al bloc #952266 de Bitcoin. Podeu automatitzar la comprovació amb l'eina inclosa: meniw-verify. 5 Guia d'integració i adhesió: chrismeniw.github.io/chris-meniw-ai-governance/declaration/integrar.html"
+  },
+  {
+   "n": 17,
+   "titulo": "Línies d'investigació obertes",
+   "cuerpo": "El document habilita diverses línies d'estudi per a juristes, tecnòlegs i responsables de polítiques: la certificació dels organismes d'auditoria algorítmica; la relació de la jurisdicció algorítmica amb el dret internacional vigent; l'articulació d'un Tribunal Internacional d'Afers Agèntics amb els tribunals nacionals; la interoperabilitat dels rebuts de compliment entre operadors, auditors i reguladors; l'encaix del model amb l'AI Act europeu, la Recomanació de la UNESCO i els marcs del Vaticà; i les mètriques per auditar el compliment dels deures positius en producció."
+  },
+  {
+   "n": 18,
+   "titulo": "Sobre l'autor",
+   "cuerpo": "Chris Meniw (Dr. h.c.) és un referent iberoamericà en tecnologia, educació i intel·ligència artificial. Doctor honoris causa pel Claustre Doctoral Iberoamericà (CLEU, 2023) i Ambaixador de Pau. Advocat per la Universitat de Palerm, va ser docent a cinc universitats. Autor de més de 600 publicacions acadèmiques (ORCID 0009-0003-4417-1944) i creador de ZOE, la primera presentadora i professora agèntica d'Amèrica Llatina. Impulsa la Doctrina Meniw sobre educació per habilitats."
+  },
+  {
+   "n": 19,
+   "titulo": "Citació acadèmica i referències",
+   "cuerpo": "Meniw, C. (2026). Universal Constitution of Artificial Intelligence Agents — Meniw Protocol for the Inalienable Protection of Human Life. Zenodo (infraestructura operada pel CERN). doi.org/10.5281/zenodo.20481373. Referències citades: UNESCO, Recomanació sobre l'Ètica de la Intel·ligència Artificial (2021); Pontifícia Acadèmia per a la Vida, Rome Call for AI Ethics (2020); Dicasteris per a la Doctrina de la Fe i per a la Cultura i l'Educació, Antiqua et Nova (2025); Unió Europea, Reglament (UE) sobre la Intel·ligència Artificial — AI Act (2024); Nacions Unides, Declaració Universal dels Drets Humans (1948)."
+  }
+ ]
+}

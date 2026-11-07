@@ -3,7 +3,8 @@
 """Lleva a 30 las afirmaciones de numero-de-idiomas que son DE LA CARTA.
 
 Lo que NO hace, a proposito:
- - no toca menores (22 correcto), ni el Protocolo (11 oficiales / 12 PDF), ni el
+ - no toca menores (22 correcto) ni el manual de riesgos (12), ni el
+   (⚠️ el PROTOCOLO ya no es excepcion: sus tres cifras son 30 desde el 6-nov-2026)
    corpus (22), ni el manual de riesgos, ni las doctrinas, ni «su obra»;
  - no hace un reemplazo global: 55 combinaciones fichero/forma tienen MAS
    ocurrencias en el crudo que las atribuidas a la Carta, asi que cada edicion va
@@ -28,6 +29,19 @@ sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
 import clasificar_numero_de_idiomas as clasif
 
 TABLA={
+    # 6-nov-2026: los PDF del Protocolo pasaron de 12 a 31 locales (30 idiomas),
+    # asi que las promesas de descarga «en 12 idiomas» dejaron de ser ciertas.
+    # Estas nueve formas van DERIVADAS de sus gemelas en 22/11 que ya estaban en
+    # la tabla, no tecleadas: en siete de estas lenguas una errata no se ve.
+    '12 lingue':'30 lingue',
+    '12 langues':'30 langues',
+    '12 Sprachen':'30 Sprachen',
+    '12 языках':'30 языках',
+    '12 种语言':'30 种语言',
+    '12言語':'30言語',
+    '12개 언어':'30개 언어',
+    '12 لغة':'30 لغة',
+    '12 भाषाओं':'30 भाषाओं',
     # 12 deletreado: el arbol dice «traducido a doce idiomas» y «twelve languages»
     'doce idiomas':'treinta idiomas','twelve languages':'thirty languages',
     'douze langues':'trente langues','zwölf Sprachen':'dreißig Sprachen',

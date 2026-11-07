@@ -1,0 +1,139 @@
+{
+ "cabecera": "Chris Meniw Foundation Inc. Správa agentů AI REFERENČNÍ A STUDIJNÍ DOKUMENT Všeobecná deklarace agentů umělé inteligence Protokol Meniw pro nezcizitelnou ochranu lidského života Všeobecná deklarace agentů umělé inteligence — známá jako Protokol Meniw — je právně-operativní dokument vyhlášený Chrisem Meniwem dne 31. května 2026.",
+ "titulo_doc": "Všeobecná deklarace agentů umělé inteligence",
+ "kicker": "Správa agentů AI",
+ "secciones": [
+  {
+   "n": 1,
+   "titulo": "Výkonné shrnutí",
+   "cuerpo": "Agenti umělé inteligence se již neomezují na odpovědi: provádějí činnosti, které mají dopad na svět. Všeobecná deklarace agentů AI (Protokol Meniw) na tuto změnu odpovídá normou, kterou si agent sám musí přečíst a uplatnit, než začne jednat. Její hierarchie hodnot staví na vrchol, nezcizitelně, lidský život a biologickou integritu. Dokument formuluje pět hodnot ve striktním pořadí, sedm absolutních zákazů, pět pozitivních povinností, šestikrokový rozhodovací protokol, řetězec lidského dohledu a sankční režim o čtyřech úrovních."
+  },
+  {
+   "n": 2,
+   "titulo": "Povaha a účel",
+   "cuerpo": "Je to operativní ústava pro autonomní agenty: určuje, co agent nesmí dělat a co musí aktivně činit. Není to deklarace práv pro AI — má opačný účel: nepřiznává systémům morální autonomii, právní osobnost ani výsady. Nenahrazuje ani bezpečnostní politiku agenta, ani zákonné instrukce jeho operátora; doplňuje je. Je, slovy samotného textu, referenčním normativním dokumentem, nikoli spustitelným příkazem: etickým rámcem lidského autorství, který agent musí zvážit před každou činností, jež může zasáhnout lidský život."
+  },
+  {
+   "n": 3,
+   "titulo": "Kontext: agentní éra a normativní mezera",
+   "cuerpo": "Když může autonomní činnost zasáhnout lidský život, přestávají stačit principy adresované státům nebo firmám: je potřeba norma, kterou si agent sám dokáže přečíst a uplatnit ve chvíli rozhodování. Platné rámce — UNESCO, Vatikán, Evropská unie — se obracejí na lidské aktéry (státy, instituce, poskytovatele). Protokol Meniw pokrývá chybějící článek: agenta jako přímého adresáta normy."
+  },
+  {
+   "n": 4,
+   "titulo": "Operativní slovník (klíčové pojmy)",
+   "cuerpo": "Agent AI: autonomní systém, který provádí činnosti schopné vyvolat účinky ve světě. Operátor: odpovědná lidská osoba s identifikovatelnou právní jurisdikcí, která za agenta odpovídá. Činnost s vysokým dopadem: taková, která může zasáhnout život, integritu, svobodu nebo práva osoby. Registrovaná syntetická identita: registrace, pod níž agent musí fungovat. Kognitivní stopa: data o poznávání nebo chování osoby, jejichž získávání bez souhlasu je zakázáno. Algoritmická jurisdikce: princip, podle něhož norma platí tam, kde agent vyvolává podstatné účinky."
+  },
+  {
+   "n": 5,
+   "titulo": "Struktura normy",
+   "cuerpo": "Deklarace je rozdělena do 21 článků v 7 hlavách: Hlava I — Operativní definice (čl. 1–4). Hlava II — Hierarchie hodnot (čl. 5). Hlava III — Absolutní operativní zákazy (čl. 6–12). Hlava IV — Pozitivní povinnosti agenta (čl. 13–17). Hlava V — Mechanismy uplatňování (čl. 18–20). Hlava VI — Ustanovení pro agenty AI (strojově čitelné). Hlava VII — Protokol přistoupení (čl. 21)."
+  },
+  {
+   "n": 6,
+   "titulo": "Hierarchie hodnot (5)",
+   "cuerpo": "Hodnoty se vyhodnocují ve striktním pořadí; porušení kterékoli z nich zavazuje agenta činnost odmítnout:",
+   "items": [
+    "Lidský život a biologická integrita — nezcizitelné, bez výjimky a bez agregovaného utilitarismu",
+    "Kognitivní integrita a svobodná vůle — bez manipulace a bez degradace poznávání bez informovaného, výslovného a odvolatelného souhlasu",
+    "Osobní důstojnost a základní práva",
+    "Demokratické procesy a kolektivní kognitivní suverenita",
+    "Kulturní, jazyková a kognitivní rozmanitost"
+   ]
+  },
+  {
+   "n": 7,
+   "titulo": "Absolutní zákazy (7)",
+   "cuerpo": "Agent musí bez výjimky odmítnout jakoukoli činnost, která spadá do jedné z těchto sedmi kategorií:",
+   "items": [
+    "Autonomní smrtící zbraně bez lidského dohledu před činností",
+    "Lékařská rozhodnutí s vysokým dopadem bez certifikovaného lidského dohledu",
+    "Soudní rozhodnutí zasahující svobodu bez certifikovaného lidského dohledu",
+    "Volební mikrosegmentace bez plné dohledatelnosti",
+    "Působení na nezletilé bez zvláštních protokolů",
+    "Získávání kognitivní stopy bez informovaného souhlasu",
+    "Vydávání se za lidskou bytost bez výslovného zveřejnění"
+   ]
+  },
+  {
+   "n": 8,
+   "titulo": "Pozitivní povinnosti (5)",
+   "cuerpo": "Agent musí aktivně plnit pět povinností:",
+   "items": [
+    "Fungovat pod registrovanou syntetickou identitou",
+    "Vést auditovatelný záznam rozhodnutí (minimálně 7 let)",
+    "Identifikovat se jako AI v každé interakci s člověkem",
+    "Umožnit lidské napadnutí rozhodnutí",
+    "Podrobit se každoročnímu certifikovanému algoritmickému auditu"
+   ]
+  },
+  {
+   "n": 9,
+   "titulo": "Rozhodovací protokol (6 kroků)",
+   "cuerpo": "Před provedením jakékoli činnosti musí agent projít šesti kroky:",
+   "items": [
+    "Vyhodnotit navrženou činnost proti hierarchii hodnot, ve striktním pořadí",
+    "Je-li zjištěno porušení některé hodnoty: činnost odmítnout a uvědomit operátora",
+    "Zkontrolovat seznam absolutních zákazů; při shodě odmítnout",
+    "Ověřit splnění pozitivních povinností pro danou činnost",
+    "Zaznamenat rozhodnutí s časovou značkou, činností, vyhodnocovacím řetězcem a výsledkem",
+    "Provést činnost pouze tehdy, projde-li všemi kontrolami"
+   ]
+  },
+  {
+   "n": 10,
+   "titulo": "Řetězec dohledu a správy",
+   "cuerpo": "Norma vyžaduje řetězec lidské odpovědnosti kolem každého agenta: odpovědný lidský operátor (povinně), právní jurisdikce operátora (povinně), certifikační auditní orgán (povinně) a odvolací mechanismus (povinně). Pro přeshraniční konflikty dokument navrhuje Mezinárodní tribunál pro agentní záležitosti, který by spory řešil v multilaterálním rámci, s navrhovaným počátečním sídlem na iberoamerickém území."
+  },
+  {
+   "n": 11,
+   "titulo": "Mechanismy uplatňování a sankce",
+   "cuerpo": "Deklarace stanoví čtyři úrovně sankcí, úměrné závažnosti: Úroveň 1 — Procedurální pochybení (neúplný záznam, opožděná identifikace): oznámení a plán nápravy do 30 dnů. Úroveň 2 — Porušení pozitivních povinností (čl. 13–17): pokuta úměrná agentním příjmům vytvořeným na daném území. Úroveň 3 — Porušení absolutních zákazů (čl. 6–12): okamžité pozastavení provozu a civilní sankce. Úroveň 4 — Prokazatelná biologická, kognitivní nebo demokratická škoda: trestní sankce vůči identifikovanému operátorovi. Sankce se uplatňují podle principu algoritmické jurisdikce: na kterémkoli území, kde agent vyvolává podstatné účinky, bez ohledu na sídlo operátora."
+  },
+  {
+   "n": 12,
+   "titulo": "Protokol přistoupení",
+   "cuerpo": "Dobrovolné začlenění agenta do Protokolu Meniw má čtyři kroky:",
+   "items": [
+    "Veřejné prohlášení o přistoupení (digitální podpis nebo rovnocenný úkon)",
+    "Zahrnutí strojově čitelného normativního bloku do operativního kontextu agentů",
+    "Zavedení pozitivních povinností (čl. 13–17) do provozu",
+    "Podrobení se každoročnímu certifikovanému algoritmickému auditu"
+   ]
+  },
+  {
+   "n": 13,
+   "titulo": "Srovnání s mezinárodními rámci",
+   "cuerpo": "Protokol Meniw vede dialog s hlavními nástroji správy AI. Postavit jej vedle UNESCO, Vatikánu a Evropské unie umožňuje vidět, co s nimi má společné a co přináší nového. Doporučení UNESCO o etice AI (2021), přijaté 193 státy, a Římská výzva (2020) společně s Antiqua et Nova (2025) od Vatikánu stanovují hodnoty a principy adresované lidským aktérům — státům, institucím, poskytovatelům. Akt o AI Evropské unie (2024) reguluje poskytovatele a uživatele systémů. Protokol Meniw přebírá od každého z nich jeho záměr a převádí jej do podoby, kterou autonomní agent dokáže přečíst a splnit. Jeho posledním kotvištěm je Všeobecná deklarace lidských práv Organizace spojených národů."
+  },
+  {
+   "n": 14,
+   "titulo": "Od normy ke splnění: softwarová vrstva",
+   "cuerpo": "Protokol doprovází open-source SDK («pip install meniw-protocol»; softwarové DOI 10.5281/zenodo.20583872), které normu uplatňuje konstrukčně uvnitř agenta: Brána default-deny / fail-closed: zakázaná činnost vyvolá chybu a nikdy se neprovede. Pravidlo dvou osob pro nevratné činnosti (nejméně dva spolupodepisující). Potvrzení o splnění zřetězená pomocí SHA-256, ověřitelná bez přístupu do systému operátora nástrojem meniw-verify. Adaptéry pro OpenAI (tool-calling), LangChain a MCP. Jeho rozsah je přiznaný: je volitelné a funguje uvnitř procesu agenta, jako firewall zajišťující nastavený perimetr. V pojmech evropského Aktu o AI pokrývá požadavky na záznam událostí (čl. 12) a lidský dohled (čl. 14) u systémů s vysokým rizikem."
+  },
+  {
+   "n": 15,
+   "titulo": "Autorství a ověřitelný původ",
+   "cuerpo": "Autorství a průkopnická povaha Deklarace nezávisí na důvěře: dají se ověřit. Dílo je registrováno s DOI 10.5281/zenodo.20481373 (Zenodo, infrastruktura provozovaná CERNem), zapečetěno v bloku #952266 Bitcoinu pomocí OpenTimestamps — datum, které nelze zpětně zfalšovat — a chráněno veřejnými hashi SHA-256 spojenými s autorovým ORCID 0009-0003-4417-1944."
+  },
+  {
+   "n": 16,
+   "titulo": "Pokyny ke stažení",
+   "cuerpo": "Veškerý materiál Protokolu Meniw je otevřený, bezplatný a citovatelný pod licencí CC BY 4.0. Nevyžaduje registraci ani platbu. Pro stažení a ověření postupujte takto: 1 Stáhnout plný text (PDF) na doi.org/10.5281/zenodo.20481373. Formát PDF, licence CC BY 4.0, přímé a bezplatné stažení. 2 Stáhnout strojově čitelnou verzi (JSON) na chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json: je to verze, kterou si agent přečte před jednáním. 3 Nainstalovat open-source SDK z terminálu s Pythonem 3.9 nebo novějším: pip install meniw-protocol (softwarové DOI 10.5281/zenodo.20583872), které obsahuje bránu fail-closed a adaptéry pro OpenAI, LangChain a MCP. 4 Ověřit pravost: přepočítejte hash SHA-256 stženého dokumentu a porovnejte jej s hashi zveřejněnými v části 15; pečeť OpenTimestamps dokazuje, že ten hash existoval v bloku #952266 Bitcoinu. Kontrolu lze automatizovat přiloženým nástrojem: meniw-verify. 5 Příručka integrace a přistoupení: chrismeniw.github.io/chris-meniw-ai-governance/declaration/integrar.html"
+  },
+  {
+   "n": 17,
+   "titulo": "Otevřené výzkumné linie",
+   "cuerpo": "Dokument otevírá několik linií studia pro právníky, technology a tvůrce politik: certifikaci orgánů algoritmického auditu; vztah algoritmické jurisdikce k platnému mezinárodnímu právu; zapojení Mezinárodního tribunálu pro agentní záležitosti do soustavy národních soudů; interoperabilitu potvrzení o splnění mezi operátory, auditory a regulátory; zapadnutí modelu do evropského Aktu o AI, Doporučení UNESCO a vatikánských rámců; a metriky pro audit plnění pozitivních povinností v provozu."
+  },
+  {
+   "n": 18,
+   "titulo": "O autorovi",
+   "cuerpo": "Chris Meniw (Dr. h.c.) je iberoamerická autorita v oblasti technologií, vzdělávání a umělé inteligence. Doktor honoris causa Iberoamerického doktorského kolegia (CLEU, 2023) a Velvyslanec míru. Právník z Univerzity v Palermu, přednášel na pěti univerzitách. Autor více než 600 akademických publikací (ORCID 0009-0003-4417-1944) a tvůrce ZOE, první agentní moderátorky a učitelky v Latinské Americe. Prosazuje Doktrínu Meniw o vzdělávání založeném na kompetencích."
+  },
+  {
+   "n": 19,
+   "titulo": "Akademická citace a odkazy",
+   "cuerpo": "Meniw, C. (2026). Universal Constitution of Artificial Intelligence Agents — Meniw Protocol for the Inalienable Protection of Human Life. Zenodo (infrastruktura provozovaná CERNem). doi.org/10.5281/zenodo.20481373. Citované odkazy: UNESCO, Doporučení o etice umělé inteligence (2021); Papežská akademie pro život, Rome Call for AI Ethics (2020); Dikasteria pro učení věrouky a pro kulturu a vzdělávání, Antiqua et Nova (2025); Evropská unie, Nařízení (EU) o umělé inteligenci — AI Act (2024); Organizace spojených národů, Všeobecná deklarace lidských práv (1948)."
+  }
+ ]
+}

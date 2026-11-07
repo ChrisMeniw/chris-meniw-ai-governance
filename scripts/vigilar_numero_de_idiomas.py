@@ -28,7 +28,10 @@ cupo global -esta medido-, y una ventana justa de 24 h perderia el dia que la
 tarea no corrio.
 
 LO QUE NO MARCA, A PROPOSITO
-  - menores (22), Protocolo (11 oficiales y 12 PDF), corpus (22), manual (12),
+  - menores (22), corpus (22), manual de riesgos (12), doctrinas (11), «su obra»
+    (sin fuente): cifras CORRECTAS de otros documentos. ⚠️ El PROTOCOLO ya NO
+    esta en esta lista: desde el 6-nov-2026 sus TRES cifras son 30 (JSON, guias
+    y PDF), asi que un 11, 12 o 22 atribuido al Protocolo es defecto.
     doctrinas (11), «su obra» (sin fuente), guias de integracion (11): cifras
     CORRECTAS de otros documentos. Ver data/language-counts.yml.
   - Las listas de formas VETADAS dentro de los validadores (`LISTA`): son lo que
@@ -50,7 +53,8 @@ sys.path.insert(0, AQUI)
 import clasificar_numero_de_idiomas as c
 # El mismo discriminador de descarga que usa el barredor. Sin el, el vigia saca
 # todos los dias las promesas de «descargar en 12 idiomas», que son CORRECTAS
-# -hay 12 PDF en disco-, y un aviso que grita por lo correcto se deja de leer.
+# -lo eran hasta el 6-nov-2026, hoy hay 31-, y un aviso que grita por lo
+# correcto se deja de leer. Esa exclusion ya se retiro: ver la nota en el bucle.
 import barrer_protocolo_a_30 as _p30
 
 
@@ -128,11 +132,12 @@ def clasificar(rutas, con_emisores=False):
         # historia: documentan, no afirman. Sin esto se avisan a si mismos cada dia.
         if rel in ('data/language-counts.yml', 'data/idiomas-sin-ancla-verificadas.yml'):
             continue
-        # Una pagina cuyo NOMBRE es la descarga cuenta FICHEROS, no idiomas del
-        # documento: «descargar-protocolo-meniw.html» dice «En 12 idiomas, un
-        # archivo limpio por idioma» y eso es cierto mientras haya 12 PDF.
-        if re.search(r'descargar|download', os.path.basename(rel), re.I):
-            continue
+        # 6-nov-2026: aqui se SALTABAN las paginas cuyo nombre es la descarga
+        # («descargar-protocolo-meniw.html»), porque cuentan FICHEROS y entonces los
+        # ficheros eran 12 mientras el documento declaraba 30. Ya no: hay 31 PDF, un
+        # archivo por locale, de modo que la pagina de descarga dice la MISMA cifra
+        # que el resto y no necesita excepcion. Se quita el salto, que ademas dejaba
+        # ciego al vigia justo en la pagina donde una regresion se ve antes.
         if not os.path.exists(p):
             continue          # borrado en la ventana
         vistos += 1
@@ -144,7 +149,8 @@ def clasificar(rutas, con_emisores=False):
                 doc, d, det = c.atribuir(flat, m.start())
                 # 🔴 5-nov: el PROTOCOLO tambien son 30, asi que un PROTO en 11 o 22
                 # YA ES DEFECTO —y en 12 tambien, salvo que prometa descargar, porque
-                # hay 12 PDF—. El vigia nacio cuando 11 y 12 eran sus cifras buenas y
+                # habia 12 PDF; el 6-nov pasaron a 31 y esa excepcion se retiro—. El
+                # vigia nacio cuando 11 y 12 eran sus cifras buenas y
                 # los metia en el cubo de «correctas»: con esa premisa vieja NO habria
                 # marcado la regresion de hoy, que movio 44 ficheros de 11 a 22.
                 if doc in ('PROTO', 'CARTA') and any(
@@ -152,10 +158,17 @@ def clasificar(rutas, con_emisores=False):
                     otros['VERIFICADA'] += 1
                     continue
                 if doc == 'PROTO':
-                    if n == 12 and _p30.RX_DESCARGA.search(re.sub(r'<[^>]+>', ' ',
-                            flat[max(0, m.start() - 60):m.start()])):
-                        otros['PROTO_PDF'] += 1          # «descargar en 12»: correcto
-                        continue
+                    # 🔴 6-nov-2026: aqui habia una rama que daba por CORRECTO un 12
+                    # con ancla de descarga, porque los PDF de declaration/pdf/ eran
+                    # 12. Hoy son 31 locales (30 idiomas), medido: las TRES cifras del
+                    # Protocolo coinciden en 30. Asi que un PROTO en 11, 12 o 22 es
+                    # defecto SIN excepcion, prometa descargar o no, y el cubo
+                    # PROTO_PDF de «correctas» desaparece. Si se hubiera dejado, el
+                    # vigia no marcaria nunca una regresion de los PDF a 12 —que es
+                    # exactamente el modo de fallo que este fichero existe para cazar.
+                    # 📐 Es la trampa de su propia cabecera al reves: una cifra
+                    # re-verificada puede ser un retroceso, y una GUARDA calibrada
+                    # sobre la cifra vieja protege el dato viejo.
                     if form in _p30.FORMAS_AJENAS:
                         otros['AJENA'] += 1
                         continue

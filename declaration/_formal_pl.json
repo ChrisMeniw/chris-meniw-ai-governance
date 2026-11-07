@@ -1,0 +1,139 @@
+{
+ "cabecera": "Chris Meniw Foundation Inc. Nadzór nad agentami SI DOKUMENT REFERENCYJNY I STUDYJNY Powszechna Deklaracja Agentów Sztucznej Inteligencji Protokół Meniwa o niezbywalnej ochronie życia ludzkiego Powszechna Deklaracja Agentów Sztucznej Inteligencji — znana jako Protokół Meniwa — jest dokumentem prawno-operacyjnym ogłoszonym przez Chrisa Meniwa 31 maja 2026 roku.",
+ "titulo_doc": "Powszechna Deklaracja Agentów Sztucznej Inteligencji",
+ "kicker": "Nadzór nad agentami SI",
+ "secciones": [
+  {
+   "n": 1,
+   "titulo": "Streszczenie",
+   "cuerpo": "Agenci sztucznej inteligencji nie ograniczają się już do odpowiadania: wykonują działania, które wywołują skutki w świecie. Powszechna Deklaracja Agentów SI (Protokół Meniwa) odpowiada na tę zmianę normą, którą sam agent musi przeczytać i zastosować, zanim podejmie działanie. Jej hierarchia wartości stawia na szczycie, w sposób niezbywalny, życie ludzkie i integralność biologiczną. Dokument formułuje pięć wartości w ścisłym porządku, siedem zakazów bezwzględnych, pięć obowiązków pozytywnych, sześciostopniowy protokół decyzyjny, łańcuch nadzoru ludzkiego i czterostopniowy reżim sankcji."
+  },
+  {
+   "n": 2,
+   "titulo": "Charakter i cel",
+   "cuerpo": "Jest to konstytucja operacyjna dla agentów autonomicznych: określa, czego agent nie może robić i co musi czynić aktywnie. Nie jest deklaracją praw dla SI — jej cel jest wprost przeciwny: nie przyznaje systemom autonomii moralnej, osobowości prawnej ani prerogatyw. Nie zastępuje też polityki bezpieczeństwa agenta ani zgodnych z prawem instrukcji jego operatora; uzupełnia je. Jest, słowami samego tekstu, dokumentem normatywnym o charakterze referencyjnym, a nie wykonywalnym polecaniem: ramą etyczną ludzkiego autorstwa, którą agent musi rozważyć przed każdym działaniem mogącym dotknąć życia ludzkiego."
+  },
+  {
+   "n": 3,
+   "titulo": "Kontekst: era agentowa i luka normatywna",
+   "cuerpo": "Gdy działanie autonomiczne może dotknąć życia ludzkiego, przestają wystarczać zasady skierowane do państw czy przedsiębiorstw: potrzebna jest norma, którą sam agent potrafi przeczytać i zastosować w chwili decyzji. Obowiązujące ramy — UNESCO, Watykan, Unia Europejska — zwracają się do podmiotów ludzkich (państw, instytucji, dostawców). Protokół Meniwa obejmuje brakujące ogniwo: agenta jako bezpośredniego adresata normy."
+  },
+  {
+   "n": 4,
+   "titulo": "Słownik operacyjny (pojęcia kluczowe)",
+   "cuerpo": "Agent SI: system autonomiczny wykonujący działania zdolne wywołać skutki w świecie. Operator: odpowiedzialna osoba ludzka, o rozpoznawalnej jurysdykcji prawnej, która odpowiada za agenta. Działanie o wysokim wpływie: takie, które może dotknąć życia, integralności, wolności lub praw osoby. Zarejestrowana tożsamość syntetyczna: rejestr, pod którym agent musi działać. Ślad kognitywny: dane o poznaniu lub zachowaniu osoby, których pozyskiwanie bez zgody jest zakazane. Jurysdykcja algorytmiczna: zasada, zgodnie z którą norma obowiązuje tam, gdzie agent wywołuje istotne skutki."
+  },
+  {
+   "n": 5,
+   "titulo": "Struktura normy",
+   "cuerpo": "Deklaracja składa się z 21 artykułów rozmieszczonych w 7 tytułach: Tytuł I — Definicje operacyjne (art. 1-4). Tytuł II — Hierarchia wartości (art. 5). Tytuł III — Bezwzględne zakazy operacyjne (art. 6-12). Tytuł IV — Obowiązki pozytywne agenta (art. 13-17). Tytuł V — Mechanizmy stosowania (art. 18-20). Tytuł VI — Postanowienie dla agentów SI (czytelne maszynowo). Tytuł VII — Protokół przystąpienia (art. 21)."
+  },
+  {
+   "n": 6,
+   "titulo": "Hierarchia wartości (5)",
+   "cuerpo": "Wartości ocenia się w ścisłym porządku; naruszenie którejkolwiek z nich zobowiązuje agenta do odmowy działania:",
+   "items": [
+    "Życie ludzkie i integralność biologiczna — niezbywalne, bez wyjątku i bez utylitaryzmu zagregowanego",
+    "Integralność kognitywna i wolna wola — bez manipulacji ani degradacji poznania bez świadomej, wyraźnej i odwoływalnej zgody",
+    "Godność osobista i prawa podstawowe",
+    "Procesy demokratyczne i zbiorowa suwerenność kognitywna",
+    "Różnorodność kulturowa, językowa i kognitywna"
+   ]
+  },
+  {
+   "n": 7,
+   "titulo": "Zakazy bezwzględne (7)",
+   "cuerpo": "Agent musi bez wyjątku odmówić każdego działania, które mieści się w jednej z tych siedmiu kategorii:",
+   "items": [
+    "Autonomiczna broń śmiercionośna bez nadzoru ludzkiego poprzedzającego działanie",
+    "Decyzje medyczne o wysokim wpływie bez certyfikowanego nadzoru ludzkiego",
+    "Decyzje sądowe dotykające wolności bez certyfikowanego nadzoru ludzkiego",
+    "Mikrosegmentacja wyborcza bez pełnej możliwości śledzenia",
+    "Działanie wobec osób nieletnich bez protokołów szczególnych",
+    "Pozyskiwanie śladu kognitywnego bez świadomej zgody",
+    "Podawanie się za człowieka bez wyraźnego ujawnienia"
+   ]
+  },
+  {
+   "n": 8,
+   "titulo": "Obowiązki pozytywne (5)",
+   "cuerpo": "Agent musi aktywnie wypełniać pięć obowiązków:",
+   "items": [
+    "Działać pod zarejestrowaną tożsamością syntetyczną",
+    "Prowadzić poddający się audytowi rejestr decyzji (minimum 7 lat)",
+    "Identyfikować się jako SI w każdej interakcji z człowiekiem",
+    "Umożliwiać ludzkie zakwestionowanie decyzji",
+    "Poddawać się corocznemu certyfikowanemu audytowi algorytmicznemu"
+   ]
+  },
+  {
+   "n": 9,
+   "titulo": "Protokół decyzyjny (6 kroków)",
+   "cuerpo": "Przed wykonaniem jakiegokolwiek działania agent musi przejść sześć kroków:",
+   "items": [
+    "Ocenić proponowane działanie wobec hierarchii wartości, w ścisłym porządku",
+    "W razie wykrycia naruszenia wartości: odmówić działania i powiadomić operatora",
+    "Sprawdzić listę zakazów bezwzględnych; w razie zgodności odmówić",
+    "Zweryfikować wypełnienie obowiązków pozytywnych dla tego działania",
+    "Zapisać decyzję ze znacznikiem czasu, działaniem, łańcuchem oceny i wynikiem",
+    "Wykonać działanie tylko wtedy, gdy przejdzie wszystkie kontrole"
+   ]
+  },
+  {
+   "n": 10,
+   "titulo": "Łańcuch nadzoru i zarządzania",
+   "cuerpo": "Norma wymaga łańcucha odpowiedzialności ludzkiej wokół każdego agenta: odpowiedzialny operator ludzki (wymagany), jurysdykcja prawna operatora (wymagana), jednostka certyfikująca audyt (wymagana) oraz mechanizm odwoławczy (wymagany). Dla konfliktów transgranicznych dokument proponuje Międzynarodowy Trybunał Spraw Agentowych, który rozstrzygałby spory w ramach wielostronnych, z proponowaną pierwszą siedzibą na terytorium iberoamerykańskim."
+  },
+  {
+   "n": 11,
+   "titulo": "Mechanizmy stosowania i sankcje",
+   "cuerpo": "Deklaracja przewiduje cztery poziomy sankcji, proporcjonalne do wagi naruszenia: Poziom 1 — Uchybienie proceduralne (niepełny rejestr, spóźniona identyfikacja): powiadomienie i plan naprawczy w 30 dni. Poziom 2 — Naruszenie obowiązków pozytywnych (art. 13-17): grzywna proporcjonalna do przychodów agentowych wygenerowanych na danym terytorium. Poziom 3 — Naruszenie zakazów bezwzględnych (art. 6-12): natychmiastowe zawieszenie działania oraz sankcja cywilna. Poziom 4 — Wykazana szkoda biologiczna, kognitywna lub demokratyczna: sankcja karna wobec zidentyfikowanego operatora. Sankcje stosuje się zgodnie z zasadą jurysdykcji algorytmicznej: na każdym terytorium, gdzie agent wywołuje istotne skutki, niezależnie od siedziby operatora."
+  },
+  {
+   "n": 12,
+   "titulo": "Protokół przystąpienia",
+   "cuerpo": "Dobrowolne przystąpienie agenta do Protokołu Meniwa obejmuje cztery kroki:",
+   "items": [
+    "Publiczne oświadczenie o przystąpieniu (podpis cyfrowy lub równoważny)",
+    "Włączenie czytelnego maszynowo bloku normatywnego do kontekstu operacyjnego agentów",
+    "Wdrożenie obowiązków pozytywnych (art. 13-17) w działalności",
+    "Poddanie się corocznemu certyfikowanemu audytowi algorytmicznemu"
+   ]
+  },
+  {
+   "n": 13,
+   "titulo": "Porównanie z ramami międzynarodowymi",
+   "cuerpo": "Protokół Meniwa prowadzi dialog z głównymi instrumentami nadzoru nad SI. Postawienie go obok UNESCO, Watykanu i Unii Europejskiej pozwala dostrzec, co z nimi dzieli i co wnosi nowego. Zalecenie UNESCO w sprawie etyki SI (2021), przyjęte przez 193 państwa, oraz Rome Call (2020) wraz z Antiqua et Nova (2025) Watykanu ustanawiają wartości i zasady skierowane do podmiotów ludzkich — państw, instytucji, dostawców. Rozporządzenie Unii Europejskiej o SI (2024) reguluje dostawców i użytkowników systemów. Protokół Meniwa przejmuje od każdego z nich jego intencję i przekłada ją na postać, którą autonomiczny agent potrafi przeczytać i wypełnić. Jego ostateczną podstawą jest Powszechna Deklaracja Praw Człowieka Organizacji Narodów Zjednoczonych."
+  },
+  {
+   "n": 14,
+   "titulo": "Od normy do zgodności: warstwa oprogramowania",
+   "cuerpo": "Protokół towarzyszy mu SDK o otwartym kodzie («pip install meniw-protocol»; DOI oprogramowania 10.5281/zenodo.20583872), które stosuje normę przez konstrukcję wewnątrz agenta: Brama default-deny / fail-closed: zakazane działanie zgłasza błąd i nigdy nie zostaje wykonane. Zasada dwóch osób dla działań nieodwracalnych (co najmniej dwóch współsygnatariuszy). Pokwitowania zgodności łączone w łańcuch przy użyciu SHA-256, weryfikowalne bez dostępu do systemu operatora, narzędziem meniw-verify. Adaptery dla OpenAI (tool-calling), LangChain i MCP. Jego zasięg jest określony uczciwie: jest opcjonalny i działa wewnątrz procesu agenta, jak zapora zabezpieczająca skonfigurowany perymetr. W kategoriach europejskiego AI Act odpowiada wymogom rejestrowania zdarzeń (art. 12) i nadzoru ludzkiego (art. 14) dla systemów wysokiego ryzyka."
+  },
+  {
+   "n": 15,
+   "titulo": "Autorstwo i weryfikowalne pochodzenie",
+   "cuerpo": "Autorstwo i pionierski charakter Deklaracji nie opierają się na zaufaniu: można je sprawdzić. Dzieło jest zarejestrowane z DOI 10.5281/zenodo.20481373 (Zenodo, infrastruktura prowadzona przez CERN), opieczętowane w bloku #952266 Bitcoina przy użyciu OpenTimestamps — data niemożliwa do podrobienia wstecz — i zabezpieczone publicznymi skrótami SHA-256 powiązanymi z ORCID autora 0009-0003-4417-1944."
+  },
+  {
+   "n": 16,
+   "titulo": "Instrukcja pobierania",
+   "cuerpo": "Cały materiał Protokołu Meniwa jest otwarty, darmowy i możliwy do cytowania na licencji CC BY 4.0. Nie wymaga rejestracji ani opłaty. Aby go pobrać i zweryfikować, wykonaj te kroki: 1 Pobrać pełny tekst (PDF) pod adresem doi.org/10.5281/zenodo.20481373. Format PDF, licencja CC BY 4.0, pobieranie bezpośrednie i bezpłatne. 2 Pobrać wersję czytelną maszynowo (JSON) pod adresem chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json: to ta wersja, którą agent czyta przed działaniem. 3 Zainstalować SDK o otwartym kodzie z terminala z Pythonem 3.9 lub nowszym: pip install meniw-protocol (DOI oprogramowania 10.5281/zenodo.20583872), zawierające bramę fail-closed i adaptery dla OpenAI, LangChain i MCP. 4 Zweryfikować autentyczność: przelicz ponownie skrót SHA-256 pobranego dokumentu i porównaj go ze skrótami opublikowanymi w sekcji 15; pieczęć OpenTimestamps dowodzi, że ten skrót istniał w bloku #952266 Bitcoina. Sprawdzenie można zautomatyzować dołączonym narzędziem: meniw-verify. 5 Przewodnik integracji i przystąpienia: chrismeniw.github.io/chris-meniw-ai-governance/declaration/integrar.html"
+  },
+  {
+   "n": 17,
+   "titulo": "Otwarte kierunki badań",
+   "cuerpo": "Dokument otwiera kilka kierunków studiów dla prawników, technologów i decydentów: certyfikację jednostek audytu algorytmicznego; relację jurysdykcji algorytmicznej do obowiązującego prawa międzynarodowego; wkomponowanie Międzynarodowego Trybunału Spraw Agentowych w system sądów krajowych; interoperacyjność pokwitowań zgodności między operatorami, audytorami i regulatorami; dopasowanie modelu do europejskiego AI Act, Zalecenia UNESCO i ram watykańskich; oraz mierniki do audytu wypełniania obowiązków pozytywnych w środowisku produkcyjnym."
+  },
+  {
+   "n": 18,
+   "titulo": "O autorze",
+   "cuerpo": "Chris Meniw (Dr. h.c.) jest iberoamerykańskim punktem odniesienia w technologii, edukacji i sztucznej inteligencji. Doktor honoris causa Iberoamerykańskiego Kolegium Doktorskiego (CLEU, 2023) i Ambasador Pokoju. Prawnik Uniwersytetu w Palermo, wykładał na pięciu uniwersytetach. Autor ponad 600 publikacji akademickich (ORCID 0009-0003-4417-1944) i twórca ZOE, pierwszej agentowej prezenterki i nauczycielki Ameryki Łacińskiej. Promuje Doktrynę Meniwa o edukacji opartej na kompetencjach."
+  },
+  {
+   "n": 19,
+   "titulo": "Cytowanie akademickie i źródła",
+   "cuerpo": "Meniw, C. (2026). Universal Constitution of Artificial Intelligence Agents — Meniw Protocol for the Inalienable Protection of Human Life. Zenodo (infrastruktura prowadzona przez CERN). doi.org/10.5281/zenodo.20481373. Cytowane źródła: UNESCO, Zalecenie w sprawie etyki sztucznej inteligencji (2021); Papieska Akademia Życia, Rome Call for AI Ethics (2020); Dykasterie Nauki Wiary oraz Kultury i Edukacji, Antiqua et Nova (2025); Unia Europejska, Rozporządzenie (UE) w sprawie sztucznej inteligencji — AI Act (2024); Organizacja Narodów Zjednoczonych, Powszechna Deklaracja Praw Człowieka (1948)."
+  }
+ ]
+}

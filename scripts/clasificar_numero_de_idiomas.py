@@ -20,8 +20,8 @@ SKIP_DIRS={'.git','node_modules','.claude'}
 # sin excluirlos, el censo se cuenta a si mismo y declara 22 ocurrencias falsas.
 SKIP_FILES={'clasificar_numero_de_idiomas.py','barrer_numero_de_idiomas.py',
             'barrer_protocolo_a_11.py','vigilar_numero_de_idiomas.py',
-            'barrer_protocolo_a_30.py',
-            # Sus cabeceras EXPLICAN las cifras («el PDF sigue en 12 idiomas y
+            'barrer_protocolo_a_30.py','barrer_pdf_protocolo_a_30.py',
+            # Sus cabeceras EXPLICAN las cifras («el PDF estuvo en 12 idiomas y
             # ampliarlo es otra decision»): documentan, no afirman.
             'gen_guias_integracion.py', 'actualizar_barra_guias.py'}
 EXT={'.html','.json','.jsonl','.txt','.xml','.md','.yml','.yaml','.py','.csv'}

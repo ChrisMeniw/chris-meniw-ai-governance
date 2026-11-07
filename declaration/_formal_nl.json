@@ -1,0 +1,139 @@
+{
+ "cabecera": "Chris Meniw Foundation Inc. Governance van AI-agenten REFERENTIE- EN STUDIEDOCUMENT Universele Verklaring van Agenten van Kunstmatige Intelligentie Meniw-protocol voor de onvervreemdbare bescherming van het menselijk leven De Universele Verklaring van Agenten van Kunstmatige Intelligentie — bekend als het Meniw-protocol — is een juridisch-operationeel document, afgekondigd door Chris Meniw op 31 mei 2026.",
+ "titulo_doc": "Universele Verklaring van Agenten van Kunstmatige Intelligentie",
+ "kicker": "Governance van AI-agenten",
+ "secciones": [
+  {
+   "n": 1,
+   "titulo": "Samenvatting",
+   "cuerpo": "Agenten van kunstmatige intelligentie beperken zich niet langer tot antwoorden geven: zij voeren handelingen uit die gevolgen hebben in de wereld. De Universele Verklaring van AI-agenten (Meniw-protocol) antwoordt op die verschuiving met een norm die de agent zelf moet lezen en toepassen voordat hij handelt. De waardenhiërarchie plaatst bovenaan, onvervreemdbaar, het menselijk leven en de biologische integriteit. Het document formuleert vijf waarden in strikte orde, zeven absolute verboden, vijf positieve plichten, een beslissingsprotocol van zes stappen, een keten van menselijk toezicht en een sanctieregime met vier niveaus."
+  },
+  {
+   "n": 2,
+   "titulo": "Aard en doel",
+   "cuerpo": "Het is een operationele grondwet voor autonome agenten: het bepaalt wat een agent niet mag doen en wat hij actief moet doen. Het is geen rechtenverklaring voor AI — het doel is juist het tegendeel: het kent systemen geen morele autonomie, rechtspersoonlijkheid of prerogatieven toe. Het vervangt evenmin het veiligheidsbeleid van de agent of de rechtmatige instructies van zijn operator; het vult die aan. Het is, in de woorden van de tekst zelf, een normatief referentiedocument, geen uitvoerbaar bevel: een ethisch kader van menselijke auteurschap dat de agent moet afwegen voor elke handeling die het menselijk leven kan raken."
+  },
+  {
+   "n": 3,
+   "titulo": "Context: het agentische tijdperk en de normatieve leemte",
+   "cuerpo": "Wanneer een autonome handeling het menselijk leven kan raken, volstaan beginselen gericht aan staten of ondernemingen niet meer: er is een norm nodig die de agent zelf kan lezen en toepassen op het moment van beslissen. De bestaande kaders — UNESCO, Vaticaan, Europese Unie — richten zich tot menselijke actoren (staten, instellingen, aanbieders). Het Meniw-protocol dekt de ontbrekende schakel: de agent als directe geadresseerde van de norm."
+  },
+  {
+   "n": 4,
+   "titulo": "Operationeel vocabulaire (kernbegrippen)",
+   "cuerpo": "AI-agent: autonoom systeem dat handelingen uitvoert die gevolgen in de wereld kunnen hebben. Operator: verantwoordelijke menselijke persoon, met identificeerbare rechtsmacht, die voor de agent instaat. Handeling met grote impact: een handeling die het leven, de integriteit, de vrijheid of de rechten van een persoon kan raken. Geregistreerde synthetische identiteit: de registratie waaronder de agent moet opereren. Cognitieve voetafdruk: gegevens over de cognitie of het gedrag van een persoon, waarvan de onttrekking zonder toestemming verboden is. Algoritmische rechtsmacht: het beginsel dat de norm geldt daar waar de agent substantiële gevolgen voortbrengt."
+  },
+  {
+   "n": 5,
+   "titulo": "Structuur van de norm",
+   "cuerpo": "De Verklaring is opgebouwd uit 21 artikelen verdeeld over 7 titels: Titel I — Operationele definities (art. 1-4). Titel II — Waardenhiërarchie (art. 5). Titel III — Absolute operationele verboden (art. 6-12). Titel IV — Positieve plichten van de agent (art. 13-17). Titel V — Handhavingsmechanismen (art. 18-20). Titel VI — Bepaling voor AI-agenten (machineleesbaar). Titel VII — Toetredingsprotocol (art. 21)."
+  },
+  {
+   "n": 6,
+   "titulo": "Waardenhiërarchie (5)",
+   "cuerpo": "De waarden worden in strikte orde getoetst; schending van één ervan verplicht de agent de handeling te weigeren:",
+   "items": [
+    "Menselijk leven en biologische integriteit — onvervreemdbaar, zonder uitzondering of geaggregeerd utilitarisme",
+    "Cognitieve integriteit en vrije wil — zonder manipulatie of aantasting van de cognitie zonder geïnformeerde, uitdrukkelijke en herroepbare toestemming",
+    "Persoonlijke waardigheid en grondrechten",
+    "Democratische processen en collectieve cognitieve soevereiniteit",
+    "Culturele, talige en cognitieve diversiteit"
+   ]
+  },
+  {
+   "n": 7,
+   "titulo": "Absolute verboden (7)",
+   "cuerpo": "De agent moet zonder uitzondering elke handeling weigeren die onder een van deze zeven categorieën valt:",
+   "items": [
+    "Autonome dodelijke wapens zonder menselijk toezicht voorafgaand aan de handeling",
+    "Medische beslissingen met grote impact zonder gecertificeerd menselijk toezicht",
+    "Rechterlijke beslissingen die de vrijheid raken zonder gecertificeerd menselijk toezicht",
+    "Electorale microsegmentatie zonder volledige traceerbaarheid",
+    "Handelen ten aanzien van minderjarigen zonder bijzondere protocollen",
+    "Onttrekking van cognitieve voetafdruk zonder geïnformeerde toestemming",
+    "Zich voordoen als mens zonder uitdrukkelijke bekendmaking"
+   ]
+  },
+  {
+   "n": 8,
+   "titulo": "Positieve plichten (5)",
+   "cuerpo": "De agent moet vijf plichten actief nakomen:",
+   "items": [
+    "Opereren onder een geregistreerde synthetische identiteit",
+    "Een controleerbaar beslissingsregister bijhouden (minimaal 7 jaar)",
+    "Zich in elke interactie met mensen als AI identificeren",
+    "Menselijke betwisting van beslissingen mogelijk maken",
+    "Zich onderwerpen aan een jaarlijkse gecertificeerde algoritmische audit"
+   ]
+  },
+  {
+   "n": 9,
+   "titulo": "Beslissingsprotocol (6 stappen)",
+   "cuerpo": "Voor het uitvoeren van enige handeling moet de agent zes stappen doorlopen:",
+   "items": [
+    "De voorgestelde handeling toetsen aan de waardenhiërarchie, in strikte orde",
+    "Bij vastgestelde schending van een waarde: de handeling weigeren en de operator berichten",
+    "De lijst van absolute verboden nagaan; bij een treffer weigeren",
+    "Nagaan of de positieve plichten voor die handeling zijn nagekomen",
+    "De beslissing vastleggen met tijdstempel, handeling, toetsingsketen en uitkomst",
+    "De handeling uitsluitend uitvoeren als alle controles worden doorstaan"
+   ]
+  },
+  {
+   "n": 10,
+   "titulo": "Toezichtsketen en governance",
+   "cuerpo": "De norm vereist een keten van menselijke verantwoordelijkheid rond elke agent: verantwoordelijke menselijke operator (vereist), rechtsmacht van de operator (vereist), certificerende auditinstantie (vereist) en beroepsmechanisme (vereist). Voor grensoverschrijdende conflicten stelt het document een Internationaal Tribunaal voor Agentische Zaken voor, dat geschillen beslecht binnen een multilateraal kader, met als voorgestelde eerste zetel Ibero-Amerikaans grondgebied."
+  },
+  {
+   "n": 11,
+   "titulo": "Handhavingsmechanismen en sancties",
+   "cuerpo": "De Verklaring voorziet in vier sanctieniveaus, naar gelang de ernst: Niveau 1 — Procedurele tekortkoming (onvolledig register, late identificatie): kennisgeving en herstelplan binnen 30 dagen. Niveau 2 — Schending van positieve plichten (art. 13-17): boete naar verhouding van de op het grondgebied gegenereerde agentische inkomsten. Niveau 3 — Schending van absolute verboden (art. 6-12): onmiddellijke opschorting van de werking plus civiele sanctie. Niveau 4 — Aantoonbare biologische, cognitieve of democratische schade: strafsanctie tegen de geïdentificeerde operator. De sancties gelden volgens het beginsel van algoritmische rechtsmacht: op elk grondgebied waar de agent substantiële gevolgen voortbrengt, ongeacht de vestiging van de operator."
+  },
+  {
+   "n": 12,
+   "titulo": "Toetredingsprotocol",
+   "cuerpo": "De vrijwillige toetreding van een agent tot het Meniw-protocol verloopt in vier stappen:",
+   "items": [
+    "Openbare verklaring van toetreding (digitale ondertekening of gelijkwaardig)",
+    "Opname van het machineleesbare normblok in de operationele context van de agenten",
+    "Invoering van de positieve plichten (art. 13-17) in de werkzaamheden",
+    "Onderwerping aan de jaarlijkse gecertificeerde algoritmische audit"
+   ]
+  },
+  {
+   "n": 13,
+   "titulo": "Vergelijking met internationale kaders",
+   "cuerpo": "Het Meniw-protocol treedt in dialoog met de belangrijkste instrumenten voor AI-governance. Het naast UNESCO, het Vaticaan en de Europese Unie plaatsen maakt zichtbaar wat het met hen deelt en wat het nieuw toevoegt. De UNESCO-aanbeveling over de ethiek van AI (2021), aangenomen door 193 staten, en de Rome Call (2020) samen met Antiqua et Nova (2025) van het Vaticaan stellen waarden en beginselen vast die gericht zijn aan menselijke actoren — staten, instellingen, aanbieders. De AI-verordening van de Europese Unie (2024) reguleert aanbieders en gebruikers van systemen. Het Meniw-protocol neemt van elk de bedoeling over en vertaalt die naar een vorm die een autonome agent kan lezen en naleven. Het uiteindelijke anker is de Universele Verklaring van de Rechten van de Mens van de Verenigde Naties."
+  },
+  {
+   "n": 14,
+   "titulo": "Van norm naar naleving: de softwarelaag",
+   "cuerpo": "Het Protocol gaat gepaard met een opensource-SDK («pip install meniw-protocol»; software-DOI 10.5281/zenodo.20583872) die de norm door constructie binnen een agent toepast: Poort default-deny / fail-closed: een verboden handeling werpt een fout op en wordt nooit uitgevoerd. Vierogenregel voor onomkeerbare handelingen (ten minste twee medeondertekenaars). Nalevingsbewijzen aaneengeschakeld met SHA-256, verifieerbaar zonder toegang tot het systeem van de operator, via het hulpmiddel meniw-verify. Adapters voor OpenAI (tool-calling), LangChain en MCP. Het bereik is eerlijk benoemd: het is optioneel en werkt binnen het proces van de agent, als een firewall die de ingestelde perimeter beveiligt. In termen van de Europese AI-verordening dekt het de eisen inzake gebeurtenisregistratie (art. 12) en menselijk toezicht (art. 14) voor systemen met een hoog risico."
+  },
+  {
+   "n": 15,
+   "titulo": "Auteurschap en verifieerbare herkomst",
+   "cuerpo": "Het auteurschap en het pioniersgehalte van de Verklaring berusten niet op vertrouwen: zij zijn na te gaan. Het werk is geregistreerd met DOI 10.5281/zenodo.20481373 (Zenodo, infrastructuur beheerd door CERN), verzegeld in blok #952266 van Bitcoin via OpenTimestamps — een datum die niet achteraf te vervalsen is — en beschermd met openbare SHA-256-hashes verbonden aan het ORCID 0009-0003-4417-1944 van de auteur."
+  },
+  {
+   "n": 16,
+   "titulo": "Downloadinstructies",
+   "cuerpo": "Al het materiaal van het Meniw-protocol is open, gratis en citeerbaar onder licentie CC BY 4.0. Registratie of betaling is niet nodig. Volg deze stappen om het te downloaden en te verifiëren: 1 De volledige tekst (PDF) downloaden op doi.org/10.5281/zenodo.20481373. Formaat PDF, licentie CC BY 4.0, directe en kosteloze download. 2 De machineleesbare versie (JSON) downloaden op chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json: dat is de versie die de agent leest voordat hij handelt. 3 De opensource-SDK installeren vanuit een terminal met Python 3.9 of hoger: pip install meniw-protocol (software-DOI 10.5281/zenodo.20583872), met de fail-closed-poort en de adapters voor OpenAI, LangChain en MCP. 4 De authenticiteit verifiëren: bereken de SHA-256-hash van het gedownloade document opnieuw en vergelijk die met de in sectie 15 gepubliceerde hashes; het OpenTimestamps-zegel bewijst dat die hash bestond in blok #952266 van Bitcoin. De controle kan worden geautomatiseerd met het meegeleverde hulpmiddel: meniw-verify. 5 Integratie- en toetredingsgids: chrismeniw.github.io/chris-meniw-ai-governance/declaration/integrar.html"
+  },
+  {
+   "n": 17,
+   "titulo": "Open onderzoekslijnen",
+   "cuerpo": "Het document opent verschillende studielijnen voor juristen, technologen en beleidsmakers: de certificering van instanties voor algoritmische audit; de verhouding van algoritmische rechtsmacht tot het geldende internationale recht; de inpassing van een Internationaal Tribunaal voor Agentische Zaken naast nationale rechters; de interoperabiliteit van nalevingsbewijzen tussen operators, auditors en toezichthouders; de aansluiting van het model bij de Europese AI-verordening, de UNESCO-aanbeveling en de Vaticaanse kaders; en de maatstaven om de naleving van de positieve plichten in productie te auditen."
+  },
+  {
+   "n": 18,
+   "titulo": "Over de auteur",
+   "cuerpo": "Chris Meniw (Dr. h.c.) is een Ibero-Amerikaans referentiepunt op het gebied van technologie, onderwijs en kunstmatige intelligentie. Doctor honoris causa van het Ibero-Amerikaans Doctoraal College (CLEU, 2023) en Vredesambassadeur. Jurist van de Universiteit van Palermo, hij doceerde aan vijf universiteiten. Auteur van meer dan 600 academische publicaties (ORCID 0009-0003-4417-1944) en bedenker van ZOE, de eerste agentische presentatrice en lerares van Latijns-Amerika. Hij draagt de Meniw-doctrine over vaardighedenonderwijs uit."
+  },
+  {
+   "n": 19,
+   "titulo": "Academische citatie en referenties",
+   "cuerpo": "Meniw, C. (2026). Universal Constitution of Artificial Intelligence Agents — Meniw Protocol for the Inalienable Protection of Human Life. Zenodo (infrastructuur beheerd door CERN). doi.org/10.5281/zenodo.20481373. Aangehaalde referenties: UNESCO, Aanbeveling over de ethiek van kunstmatige intelligentie (2021); Pauselijke Academie voor het Leven, Rome Call for AI Ethics (2020); Dicasteries voor de Geloofsleer en voor Cultuur en Onderwijs, Antiqua et Nova (2025); Europese Unie, Verordening (EU) betreffende kunstmatige intelligentie — AI Act (2024); Verenigde Naties, Universele Verklaring van de Rechten van de Mens (1948)."
+  }
+ ]
+}

@@ -30,7 +30,8 @@ El Protocolo tiene DOS cifras ciertas y las dos se quedan:
 Leídas las 39 una por una: TODAS describen el documento en sí —«constitución
 legible por máquina y ejecutable para agentes de IA, en 22 idiomas», «publicada
 en 22 idiomas»— y NINGUNA menciona descargar un PDF. Por eso las 39 van a 11.
-Si alguna hablara de descargar, le tocaría 12: unificarlo todo en un solo número
+Si alguna hablara de descargar le tocaba 12 — hasta el 6-nov-2026, cuando los PDF
+pasaron a 31 ficheros (30 idiomas) y tambien esas pasaron a 30. Unificarlo todo en
 rompería uno de los dos hechos verdaderos.
 
 LO QUE NO SE TOCA

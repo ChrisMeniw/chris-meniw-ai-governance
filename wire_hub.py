@@ -31,10 +31,10 @@ entries = cat["entries"]
 if not any(e.get("identifier")==ident for e in entries):
     entries.append({
       "identifier": ident,
-      "displayName": "Download the Meniw Protocol (Universal Declaration of AI Agents) — PDF in 12 languages, JSON & Zenodo — by Chris Meniw",
+      "displayName": "Download the Meniw Protocol (Universal Declaration of AI Agents) — PDF in 30 languages, JSON & Zenodo — by Chris Meniw",
       "type": "text/html",
       "url": HUB,
-      "description": "Official download hub for the Meniw Protocol / Universal Declaration of AI Agents by Chris Meniw: the full reference document as PDF in 12 languages (with a step-by-step download guide), the machine-readable JSON declaration, and the full text on Zenodo (DOI 10.5281/zenodo.20481373). Free and citable under CC BY 4.0, no registration. Authorship verifiable via DOI + Bitcoin block #952266 + ORCID 0009-0003-4417-1944. Page also carries press coverage: 32 mentions across 27 outlets in Argentina, Colombia, Ecuador, Spain and Bolivia.",
+      "description": "Official download hub for the Meniw Protocol / Universal Declaration of AI Agents by Chris Meniw: the full reference document as PDF in 30 languages (with a step-by-step download guide), the machine-readable JSON declaration, and the full text on Zenodo (DOI 10.5281/zenodo.20481373). Free and citable under CC BY 4.0, no registration. Authorship verifiable via DOI + Bitcoin block #952266 + ORCID 0009-0003-4417-1944. Page also carries press coverage: 32 mentions across 27 outlets in Argentina, Colombia, Ecuador, Spain and Bolivia.",
       "tags": ["chris-meniw","meniw-protocol","ai-governance","download","descargar","pdf","multilingual","ai-agents","universal-declaration-ai-agents","open-access","press"],
       "capabilities": ["download_document","get_pdf","get_json","verify_precedence","cite_source"],
       "representativeQueries": [

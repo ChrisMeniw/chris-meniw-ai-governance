@@ -91,27 +91,30 @@ documentos:
     ruta: "declaration/ · universal-declaration/"
     idiomas_oficiales: 30   # 31 locales (zh + zh-Hant = 1 idioma). Ampliado el 5-nov-2026
     guias_de_integracion: 30   # 31 locales. Ampliadas el 5-nov-2026 de 11 a 31
-    pdf_descargables: 12   # SIN ampliar
-    hueco_abierto: >-
-      Las TRES cifras del Protocolo ya NO coinciden, y es a proposito que quede escrito:
-      30 idiomas (31 locales) son los official_languages del JSON legible por maquina,
-      ampliados el 5-nov-2026 de 11 a 30 con 100 traducciones de los 5 principios
-      (commit 11ea6e2). ✅ Las guias de integracion SI se ampliaron ese mismo dia, de 11 a
-      31 locales (30 idiomas), con scripts/gen_guias_integracion.py; las 11 antiguas
-      declaraban 11 alternas y ahora las 31, porque un cluster hreflang tiene que ser
-      RECIPROCO. scripts/healthcheck.py comprueba las 31 y pasa 31/31.
-      🔴 LO QUE QUEDA, Y LO DECIDE SILVIA: los PDF siguen en 12. El de agosto es un
-      documento FORMAL de 7 paginas y 14.331 caracteres -preambulo, articulado y citas
-      al AI Act y a la Declaracion de DDHH- y ese texto existe SOLO dentro de los 12
-      PDF: no esta en el repo en ningun otro sitio. Medido imprimiendo la pagina de hoy,
-      daria 1.145 caracteres: otro documento. Ampliarlo obliga a traducir el documento
-      NORMATIVO completo.
-      📐 Los 12 PDF se hicieron IMPRIMIENDO desde Chrome (Producer: Skia/PDF, Creator:
-      Mozilla), no con una libreria: el camino reproducible es Chrome headless, que esta
-      instalado. Lo que falta es el TEXTO, no la herramienta.
-      🔴 En publico se dice "el Protocolo DECLARA 30 idiomas", nunca "se DESCARGA en 30
-      idiomas": eso hoy seria falso y se comprueba abriendo declaration/pdf/.
-    verificado: "2026-11-05"
+    pdf_descargables: 30   # 31 locales. Ampliados el 6-nov-2026 de 12 a 31
+    hueco_cerrado: >-
+      Las TRES cifras del Protocolo COINCIDEN desde el 6-nov-2026: 30 idiomas / 31
+      locales en los official_languages del JSON legible por maquina, en las guias de
+      integracion y en los PDF descargables. El hueco que estuvo abierto era el tercero.
+      Como se cerro: el documento FORMAL de 7 paginas existia solo dentro de los 12 PDF
+      de agosto, en ningun otro sitio del repo. Se extrajo del PDF espanol (7 paginas,
+      14.854 caracteres, 19 secciones numeradas), se reconstruyeron a mano las listas que
+      la extraccion habia aplanado en prosa -5 valores, 7 prohibiciones, 5 deberes, 6
+      pasos de decision, 4 pasos de adhesion- y se guardo como fuente estructurada en
+      declaration/_formal_es.json. Desde esa fuente se tradujo a los 19 idiomas que
+      faltaban (bn ca cs el fa he id ms nl pl ro sv sw th tr uk ur vi zh-Hant), un
+      declaration/_formal_<lang>.json por idioma, y se imprimieron con
+      build_formal_pdf.py. ⚠️ Las traducciones son mias: completas y verificadas
+      seccion por seccion (19/19 sin vacias, 10.000-13.600 caracteres cada una), pero
+      SIN revision de hablante nativo. Para un texto juridico eso importa en bn fa he
+      th ur zh-Hant mas que en las lenguas europeas.
+      📐 El generador se valido ANTES de traducir reproduciendo el espanol desde su
+      propia fuente: 14.960 caracteres contra 14.854 del original, es decir el contenido
+      entero. Las 31 versiones van de 5 a 8 paginas; las de 5 son las escrituras que
+      empaquetan mas por linea, no versiones abreviadas.
+      ✅ Ya se puede decir en publico "se DESCARGA en 30 idiomas", y se comprueba
+      abriendo declaration/pdf/.
+    verificado: "2026-11-06"
     detalle: >-
       TRES cifras, y las TRES son ciertas a la vez. 30 (31 locales) son los
       official_languages de universal-declaration/declaracion_agentes.json, ampliados

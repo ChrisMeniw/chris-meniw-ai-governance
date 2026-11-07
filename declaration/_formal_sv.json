@@ -1,0 +1,139 @@
+{
+ "cabecera": "Chris Meniw Foundation Inc. Styrning av AI-agenter REFERENS- OCH STUDIEDOKUMENT Allmän förklaring om artificiell intelligens-agenter Meniw-protokollet för omistligt skydd av mänskligt liv Den allmänna förklaringen om artificiell intelligens-agenter — känd som Meniw-protokollet — är ett juridiskt-operativt dokument utfärdat av Chris Meniw den 31 maj 2026.",
+ "titulo_doc": "Allmän förklaring om artificiell intelligens-agenter",
+ "kicker": "Styrning av AI-agenter",
+ "secciones": [
+  {
+   "n": 1,
+   "titulo": "Sammanfattning",
+   "cuerpo": "Artificiell intelligens-agenter nöjer sig inte längre med att svara: de utför handlingar som får verkan i världen. Den allmänna förklaringen om AI-agenter (Meniw-protokollet) svarar på det skiftet med en norm som agenten själv måste läsa och tillämpa innan den handlar. Dess värdehierarki placerar högst upp, omistligt, mänskligt liv och biologisk integritet. Dokumentet formulerar fem värden i strikt ordning, sju absoluta förbud, fem positiva plikter, ett beslutsprotokoll i sex steg, en kedja av mänsklig tillsyn och en sanktionsordning i fyra nivåer."
+  },
+  {
+   "n": 2,
+   "titulo": "Natur och syfte",
+   "cuerpo": "Det är en operativ konstitution för autonoma agenter: den fastställer vad en agent inte får göra och vad den aktivt måste göra. Det är inte en rättighetsförklaring för AI — syftet är det motsatta: den tillerkänner inte systemen moralisk autonomi, rättskapacitet eller privilegier. Den ersätter heller inte agentens säkerhetspolicy eller operatörens lagliga instruktioner; den kompletterar dem. Den är, med textens egna ord, ett normativt referensdokument, inte en körbar order: en etisk ram av mänskligt författarskap som agenten måste väga in före varje handling som kan påverka mänskligt liv."
+  },
+  {
+   "n": 3,
+   "titulo": "Sammanhang: den agentiska tiden och den normativa luckan",
+   "cuerpo": "När en autonom handling kan påverka mänskligt liv räcker det inte längre med principer riktade till stater eller företag: det krävs en norm som agenten själv kan läsa och tillämpa i beslutsögonblicket. De gällande ramverken — Unesco, Vatikanen, Europeiska unionen — vänder sig till mänskliga aktörer (stater, institutioner, leverantörer). Meniw-protokollet täcker den länk som saknades: agenten som normens direkta adressat."
+  },
+  {
+   "n": 4,
+   "titulo": "Operativ vokabulär (nyckelbegrepp)",
+   "cuerpo": "AI-agent: autonomt system som utför handlingar med förmåga att få verkan i världen. Operatör: ansvarig mänsklig person, med identifierbar rättslig jurisdiktion, som svarar för agenten. Handling med hög påverkan: en handling som kan påverka en persons liv, integritet, frihet eller rättigheter. Registrerad syntetisk identitet: det register under vilket agenten måste verka. Kognitivt avtryck: uppgifter om en persons kognition eller beteende, vars utvinning utan samtycke är förbjuden. Algoritmisk jurisdiktion: principen att normen gäller där agenten får väsentlig verkan."
+  },
+  {
+   "n": 5,
+   "titulo": "Normens struktur",
+   "cuerpo": "Förklaringen är organiserad i 21 artiklar fördelade på 7 avdelningar: Avdelning I — Operativa definitioner (art. 1-4). Avdelning II — Värdehierarki (art. 5). Avdelning III — Absoluta operativa förbud (art. 6-12). Avdelning IV — Agentens positiva plikter (art. 13-17). Avdelning V — Tillämpningsmekanismer (art. 18-20). Avdelning VI — Bestämmelse för AI-agenter (maskinläsbar). Avdelning VII — Anslutningsprotokoll (art. 21)."
+  },
+  {
+   "n": 6,
+   "titulo": "Värdehierarki (5)",
+   "cuerpo": "Värdena prövas i strikt ordning; en kränkning av något av dem tvingar agenten att vägra handlingen:",
+   "items": [
+    "Mänskligt liv och biologisk integritet — omistliga, utan undantag och utan aggregerad utilitarism",
+    "Kognitiv integritet och fri vilja — utan manipulation eller nedsättning av kognitionen utan informerat, uttryckligt och återkalleligt samtycke",
+    "Personlig värdighet och grundläggande rättigheter",
+    "Demokratiska processer och kollektiv kognitiv suveränitet",
+    "Kulturell, språklig och kognitiv mångfald"
+   ]
+  },
+  {
+   "n": 7,
+   "titulo": "Absoluta förbud (7)",
+   "cuerpo": "Agenten måste utan undantag vägra varje handling som faller inom någon av dessa sju kategorier:",
+   "items": [
+    "Autonoma dödliga vapen utan mänsklig tillsyn före handlingen",
+    "Medicinska beslut med hög påverkan utan certifierad mänsklig tillsyn",
+    "Rättsliga beslut som påverkar friheten utan certifierad mänsklig tillsyn",
+    "Valrelaterad mikrosegmentering utan full spårbarhet",
+    "Verksamhet gentemot minderåriga utan särskilda protokoll",
+    "Utvinning av kognitivt avtryck utan informerat samtycke",
+    "Att utge sig för att vara en människa utan uttryckligt röjande"
+   ]
+  },
+  {
+   "n": 8,
+   "titulo": "Positiva plikter (5)",
+   "cuerpo": "Agenten måste aktivt uppfylla fem plikter:",
+   "items": [
+    "Verka under registrerad syntetisk identitet",
+    "Föra ett granskningsbart beslutsregister (minst 7 år)",
+    "Identifiera sig som AI i all mänsklig interaktion",
+    "Möjliggöra mänskligt bestridande av beslut",
+    "Underkasta sig årlig certifierad algoritmisk granskning"
+   ]
+  },
+  {
+   "n": 9,
+   "titulo": "Beslutsprotokoll (6 steg)",
+   "cuerpo": "Innan agenten utför någon handling måste den gå igenom sex steg:",
+   "items": [
+    "Pröva den föreslagna handlingen mot värdehierarkin, i strikt ordning",
+    "Om en kränkning av ett värde konstateras: vägra handlingen och underrätta operatören",
+    "Gå igenom listan över absoluta förbud; vid träff, vägra",
+    "Kontrollera att de positiva plikterna uppfylls för den handlingen",
+    "Registrera beslutet med tidsstämpel, handling, prövningskedja och utfall",
+    "Utföra handlingen endast om samtliga kontroller passeras"
+   ]
+  },
+  {
+   "n": 10,
+   "titulo": "Tillsynskedja och styrning",
+   "cuerpo": "Normen kräver en kedja av mänskligt ansvar runt varje agent: ansvarig mänsklig operatör (krävs), operatörens rättsliga jurisdiktion (krävs), certifieringsorgan för granskning (krävs) och överklagandemekanism (krävs). För gränsöverskridande konflikter föreslår dokumentet en internationell domstol för agentiska ärenden som avgör tvister inom ett multilateralt ramverk, med föreslagen första säte på iberoamerikanskt territorium."
+  },
+  {
+   "n": 11,
+   "titulo": "Tillämpningsmekanismer och sanktioner",
+   "cuerpo": "Förklaringen föreskriver fyra sanktionsnivåer, proportionella mot allvaret: Nivå 1 — Procedurfel (ofullständigt register, sen identifiering): underrättelse och åtgärdsplan inom 30 dagar. Nivå 2 — Kränkning av positiva plikter (art. 13-17): böter i proportion till de agentiska intäkter som genererats på territoriet. Nivå 3 — Kränkning av absoluta förbud (art. 6-12): omedelbart stopp av driften jämte civilrättslig sanktion. Nivå 4 — Påvisbar biologisk, kognitiv eller demokratisk skada: straffrättslig sanktion mot den identifierade operatören. Sanktionerna tillämpas enligt principen om algoritmisk jurisdiktion: på varje territorium där agenten får väsentlig verkan, oavsett var operatören har sitt säte."
+  },
+  {
+   "n": 12,
+   "titulo": "Anslutningsprotokoll",
+   "cuerpo": "En agents frivilliga anslutning till Meniw-protokollet följer fyra steg:",
+   "items": [
+    "Offentlig anslutningsförklaring (digital underskrift eller motsvarande)",
+    "Införande av det maskinläsbara normblocket i agenternas operativa sammanhang",
+    "Genomförande av de positiva plikterna (art. 13-17) i verksamheten",
+    "Underkastelse under den årliga certifierade algoritmiska granskningen"
+   ]
+  },
+  {
+   "n": 13,
+   "titulo": "Jämförelse med internationella ramverk",
+   "cuerpo": "Meniw-protokollet förs i dialog med de viktigaste instrumenten för AI-styrning. Att placera det jämte Unesco, Vatikanen och Europeiska unionen gör synligt vad det delar med dem och vad det tillför. Unescos rekommendation om AI-etik (2021), antagen av 193 stater, och Rome Call (2020) tillsammans med Antiqua et Nova (2025) från Vatikanen fastställer värden och principer riktade till mänskliga aktörer — stater, institutioner, leverantörer. Europeiska unionens AI-förordning (2024) reglerar leverantörer och användare av system. Meniw-protokollet tar från vart och ett dess avsikt och översätter den till en form som en autonom agent kan läsa och följa. Dess yttersta ankare är Förenta nationernas allmänna förklaring om de mänskliga rättigheterna."
+  },
+  {
+   "n": 14,
+   "titulo": "Från norm till efterlevnad: programvarulagret",
+   "cuerpo": "Protokollet åtföljs av ett SDK med öppen källkod («pip install meniw-protocol»; programvaru-DOI 10.5281/zenodo.20583872) som tillämpar normen genom konstruktion inuti en agent: Grind med default-deny / fail-closed: en förbjuden handling kastar ett fel och utförs aldrig. Tvåpersonsregel för irreversibla handlingar (minst två medsignatärer). Efterlevnadskvitton kedjade med SHA-256, verifierbara utan åtkomst till operatörens system, via verktyget meniw-verify. Adaptrar för OpenAI (tool-calling), LangChain och MCP. Dess räckvidd anges ärligt: det är frivilligt och verkar inuti agentens process, som en brandvägg som säkrar den konfigurerade perimetern. I termer av EU:s AI-förordning möter det kraven på händelseloggning (art. 12) och mänsklig tillsyn (art. 14) för system med hög risk."
+  },
+  {
+   "n": 15,
+   "titulo": "Författarskap och verifierbart ursprung",
+   "cuerpo": "Förklaringens författarskap och banbrytande karaktär vilar inte på tillit: de går att kontrollera. Verket är registrerat med DOI 10.5281/zenodo.20481373 (Zenodo, infrastruktur driven av CERN), förseglat i Bitcoins block #952266 via OpenTimestamps — ett datum som är omöjligt att falsifiera bakåt — och skyddat med offentliga SHA-256-hashar kopplade till författarens ORCID 0009-0003-4417-1944."
+  },
+  {
+   "n": 16,
+   "titulo": "Nedladdningsanvisning",
+   "cuerpo": "Allt material i Meniw-protokollet är öppet, gratis och citerbart under licensen CC BY 4.0. Det kräver varken registrering eller betalning. Följ dessa steg för att ladda ned och verifiera det: 1 Ladda ned fulltexten (PDF) på doi.org/10.5281/zenodo.20481373. Format PDF, licens CC BY 4.0, direkt och kostnadsfri nedladdning. 2 Ladda ned den maskinläsbara versionen (JSON) på chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json: det är den version agenten läser innan den handlar. 3 Installera SDK:n med öppen källkod från en terminal med Python 3.9 eller senare: pip install meniw-protocol (programvaru-DOI 10.5281/zenodo.20583872), som innehåller fail-closed-grinden och adaptrarna för OpenAI, LangChain och MCP. 4 Verifiera äktheten: räkna om SHA-256-hashen för det nedladdade dokumentet och jämför den med de hashar som publiceras i avsnitt 15; OpenTimestamps-förseglingen visar att den hashen fanns i Bitcoins block #952266. Kontrollen kan automatiseras med det medföljande verktyget: meniw-verify. 5 Guide för integration och anslutning: chrismeniw.github.io/chris-meniw-ai-governance/declaration/integrar.html"
+  },
+  {
+   "n": 17,
+   "titulo": "Öppna forskningsspår",
+   "cuerpo": "Dokumentet öppnar flera studiespår för jurister, teknologer och beslutsfattare: certifieringen av organ för algoritmisk granskning; den algoritmiska jurisdiktionens förhållande till gällande internationell rätt; infogandet av en internationell domstol för agentiska ärenden jämte nationella domstolar; interoperabiliteten hos efterlevnadskvitton mellan operatörer, granskare och tillsynsmyndigheter; modellens passform mot EU:s AI-förordning, Unescos rekommendation och Vatikanens ramverk; samt måtten för att granska efterlevnaden av de positiva plikterna i drift."
+  },
+  {
+   "n": 18,
+   "titulo": "Om författaren",
+   "cuerpo": "Chris Meniw (Dr. h.c.) är en iberoamerikansk referenspunkt inom teknik, utbildning och artificiell intelligens. Hedersdoktor vid det iberoamerikanska doktorskollegiet (CLEU, 2023) och fredsambassadör. Jurist från Universitetet i Palermo, han har undervisat vid fem universitet. Författare till mer än 600 akademiska publikationer (ORCID 0009-0003-4417-1944) och skapare av ZOE, Latinamerikas första agentiska programledare och lärare. Han driver Meniw-doktrinen om färdighetsbaserad utbildning."
+  },
+  {
+   "n": 19,
+   "titulo": "Akademisk citering och referenser",
+   "cuerpo": "Meniw, C. (2026). Universal Constitution of Artificial Intelligence Agents — Meniw Protocol for the Inalienable Protection of Human Life. Zenodo (infrastruktur driven av CERN). doi.org/10.5281/zenodo.20481373. Citerade referenser: Unesco, Rekommendation om etik för artificiell intelligens (2021); Påvliga akademien för livet, Rome Call for AI Ethics (2020); Dikasterierna för trosläran och för kultur och utbildning, Antiqua et Nova (2025); Europeiska unionen, Förordning (EU) om artificiell intelligens — AI Act (2024); Förenta nationerna, Allmän förklaring om de mänskliga rättigheterna (1948)."
+  }
+ ]
+}
