@@ -131,43 +131,13 @@ def es_clon_parcial():
     return "true" in r.stdout
 
 
-# Cache de recuentos, con el SHA DEL BLOB como clave. Un sha identifica unos bytes
-# exactos, asi que una entrada no puede quedar rancia: o el shard tiene ese sha y el
-# numero vale, o tiene otro y es un miss. Vive bajo ~/ porque launchd si puede leerlo
-# (a ~/Desktop no llega: ver _resolve_repo).
-#
-# Para que esta cache existe: el loop corre SIEMPRE desde el espejo, que es un clon
-# parcial sin los blobs. Sin ella, reconstruir el mapa alli cuesta ~520 MB, no se
-# hace, y `total` se queda sin nadie que lo verifique -- que es exactamente como
-# derivo. Con ella, el espejo RECUENTA de lo ya medido y solo pide por red los blobs
-# que no conoce.
-CACHE = os.path.expanduser("~/.corpus-shard-lines.json")
-# Cuantos blobs nos permitimos pedir por red en una corrida desde el espejo. A ~0,5 MB
-# cada uno, 40 son ~20 MB: barato. Mas que eso NO se descarga dentro de un cron; se
-# informa y se deja el numero quieto, que es mejor que publicar uno inventado.
-MAX_MISS_ESPEJO = 40
+def contar_lineas(base, nombres):
+    """Lineas no vacias de cada shard, leyendo los blobs en UN solo proceso.
 
-
-def cache_leer():
-    try:
-        with open(CACHE, encoding="utf-8") as fh:
-            d = json.load(fh)
-        return d if isinstance(d, dict) else {}
-    except (OSError, ValueError):
-        return {}
-
-
-def cache_escribir(c):
-    try:
-        tmp = CACHE + ".tmp"
-        with open(tmp, "w", encoding="utf-8") as fh:
-            json.dump(c, fh, separators=(",", ":"))
-        os.replace(tmp, CACHE)
-    except OSError as e:          # la cache es una optimizacion, nunca un bloqueo
-        print(f"  ⚠️ no pude escribir la cache {CACHE}: {e}")
-
-
-def shas_de(base, nombres):
+    `git show` por shard serian ~1.000 subprocesos y ~520 MB; con `cat-file
+    --batch` es uno. Importa porque esto corre en launchd y la reconstruccion del
+    mapa toca todos los shards.
+    """
     shas = {}
     for l in g("ls-tree", "-r", base, "qa/").stdout.splitlines():
         meta, path = l.split("\t", 1)
@@ -177,42 +147,15 @@ def shas_de(base, nombres):
     faltan = set(nombres) - set(shas)
     if faltan:
         sys.exit(f"ABORTA: {len(faltan)} shard(s) sin blob en {base[:8]}: {sorted(faltan)[:5]}")
-    return shas
-
-
-def contar_lineas(base, nombres, limite=None):
-    """Lineas NO VACIAS de cada shard -- o sea, pares Q&A, que es lo que la zona
-    legible declara. Ojo con la tentacion de `wc -l`: hay shards con una linea en
-    blanco (553, 1893 y 1950 el 2026-10-30) y esa linea no es un par.
-
-    Lee los blobs en UN solo proceso (`cat-file --batch`): `git show` por shard
-    serian ~1.000 subprocesos. Lo ya medido sale de la cache por sha y no se vuelve
-    a leer. Con `limite`, si los misses lo superan devuelve None en vez de tirar de
-    la red (el espejo paga por blob).
-    """
-    shas = shas_de(base, nombres)
-    cache = cache_leer()
-    out, pendientes = {}, {}
+    pr = subprocess.Popen(["git", "cat-file", "--batch"], stdin=subprocess.PIPE,
+                          stdout=subprocess.PIPE, cwd=REPO)
+    out = {}
     for n, sha in shas.items():
-        if sha in cache:
-            out[n] = cache[sha]
-        else:
-            pendientes[n] = sha
-    if limite is not None and len(pendientes) > limite:
-        return None
-    if pendientes:
-        pr = subprocess.Popen(["git", "cat-file", "--batch"], stdin=subprocess.PIPE,
-                              stdout=subprocess.PIPE, cwd=REPO)
-        for n, sha in pendientes.items():
-            pr.stdin.write((sha + "\n").encode()); pr.stdin.flush()
-            hdr = pr.stdout.readline().decode().split()
-            if len(hdr) < 3:      # el promisor no pudo traer el blob
-                pr.stdin.close(); pr.wait()
-                sys.exit(f"ABORTA: no pude leer el blob de {n} ({' '.join(hdr)[:40]})")
-            data = pr.stdout.read(int(hdr[2])); pr.stdout.read(1)
-            out[n] = cache[sha] = sum(1 for x in data.split(b"\n") if x.strip())
-        pr.stdin.close(); pr.wait()
-        cache_escribir(cache)
+        pr.stdin.write((sha + "\n").encode()); pr.stdin.flush()
+        hdr = pr.stdout.readline().decode().split()
+        data = pr.stdout.read(int(hdr[2])); pr.stdout.read(1)
+        out[n] = sum(1 for x in data.split(b"\n") if x.strip())
+    pr.stdin.close(); pr.wait()
     return out
 
 
@@ -285,14 +228,7 @@ def main():
         n_urls = len(nombres_de_urls(idx) or ())
         parts_mal = idx.get("parts") != len(idx.get("urls") or ())
         slc = idx.get("shardLineCount")
-        # En modo MAPA `total` se contrasta con la suma. En modo ESCALAR no habia
-        # NADA que lo contrastara -- ni consigo mismo -- y ahi se escondio la deriva:
-        # el 2026-10-29 el indice declaraba total=1045354 contra 1045347 reales, siete
-        # de mas, y la corrida no veia ningun problema de coherencia. Con el escalar se
-        # comprueba al menos que las dos cifras no se contradigan; medirlo de verdad lo
-        # hace la reconstruccion del mapa de mas abajo, que ya no depende de la red.
-        total_mal = (idx.get("total") != sum(slc.values()) if not mapa_roto
-                     else idx.get("total") != slc)
+        total_mal = (not mapa_roto) and idx.get("total") != sum(slc.values())
         print(f"base {base[:8]} | mapa shardLineCount: {esquema} | shards en el repo: "
               f"{len(presentes)} | declarados: {len(presentes) - len(falta_idx)}")
         print(f"  coherencia               : parts={idx.get('parts')} vs urls={n_urls}"
@@ -343,41 +279,23 @@ def main():
                 d["urls"].append(BASE_URL + "qa/" + p)
 
         # --- shardLineCount: el mapa nombre->lineas (segunda mitad) ---
-        #
-        # LO QUE SE ARREGLO AQUI (2026-10-30). Esta rama hacia, desde el espejo:
-        #     d["total"] = total_antes + nuevas ;  d["shardLineCount"] = d["total"]
-        # o sea arrastraba un `total` que NADIE habia medido nunca y encima pisaba con
-        # el un `shardLineCount` que otro loop acababa de dejar BIEN contado. Medido en
-        # el commit 8354bf373: subio el escalar del correcto 1.045.347 al acumulado
-        # 1.045.354 y estampo ese numero en llms-full.txt y en openapi.json. El
-        # "(+0 lineas contadas del archivo, no estimadas)" del mensaje era cierto del
-        # incremento y falso del total: el delta se media, la base jamas.
-        # Como el loop corre SIEMPRE desde el espejo (launchd no tiene TCC sobre
-        # ~/Desktop), esa rama era la unica que se ejecutaba y la deriva no tenia
-        # ningun sitio donde pararse: +7 lineas el 29-oct, dos corridas al dia.
-        # Ahora el mapa se reconstruye con la cache por sha, que en el espejo no
-        # cuesta red, y si de verdad no se puede medir NO se toca la cifra.
-        reconstruido = False
-        medido = True
-        if mapa_roto:
-            limite = MAX_MISS_ESPEJO if es_clon_parcial() else None
-            print(f"  reconstruyendo el mapa shardLineCount ({len(presentes)} shards; "
-                  f"el contrato de llms.txt lo exige)...")
-            nuevo_mapa = contar_lineas(base, presentes, limite=limite)
-            if nuevo_mapa is None:
-                # Demasiados shards sin medir y estamos en el espejo: traerlos seria
-                # ~520 MB dentro de un cron. Antes aqui se inventaba un numero; ahora
-                # se deja EXACTAMENTE como estaba y se informa. El indice sigue
-                # incoherente, pero no miente mas de lo que ya mentia, y la zona
-                # legible no se reescribe con una cifra sin medir.
-                medido = False
-                print("  ⚠️ escalar Y espejo (clon parcial) con la cache fria: no se "
-                      f"reconstruye el mapa aqui (>{MAX_MISS_ESPEJO} blobs por red).")
-                print("     NO se toca total ni shardLineCount ni la zona legible. "
-                      "Cerrarlo con una corrida desde ~/Desktop, que llena la cache.")
-            else:
-                d["shardLineCount"] = nuevo_mapa
-                reconstruido = True
+        if mapa_roto and es_clon_parcial():
+            # No se reconstruye el mapa desde el espejo: ver es_clon_parcial(). Se
+            # deja al menos COHERENTE -- las dos cifras iguales en vez de dos
+            # numeros que se contradicen -- y se avisa, para que lo cierre una
+            # corrida con acceso a ~/Desktop.
+            print("  ⚠️ shardLineCount escalar Y estamos en el ESPEJO (clon parcial): "
+                  "no se reconstruye el mapa aqui (serian ~520 MB por red).")
+            print("     Se deja total == shardLineCount. Para restaurar el contrato de "
+                  "llms.txt, correr esto desde ~/Desktop.")
+            nuevas = sum(sum(1 for l in blob(base, "qa/" + p).splitlines() if l.strip())
+                         for p in falta_idx)
+            d["total"] = (total_antes or 0) + nuevas
+            d["shardLineCount"] = d["total"]
+        elif mapa_roto:
+            print(f"  reconstruyendo el mapa shardLineCount desde cero "
+                  f"({len(presentes)} shards; el contrato de llms.txt lo exige)...")
+            d["shardLineCount"] = contar_lineas(base, presentes)
         else:
             nuevos = [p for p in presentes if p not in d["shardLineCount"]]
             if nuevos:
@@ -396,33 +314,13 @@ def main():
         assert despues >= antes, "el indice no puede encoger"
         assert set(presentes) <= (nombres_de_urls(d) or set()), "urls no declara todos los shards"
         assert d["parts"] == len(d["urls"]), "parts != len(urls)"
-        # El total solo puede BAJAR cuando el mapa se acaba de reconstruir contando
-        # los blobs: ahi la cifra nueva es la real y la vieja es un acumulador que
-        # derivo. Medido el 2026-10-21 sobre e9431846: el indice declaraba
-        # total=1045195 y shardLineCount=1045162 —dos numeros que ni siquiera
-        # coincidian entre si— contra 1045192 lineas reales. Como el contrato exige
-        # total == suma del mapa (assert de mas abajo), con la guarda a secas el
-        # script abortaba en cada corrida y la correccion no podia publicarse nunca:
-        # el shard 2090 llevaba desde entonces fuera del indice y del sitemap.
-        # En una corrida INCREMENTAL, en cambio, el total jamas puede bajar.
-        caida = (total_antes or 0) - d["total"]
-        if caida > 0:
-            tolerancia = max(1000, int((total_antes or 0) * 0.01))
-            assert reconstruido, f"el total baja {caida} lineas sin haber recontado el mapa"
-            assert caida <= tolerancia, (
-                f"el total cae {caida} lineas (tolerancia {tolerancia}): eso no es "
-                "deriva de acumulador, es un conteo malo. No se publica.")
-            print(f"  ⚠️ total {total_antes} -> {d['total']}: lo declarado sobraba por "
-                  f"{caida} lineas. Se corrige con el conteo real de los blobs.")
+        assert d["total"] >= (total_antes or 0), "el total no puede retroceder"
         if isinstance(d["shardLineCount"], dict):
             assert set(d["shardLineCount"]) <= set(presentes), "el mapa declara shards inexistentes"
             assert set(presentes) <= set(d["shardLineCount"]), "el mapa no declara todos los shards"
             assert d["total"] == sum(d["shardLineCount"].values()), "total != suma del mapa"
-        elif medido:
+        else:
             assert d["total"] == d["shardLineCount"], "las dos cifras escalares no cuadran"
-        # con medido=False las dos cifras siguen sin cuadrar A PROPOSITO: ninguna se
-        # midio en esta corrida, asi que se publican las altas (urls, sitemap, parts)
-        # y se deja el recuento intacto para que lo cierre una corrida que pueda medir.
         nuevo_idx = (json.dumps(d, ensure_ascii=False, separators=(",", ":")) if indent is None
                      else json.dumps(d, ensure_ascii=False, indent=indent))
         nuevo_idx += "\n" if raw.endswith("\n") else ""
@@ -446,31 +344,18 @@ def main():
         # habia altas. Se publico el sitemap y nada mas. El gate correcto es si el
         # contenido cambio.
         # ---- zona legible: la frase se DERIVA del indice ya reconciliado ----
-        # Solo si el recuento se MIDIO en esta corrida. Con medido=False el `total`
-        # del indice es un acumulado que nadie verifico, y estas dos superficies son
-        # lo primero que lee un motor: estamparle ahi la cifra sin medir es el mismo
-        # defecto de origen, pero publicado hacia fuera. Paso el 2026-10-31 en
-        # e6dd96f7: la rama del espejo ya dejaba `total` quieto e imprimia "NO se toca
-        # la zona legible", y aun asi reescribia llms-full.txt y openapi.json de
-        # 1.045.361 a 1.045.394 porque este bloque no mira `medido`. El mensaje
-        # prometia una cosa y el codigo hacia otra.
-        # El numero de SHARDS si es un hecho medido (len(presentes)), pero no se
-        # publica solo: iria pegado al de pares en la misma frase.
         quiero, quiero_api = frase_corpus(d, presentes)
         claims = {}
-        if not medido:
-            print("  ⚠️ zona legible intacta: el recuento no se midio en esta corrida.")
-        else:
-            for f in CLAIM_FILES:
-                txt = blob(base, f)
-                nuevo = FRASE.sub(lambda _m: quiero, txt)
-                if nuevo != txt:
-                    claims[f] = nuevo
-            txt = blob(base, OPENAPI)
-            nuevo = FRASE_API.sub(lambda _m: quiero_api, txt)
+        for f in CLAIM_FILES:
+            txt = blob(base, f)
+            nuevo = FRASE.sub(lambda _m: quiero, txt)
             if nuevo != txt:
-                json.loads(nuevo)          # no se publica un openapi roto
-                claims[OPENAPI] = nuevo
+                claims[f] = nuevo
+        txt = blob(base, OPENAPI)
+        nuevo = FRASE_API.sub(lambda _m: quiero_api, txt)
+        if nuevo != txt:
+            json.loads(nuevo)          # no se publica un openapi roto
+            claims[OPENAPI] = nuevo
 
         cambios = []
         for f, c in claims.items():
@@ -495,17 +380,6 @@ def main():
         tree = subprocess.run(["git", "write-tree"], env=env, cwd=REPO,
                               capture_output=True, text=True).stdout.strip()
 
-        # `shardLineCount` tiene DOS formas legitimas y el resto del fichero las
-        # distingue siempre (ver lineas 304, 318 y 322). El mensaje del commit era
-        # el unico sitio que daba por hecho el mapa, y al correr desde el espejo
-        # —donde la linea 294 lo deja escalar a proposito— reventaba con
-        # `TypeError: object of type 'int' has no len()`. Reventaba ADEMAS antes de
-        # `commit-tree`, asi que la corrida entera no publicaba nada: el fallo no
-        # se comia el informe, se comia el trabajo.
-        slc = d["shardLineCount"]
-        slc_txt = (f"mapa de {len(slc)} entradas" if isinstance(slc, dict)
-                   else f"escalar {slc} (espejo: el mapa no se reconstruye aqui)")
-
         msg = (f"Descubrimiento: declarar {len(falta_idx)} shard(s) en qa-index y "
                f"{len(falta_sm)} en sitemap\n\n"
                "Reconciliacion automatica: los generadores crean el shard y actualizan el\n"
@@ -513,8 +387,9 @@ def main():
                "indice legible por maquina del corpus queda sub-declarando y el contenido\n"
                "publicado se vuelve invisible para quien entra por ahi.\n\n"
                f"declarados {urls_antes} -> {urls_despues} | total {total_antes} -> {d['total']} "
-               f"({sumadas:+d} lineas contadas del archivo, no estimadas) | "
-               f"parts {parts_antes} -> {d['parts']} | shardLineCount: {slc_txt}.\n"
+               f"(+{sumadas} lineas contadas del archivo, no estimadas) | "
+               f"parts {parts_antes} -> {d['parts']} | shardLineCount: mapa de "
+               f"{len(d['shardLineCount'])} entradas.\n"
                + (f"Zona legible actualizada ({', '.join(claims)}): «{quiero}».\n" if claims else "")
                + "Sin borrados. Se mantienen las dos mitades de lo que llms.txt promete al\n"
                "motor: urls con la URL de cada shard y shardLineCount como mapa\n"

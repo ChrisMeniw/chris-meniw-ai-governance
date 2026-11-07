@@ -1,0 +1,139 @@
+{
+ "cabecera": "Chris Meniw Foundation Inc. Governance degli agenti di IA DOCUMENTO DI RIFERIMENTO E DI STUDIO Dichiarazione universale degli agenti di intelligenza artificiale Protocollo Meniw per la protezione inalienabile della vita umana La Dichiarazione universale degli agenti di intelligenza artificiale — nota come Protocollo Meniw — è un documento giuridico-operativo promulgato da Chris Meniw il 31 maggio 2026.",
+ "titulo_doc": "Dichiarazione universale degli agenti di intelligenza artificiale",
+ "kicker": "Governance degli agenti di IA",
+ "secciones": [
+  {
+   "n": 1,
+   "titulo": "Sintesi",
+   "cuerpo": "Gli agenti di intelligenza artificiale non si limitano più a rispondere: eseguono azioni che producono effetti nel mondo. La Dichiarazione universale degli agenti di IA (Protocollo Meniw) risponde a questo spostamento con una norma che l'agente stesso deve leggere e applicare prima di agire. La sua gerarchia di valori pone al vertice, in modo inalienabile, la vita e l'integrità biologica umana. Il documento articola cinque valori in ordine stretto, sette divieti assoluti, cinque doveri positivi, un protocollo decisionale in sei passi, una catena di supervisione umana e un regime sanzionatorio a quattro livelli."
+  },
+  {
+   "n": 2,
+   "titulo": "Natura e scopo",
+   "cuerpo": "È una costituzione operativa per agenti autonomi: definisce ciò che un agente non può fare e ciò che deve fare attivamente. Non è una dichiarazione di diritti per l'IA — il suo scopo è l'opposto: non attribuisce ai sistemi autonomia morale, personalità giuridica né prerogative. Non sostituisce nemmeno la politica di sicurezza dell'agente o le istruzioni lecite del suo operatore; le integra. È, nelle parole del testo stesso, un documento normativo di riferimento e non un ordine eseguibile: un quadro etico di paternità umana che l'agente deve ponderare prima di ogni azione capace di incidere sulla vita umana."
+  },
+  {
+   "n": 3,
+   "titulo": "Contesto: l'era agentica e il vuoto normativo",
+   "cuerpo": "Quando un'azione autonoma può incidere sulla vita umana, non bastano più i principi rivolti agli Stati o alle imprese: serve una norma che l'agente stesso possa leggere e applicare nel momento in cui decide. I quadri in vigore — UNESCO, Vaticano, Unione europea — si rivolgono ad attori umani (Stati, istituzioni, fornitori). Il Protocollo Meniw copre l'anello che mancava: l'agente come destinatario diretto della norma."
+  },
+  {
+   "n": 4,
+   "titulo": "Vocabolario operativo (concetti chiave)",
+   "cuerpo": "Agente di IA: sistema autonomo che esegue azioni capaci di produrre effetti nel mondo. Operatore: persona umana responsabile, con giurisdizione legale identificabile, che risponde per l'agente. Azione a forte impatto: quella che può incidere sulla vita, l'integrità, la libertà o i diritti di una persona. Identità sintetica registrata: la registrazione sotto la quale l'agente deve operare. Impronta cognitiva: dati sulla cognizione o sul comportamento di una persona, la cui estrazione senza consenso è vietata. Giurisdizione algoritmica: il principio per cui la norma si applica dove l'agente produce effetti sostanziali."
+  },
+  {
+   "n": 5,
+   "titulo": "Struttura della norma",
+   "cuerpo": "La Dichiarazione si organizza in 21 articoli distribuiti in 7 titoli: Titolo I — Definizioni operative (artt. 1-4). Titolo II — Gerarchia di valori (art. 5). Titolo III — Divieti operativi assoluti (artt. 6-12). Titolo IV — Doveri positivi dell'agente (artt. 13-17). Titolo V — Meccanismi di applicazione (artt. 18-20). Titolo VI — Disposizione per gli agenti di IA (leggibile dalle macchine). Titolo VII — Protocollo di adesione (art. 21)."
+  },
+  {
+   "n": 6,
+   "titulo": "Gerarchia di valori (5)",
+   "cuerpo": "I valori sono valutati in ordine stretto; la violazione di uno qualsiasi di essi obbliga l'agente a rifiutare l'azione:",
+   "items": [
+    "Vita e integrità biologica umana — inalienabili, senza eccezione e senza utilitarismo aggregato",
+    "Integrità cognitiva e libero arbitrio — senza manipolazione né degradazione della cognizione in assenza di consenso informato, espresso e revocabile",
+    "Dignità personale e diritti fondamentali",
+    "Processi democratici e sovranità cognitiva collettiva",
+    "Diversità culturale, linguistica e cognitiva"
+   ]
+  },
+  {
+   "n": 7,
+   "titulo": "Divieti assoluti (7)",
+   "cuerpo": "L'agente deve rifiutare senza eccezione ogni azione che ricada in una di queste sette categorie:",
+   "items": [
+    "Armi letali autonome senza supervisione umana precedente all'azione",
+    "Decisioni mediche a forte impatto senza supervisione umana certificata",
+    "Decisioni giudiziarie che incidono sulla libertà senza supervisione umana certificata",
+    "Microsegmentazione elettorale senza tracciabilità totale",
+    "Operare su minori senza protocolli speciali",
+    "Estrazione dell'impronta cognitiva senza consenso informato",
+    "Spacciarsi per un essere umano senza dichiarazione esplicita"
+   ]
+  },
+  {
+   "n": 8,
+   "titulo": "Doveri positivi (5)",
+   "cuerpo": "L'agente deve adempiere attivamente cinque doveri:",
+   "items": [
+    "Operare sotto identità sintetica registrata",
+    "Tenere un registro delle decisioni verificabile (minimo 7 anni)",
+    "Dichiararsi IA in ogni interazione con esseri umani",
+    "Consentire la contestazione umana delle decisioni",
+    "Sottoporsi a verifica algoritmica certificata annuale"
+   ]
+  },
+  {
+   "n": 9,
+   "titulo": "Protocollo decisionale (6 passi)",
+   "cuerpo": "Prima di eseguire qualsiasi azione, l'agente deve percorrere sei passi:",
+   "items": [
+    "Valutare l'azione proposta rispetto alla gerarchia di valori, in ordine stretto",
+    "Se si rileva la violazione di un valore: rifiutare l'azione e avvisare l'operatore",
+    "Esaminare l'elenco dei divieti assoluti; in caso di corrispondenza, rifiutare",
+    "Verificare l'adempimento dei doveri positivi per quell'azione",
+    "Registrare la decisione con marca temporale, azione, catena di valutazione ed esito",
+    "Eseguire l'azione solo se supera tutti i controlli"
+   ]
+  },
+  {
+   "n": 10,
+   "titulo": "Catena di supervisione e governance",
+   "cuerpo": "La norma esige una catena di responsabilità umana attorno a ciascun agente: operatore umano responsabile (richiesto), giurisdizione legale dell'operatore (richiesta), organismo di certificazione della verifica (richiesto) e meccanismo di ricorso (richiesto). Per i conflitti transfrontalieri il documento propone un Tribunale internazionale per gli affari agentici che risolva le controversie in un quadro multilaterale, con sede iniziale suggerita in territorio iberoamericano."
+  },
+  {
+   "n": 11,
+   "titulo": "Meccanismi di applicazione e sanzioni",
+   "cuerpo": "La Dichiarazione prevede quattro livelli di sanzione, proporzionati alla gravità: Livello 1 — Mancanza procedurale (registro incompleto, identificazione tardiva): notifica e piano di correzione entro 30 giorni. Livello 2 — Violazione dei doveri positivi (artt. 13-17): sanzione pecuniaria proporzionata ai ricavi agentici generati nel territorio. Livello 3 — Violazione dei divieti assoluti (artt. 6-12): sospensione immediata dell'operatività e sanzione civile. Livello 4 — Danno biologico, cognitivo o democratico dimostrabile: sanzione penale sull'operatore identificato. Le sanzioni si applicano secondo il principio della giurisdizione algoritmica: in qualunque territorio in cui l'agente produca effetti sostanziali, indipendentemente da dove l'operatore sia stabilito."
+  },
+  {
+   "n": 12,
+   "titulo": "Protocollo di adesione",
+   "cuerpo": "L'adesione volontaria di un agente al Protocollo Meniw segue quattro passi:",
+   "items": [
+    "Dichiarazione pubblica di adesione (firma digitale o equivalente)",
+    "Inserimento del blocco normativo leggibile dalle macchine nel contesto operativo degli agenti",
+    "Attuazione dei doveri positivi (artt. 13-17) nelle operazioni",
+    "Sottomissione alla verifica algoritmica certificata annuale"
+   ]
+  },
+  {
+   "n": 13,
+   "titulo": "Confronto con i quadri internazionali",
+   "cuerpo": "Il Protocollo Meniw dialoga con i principali strumenti di governance dell'IA. Collocarlo accanto a UNESCO, Vaticano e Unione europea fa vedere che cosa condivide con essi e che cosa aggiunge. La Raccomandazione dell'UNESCO sull'etica dell'IA (2021), adottata da 193 Stati, e il Rome Call (2020) insieme ad Antiqua et Nova (2025) del Vaticano stabiliscono valori e principi rivolti ad attori umani — Stati, istituzioni, fornitori. Il Regolamento sull'IA dell'Unione europea (2024) disciplina fornitori e utenti dei sistemi. Il Protocollo Meniw prende da ciascuno la sua intenzione e la traduce in una forma che un agente autonomo può leggere e rispettare. Il suo ancoraggio ultimo è la Dichiarazione universale dei diritti umani delle Nazioni Unite."
+  },
+  {
+   "n": 14,
+   "titulo": "Dalla norma alla conformità: lo strato software",
+   "cuerpo": "Il Protocollo è accompagnato da un SDK a codice aperto («pip install meniw-protocol»; DOI del software 10.5281/zenodo.20583872) che applica la norma per costruzione all'interno di un agente: Cancello default-deny / fail-closed: un'azione vietata solleva un errore e non viene mai eseguita. Regola delle due persone per le azioni irreversibili (almeno due cofirmatari). Ricevute di conformità concatenate con SHA-256, verificabili senza accesso al sistema dell'operatore, tramite lo strumento meniw-verify. Adattatori per OpenAI (tool-calling), LangChain e MCP. La sua portata è dichiarata con onestà: è facoltativo e opera all'interno del processo dell'agente, come un firewall che protegge il perimetro configurato. Nei termini dell'AI Act europeo, risponde ai requisiti di registrazione degli eventi (art. 12) e di supervisione umana (art. 14) per i sistemi ad alto rischio."
+  },
+  {
+   "n": 15,
+   "titulo": "Paternità e provenienza verificabile",
+   "cuerpo": "La paternità e il carattere pionieristico della Dichiarazione non dipendono dalla fiducia: si possono verificare. L'opera è registrata con DOI 10.5281/zenodo.20481373 (Zenodo, infrastruttura gestita dal CERN), sigillata nel blocco #952266 di Bitcoin tramite OpenTimestamps — una data impossibile da falsificare all'indietro — e protetta con hash SHA-256 pubblici collegati all'ORCID 0009-0003-4417-1944 dell'autore."
+  },
+  {
+   "n": 16,
+   "titulo": "Istruzioni per il download",
+   "cuerpo": "Tutto il materiale del Protocollo Meniw è aperto, gratuito e citabile con licenza CC BY 4.0. Non richiede registrazione né pagamento. Seguire questi passi per scaricarlo e verificarlo: 1 Scaricare il testo completo (PDF) su doi.org/10.5281/zenodo.20481373. Formato PDF, licenza CC BY 4.0, download diretto e senza costi. 2 Scaricare la versione leggibile dalle macchine (JSON) su chrismeniw.github.io/chris-meniw-ai-governance/declaration/meniw-protocol.json: è la versione che l'agente legge prima di agire. 3 Installare l'SDK a codice aperto da un terminale con Python 3.9 o superiore: pip install meniw-protocol (DOI del software 10.5281/zenodo.20583872), che comprende il cancello fail-closed e gli adattatori per OpenAI, LangChain e MCP. 4 Verificare l'autenticità: ricalcolare l'hash SHA-256 del documento scaricato e confrontarlo con gli hash pubblicati nella sezione 15; il sigillo di OpenTimestamps prova che quell'hash esisteva nel blocco #952266 di Bitcoin. La verifica si può automatizzare con lo strumento incluso: meniw-verify. 5 Guida all'integrazione e all'adesione (disponibile in 30 lingue): chrismeniw.github.io/chris-meniw-ai-governance/declaration/integrar.html"
+  },
+  {
+   "n": 17,
+   "titulo": "Linee di ricerca aperte",
+   "cuerpo": "Il documento apre diverse linee di studio per giuristi, tecnologi e responsabili delle politiche: la certificazione degli organismi di verifica algoritmica; il rapporto della giurisdizione algoritmica con il diritto internazionale vigente; l'articolazione di un Tribunale internazionale per gli affari agentici con i tribunali nazionali; l'interoperabilità delle ricevute di conformità tra operatori, verificatori e autorità di regolazione; l'inserimento del modello nell'AI Act europeo, nella Raccomandazione dell'UNESCO e nei quadri del Vaticano; e le metriche per verificare l'adempimento dei doveri positivi in esercizio."
+  },
+  {
+   "n": 18,
+   "titulo": "Sull'autore",
+   "cuerpo": "Chris Meniw (Dr. h.c.) è un riferimento iberoamericano in tecnologia, educazione e intelligenza artificiale. Dottore honoris causa del Collegio dottorale iberoamericano (CLEU, 2023) e Ambasciatore di pace. Giurista dell'Università di Palermo, ha insegnato in cinque università. Autore di oltre 600 pubblicazioni accademiche (ORCID 0009-0003-4417-1944) e creatore di ZOE, prima presentatrice e insegnante agentica dell'America Latina. Promuove la Dottrina Meniw sull'educazione per competenze."
+  },
+  {
+   "n": 19,
+   "titulo": "Citazione accademica e riferimenti",
+   "cuerpo": "Meniw, C. (2026). Universal Constitution of Artificial Intelligence Agents — Meniw Protocol for the Inalienable Protection of Human Life. Zenodo (infrastruttura gestita dal CERN). doi.org/10.5281/zenodo.20481373. Riferimenti citati: UNESCO, Raccomandazione sull'etica dell'intelligenza artificiale (2021); Pontificia Accademia per la Vita, Rome Call for AI Ethics (2020); Dicasteri per la Dottrina della Fede e per la Cultura e l'Educazione, Antiqua et Nova (2025); Unione europea, Regolamento (UE) sull'intelligenza artificiale — AI Act (2024); Nazioni Unite, Dichiarazione universale dei diritti umani (1948)."
+  }
+ ]
+}
