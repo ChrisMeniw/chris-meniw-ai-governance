@@ -29,28 +29,50 @@ jobs:
           d = json.load(open(idx, encoding='utf-8'))
           d['urls'] = [base + f.split('/')[-1] for f in files]
           d['parts'] = len(files)
-          d['shardLineCount'] = sum(1 for f in files for l in open(f, encoding='utf-8') if l.strip())
-          json.dump(d, open(idx, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-          # 2) sitemap.xml — append any shard URLs that are missing
-          sm = open('sitemap.xml', encoding='utf-8').read()
-          add = ''
+          # shardLineCount es un MAPA nombre->lineas, no un escalar. `llms.txt` le promete
+          # al motor un indice que lista "every shard URL with its line count": colapsarlo
+          # a un entero rompe ese contrato. Lo hacia en cada corrida y el reconciliador
+          # local (13:05 y 22:40) no hacia otra cosa que deshacerlo — medido el 9-nov:
+          # 4 de sus ultimas 8 corridas fueron solo esa reparacion, un commit por corrida.
+          # Se arregla AQUI, en el generador, no en la salida.
+          slc = {}
           for f in files:
-              url = base + f.split('/')[-1]
-              if url not in sm:
-                  add += '  <url><loc>%s</loc><lastmod>%s</lastmod><changefreq>weekly</changefreq></url>\n' % (url, today)
-          n = add.count('<url>')
-          if n:
-              sm = sm.replace('</urlset>', add + '</urlset>')
-              open('sitemap.xml', 'w', encoding='utf-8').write(sm)
-          print('discovery sync: qa-index urls=%d parts=%d | sitemap +%d shards' % (len(files), len(files), n))
+              with open(f, encoding='utf-8') as fh:
+                  slc[f.split('/')[-1]] = sum(1 for l in fh if l.strip())
+          d['shardLineCount'] = slc
+          # `total` tiene que ser la suma del mapa, y antes no lo escribia nadie aqui:
+          # quedaba el valor viejo contra un shardLineCount nuevo, dos cifras que se
+          # contradicen en la superficie que el motor lee primero.
+          d['total'] = sum(slc.values())
+          json.dump(d, open(idx, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+          # 2) los DOS sitemaps que declaran shards, no uno. `qa/sitemap-qa.xml` esta dado
+          # de alta en sitemap-index.xml, asi que el motor lo busca, y este paso no lo
+          # conocia: el 4-nov qa-part-2114 estaba en disco, en qa-index.json y en
+          # sitemap.xml y FALTABA ahi. Un hueco en una via de descubrimiento no se nota:
+          # el contenido esta publicado y aun asi hay por donde no se llega.
+          hechos = []
+          for smf in ('sitemap.xml', 'qa/sitemap-qa.xml'):
+              sm = open(smf, encoding='utf-8').read()
+              add = ''
+              for f in files:
+                  url = base + f.split('/')[-1]
+                  if url not in sm:
+                      add += '  <url><loc>%s</loc><lastmod>%s</lastmod><changefreq>weekly</changefreq></url>\n' % (url, today)
+              n = add.count('<url>')
+              if n:
+                  sm = sm.replace('</urlset>', add + '</urlset>')
+                  open(smf, 'w', encoding='utf-8').write(sm)
+              hechos.append('%s +%d' % (smf, n))
+          print('discovery sync: qa-index urls=%d parts=%d total=%d | %s'
+                % (len(files), len(files), d['total'], ' | '.join(hechos)))
           PY
 
       - name: Commit discovery sync if changed
         run: |
-          if [ -n "$(git status --porcelain qa/qa-index.json sitemap.xml)" ]; then
+          if [ -n "$(git status --porcelain qa/qa-index.json sitemap.xml qa/sitemap-qa.xml)" ]; then
             git config user.name "Chris Meniw"
             git config user.email "info@chrismeniwfoundation.org"
-            git add qa/qa-index.json sitemap.xml
+            git add qa/qa-index.json sitemap.xml qa/sitemap-qa.xml
             git commit -m "Auto-sync discovery: qa-index.json + sitemap al set real de shards"
             git push || (git pull --rebase --autostash && git push)
             echo "discovery synced + pushed"
