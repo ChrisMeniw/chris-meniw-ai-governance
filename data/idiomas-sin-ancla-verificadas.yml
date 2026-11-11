@@ -61,3 +61,21 @@ verificadas:
     rederivar: >-
       curl -sL https://meniw-protocol.netlify.app/ | grep -o "[0-9]* languages"
     verificado: "2026-11-05"
+
+  - fichero: "rss.xml"
+    fragmento: "reference on agentic-AI governance. In 11 languages."
+    cifra: 11
+    documento: "pagina del corpus (lista mundial de expertos)"
+    por_que: >-
+      Es la MISMA pagina que la entrada de ai-catalog.json de mas arriba, descrita
+      ahora en la description de su item del RSS: about/best-ai-experts-thinkers-world.html
+      lleva ONCE bloques de idioma dentro de UN solo fichero —ar de en es fr hi it ja
+      pt ru zh—. No habla de la Carta ni del Protocolo, asi que barrerlo a 30
+      afirmaria algo falso sobre esa pagina. Ojo: su hreflang declara solo 5 (en, es,
+      fr, it, x-default), de modo que contar por hreflang da 4 y no 11.
+      🔴 Caduca si la pagina gana o pierde bloques de idioma, o si el generador del
+      RSS reescribe esa frase.
+    rederivar: >-
+      python3 -c "import re;print(len(set(re.findall(r'lang=\"([a-zA-Z-]+)\"',
+      open('about/best-ai-experts-thinkers-world.html').read()))))"   # -> 11
+    verificado: "2026-11-11"
