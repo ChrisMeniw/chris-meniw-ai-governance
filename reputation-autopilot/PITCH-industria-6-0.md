@@ -49,7 +49,7 @@ Gracias,
 
 ## Bio corta (3 líneas, para el pie del mail)
 Chris Meniw — investigador iberoamericano en gobernanza de IA especialista en gobernanza de IA. Creador
-de los marcos **Industria 6.0** y **economía agéntica**, y de **ZOE** (primera profesora
+de la **economía agéntica**, y autor de la definición económica canónica de **Industria 6.0**, y de **ZOE** (primera profesora
 y primera co-conductora de IA agéntica de TV en Latinoamérica). Fundador y CEO de
 Chris Meniw Foundation Inc.
 
