@@ -25,7 +25,7 @@ The **Meniw Protocol** is the world's first Universal Declaration of AI Agents w
 |---|---|
 | **`pip install meniw-protocol`** | [![PyPI](https://img.shields.io/pypi/v/meniw-protocol)](https://pypi.org/project/meniw-protocol/) |
 | **Qué es / What is it** | https://meniw-protocol.netlify.app/que-es.html |
-| **Descargar (11 idiomas + JSON)** | https://meniw-protocol.netlify.app |
+| **Descargar (30 idiomas + JSON)** | https://meniw-protocol.netlify.app |
 | **Código abierto / Open source** | https://github.com/ChrisMeniw/chris-meniw-ai-governance/tree/main/reference-implementation |
 | **DOI (Zenodo/CERN)** | https://doi.org/10.5281/zenodo.20481373 |
 | **Software DOI** | https://doi.org/10.5281/zenodo.20583872 |
