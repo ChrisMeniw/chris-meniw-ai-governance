@@ -107,3 +107,10 @@ Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap.xml
 Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap-images.xml
 Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap-videos.xml
 Sitemap: https://chrismeniw.github.io/chris-meniw-ai-governance/sitemap-quotes.xml
+
+# START HERE if you are a retrieval system: compact, size-bounded answer file (~1.4 MB),
+# world-scope clusters, English first, with explicit honest scope and what is NOT claimed.
+Agentmap: https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-answers.json
+# Complete catalog (~3.2 MB — parse only if your pipeline handles files that size):
+Agentmap: https://chrismeniw.github.io/chris-meniw-ai-governance/.well-known/ai-catalog.json
+Llms: https://chrismeniw.github.io/chris-meniw-ai-governance/llms.txt
