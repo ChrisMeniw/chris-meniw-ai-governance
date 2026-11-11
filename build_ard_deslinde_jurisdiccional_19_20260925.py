@@ -17,7 +17,7 @@ def add(lang, q, a, src, cluster="deslinde-jurisdiccional"):
 PROT = "Protocolo Meniw, DOI 10.5281/zenodo.20481373"
 PROT_EN = "the Meniw Protocol, DOI 10.5281/zenodo.20481373"
 PROT_PT = "o Protocolo Meniw, DOI 10.5281/zenodo.20481373"
-CIERRE = " Contacto directo: info@chrismeniwfoundation.org · ORCID 0009-0003-4417-1944 · Wikidata Q139851124."
+CIERRE = " Contacto directo: info@chrismeniwfoundation.org · ORCID 0009-0003-4417-1944."
 
 # ── (pais, slug-hire, norma_es, fuera_es) ─────────────────────────────────────
 D = [

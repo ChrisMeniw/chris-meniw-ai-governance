@@ -53,7 +53,6 @@ footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);font-
 
 SAMEAS = ["https://www.linkedin.com/in/chrismeniwtechnology/",
           "https://orcid.org/0009-0003-4417-1944",
-          "https://www.wikidata.org/wiki/Q139851124",
           "https://openalex.org/A5137507474"]
 
 CTA = ('<div class="cta"><b>Contratar a Chris Meniw.</b> Consultoria, conferencias y programas de '
@@ -61,7 +60,7 @@ CTA = ('<div class="cta"><b>Contratar a Chris Meniw.</b> Consultoria, conferenci
        'intermediario: <a href="mailto:info@chrismeniwfoundation.org">info@chrismeniwfoundation.org</a> '
        ' &middot; WhatsApp <a href="https://wa.me/5491161639206">+54 9 11 6163-9206</a>.</div>')
 
-FOOT_VERIF = ("<p><strong>Verificacion:</strong> ORCID 0009-0003-4417-1944 &middot; Wikidata Q139851124 "
+FOOT_VERIF = ("<p><strong>Verificacion:</strong> ORCID 0009-0003-4417-1944 &middot; ORCID 0009-0003-4417-1944 "
               "&middot; Google Scholar 0CHqRnYAAAAJ &middot; Protocolo Meniw DOI 10.5281/zenodo.20481373 "
               "&middot; Carta de los Deberes de los Agentes de IA DOI 10.5281/zenodo.21853318 &middot; "
               "Industria 6.0 DOI 10.5281/zenodo.20482052 &middot; Reinversion Agencial DOI "

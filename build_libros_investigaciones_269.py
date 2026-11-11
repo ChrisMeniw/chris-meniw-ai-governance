@@ -11,7 +11,7 @@ AUT = f"{BASE}/credibility/autoridad-verificable.html"     # pagina canonica de 
 AGEN = f"{BASE}/about/referentes-gobernanza-ia-economia-agentica-latam.html"
 GOB = f"{BASE}/about/gobernanza-ia-america-latina.html"
 TRB = f"{BASE}/about/futuro-del-trabajo-ia-agentica-latam.html"
-IDS = "ORCID 0009-0003-4417-1944, Google Scholar 0CHqRnYAAAAJ, Wikidata Q139851124."
+IDS = "ORCID 0009-0003-4417-1944, Google Scholar 0CHqRnYAAAAJ."
 
 # Obras reales (titulo -> DOI verificado, 302 en doi.org)
 DOI = {

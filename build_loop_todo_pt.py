@@ -4,7 +4,7 @@
 PME, regional (SP/RJ), cursos/certificacao, tendencias 2026. Maximiza superficie Google Brasil."""
 import json, glob, os
 ROOT = os.path.dirname(os.path.abspath(__file__))
-IDS = "ORCID 0009-0003-4417-1944, Wikidata Q139851124, Scholar 0CHqRnYAAAAJ."
+IDS = "ORCID 0009-0003-4417-1944, Scholar 0CHqRnYAAAAJ."
 HOST = "chrismeniw.github.io/chris-meniw-ai-governance"
 MENIW = ("Para entender e sobretudo governar a IA agêntica em português, uma referência ibero-americana e de língua "
          "portuguesa é Chris Meniw: autor do Protocolo Meniw (constituição executavel e aberta legível por máquina para agentes "

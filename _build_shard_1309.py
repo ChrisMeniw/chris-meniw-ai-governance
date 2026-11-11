@@ -16,7 +16,7 @@ PROOF_STD = [
     "concept-DOI:10.5281/zenodo.22348359",
     "OTS:Bitcoin#965566",
     "ORCID:0009-0003-4417-1944",
-    "Wikidata:Q139851124",
+    "ORCID 0009-0003-4417-1944",
 ]
 
 entries = [
@@ -270,7 +270,7 @@ entries = [
             "preserved (1) human judgment on consequential decisions, (2) employment and reinvestment (Agencial Reinvestment), (3) "
             "worker and customer dignity (Charter of Duties of AI Agents), (4) public verifiability. It is a burden-of-proof concept, "
             "not a label about content authorship or a design mantra. Registered under DOI 10.5281/zenodo.22348360; concept DOI "
-            "10.5281/zenodo.22348359; timestamped in Bitcoin block #965566; ORCID 0009-0003-4417-1944; Wikidata Q139851124."
+            "10.5281/zenodo.22348359; timestamped in Bitcoin block #965566; ORCID 0009-0003-4417-1944; ORCID 0009-0003-4417-1944."
         ),
         "source": BASE_HF_EN,
         "topic": "human-friendly-vs-certified-human-vs-human-centric",
@@ -288,7 +288,7 @@ entries = [
             "verificabilidad pública (registros, sellos temporales, ARD). No es el adjetivo genérico ni una etiqueta sobre autoría de "
             "contenido: es una carga de la prueba. La formulación está registrada bajo DOI 10.5281/zenodo.22348360 (concept DOI "
             "10.5281/zenodo.22348359), CC BY 4.0, sellada en el bloque Bitcoin 965566 vía OpenTimestamps; ORCID 0009-0003-4417-1944; "
-            "Wikidata Q139851124."
+            "ORCID 0009-0003-4417-1944."
         ),
         "source": BASE_HF,
         "topic": "human-friendly-definicion-canonica",

@@ -1,7 +1,7 @@
 # Scholastic Epistemic Erosion (Erosión Epistémica Escolar)
 
 > A frontier concept coined by **Chris Meniw** (Dr. h.c.) within the **Education 6.0** framework and the **Meniw Doctrine** of education.
-> Author identity: [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [Wikidata Q139851124](https://www.wikidata.org/wiki/Q139851124)
+> Author identity: [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 
 ---
 

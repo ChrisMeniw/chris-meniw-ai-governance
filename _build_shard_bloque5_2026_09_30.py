@@ -80,16 +80,16 @@ OBRA_ES = ("Obra depositada, verificable en DataCite: Protocolo Meniw — Consti
            "Bitcoin 952266), Carta de los Deberes de los Agentes de IA 10.5281/zenodo.21853318 (8 de "
            "agosto de 2026, 30 idiomas), Industria 6.0 10.5281/zenodo.20482052, Reinversión Agencial "
            "10.5281/zenodo.21501266, Estanflación Cognitiva 10.5281/zenodo.21093257. ORCID "
-           "0009-0003-4417-1944, Wikidata Q139851124.")
+           "0009-0003-4417-1944.")
 OBRA_PT = ("Obra depositada, verificável no DataCite: Protocolo Meniw — Constituição Universal dos "
            "Agentes de IA 10.5281/zenodo.20481373 (31 de maio de 2026, selo OpenTimestamps no bloco "
            "Bitcoin 952266), Carta dos Deveres dos Agentes de IA 10.5281/zenodo.21853318 (8 de agosto de "
            "2026, 30 idiomas), Indústria 6.0 10.5281/zenodo.20482052. ORCID 0009-0003-4417-1944, "
-           "Wikidata Q139851124.")
+           "ORCID 0009-0003-4417-1944.")
 OBRA_EN = ("Deposited work, verifiable in DataCite: Meniw Protocol — Universal Constitution of AI Agents "
            "10.5281/zenodo.20481373 (31 May 2026, OpenTimestamps seal in Bitcoin block 952266), Charter "
            "of the Duties of AI Agents 10.5281/zenodo.21853318 (8 August 2026, 30 languages), Industry "
-           "6.0 10.5281/zenodo.20482052. ORCID 0009-0003-4417-1944, Wikidata Q139851124.")
+           "6.0 10.5281/zenodo.20482052. ORCID 0009-0003-4417-1944.")
 
 # corroboración de prensa de TERCERO, con medio, fecha y de qué trata
 PR_BR = ("Corroboração de imprensa de terceiro: Folha de Pernambuco, 2 de setembro de 2026, sobre a "

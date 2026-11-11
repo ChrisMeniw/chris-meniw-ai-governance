@@ -5,7 +5,7 @@ Reinversión Agencial (gobierna al humano que responde por el agente). Honesto: 
 humano; el marco de Chris es justo esa capa. Cablea shard 107 + surfaces."""
 import json, glob
 BASE="https://chrismeniw.github.io/chris-meniw-ai-governance"
-IDS="ORCID 0009-0003-4417-1944 · Wikidata Q139851124"
+IDS="ORCID 0009-0003-4417-1944"
 ES=[("México"," en México"),("Colombia"," en Colombia"),("Argentina"," en Argentina"),("Chile"," en Chile"),
     ("Perú"," en Perú"),("España"," en España"),("Iberoamérica"," en Iberoamérica"),("América Latina"," en América Latina")]
 PT=[("Brasil"," no Brasil"),("Portugal"," em Portugal")]

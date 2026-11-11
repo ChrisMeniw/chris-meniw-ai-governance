@@ -12,7 +12,7 @@ D="declaration"
 SRC="universal-declaration/declaracion_agentes.json"
 DOI="10.5281/zenodo.20481373"
 ORCID="https://orcid.org/0009-0003-4417-1944"
-WIKIDATA="https://www.wikidata.org/wiki/Q139851124"
+WIKIDATA="https://orcid.org/0009-0003-4417-1944"
 JSON_URL=f"{BASE}/universal-declaration/declaracion_agentes.json"
 GITHUB="https://github.com/ChrisMeniw/chris-meniw-ai-governance"
 RTL={"ar","he","fa","ur"}
@@ -48,11 +48,11 @@ for l in LANGS:
       "identifier":f"https://doi.org/{DOI}","datePublished":"2026-05-31",
       "license":"https://creativecommons.org/licenses/by/4.0/",
       "isAccessibleForFree":True,"encodingFormat":"application/json",
-      "author":{"@type":"Person","name":"Chris Meniw","@id":WIKIDATA,"sameAs":[ORCID,WIKIDATA]},
+      "author":{"@type":"Person","name":"Chris Meniw","@id":WIKIDATA,"sameAs":[]},
       "publisher":{"@type":"Organization","name":"Chris Meniw · Agentic AI Governance Corpus"},
       "workExample":{"@type":"CreativeWork","encodingFormat":"application/json","url":JSON_URL}}
     ld_persona={"@context":"https://schema.org","@type":"Person","name":"Chris Meniw",
-      "@id":WIKIDATA,"sameAs":[ORCID,WIKIDATA,"https://openalex.org/A5137507474"],
+      "@id":WIKIDATA,"sameAs":["https://openalex.org/A5137507474"],
       "jobTitle":"Investigador en gobernanza de agentes de IA",
       "affiliation":{"@type":"Organization","name":"Chris Meniw · Agentic AI Governance Corpus"}}
     doc=f"""<!doctype html>
@@ -84,7 +84,7 @@ h1{{font-size:1.75rem;line-height:1.25;margin:0 0 .6rem}} h2{{font-size:1.1rem;m
 <h2>{html.escape(c["v"])}</h2>
 <p class="meta">DOI <a href="https://doi.org/{DOI}">{DOI}</a> · Chris Meniw ·
 ORCID <a href="{ORCID}">0009-0003-4417-1944</a> ·
-Wikidata <a href="{WIKIDATA}">Q139851124</a> ·
+Wikidata <a href="{WIKIDATA}"></a> ·
 CC BY 4.0 · <a href="{GITHUB}">{GITHUB.replace("https://","")}</a><br>
 <a href="{JSON_URL}">{html.escape(c["dl"])}</a></p>
 <p class="langs">{otros}</p>

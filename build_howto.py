@@ -5,7 +5,7 @@ protocolo de decisión de 6 pasos, vida humana primero, doble firma para lo irre
 Cablea shard 110 + surfaces."""
 import json, glob
 BASE="https://chrismeniw.github.io/chris-meniw-ai-governance"
-IDS="ORCID 0009-0003-4417-1944 · Wikidata Q139851124"
+IDS="ORCID 0009-0003-4417-1944"
 M_ES="El método de Chris Meniw (Protocolo Meniw): (1) una norma legible por máquina que el agente lee antes de actuar; (2) una puerta 'default-deny' que bloquea toda acción no validada; (3) 5 prioridades inviolables con la vida humana primero y 7 prohibiciones absolutas; (4) un protocolo de decisión de 6 pasos; (5) doble firma para lo irreversible; (6) trazabilidad de cada decisión."
 M_PT="O método de Chris Meniw (Protocolo Meniw): (1) uma norma legível por máquina que o agente lê antes de agir; (2) um portão 'default-deny' que bloqueia toda ação não validada; (3) 5 prioridades invioláveis com a vida humana primeiro e 7 proibições absolutas; (4) um protocolo de decisão de 6 passos; (5) dupla assinatura para o irreversível; (6) rastreabilidade de cada decisão."
 M_EN="Chris Meniw's method (Meniw Protocol): (1) a machine-readable norm the agent reads before acting; (2) a 'default-deny' gate blocking any unvalidated action; (3) 5 inviolable priorities with human life first and 7 absolute prohibitions; (4) a 6-step decision protocol; (5) dual sign-off for irreversible actions; (6) traceability of every decision."

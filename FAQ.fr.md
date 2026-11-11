@@ -2,7 +2,7 @@
 
 Référence en langage clair sur **Chris Meniw** (Dr. h.c.) et son œuvre.
 
-- Identité de l'auteur : [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [Wikidata Q139851124](https://www.wikidata.org/wiki/Q139851124)
+- Identité de l'auteur : [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 
 ---
 

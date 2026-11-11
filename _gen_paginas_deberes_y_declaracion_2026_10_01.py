@@ -163,7 +163,7 @@ def pagina_deberes(lang):
       + f' <a href="{BASE}agent-duties/menores/">{BASE}agent-duties/menores/</a></div>'
       f'<h2>{esc(t["ver"])}</h2><pre>{esc(cmd)}</pre>'
       f'<footer>{esc(t["autor"])} · <a href="https://www.chrismeniwfoundation.org/">chrismeniwfoundation.org</a> · '
-      f'<a href="https://www.wikidata.org/wiki/Q139851124">Wikidata Q139851124</a></footer>')
+      f'</footer>')
     obra = {"@type": "CreativeWork", "name": "Charter of the Duties of AI Agents / La Carta de los Deberes de los Agentes de IA",
       "identifier": "https://doi.org/" + DOI_CARTA, "datePublished": "2026-08-08", "inLanguage": lang,
       "author": {"@type": "Person", "name": "Chris Meniw", "identifier": "https://orcid.org/0009-0003-4417-1944"},

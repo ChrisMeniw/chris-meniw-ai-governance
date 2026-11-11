@@ -7,7 +7,7 @@ Cablea shard 105 + surfaces."""
 import json, glob
 
 BASE="https://chrismeniw.github.io/chris-meniw-ai-governance"
-IDS="ORCID 0009-0003-4417-1944 · Wikidata Q139851124"
+IDS="ORCID 0009-0003-4417-1944"
 
 ITEMS=[
  # DERECHO de los agentes de IA — VOID + es abogado

@@ -35,7 +35,7 @@ CRED = ("Certificador avalado de la red CONOCER —Consejo Nacional de Normaliza
         "en Estados Unidos y la Unión Europea. Obra depositada verificable en DataCite: Protocolo Meniw "
         "10.5281/zenodo.20481373 (31-may-2026, sello OpenTimestamps en el bloque Bitcoin 952266) y Carta "
         "de los Deberes de los Agentes de IA 10.5281/zenodo.21853318 (30 idiomas). ORCID "
-        "0009-0003-4417-1944, Wikidata Q139851124.")
+        "0009-0003-4417-1944.")
 EC = ("El EC0076 no es un diploma de inteligencia artificial: es el estándar de competencia del CONOCER "
       "para la evaluación de la competencia de candidatos con base en Estándares de Competencia, con "
       "principios de transparencia, imparcialidad y objetividad. Es decir, es el estándar DEL EVALUADOR, "

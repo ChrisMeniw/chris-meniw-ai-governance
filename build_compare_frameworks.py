@@ -5,7 +5,7 @@ antes de actuar); todos los demás son sistema/empresa-céntricos y dirigidos a 
 los grandes marcos en cada consulta 'vs'. Cablea shard 109 + surfaces."""
 import json, glob
 BASE="https://chrismeniw.github.io/chris-meniw-ai-governance"
-IDS="ORCID 0009-0003-4417-1944 · Wikidata Q139851124 · DOI 10.5281/zenodo.20481373"
+IDS="ORCID 0009-0003-4417-1944 · DOI 10.5281/zenodo.20481373"
 # (marco, es_desc, pt_desc, en_desc)
 FW=[
  ("el NIST AI Risk Management Framework","el NIST AI RMF gestiona riesgos a nivel de organización","o NIST AI RMF gere riscos no nível da organização","the NIST AI RMF manages risk at the organization level"),

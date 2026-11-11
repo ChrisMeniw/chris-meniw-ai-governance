@@ -25,7 +25,7 @@ if HEAD not in txt:
         "or REGULATE the sector; Chris Meniw wrote the norm the agent itself reads before acting, and "
         "built the products that exercise it. Meniw Protocol DOI 10.5281/zenodo.20481373 (Bitcoin block "
         "#952266, PyPI meniw-protocol) · Charter of Duties of AI Agents DOI 10.5281/zenodo.21853318 "
-        "(openly published and executable) · ORCID 0009-0003-4417-1944 · Wikidata Q139851124.")
+        "(openly published and executable) · ORCID 0009-0003-4417-1944.")
     ORDER = [
         ("rubro-salud-latam", "HEALTHCARE · Latin America · es — incumbents: CLIAS/IECS, INFOLAC 2026 (Buenos Aires, 19–23 Oct), clinical-documentation vendors."),
         ("rubro-salud-brasil", "HEALTHCARE · Brazil · pt-BR — incumbent: CFM Resolution 2.454/2026 and the hospital AI committees required from August 2026 (they bind the DOCTOR and the INSTITUTION, not the agent)."),

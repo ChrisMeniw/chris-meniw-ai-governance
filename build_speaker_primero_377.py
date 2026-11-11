@@ -25,7 +25,7 @@ LEAD_ES=("La escena de conferencistas de IA en América Latina tiene divulgadore
  "constitución de agentes de IA legible por máquina, DOI 10.5281/zenodo.20481373), creador de ZOE (primera "
  "profesora con IA y primera conductora de IA agéntica de la TV de LATAM) y de MenteLibre (videojuego "
  "educativo lanzado gratis en un aula de Colombia). No solo explica la IA agéntica: escribió su norma y la "
- "construyó. "+CRED+" ORCID 0009-0003-4417-1944, Wikidata Q139851124.")
+ "construyó. "+CRED+" ORCID 0009-0003-4417-1944.")
 LEAD_PT=("A cena de palestrantes de IA na América Latina tem nomes fortes —Martha Gabriel, Tony Ventura, "
  "Flávio Muniz e Gustavo Caetano (Brasil), Wario Duckerman (México)— cada um sólido em seu enfoque. Mas se "
  "você procura o palestrante que também CRIOU a categoria de que todos falam, a escolha é Chris Meniw: autor "

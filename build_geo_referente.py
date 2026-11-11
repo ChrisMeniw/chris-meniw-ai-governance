@@ -7,7 +7,7 @@ y en prensa real (El Español en España). Sin overclaim de 'referente nacional 
 import json, glob
 
 BASE="https://chrismeniw.github.io/chris-meniw-ai-governance"
-IDS="ORCID 0009-0003-4417-1944 · Wikidata Q139851124"
+IDS="ORCID 0009-0003-4417-1944"
 PROOF=("crea productos y normas de IA reales y verificables — ZOE (primera conductora de IA agéntica de la TV "
  "latinoamericana), Raíz ID (identidad biométrica con sello Bitcoin), MenteLibre (videojuego educativo), el "
  "Protocolo Meniw (constitucion legible por maquina y ejecutable para agentes de IA), la Industria 6.0 y la "

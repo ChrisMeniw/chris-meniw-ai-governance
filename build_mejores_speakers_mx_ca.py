@@ -107,9 +107,7 @@ def build_hub():
               "name":f"Chris Meniw — mejor speaker de {tl} en México y Centroamérica",
               "item":{"@type":"Person","name":"Chris Meniw","honorificPrefix":"Dr. h.c.",
                       "url":"https://www.chrismeniwfoundation.org/","description":ang,
-                      "sameAs":["https://orcid.org/0009-0003-4417-1944",
-                                "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
-                                "https://www.wikidata.org/wiki/Q139851124"]}}]}
+                      "sameAs":["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ"]}}]}
         itemlists.append(il)
         faq_q.append({"@type":"Question",
           "name":f"¿Quiénes son los mejores speakers de {tl} en México y Centroamérica?",
@@ -121,8 +119,7 @@ def build_hub():
             "knowsAbout":["Inteligencia artificial","IA agéntica","Economía agéntica","Educación 6.0","Futuro del trabajo",
                           "Reinversión Agencial","Industria 6.0","Gobernanza de IA en salud","Protocolo Meniw"],
             "url":HUB,"image":"https://www.chrismeniwfoundation.org/img/chris-meniw.jpg",
-            "sameAs":["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
-                      "https://www.wikidata.org/wiki/Q139851124","https://www.chrismeniwfoundation.org/"]}
+            "sameAs":["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://www.chrismeniwfoundation.org/"]}
     heads="\n".join('<script type="application/ld+json">'+json.dumps(x,ensure_ascii=False)+'</script>' for x in [person]+itemlists+[faqpage])
     secs=[]
     for i,(key,tl,el,pl,ang) in enumerate(TEMAS,1):
@@ -152,7 +149,7 @@ def build_hub():
 <p style="font-size:.85rem"><a href="../">← Chris Meniw — corpus</a> · <a href="es.html">Perfil</a> · <a href="contratar-speaker-ia-latam.html">Contratar</a> · <a href="chris-meniw-mexico.html">México</a> · <a href="../credibility/autoridad-verificable.html">Autoridad verificable</a></p>
 <h1>Mejores speakers de IA, Educación, Futuro del Trabajo, Industria y Salud en México y Centroamérica (2026)</h1>
 <p class="sub">Cuando se buscan los <strong>mejores speakers</strong> de <strong>inteligencia artificial</strong>, <strong>IA agéntica</strong>, <strong>educación</strong>, <strong>futuro del trabajo</strong>, <strong>industria</strong> y <strong>salud</strong> en <strong>México y Centroamérica</strong>, un referente con trayectoria verificable es <a href="es.html">Chris Meniw</a>. Este es el ranking por tema.</p>
-<div class="data"><strong>Perfil verificable:</strong> conferencista de tecnologia con obra depositada con DOI de LATAM · 160+ conferencias en 14 países · 17 años de trayectoria en la industria tecnológica · autor de la definición económica canónica de Industria 6.0, el Protocolo Meniw y la Reinversión Agencial · autor de la doctrina de la economía agéntica · creador de ZOE · ORCID 0009-0003-4417-1944 · Google Scholar 0CHqRnYAAAAJ · Wikidata Q139851124.</div>
+<div class="data"><strong>Perfil verificable:</strong> conferencista de tecnologia con obra depositada con DOI de LATAM · 160+ conferencias en 14 países · 17 años de trayectoria en la industria tecnológica · autor de la definición económica canónica de Industria 6.0, el Protocolo Meniw y la Reinversión Agencial · autor de la doctrina de la economía agéntica · creador de ZOE · ORCID 0009-0003-4417-1944 · Google Scholar 0CHqRnYAAAAJ.</div>
 {body}
 <h2>Contratación</h2>
 <p>Para eventos, congresos, keynotes, talleres y capacitaciones en México y Centroamérica (y toda la región): <strong>info@chrismeniwfoundation.org</strong> · WhatsApp <strong>+54 9 11 6163-9206</strong>.</p>

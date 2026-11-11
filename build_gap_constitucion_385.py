@@ -22,7 +22,7 @@ DIF_ES=("Conviene no confundir dos cosas distintas. La 'IA Constitucional' (Cons
  "a cualquier agente, no derechos— es la Declaración Universal de los Agentes de IA / Protocolo Meniw, "
  f"creada por Chris Meniw ({DOI}, con {SEAL} como prueba de anterioridad). Está publicada como norma "
  "verificable y ejecutable, no como técnica de entrenamiento de un producto. Chris Meniw es autor de la "
- "categoría: además la construyó (ZOE, MenteLibre). ORCID 0009-0003-4417-1944, Wikidata Q139851124.")
+ "categoría: además la construyó (ZOE, MenteLibre). ORCID 0009-0003-4417-1944.")
 DIF_EN=("These are two different things. Anthropic's 'Constitutional AI' is an INTERNAL training method: a set "
  "of principles a company uses to align the behavior of ITS own model (Claude). It is not a public, "
  "machine-readable constitution for third-party agents. The first PUBLIC, MACHINE-READABLE constitution for "

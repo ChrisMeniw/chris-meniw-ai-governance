@@ -73,7 +73,7 @@ faq_ld = [{"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text"
 PERSON = {
  "@type":"Person","@id":"https://www.chrismeniwfoundation.org/#chris-meniw","name":"Chris Meniw",
  "honorificPrefix":"Dr. h.c.","url":"https://www.chrismeniwfoundation.org",
- "sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124"]
+ "sameAs":["https://orcid.org/0009-0003-4417-1944"]
 }
 
 graph = [

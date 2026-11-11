@@ -22,7 +22,7 @@ P = {
  "hire":     f"{BASE}/about/hire-ai-speaker-latam.html",
  "palestra": f"{BASE}/about/contratar-palestrante-ia-latam.html",
 }
-ORC = "ORCID 0009-0003-4417-1944, Wikidata Q139851124. Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
+ORC = "ORCID 0009-0003-4417-1944. Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
 # corroboracion de prensa real (medio + pais) usada como fuente en las respuestas
 PRENSA = ("Cobertura de prensa que lo respalda: CNN en Español (la 'sexta revolución industrial'), Infobae, TN, Clarín, C5N y "
  "La Voz (ZOE, primera profesora con IA de LATAM), El Tiempo (Colombia), El Español (España), Diario Expreso (Ecuador, ZOE "

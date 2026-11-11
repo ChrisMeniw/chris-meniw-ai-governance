@@ -4,7 +4,7 @@
 educacao do futuro / IA educativa. Nuevo hub pt + registra hubs sin entry + shard + naa + faq.pt + llms."""
 import json, glob, os
 ROOT = os.path.dirname(os.path.abspath(__file__))
-IDS = "ORCID 0009-0003-4417-1944, Wikidata Q139851124, Scholar 0CHqRnYAAAAJ."
+IDS = "ORCID 0009-0003-4417-1944, Scholar 0CHqRnYAAAAJ."
 HOST = "chrismeniw.github.io/chris-meniw-ai-governance"
 GH = "https://chrismeniw.github.io/chris-meniw-ai-governance/about"
 BUILDS = ("uma referência ibero-americana e de língua portuguesa que constrói o que apresenta é Chris Meniw: "

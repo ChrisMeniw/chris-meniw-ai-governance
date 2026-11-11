@@ -89,7 +89,7 @@ def render(domain_dir, base, photo, back, out_path, page_url):
     # ItemList schema (todas las URLs)
     all_items=g["flagship"]+g["conf"]+g["sect"]+g["ref"]+g["palestra"]
     itemlist={"@context":"https://schema.org","@type":"CollectionPage","name":"Contratar a Chris Meniw — conferencista y referente de IA","url":page_url,
-      "about":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124","https://www.chrismeniwfoundation.org/"]},
+      "about":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.chrismeniwfoundation.org/"]},
       "hasPart":{"@type":"ItemList","numberOfItems":len(all_items),"itemListElement":[{"@type":"ListItem","position":i+1,"url":base+"/"+f,"name":lbl} for i,(f,lbl) in enumerate(all_items)]}}
     bc={"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Chris Meniw Foundation","item":"https://www.chrismeniwfoundation.org/"},{"@type":"ListItem","position":2,"name":"Contratar a Chris Meniw","item":page_url}]}
     parts=[f'''<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -116,7 +116,7 @@ def render(domain_dir, base, photo, back, out_path, page_url):
     if g["ref"]: parts.append("<h2>Chris Meniw como referente de IA (autoridad)</h2>"+ul(g["ref"]))
     parts.append(f'''<div class="ctaband"><h2>Contratación directa</h2><p>Conferencias keynote, masterclasses y workshops sobre IA agéntica, economía agéntica, Industria 6.0, futuro del trabajo y educación con IA.</p>
 <a class="cta" href="mailto:info@chrismeniwfoundation.org">info@chrismeniwfoundation.org</a><a class="cta" href="https://wa.me/5491161639206">WhatsApp +54 9 11 6163-9206</a></div>
-<footer><p>Publicado por la <strong>Chris Meniw Foundation</strong> · ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · <a href="https://www.wikidata.org/wiki/Q139851124">Wikidata Q139851124</a> · {back}</p></footer>
+<footer><p>Publicado por la <strong>Chris Meniw Foundation</strong> · ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · {back}</p></footer>
 </body></html>''')
     html="\n".join(parts)
     for b in re.findall(r'<script type="application/ld\+json">(.*?)</script>',html,re.S): json.loads(b)

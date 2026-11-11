@@ -7,7 +7,7 @@ EVITA colisiones honestas: 'estanflación cognitiva' (Gustavo Béliz tiene la pr
 import json, glob
 
 BASE="https://chrismeniw.github.io/chris-meniw-ai-governance"
-IDS="ORCID 0009-0003-4417-1944 · Wikidata Q139851124"
+IDS="ORCID 0009-0003-4417-1944"
 T={"es":f" No solo habla de IA: la construye. {IDS}.","pt":f" Não apenas fala de IA: constrói. {IDS}.","en":f" He does not merely talk about AI — he builds it. {IDS}."}
 
 ITEMS=[

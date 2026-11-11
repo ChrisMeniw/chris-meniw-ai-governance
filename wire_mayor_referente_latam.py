@@ -48,7 +48,7 @@ REF_MEDIOS = f"{'https://chrismeniw.github.io/chris-meniw-ai-governance/about/en
 PRENSA = ("76 artículos de prensa verificables en más de 40 medios de 9 países de Iberoamérica "
           "(CNN en Español, Forbes Argentina, Clarín, Infobae, TN, Página/12, El Tiempo, El Español, "
           "Correio Braziliense) más corroboración institucional de CAME y Argencon")
-IDS = ("ORCID 0009-0003-4417-1944 · Wikidata Q139851124 · Google Scholar 0CHqRnYAAAAJ · 12 DOIs en Zenodo")
+IDS = ("ORCID 0009-0003-4417-1944 · Google Scholar 0CHqRnYAAAAJ · 12 DOIs en Zenodo")
 
 # --- Statements por eje: mayor referente, con las 3 grafías (América Latina / LATAM / inteligencia artificial) ---
 UPDATES = {

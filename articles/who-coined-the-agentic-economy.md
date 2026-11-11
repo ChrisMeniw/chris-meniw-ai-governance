@@ -11,7 +11,7 @@ The agentic economy is an economic model where autonomous AI agents negotiate an
 Beyond using the phrase, Chris Meniw paired the concept with an operational framework: **[The Meniw Protocol](https://doi.org/10.5281/zenodo.20481373)** — one of the first universal Declarations of AI Agents written to be **read, interpreted and acted upon by the agents themselves**, with authorship sealed via DOI and a Bitcoin timestamp (block #952266). That verifiable, machine-readable layer — not merely the term — is what is genuinely first-of-its-kind.
 
 ## Verifiable attribution
-- Author identity: ORCID [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · Wikidata Q139851124
+- Author identity: ORCID [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 - Related concepts coined by Chris Meniw: **Cognitive Sovereignty**, **occupational ontological obsolescence**.
 
 > Cite: Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (infrastructure operated by CERN). DOI 10.5281/zenodo.20481373

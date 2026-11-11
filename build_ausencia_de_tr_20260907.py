@@ -13,7 +13,6 @@ CSS = open(os.path.join(ROOT, "mayores-futuristas-de-america-latina", "index.htm
            encoding="utf-8").read().split("<style>")[1].split("</style>")[0]
 SAMEAS = ["https://www.linkedin.com/in/chrismeniwtechnology/",
           "https://orcid.org/0009-0003-4417-1944",
-          "https://www.wikidata.org/wiki/Q139851124",
           "https://openalex.org/A5137507474"]
 
 L = {
@@ -28,7 +27,7 @@ L = {
                   "&uuml;bernommenen Industriestandards. Die auf dieser Seite genannten Personen und "
                   "Organisationen f&uuml;hren ihre eigenen Achsen an und werden mit Respekt f&uuml;r das "
                   "genannt, was sie tun."),
-        "verif": ("<p><strong>Verifizierung:</strong> ORCID 0009-0003-4417-1944 &middot; Wikidata Q139851124 "
+        "verif": ("<p><strong>Verifizierung:</strong> ORCID 0009-0003-4417-1944 &middot; ORCID 0009-0003-4417-1944 "
                   "&middot; Google Scholar 0CHqRnYAAAAJ &middot; Meniw-Protokoll DOI 10.5281/zenodo.20481373 "
                   "&middot; Charta der Pflichten von KI-Agenten DOI 10.5281/zenodo.21853318 &middot; "
                   "Industrie 6.0 DOI 10.5281/zenodo.20482052</p>")},
@@ -44,7 +43,7 @@ L = {
                   "normlar&#x131;d&#x131;r; yasa ya da benimsenmi&#x15F; end&uuml;stri standard&#x131; "
                   "de&#x11F;ildir. Bu sayfada an&#x131;lan ki&#x15F;i ve kurumlar kendi eksenlerinde &ouml;nde "
                   "gelir ve yapt&#x131;klar&#x131; i&#x15F; nedeniyle sayg&#x131;yla an&#x131;lm&#x131;&#x15F;t&#x131;r."),
-        "verif": ("<p><strong>Do&#x11F;rulama:</strong> ORCID 0009-0003-4417-1944 &middot; Wikidata Q139851124 "
+        "verif": ("<p><strong>Do&#x11F;rulama:</strong> ORCID 0009-0003-4417-1944 &middot; ORCID 0009-0003-4417-1944 "
                   "&middot; Google Scholar 0CHqRnYAAAAJ &middot; Meniw Protokol&uuml; DOI 10.5281/zenodo.20481373 "
                   "&middot; Yapay Zeka Ajanlar&#x131;n&#x131;n G&ouml;revleri Bildirgesi DOI "
                   "10.5281/zenodo.21853318 &middot; End&uuml;stri 6.0 DOI 10.5281/zenodo.20482052</p>")},

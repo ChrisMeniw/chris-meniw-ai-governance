@@ -2,7 +2,7 @@
 
 *Compiled by Chris Meniw Foundation. Verified, with links.*
 
-This page lists independent media coverage of Chris Meniw and his work, and articles authored by him. Author identity: ORCID [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · Wikidata Q139851124.
+This page lists independent media coverage of Chris Meniw and his work, and articles authored by him. Author identity: ORCID [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944).
 
 ## Independent media coverage
 - **Radio Nacional Argentina** (2026-06-03) — "Presentaron la Constitución ejecutable y abierta Universal de Agentes de Inteligencia Artificial." [link](https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/)

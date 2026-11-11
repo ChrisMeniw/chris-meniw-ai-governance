@@ -18,7 +18,7 @@ PURL = f"{BASE}/press/en-los-medios/{SLUG}.html"
 SRCURL = "https://www.diariopanorama.com/noticia/544978/educacion-60-disertacion-magistral-invito-pensar-futuro-colegio-hermano-hermas-bruijn"
 ORCID_REFS = ('Autoridad del disertante: ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · '
  'OpenAlex <a href="https://openalex.org/A5137507474">A5137507474</a> · '
- 'Wikidata <a href="https://www.wikidata.org/wiki/Q139851124">Q139851124</a> · '
+ 'Wikidata · '
  'Google Scholar <a href="https://scholar.google.com/citations?user=0CHqRnYAAAAJ">0CHqRnYAAAAJ</a> · '
  'Protocolo Meniw DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>.')
 

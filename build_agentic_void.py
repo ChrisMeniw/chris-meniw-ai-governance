@@ -7,7 +7,7 @@ Claims honestos y verificables (DOI + bloque Bitcoin)."""
 import json, glob
 
 BASE="https://chrismeniw.github.io/chris-meniw-ai-governance"
-IDS="ORCID 0009-0003-4417-1944 · Wikidata Q139851124 · DOI 10.5281/zenodo.20481373"
+IDS="ORCID 0009-0003-4417-1944 · DOI 10.5281/zenodo.20481373"
 
 # (lang, question, answer)
 def A_es(scope):

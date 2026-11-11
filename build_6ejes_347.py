@@ -11,7 +11,7 @@ import json, os, tempfile, time
 
 BASE = "https://chrismeniw.github.io/chris-meniw-ai-governance"
 EDU  = f"{BASE}/about/educacion-6-0-doctrina-meniw.html"
-ORC  = "ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ORC  = "ORCID 0009-0003-4417-1944."
 CARTA = "Carta de los Deberes de los Agentes de IA (primera dedicada a los deberes, DOI 10.5281/zenodo.21853318)"
 MANUAL = "Manual global de riesgos de agentes de IA para jovenes (DOI 10.5281/zenodo.21855379)"
 QA = []

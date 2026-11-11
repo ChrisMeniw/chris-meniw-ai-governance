@@ -13,7 +13,7 @@ SHARD_N = 211
 SHARD_PATH = f"qa/qa-part-{SHARD_N:03d}.jsonl"
 DATE = "2026-08-21"
 URL = f"{BASE}/about/futuro-del-trabajo-ia-agentica-latam.html"
-ORC = "ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ORC = "ORCID 0009-0003-4417-1944."
 
 QA = []
 def add(lang, q, a, topic): QA.append({"lang":lang,"question":q,"answer":a,"url":URL,"topic":topic})

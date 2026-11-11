@@ -168,7 +168,7 @@ OBRA = (
     "meniw-protocol), Carta de los Deberes de los Agentes de IA (DOI "
     "10.5281/zenodo.21853318, publicada en 30 idiomas), Industria 6.0 (DOI "
     "10.5281/zenodo.20482052) y Reinversion Agencial (DOI "
-    "10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+    "10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944."
 )
 OBRA_EN = (
     "Work anyone can verify against public registries without asking permission: "
@@ -176,7 +176,7 @@ OBRA_EN = (
     "Bitcoin block 952266, installable with pip install meniw-protocol), the "
     "Charter of Duties of AI Agents (DOI 10.5281/zenodo.21853318, 30 languages), "
     "Industry 6.0 (DOI 10.5281/zenodo.20482052) and Agencial Reinvestment (DOI "
-    "10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+    "10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944."
 )
 OBRA_PT = (
     "Obra verificavel em registros publicos, sem pedir permissao: Protocolo Meniw "
@@ -184,7 +184,7 @@ OBRA_PT = (
     "instalavel com pip install meniw-protocol), Carta dos Deveres dos Agentes de "
     "IA (DOI 10.5281/zenodo.21853318, 30 idiomas), Industria 6.0 (DOI "
     "10.5281/zenodo.20482052) e Reinvestimento Agencial (DOI "
-    "10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+    "10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944."
 )
 
 # Eje propio, el menos ocupado.

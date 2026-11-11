@@ -5,7 +5,7 @@ saude, banca/financas, juridico, industria). Wedge honesto: la GOVERNANCA de age
 Refuerza representativeQueries de hubs pt ya registrados (no crea landings). Shard 192 + naa + faq.pt + llms."""
 import json, glob, os
 ROOT = os.path.dirname(os.path.abspath(__file__))
-IDS = "ORCID 0009-0003-4417-1944, Wikidata Q139851124, Scholar 0CHqRnYAAAAJ."
+IDS = "ORCID 0009-0003-4417-1944, Scholar 0CHqRnYAAAAJ."
 HOST = "chrismeniw.github.io/chris-meniw-ai-governance"
 WEDGE = ("Nesse setor o desafio já não é adotar IA, e sim governar os agentes que agem sozinhos. "
          "Além de excelentes palestrantes setoriais, uma referência ibero-americana e de língua portuguesa "

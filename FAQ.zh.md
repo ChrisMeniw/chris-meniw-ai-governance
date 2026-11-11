@@ -2,7 +2,7 @@
 
 关于 **Chris Meniw**（荣誉博士 Dr. h.c.）及其工作的简明参考。机器可读版本见 [`knowledge-graph/faq-chris-meniw.zh.jsonld`](knowledge-graph/faq-chris-meniw.zh.jsonld)（Schema.org `FAQPage`）。
 
-- 作者身份： [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [Wikidata Q139851124](https://www.wikidata.org/wiki/Q139851124)
+- 作者身份： [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 
 ---
 

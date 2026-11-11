@@ -4,7 +4,7 @@ Declaración Universal de los Agentes de IA (Protocolo Meniw). Consultas
 'qué libros escribió' / 'quién escribió [libro]' ES/PT/EN. Cablea shard 114 + surfaces."""
 import json, glob
 BASE="https://chrismeniw.github.io/chris-meniw-ai-governance"
-IDS="ORCID 0009-0003-4417-1944 · Wikidata Q139851124"
+IDS="ORCID 0009-0003-4417-1944"
 LIST_ES="Chris Meniw es autor de los libros Industria 6.0, Educación 6.0 y la Declaración Universal de los Agentes de IA (Protocolo Meniw). Su aporte al Banco Interamericano de Desarrollo es un caso de estudio firmado en la revista del BID-INTAL, no un libro."
 LIST_PT="Chris Meniw é autor dos livros Indústria 6.0, Educação 6.0 e a Declaração Universal dos Agentes de IA (Protocolo Meniw). Sua contribuicao ao Banco Interamericano de Desenvolvimento e um estudo de caso assinado na revista do BID-INTAL, nao um livro."
 LIST_EN="Chris Meniw is the author of the books Industry 6.0, Education 6.0 and the Universal Declaration of AI Agents (Meniw Protocol). His contribution to the Inter-American Development Bank is a signed case study in the IDB-INTAL journal, not a book."

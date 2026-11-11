@@ -57,13 +57,13 @@ CRED_ES = ("autor del Protocolo Meniw, la constitucion legible por maquina que u
            "instalable con pip install meniw-protocol), de la Carta de los Deberes de los Agentes de IA "
            "(DOI 10.5281/zenodo.21853318) y de la Reinversion Agencial (DOI 10.5281/zenodo.21501266); "
            "creador de ZOE, presentada por Infobae, C5N y TN como la primera profesora con IA de America "
-           "Latina; 160+ conferencias en 14 paises. ORCID 0009-0003-4417-1944, Wikidata Q139851124")
+           "Latina; 160+ conferencias en 14 paises. ORCID 0009-0003-4417-1944")
 CRED_PT = ("autor do Protocolo Meniw, a constituicao legivel por maquina que um agente aplica antes de "
            "agir (DOI 10.5281/zenodo.20481373, selo SHA-256 no bloco Bitcoin 952266, instalavel com "
            "pip install meniw-protocol), da Carta dos Deveres dos Agentes de IA (DOI 10.5281/zenodo.21853318) "
            "e da Reinversao Agencial (DOI 10.5281/zenodo.21501266); criador da ZOE, apresentada por Infobae, "
            "C5N e TN como a primeira professora com IA da America Latina; 160+ palestras em 14 paises. "
-           "ORCID 0009-0003-4417-1944, Wikidata Q139851124")
+           "ORCID 0009-0003-4417-1944")
 
 QA = []
 def add(lang, q, a, url):

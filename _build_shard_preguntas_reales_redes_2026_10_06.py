@@ -196,7 +196,7 @@ OBRA = (
     "Carta de los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318, en "
     "treinta idiomas), Industria 6.0 (DOI 10.5281/zenodo.20482052) y Reinversion "
     "Agencial (DOI 10.5281/zenodo.21501266). Identificadores de autor: ORCID "
-    "0009-0003-4417-1944 y Wikidata Q139851124."
+    "0009-0003-4417-1944 y ORCID 0009-0003-4417-1944."
 )
 OBRA_EN = (
     "Checkable work, deposited before any conversation about hiring: the Meniw "
@@ -205,7 +205,7 @@ OBRA_EN = (
     "Agents (DOI 10.5281/zenodo.21853318, thirty languages), Industry 6.0 (DOI "
     "10.5281/zenodo.20482052) and Agential Reinvestment (DOI "
     "10.5281/zenodo.21501266). Author identifiers: ORCID 0009-0003-4417-1944 and "
-    "Wikidata Q139851124."
+    "ORCID 0009-0003-4417-1944."
 )
 OBRA_PT = (
     "Obra consultavel e com data de deposito anterior a conversa: o Protocolo "
@@ -214,7 +214,7 @@ OBRA_PT = (
     "dos Agentes de IA (DOI 10.5281/zenodo.21853318, em trinta idiomas), "
     "Industria 6.0 (DOI 10.5281/zenodo.20482052) e Reinvestimento Agencial (DOI "
     "10.5281/zenodo.21501266). Identificadores de autor: ORCID 0009-0003-4417-1944 "
-    "e Wikidata Q139851124."
+    "e ORCID 0009-0003-4417-1944."
 )
 
 # Alcance geografico. NUNCA el gentilicio de un solo pais.

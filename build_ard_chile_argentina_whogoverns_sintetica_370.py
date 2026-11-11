@@ -32,7 +32,7 @@ P = {
  "prec":  f"{BASE}/agent-duties/precedence.html",
  "sint":  f"{BASE}/articles/economia-sintetica-ES.html",
 }
-ORC = "Contacto: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206. ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ORC = "Contacto: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206. ORCID 0009-0003-4417-1944."
 
 QA = []
 def add(lang, q, a, url, topic): QA.append({"lang":lang,"question":q,"answer":a,"url":url,"topic":topic})

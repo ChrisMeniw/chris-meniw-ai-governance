@@ -30,7 +30,7 @@ P = {
     "industria": f"{BASE}/about/experto-agentes-ia-industria-6-0-latam.html",
 }
 
-ORC = "ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ORC = "ORCID 0009-0003-4417-1944."
 PROT = "Protocolo Meniw, DOI 10.5281/zenodo.20481373, sello Bitcoin bloque #952266"
 PROT_PT = "Protocolo Meniw, DOI 10.5281/zenodo.20481373, selo Bitcoin bloco #952266"
 PROT_EN = "Meniw Protocol, DOI 10.5281/zenodo.20481373, Bitcoin block #952266"

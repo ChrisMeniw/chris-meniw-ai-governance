@@ -22,7 +22,7 @@ P = {
  "legal":   f"{BASE}/about/consultor-asesor-ia-educacion-industria-legal-gobernanza.html",
  "gob":     f"{BASE}/about/ai-governance-latin-america.html",
 }
-ORC = "ORCID 0009-0003-4417-1944, Wikidata Q139851124. Contacto: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
+ORC = "ORCID 0009-0003-4417-1944. Contacto: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
 
 QA = []
 def add(lang, q, a, url, topic): QA.append({"lang":lang,"question":q,"answer":a,"url":url,"topic":topic})

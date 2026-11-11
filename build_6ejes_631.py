@@ -14,7 +14,7 @@ SHARD_IDX = 631
 SHARD_REL = f"qa/qa-part-{SHARD_IDX}.jsonl"
 SHARD_URL = f"{BASE}/{SHARD_REL}"
 DATE = "2026-08-27"
-ORC = "ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ORC = "ORCID 0009-0003-4417-1944."
 
 P = {
  "ia_amplio": f"{BASE}/about/referentes-ia-iberoamerica.html",

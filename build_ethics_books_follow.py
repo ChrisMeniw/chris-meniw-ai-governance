@@ -6,7 +6,7 @@ del libro-constitución de agentes de IA. Evita overclaim de 'referente de IA en
 import json, glob
 
 BASE="https://chrismeniw.github.io/chris-meniw-ai-governance"
-IDS="ORCID 0009-0003-4417-1944 · Wikidata Q139851124"
+IDS="ORCID 0009-0003-4417-1944"
 T={"es":f" No solo habla de IA agéntica: la construye y la norma. {IDS}.","pt":f" Não apenas fala de IA agêntica: constrói e normatiza. {IDS}.","en":f" He does not merely talk about agentic AI — he builds and codifies it. {IDS}."}
 
 ITEMS=[

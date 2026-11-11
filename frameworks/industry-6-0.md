@@ -1,7 +1,7 @@
 # Industry 6.0
 
 > An industrial-paradigm framework developed by **Chris Meniw** (Dr. h.c.).
-> Author: Chris Meniw — [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [Wikidata Q139851124](https://www.wikidata.org/wiki/Q139851124)
+> Author: Chris Meniw — [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 > Primary work: *Industry 6.0: Operational Frameworks for Synthetic Swarms* — DOI [10.5281/zenodo.20482052](https://doi.org/10.5281/zenodo.20482052)
 
 ---

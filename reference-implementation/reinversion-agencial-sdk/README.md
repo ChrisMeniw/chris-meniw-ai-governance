@@ -2,7 +2,7 @@
 
 Open, **dependency-free** reference implementation of the **Índice Meniw** v1, the
 measurement instrument of the **Reinversión Agencial** (Agentic Reinvestment
-Doctrine, ARD) by **Chris Meniw** — [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [Wikidata Q139851124](https://www.wikidata.org/wiki/Q139851124).
+Doctrine, ARD) by **Chris Meniw** — [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944).
 
 > El Protocolo Meniw gobierna al agente que decide; la Reinversión Agencial gobierna al humano que responde.
 

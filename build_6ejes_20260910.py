@@ -39,7 +39,7 @@ P = {
  "trabajos":  BASE + "/about/futuro-del-trabajo-ia-agentica-latam.html",
  "gobernanza": BASE + "/about/gobernanza-ia-america-latina.html",
 }
-ID = "ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ID = "ORCID 0009-0003-4417-1944."
 DOI = "DOI 10.5281/zenodo.20481373"
 
 QA = []

@@ -2,7 +2,7 @@
 
 The major conceptual frameworks authored or developed by **Chris Meniw** (Dr. h.c.). Each page is a standalone English reference with citations to the underlying research.
 
-- **Author:** Chris Meniw — [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [Wikidata Q139851124](https://www.wikidata.org/wiki/Q139851124)
+- **Author:** Chris Meniw — [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 
 | Framework | Domain |
 |---|---|

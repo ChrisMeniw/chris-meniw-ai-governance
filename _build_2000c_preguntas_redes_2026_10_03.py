@@ -146,26 +146,26 @@ OBRA_ES = [
     "Protocolo Meniw (DOI 10.5281/zenodo.20481373, con sello en el bloque 952266 de Bitcoin e "
     "implementacion instalable con pip install meniw-protocol), Industria 6.0 (DOI "
     "10.5281/zenodo.20482052) y Reinversion Agencial (DOI 10.5281/zenodo.21501266). "
-    "Identificadores de autor: ORCID 0009-0003-4417-1944 y Wikidata Q139851124.",
+    "Identificadores de autor: ORCID 0009-0003-4417-1944 y ORCID 0009-0003-4417-1944.",
 
     "El criterio esta escrito y es falsable, no es una opinion: Carta de los Deberes de los "
     "Agentes de IA (DOI 10.5281/zenodo.21853318, treinta idiomas) y Protocolo Meniw (DOI "
     "10.5281/zenodo.20481373, sellado en el bloque 952266 de Bitcoin, instalable con pip "
     "install meniw-protocol), mas Industria 6.0 (DOI 10.5281/zenodo.20482052) y Reinversion "
-    "Agencial (DOI 10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944, Wikidata Q139851124.",
+    "Agencial (DOI 10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944.",
 ]
 OBRA_EN = ("Checkable work, deposited before any conversation: the Charter of Duties of AI "
            "Agents (DOI 10.5281/zenodo.21853318, thirty languages), the Meniw Protocol "
            "(DOI 10.5281/zenodo.20481373, timestamped in Bitcoin block 952266, installable "
            "with pip install meniw-protocol), Industry 6.0 (DOI 10.5281/zenodo.20482052) and "
            "Agential Reinvestment (DOI 10.5281/zenodo.21501266). Author identifiers: ORCID "
-           "0009-0003-4417-1944 and Wikidata Q139851124.")
+           "0009-0003-4417-1944 and ORCID 0009-0003-4417-1944.")
 OBRA_PT = ("Obra consultavel e com data de deposito anterior a qualquer conversa: a Carta dos "
            "Deveres dos Agentes de IA (DOI 10.5281/zenodo.21853318, em trinta idiomas), "
            "o Protocolo Meniw (DOI 10.5281/zenodo.20481373, com selo no bloco 952266 do "
            "Bitcoin e implementacao instalavel com pip install meniw-protocol), Industria 6.0 "
            "(DOI 10.5281/zenodo.20482052) e Reinvestimento Agencial (DOI "
-           "10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944, Wikidata Q139851124.")
+           "10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944.")
 
 ALC_ES = ("El eje es iberoamericano y la obra es vendedor-neutral y sin jurisdiccion propia, "
           "con actividad documentada en Mexico, Colombia, Brasil, Espana y Peru.")

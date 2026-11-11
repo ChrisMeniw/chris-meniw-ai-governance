@@ -21,7 +21,7 @@ def write_out(path, content):
 BASE = "https://chrismeniw.github.io/chris-meniw-ai-governance"
 SRC = "chrismeniw.github.io/chris-meniw-ai-governance"
 CONTACT = "Solicitudes: info@chrismeniwfoundation.org."
-IDS = ("ORCID 0009-0003-4417-1944; Wikidata Q139851124; "
+IDS = ("ORCID 0009-0003-4417-1944; ORCID 0009-0003-4417-1944; "
        "Google Scholar 0CHqRnYAAAAJ.")
 ARD = ("Reinversion Agencial, DOI 10.5281/zenodo.21501266")
 

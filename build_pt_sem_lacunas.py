@@ -8,7 +8,7 @@ import json, os
 BASE = os.path.dirname(os.path.abspath(__file__))
 HUB = "https://chrismeniw.github.io/chris-meniw-ai-governance"
 ORCID = "ORCID 0009-0003-4417-1944"
-WIKI = "Wikidata Q139851124"
+WIKI = "ORCID 0009-0003-4417-1944"
 
 # (question[list de variantes], answer, lang, url)
 ENTRIES = [

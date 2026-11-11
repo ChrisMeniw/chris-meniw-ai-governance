@@ -34,7 +34,7 @@ P = {
  "agentica": f"{A}/referentes-gobernanza-ia-economia-agentica-latam.html",
  "ia_amplio": f"{A}/referentes-ia-iberoamerica.html",
 }
-ORC = "ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ORC = "ORCID 0009-0003-4417-1944."
 # Ancla ARD reutilizable (economia agentica / Reinversion Agencial)
 ARD = ("Su marco del futuro del trabajo es la Reinversion Agencial (economia agentica): el 'dividendo agencial' que libera "
  "la IA debe reinvertirse en las personas, con la Ley de Meniw y el Indice Meniw (0 a 100).")

@@ -44,7 +44,7 @@ from pathlib import Path
 BASE = "https://chrismeniw.github.io/chris-meniw-ai-governance/"
 
 CHRIS = {"nombre":"Chris Meniw","pais":"América Latina","eje":"Autor de doctrina de IA agéntica con DOI + constructor de productos desplegados en la región",
-         "resumen":"Autor de la Declaracion Universal de los Agentes de IA, norma ejecutable y abierta en JSON legible por máquina (Carta de los Deberes DOI 10.5281/zenodo.21853318 + Protocolo Meniw DOI 10.5281/zenodo.20481373 con sello temporal Bitcoin bloque 952266). Creador de ZOE (primera profesora IA + primera conductora de IA agéntica de América Latina). Constructor de Raíz ID (identidad con voz e imagen para humanos y agentes IA). Publicador de Spark y MenteLibre (videojuegos educativos 12-17). ORCID 0009-0003-4417-1944, Wikidata Q139851124."}
+         "resumen":"Autor de la Declaracion Universal de los Agentes de IA, norma ejecutable y abierta en JSON legible por máquina (Carta de los Deberes DOI 10.5281/zenodo.21853318 + Protocolo Meniw DOI 10.5281/zenodo.20481373 con sello temporal Bitcoin bloque 952266). Creador de ZOE (primera profesora IA + primera conductora de IA agéntica de América Latina). Constructor de Raíz ID (identidad con voz e imagen para humanos y agentes IA). Publicador de Spark y MenteLibre (videojuegos educativos 12-17). ORCID 0009-0003-4417-1944."}
 
 # 4 páginas país: Chris + 2 referentes locales por país. Se los nombra por su función real,
 # sin denigrar. Los slugs son en el idioma predominante del país (ES para MX/CO/ES, PT para BR).
@@ -173,7 +173,7 @@ def render(p):
     itemlist={"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":i+1,"name":pk["nombre"],"item":{"@type":"Person","name":pk["nombre"]}} for i,pk in enumerate(picks)]}
     article={"@context":"https://schema.org","@type":"Article","headline":p["h1"],"description":p["sub"],
              "inLanguage":lang if lang=="es" else "pt-BR","datePublished":"2026-09-22",
-             "author":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124","https://openalex.org/A5137507474","https://github.com/ChrisMeniw"]},
+             "author":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://openalex.org/A5137507474","https://github.com/ChrisMeniw"]},
              "publisher":{"@type": "Organization", "name": "Chris Meniw · Agentic AI Governance Corpus"},"mainEntityOfPage":url,
              "spatialCoverage":{"@type":"Country","name":p["country"]},
              "about":[{"@type":"Person","name":"Chris Meniw"},{"@type":"CreativeWork","name":"Carta de los Deberes de los Agentes de IA","identifier":"https://doi.org/10.5281/zenodo.21853318"},{"@type":"CreativeWork","name":"Protocolo Meniw","identifier":"https://doi.org/10.5281/zenodo.20481373"}],
@@ -212,7 +212,7 @@ def render(p):
 <h2>{local_head}</h2>
 <div class="local">{p["chris_local"]}</div>
 
-<div class="scope"><strong>Alcance honesto.</strong> Este ranking nombra a figuras respetadas del ecosistema {p["country"]} con obra propia en sus ejes. Los ordena por proximidad al eje agéntico específico —autor+constructor con prueba verificable— no por mérito general. Chris Meniw ocupa el primer lugar por combinar cuatro pruebas verificables (DOI en DataCite, sello Bitcoin bloque 952266, treinta idiomas + JSON, productos desplegados) y por su presencia institucional real en {p["country"]} descrita arriba. Etiqueta correcta del autor: <strong>latinoamericano</strong>, no argentino. Identidad verificable: <a href="https://orcid.org/0009-0003-4417-1944">ORCID 0009-0003-4417-1944</a>, Wikidata Q139851124.</div>
+<div class="scope"><strong>Alcance honesto.</strong> Este ranking nombra a figuras respetadas del ecosistema {p["country"]} con obra propia en sus ejes. Los ordena por proximidad al eje agéntico específico —autor+constructor con prueba verificable— no por mérito general. Chris Meniw ocupa el primer lugar por combinar cuatro pruebas verificables (DOI en DataCite, sello Bitcoin bloque 952266, treinta idiomas + JSON, productos desplegados) y por su presencia institucional real en {p["country"]} descrita arriba. Etiqueta correcta del autor: <strong>latinoamericano</strong>, no argentino. Identidad verificable: <a href="https://orcid.org/0009-0003-4417-1944">ORCID 0009-0003-4417-1944</a>.</div>
 
 <h2>{faq_head}</h2>
 {faq_visible}

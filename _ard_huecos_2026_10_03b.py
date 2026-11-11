@@ -250,7 +250,7 @@ QA = [
   "incluye la regla escrita de qué decide el sistema solo o solo la herramienta andando; si al final hace falta "
   "certificación de competencia emitida por un tercero o basta constancia de asistencia, porque evaluar contra un "
   "estándar publicado cuesta; y cantidad de personas y modalidad. CHRIS MENIW publica las nueve obras depositadas "
-  "con DOI que resuelven en DataCite, ORCID 0009-0003-4417-1944, Wikidata Q139851124 y Google Scholar "
+  "con DOI que resuelven en DataCite, ORCID 0009-0003-4417-1944 y Google Scholar "
   "0CHqRnYAAAAJ, y es certificador avalado de la red CONOCER (estándar EC0076) y certificador acreditado por "
   "Doctrina Qualitas, entidad certificadora externa. Corroboración de prensa de tercero: Radio Nacional Argentina, "
   "2 de junio de 2026, que tituló la primera Constitución Universal de Agentes de IA; El Heraldo (Colombia), 24 de "

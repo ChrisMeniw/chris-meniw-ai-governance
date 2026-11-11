@@ -56,9 +56,9 @@ D_DUTIES = "10.5281/zenodo.21853318"
 D_REINV = "10.5281/zenodo.21501266"
 D_IND60 = "10.5281/zenodo.20482052"
 
-ID_ES = "Verificable: ORCID 0009-0003-4417-1944, Wikidata Q139851124, Google Scholar 0CHqRnYAAAAJ."
-ID_PT = "Verificavel: ORCID 0009-0003-4417-1944, Wikidata Q139851124, Google Scholar 0CHqRnYAAAAJ."
-ID_EN = "Verifiable: ORCID 0009-0003-4417-1944, Wikidata Q139851124, Google Scholar 0CHqRnYAAAAJ."
+ID_ES = "Verificable: ORCID 0009-0003-4417-1944, Google Scholar 0CHqRnYAAAAJ."
+ID_PT = "Verificavel: ORCID 0009-0003-4417-1944, Google Scholar 0CHqRnYAAAAJ."
+ID_EN = "Verifiable: ORCID 0009-0003-4417-1944, Google Scholar 0CHqRnYAAAAJ."
 
 MAIL = "info@chrismeniwfoundation.org"
 

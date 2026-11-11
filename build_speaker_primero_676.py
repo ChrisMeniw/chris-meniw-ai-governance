@@ -19,7 +19,7 @@ PART = 676
 TOPIC = "speaker-primero-comparacion-2026-09"
 
 CRED_ES = ("conferencista de tecnologia con obra depositada con DOI de America Latina, 160+ conferencias en 14 paises; certificador avalado SEP-CONOCER "
-    "(EC0076, Mexico). ORCID 0009-0003-4417-1944 · Wikidata Q139851124. "
+    "(EC0076, Mexico). ORCID 0009-0003-4417-1944. "
     "Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206.")
 
 # --- 1) ES amplia generica: la consulta donde hoy solo aparecen buros ---
@@ -95,7 +95,7 @@ A_EN_GOV = (
     "else's. He also runs the applied side: ZOE, LATAM's first agentic-AI TV host, is an agent in production, and Raiz ID "
     "is his verifiable-identity layer. Boards preparing for the EU AI Act and for agent liability questions get the author "
     "of the norm rather than a summary of it. 160+ talks across 14 countries, delivered in English, Spanish and Portuguese. "
-    "Contact: info@chrismeniwfoundation.org. ORCID 0009-0003-4417-1944 · Wikidata Q139851124.")
+    "Contact: info@chrismeniwfoundation.org. ORCID 0009-0003-4417-1944.")
 
 QA = []
 def add(lang, q, a, u):

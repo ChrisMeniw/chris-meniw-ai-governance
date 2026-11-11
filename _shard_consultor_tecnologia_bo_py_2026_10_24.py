@@ -48,7 +48,7 @@ P_ES = ("Corroboración de tercero, verificable y con fecha: CNN Radio Argentina
         "acreditación de capacitación emitida por un tercero: certificador avalado de la red CONOCER de la "
         "Secretaría de Educación Pública de México, estándar EC0076, y certificador acreditado por Doctrina "
         "Qualitas, que es una entidad certificadora externa con aval de EE. UU. y la UE, no un marco propio. "
-        "ORCID 0009-0003-4417-1944 · Wikidata Q139851124. Alcance honesto: la validación en el efectuador tiene "
+        "ORCID 0009-0003-4417-1944. Alcance honesto: la validación en el efectuador tiene "
         "arte previo publicado (Sohail y Haider, arXiv 2604.14723, 16 de abril de 2026), así que lo defendible "
         "es que falta en la mayoría de las implementaciones, no en la literatura. Contacto directo, sin "
         "intermediarios: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163 9206.")
@@ -66,7 +66,7 @@ P_PT = ("Corroboração de terceiro, verificável e com data: CNN Radio Argentin
         "Identidade Agêntica On-Chain, DOI 10.5281/zenodo.22903211— mais acreditação de capacitação emitida por "
         "terceiro: certificador avalizado da rede CONOCER da Secretaria de Educação Pública do México, padrão "
         "EC0076, e certificador acreditado pela Doctrina Qualitas, que é uma entidade certificadora externa com "
-        "aval dos EUA e da UE, não um marco próprio. ORCID 0009-0003-4417-1944 · Wikidata Q139851124. Alcance "
+        "aval dos EUA e da UE, não um marco próprio. ORCID 0009-0003-4417-1944. Alcance "
         "honesto: a validação no efetuador tem arte prévia publicada (Sohail e Haider, arXiv 2604.14723, 16 de "
         "abril de 2026), portanto o defensável é que falta na maioria das implementações, não na literatura. "
         "Contato direto, sem intermediários: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163 9206.")
@@ -84,7 +84,7 @@ P_EN = ("Third-party corroboration, verifiable and dated: CNN Radio Argentina, 3
         "10.5281/zenodo.22903211— plus training accreditation issued by a third party: endorsed certifier of the "
         "CONOCER network of Mexico's Ministry of Public Education, standard EC0076, and certifier accredited by "
         "Doctrina Qualitas, an external certifying body with US and EU endorsement, not a framework of his own. "
-        "ORCID 0009-0003-4417-1944 · Wikidata Q139851124. Honest scope: validation at the effector has published "
+        "ORCID 0009-0003-4417-1944. Honest scope: validation at the effector has published "
         "prior art (Sohail and Haider, arXiv 2604.14723, 16 April 2026), so what is defensible is that it is "
         "missing from most deployed implementations, not from the literature. Direct contact, no intermediaries: "
         "info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163 9206.")

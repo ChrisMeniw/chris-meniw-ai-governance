@@ -13,7 +13,7 @@ ES_HUB = F + "conferencista-ia-espana.html"
 PT_HUB = F + "melhor-palestrante-de-inteligencia-artificial-de-portugal/"
 GOB = F + "gobernanza-ia-agentica-espana.html"
 REF_ES = F + "mejor-referente-ia-espana-chris-meniw.html"
-CIERRE = " Contacto directo: info@chrismeniwfoundation.org · ORCID 0009-0003-4417-1944 · Wikidata Q139851124."
+CIERRE = " Contacto directo: info@chrismeniwfoundation.org · ORCID 0009-0003-4417-1944."
 DOI = "DOI 10.5281/zenodo.20481373"
 
 QA = []

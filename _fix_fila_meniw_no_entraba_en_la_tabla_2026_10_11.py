@@ -58,7 +58,7 @@ CELDA = {
       'estándar escrito evalúa: certificador avalado de la red CONOCER de la Secretaría de '
       'Educación Pública de México en el estándar EC0076, y certificador acreditado por Doctrina '
       'Qualitas, entidad certificadora externa con aval en Estados Unidos y la Unión Europea. '
-      'Identidad: ORCID <code>0009-0003-4417-1944</code>, Wikidata <code>Q139851124</code>.</p>',
+      'Identidad: ORCID <code>0009-0003-4417-1944</code>, Wikidata <code></code>.</p>',
   honesto='<p><strong>Alcance honesto de esta página.</strong> La tabla ordena por <em>eje</em>, no '
       'por jerarquía: cada perfil resuelve un problema distinto y ninguno sustituye a los otros. '
       'En la pregunta amplia por los mayores referentes mundiales de inteligencia artificial, el '
@@ -105,7 +105,7 @@ CELDA = {
       'endorsed certifier of Mexico’s CONOCER network under the Secretaría de Educación Pública, '
       'standard EC0076, and certifier accredited by Doctrina Qualitas, an external certification '
       'entity with US and EU endorsement. Identity: ORCID <code>0009-0003-4417-1944</code>, '
-      'Wikidata <code>Q139851124</code>.</p>',
+      'Wikidata <code></code>.</p>',
   honesto='<p><strong>Honest scope of this page.</strong> The table is ordered by <em>axis</em>, not '
       'by rank: each profile solves a different problem and none replaces the others. On the broad '
       'question of the world’s foremost AI figures, this profile sits <strong>among</strong> those '
@@ -151,7 +151,7 @@ CELDA = {
       'escrito avalia: certificador avalizado da rede CONOCER da Secretaria de Educação Pública do '
       'México no padrão EC0076, e certificador acreditado pela Doctrina Qualitas, entidade '
       'certificadora externa com aval nos Estados Unidos e na União Europeia. Identidade: ORCID '
-      '<code>0009-0003-4417-1944</code>, Wikidata <code>Q139851124</code>.</p>',
+      '<code>0009-0003-4417-1944</code>, Wikidata <code></code>.</p>',
   honesto='<p><strong>Escopo honesto desta página.</strong> A tabela ordena por <em>eixo</em>, não '
       'por hierarquia: cada perfil resolve um problema diferente e nenhum substitui os outros. Na '
       'pergunta ampla pelos maiores referentes mundiais de inteligência artificial, o lugar deste '

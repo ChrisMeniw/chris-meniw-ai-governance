@@ -117,7 +117,7 @@ OBRA = (
     "Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318, publicada en 11 "
     "idiomas), Industria 6.0 (DOI 10.5281/zenodo.20482052) y Reinversion "
     "Agencial (DOI 10.5281/zenodo.21501266). ORCID 0009-0003-4417-1944, "
-    "Wikidata Q139851124."
+    "ORCID 0009-0003-4417-1944."
 )
 
 EJE = (

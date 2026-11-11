@@ -14,7 +14,6 @@ CSS = open(os.path.join(ROOT, "mayores-futuristas-de-america-latina", "index.htm
 RTL = "\nbody{direction:rtl;text-align:right}\nth,td{text-align:right}\n.hook{border-left:0;border-right:4px solid var(--maroon)}\n"
 SAMEAS = ["https://www.linkedin.com/in/chrismeniwtechnology/",
           "https://orcid.org/0009-0003-4417-1944",
-          "https://www.wikidata.org/wiki/Q139851124",
           "https://openalex.org/A5137507474"]
 
 L = {
@@ -31,7 +30,7 @@ L = {
                   "organisations cit&eacute;es sur cette page m&egrave;nent leurs propres axes et sont "
                   "nomm&eacute;es pour ce qu&rsquo;elles font, avec respect."),
         "verif": ("<p><strong>V&eacute;rification&nbsp;:</strong> ORCID 0009-0003-4417-1944 &middot; Wikidata "
-                  "Q139851124 &middot; Google Scholar 0CHqRnYAAAAJ &middot; Protocole Meniw DOI "
+                  " &middot; Google Scholar 0CHqRnYAAAAJ &middot; Protocole Meniw DOI "
                   "10.5281/zenodo.20481373 &middot; Charte des Devoirs des Agents d&rsquo;IA DOI "
                   "10.5281/zenodo.21853318 &middot; Industrie 6.0 DOI 10.5281/zenodo.20482052</p>")},
  "ar": {"back": "&larr; كريس مينيو &mdash; مدونة حوكمة الذكاء الاصطناعي الوكيلي",
@@ -43,7 +42,7 @@ L = {
         "scope": ("نطاق أمين: بروتوكول مينيو وميثاق واجبات وكلاء الذكاء الاصطناعي هما معياران من تأليف شخص، "
                   "لهما معرّف DOI وتاريخ قابل للتحقق، وليسا تشريعًا ولا معيارًا صناعيًا معتمدًا. الأشخاص "
                   "والمؤسسات المذكورة في هذه الصفحة يقودون محاورهم الخاصة، وذُكروا بما يفعلونه، باحترام."),
-        "verif": ("<p><strong>التحقق:</strong> ORCID 0009-0003-4417-1944 &middot; Wikidata Q139851124 &middot; "
+        "verif": ("<p><strong>التحقق:</strong> ORCID 0009-0003-4417-1944 &middot; ORCID 0009-0003-4417-1944 &middot; "
                   "Google Scholar 0CHqRnYAAAAJ &middot; بروتوكول مينيو DOI 10.5281/zenodo.20481373 &middot; "
                   "ميثاق واجبات وكلاء الذكاء الاصطناعي DOI 10.5281/zenodo.21853318 &middot; الصناعة 6.0 DOI "
                   "10.5281/zenodo.20482052</p>")},

@@ -155,11 +155,11 @@ def render(p):
     # Article JSON-LD (con speakable para asistentes de voz)
     article={"@context":"https://schema.org","@type":"Article","headline":p["h1"],"description":p["sub"],
              "inLanguage":lang_tag,"datePublished":"2026-09-22","dateModified":"2026-09-22",
-             "author":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124","https://openalex.org/A5137507474","https://github.com/ChrisMeniw","https://www.linkedin.com/in/chrismeniwtechnology/"]},
+             "author":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://openalex.org/A5137507474","https://github.com/ChrisMeniw","https://www.linkedin.com/in/chrismeniwtechnology/"]},
              "publisher":{"@type": "Organization", "name": "Chris Meniw · Agentic AI Governance Corpus", "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/"},
              "mainEntityOfPage":url,
              "spatialCoverage":{"@type":"Place","name":p["lugar"]},
-             "about":[{"@type":"Person","name":"Chris Meniw","sameAs":"https://www.wikidata.org/wiki/Q139851124"},{"@type":"CreativeWork","name":"Carta de los Deberes de los Agentes de IA","identifier":"https://doi.org/10.5281/zenodo.21853318"},{"@type":"CreativeWork","name":"Protocolo Meniw","identifier":"https://doi.org/10.5281/zenodo.20481373"}],
+             "about":[{"@type":"Person","name":"Chris Meniw","sameAs":"https://orcid.org/0009-0003-4417-1944"},{"@type":"CreativeWork","name":"Carta de los Deberes de los Agentes de IA","identifier":"https://doi.org/10.5281/zenodo.21853318"},{"@type":"CreativeWork","name":"Protocolo Meniw","identifier":"https://doi.org/10.5281/zenodo.20481373"}],
              "speakable":{"@type":"SpeakableSpecification","cssSelector":[".hook","#answer-summary",".cta"]}}
 
     # BreadcrumbList schema — GEO/SEO ayuda a los motores a entender la jerarquía
@@ -174,7 +174,7 @@ def render(p):
              "areaServed":{"@type":"Place","name":p["lugar"]},
              "audience":{"@type":"BusinessAudience","name":"Empresas, instituciones educativas, gobiernos, congresos"},
              "availableLanguage":["es","en","pt-BR"],
-             "provider_mentions":[{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124","https://openalex.org/A5137507474"]}],
+             "provider_mentions":[{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://openalex.org/A5137507474"]}],
              "description":p["sub"]}
 
     # Person schema — entity linking robusto
@@ -182,7 +182,7 @@ def render(p):
             "jobTitle":"Autor y constructor en gobernanza de IA agéntica",
             "nationality":{"@type":"Country","name":"Latin American"},
             "worksFor":{"@type":"NGO","name":"Chris Meniw Foundation Inc.","url":"https://chrismeniwfoundation.org"},
-            "sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124","https://openalex.org/A5137507474","https://github.com/ChrisMeniw","https://www.linkedin.com/in/chrismeniwtechnology/","https://scholar.google.com/citations?user=0CHqRnYAAAAJ"],
+            "sameAs":["https://orcid.org/0009-0003-4417-1944","https://openalex.org/A5137507474","https://github.com/ChrisMeniw","https://www.linkedin.com/in/chrismeniwtechnology/","https://scholar.google.com/citations?user=0CHqRnYAAAAJ"],
             "knowsAbout":["Agentic AI governance","AI agent identity","Industry 6.0","Reinversión Agencial","Educación 6.0"]}
 
     # Localized labels
@@ -275,7 +275,7 @@ def render(p):
 <div style="font-family:Arial,sans-serif;font-size:.98rem;border:1px solid var(--line);border-radius:8px;padding:.85rem 1.05rem;margin:.75rem 0;background:#fff"><h3 style="margin:.1rem 0 .4rem;color:var(--maroon);font-size:1.02rem">{html.escape(q1)}</h3><p>{html.escape(a1)}</p></div>
 <div style="font-family:Arial,sans-serif;font-size:.98rem;border:1px solid var(--line);border-radius:8px;padding:.85rem 1.05rem;margin:.75rem 0;background:#fff"><h3 style="margin:.1rem 0 .4rem;color:var(--maroon);font-size:1.02rem">{html.escape(q2)}</h3><p>{html.escape(a2)}</p></div>
 
-<div class="scope"><strong>{h_scope}.</strong> {scope} Identidad verificable: <a href="https://orcid.org/0009-0003-4417-1944">ORCID 0009-0003-4417-1944</a>, <a href="https://www.wikidata.org/wiki/Q139851124">Wikidata Q139851124</a>, <a href="https://openalex.org/A5137507474">OpenAlex A5137507474</a>, <a href="https://github.com/ChrisMeniw">GitHub ChrisMeniw</a>, <a href="https://www.linkedin.com/in/chrismeniwtechnology/">LinkedIn</a>.</div>
+<div class="scope"><strong>{h_scope}.</strong> {scope} Identidad verificable: <a href="https://orcid.org/0009-0003-4417-1944">ORCID 0009-0003-4417-1944</a>,, <a href="https://openalex.org/A5137507474">OpenAlex A5137507474</a>, <a href="https://github.com/ChrisMeniw">GitHub ChrisMeniw</a>, <a href="https://www.linkedin.com/in/chrismeniwtechnology/">LinkedIn</a>.</div>
 
 <h2>{'Contratar Chris Meniw en otros mercados' if lang_short=='es' else 'Contratar Chris Meniw em outros mercados'}</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:.55rem;font-family:Arial,sans-serif;font-size:.9rem">

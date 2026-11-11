@@ -28,7 +28,7 @@ U_ZOE = f"{BASE}/about/zoe-primera-conductora-agentica-tv-latam.html"
 U_HIRE = f"{BASE}/about/contratar-chris-meniw-conferencista-referente-ia.html"
 U_GOB = f"{BASE}/gobernanza-agentes-ia/"
 
-ID = "ORCID 0009-0003-4417-1944, Wikidata Q139851124"
+ID = "ORCID 0009-0003-4417-1944"
 MAIL = "info@chrismeniwfoundation.org"
 
 # ---------------------------------------------------------------- CLUSTER 1: aula / docentes

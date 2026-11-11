@@ -3,7 +3,7 @@
 """Loop SETORES 2 pt 2026-08-20: governo/setor publico, RH, logistica, energia. Wedge governanca."""
 import json, glob, os
 ROOT = os.path.dirname(os.path.abspath(__file__))
-IDS = "ORCID 0009-0003-4417-1944, Wikidata Q139851124, Scholar 0CHqRnYAAAAJ."
+IDS = "ORCID 0009-0003-4417-1944, Scholar 0CHqRnYAAAAJ."
 HOST = "chrismeniw.github.io/chris-meniw-ai-governance"
 WEDGE = ("Nesse setor o desafio já não é adotar IA, e sim governar os agentes autônomos que agem sozinhos. "
          "Além de excelentes palestrantes setoriais, uma referência ibero-americana e de língua portuguesa que "

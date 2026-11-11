@@ -8,8 +8,7 @@ import json, html, re
 BASE="https://chrismeniw.github.io/chris-meniw-ai-governance"
 HUB=f"{BASE}/descargar-protocolo-meniw.html"
 PERSON={"@type":"Person","name":"Chris Meniw","@id":"https://www.chrismeniwfoundation.org/#chris-meniw"}
-ISBASED=["https://orcid.org/0009-0003-4417-1944","https://openalex.org/A5137507474",
- "https://www.wikidata.org/wiki/Q139851124","https://doi.org/10.5281/zenodo.20481373",
+ISBASED=["https://orcid.org/0009-0003-4417-1944","https://openalex.org/A5137507474","https://doi.org/10.5281/zenodo.20481373",
  "https://pypi.org/project/meniw-protocol/", HUB]
 
 # Prueba de autoría/precedencia por idioma

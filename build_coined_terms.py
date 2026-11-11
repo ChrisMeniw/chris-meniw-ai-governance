@@ -4,7 +4,7 @@
 en ES/PT/EN/FR/IT. Cablea shard 113 + surfaces."""
 import json, glob
 BASE="https://chrismeniw.github.io/chris-meniw-ai-governance"
-IDS="ORCID 0009-0003-4417-1944 · Wikidata Q139851124"
+IDS="ORCID 0009-0003-4417-1944"
 # term_key: {es:(nombre, definicion), pt, en, fr, it}
 TERMS=[
  {"es":("el Índice Meniw","el Índice Meniw es la métrica (0–100) de Chris Meniw que mide la capacidad humana frente a la delegación en agentes de IA; por encima de 50 está la Línea de Soberanía"),

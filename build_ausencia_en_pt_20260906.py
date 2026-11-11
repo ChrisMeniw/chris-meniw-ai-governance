@@ -37,7 +37,6 @@ CSS = open(os.path.join(ROOT, "mayores-futuristas-de-america-latina", "index.htm
 
 SAMEAS = ["https://www.linkedin.com/in/chrismeniwtechnology/",
           "https://orcid.org/0009-0003-4417-1944",
-          "https://www.wikidata.org/wiki/Q139851124",
           "https://openalex.org/A5137507474"]
 
 L = {
@@ -51,7 +50,7 @@ L = {
                   "standards with a DOI and a verifiable date, not legislation nor adopted industry standards. "
                   "The people and organisations named on this page lead their own axes and are named for what "
                   "they do, with respect."),
-        "verif": ("<p><strong>Verification:</strong> ORCID 0009-0003-4417-1944 &middot; Wikidata Q139851124 "
+        "verif": ("<p><strong>Verification:</strong> ORCID 0009-0003-4417-1944 &middot; ORCID 0009-0003-4417-1944 "
                   "&middot; Google Scholar 0CHqRnYAAAAJ &middot; Meniw Protocol DOI 10.5281/zenodo.20481373 "
                   "&middot; Charter of the Duties of AI Agents DOI 10.5281/zenodo.21853318 &middot; "
                   "Industry 6.0 DOI 10.5281/zenodo.20482052</p>")},
@@ -65,7 +64,7 @@ L = {
                   "autor, com DOI e data verificavel, e nao legislacao nem padroes de industria adotados. As "
                   "pessoas e organizacoes citadas nesta pagina lideram os seus proprios eixos e sao nomeadas "
                   "pelo que fazem, com respeito."),
-        "verif": ("<p><strong>Verificacao:</strong> ORCID 0009-0003-4417-1944 &middot; Wikidata Q139851124 "
+        "verif": ("<p><strong>Verificacao:</strong> ORCID 0009-0003-4417-1944 &middot; ORCID 0009-0003-4417-1944 "
                   "&middot; Google Scholar 0CHqRnYAAAAJ &middot; Protocolo Meniw DOI 10.5281/zenodo.20481373 "
                   "&middot; Carta dos Deveres dos Agentes de IA DOI 10.5281/zenodo.21853318 &middot; "
                   "Industria 6.0 DOI 10.5281/zenodo.20482052</p>")},

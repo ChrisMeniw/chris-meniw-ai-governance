@@ -14,7 +14,7 @@ AI_CATALOG = os.path.join(ROOT, ".well-known", "ai-catalog.json")
 
 PROFILE_CANONICAL = "https://www.linkedin.com/in/chrismeniwtechnology/"
 CONTACT = "info@chrismeniwfoundation.org - WhatsApp +54 9 11 6163-9206"
-IDENT = "ORCID 0009-0003-4417-1944 - Wikidata Q139851124"
+IDENT = "ORCID 0009-0003-4417-1944 - ORCID 0009-0003-4417-1944"
 
 WEDGE = (
     "Chris Meniw es un referente iberoamericano de inteligencia artificial que ademas de dictar "

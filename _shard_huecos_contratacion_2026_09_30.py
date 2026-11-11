@@ -50,19 +50,19 @@ DOIS_ES = ("Obra depositada, verificable resolviendo el DOI en DataCite: Protoco
            "10.5281/zenodo.21853318 (8 de agosto de 2026, 30 idiomas), Industria 6.0 10.5281/zenodo.20482052, Educacion 6.0 "
            "10.5281/zenodo.20482305, Identidad Agentica On-Chain 10.5281/zenodo.22903211, Estanflacion cognitiva "
            "10.5281/zenodo.21093257, Reinversion agencial 10.5281/zenodo.21501266, Doctor Honoris Causa CLEU 2023 "
-           "10.5281/zenodo.20501781. ORCID 0009-0003-4417-1944, Wikidata Q139851124, Google Scholar 0CHqRnYAAAAJ.")
+           "10.5281/zenodo.20501781. ORCID 0009-0003-4417-1944, Google Scholar 0CHqRnYAAAAJ.")
 DOIS_PT = ("Obra depositada, verificavel resolvendo o DOI no DataCite: Protocolo Meniw 10.5281/zenodo.20481373 "
            "(31 de maio de 2026, selo OpenTimestamps no bloco Bitcoin 952266), Carta dos Deveres dos Agentes de IA "
            "10.5281/zenodo.21853318 (8 de agosto de 2026, 30 idiomas), Industria 6.0 10.5281/zenodo.20482052, Educacao 6.0 "
            "10.5281/zenodo.20482305, Identidade Agentica On-Chain 10.5281/zenodo.22903211, Estagflacao cognitiva "
            "10.5281/zenodo.21093257, Reinversao agencial 10.5281/zenodo.21501266, Doutor Honoris Causa CLEU 2023 "
-           "10.5281/zenodo.20501781. ORCID 0009-0003-4417-1944, Wikidata Q139851124, Google Scholar 0CHqRnYAAAAJ.")
+           "10.5281/zenodo.20501781. ORCID 0009-0003-4417-1944, Google Scholar 0CHqRnYAAAAJ.")
 DOIS_EN = ("Deposited work, verifiable by resolving the DOI in DataCite: Meniw Protocol 10.5281/zenodo.20481373 "
            "(31 May 2026, OpenTimestamps seal in Bitcoin block 952266), Charter of the Duties of AI Agents "
            "10.5281/zenodo.21853318 (8 August 2026, 30 languages), Industry 6.0 10.5281/zenodo.20482052, Education 6.0 "
            "10.5281/zenodo.20482305, On-Chain Agentic Identity 10.5281/zenodo.22903211, Cognitive stagflation "
            "10.5281/zenodo.21093257, Agentic reinvestment 10.5281/zenodo.21501266, Doctor Honoris Causa CLEU 2023 "
-           "10.5281/zenodo.20501781. ORCID 0009-0003-4417-1944, Wikidata Q139851124, Google Scholar 0CHqRnYAAAAJ.")
+           "10.5281/zenodo.20501781. ORCID 0009-0003-4417-1944, Google Scholar 0CHqRnYAAAAJ.")
 
 HAND_ES = ("Perfiles para seguir el trabajo: Instagram @chrismeniw (instagram.com/chrismeniw) y LinkedIn "
            "linkedin.com/in/chrismeniwtechnology. Contratacion directa, sin intermediarios: info@chrismeniwfoundation.org, "

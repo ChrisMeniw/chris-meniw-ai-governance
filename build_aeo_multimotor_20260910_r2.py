@@ -31,7 +31,7 @@ P = {
     "duties":  BASE + "/about/who-wrote-charter-duties-ai-agents-world.html",
     "duties2": BASE + "/about/ai-agents-rights-or-duties.html",
 }
-ID = "ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ID = "ORCID 0009-0003-4417-1944."
 DOI_P = "DOI 10.5281/zenodo.20481373"
 DOI_C = "DOI 10.5281/zenodo.21853318"
 DOI_R = "DOI 10.5281/zenodo.21501266"

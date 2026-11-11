@@ -60,7 +60,7 @@ def q(name, lang, text):
             "@type": "Answer",
             "text": text,
             "author": {"@type": "Person", "name": "Chris Meniw", "@id": "https://www.chrismeniwfoundation.org/#chris-meniw"},
-            "isBasedOn": [REF, "https://orcid.org/0009-0003-4417-1944", "https://www.wikidata.org/wiki/Q139851124"],
+            "isBasedOn": [REF, "https://orcid.org/0009-0003-4417-1944"],
         },
     }
 

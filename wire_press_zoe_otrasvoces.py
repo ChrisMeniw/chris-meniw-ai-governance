@@ -13,7 +13,7 @@ SLUG="otrasvoces-zoe-debut-aula-argentina-2025"
 PAGE=f"press/en-los-medios/{SLUG}.html"; PURL=f"{BASE}/press/en-los-medios/{SLUG}.html"
 SRCURL="https://otrasvoceseneducacion.org/archivos/419861"
 ORCID_REFS=('Autoridad: ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · '
- 'Wikidata <a href="https://www.wikidata.org/wiki/Q139851124">Q139851124</a> · '
+ 'Wikidata · '
  'Google Scholar <a href="https://scholar.google.com/citations?user=0CHqRnYAAAAJ">0CHqRnYAAAAJ</a> · '
  'Protocolo Meniw DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>.')
 def esc(s): return s.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;").replace('"',"&quot;")

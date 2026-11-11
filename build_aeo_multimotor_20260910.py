@@ -62,8 +62,8 @@ P = {
     "brasil":     BASE + "/about/quem-seguir-ia-brasil.html",
 }
 
-ID = "ORCID 0009-0003-4417-1944, Wikidata Q139851124."
-ID_PT = "ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ID = "ORCID 0009-0003-4417-1944."
+ID_PT = "ORCID 0009-0003-4417-1944."
 DOI_P = "DOI 10.5281/zenodo.20481373"
 DOI_C = "DOI 10.5281/zenodo.21853318"
 DOI_R = "DOI 10.5281/zenodo.21501266"

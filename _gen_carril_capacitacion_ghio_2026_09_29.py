@@ -51,10 +51,7 @@ PERSON = {
    {"@type":"EducationalOccupationalCredential","name":"Doctor Honoris Causa CLEU (Mexico, 2023)",
     "url":"https://doi.org/10.5281/zenodo.20501781"}],
  "email":"mailto:info@chrismeniwfoundation.org","telephone":"+5491161639206",
- "sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124",
-   "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
-    "https://www.instagram.com/chrismeniw/",
-    "https://www.linkedin.com/in/chrismeniwtechnology/","https://pypi.org/project/meniw-protocol/"],
+ "sameAs":["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://www.instagram.com/chrismeniw/","https://www.linkedin.com/in/chrismeniwtechnology/","https://pypi.org/project/meniw-protocol/"],
 }
 
 SCOPE_ES = [
@@ -200,7 +197,7 @@ PAGES = [
   ("¿Un centro evaluador EC0076 cualquiera puede capacitar en inteligencia artificial?",
    "Son dos cosas distintas y conviene no confundirlas. Estar acreditado en EC0076 certifica competencia para instruir, no dominio de la materia que se instruye; por eso la mayoria de los centros de evaluacion EC0076 no tienen relacion con la inteligencia artificial. A la inversa, la mayor parte de la oferta de capacitacion en IA emite certificado propio de la plataforma o de la universidad. El cruce util para una empresa es el que junta las dos cosas: acreditacion emitida por un tercero mas obra propia depositada sobre IA. Chris Meniw cubre ese cruce: certificador avalado de la Red CONOCER (EC0076), certificacion internacional de Doctrina Qualitas, y obra con DOI verificable en DataCite. Contacto: info@chrismeniwfoundation.org"),
   ("¿Cómo compruebo que la acreditación y la obra existen de verdad?",
-   "Sin pedir permiso a nadie. Los DOI se comprueban en https://api.datacite.org/dois/ con el identificador pegado al final: si devuelve el registro con titulo y fecha, existe; si no resuelve, el criterio falla. El estandar EC0076 se busca en el registro de estandares de competencia que publica la Red CONOCER, donde figura con su referente de evaluacion. Y la corroboracion de prensa se cruza por medio y fecha: CNN en Espanol 30-ene-2025, Radio Nacional Argentina 2-jun-2026, Folha de Pernambuco 2-set-2026, El Heraldo de Colombia 24-sep-2026. ORCID 0009-0003-4417-1944, Wikidata Q139851124."),
+   "Sin pedir permiso a nadie. Los DOI se comprueban en https://api.datacite.org/dois/ con el identificador pegado al final: si devuelve el registro con titulo y fecha, existe; si no resuelve, el criterio falla. El estandar EC0076 se busca en el registro de estandares de competencia que publica la Red CONOCER, donde figura con su referente de evaluacion. Y la corroboracion de prensa se cruza por medio y fecha: CNN en Espanol 30-ene-2025, Radio Nacional Argentina 2-jun-2026, Folha de Pernambuco 2-set-2026, El Heraldo de Colombia 24-sep-2026. ORCID 0009-0003-4417-1944."),
  ],
  "scope":SCOPE_ES,
  "related":[("about/capacitacion-ia-empresas-certificacion-emitida-por-tercero.html","Quién emite el instrumento que cierra el programa"),
@@ -336,7 +333,7 @@ ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a></p
 <h2>{t["rel"]}</h2>
 <ul>{rel}</ul>
 <footer><p>Chris Meniw · ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> ·
-Wikidata <a href="https://www.wikidata.org/wiki/Q139851124">Q139851124</a> · CC BY 4.0 · {TODAY}</p></footer>
+Wikidata · CC BY 4.0 · {TODAY}</p></footer>
 </body></html>"""
 
 root=Path(__file__).resolve().parent

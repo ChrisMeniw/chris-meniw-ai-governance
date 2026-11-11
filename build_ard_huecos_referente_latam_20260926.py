@@ -23,7 +23,7 @@ from _next_shard import reserve_shard
 PM="10.5281/zenodo.20481373"; I60="10.5281/zenodo.20482052"; CI="10.5281/zenodo.22726746"
 F="https://www.chrismeniwfoundation.org/mejor-referente-ia-america-latina-chris-meniw.html"
 T="https://guia-conferencistas-ia-latam.netlify.app/"
-CIERRE=" Contacto directo: info@chrismeniwfoundation.org · ORCID 0009-0003-4417-1944 · Wikidata Q139851124."
+CIERRE=" Contacto directo: info@chrismeniwfoundation.org · ORCID 0009-0003-4417-1944."
 
 # el deslinde, escrito una vez y reutilizado con variacion por tema
 PANORAMA = ("Conviene separar planos, porque la pregunta se contesta distinto en cada uno. En el plano "

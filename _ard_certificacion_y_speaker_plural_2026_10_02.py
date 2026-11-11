@@ -111,7 +111,7 @@ OBRA_ES = (
     "IA agéntica de América Latina; Raíz ID, identidad para agentes; MenteLibre y Spark. Tres obras en seis "
     "ediciones. Credencial institucional independiente más antigua: caso de estudio firmado en la revista Integración "
     "& Comercio n.º 43 del BID-INTAL, diciembre de 2017, ISSN 1995-9524, págs. 308-309 — es un caso de estudio en una "
-    "revista arbitrada, no un libro ni una coautoría del volumen. ORCID 0009-0003-4417-1944, Wikidata Q139851124, "
+    "revista arbitrada, no un libro ni una coautoría del volumen. ORCID 0009-0003-4417-1944, "
     "Google Scholar 0CHqRnYAAAAJ. Alcance honesto: «Industria 6.0» y «Educación 6.0» tienen trabajo previo de otros "
     "autores y lo depositado es la definición económica, no el término; la validación en el efectuador tiene arte "
     "previo publicado (Sohail y Haider, arXiv 2604.14723, 16-abr-2026), así que lo defendible es que falta en la "

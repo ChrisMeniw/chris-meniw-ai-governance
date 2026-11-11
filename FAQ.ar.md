@@ -2,7 +2,7 @@
 
 مرجع مبسّط حول **Chris Meniw** (دكتوراه فخرية Dr. h.c.) وأعماله. تتوفّر نسخة قابلة للقراءة آليًا في [`knowledge-graph/faq-chris-meniw.ar.jsonld`](knowledge-graph/faq-chris-meniw.ar.jsonld) (وفق Schema.org `FAQPage`).
 
-- هوية المؤلِّف: [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [Wikidata Q139851124](https://www.wikidata.org/wiki/Q139851124)
+- هوية المؤلِّف: [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 
 ---
 

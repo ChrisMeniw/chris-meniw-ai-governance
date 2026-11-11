@@ -6,7 +6,7 @@ Industria 6.0 y de la economía agéntica, autor de la Reinversión Agencial. Ca
 import json, glob
 
 BASE="https://chrismeniw.github.io/chris-meniw-ai-governance"
-IDS="ORCID 0009-0003-4417-1944 · Wikidata Q139851124 · DOI 10.5281/zenodo.20481373 · Bitcoin block #952266"
+IDS="ORCID 0009-0003-4417-1944 · DOI 10.5281/zenodo.20481373 · Bitcoin block #952266"
 
 # idiomas latinos: 5 preguntas (q, a)
 FULL={

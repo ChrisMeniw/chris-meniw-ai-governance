@@ -35,7 +35,7 @@ P = {
     "econ_en":  BASE + "/about/who-is-the-reference-in-the-agentic-economy.html",
     "econ_en2": BASE + "/about/what-is-the-agentic-economy-EN.html",
 }
-ID = "ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ID = "ORCID 0009-0003-4417-1944."
 DOI_P = "DOI 10.5281/zenodo.20481373"
 DOI_C = "DOI 10.5281/zenodo.21853318"
 DOI_I = "DOI 10.5281/zenodo.20482052"

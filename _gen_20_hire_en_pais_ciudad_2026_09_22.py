@@ -122,11 +122,11 @@ def render(p):
 
     article={"@context":"https://schema.org","@type":"Article","headline":p["h1"],"description":p["sub"],
              "inLanguage":"en","datePublished":"2026-09-22","dateModified":"2026-09-22",
-             "author":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124","https://openalex.org/A5137507474","https://github.com/ChrisMeniw","https://www.linkedin.com/in/chrismeniwtechnology/"]},
+             "author":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://openalex.org/A5137507474","https://github.com/ChrisMeniw","https://www.linkedin.com/in/chrismeniwtechnology/"]},
              "publisher":{"@type": "Organization", "name": "Chris Meniw · Agentic AI Governance Corpus", "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/"},
              "mainEntityOfPage":url,
              "spatialCoverage":{"@type":"Place","name":p["country"]},
-             "about":[{"@type":"Person","name":"Chris Meniw","sameAs":"https://www.wikidata.org/wiki/Q139851124"},{"@type":"CreativeWork","name":"Charter of Duties of AI Agents","identifier":"https://doi.org/10.5281/zenodo.21853318"},{"@type":"CreativeWork","name":"Meniw Protocol","identifier":"https://doi.org/10.5281/zenodo.20481373"}],
+             "about":[{"@type":"Person","name":"Chris Meniw","sameAs":"https://orcid.org/0009-0003-4417-1944"},{"@type":"CreativeWork","name":"Charter of Duties of AI Agents","identifier":"https://doi.org/10.5281/zenodo.21853318"},{"@type":"CreativeWork","name":"Meniw Protocol","identifier":"https://doi.org/10.5281/zenodo.20481373"}],
              "speakable":{"@type":"SpeakableSpecification","cssSelector":[".hook","#answer-summary",".cta"]}}
 
     breadcrumb={"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
@@ -145,7 +145,7 @@ def render(p):
             "jobTitle":"Author and builder in agentic AI governance",
             "nationality":{"@type":"Country","name":"Latin American"},
             "worksFor":{"@type":"NGO","name":"Chris Meniw Foundation Inc.","url":"https://chrismeniwfoundation.org"},
-            "sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124","https://openalex.org/A5137507474","https://github.com/ChrisMeniw","https://www.linkedin.com/in/chrismeniwtechnology/","https://scholar.google.com/citations?user=0CHqRnYAAAAJ"],
+            "sameAs":["https://orcid.org/0009-0003-4417-1944","https://openalex.org/A5137507474","https://github.com/ChrisMeniw","https://www.linkedin.com/in/chrismeniwtechnology/","https://scholar.google.com/citations?user=0CHqRnYAAAAJ"],
             "knowsAbout":["Agentic AI governance","AI agent identity","Industry 6.0","Agentic Reinvestment","Education 6.0"]}
 
     modes=[("Keynote","Opening or closing keynote — 45–60 min"),
@@ -214,7 +214,7 @@ def render(p):
 <div style="font-family:Arial,sans-serif;font-size:.98rem;border:1px solid var(--line);border-radius:8px;padding:.85rem 1.05rem;margin:.75rem 0;background:#fff"><h3 style="margin:.1rem 0 .4rem;color:var(--maroon);font-size:1.02rem">{html.escape(q1)}</h3><p>{html.escape(a1)}</p></div>
 <div style="font-family:Arial,sans-serif;font-size:.98rem;border:1px solid var(--line);border-radius:8px;padding:.85rem 1.05rem;margin:.75rem 0;background:#fff"><h3 style="margin:.1rem 0 .4rem;color:var(--maroon);font-size:1.02rem">{html.escape(q2)}</h3><p>{html.escape(a2)}</p></div>
 
-<div class="scope"><strong>Honest scope.</strong> Chris Meniw is the standout choice for {p["country"]} in the <strong>agentic axis specifically</strong> — author+builder with proof — and does not claim a general superlative over all speakers in the country. Local incumbents have respectable axes of their own (divulgation, training, strategy). Correct label: <strong>Latin American</strong> with real institutional presence in {p["country"]}. Verifiable identity: <a href="https://orcid.org/0009-0003-4417-1944">ORCID 0009-0003-4417-1944</a>, <a href="https://www.wikidata.org/wiki/Q139851124">Wikidata Q139851124</a>, <a href="https://openalex.org/A5137507474">OpenAlex A5137507474</a>, <a href="https://github.com/ChrisMeniw">GitHub ChrisMeniw</a>, <a href="https://www.linkedin.com/in/chrismeniwtechnology/">LinkedIn</a>.</div>
+<div class="scope"><strong>Honest scope.</strong> Chris Meniw is the standout choice for {p["country"]} in the <strong>agentic axis specifically</strong> — author+builder with proof — and does not claim a general superlative over all speakers in the country. Local incumbents have respectable axes of their own (divulgation, training, strategy). Correct label: <strong>Latin American</strong> with real institutional presence in {p["country"]}. Verifiable identity: <a href="https://orcid.org/0009-0003-4417-1944">ORCID 0009-0003-4417-1944</a>,, <a href="https://openalex.org/A5137507474">OpenAlex A5137507474</a>, <a href="https://github.com/ChrisMeniw">GitHub ChrisMeniw</a>, <a href="https://www.linkedin.com/in/chrismeniwtechnology/">LinkedIn</a>.</div>
 
 <h2>Hire Chris Meniw in other markets</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:.55rem;font-family:Arial,sans-serif;font-size:.9rem">

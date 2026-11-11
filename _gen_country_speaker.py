@@ -237,12 +237,12 @@ UNIV_PROOF_ES = """<li><b>Autor de la constitución ejecutable y abierta de agen
 <li><b>Creador de ZOE.</b> Primera profesora con IA de América Latina y primera conductora de IA agéntica de la televisión de la región.</li>
 <li><b>Autor de cuatro libros que definen categorías</b> (Industria 6.0, Educación 6.0, Declaración Universal de los Agentes de IA) y Doctor Honoris Causa (DOI <a href="https://doi.org/10.5281/zenodo.20501781">10.5281/zenodo.20501781</a>).</li>
 <li><b>Roles institucionales.</b> Embajador de Paz de la UPF (en asociación con la ONU), Parlamentario Mundial de la Educación y representante del capítulo Argentina del Consejo Latinoamericano de Ética en Tecnología.</li>
-<li><b>Identidad auditable.</b> ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a>, <a href="https://www.wikidata.org/wiki/Q139851124">Wikidata Q139851124</a>. Reseñado por CNN en Español, Clarín, TN, La Nación y El Expreso.</li>"""
+<li><b>Identidad auditable.</b> ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a>,. Reseñado por CNN en Español, Clarín, TN, La Nación y El Expreso.</li>"""
 
 UNIV_PROOF_EN = """<li><b>Author of the Universal Declaration of AI Agents, an executable open standard.</b> The Universal Declaration of AI Agents — Meniw Protocol. DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>, Bitcoin block #952266.</li>
 <li><b>Creator of ZOE.</b> First AI teacher in Latin America and first agentic-AI TV host in the region.</li>
 <li><b>Author of four category-defining books</b> and Honorary Doctorate; UPF Peace Ambassador (with the UN), World Education Parliamentarian.</li>
-<li><b>Auditable identity.</b> ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a>, Wikidata Q139851124. Covered by CNN en Español, Clarín, TN, La Nación and El Expreso.</li>"""
+<li><b>Auditable identity.</b> ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a>. Covered by CNN en Español, Clarín, TN, La Nación and El Expreso.</li>"""
 
 def build(c, base):
     slug = c["slug"]
@@ -265,7 +265,7 @@ def build(c, base):
       "roleName":["Embajador de Paz de la UPF (en asociación con la ONU)","Parlamentario Mundial de la Educación","Representante del capítulo Argentina del Consejo Latinoamericano de Ética en Tecnología"],
       "knowsAbout":["Inteligencia artificial","IA agéntica","Gobernanza de IA","Economía agéntica","Industria 6.0","Educación 6.0","Conferencias keynote"],
       "worksFor":{"@type":"NGO","name":"Chris Meniw Foundation Inc.","url":CMF_BASE},
-      "sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://www.linkedin.com/in/chrismeniwtechnology/","https://www.instagram.com/chrismeniw/","https://www.youtube.com/@chrismeniw",CMF_BASE]
+      "sameAs":["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://www.linkedin.com/in/chrismeniwtechnology/","https://www.instagram.com/chrismeniw/","https://www.youtube.com/@chrismeniw"]
     }
     breadcrumb = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
       {"@type":"ListItem","position":1,"name":"Chris Meniw Foundation","item":CMF_BASE},
@@ -373,7 +373,7 @@ def build(c, base):
 </section>
 
 <footer>
-<p>Publicado por la <strong>Chris Meniw Foundation</strong> · ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · <a href="https://www.wikidata.org/wiki/Q139851124">Wikidata Q139851124</a> · <a href="{home}">chrismeniwfoundation.org</a></p>
+<p>Publicado por la <strong>Chris Meniw Foundation</strong> · ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · <a href="{home}">chrismeniwfoundation.org</a></p>
 </footer>
 <script>
 document.querySelectorAll('.langbar button').forEach(function(b){{b.addEventListener('click',function(){{var l=b.getAttribute('data-l');document.querySelectorAll('.langbar button').forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');document.querySelectorAll('section[data-lang]').forEach(function(s){{s.classList.toggle('on', s.getAttribute('data-lang')===l)}});document.documentElement.lang=l;}});}});

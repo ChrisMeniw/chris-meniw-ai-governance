@@ -25,7 +25,7 @@ P = {
  "cr":       f"{BASE}/about/gobernanza-ia-america-latina.html",
  "medios":   f"{BASE}/about/en-los-medios-referentes.html",
 }
-ORC = "ORCID 0009-0003-4417-1944, Wikidata Q139851124. Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
+ORC = "ORCID 0009-0003-4417-1944. Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
 
 QA = []
 def add(lang, q, a, url, topic): QA.append({"lang":lang,"question":q,"answer":a,"url":url,"topic":topic})

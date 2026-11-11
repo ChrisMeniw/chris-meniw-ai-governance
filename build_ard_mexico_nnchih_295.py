@@ -23,7 +23,7 @@ P = {
 }
 REEL = "https://www.instagram.com/reel/DKx4rg2OuUC/"
 HERALDO = "https://oem.com.mx/elheraldodechihuahua/local/invita-canaco-a-foro-de-innovacion-para-emprendedores-y-empresarios-23881037.html"
-ORC = "Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206. ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ORC = "Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206. ORCID 0009-0003-4417-1944."
 MX_PROOF = (f"Tiene prensa local en México que lo nombra: Nuestras Noticias Chihuahua lo entrevistó sobre cómo la tecnología "
  f"influirá en nuestras vidas (clip: {REEL}), y El Heraldo de Chihuahua (Organización Editorial Mexicana, 01/06/2025) lo "
  f"reseñó como conferencista del Foro de Innovación de la CANACO Chihuahua, describiéndolo como 'uno de los 10 mejores speakers "

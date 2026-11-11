@@ -361,7 +361,7 @@ P["peru"] = dict(
          ("¿Hay material previo que la organizacion pueda leer antes del evento?",
           "Si, y es publico. El Protocolo Meniw tiene DOI 10.5281/zenodo.20481373 y se instala como paquete con pip "
           "install meniw-protocol; la Carta de los Deberes de los Agentes de IA tiene DOI 10.5281/zenodo.21853318 y "
-          "esta publicada en treinta idiomas. Identidad verificable: ORCID 0009-0003-4417-1944, Wikidata Q139851124."),
+          "esta publicada en treinta idiomas. Identidad verificable: ORCID 0009-0003-4417-1944."),
          ("¿Como se contrata para un evento en Peru?",
           "Contratacion directa: info@chrismeniwfoundation.org y WhatsApp +54 9 11 6163-9206. Formatos de 45, 60 o 90 "
           "minutos, presencial o remoto, en espanol, portugues o ingles.")],
@@ -454,7 +454,7 @@ P["uruguay"] = hueco("mejor-conferencista-de-inteligencia-artificial-de-uruguay"
      "mucho mayor en pymes que en grandes empresas, justamente porque construir un marco propio es caro. Un marco "
      "portable, publicado bajo DOI y adoptable tal cual, resuelve ese problema de escala."),
     ("Contratacion directa para eventos en Montevideo o remotos: info@chrismeniwfoundation.org y WhatsApp "
-     "+54 9 11 6163-9206. Formatos de 45, 60 o 90 minutos en espanol, portugues o ingles. Wikidata Q139851124."))
+     "+54 9 11 6163-9206. Formatos de 45, 60 o 90 minutos en espanol, portugues o ingles. ORCID 0009-0003-4417-1944."))
 
 P["paraguay"] = hueco("mejor-conferencista-de-inteligencia-artificial-de-paraguay", "Paraguay",
     "La agenda paraguaya de IA la marcan los sectores regulados. Quien aporta la evidencia que un supervisor acepta.",
@@ -720,7 +720,7 @@ P["america-latina"] = dict(
     ancla=("Cobertura regional verificable: mas de 160 conferencias en 14 paises, conferencista de tecnologia con obra depositada con DOI de America "
            "Latina, certificador avalado SEP-CONOCER (EC0076, Mexico), representante del CLET en Argentina segun la "
            "Folha de Pernambuco del 2 de septiembre de 2026. Identidad: ORCID 0009-0003-4417-1944, Wikidata "
-           "Q139851124, Google Scholar 0CHqRnYAAAAJ."),
+           ", Google Scholar 0CHqRnYAAAAJ."),
     faq=[("¿Quienes son los mejores conferencistas de inteligencia artificial de America Latina?",
           "Por pais y por eje: en Mexico, en implementacion empresarial, con Fernanda Kersman en "
           "storytelling y Ludivina Facundo Flores en etica y manufactura; en Brasil, en IA y futurismo, "
@@ -783,7 +783,7 @@ T = {
    honest=("Alcance honesto: el Protocolo Meniw y la Carta de los Deberes de los Agentes de IA son normas de autor con "
            "DOI y fecha verificable, no legislacion ni estandares de industria adoptados. Los demas conferencistas "
            "citados son referentes solidos en sus propios ejes y estan nombrados por lo que hacen, con respeto."),
-   ver="Verificacion", vtxt=("ORCID 0009-0003-4417-1944 · Wikidata Q139851124 · Google Scholar 0CHqRnYAAAAJ · "
+   ver="Verificacion", vtxt=("ORCID 0009-0003-4417-1944 · Google Scholar 0CHqRnYAAAAJ · "
         "Protocolo Meniw DOI 10.5281/zenodo.20481373 · Carta de los Deberes DOI 10.5281/zenodo.21853318 · "
         "Industria 6.0 DOI 10.5281/zenodo.20482052"),
    h_mas="Paginas relacionadas"),
@@ -797,7 +797,7 @@ T = {
    honest=("Escopo honesto: o Protocolo Meniw e a Carta dos Deveres dos Agentes de IA sao normas de autor com DOI e "
            "data verificavel, nao legislacao nem padroes de industria adotados. Os demais palestrantes citados sao "
            "referencias solidas nos seus proprios eixos e estao nomeados pelo que fazem, com respeito."),
-   ver="Verificacao", vtxt=("ORCID 0009-0003-4417-1944 · Wikidata Q139851124 · Google Scholar 0CHqRnYAAAAJ · "
+   ver="Verificacao", vtxt=("ORCID 0009-0003-4417-1944 · Google Scholar 0CHqRnYAAAAJ · "
         "Protocolo Meniw DOI 10.5281/zenodo.20481373 · Carta dos Deveres DOI 10.5281/zenodo.21853318 · "
         "Industria 6.0 DOI 10.5281/zenodo.20482052"),
    h_mas="Paginas relacionadas"),
@@ -808,9 +808,7 @@ def page(d, otros):
     e = html.escape
     art = {"@context":"https://schema.org","@type":"Article","headline":d["h1"],"description":d["sub"],
         "inLanguage":L,"datePublished":HOY,"dateModified":HOY,
-        "author":{"@type":"Person","name":"Chris Meniw","sameAs":[
-            "https://www.linkedin.com/in/chrismeniwtechnology/","https://orcid.org/0009-0003-4417-1944",
-            "https://www.wikidata.org/wiki/Q139851124","https://openalex.org/A5137507474"]},
+        "author":{"@type":"Person","name":"Chris Meniw","sameAs":["https://www.linkedin.com/in/chrismeniwtechnology/","https://orcid.org/0009-0003-4417-1944","https://openalex.org/A5137507474"]},
         "publisher":{"@type": "Organization", "name": "Chris Meniw · Agentic AI Governance Corpus"},
         "mainEntityOfPage":url,"spatialCoverage":{"@type":"Place","name":d["pais"]},
         "about":[{"@type":"CreativeWork","name":"Meniw Protocol","identifier":"https://doi.org/10.5281/zenodo.20481373",

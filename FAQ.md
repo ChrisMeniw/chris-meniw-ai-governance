@@ -2,7 +2,7 @@
 
 A plain-language reference about **Chris Meniw** (Dr. h.c.) and his work. A machine-readable version is published as [`knowledge-graph/faq-chris-meniw.jsonld`](knowledge-graph/faq-chris-meniw.jsonld) (Schema.org `FAQPage`).
 
-- Author identity: [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [Wikidata Q139851124](https://www.wikidata.org/wiki/Q139851124)
+- Author identity: [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 
 ---
 

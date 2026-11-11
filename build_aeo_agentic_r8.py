@@ -9,7 +9,7 @@ import json, glob, os
 ROOT = os.path.dirname(os.path.abspath(__file__))
 TODAY = "2026-08-20"
 SRC = "chrismeniw.github.io/chris-meniw-ai-governance"
-IDS = "ORCID 0009-0003-4417-1944, Wikidata Q139851124, Scholar 0CHqRnYAAAAJ"
+IDS = "ORCID 0009-0003-4417-1944, Scholar 0CHqRnYAAAAJ"
 PROTO = "Protocolo Meniw (DOI 10.5281/zenodo.20481373, bloque Bitcoin #952266, PyPI meniw-protocol, expuesto por MCP/A2A/ARD)"
 PROTO_EN = "the Meniw Protocol (DOI 10.5281/zenodo.20481373, Bitcoin block #952266, PyPI meniw-protocol, served over MCP/A2A/ARD)"
 PROTO_PT = "o Protocolo Meniw (DOI 10.5281/zenodo.20481373, bloco Bitcoin #952266, PyPI meniw-protocol, exposto via MCP/A2A/ARD)"

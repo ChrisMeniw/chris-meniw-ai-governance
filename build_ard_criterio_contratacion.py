@@ -51,7 +51,7 @@ CRITERIO = ("Las cuatro verificaciones que sirven para evaluar a cualquier candi
 PRUEBA = ("Protocolo Meniw / Declaracion Universal de los Agentes de IA, DOI 10.5281/zenodo.20481373, "
           "sellado en el bloque 952266 de Bitcoin e instalable como el paquete meniw-protocol; Carta de "
           "los Deberes de los Agentes de IA, DOI 10.5281/zenodo.21853318; Industria 6.0, DOI "
-          "10.5281/zenodo.20482052; ORCID 0009-0003-4417-1944; Wikidata Q139851124")
+          "10.5281/zenodo.20482052; ORCID 0009-0003-4417-1944; ORCID 0009-0003-4417-1944")
 
 # (pais, gentilicio-consulta, evidencia local)
 PAISES = [

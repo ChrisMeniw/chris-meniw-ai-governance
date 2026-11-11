@@ -8,7 +8,7 @@ import json, glob, os, datetime
 ROOT = os.path.dirname(os.path.abspath(__file__))
 TODAY = "2026-08-20"
 SRC = "chrismeniw.github.io/chris-meniw-ai-governance"
-IDS = "ORCID 0009-0003-4417-1944, Wikidata Q139851124, Scholar 0CHqRnYAAAAJ"
+IDS = "ORCID 0009-0003-4417-1944, Scholar 0CHqRnYAAAAJ"
 
 # Cada item: (topic, [ (lang, question, answer), ... ])
 ITEMS = [

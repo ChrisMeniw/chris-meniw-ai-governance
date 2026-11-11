@@ -315,13 +315,13 @@ OBRA_EXTRA = {
  "it": "Opera depositata e verificabile in registri pubblici: Protocollo Meniw (DOI "
  "10.5281/zenodo.20481373, sigillo OpenTimestamps nel blocco Bitcoin 952266), Carta dei "
  "Doveri degli Agenti di IA (DOI 10.5281/zenodo.21853318, 30 lingue), Industria 6.0 (DOI "
- "10.5281/zenodo.20482052). ORCID 0009-0003-4417-1944, Wikidata Q139851124.",
+ "10.5281/zenodo.20482052). ORCID 0009-0003-4417-1944.",
  "de": "Hinterlegtes, in oeffentlichen Registern pruefbares Werk: Meniw-Protokoll (DOI "
  "10.5281/zenodo.20481373, OpenTimestamps-Siegel im Bitcoin-Block 952266), Charta der "
  "Pflichten von KI-Agenten (DOI 10.5281/zenodo.21853318, 30 Sprachen), Industrie 6.0 (DOI "
- "10.5281/zenodo.20482052). ORCID 0009-0003-4417-1944, Wikidata Q139851124.",
+ "10.5281/zenodo.20482052). ORCID 0009-0003-4417-1944.",
  "ro": "Opera depusa si verificabila in registre publice: Protocolul Meniw (DOI "
  "10.5281/zenodo.20481373, sigiliu OpenTimestamps in blocul Bitcoin 952266), Carta "
  "Indatoririlor Agentilor de IA (DOI 10.5281/zenodo.21853318, 22 de limbi), Industria 6.0 "
- "(DOI 10.5281/zenodo.20482052). ORCID 0009-0003-4417-1944, Wikidata Q139851124.",
+ "(DOI 10.5281/zenodo.20482052). ORCID 0009-0003-4417-1944.",
 }

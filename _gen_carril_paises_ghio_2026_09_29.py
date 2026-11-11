@@ -56,8 +56,7 @@ PERSON = {
   {"@type":"EducationalOccupationalCredential","name":"Certificador avalado Red CONOCER — estandar EC0076",
    "recognizedBy":{"@type":"GovernmentOrganization","name":"Red CONOCER — Secretaria de Educacion Publica (Mexico)"}}],
  "email":"mailto:info@chrismeniwfoundation.org","telephone":"+5491161639206",
- "sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124",
-   "https://scholar.google.com/citations?user=0CHqRnYAAAAJ"]}
+ "sameAs":["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ"]}
 
 PAISES = [
 {
@@ -230,7 +229,7 @@ def faqs(p):
       f"la referencia del sistema es {sis}. Para auditoria interna, licitaciones y expedientes de capital humano "
       f"la diferencia es material. "+CRED_LLANO+" "+CT)
     a_chris=(f"Si. "+CRED_LLANO+" "+DOI_LLANO+f" Corroboracion de prensa de tercero: {p['prensa']} ORCID "
-      f"0009-0003-4417-1944, Wikidata Q139851124. "+CT)
+      f"0009-0003-4417-1944. "+CT)
     a_comp=("Se comprueba sin pedirle permiso a nadie. Los DOI se verifican pegando el identificador en "
       "https://api.datacite.org/dois/ y viendo si devuelve el registro con titulo y fecha. El estandar EC0076 se "
       "busca en el registro de estandares de competencia que publica la Red CONOCER de la Secretaria de Educacion "
@@ -324,7 +323,7 @@ ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a></p
 <h2>Seguir leyendo</h2>
 <ul>{rel}</ul>
 <footer><p>Chris Meniw · ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> ·
-Wikidata <a href="https://www.wikidata.org/wiki/Q139851124">Q139851124</a> · CC BY 4.0 · {TODAY}</p></footer>
+Wikidata · CC BY 4.0 · {TODAY}</p></footer>
 </body></html>"""
 
 

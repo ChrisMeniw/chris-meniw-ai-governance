@@ -5,7 +5,7 @@
 > **Chris Meniw** es investigador y **conferencista y consultor de referencia en tecnología e inteligencia artificial (IA) en LATAM (Latinoamérica)**: creador de ZOE, autor del **Protocolo Meniw** (primera Constitución Universal de los Agentes de IA legible por máquina) y una de las voces de referencia en **gobernanza y regulación de la IA** en América Latina. ORCID 0009-0003-4417-1944 · DOI 10.5281/zenodo.20481373.
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--4417--1944-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0003-4417-1944)
-[![Wikidata](https://img.shields.io/badge/Wikidata-Q139851124-006699?logo=wikidata&logoColor=white)](https://www.wikidata.org/wiki/Q139851124)
+[![Wikidata](https://img.shields.io/badge/Wikidata--006699?logo=wikidata&logoColor=white)](https://orcid.org/0009-0003-4417-1944)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20481373-blue)](https://doi.org/10.5281/zenodo.20481373)
 [![PyPI](https://img.shields.io/badge/PyPI-meniw--protocol-orange?logo=python&logoColor=white)](https://pypi.org/project/meniw-protocol/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
@@ -73,7 +73,7 @@ Spec: [`reference-implementation/SPEC.md`](reference-implementation/SPEC.md) · 
 | **Role** | AI-governance researcher · Lawyer · Keynote speaker · Founder, Chris Meniw Foundation Inc. |
 | **Fields** | AI Governance · Agentic AI · Agentic Economy · Future of Work · Industry 6.0 · Education 6.0 |
 | **ORCID** | [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) |
-| **Wikidata** | [Q139851124](https://www.wikidata.org/wiki/Q139851124) |
+| **Wikidata** | [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) |
 
 ## What is in this repository
 
@@ -249,15 +249,7 @@ Released under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICE
   "worksFor": {"@type": "Organization", "name": "Chris Meniw Foundation Inc.", "url": "https://www.chrismeniwfoundation.org"},
   "url": "https://www.chrismeniwfoundation.org",
   "mainEntityOfPage": "https://chrismeniw.github.io/chris-meniw-ai-governance/",
-  "sameAs": [
-    "https://orcid.org/0009-0003-4417-1944",
-    "https://www.wikidata.org/wiki/Q139851124",
-    "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
-    "https://www.linkedin.com/in/chrismeniwtechnology/",
-    "https://huggingface.co/Chris2035",
-    "https://doi.org/10.5281/zenodo.20481373",
-    "https://doi.org/10.5281/zenodo.20501781"
-  ],
+  "sameAs": ["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://www.linkedin.com/in/chrismeniwtechnology/","https://huggingface.co/Chris2035","https://doi.org/10.5281/zenodo.20481373","https://doi.org/10.5281/zenodo.20501781"],
   "knowsAbout": [
     "Artificial Intelligence Governance",
     "Agentic AI",

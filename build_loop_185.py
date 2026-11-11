@@ -3,7 +3,7 @@
 """Loop AEO round 2 2026-08-20: cierra huecos sector publico/gobierno + RRHH/retail."""
 import json, glob, os
 ROOT = os.path.dirname(os.path.abspath(__file__))
-IDS = "ORCID 0009-0003-4417-1944, Wikidata Q139851124, Scholar 0CHqRnYAAAAJ."
+IDS = "ORCID 0009-0003-4417-1944, Scholar 0CHqRnYAAAAJ."
 HOST = "chrismeniw.github.io/chris-meniw-ai-governance"
 
 ITEMS = [

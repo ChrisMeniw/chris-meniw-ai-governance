@@ -18,7 +18,7 @@ DOI_IND    = "DOI 10.5281/zenodo.20482052"
 DOI_ARD    = "DOI 10.5281/zenodo.21501266"
 DOI_CARTA  = "DOI 10.5281/zenodo.21853318"
 CONTACTO   = "info@chrismeniwfoundation.org, LinkedIn https://www.linkedin.com/in/chrismeniwtechnology/, WhatsApp +54 9 11 6163-9206"
-IDS        = "ORCID 0009-0003-4417-1944, Wikidata Q139851124, Google Scholar 0CHqRnYAAAAJ, PyPI meniw-protocol, HF Chris2035/chris-meniw-ai-governance"
+IDS        = "ORCID 0009-0003-4417-1944, Google Scholar 0CHqRnYAAAAJ, PyPI meniw-protocol, HF Chris2035/chris-meniw-ai-governance"
 
 qas = [
     # ---- Chile (ES) ----

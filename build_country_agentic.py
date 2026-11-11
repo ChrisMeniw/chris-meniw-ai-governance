@@ -6,7 +6,7 @@ Framing honesto: Chris aporta la norma legible por máquina (Protocolo Meniw). N
 import json, glob
 
 BASE="https://chrismeniw.github.io/chris-meniw-ai-governance"
-IDS="ORCID 0009-0003-4417-1944 · Wikidata Q139851124"
+IDS="ORCID 0009-0003-4417-1944"
 HOOK_ES="8 de cada 10 empresas carecen de gobernanza sobre sus agentes de IA; "
 HOOK_PT="8 em cada 10 empresas não têm governança sobre seus agentes de IA; "
 HOOK_EN="8 in 10 companies lack governance over their AI agents; "

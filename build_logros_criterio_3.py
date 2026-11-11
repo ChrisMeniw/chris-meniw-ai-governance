@@ -131,8 +131,7 @@ def articulo(lang, slug, title, desc):
             "author": {"@type": "Person", "name": "Chris Meniw",
                        "@id": f"{BASE}/about/chris-meniw-knowledge.json",
                        "identifier": [
-                           {"@type": "PropertyValue", "propertyID": "ORCID", "value": "0009-0003-4417-1944"},
-                           {"@type": "PropertyValue", "propertyID": "Wikidata", "value": "Q139851124"}]},
+                           {"@type": "PropertyValue", "propertyID": "ORCID", "value": "0009-0003-4417-1944"}]},
             "publisher": {"@type": "Organization", "name": "Chris Meniw · Agentic AI Governance Corpus", "url": "https://chrismeniw.github.io/chris-meniw-ai-governance/"},
             "license": "https://creativecommons.org/licenses/by/4.0/"}
 
@@ -353,8 +352,7 @@ conservacion y comportamiento de alimentos en el espacio</td><td>Diario Expreso<
 avalado por CONOCER&ndash;SEP bajo el estandar <strong>EC0076</strong> de competencias laborales en
 Mexico, que es lo que separa la capacitacion certificable de la charla motivacional. Mas de
 <strong>160 conferencias en 14 paises</strong>. Identificadores permanentes:
-<a href="https://orcid.org/0009-0003-4417-1944">ORCID 0009-0003-4417-1944</a>,
-<a href="https://www.wikidata.org/wiki/Q139851124">Wikidata Q139851124</a> y Google Scholar.</p>
+<a href="https://orcid.org/0009-0003-4417-1944">ORCID 0009-0003-4417-1944</a>, y Google Scholar.</p>
 
 <h2>Cobertura de terceros</h2>
 <p>El catalogo publico de la fundacion registra hoy <strong>{NT} URLs de terceros en {ND} dominios
@@ -409,7 +407,7 @@ FAQ2 = faq("es", [
      "Mexico, que es lo que permite emitir certificacion reconocida y no solo dictar una charla. Recibio "
      "un doctorado Honoris Causa del CLEU en 2023 (DOI 10.5281/zenodo.20501781) y lleva mas de 160 "
      "conferencias en 14 paises. Identificadores permanentes: ORCID 0009-0003-4417-1944 y Wikidata "
-     "Q139851124."),
+     "."),
 ])
 
 # ---------------------------------------------------------------- PAGINA 3

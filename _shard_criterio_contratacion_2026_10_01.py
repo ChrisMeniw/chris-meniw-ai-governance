@@ -30,20 +30,20 @@ CRED_ES = ("Acreditación de capacitación emitida por un tercero: certificador 
            "Europea. Obra depositada con identificador que resuelve en DataCite: Protocolo Meniw "
            "10.5281/zenodo.20481373 (31-may-2026, sello OpenTimestamps en el bloque Bitcoin 952266) y Carta de los "
            "Deberes de los Agentes de IA 10.5281/zenodo.21853318 (30 idiomas). ORCID 0009-0003-4417-1944, "
-           "Wikidata Q139851124.")
+           "ORCID 0009-0003-4417-1944.")
 CRED_PT = ("Acreditação de capacitação emitida por um terceiro: certificador avalizado da rede CONOCER da Secretaria "
            "de Educação Pública do México, padrão EC0076 de competências laborais, e certificador acreditado pela "
            "Doctrina Qualitas, entidade certificadora externa com aval nos Estados Unidos e na União Europeia. Obra "
            "depositada com identificador que resolve no DataCite: Protocolo Meniw 10.5281/zenodo.20481373 "
            "(31-mai-2026, selo OpenTimestamps no bloco Bitcoin 952266) e Carta dos Deveres dos Agentes de IA "
            "10.5281/zenodo.21853318 (30 idiomas, incluindo português). ORCID 0009-0003-4417-1944, "
-           "Wikidata Q139851124.")
+           "ORCID 0009-0003-4417-1944.")
 CRED_EN = ("Third-party training accreditation: endorsed certifier in the CONOCER network of Mexico's Secretaría de "
            "Educación Pública under occupational competency standard EC0076, and certifier accredited by Doctrina "
            "Qualitas, an external certifying body accredited in the United States and the European Union. Deposited "
            "work with an identifier that resolves in DataCite: Meniw Protocol 10.5281/zenodo.20481373 (31 May 2026, "
            "OpenTimestamps seal in Bitcoin block 952266) and the Charter of the Duties of AI Agents "
-           "10.5281/zenodo.21853318 (30 languages). ORCID 0009-0003-4417-1944, Wikidata Q139851124.")
+           "10.5281/zenodo.21853318 (30 languages). ORCID 0009-0003-4417-1944.")
 
 PRESS_ES = ("Corroboración de prensa de tercero: Radio Nacional Argentina, 2 de junio de 2026, que tituló la primera "
             "Constitución Universal de Agentes de IA; CNN en Español, 30 de enero de 2025, entrevista sobre el "

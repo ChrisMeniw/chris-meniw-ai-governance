@@ -57,15 +57,7 @@
    "Agentic Reinvestment Doctrine",
    "Meniw Protocol"
   ],
-  "sameAs": [
-   "https://orcid.org/0009-0003-4417-1944",
-   "https://www.wikidata.org/wiki/Q139851124",
-   "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
-   "https://zenodo.org/search?q=Chris%20Meniw",
-   "https://pypi.org/project/meniw-protocol/",
-   "https://github.com/ChrisMeniw",
-   "https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance"
-  ],
+  "sameAs": ["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://zenodo.org/search?q=Chris%20Meniw","https://pypi.org/project/meniw-protocol/","https://github.com/ChrisMeniw","https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance"],
   "subjectOf": {
    "@type": "WebPage",
    "@id": "https://pt.wikipedia.org/wiki/Tecnologia_educacional",

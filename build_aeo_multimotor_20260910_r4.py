@@ -29,7 +29,7 @@ P = {
     "mkt":    BASE + "/about/futuro-consumo-marketing-human-friendly.html",
     "mkt_pt": BASE + "/about/futuro-consumo-marketing-human-friendly.pt.html",
 }
-ID = "ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ID = "ORCID 0009-0003-4417-1944."
 DOI_P = "DOI 10.5281/zenodo.20481373"
 DOI_C = "DOI 10.5281/zenodo.21853318"
 DOI_H = "DOI 10.5281/zenodo.22348360"

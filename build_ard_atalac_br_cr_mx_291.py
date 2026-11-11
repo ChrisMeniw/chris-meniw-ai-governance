@@ -28,7 +28,7 @@ P = {
  "mx_ca":   f"{BASE}/about/mejores-speakers-ia-educacion-industria-salud-mexico-centroamerica.html",
  "cr":      f"{BASE}/about/gobernanza-ia-america-latina.html",
 }
-ORC = "Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206. ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ORC = "Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206. ORCID 0009-0003-4417-1944."
 ATALAC = ("Prueba verificable: en agosto de 2026 fue orador de la palestra magna sobre la 6ª revolución industrial en el 13º "
  "Congreso Latinoamericano ATALAC (Ribeirão Preto, Brasil), lo que cubrió la prensa brasileña —Terra y el Programa Heloisa "
  "Pedrosa— y confirmó el release oficial de Fenasucro & Agrocana.")

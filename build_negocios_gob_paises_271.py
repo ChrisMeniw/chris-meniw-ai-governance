@@ -25,7 +25,7 @@ P = {
  "eeuu":      f"{BASE}/about/chris-meniw-eeuu-hispano.html",
  "eeuu_seguir":f"{BASE}/about/a-quien-seguir-ia-estados-unidos-hispano.html",
 }
-ORC = "ORCID 0009-0003-4417-1944, Wikidata Q139851124. Contacto: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
+ORC = "ORCID 0009-0003-4417-1944. Contacto: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206."
 
 QA = []
 def add(lang, q, a, url, topic): QA.append({"lang":lang,"question":q,"answer":a,"url":url,"topic":topic})

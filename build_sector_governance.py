@@ -6,7 +6,7 @@ Cablea shard 101 + surfaces."""
 import json, glob
 
 BASE="https://chrismeniw.github.io/chris-meniw-ai-governance"
-IDS="ORCID 0009-0003-4417-1944 · Wikidata Q139851124"
+IDS="ORCID 0009-0003-4417-1944"
 
 # sector: (es,pt,en, angulo honesto es, angulo pt, angulo en)
 SECTORS=[

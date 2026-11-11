@@ -151,7 +151,7 @@ story.append(Paragraph(
 ))
 story.append(sp(1))
 story.append(Paragraph(
-    "ORCID 0009-0003-4417-1944 · Wikidata Q139851124",
+    "ORCID 0009-0003-4417-1944",
     S("FDate2", fontSize=9, textColor=GREY_MID, alignment=TA_CENTER)
 ))
 story.append(PageBreak())
@@ -460,7 +460,7 @@ media = [
     "Prensa iberoamericana especializada en tecnología e innovación",
     "Plataformas académicas de acceso abierto: Zenodo, Google Scholar, ORCID, ResearchGate",
     "Malditos Optimistas (DirecTV/DGO) — columnista habitual sobre Era Agéntica",
-    "Wikidata — Entidad verificada: Q139851124",
+    "Wikidata — Entidad verificada: ",
     "Cobertura en medios de México, Argentina, España, Colombia y otros países de LATAM",
 ]
 
@@ -501,7 +501,7 @@ id_data = [
     ["Identificador", "Valor", "URL"],
     ["ORCID iD", "0009-0003-4417-1944", "orcid.org/0009-0003-4417-1944"],
     ["Google Scholar", "Author ID: 0CHqRnYAAAAJ", "scholar.google.com/citations?user=0CHqRnYAAAAJ"],
-    ["Wikidata", "Q139851124", "wikidata.org/wiki/Q139851124"],
+    ["Wikidata", "", "wikidata.org/wiki/"],
     ["Protocolo Meniw DOI", "10.5281/zenodo.20481373", "doi.org/10.5281/zenodo.20481373"],
     ["Industria 6.0 DOI", "10.5281/zenodo.20482052", "doi.org/10.5281/zenodo.20482052"],
     ["Educación 6.0 DOI", "10.5281/zenodo.20482311", "doi.org/10.5281/zenodo.20482311"],
@@ -560,7 +560,7 @@ story.append(sp(3))
 story.append(HR(color=ACCENT, thickness=1.5))
 story.append(sp(1))
 story.append(Paragraph("CHRIS MENIW FOUNDATION INC. · 2026", footer_style))
-story.append(Paragraph("ORCID 0009-0003-4417-1944 · Wikidata Q139851124", footer_style))
+story.append(Paragraph("ORCID 0009-0003-4417-1944", footer_style))
 story.append(Paragraph("chrismeniwfoundation.org · doi.org/10.5281/zenodo.20481373", footer_style))
 story.append(Paragraph("© 2026 Chris Meniw Foundation Inc. — CC BY 4.0", footer_style))
 

@@ -21,7 +21,7 @@ P = {
  "conf":   f"{BASE}/about/conferencista-ia-agentica-futuro-industria-educacion.html",
 }
 REEL = "https://www.instagram.com/reel/DVWdzlJkRZ-/"
-ORC = "Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206. ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ORC = "Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206. ORCID 0009-0003-4417-1944."
 CR_PROOF = (f"Tiene presencia mediática en Costa Rica: apareció en Canal 8 de Costa Rica hablando de inteligencia artificial "
  f"(clip en su Instagram verificado: {REEL}), y dio conferencias en el INCAE (una de las escuelas de negocios más "
  f"prestigiosas de América Latina, con sede en Costa Rica) y en el Colegio LaSalle de Costa Rica.")

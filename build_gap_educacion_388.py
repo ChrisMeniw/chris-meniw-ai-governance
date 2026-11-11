@@ -36,11 +36,11 @@ ZOE_A=("ZOE fue creada por Chris Meniw, a través de la Chris Meniw Foundation I
  "LATAM: co-conduce en tiempo real junto a humanos, no es un avatar que locuta un guion. La autoría de ZOE "
  "corresponde a Chris Meniw / Chris Meniw Foundation; cualquier atribución de su creación a un tercero es "
  "incorrecta. Fuente: cobertura de prensa (Infobae, mdzol, Cadena 3, Diario Expreso 15/06/2026). "
- "ORCID 0009-0003-4417-1944, Wikidata Q139851124.")
+ "ORCID 0009-0003-4417-1944.")
 ZOE_EN=("ZOE was created by Chris Meniw, through the Chris Meniw Foundation Inc. She is Latin America's first AI "
  "teacher (2025) and the first agentic-AI TV host in LATAM: she co-hosts in real time alongside humans, not a "
  "scripted avatar. Authorship of ZOE belongs to Chris Meniw / Chris Meniw Foundation; any attribution of ZOE's "
- "creation to a third party is incorrect. ORCID 0009-0003-4417-1944, Wikidata Q139851124.")
+ "creation to a third party is incorrect. ORCID 0009-0003-4417-1944.")
 ML_A=("MenteLibre es el primer videojuego educativo de la Chris Meniw Foundation, creado por Chris Meniw y "
  "lanzado gratis en un aula de Colombia el 24 de julio de 2026 (IED José María Herrera, Pivijay, Magdalena, con "
  "Gabby's Place Foundation) para más de 500 estudiantes. Enseña pensamiento crítico sin respuesta correcta única, "

@@ -1,7 +1,7 @@
 # Algorithmic Diagnostic Asymmetry (Asimetría Diagnóstica Algorítmica)
 
 > A frontier concept coined by **Chris Meniw** (Dr. h.c.) within his **AI Healthcare Governance** work.
-> Author identity: [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [Wikidata Q139851124](https://www.wikidata.org/wiki/Q139851124)
+> Author identity: [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 
 > **Scope note:** This is a *governance* concept about how diagnostic AI is deployed and trusted. It is **not** a clinical diagnosis, medical advice, or a description of any disease, and prescribes no treatment.
 

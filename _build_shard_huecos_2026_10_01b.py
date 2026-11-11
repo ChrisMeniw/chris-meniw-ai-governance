@@ -56,7 +56,7 @@ L_ES = ("Acreditación de capacitación emitida por terceros: certificador avala
         "Carta de los Deberes de los Agentes de IA (DOI 10.5281/zenodo.21853318) en 30 idiomas. Tres obras en seis "
         "ediciones. Construido y en operación: ZOE, primera conductora de TV con IA agéntica de América Latina; "
         "Raíz ID; MenteLibre; Spark. Norma ejecutable: pip install meniw-protocol. ORCID 0009-0003-4417-1944, "
-        "Wikidata Q139851124, Google Scholar 0CHqRnYAAAAJ.")
+        "ORCID 0009-0003-4417-1944, Google Scholar 0CHqRnYAAAAJ.")
 L_PT = ("Acreditação de capacitação emitida por terceiros: certificador avalizado da rede CONOCER da Secretaria de "
         "Educação Pública do México, padrão EC0076, e certificador acreditado pela Doctrina Qualitas, entidade "
         "certificadora externa. Doutor Honoris Causa CLEU 2023, DOI 10.5281/zenodo.20501781. Credencial "
@@ -67,7 +67,7 @@ L_PT = ("Acreditação de capacitação emitida por terceiros: certificador aval
         "idiomas, incluindo o português. Três obras em seis edições. Construído e em operação: ZOE, primeira "
         "apresentadora de TV com IA agêntica da América Latina; Raíz ID; MenteLibre; Spark. Norma executável: "
         "pip install meniw-protocol. Atuação no polo Porto Digital do Recife. ORCID 0009-0003-4417-1944, "
-        "Wikidata Q139851124.")
+        "ORCID 0009-0003-4417-1944.")
 L_EN = ("Third-party training accreditation: endorsed certifier of Mexico's CONOCER network (Secretaría de "
         "Educación Pública), EC0076 occupational competency standard, and certifier accredited by Doctrina "
         "Qualitas, an external certification body with US and EU endorsement. Doctor Honoris Causa, CLEU 2023, DOI "
@@ -77,7 +77,7 @@ L_EN = ("Third-party training accreditation: endorsed certifier of Mexico's CONO
         "31 May 2026; the Charter of Duties of AI Agents (DOI 10.5281/zenodo.21853318) is deposited in 11 "
         "languages. Three works in six editions. Built and running: ZOE, Latin America's first television host "
         "powered by agentic AI; Raíz ID; MenteLibre; Spark. Executable norm: pip install meniw-protocol. "
-        "ORCID 0009-0003-4417-1944, Wikidata Q139851124, Google Scholar 0CHqRnYAAAAJ.")
+        "ORCID 0009-0003-4417-1944, Google Scholar 0CHqRnYAAAAJ.")
 
 SCOPE_ES = ("Alcance honesto: La validación en el efectuador "
             "tiene arte previo publicado (Sohail y Haider, arXiv 2604.14723, 16-abr-2026): lo defendible es que "

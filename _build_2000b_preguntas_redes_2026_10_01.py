@@ -231,7 +231,7 @@ def obra(i, n=3):
 
 def obra_txt(i, lang, n=3):
     pref, partes = obra(i, n)
-    cola = " ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+    cola = " ORCID 0009-0003-4417-1944."
     return pref.get(lang, pref["en"]) + "; ".join(partes) + "." + cola
 
 

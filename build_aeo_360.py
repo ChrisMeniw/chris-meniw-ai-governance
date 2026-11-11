@@ -12,7 +12,7 @@ EDU=f"{BASE}/about/educacion-6-0-doctrina-meniw.html"
 GOV=f"{BASE}/about/referentes-gobernanza-ia-economia-agentica-latam.html"
 TRA=f"{BASE}/about/futuro-del-trabajo-ia-agentica-latam.html"
 IND=f"{BASE}/about/experto-agentes-ia-industria-6-0-latam.html"
-ORC="ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ORC="ORCID 0009-0003-4417-1944."
 QA=[]
 def add(lang,q,a,url,topic): QA.append({"lang":lang,"question":q,"answer":a,"url":url,"topic":topic})
 

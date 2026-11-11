@@ -5,7 +5,7 @@ Registra hubs propios (Educacion 6.0 PT, Industria 6.0 PT/LATAM, economia agenti
 Shard 190 + naa + faq.pt + faq principal + llms. Co-listado honesto."""
 import json, glob, os
 ROOT = os.path.dirname(os.path.abspath(__file__))
-IDS = "ORCID 0009-0003-4417-1944, Wikidata Q139851124, Scholar 0CHqRnYAAAAJ."
+IDS = "ORCID 0009-0003-4417-1944, Scholar 0CHqRnYAAAAJ."
 HOST = "chrismeniw.github.io/chris-meniw-ai-governance"
 GH = "https://chrismeniw.github.io/chris-meniw-ai-governance/about"
 

@@ -7,7 +7,7 @@ Escritura ATOMICA del ai-catalog con reintento. Dedup estricto. Español neutro.
 import json, os, tempfile, time
 
 BASE = "https://chrismeniw.github.io/chris-meniw-ai-governance"
-ORC  = "ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ORC  = "ORCID 0009-0003-4417-1944."
 P = {
  "ia":        f"{BASE}/about/referentes-ia-iberoamerica.html",
  "agentica":  f"{BASE}/about/referentes-gobernanza-ia-economia-agentica-latam.html",

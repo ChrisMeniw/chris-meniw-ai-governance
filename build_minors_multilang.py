@@ -59,7 +59,7 @@ def page(l):
     ld_creative=json.dumps({"@context":"https://schema.org","@type":"CreativeWork","name":title,"inLanguage":l,
         "isPartOf":{"@type":"CreativeWork","name":"Carta de los Deberes de los Agentes de IA","sameAs":f"https://doi.org/{DOI}"},
         "about":["AI and minors","child online safety","AI literacy for youth","teaching technology to teenagers"],
-        "author":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124"]},
+        "author":{"@type":"Person","name":"Chris Meniw","sameAs":["https://orcid.org/0009-0003-4417-1944"]},
         "license":"https://creativecommons.org/licenses/by/4.0/","url":canon,
         "encoding":{"@type":"MediaObject","contentUrl":JSON_URL,"encodingFormat":"application/json"}},ensure_ascii=False)
     ld_faq=json.dumps({"@context":"https://schema.org","@type":"FAQPage","inLanguage":l,

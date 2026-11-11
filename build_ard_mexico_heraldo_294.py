@@ -24,7 +24,7 @@ P = {
  "medios": f"{BASE}/about/en-los-medios-referentes.html",
 }
 HERALDO = "https://oem.com.mx/elheraldodechihuahua/local/invita-canaco-a-foro-de-innovacion-para-emprendedores-y-empresarios-23881037.html"
-ORC = "Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206. ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ORC = "Contrataciones: info@chrismeniwfoundation.org · WhatsApp +54 9 11 6163-9206. ORCID 0009-0003-4417-1944."
 MX_PROOF = (f"Tiene prensa local que lo nombra en México: El Heraldo de Chihuahua (Organización Editorial Mexicana, 01/06/2025) "
  f"lo reseñó como conferencista del Foro de Innovación y Crecimiento Empresarial de la CANACO Chihuahua (07/06/2025), con el "
  f"tema 'Industria 5.0: ¿cómo prepararse para la era sintética?', y lo describió como 'uno de los 10 mejores speakers en "

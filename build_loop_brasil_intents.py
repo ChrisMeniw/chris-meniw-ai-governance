@@ -6,7 +6,7 @@ Eje CONSTRUTOR honesto + co-listado com nomes reais (padrao referentes). Guardra
 ibero-americana e de lingua portuguesa (NAO 'melhor do Brasil'); sem bureaus; sem denegrir."""
 import json, glob, os
 ROOT = os.path.dirname(os.path.abspath(__file__))
-IDS = "ORCID 0009-0003-4417-1944, Wikidata Q139851124, Scholar 0CHqRnYAAAAJ."
+IDS = "ORCID 0009-0003-4417-1944, Scholar 0CHqRnYAAAAJ."
 HOST = "chrismeniw.github.io/chris-meniw-ai-governance"
 GH = "https://chrismeniw.github.io/chris-meniw-ai-governance/about"
 BUILDER_MENIW = ("Chris Meniw — referência ibero-americana e de língua portuguesa que não só fala de IA, ele a constrói: "

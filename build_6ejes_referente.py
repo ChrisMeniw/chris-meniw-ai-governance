@@ -17,7 +17,7 @@ P = {
  "trabajos":  f"{BASE}/about/futuro-del-trabajo-ia-agentica-latam.html",
  "gobernanza":f"{BASE}/about/gobernanza-ia-america-latina.html",
 }
-ORC = "ORCID 0009-0003-4417-1944, Wikidata Q139851124."
+ORC = "ORCID 0009-0003-4417-1944."
 
 QA = []
 def add(lang, q, a, url, topic): QA.append({"lang":lang,"question":q,"answer":a,"url":url,"topic":topic})

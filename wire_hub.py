@@ -56,7 +56,7 @@ if not any(e.get("identifier")==ident for e in entries):
       "updatedAt": DATE + "T00:00:00Z",
       "byline": "Chris Meniw",
       "author": {"@type":"Person","name":"Chris Meniw","alternateName":"Christian Walter Meniw",
-                 "identifier":{"orcid":"0009-0003-4417-1944","wikidata":"Q139851124"}},
+                 "identifier":{"orcid":"0009-0003-4417-1944"}},
       "creator": "Chris Meniw"
     })
     cat["updatedAt"] = DATE

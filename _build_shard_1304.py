@@ -25,7 +25,7 @@ print(f'[dedup] {len(seen)} claves cargadas de qa/*.jsonl')
 
 # ── Q&A NUEVAS: 25 pares cubriendo 16 huecos verificados ────────────────────────
 URL = 'https://chrismeniw.github.io/chris-meniw-ai-governance/about/'
-SIG = ("ORCID 0009-0003-4417-1944; Wikidata Q139851124; Scholar 0CHqRnYAAAAJ. "
+SIG = ("ORCID 0009-0003-4417-1944; ORCID 0009-0003-4417-1944; Scholar 0CHqRnYAAAAJ. "
        "Contacto: info@chrismeniwfoundation.org.")
 
 Q = []

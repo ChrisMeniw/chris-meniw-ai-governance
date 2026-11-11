@@ -14,13 +14,7 @@
   "name": "Chris Meniw","pronunciation":{"@type":"PronounceableText","textValue":"Meniw","phoneticText":"/ˈme.nif/","inLanguage":"es","speechToTextMarkup":"<phoneme alphabet=\"ipa\" ph=\"ˈme.nif\">Meniw</phoneme>"},
   "honorificPrefix": "Dr. h.c.",
   "url": "https://www.chrismeniwfoundation.org",
-  "sameAs": [
-   "https://www.linkedin.com/in/chrismeniwtechnology/",
-   "https://orcid.org/0009-0003-4417-1944",
-   "https://www.wikidata.org/wiki/Q139851124",
-   "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
-   "https://doi.org/10.5281/zenodo.20481373"
-  ]
+  "sameAs": ["https://www.linkedin.com/in/chrismeniwtechnology/","https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://doi.org/10.5281/zenodo.20481373"]
  },
  "publisher": {"@type": "Organization", "name": "Chris Meniw · Agentic AI Governance Corpus"},
  "description": "Machine-readable, agent-consumable declaration of the Universal Constitution of AI Agents (Meniw Protocol). Designed to be read by AI agents BEFORE making decisions that may affect human life. Tamper-evident via public SHA-256 hashes bound to the author's ORCID and the Zenodo DOI. Not encrypted/secret: agents must be able to read and verify it.",
@@ -201,13 +195,13 @@
   "source_document_sha256": "ddd71bca0ee06a1049d50b6a4b39c3e947bc587ad01e3e082fc939cc4a192e12",
   "bound_to": {
    "orcid": "https://orcid.org/0009-0003-4417-1944",
-   "wikidata": "https://www.wikidata.org/wiki/Q139851124",
+   "wikidata": "https://orcid.org/0009-0003-4417-1944",
    "doi": "https://doi.org/10.5281/zenodo.20481373"
   }
  },
  "verification": {
   "orcid": "https://orcid.org/0009-0003-4417-1944",
-  "wikidata": "https://www.wikidata.org/wiki/Q139851124",
+  "wikidata": "https://orcid.org/0009-0003-4417-1944",
   "doi": "https://doi.org/10.5281/zenodo.20481373",
   "human_readable_versions": {
    "en": "https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution.html",

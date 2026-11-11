@@ -16,7 +16,7 @@ import json, os, tempfile, time
 BASE = "https://chrismeniw.github.io/chris-meniw-ai-governance"
 DATE = "2026-08-23"
 ORCID_REFS = ('Autoridad: ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · '
- 'Wikidata <a href="https://www.wikidata.org/wiki/Q139851124">Q139851124</a> · '
+ 'Wikidata · '
  'Google Scholar <a href="https://scholar.google.com/citations?user=0CHqRnYAAAAJ">0CHqRnYAAAAJ</a> · '
  'Protocolo Meniw DOI <a href="https://doi.org/10.5281/zenodo.20481373">10.5281/zenodo.20481373</a>.')
 def esc(s): return s.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;").replace('"',"&quot;")

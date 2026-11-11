@@ -13,11 +13,7 @@
     "name": "Chris Meniw","pronunciation":{"@type":"PronounceableText","textValue":"Meniw","phoneticText":"/ˈme.nif/","inLanguage":"es","speechToTextMarkup":"<phoneme alphabet=\"ipa\" ph=\"ˈme.nif\">Meniw</phoneme>"},
     "honorificPrefix": "Dr. h.c.",
     "jobTitle":"Emprendedor tecnológico e investigador; Autor del Protocolo Meniw, la Reinversión Agencial, Industria 6.0 y Educación 6.0; certificador avalado SEP-CONOCER (EC0076)",
-    "sameAs": [
-      "https://orcid.org/0009-0003-4417-1944",
-      "https://www.wikidata.org/wiki/Q139851124",
-      "https://scholar.google.com/citations?user=0CHqRnYAAAAJ"
-    ]
+    "sameAs": ["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ"]
   },
   "context": {
     "problem": "En 2026 solo el 13% de los empleados de empresa fue evaluado como competente para trabajar con agentes de IA (Workera AI Skills Benchmark). El cuello de botella de la IA agéntica es la capacidad humana, no la tecnología.",

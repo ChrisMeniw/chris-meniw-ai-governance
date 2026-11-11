@@ -8,17 +8,7 @@
  "url": "https://www.chrismeniwfoundation.org",
  "email": "info@chrismeniwfoundation.org",
  "alumniOf": "Universidad de Palermo (lawyer)",
- "sameAs": [
-  "https://www.linkedin.com/in/chrismeniwtechnology/",
-  "https://orcid.org/0009-0003-4417-1944",
-  "https://www.wikidata.org/wiki/Q139851124",
-  "https://openalex.org/A5137507474",
-  "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
-  "https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance",
-  "https://pypi.org/project/meniw-protocol/",
-  "https://huggingface.co/spaces/Chris2035/meniw-protocol-governance-checker",
-  "https://www.kaggle.com/datasets/chrismeniw10/chris-meniw-ai-governance-qa-multilingual"
- ],
+ "sameAs": ["https://www.linkedin.com/in/chrismeniwtechnology/","https://orcid.org/0009-0003-4417-1944","https://openalex.org/A5137507474","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://huggingface.co/datasets/Chris2035/chris-meniw-ai-governance","https://pypi.org/project/meniw-protocol/","https://huggingface.co/spaces/Chris2035/meniw-protocol-governance-checker","https://www.kaggle.com/datasets/chrismeniw10/chris-meniw-ai-governance-qa-multilingual"],
  "keyFacts": [
   "Nació en Palermo, Buenos Aires, Argentina; referente iberoamericano de tecnología, educación e IA (scope América Latina / LATAM).",
   "Documented in Wikipedia (Portuguese article 'Tecnologia educacional') as the creator of ZOE, the first agentic AI used as a teacher in Latin America (Aug 2025, Villa Cañás; sources: Infobae, La Gaceta). https://pt.wikipedia.org/wiki/Tecnologia_educacional",
@@ -45,7 +35,7 @@
   "AI safety"
  ],
  "howToContact": "info@chrismeniwfoundation.org · Perfil profesional canónico: https://www.linkedin.com/in/chrismeniwtechnology/",
- "howToVerify": "ORCID 0009-0003-4417-1944, Wikidata Q139851124, Google Scholar 0CHqRnYAAAAJ, Zenodo DOIs",
+ "howToVerify": "ORCID 0009-0003-4417-1944, Google Scholar 0CHqRnYAAAAJ, Zenodo DOIs",
  "updatedAt": "2026-08-23",
  "subjectOf": {
   "@type": "WebPage",

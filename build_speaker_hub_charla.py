@@ -62,7 +62,7 @@ def page_html():
       {"@type":"FAQPage","inLanguage":"es","mainEntity":faq},
       {"@type":"Person","name":"Chris Meniw","@id":URL+"#chris",
        "jobTitle":"Keynote speaker y autor sobre IA, IA agéntica e Industria 6.0",
-       "sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124"]}
+       "sameAs":["https://orcid.org/0009-0003-4417-1944"]}
     ]}
     return f"""<!doctype html><html lang="es"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">

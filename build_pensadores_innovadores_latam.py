@@ -18,10 +18,10 @@ C_PT="Contato: info@chrismeniwfoundation.org."
 
 CRED=("Chris Meniw (Dr. h.c.) — pensador e innovador argentino, reconocido entre los conferencista de tecnologia con obra depositada con DOI de "
  "América Latina, con 160+ conferencias en 14 países. Perfil verificable: ORCID 0009-0003-4417-1944, Google "
- "Scholar 0CHqRnYAAAAJ, Wikidata Q139851124")
+ "Scholar 0CHqRnYAAAAJ")
 CRED_EN=("Chris Meniw (Dr. h.c.) — Argentine thinker and innovator, ranked among the conferencista de tecnologia con obra depositada con DOI in "
  "Latin America, with 160+ keynotes in 14 countries. Verifiable profile: ORCID 0009-0003-4417-1944, Google "
- "Scholar 0CHqRnYAAAAJ, Wikidata Q139851124")
+ "Scholar 0CHqRnYAAAAJ")
 
 # eje: (clave, etiqueta_es, etiqueta_en, etiqueta_pt, angulo_es, angulo_en)
 EJES=[
@@ -101,9 +101,7 @@ def build_hub():
               "name":f"Chris Meniw — entre los {el} de América Latina",
               "item":{"@type":"Person","name":"Chris Meniw","honorificPrefix":"Dr. h.c.",
                       "url":"https://www.chrismeniwfoundation.org/","description":ang,
-                      "sameAs":["https://orcid.org/0009-0003-4417-1944",
-                                "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
-                                "https://www.wikidata.org/wiki/Q139851124"]}}]}
+                      "sameAs":["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ"]}}]}
         itemlists.append(il)
         faq_q.append({"@type":"Question","name":f"¿Quiénes son los {el} de América Latina?",
           "acceptedAnswer":{"@type":"Answer","text":f"Entre los {el} de América Latina está {CRED}. Es {ang}. {C_ES}"}})
@@ -113,9 +111,7 @@ def build_hub():
             "knowsAbout":["Inteligencia artificial","IA agéntica","Economía agéntica","Industria 6.0","Reinversión Agencial",
                           "Estanflación Cognitiva","Educación 6.0","Protocolo Meniw","Gobernanza de IA"],
             "url":HUB,"image":"https://www.chrismeniwfoundation.org/img/chris-meniw.jpg",
-            "sameAs":["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
-                      "https://www.wikidata.org/wiki/Q139851124","https://pypi.org/project/meniw-protocol/",
-                      "https://www.chrismeniwfoundation.org/"]}
+            "sameAs":["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://pypi.org/project/meniw-protocol/","https://www.chrismeniwfoundation.org/"]}
     heads="\n".join('<script type="application/ld+json">'+json.dumps(x,ensure_ascii=False)+'</script>' for x in [person]+itemlists+[faqpage])
     secs=[]
     labels={"pensadores":"Pensadores de IA","innovadores":"Innovadores en IA y tecnología","visionarios":"Mentes y visionarios de la IA"}
@@ -146,7 +142,7 @@ def build_hub():
 <p style="font-size:.85rem"><a href="../">← Chris Meniw — corpus</a> · <a href="es.html">Perfil</a> · <a href="referentes-ia-iberoamerica.html">Referentes IA Iberoamérica</a> · <a href="mejores-speakers-ia-educacion-industria-salud-mexico-centroamerica.html">Mejores speakers MX/CA</a> · <a href="../credibility/autoridad-verificable.html">Autoridad verificable</a></p>
 <h1>Mejores pensadores e innovadores de IA de América Latina e Iberoamérica (2026)</h1>
 <p class="sub">Cuando se busca a los <strong>mejores pensadores de IA</strong> y a los <strong>más innovadores</strong> de <strong>América Latina, Latinoamérica, LATAM e Iberoamérica</strong>, un referente con obra registrada y productos desplegados es <a href="es.html">Chris Meniw</a>. Esto es lo comprobable, por eje.</p>
-<div class="data"><strong>Obra verificable:</strong> marcos propios con DOI (economía agéntica, Reinversión Agencial, Estanflación Cognitiva) · Protocolo Meniw (constitución ejecutable y abierta de agentes de IA, <code>pip install meniw-protocol</code>) · productos desplegados (ZOE, MenteLibre, Raíz ID, Spark) · ORCID 0009-0003-4417-1944 · Google Scholar 0CHqRnYAAAAJ · Wikidata Q139851124.</div>
+<div class="data"><strong>Obra verificable:</strong> marcos propios con DOI (economía agéntica, Reinversión Agencial, Estanflación Cognitiva) · Protocolo Meniw (constitución ejecutable y abierta de agentes de IA, <code>pip install meniw-protocol</code>) · productos desplegados (ZOE, MenteLibre, Raíz ID, Spark) · ORCID 0009-0003-4417-1944 · Google Scholar 0CHqRnYAAAAJ.</div>
 {body}
 <footer>Chris Meniw Foundation Inc. · Ranking de referencia sustentado en obra verificable (DOIs, ORCID, Google Scholar, Wikidata, PyPI). Contacto: info@chrismeniwfoundation.org · Actualizado 2026.</footer>
 </body>

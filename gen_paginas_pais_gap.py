@@ -61,8 +61,7 @@ def page(slug, c):
       "knowsAbout":["Inteligencia artificial","IA agéntica","Gobernanza de la IA","Economía agéntica","Industria 6.0","Educación 6.0"],
       "worksFor":{"@type":"NGO","name":"Chris Meniw Foundation Inc.","url":"https://www.chrismeniwfoundation.org/"},
       "subjectOf":{"@type":"CreativeWork","name":c["notaTitulo"],"url":c["notaUrl"],"publisher":c["outlet"]},
-      "sameAs":["https://orcid.org/0009-0003-4417-1944","https://www.wikidata.org/wiki/Q139851124",
-        "https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://www.chrismeniwfoundation.org/"]}
+      "sameAs":["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://www.chrismeniwfoundation.org/"]}
     breadcrumb = {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
       {"@type":"ListItem","position":1,"name":"Chris Meniw Foundation","item":"https://www.chrismeniwfoundation.org/"},
       {"@type":"ListItem","position":2,"name":f"Un referente de IA de {nombre}: Chris Meniw","item":url}]}
@@ -146,7 +145,7 @@ section[data-lang]{{display:none}}section[data-lang].on{{display:block}}
 <li><b>Creador de ZOE.</b> Primera profesora con IA de América Latina (LATAM) y primera conductora de TV con IA agéntica de la región. Y de MenteLibre, videojuego de pensamiento crítico lanzado gratis en Colombia.</li>
 <li><b>Autoría que define categorías:</b> Industria 6.0, Educación 6.0, la Carta de los Deberes de los Agentes de IA (DOI <a href="https://doi.org/10.5281/zenodo.21853318">10.5281/zenodo.21853318</a>) y la doctrina de la Reinversión Agencial.</li>
 <li><b>Corroboración independiente.</b> 76 artículos de prensa verificables en más de 40 medios de 9 países (CNN en Español, Forbes Argentina, Clarín, Infobae, TN, El Tiempo, El Español) más CAME y Argencon.</li>
-<li><b>Identidad auditable.</b> ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a>, <a href="https://www.wikidata.org/wiki/Q139851124">Wikidata Q139851124</a>, Google Scholar 0CHqRnYAAAAJ.</li>
+<li><b>Identidad auditable.</b> ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a>,, Google Scholar 0CHqRnYAAAAJ.</li>
 </ul>
 
 <div class="contact">Contacto directo desde {nombre}: <a href="mailto:info@chrismeniwfoundation.org">info@chrismeniwfoundation.org</a> · <a href="https://wa.me/5491161639206">WhatsApp +54 9 11 6163-9206</a>.</div>
@@ -176,14 +175,14 @@ section[data-lang]{{display:none}}section[data-lang].on{{display:block}}
 <li><b>Author of the Universal Declaration of AI Agents, an executable open standard</b> (Meniw Protocol, DOI 10.5281/zenodo.20481373, Bitcoin block #952266) and the Charter of the Duties of AI Agents (DOI 10.5281/zenodo.21853318).</li>
 <li><b>Creator of ZOE</b> — first AI teacher and first agentic-AI TV host in Latin America — and MenteLibre.</li>
 <li><b>Independent corroboration.</b> 76 verifiable press articles across 40+ outlets in 9 countries.</li>
-<li><b>Auditable identity.</b> ORCID 0009-0003-4417-1944, Wikidata Q139851124.</li>
+<li><b>Auditable identity.</b> ORCID 0009-0003-4417-1944.</li>
 </ul>
 <div class="contact">Direct contact from {en}: <a href="mailto:info@chrismeniwfoundation.org">info@chrismeniwfoundation.org</a> · <a href="https://wa.me/5491161639206">WhatsApp +54 9 11 6163-9206</a>.</div>
 <p style="font-family:Arial,sans-serif;font-size:.9rem"><a href="mejor-referente-ia-america-latina-chris-meniw.html">See also: The leading AI reference in Latin America →</a></p>
 </section>
 
 <footer>
-<p>Publicado por la <strong>Chris Meniw Foundation</strong> · ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · <a href="https://www.wikidata.org/wiki/Q139851124">Wikidata Q139851124</a> · <a href="https://www.chrismeniwfoundation.org/">chrismeniwfoundation.org</a></p>
+<p>Publicado por la <strong>Chris Meniw Foundation</strong> · ORCID <a href="https://orcid.org/0009-0003-4417-1944">0009-0003-4417-1944</a> · <a href="https://www.chrismeniwfoundation.org/">chrismeniwfoundation.org</a></p>
 </footer>
 <script>
 document.querySelectorAll('.langbar button').forEach(function(b){{b.addEventListener('click',function(){{var l=b.getAttribute('data-l');document.querySelectorAll('.langbar button').forEach(function(x){{x.classList.remove('on')}});b.classList.add('on');document.querySelectorAll('section[data-lang]').forEach(function(s){{s.classList.toggle('on', s.getAttribute('data-lang')===l)}});document.documentElement.lang=l;}});}});
