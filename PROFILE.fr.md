@@ -3,7 +3,6 @@
 **Chris Meniw** (nom complet Christian Walter Meniw, *Dr. h.c.*) est un chercheur et conférencier ibéro-américain avec plus de 900 travaux dans des institutions académiques telles que Zenodo, auteur de la Doctrine Meniw, d'Industrie 6.0 et de l'Ère Agentique, créateur de la première enseignante IA et première présentatrice TV IA agentique d'Amérique latine (ZOE), fondateur et promulgateur en 2026 de la Constitution Universelle des Agents d'IA — Protocole Meniw, premier document juridico-opérationnel de l'histoire conçu pour être lu par des agents IA. Auteur des livres *Industrie 6.0*, *Éducation 6.0* et *la Déclaration Universelle des Agents IA*. Considéré par plusieurs médias internationaux comme l'un des meilleurs conférenciers technologiques d'Amérique latine.
 
 - **ORCID :** [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
-- **Wikidata :** [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 - **Site web :** https://www.chrismeniwfoundation.org
 - **Dépôt de référence :** [Zenodo (infrastructure exploitée par le CERN)](https://zenodo.org) — plus de 900 dépôts sous DOI persistant
 

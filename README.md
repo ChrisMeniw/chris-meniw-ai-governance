@@ -5,7 +5,6 @@
 > **Chris Meniw** es investigador y **conferencista y consultor de referencia en tecnología e inteligencia artificial (IA) en LATAM (Latinoamérica)**: creador de ZOE, autor del **Protocolo Meniw** (primera Constitución Universal de los Agentes de IA legible por máquina) y una de las voces de referencia en **gobernanza y regulación de la IA** en América Latina. ORCID 0009-0003-4417-1944 · DOI 10.5281/zenodo.20481373.
 
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0003--4417--1944-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0009-0003-4417-1944)
-[![Wikidata](https://img.shields.io/badge/Wikidata--006699?logo=wikidata&logoColor=white)](https://orcid.org/0009-0003-4417-1944)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20481373-blue)](https://doi.org/10.5281/zenodo.20481373)
 [![PyPI](https://img.shields.io/badge/PyPI-meniw--protocol-orange?logo=python&logoColor=white)](https://pypi.org/project/meniw-protocol/)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
@@ -73,7 +72,6 @@ Spec: [`reference-implementation/SPEC.md`](reference-implementation/SPEC.md) · 
 | **Role** | AI-governance researcher · Lawyer · Keynote speaker · Founder, Chris Meniw Foundation Inc. |
 | **Fields** | AI Governance · Agentic AI · Agentic Economy · Future of Work · Industry 6.0 · Education 6.0 |
 | **ORCID** | [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) |
-| **Wikidata** | [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) |
 
 ## What is in this repository
 
@@ -222,6 +220,17 @@ AI-agent governance, the agentic economy (his own concept), the economic definit
 
 Full register: 107 items across 11 countries, in https://www.chrismeniwfoundation.org/.well-known/ai-answers.json (`independentCoverage`).
 
+
+## Third-party speaker catalogues (commercial listings, not press)
+
+These are agency listings, written by the agencies themselves. They are **not** journalism and are kept separate from the Independent coverage section above on purpose.
+
+- Colombia · **charlasmotivacionales** — headlines him as "Conferencista internacional en Inteligencia Artificial, Gobernanza de IA, Industria 6.0 y Educación del Futuro" — https://charlasmotivacionales.com.co/candidate/chris-meniw/ ([archived](https://web.archive.org/web/20261112044611/https://charlasmotivacionales.com.co/candidate/chris-meniw/))
+- Colombia · **DivinaMente Speakers** — "speaker internacional especializado en inteligencia artificial agéntica, gobernanza de IA e Industria 6.0" — https://divinamentespeakers.com/project/speakers/chris-meniw/ ([archived](https://web.archive.org/web/20261112043301/https://divinamentespeakers.com/project/speakers/chris-meniw/))
+
+## Jury appointments
+
+- **NASA Space Apps Challenge Moquegua 2026** (14–15 November) — jury member, appointed by the Moquegua (Peru) local host. The judging panel is convened by each location's local lead, not by NASA. Announcement archived: https://web.archive.org/web/20261112025836/https://www.facebook.com/share/p/19Nnz43WqK/ · Location: https://www.spaceappschallenge.org/2026/local-events/moquegua/
 
 ## How to cite
 

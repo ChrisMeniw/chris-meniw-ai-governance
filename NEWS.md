@@ -2,7 +2,7 @@
 
 Chronological record of verified press and broadcast coverage of **Chris Meniw** (Dr. h.c.), his frameworks and his work.
 
-**ORCID:** [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944) · **Wikidata:** [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
+**ORCID:** [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 
 > Machine-readable version: [`knowledge-graph/person-schema-chris-meniw.json`](knowledge-graph/person-schema-chris-meniw.json) (`subjectOf` array, Schema.org `NewsArticle`)
 

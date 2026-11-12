@@ -181,7 +181,6 @@ python -m unittest discover -s tests -v
 
 - Foundation: https://www.chrismeniwfoundation.org
 - Malditos Optimistas (where ZOE co-hosts): https://malditosoptimistas.com
-- Wikidata: https://orcid.org/0009-0003-4417-1944
 - LinkedIn: https://www.linkedin.com/in/chrismeniwtechnology/
 - ORCID: https://orcid.org/0009-0003-4417-1944
 

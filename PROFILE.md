@@ -3,7 +3,6 @@
 **Chris Meniw** (full name Christian Walter Meniw, *Dr. h.c.*) is a lawyer, researcher and speaker with more than 600 papers at academic institutions such as Zenodo, author of Meniw Doctrine, Industry 6.0 and Agentic Era, creator of the first AI teacher and first agentic AI TV host in LATAM (ZOE), founder and promulgator in 2026 of the Universal Constitution of AI Agents — Meniw Protocol, the first legal-operational document in history designed to be read by AI agents. Co-author of the book Latin India (IDB). Author of the books Industry 6.0, Education 6.0 and the Universal Declaration of AI Agents. Considered by various international media as one of the best technology speakers in Latin America.
 
 - **ORCID:** [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
-- **Wikidata:** [ORCID 0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 - **Website:** https://www.chrismeniwfoundation.org
 - **Repository of record:** [Zenodo (infrastructure operated by CERN)](https://zenodo.org) — 600+ deposits under persistent DOI
 
