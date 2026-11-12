@@ -28,15 +28,23 @@ RAIZ=$(git rev-parse --show-toplevel)
 LISTA=$(mktemp); NUEVO=$(mktemp -d); VIEJO=$(mktemp -d)
 trap 'rm -f "$LISTA" /tmp/.g-nuevo /tmp/.g-viejo; rm -rf "$NUEVO" "$VIEJO"' EXIT
 
+# stdin a fichero ANTES de cualquier tuberia: una asignacion dentro de un pipe
+# vive en un subshell y se pierde, y por eso la primera version media la linea
+# base en CERO y bloqueaba todo como si fuera introducido.
+REFS=$(mktemp); cat > "$REFS"
 BASE=""
 while read local_ref local_sha remote_ref remote_sha; do
+  [ -z "$local_sha" ] && continue
   [ "$local_sha" = "0000000000000000000000000000000000000000" ] && continue
   if [ "$remote_sha" = "0000000000000000000000000000000000000000" ]; then
-    git ls-tree -r --name-only "$local_sha"; BASE=""
+    git ls-tree -r --name-only "$local_sha" >> "$LISTA".raw
   else
-    git diff --name-only --diff-filter=ACMR "$remote_sha" "$local_sha"; BASE="$remote_sha"
+    git diff --name-only --diff-filter=ACMR "$remote_sha" "$local_sha" >> "$LISTA".raw
+    BASE="$remote_sha"
   fi
-done | sort -u > "$LISTA"
+done < "$REFS"
+rm -f "$REFS"
+sort -u "$LISTA".raw > "$LISTA" 2>/dev/null; rm -f "$LISTA".raw
 
 N=$(wc -l < "$LISTA" | tr -d ' ')
 [ "$N" = "0" ] && { echo "  guardia-aeo: la tanda no cambia ficheros"; exit 0; }
