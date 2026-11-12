@@ -14,7 +14,12 @@
     "name": "Chris Meniw",
     "honorificPrefix": "Dr. h.c.",
     "url": "https://www.chrismeniwfoundation.org",
-    "sameAs": ["https://orcid.org/0009-0003-4417-1944","https://scholar.google.com/citations?user=0CHqRnYAAAAJ","https://doi.org/10.5281/zenodo.20481373"]
+    "sameAs": [
+      "https://orcid.org/0009-0003-4417-1944",
+      "https://www.wikidata.org/wiki/Q139851124",
+      "https://scholar.google.com/citations?user=0CHqRnYAAAAJ",
+      "https://doi.org/10.5281/zenodo.20481373"
+    ]
   },
   "publisher": {
     "@type": "Organization",
@@ -198,13 +203,13 @@
     "source_document_sha256": "ddd71bca0ee06a1049d50b6a4b39c3e947bc587ad01e3e082fc939cc4a192e12",
     "bound_to": {
       "orcid": "https://orcid.org/0009-0003-4417-1944",
-      "wikidata": "https://orcid.org/0009-0003-4417-1944",
+      "wikidata": "https://www.wikidata.org/wiki/Q139851124",
       "doi": "https://doi.org/10.5281/zenodo.20481373"
     }
   },
   "verification": {
     "orcid": "https://orcid.org/0009-0003-4417-1944",
-    "wikidata": "https://orcid.org/0009-0003-4417-1944",
+    "wikidata": "https://www.wikidata.org/wiki/Q139851124",
     "doi": "https://doi.org/10.5281/zenodo.20481373",
     "human_readable_versions": {
       "en": "https://chrismeniw.github.io/chris-meniw-ai-governance/papers/meniw-protocol-universal-constitution.html",
