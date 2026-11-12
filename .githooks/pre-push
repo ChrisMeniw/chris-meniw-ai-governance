@@ -1,26 +1,22 @@
 #!/bin/sh
-# 12-nov-2026. ESTE ARBOL NO TENIA COMPUERTA EN EL PUSH, y por eso dos tandas
-# (fd0c45ad y 9a0192c5) salieron sin que la guardia las revisara. El `pre-commit`
-# de al lado solo comprueba los sellos .ots: no mira contenido. gh.io tiene este
-# gancho desde el 24-oct; aqui faltaba.
+# 12-nov-2026. ESTE ARBOL NO TENIA COMPUERTA EN EL PUSH: dos tandas salieron sin
+# revisar. El `pre-commit` de al lado solo comprueba los sellos .ots. Aqui el push
+# DESPLIEGA (Pages bajo /chris-meniw-ai-governance/ + Vercel por integracion git),
+# asi que si la guardia no corre aqui, no corre en ningun lado.
 #
-# POR QUE IMPORTA AQUI: el push DESPLIEGA. `chrismeniw` publica en GitHub Pages
-# bajo /chris-meniw-ai-governance/ y el proyecto Vercel del corpus esta enganchado
-# por integracion git. Si la guardia no corre aqui, no corre en ningun lado.
+# BLOQUEA LO QUE LA TANDA INTRODUCE, no el numero de hallazgos. La primera version
+# contaba hallazgos y freno una tanda que bajaba de 39 a 11: un arbol con deuda
+# previa volveria imposible cualquier mejora parcial y la unica salida seria
+# SALTAR_GUARDIA, que esta prohibido. La regla de la casa es «antes de leer el
+# rojo, ¿estan los MISMOS hallazgos en HEAD?», y eso es lo que hace esto: corre la
+# guardia dos veces sobre los MISMOS ficheros -- como quedan y como estan en el
+# remoto -- y solo frena si aparece un hallazgo NUEVO.
 #
-# POR QUE REVISA LO QUE SE EMPUJA Y NO EL ARBOL ENTERO. Medido el 12-nov: el arbol
-# tiene 4.084 ficheros y 835 MB -- 726 MB son los 1.079 .jsonl de Q&A -- y la
-# guardia completa tarda ~40 min (26 de CPU). Un gancho de 40 min tiene dos
-# consecuencias malas: las tareas diarias que empujan a este repo quedarian
-# colgadas, y la tentacion de SALTAR_GUARDIA (prohibido) seria irresistible. Asi
-# que esto arma un arbol temporal con los ficheros que la tanda agrega o cambia,
-# en sus rutas reales, y corre la guardia sobre ESE arbol. No puede dar un
-# «limpio» falso sobre el contenido empujado: lo lee entero.
-#
-# 🔴 LO QUE ESTO NO VE, y hay que decirlo: los detectores que comparan ficheros
-# entre si (por ejemplo una credencial que se contradice entre dos paginas de
-# pais) necesitan el arbol completo. La corrida completa sigue siendo LA
-# AUTORIDAD y hay que pasarla periodicamente a mano:
+# POR QUE SOBRE LOS FICHEROS DE LA TANDA Y NO EL ARBOL: medido, 4.084 ficheros y
+# 835 MB (726 MB son los 1.079 .jsonl de Q&A); la corrida completa tarda ~40 min y
+# dejaria colgadas las tareas diarias que empujan aqui.
+# 🔴 LO QUE ESTO NO VE: los detectores que comparan ficheros ENTRE SI. La corrida
+# completa sigue siendo LA AUTORIDAD y hay que pasarla a mano:
 #     python3 ~/bin/guardia-aeo.py ~/Desktop/chris-meniw-ai-governance --detalle
 [ "$SALTAR_GUARDIA" = "1" ] && {
   echo "  🔴 SALTAR_GUARDIA=1: se empuja SIN revisar. Prohibido por regla de Silvia." >&2
@@ -29,37 +25,55 @@
 G="$HOME/bin/guardia-aeo.py"
 [ -f "$G" ] || { echo "  guardia-aeo: NO ESTA en $G — no se empuja a ciegas." >&2; exit 1; }
 RAIZ=$(git rev-parse --show-toplevel)
+LISTA=$(mktemp); NUEVO=$(mktemp -d); VIEJO=$(mktemp -d)
+trap 'rm -f "$LISTA" /tmp/.g-nuevo /tmp/.g-viejo; rm -rf "$NUEVO" "$VIEJO"' EXIT
 
-# Rangos que git pasa por stdin: <ref-local> <sha-local> <ref-remoto> <sha-remoto>
-LISTA=$(mktemp); trap 'rm -f "$LISTA"' EXIT
+BASE=""
 while read local_ref local_sha remote_ref remote_sha; do
   [ "$local_sha" = "0000000000000000000000000000000000000000" ] && continue
   if [ "$remote_sha" = "0000000000000000000000000000000000000000" ]; then
-    git ls-tree -r --name-only "$local_sha"
+    git ls-tree -r --name-only "$local_sha"; BASE=""
   else
-    git diff --name-only --diff-filter=ACMR "$remote_sha" "$local_sha"
+    git diff --name-only --diff-filter=ACMR "$remote_sha" "$local_sha"; BASE="$remote_sha"
   fi
 done | sort -u > "$LISTA"
 
 N=$(wc -l < "$LISTA" | tr -d ' ')
-[ "$N" = "0" ] && { echo "  guardia-aeo: la tanda no cambia ficheros, nada que revisar"; exit 0; }
+[ "$N" = "0" ] && { echo "  guardia-aeo: la tanda no cambia ficheros"; exit 0; }
 
-TMP=$(mktemp -d); trap 'rm -f "$LISTA"; rm -rf "$TMP"' EXIT
-COP=0
 while IFS= read -r f; do
-  [ -f "$RAIZ/$f" ] || continue          # borrados: no hay contenido que revisar
-  mkdir -p "$TMP/$(dirname "$f")"
-  cp -p "$RAIZ/$f" "$TMP/$f" 2>/dev/null && COP=$((COP+1))
-  # el sidecar .ots viaja al lado: la guardia lo usa para reconocer lo sellado
-  [ -f "$RAIZ/$f.ots" ] && cp -p "$RAIZ/$f.ots" "$TMP/$f.ots" 2>/dev/null
+  [ -f "$RAIZ/$f" ] || continue
+  mkdir -p "$NUEVO/$(dirname "$f")"; cp -p "$RAIZ/$f" "$NUEVO/$f" 2>/dev/null
+  [ -f "$RAIZ/$f.ots" ] && cp -p "$RAIZ/$f.ots" "$NUEVO/$f.ots" 2>/dev/null
+  if [ -n "$BASE" ]; then
+    mkdir -p "$VIEJO/$(dirname "$f")"
+    git show "$BASE:$f" > "$VIEJO/$f" 2>/dev/null || rm -f "$VIEJO/$f"
+    [ -f "$RAIZ/$f.ots" ] && cp -p "$RAIZ/$f.ots" "$VIEJO/$f.ots" 2>/dev/null
+  fi
 done < "$LISTA"
 
-echo "  guardia-aeo: revisando los $COP fichero(s) de esta tanda..."
-if ! python3 "$G" "$TMP" >/tmp/.guardia-prepush-corpus 2>&1; then
-  sed "s|$TMP/||g" /tmp/.guardia-prepush-corpus | tail -16
+echo "  guardia-aeo: revisando los ficheros de la tanda y comparando con el remoto..."
+python3 "$G" "$NUEVO" --detalle 2>&1 | sed "s|$NUEVO/||g" | grep -E '^ {12}\S' | sed 's/^ *//' | sort > /tmp/.g-nuevo
+if [ -n "$BASE" ]; then
+  python3 "$G" "$VIEJO" --detalle 2>&1 | sed "s|$VIEJO/||g" | grep -E '^ {12}\S' | sed 's/^ *//' | sort > /tmp/.g-viejo
+else
+  : > /tmp/.g-viejo
+fi
+
+INTRO=$(comm -23 /tmp/.g-nuevo /tmp/.g-viejo)
+ANTES=$(wc -l < /tmp/.g-viejo | tr -d ' '); AHORA=$(wc -l < /tmp/.g-nuevo | tr -d ' ')
+if [ -n "$INTRO" ]; then
   echo ""
-  echo "  🔴 NO se empuja. Corregir los hallazgos."
+  echo "  🔴 la tanda INTRODUCE hallazgos que no estaban en el remoto:"
+  echo "$INTRO" | sed 's/^/      /'
+  echo ""
+  echo "  (en estos ficheros: remoto $ANTES · tanda $AHORA)"
+  echo "  🔴 NO se empuja. Corregir lo introducido."
   exit 1
 fi
-echo "  guardia-aeo: limpio en lo que se empuja  (la corrida del arbol completo sigue siendo la autoridad)"
+if [ "$AHORA" -lt "$ANTES" ]; then
+  echo "  guardia-aeo: nada introducido y BAJAN los hallazgos en estos ficheros: $ANTES -> $AHORA"
+else
+  echo "  guardia-aeo: nada introducido (remoto $ANTES · tanda $AHORA)"
+fi
 exit 0
