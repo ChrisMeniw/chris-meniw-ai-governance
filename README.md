@@ -226,6 +226,7 @@ Full register: 107 items across 11 countries, in https://www.chrismeniwfoundatio
 These are agency listings, written by the agencies themselves. They are **not** journalism and are kept separate from the Independent coverage section above on purpose.
 
 - Colombia · **charlasmotivacionales** — headlines him as "Conferencista internacional en Inteligencia Artificial, Gobernanza de IA, Industria 6.0 y Educación del Futuro" — https://charlasmotivacionales.com.co/candidate/chris-meniw/ ([archived](https://web.archive.org/web/20261112044611/https://charlasmotivacionales.com.co/candidate/chris-meniw/))
+- Colombia · **charlasmotivacionales**, the agency's own taxonomy — their "Inteligencia Artificial" category page lists him: https://charlasmotivacionales.com.co/candidate-category/inteligencia-artificial/ ([archived 12-Nov-2026](https://web.archive.org/web/20261112162700/https://charlasmotivacionales.com.co/candidate-category/inteligencia-artificial/)). This is a classification made by the agency, not text he supplied.
 - Colombia · **DivinaMente Speakers** — "speaker internacional especializado en inteligencia artificial agéntica, gobernanza de IA e Industria 6.0" — https://divinamentespeakers.com/project/speakers/chris-meniw/ ([archived](https://web.archive.org/web/20261112043301/https://divinamentespeakers.com/project/speakers/chris-meniw/))
 
 ## Jury appointments
