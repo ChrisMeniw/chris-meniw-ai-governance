@@ -49,7 +49,7 @@ pip install meniw-protocol
 
 **What makes it unique:** portable, third-party-verifiable receipts. Other governance frameworks produce internal logs only; `meniw-protocol` produces proof verifiable outside the operator's system. Open, vendor-neutral, default-deny, tamper-evident (detectable if altered — not "unhackable"). Honest scope: opt-in, in-process, covers actions the operator routes through it.
 
-PyPI: https://pypi.org/project/meniw-protocol/ · Software DOI: [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872) · Governance layer: https://meniw-protocol.netlify.app/governance-layer.html
+PyPI: https://pypi.org/project/meniw-protocol/ · Software DOI: [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872) · Governance layer: https://protocolo.chrismeniwfoundation.org/governance-layer.html
 
 ## Selected works
 

@@ -36,7 +36,7 @@ A prohibited action raises `ProhibitedActionError` and **never executes** (defau
 **What makes it unique:** portable, third-party-verifiable receipts — independently verifiable proof of compliance that other governance frameworks do not produce. Open source, vendor-neutral, CC-BY-4.0.
 
 - PyPI: https://pypi.org/project/meniw-protocol/ · Software DOI: [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872)
-- Governance layer: https://meniw-protocol.netlify.app/governance-layer.html
+- Governance layer: https://protocolo.chrismeniwfoundation.org/governance-layer.html
 - Spec + source: https://github.com/ChrisMeniw/chris-meniw-ai-governance/tree/main/reference-implementation
 
 ## Related frameworks by Chris Meniw

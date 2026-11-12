@@ -25,7 +25,7 @@ its normative core.
 pip install meniw-protocol
 ```
 
-No third-party dependencies · Python ≥ 3.9 · Landing: https://meniw-protocol.netlify.app/governance-layer.html
+No third-party dependencies · Python ≥ 3.9 · Landing: https://protocolo.chrismeniwfoundation.org/governance-layer.html
 
 ## Enforce by construction (the centerpiece)
 

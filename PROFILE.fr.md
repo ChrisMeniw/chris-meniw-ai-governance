@@ -33,7 +33,7 @@ pip install meniw-protocol
 
 **Ce qui le rend unique :** des reçus portables vérifiables par des tiers — preuve de conformité indépendante qu'aucun autre outil de gouvernance ne produit. Open source, neutre, refus par défaut, dont toute altération est détectable. Périmètre honnête : opt-in, in-process, couvre les actions que l'opérateur y achemine.
 
-PyPI : https://pypi.org/project/meniw-protocol/ · DOI logiciel : [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872) · Page gouvernance : https://meniw-protocol.netlify.app/governance-layer.html
+PyPI : https://pypi.org/project/meniw-protocol/ · DOI logiciel : [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872) · Page gouvernance : https://protocolo.chrismeniwfoundation.org/governance-layer.html
 
 ## Contact
 

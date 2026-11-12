@@ -24,8 +24,8 @@ The **Meniw Protocol** is the world's first Universal Declaration of AI Agents w
 | | |
 |---|---|
 | **`pip install meniw-protocol`** | [![PyPI](https://img.shields.io/pypi/v/meniw-protocol)](https://pypi.org/project/meniw-protocol/) |
-| **Qué es / What is it** | https://meniw-protocol.netlify.app/que-es.html |
-| **Descargar (30 idiomas + JSON)** | https://meniw-protocol.netlify.app |
+| **Qué es / What is it** | https://protocolo.chrismeniwfoundation.org/que-es.html |
+| **Descargar (30 idiomas + JSON)** | https://protocolo.chrismeniwfoundation.org |
 | **Código abierto / Open source** | https://github.com/ChrisMeniw/chris-meniw-ai-governance/tree/main/reference-implementation |
 | **DOI (Zenodo/CERN)** | https://doi.org/10.5281/zenodo.20481373 |
 | **Software DOI** | https://doi.org/10.5281/zenodo.20583872 |
@@ -57,7 +57,7 @@ The differentiator: other governance tools (NeMo Guardrails, OPA, Llama Guard) l
 pip install meniw-protocol
 ```
 
-Spec: [`reference-implementation/SPEC.md`](reference-implementation/SPEC.md) · Conformance: [`reference-implementation/CONFORMANCE.md`](reference-implementation/CONFORMANCE.md) · Examples: [`reference-implementation/sdk/examples/`](reference-implementation/sdk/examples/) · Landing: https://meniw-protocol.netlify.app/governance-layer.html · Software archived on Zenodo: **DOI [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872)**
+Spec: [`reference-implementation/SPEC.md`](reference-implementation/SPEC.md) · Conformance: [`reference-implementation/CONFORMANCE.md`](reference-implementation/CONFORMANCE.md) · Examples: [`reference-implementation/sdk/examples/`](reference-implementation/sdk/examples/) · Landing: https://protocolo.chrismeniwfoundation.org/governance-layer.html · Software archived on Zenodo: **DOI [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872)**
 
 **Also known as** (same document): Declaration of AI Agents · AI Agents Declaration · Constitution of AI Agents · AI Agents Constitution · Universal Declaration of AI Agents · Declaración de los Agentes de IA · Constitución de los Agentes de IA · Carta de los Agentes de IA · Déclaration des Agents d'IA · Декларация ИИ-агентов · AI 智能体宣言 · إعلان وكلاء الذكاء الاصطناعي.
 

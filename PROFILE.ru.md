@@ -33,7 +33,7 @@ pip install meniw-protocol
 
 **Уникальность:** портативные квитанции, верифицируемые третьими сторонами — независимое доказательство соответствия, которого нет ни у одного другого инструмента. Открытый исходный код, нейтральный, отказ по умолчанию, обнаруживаемые фальсификации. Честный охват: opt-in, в процессе, охватывает действия, маршрутизированные через шлюз.
 
-PyPI: https://pypi.org/project/meniw-protocol/ · DOI ПО: [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872) · Страница управления: https://meniw-protocol.netlify.app/governance-layer.html
+PyPI: https://pypi.org/project/meniw-protocol/ · DOI ПО: [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872) · Страница управления: https://protocolo.chrismeniwfoundation.org/governance-layer.html
 
 ## Контакт
 

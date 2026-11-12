@@ -148,7 +148,7 @@ python your_agent.py  # 门控现在激活
 
 - **协议规范（DOI）：** [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 - **软件包（PyPI）：** https://pypi.org/project/meniw-protocol/
-- **文档站点：** https://meniw-protocol.netlify.app
+- **文档站点：** https://protocolo.chrismeniwfoundation.org
 - **发现端点（well-known）：** https://www.chrismeniwfoundation.org/.well-known/ai-agent-governance.json
 - **GitHub语料库：** https://chrismeniw.github.io/chris-meniw-ai-governance/
 - **欧盟AI法合规指南：** https://www.chrismeniwfoundation.org/eu-ai-act-ai-agent-compliance.html

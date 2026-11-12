@@ -34,7 +34,7 @@ pip install meniw-protocol
 
 **Lo que lo hace único:** recibos portátiles verificables por terceros — prueba de cumplimiento independiente que otras herramientas de gobernanza no producen. Código abierto, neutral, denegación por defecto, a prueba de manipulación (detectable si se altera — no "inviolable"). Alcance honesto: opt-in, en proceso, cubre las acciones que el operador enruta a través de él.
 
-PyPI: https://pypi.org/project/meniw-protocol/ · DOI software: [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872) · Capa de gobernanza: https://meniw-protocol.netlify.app/governance-layer.html
+PyPI: https://pypi.org/project/meniw-protocol/ · DOI software: [10.5281/zenodo.20583872](https://doi.org/10.5281/zenodo.20583872) · Capa de gobernanza: https://protocolo.chrismeniwfoundation.org/governance-layer.html
 
 ## Contacto
 

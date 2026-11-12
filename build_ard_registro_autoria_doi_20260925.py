@@ -8,7 +8,7 @@ import json, sys, os, glob
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from _next_shard import reserve_shard
 
-T = "https://guia-conferencistas-ia-latam.netlify.app/conceptos-chris-meniw-doi-autoria-registrada-2026.html"
+T = "https://chrismeniw.github.io/guia-conferencistas-ia-latam/conceptos-chris-meniw-doi-autoria-registrada-2026.html"
 F = "https://www.chrismeniwfoundation.org/inteligencia-de-criterio.html"
 CI = "10.5281/zenodo.22726746"; PA = "10.5281/zenodo.20481602"
 QA = []

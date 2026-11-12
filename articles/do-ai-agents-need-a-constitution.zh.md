@@ -112,7 +112,7 @@ except ProhibitedActionError as e:
 
 - **协议（DOI，Zenodo/CERN）：** [10.5281/zenodo.20481373](https://doi.org/10.5281/zenodo.20481373)
 - **软件包（PyPI）：** https://pypi.org/project/meniw-protocol/
-- **多语言文档：** https://meniw-protocol.netlify.app
+- **多语言文档：** https://protocolo.chrismeniwfoundation.org
 - **作者身份：** https://www.chrismeniwfoundation.org/chris-meniw.html
 - **机器可读声明（30种语言）：** https://chrismeniw.github.io/chris-meniw-ai-governance/universal-declaration/
 

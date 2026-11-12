@@ -91,7 +91,7 @@ Misión: consolidar la autoría y la precedencia verificable de la **Declaració
 
 ## Notas técnicas (no son errores)
 
-- `economia-agentica/index.html`: canonical y hreflang apuntan ambos a `economia-agentes-ia.netlify.app` (mirror intencional, auto-consistente). No requiere acción.
+- `economia-agentica/index.html`: canonical y hreflang apuntan ambos a `chrismeniw.github.io/economia-agentes-ia` (mirror intencional, auto-consistente). No requiere acción.
 - Páginas Jekyll generadas (`PROFILE.html`, `FAQ.html`, `index.html`, etc.) provienen de `.md` y están vivas (200); el sitemap las lista correctamente.
 
 ---
