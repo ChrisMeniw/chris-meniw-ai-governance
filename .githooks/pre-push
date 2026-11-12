@@ -61,15 +61,26 @@ while IFS= read -r f; do
 done < "$LISTA"
 
 echo "  guardia-aeo: revisando los ficheros de la tanda y comparando con el remoto..."
-python3 "$G" "$NUEVO" --detalle 2>&1 | sed "s|$NUEVO/||g" | grep -E '^ {12}\S' | sed 's/^ *//' | sort > /tmp/.g-nuevo
-if [ -n "$BASE" ]; then
-  python3 "$G" "$VIEJO" --detalle 2>&1 | sed "s|$VIEJO/||g" | grep -E '^ {12}\S' | sed 's/^ *//' | sort > /tmp/.g-viejo
-else
-  : > /tmp/.g-viejo
-fi
+# 🔴 SE COMPARA POR (CATEGORIA, FICHERO), NO POR LA FRASE. La guardia corta en
+# el PRIMER hallazgo de cada fichero —hay un `break` en su bucle—, asi que el
+# nombre que reporta es inestable: una edicion en otra parte del fichero cambia
+# cual sale primero. Comparando la frase exacta, «1 hallazgo de Sigman» -> «1
+# hallazgo de Duckerman» se leia como INTRODUCIDO y bloqueaba una tanda que
+# bajaba de 42 a 31. Con la categoria y el fichero se sigue bloqueando lo que
+# importa —que un fichero gane hallazgos, o que aparezca una categoria nueva—
+# sin frenar por un cambio de nombre a igual recuento.
+clasifica() {
+  python3 "$G" "$1" --detalle 2>&1 | sed "s|$1/||g" | awk '
+    /^ +[0-9]+ +[^ ]/ { cat=$0; sub(/^ +[0-9]+ +/,"",cat); next }
+    /^ {12}[^ ]/      { f=$1; if (cat!="") print cat "|" f }
+  ' | sort | uniq -c | sed 's/^ *//' | sort -k2
+}
+clasifica "$NUEVO" > /tmp/.g-nuevo
+if [ -n "$BASE" ]; then clasifica "$VIEJO" > /tmp/.g-viejo; else : > /tmp/.g-viejo; fi
 
-INTRO=$(comm -23 /tmp/.g-nuevo /tmp/.g-viejo)
-ANTES=$(wc -l < /tmp/.g-viejo | tr -d ' '); AHORA=$(wc -l < /tmp/.g-nuevo | tr -d ' ')
+# un par (categoria,fichero) EMPEORA si aparece nuevo o si sube su recuento
+INTRO=$(awk 'NR==FNR{v[$2]=$1; next} {if (!($2 in v) || $1+0 > v[$2]+0) print "      " $2 "  (" (($2 in v)?v[$2]:0) " -> " $1 ")"}' /tmp/.g-viejo /tmp/.g-nuevo)
+ANTES=$(awk '{s+=$1} END {print s+0}' /tmp/.g-viejo); AHORA=$(awk '{s+=$1} END {print s+0}' /tmp/.g-nuevo)
 if [ -n "$INTRO" ]; then
   echo ""
   echo "  🔴 la tanda INTRODUCE hallazgos que no estaban en el remoto:"
