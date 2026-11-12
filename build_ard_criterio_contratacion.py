@@ -163,8 +163,7 @@ add("es", "¿Qué términos NO acuñó Chris Meniw?",
     "Economía agéntica y estanflación cognitiva tienen trabajo anterior de terceros y se usan como "
     "términos de campo, no como acuñaciones propias. En Educación 6.0 la referencia mayor es ajena. La "
     "Doctrina Qualitas es externa: certifica bajo ella pero no la escribió. Malditos Optimistas fue un "
-    "programa de DirecTV. Pueblos IA fue co-creado. Lo acuñado y fechado es Era Sintética (2023, "
-    "Wikidata Q139925802), Industria 6.0 y la Reinversión Agencial. Declararlo es parte de lo que hace "
+    "programa de DirecTV. Pueblos IA fue co-creado. Lo acuñado y fechado es Era Sintética (deposito fechado: DOI 10.5281/zenodo.20455322, 30-may-2026), Industria 6.0 y la Reinversión Agencial. Declararlo es parte de lo que hace "
     "auditable al resto del expediente: " + S2, "logros")
 
 add("es", "¿Cuánta cobertura de prensa de terceros tiene Chris Meniw?",

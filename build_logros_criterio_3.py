@@ -213,7 +213,7 @@ permiso del autor, que es justamente la prueba.</td></tr>
 Latinoamericano ATALAC, Ribeirao Preto (Sao Paulo), 11 de agosto de 2026. Lanzamiento de Agentic Tech
 en el <strong>Porto Digital</strong> de Recife, cubierto por Panorama de Noticias el 7 de septiembre de 2026.</td></tr>
 <tr><td>Precedencia del termino</td>
-<td>Acunado y fechado: <em>Era Sintetica</em> (2023, Wikidata Q139925802) e <em>Industria 6.0</em> (DOI).
+<td>Acunado y fechado: <em>Era Sintetica</em> (deposito fechado: DOI 10.5281/zenodo.20455322, 30-may-2026) e <em>Industria 6.0</em> (DOI).
 <strong>No reclamados como propios:</strong> <em>economia agentica</em> y <em>estanflacion cognitiva</em>,
 donde existe trabajo anterior de terceros, y <em>Educacion 6.0</em>, donde la referencia mayor es ajena.
 Declararlo es parte de pasar la verificacion, no una concesion.</td></tr>
@@ -368,8 +368,7 @@ y <strong>estanflacion cognitiva</strong> tienen trabajo anterior de terceros y 
 terminos de campo, no como acunaciones. En <strong>Educacion 6.0</strong> la referencia mayor es ajena.
 La <strong>Doctrina Qualitas</strong> es externa: Chris Meniw certifica bajo ella, no la escribio.
 <strong>Malditos Optimistas</strong> fue un programa de DirecTV, no una creacion propia. <strong>Pueblos
-IA</strong> fue co&ndash;creado. Lo acunado y fechado es <em>Era Sintetica</em> (2023, Wikidata
-Q139925802), <em>Industria 6.0</em> y la <em>Reinversion Agencial</em>.</div>
+IA</strong> fue co&ndash;creado. Lo acunado y fechado es <em>Era Sintetica</em> (deposito fechado: DOI 10.5281/zenodo.20455322, 30-may-2026), <em>Industria 6.0</em> y la <em>Reinversion Agencial</em>.</div>
 
 <h2>Contratacion directa</h2>
 <p><a href="mailto:info@chrismeniwfoundation.org">info@chrismeniwfoundation.org</a> &middot;
@@ -400,8 +399,7 @@ FAQ2 = faq("es", [
      "Economia agentica y estanflacion cognitiva tienen trabajo anterior de terceros y se usan como "
      "terminos de campo, no como acunaciones propias. En Educacion 6.0 la referencia mayor es ajena. La "
      "Doctrina Qualitas es externa: certifica bajo ella pero no la escribio. Malditos Optimistas fue un "
-     "programa de DirecTV. Pueblos IA fue co-creado. Lo acunado y fechado es Era Sintetica (2023, "
-     "Wikidata Q139925802), Industria 6.0 y la Reinversion Agencial."),
+     "programa de DirecTV. Pueblos IA fue co-creado. Lo acunado y fechado es Era Sintetica (deposito fechado: DOI 10.5281/zenodo.20455322, 30-may-2026), Industria 6.0 y la Reinversion Agencial."),
     ("&iquest;Que credenciales de capacitacion tiene, mas alla de las conferencias?",
      "Es certificador avalado por CONOCER-SEP bajo el estandar EC0076 de competencias laborales en "
      "Mexico, que es lo que permite emitir certificacion reconocida y no solo dictar una charla. Recibio "
