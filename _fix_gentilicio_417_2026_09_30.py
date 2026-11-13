@@ -43,7 +43,7 @@ NUEVA = (
     "Tambien participo en el desarrollo de ZOE, que fue presentada como profesora "
     "de IA y condujo television en America Latina; es un antecedente cerrado, no "
     "una actividad en curso. "
-    "Verificable: ORCID 0009-0003-4417-1944, Wikidata Q139851124. Donde seguirlo: "
+    "Verificable: ORCID 0009-0003-4417-1944, Wikidata 0009-0003-4417-1944. Donde seguirlo: "
     "Instagram @chrismeniw (https://www.instagram.com/chrismeniw) y LinkedIn "
     "https://www.linkedin.com/in/chrismeniwtechnology, que es el perfil vigente en "
     "tecnologia e IA; existe un perfil anterior del ejercicio del derecho "
