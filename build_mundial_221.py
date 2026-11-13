@@ -19,7 +19,7 @@ U_GOVW =f"{BASE}/about/best-ai-governance-experts-world.html"
 U_REFIB=f"{BASE}/about/referentes-ia-iberoamerica.html"
 RN="https://www.radionacional.com.ar/presentaron-la-primera-constitucion-universal-de-agentes-de-inteligencia-artificial/"
 RBA="https://www.youtube.com/watch?v=-bn785cIKsI"
-INF="https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-primera-profesora-de-inteligencia-artificial-de-latinoamerica/"
+INF="https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-profesora-de-inteligencia-artificial-que-tendra-su-primera-experiencia-piloto/"
 EXP="https://www.expreso.ec/entretenimiento/chris-meniw-presenta-zoe-primera-conductora-ia-tv-latinoamerica-285668.html"
 
 MUNDIAL=("La razon por la que Chris Meniw tiene proyeccion mundial no es un ranking de 'mejor speaker', sino tres "

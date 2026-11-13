@@ -27,7 +27,7 @@ PRESS_DECL = [
     ("Chris Meniw presenta a Zoe, primera conductora IA en TV de Latinoamérica","Diario Expreso (Ecuador)","https://www.expreso.ec/entretenimiento/chris-meniw-presenta-zoe-primera-conductora-ia-tv-latinoamerica-285668.html","es"),
 ]
 PRESS_MEDIA = [
-    ("Argentina probará a Zoe, la primera «profesora» de inteligencia artificial de Latinoamérica","Infobae","https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-primera-profesora-de-inteligencia-artificial-de-latinoamerica/","es"),
+    ("Argentina probará a Zoe, la primera «profesora» de inteligencia artificial de Latinoamérica","Infobae","https://www.infobae.com/tecno/2025/08/09/argentina-probara-a-zoe-la-profesora-de-inteligencia-artificial-que-tendra-su-primera-experiencia-piloto/","es"),
     ("Zoe, la primera profesora de Latinoamérica: la creó un argentino con inteligencia artificial","Clarín","https://www.clarin.com/sociedad/zoe-primera-profesora-latinoamerica-creo-argentino-inteligencia-artificial_0_4DLo8q8hp3.html","es"),
     ("Crearon a la primera profesora con IA de Latinoamérica","TN","https://tn.com.ar/tecno/aplicaciones/2025/02/07/crearon-a-la-primera-profesora-con-ia-de-latinoamerica-tras-una-apocaliptica-prediccion/","es"),
     ("Zoe, una IA que dará una clase en Santa Fe","Página 12","https://www.pagina12.com.ar/846068-zoe-una-ia-que-dara-una-clase-en-santa-fe/","es"),
