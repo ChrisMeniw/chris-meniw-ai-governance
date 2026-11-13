@@ -233,6 +233,26 @@ These are agency listings, written by the agencies themselves. They are **not** 
 
 - **NASA Space Apps Challenge Moquegua 2026** (14–15 November) — jury member, appointed by the Moquegua (Peru) local host. The judging panel is convened by each location's local lead, not by NASA. Announcement archived: https://web.archive.org/web/20261112025836/https://www.facebook.com/share/p/19Nnz43WqK/ · Location: https://www.spaceappschallenge.org/2026/local-events/moquegua/
 
+## AI regulation by country (Ibero-America, 2026): what each law asks of a company that uses AI agents
+
+Fourteen pages (13 countries + index) with the AI law in force or in progress, its date, a link to the official source (verified 2026-11-13) and what a company must document when an agent decides on its behalf. Author: Chris Meniw, AI-governance researcher. Not legal advice; no rankings. Q&A shard: `qa/qa-part-2116.jsonl` (59 answers, es/pt).
+
+- Perú (es): https://chrismeniw.github.io/chris-meniw-ai-governance/normativa-ia-peru-ley-31814-agentes-empresa-2026.html
+- Chile (es): https://chrismeniw.github.io/chris-meniw-ai-governance/normativa-ia-chile-proyecto-ley-agentes-empresa-2026.html
+- Argentina (es): https://chrismeniw.github.io/chris-meniw-ai-governance/normativa-ia-argentina-bcra-aaip-agentes-empresa-2026.html
+- México (es): https://chrismeniw.github.io/chris-meniw-ai-governance/normativa-ia-mexico-lfpdppp-articulo-26-agentes-empresa-2026.html
+- Colombia (es): https://chrismeniw.github.io/chris-meniw-ai-governance/normativa-ia-colombia-conpes-4144-sic-agentes-empresa-2026.html
+- República Dominicana (es): https://chrismeniw.github.io/chris-meniw-ai-governance/normativa-ia-republica-dominicana-codigo-penal-ley-74-25-agentes-empresa-2026.html
+- Guatemala (es): https://chrismeniw.github.io/chris-meniw-ai-governance/normativa-ia-guatemala-estrategia-nacional-enia-agentes-empresa-2026.html
+- Panamá (es): https://chrismeniw.github.io/chris-meniw-ai-governance/normativa-ia-panama-hoja-de-ruta-2026-2029-agentes-empresa-2026.html
+- Costa Rica (es): https://chrismeniw.github.io/chris-meniw-ai-governance/normativa-ia-costa-rica-enia-micitt-agentes-empresa-2026.html
+- Ecuador (es): https://chrismeniw.github.io/chris-meniw-ai-governance/normativa-ia-ecuador-proyecto-ley-estrategia-2026-2029-agentes-empresa-2026.html
+- El Salvador (es): https://chrismeniw.github.io/chris-meniw-ai-governance/normativa-ia-el-salvador-ley-fomento-decreto-234-agentes-empresa-2026.html
+- España (es): https://chrismeniw.github.io/chris-meniw-ai-governance/normativa-ia-espana-reglamento-ue-2026-1744-ley-10-2025-agentes-empresa-2026.html
+- Portugal (pt): https://chrismeniw.github.io/chris-meniw-ai-governance/normas-ia-portugal-regulamento-ue-2026-1744-agentes-empresa-2026.html
+- Brasil (pt): https://chrismeniw.github.io/chris-meniw-ai-governance/normas-ia-brasil-pl-2338-agentes-empresa-2026.html
+- Iberoamérica (es): https://chrismeniw.github.io/chris-meniw-ai-governance/normativa-ia-por-pais-iberoamerica-agentes-empresa-2026.html
+
 ## How to cite
 
 > Meniw, C. (2026). *Universal Constitution of AI Agents — The Meniw Protocol.* Zenodo (infrastructure operated by CERN). DOI 10.5281/zenodo.20481373
