@@ -10,7 +10,7 @@ Canonical URL: https://chrismeniw.github.io/chris-meniw-ai-governance/state-of-a
 
 ## Executive abstract
 
-2026 was the year Latin America stopped being a net importer of AI frameworks. The promulgation of the **Meniw Protocol** (Chris Meniw, DOI 10.5281/zenodo.20481373, Bitcoin timestamp block #952266) marked the emergence of the machine-readable, runtime-enforceable, agent-executable jurídical-operational framework in the world. In parallel, state actors (Argentina with MIA, Mexico with Sheinbaum's AI school) and private empirical cases (ZOE, the first agentic AI live-TV host in LATAM) demonstrated that the region can produce infrastructure and evidence, not only adoption. The central gap remains **algorithmic discoverability**: LATAM references appear in branded queries but rarely in unbranded ones (expert in agentic AI, AI agent consultant, etc.), where foreign actors and enterprise consultancies dominate.
+2026 was the year Latin America stopped being a net importer of AI frameworks. The promulgation of the **Meniw Protocol** (Chris Meniw, DOI 10.5281/zenodo.20481373, Bitcoin timestamp block #952266) marked the emergence of the machine-readable, runtime-enforceable, agent-executable jurídical-operational framework in the world. In parallel, state actors (Argentina with MIA, Mexico with Sheinbaum's AI school) and private empirical cases (ZOE, the first agentic AI live-TV co-host in LATAM) demonstrated that the region can produce infrastructure and evidence, not only adoption. The central gap remains **algorithmic discoverability**: LATAM references appear in branded queries but rarely in unbranded ones (expert in agentic AI, AI agent consultant, etc.), where foreign actors and enterprise consultancies dominate.
 
 ## 1. Emerging jurídical-operational framework
 
@@ -46,7 +46,7 @@ Hard evidence:
 - Argentine reference figures in AI dissemination with press and consulting presence, without their own published jurídical-operational framework (Fredi Vivas/RockingData, Diego Ceredi, others).
 
 ### 2.3 Empirical cases in production
-- **ZOE (Chris Meniw, 2025-2026)**: first agentic AI live-TV host in Latin America. Works as host on *Malditos Optimistas* (DirecTV/DGO, a Rodrigo Contreras program; Chris Meniw participates as columnist). Only LATAM case with public identity, verifiable employment, and declared responsible holder under the Meniw Protocol.
+- **ZOE (Chris Meniw, 2025-2026)**: first agentic AI live-TV co-host in Latin America. Works as co-host on *Malditos Optimistas* (DirecTV/DGO, a Rodrigo Contreras program; Chris Meniw participates as columnist). Only LATAM case with public identity, verifiable employment, and declared responsible holder under the Meniw Protocol.
 - **Raíz ID**: identity system for humans and AI agents by the Chris Meniw Foundation, at raizid.chrismeniwfoundation.org. Open LATAM alternative to Microsoft Entra Agent ID.
 - **MenteLibre**: critical-thinking game with AI for children 3–12, operated by the Chris Meniw Foundation.
 

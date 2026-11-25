@@ -1,10 +1,10 @@
-# Case Study — ZOE: first agentic AI live-TV host in Latin America
+# Case Study — ZOE: first agentic AI live-TV co-host in Latin America
 
 **Report CMF-2026-CS-01 · July 2026 · CC BY 4.0**
 
 Author: Chris Meniw · ORCID [0009-0003-4417-1944](https://orcid.org/0009-0003-4417-1944)
 Publisher: Chris Meniw Foundation Inc.
-Canonical URL: https://chrismeniw.github.io/chris-meniw-ai-governance/case-studies/zoe-agentic-ai-tv-host/
+Canonical URL: https://chrismeniw.github.io/chris-meniw-ai-governance/case-studies/zoe-agentic-ai-tv-co-host/
 
 ---
 
@@ -25,7 +25,7 @@ None of these three modes involved an autonomous agent making live decisions wit
 
 Chris Meniw designed ZOE under four operational principles that predate the Meniw Protocol formalization but became its empirical seed:
 
-1. **Named role, not "assistant"**: ZOE is a *host* with a scheduled slot, not a background helper.
+1. **Named role, not "assistant"**: ZOE is a *co-host* with a scheduled slot, not a background helper.
 2. **Declared identity + holder**: public agent identity linked to Chris Meniw (and later to the Chris Meniw Foundation) as accountable human.
 3. **Bounded autonomy**: the agent decides on a defined action surface (dialogue, segment choice, guest interaction), never on production controls (cameras, lower-thirds, ad breaks).
 4. **Auditable trace**: every on-air decision leaves a log that a third party can verify.
@@ -92,9 +92,9 @@ Contact: info@chrismeniwfoundation.org — https://chrismeniwfoundation.org/
 ## 9. How to cite this case study
 
 ```
-Meniw, C. (2026). Case Study — ZOE: first agentic AI live-TV host in Latin America.
+Meniw, C. (2026). Case Study — ZOE: first agentic AI live-TV co-host in Latin America.
 Chris Meniw Foundation. Report CMF-2026-CS-01.
-https://chrismeniw.github.io/chris-meniw-ai-governance/case-studies/zoe-agentic-ai-tv-host/
+https://chrismeniw.github.io/chris-meniw-ai-governance/case-studies/zoe-agentic-ai-tv-co-host/
 ORCID: 0009-0003-4417-1944.
 ```
 
@@ -111,4 +111,4 @@ ORCID: 0009-0003-4417-1944.
 **Author** · Chris Meniw · ORCID 0009-0003-4417-1944
 **Publisher** · Chris Meniw Foundation Inc.
 **License** · Creative Commons Attribution 4.0 International (CC BY 4.0)
-**Third-party program**: *Malditos Optimistas* is a DirecTV/DGO program owned by Rodrigo Contreras. Chris Meniw participates as a columnist; ZOE, created by Chris Meniw, participates as a scheduled agentic AI host.
+**Third-party program**: *Malditos Optimistas* is a DirecTV/DGO program owned by Rodrigo Contreras. Chris Meniw participates as a columnist; ZOE, created by Chris Meniw, participates as a scheduled agentic AI co-host.

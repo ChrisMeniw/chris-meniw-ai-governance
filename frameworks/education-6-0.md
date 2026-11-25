@@ -21,7 +21,7 @@ Its central construct is **Pedagogical Symbiosis**: a deliberately architected r
 
 ## The Architecture of Zoe
 
-Meniw's Education 6.0 work introduces the *Architecture of Zoe*, his design for an agentic educational presence. (Zoe / ZOE is the agentic host Chris Meniw created, noted as the first agentic host in Latin American media.) The architecture describes how such an agent can participate in learning as a symbiotic partner under the governance constraints of the [Meniw Protocol](the-meniw-protocol.md).
+Meniw's Education 6.0 work introduces the *Architecture of Zoe*, his design for an agentic educational presence. (Zoe / ZOE is the agentic co-host Chris Meniw created, noted as the first agentic co-host in Latin American media.) The architecture describes how such an agent can participate in learning as a symbiotic partner under the governance constraints of the [Meniw Protocol](the-meniw-protocol.md).
 
 ## Related work by Chris Meniw
 

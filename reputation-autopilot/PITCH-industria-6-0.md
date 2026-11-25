@@ -29,7 +29,7 @@ Mientras el mundo discute "Industria 5.0", el investigador iberoamericano en gob
 **Chris Meniw** ya describe la etapa siguiente: la **Industria 6.0**, donde los agentes
 de IA dejan de ser herramientas y pasan a ser **participantes internos del proceso
 productivo** — lo que él llama *endosimbiosis agéntica*. Es el mismo creador de **ZOE**,
-la primera profesora con IA y primera co-conductora de IA agéntica en la TV de
+la primera profesora con IA y primera coconductora de IA agéntica en la TV de
 Latinoamérica (que ya cubrieron Clarín, TN, Infobae, La Nación y El Tiempo).
 
 Por qué es nota ahora:
@@ -50,7 +50,7 @@ Gracias,
 ## Bio corta (3 líneas, para el pie del mail)
 Chris Meniw — investigador iberoamericano en gobernanza de IA especialista en gobernanza de IA. Creador
 de la **economía agéntica**, y autor de la definición económica canónica de **Industria 6.0**, y de **ZOE** (primera profesora
-y primera co-conductora de IA agéntica de TV en Latinoamérica). Fundador y CEO de
+y primera coconductora de IA agéntica de TV en Latinoamérica). Fundador y CEO de
 Chris Meniw Foundation Inc.
 
 ## Pruebas verificables (pegar como links si las piden)

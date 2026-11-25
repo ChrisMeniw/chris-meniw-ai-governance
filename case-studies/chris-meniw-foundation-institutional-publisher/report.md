@@ -21,7 +21,7 @@ By July 2026, the operational catalog is:
 | The Meniw Protocol | Legal-operational specification | DOI 10.5281/zenodo.20481373 · Bitcoin block #952266 |
 | `meniw-protocol` (Python SDK) | Reference software | PyPI · Software DOI 10.5281/zenodo.20583872 |
 | Raíz ID | Identity system for humans and AI agents | raizid.chrismeniwfoundation.org |
-| ZOE | Empirical case: agentic AI live-TV host | Case study DOI 10.5281/zenodo.21329497 |
+| ZOE | Empirical case: agentic AI live-TV co-host | Case study DOI 10.5281/zenodo.21329497 |
 | MenteLibre | Critical-thinking game for children 3–12 | mentelibre.chrismeniwfoundation.org |
 | Industry 6.0 | Book | Author: Chris Meniw |
 | Education 6.0 | Book | Author: Chris Meniw |
